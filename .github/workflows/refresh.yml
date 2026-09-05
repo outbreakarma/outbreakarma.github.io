@@ -1,0 +1,37 @@
+name: Hourly listing refresh
+
+on:
+  schedule:
+    - cron: "37 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: refresh
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Refresh the Workshop listing data and rebuild the page
+        run: |
+          python refresh_listing.py
+          python build.py
+      - name: Commit if anything changed
+        run: |
+          git config user.name "outbreak site bot"
+          git config user.email "outbreak-site@users.noreply.github.com"
+          git add -A
+          if git diff --cached --quiet; then
+            echo "nothing changed"
+          else
+            git commit -m "listing refresh $(date -u +'%Y-%m-%d %H:%M') UTC"
+            git push
+          fi

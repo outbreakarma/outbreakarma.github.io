@@ -94,10 +94,42 @@
  ],
  "changelog": "1.2.0\n- Fixed Zombie Permanent Kills with ACE Medical hit-zone mods. Headshots, explosions and fire can finish Zombies again, while ordinary body damage still only knocks them down. Servers without ACE are unchanged.\n- New setting: Placing Ignores AI Limit. Off by default. Turn it on to keep placing creatures by hand after Project Outbreak's active-AI budget is full. Ambience, directed spawning and reanimation keep their own budgets.\n- Fixed scenario-authored zombie rules being absent from published packages.\n- Bonus Zombie vocals",
  "preview": "https://ar-gcp-cdn.bistudio.com/image/2acf/50af531c77fb7b5f21ca79df26665c5a3e9f10ff3b0c4d08f6876c6370b0/158082.jpg",
+ "previewThumbs": [
+  "https://ar-gcp-cdn.bistudio.com/image/4cca/713c0a0d13d35c848872dd5398d4de1a8324f8931ead8fd865d03c85c843/86448.jpg",
+  "https://ar-gcp-cdn.bistudio.com/image/4435/fea5c98b3ad450785d6f310b523b1e8ae5d2f80e296f76faedeb519dfde8/31099.jpg",
+  "https://ar-gcp-cdn.bistudio.com/image/5db5/65f032b063ddb913c8c352ca734ee4de391de0e49fdfc5ebb8e9733c4194/11059.jpg"
+ ],
  "screenshots": [
-  "https://ar-gcp-cdn.bistudio.com/image/454a/56d450b61fc74493f7a01799bae39470b133b97419b4a9cdaf94165cb2a4/338626.jpg",
-  "https://ar-gcp-cdn.bistudio.com/image/77ff/141ba6c5a704bf26a1f712258c5425727c9d6827e14916d9cf5f77238c7e/309394.jpg",
-  "https://ar-gcp-cdn.bistudio.com/image/927f/eb5f78bee1754bee27e13048de2e1b17aed91c072d67adf716949c972ed0/506426.jpg"
+  {
+   "url": "https://ar-gcp-cdn.bistudio.com/image/454a/56d450b61fc74493f7a01799bae39470b133b97419b4a9cdaf94165cb2a4/338626.jpg",
+   "width": 1920,
+   "height": 1080,
+   "thumbs": [
+    "https://ar-gcp-cdn.bistudio.com/image/70b4/df2d11ac8529363855e5bb96791da98c356c4296a64b5fe3e15c4f2f287d/204307.jpg",
+    "https://ar-gcp-cdn.bistudio.com/image/a4db/4e68fcfcfd0722730db2820981482169029f094ff65c9134e96bbaad940d/62565.jpg",
+    "https://ar-gcp-cdn.bistudio.com/image/6495/21c0b1dbfe5769637b237e39984107f4c05ca8144852f2c618678954a157/17435.jpg"
+   ]
+  },
+  {
+   "url": "https://ar-gcp-cdn.bistudio.com/image/77ff/141ba6c5a704bf26a1f712258c5425727c9d6827e14916d9cf5f77238c7e/309394.jpg",
+   "width": 1920,
+   "height": 1080,
+   "thumbs": [
+    "https://ar-gcp-cdn.bistudio.com/image/0b64/1b7fcc259bc4016d4fa84608144bad0c01a06d3fbf8df276d0d27e6ccc6d/190061.jpg",
+    "https://ar-gcp-cdn.bistudio.com/image/4c14/f79c26db7b515a7c5f0cabb88b75b1a9fb302acb6b6950d18e19c98bcb8b/61216.jpg",
+    "https://ar-gcp-cdn.bistudio.com/image/ff65/950f215c6e9104b837997d5cc7f8be0b72c661f65e5ab4534f3442d0e8e8/18297.jpg"
+   ]
+  },
+  {
+   "url": "https://ar-gcp-cdn.bistudio.com/image/927f/eb5f78bee1754bee27e13048de2e1b17aed91c072d67adf716949c972ed0/506426.jpg",
+   "width": 1920,
+   "height": 1080,
+   "thumbs": [
+    "https://ar-gcp-cdn.bistudio.com/image/13b5/75234680c932bbedada64b818e1fcdcfd8820a45e0998080c0d7fd195bd3/310409.jpg",
+    "https://ar-gcp-cdn.bistudio.com/image/8872/1536e006d421621ff83b88fde5bbb100ee9afb0491b83120d9b068ce5dfd/97505.jpg",
+    "https://ar-gcp-cdn.bistudio.com/image/bd79/bbecd6d9a8bcc34df811a9adddc5791fb081f10e16f47c81f76bff07b2e4/26086.jpg"
+   ]
+  }
  ],
  "workshopUrl": "https://reforger.armaplatform.com/workshop/F1D4B9B5245B36ED"
 }

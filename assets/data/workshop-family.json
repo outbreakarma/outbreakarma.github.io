@@ -1,116 +1,73 @@
 [
  {
-  "id": "40B5686CC205703A",
-  "name": "AI Rearm",
+  "id": "7B763100BAFA1F9A",
+  "name": "Project Outbreak Infection",
   "author": "Project Outbreak",
-  "summary": "AI Rearm lets AI request magazines from squadmates, recover compatible ammunition from allowed dead bodies, and visit arsenals. A placeable Game Master settings system controls settings.",
-  "description": "AI Rearm allows infantry AI to find more ammunition when their usable reserve runs low. It runs on the server and does not replace your scenario, game mode, faction, character prefabs, AI configuration, or group waypoints.\n\nWhen a compatible soldier needs ammunition, AI Rearm can use three routes.\n\n1. SQUAD SHARING\n\nA safe, available AI squadmate can share compatible spare magazines through Reforger's physical drop-and-pickup behavior. AI Rearm protects the donor's reserve and confirms that the requester received usable ammunition.\n\n2. DEAD-BODY RECOVERY\n\nThe AI can move to an allowed dead character and recover compatible magazines that still contain ammunition. The default policy uses friendly AI bodies only. Mission settings can also permit enemy, neutral, and dead player bodies. Incapacitated or revivable characters are never used as sources.\n\n3. ARSENAL REARMING\n\nThe AI can find an enabled friendly or neutral arsenal, travel to it, and acquire a compatible magazine. Mission authors can use normal supply costs or make AI arsenal ammunition free. Arsenal access, item compatibility, stock, and inventory capacity are checked in both modes.\n\nCUSTOM CONTENT SUPPORT\n\nAI Rearm reads active weapons, magazine wells, inventory items, arsenal entries, and faction relationships at runtime. It has no faction-specific weapon table or magazine list.\n\nThe addon depends only on Arma Reforger. Compatibility has also been demonstrated with Bundeswehr Mod riflemen, G36 magazines, and arsenals without a Bundeswehr-specific adapter.\n\nMISSION SETTINGS\n\nThe optional AI Rearm Mission Settings object is available in Game Master's Systems browser. Place one control box to configure:\n\n- master enable or disable;\n- automatic or custom low-ammo thresholds;\n- automatic or custom target reserves;\n- squad sharing, body recovery, and arsenal routes;\n- friendly-AI-only or any-dead-body recovery;\n- normal supply charging or free AI arsenal ammunition;\n- body and arsenal search distances;\n- `SAFE`-only or `SAFE` and `VIGILANT` operation;\n- the ammunition reserve a donor must keep after sharing.\n\nThe controller is optional. Without one, AI Rearm uses its automatic weapon-based defaults. Mission authors can also place `Prefabs/Systems/AIRearm/AIR_AIRearmMissionSettings.et` in Workbench and edit the component values directly.\n\nINSTALLATION\n\nEnable AI Rearm for the scenario or server. Multiplayer servers must load the addon. No `SystemSettings` or scenario-prefab edit is required.\n\nCOMPATIBILITY\n\nAI Rearm is designed for infantry AI and additive mods that use Reforger's standard AI, weapon, magazine, inventory, faction, and arsenal systems.\n\nIt does not manage player-controlled characters, wildlife, inactive AI, vehicle or turret ammunition, disposable weapons, virtual ammunition systems, custom AI replacements, or arsenal and currency systems that bypass the standard interfaces. Those systems may need a separate integration. Testing the intended mod combination before deployment is recommended.",
+  "summary": "An optional infection system for Project Outbreak that turns infected into Zombies.",
+  "description": "When bitten, infection  develops over time and can spread through coughing. Dedicated medical equipment lets players test for infection before symptoms worsen. Early treatment can clear it. Suppressants only buy time. If an infected character dies, the same body can return as a zombie.\n\nRequires Project Outbreak. Released under the Arma Public License (APL).\n\nFor questions, join the Discord Server: \nhttps://discord.gg/JumfhFujRF",
   "license": "Arma Public License (APL)",
   "rating": 1,
-  "ratingCount": 13,
-  "version": "1.0.1",
-  "sizeBytes": 333855,
-  "gameVersion": "1.8.0.10",
-  "createdAt": "2026-08-09T15:04:29.000Z",
-  "updatedAt": "2026-08-30T20:00:54.000Z",
-  "downloads": 2206,
+  "ratingCount": 17,
+  "version": "1.0.3",
+  "sizeBytes": 10144979,
+  "gameVersion": "1.8.0.13",
+  "createdAt": "2026-08-30T18:29:18.000Z",
+  "updatedAt": "2026-09-04T19:55:31.000Z",
+  "downloads": 1390,
   "tags": [
-   "AI",
-   "REARM",
-   "SYSTEMS"
+   "INFECTION",
+   "OUTBREAK",
+   "SYSTEMS",
+   "ZOMBIES"
   ],
-  "dependencies": [],
-  "versions": [
+  "dependencies": [
    {
-    "version": "1.0.1",
-    "gameVersion": "1.8.0.10",
-    "createdAt": "2026-08-30T20:00:50.000Z",
-    "size": 333855
+    "id": "4FD4A1BD550793F4",
+    "name": "Creature Melee AI",
+    "version": "1.1.0"
    },
    {
-    "version": "1.0.0",
-    "gameVersion": "1.7.0.54",
-    "createdAt": "2026-08-09T15:04:29.000Z",
-    "size": 34533
+    "id": "F1D4B9B5245B36ED",
+    "name": "Project Outbreak Zombies",
+    "version": "1.2.0"
    }
   ],
-  "changelog": "",
-  "preview": "https://ar-gcp-cdn.bistudio.com/image/bdc2/94c5c2d36a75a5d72080cd1402af814fdd575a8ada6481e94fdfd3b6f840/207455.jpg",
-  "screenshots": [
-   "https://ar-gcp-cdn.bistudio.com/image/8fef/8b3574853020f7dfaaf6e2cffcc7fc343c08bbc6e8665ad5edea98ee1404/300126.jpg"
-  ],
-  "workshopUrl": "https://reforger.armaplatform.com/workshop/40B5686CC205703A",
-  "previewFile": "assets/family/40B5686CC205703A.jpg"
- },
- {
-  "id": "4FD4A1BD550793F4",
-  "name": "Creature Melee AI",
-  "author": "Project Outbreak",
-  "summary": "A flexible foundation for custom melee creatures.",
-  "description": "Creature Melee AI gives modders the core behavior needed for close-range enemies. Attacks and presentation remain replaceable, allowing each project to build its own identity.\n\n\nPowers Project Outbreak Zombies.\nFor questions, join the Discord Server: \nhttps://discord.gg/JumfhFujRF\n\n\nReleased under the Arma Public License (APL).",
-  "license": "Arma Public License (APL)",
-  "rating": 1,
-  "ratingCount": 4,
-  "version": "1.1.0",
-  "sizeBytes": 993893,
-  "gameVersion": "1.8.0.13",
-  "createdAt": "2026-08-30T18:18:07.000Z",
-  "updatedAt": "2026-09-04T19:47:07.000Z",
-  "downloads": 2797,
-  "tags": [
-   "CHARACTERS",
-   "CREATURES",
-   "MELEE",
-   "OUTBREAK",
-   "PROJECT",
-   "SANDBOX",
-   "SYSTEMS",
-   "WEAPONS"
-  ],
-  "dependencies": [],
   "versions": [
    {
-    "version": "1.1.0",
-    "gameVersion": "1.8.0.13",
-    "createdAt": "2026-09-04T19:47:04.000Z",
-    "size": 993893
-   },
-   {
-    "version": "1.0.4",
-    "gameVersion": "1.8.0.10",
-    "createdAt": "2026-09-02T11:11:16.000Z",
-    "size": 973589
-   },
-   {
     "version": "1.0.3",
-    "gameVersion": "1.8.0.10",
-    "createdAt": "2026-09-01T12:22:17.000Z",
-    "size": 973151
+    "gameVersion": "1.8.0.13",
+    "createdAt": "2026-09-04T19:55:22.000Z",
+    "size": 10144979
    },
    {
     "version": "1.0.2",
     "gameVersion": "1.8.0.10",
-    "createdAt": "2026-09-01T07:30:40.000Z",
-    "size": 972544
+    "createdAt": "2026-09-01T14:09:56.000Z",
+    "size": 3557959
    },
    {
     "version": "1.0.1",
     "gameVersion": "1.8.0.10",
-    "createdAt": "2026-08-31T15:49:53.000Z",
-    "size": 972542
+    "createdAt": "2026-09-01T07:37:01.000Z",
+    "size": 3556974
    },
    {
     "version": "1.0.0",
     "gameVersion": "1.8.0.10",
-    "createdAt": "2026-08-30T18:18:07.000Z",
-    "size": 971755
+    "createdAt": "2026-08-30T18:29:18.000Z",
+    "size": 3555581
    }
   ],
-  "changelog": "1.1.0\n- Creatures that have to break in somewhere walk to the door or window and hold there under their own movement, so mods that let them break barriers no longer fight the creature AI for control.\n- A creature that cannot reach its spot at a door gives that door up after a few seconds instead of standing beside it.\n- A pack that loses sight of its prey keeps hunting to where it was last seen instead of stopping in the street.\n- Creatures push straight through a door they just broke open instead of pausing in it, and no longer overlook a door a few steps ahead on their path.\n- Creature pursuit keeps sole ownership of obstacle approaches and stock vault timing. Integrations such as electric fences can observe natural climbs without parking, steering or forcing creatures to move.\n- Large populations cost far less: a creature far from its prey thinks less often than one in contact, and sight is checked four times a second instead of twenty. Nothing changes in what creatures do.\n- A creature that cannot get any nearer to its prey for a few seconds stops trusting its path and looks for a way in, instead of pacing along a wall.\n- Server logs are much quieter. Detailed creature movement logging is off by default and can be turned back on with -POLaneDiag.",
-  "preview": "https://ar-gcp-cdn.bistudio.com/image/e345/f3b99d0c738344cd8d7364e0b3a3b1ada801834676f2a32b6473f50b0675/95814.jpg",
+  "changelog": "1.0.3\n- Added optional disease-free suspicious coughs from healthy AI, a Game Master Make Cough action, and a placeable Cough Ambience Emitter. Each has its own setting and never transmits infection.\n- Expanded cough audio and added subtle breathing and sniffing signs during the hidden early stages of infection.\n- Coughs now fade naturally over distance instead of becoming completely silent after 24 metres.\n- Fixed the Cough Ambience Emitter being absent from published packages.",
+  "preview": "https://ar-gcp-cdn.bistudio.com/image/890a/2e690a44cd0ecea4b7e7e336db3d449f24c67280e27b944b11a6367bbd43/259454.jpg",
+  "previewThumbs": [
+   "https://ar-gcp-cdn.bistudio.com/image/2ee0/8108bfa63848f0565577b852b3d6bf0f53839d070af590ff24e1f9e19328/140121.jpg",
+   "https://ar-gcp-cdn.bistudio.com/image/4073/50de8a9d45d76117b99410600e5fe21544c8b6e3c1636bb15321e31c4582/41615.jpg",
+   "https://ar-gcp-cdn.bistudio.com/image/cfdf/d907526239616c13e8b2fd696ef98eabe711436ac1c9a9d95a2a0745dc03/12885.jpg"
+  ],
   "screenshots": [],
-  "workshopUrl": "https://reforger.armaplatform.com/workshop/4FD4A1BD550793F4",
-  "previewFile": "assets/family/4FD4A1BD550793F4.jpg"
+  "workshopUrl": "https://reforger.armaplatform.com/workshop/7B763100BAFA1F9A",
+  "previewFile": "assets/family/7B763100BAFA1F9A.jpg"
  },
  {
   "id": "6209E38AB237098E",
@@ -166,6 +123,11 @@
   ],
   "changelog": "1.2.0\n- Creatures now approach, attack and pass through supported doors and windows under their own movement. A horde shares openings instead of piling every attacker into one spot.\n- Creatures choose openings that genuinely lead toward their prey. Supported doors, windows, fences and blocking sandbags can be breached; trees and ordinary scenery are ignored.\n- Broken windows are climbed in sequence, broken doors are entered immediately, and blocking sandbag remains are cleared from the passage.\n- Added Game Master Breach Settings for durability, crowding and feature switches. Deleting the card now restores every setting correctly.\n- Spiked wire durability is based on the complete piece and its measured size, including multi-section and modded pieces.\n- Large hordes scan structures far less often and share building searches, substantially reducing siege cost.\n- Structural state resets reliably between missions, and rotated, scaled or nested door parts are measured in their own frame for broader vanilla and modded-door support.",
   "preview": "https://ar-gcp-cdn.bistudio.com/image/5bed/0a8b466346b0229c97c156bbf024f76419a6e1eb8b960a36b00e9145fbce/224343.jpg",
+  "previewThumbs": [
+   "https://ar-gcp-cdn.bistudio.com/image/7d75/5da9027f13bd2eb53c9792887fcf71e0a0198a257243bda52f28bcf15e8e/115565.jpg",
+   "https://ar-gcp-cdn.bistudio.com/image/6308/8ea5035767520e1dd1e3c086bdf9f50b49629d3ab4837f8e182146ea17db/32227.jpg",
+   "https://ar-gcp-cdn.bistudio.com/image/c098/e9352359d258c2ee73284ea50ab3888796bb26e0e2a713c644a1b2013be5/9734.jpg"
+  ],
   "screenshots": [],
   "workshopUrl": "https://reforger.armaplatform.com/workshop/6209E38AB237098E",
   "previewFile": "assets/family/6209E38AB237098E.jpg"
@@ -252,73 +214,145 @@
   ],
   "changelog": "1.0.6\n- Added Survivor Spearmen as living Game Master units in a new Outbreak Survivors faction. Thrower, Stabber and Mix cards use their two M48 spears differently and appear in varied civilian clothing.\n- Added a blue electro-shock lure grenade. Its pulses draw Zombies to the shell and shock nearby Zombies without harming survivors or unrelated entities.\n- Electro-shock pulses erupt upward from the ground in a blue-white electrical volume with a short spark afterglow. Upright ordinary Zombies recoil on the first pulse and fall on the second. Ferals and Zombies already on the ground fall immediately and are never pulled upright.\n- The blue electro-shock and orange napalm lure grenades can now be placed as rechargeable proximity traps without changing their normal throw. Traps remember their charges, can be recovered into inventory, and never block a doorway.\n- Fixed a fault that could prevent wardrobe variants of Survivor Spearmen from being set up correctly.",
   "preview": "https://ar-gcp-cdn.bistudio.com/image/50f0/70743126ffaf4c694e4506551cbf16b5792a9cb03a44a105d4a5a54cd86f/280700.jpg",
+  "previewThumbs": [
+   "https://ar-gcp-cdn.bistudio.com/image/e37d/dfafedce4959e15b52b2a75c3e7bd274aaec1e373dd7958adf0fa9c26b10/151800.jpg",
+   "https://ar-gcp-cdn.bistudio.com/image/fbd3/06dfb1103ec9a73307964f5a2e942c9aa5fe60b37e2ff3b0c91edf9263ff/43779.jpg",
+   "https://ar-gcp-cdn.bistudio.com/image/f480/277c8e96b987053b952c48c0677eb0780bcb4967dd8e08cbc8bd88761982/12676.jpg"
+  ],
   "screenshots": [],
   "workshopUrl": "https://reforger.armaplatform.com/workshop/6B9BD0DA529C0D1E",
   "previewFile": "assets/family/6B9BD0DA529C0D1E.jpg"
  },
  {
-  "id": "7B763100BAFA1F9A",
-  "name": "Project Outbreak Infection",
+  "id": "4FD4A1BD550793F4",
+  "name": "Creature Melee AI",
   "author": "Project Outbreak",
-  "summary": "An optional infection system for Project Outbreak that turns infected into Zombies.",
-  "description": "When bitten, infection  develops over time and can spread through coughing. Dedicated medical equipment lets players test for infection before symptoms worsen. Early treatment can clear it. Suppressants only buy time. If an infected character dies, the same body can return as a zombie.\n\nRequires Project Outbreak. Released under the Arma Public License (APL).\n\nFor questions, join the Discord Server: \nhttps://discord.gg/JumfhFujRF",
+  "summary": "A flexible foundation for custom melee creatures.",
+  "description": "Creature Melee AI gives modders the core behavior needed for close-range enemies. Attacks and presentation remain replaceable, allowing each project to build its own identity.\n\n\nPowers Project Outbreak Zombies.\nFor questions, join the Discord Server: \nhttps://discord.gg/JumfhFujRF\n\n\nReleased under the Arma Public License (APL).",
   "license": "Arma Public License (APL)",
   "rating": 1,
-  "ratingCount": 17,
-  "version": "1.0.3",
-  "sizeBytes": 10144979,
+  "ratingCount": 4,
+  "version": "1.1.0",
+  "sizeBytes": 993893,
   "gameVersion": "1.8.0.13",
-  "createdAt": "2026-08-30T18:29:18.000Z",
-  "updatedAt": "2026-09-04T19:55:31.000Z",
-  "downloads": 1390,
+  "createdAt": "2026-08-30T18:18:07.000Z",
+  "updatedAt": "2026-09-04T19:47:07.000Z",
+  "downloads": 2797,
   "tags": [
-   "INFECTION",
+   "CHARACTERS",
+   "CREATURES",
+   "MELEE",
    "OUTBREAK",
+   "PROJECT",
+   "SANDBOX",
    "SYSTEMS",
-   "ZOMBIES"
+   "WEAPONS"
   ],
-  "dependencies": [
-   {
-    "id": "4FD4A1BD550793F4",
-    "name": "Creature Melee AI",
-    "version": "1.1.0"
-   },
-   {
-    "id": "F1D4B9B5245B36ED",
-    "name": "Project Outbreak Zombies",
-    "version": "1.2.0"
-   }
-  ],
+  "dependencies": [],
   "versions": [
    {
-    "version": "1.0.3",
+    "version": "1.1.0",
     "gameVersion": "1.8.0.13",
-    "createdAt": "2026-09-04T19:55:22.000Z",
-    "size": 10144979
+    "createdAt": "2026-09-04T19:47:04.000Z",
+    "size": 993893
+   },
+   {
+    "version": "1.0.4",
+    "gameVersion": "1.8.0.10",
+    "createdAt": "2026-09-02T11:11:16.000Z",
+    "size": 973589
+   },
+   {
+    "version": "1.0.3",
+    "gameVersion": "1.8.0.10",
+    "createdAt": "2026-09-01T12:22:17.000Z",
+    "size": 973151
    },
    {
     "version": "1.0.2",
     "gameVersion": "1.8.0.10",
-    "createdAt": "2026-09-01T14:09:56.000Z",
-    "size": 3557959
+    "createdAt": "2026-09-01T07:30:40.000Z",
+    "size": 972544
    },
    {
     "version": "1.0.1",
     "gameVersion": "1.8.0.10",
-    "createdAt": "2026-09-01T07:37:01.000Z",
-    "size": 3556974
+    "createdAt": "2026-08-31T15:49:53.000Z",
+    "size": 972542
    },
    {
     "version": "1.0.0",
     "gameVersion": "1.8.0.10",
-    "createdAt": "2026-08-30T18:29:18.000Z",
-    "size": 3555581
+    "createdAt": "2026-08-30T18:18:07.000Z",
+    "size": 971755
    }
   ],
-  "changelog": "1.0.3\n- Added optional disease-free suspicious coughs from healthy AI, a Game Master Make Cough action, and a placeable Cough Ambience Emitter. Each has its own setting and never transmits infection.\n- Expanded cough audio and added subtle breathing and sniffing signs during the hidden early stages of infection.\n- Coughs now fade naturally over distance instead of becoming completely silent after 24 metres.\n- Fixed the Cough Ambience Emitter being absent from published packages.",
-  "preview": "https://ar-gcp-cdn.bistudio.com/image/890a/2e690a44cd0ecea4b7e7e336db3d449f24c67280e27b944b11a6367bbd43/259454.jpg",
+  "changelog": "1.1.0\n- Creatures that have to break in somewhere walk to the door or window and hold there under their own movement, so mods that let them break barriers no longer fight the creature AI for control.\n- A creature that cannot reach its spot at a door gives that door up after a few seconds instead of standing beside it.\n- A pack that loses sight of its prey keeps hunting to where it was last seen instead of stopping in the street.\n- Creatures push straight through a door they just broke open instead of pausing in it, and no longer overlook a door a few steps ahead on their path.\n- Creature pursuit keeps sole ownership of obstacle approaches and stock vault timing. Integrations such as electric fences can observe natural climbs without parking, steering or forcing creatures to move.\n- Large populations cost far less: a creature far from its prey thinks less often than one in contact, and sight is checked four times a second instead of twenty. Nothing changes in what creatures do.\n- A creature that cannot get any nearer to its prey for a few seconds stops trusting its path and looks for a way in, instead of pacing along a wall.\n- Server logs are much quieter. Detailed creature movement logging is off by default and can be turned back on with -POLaneDiag.",
+  "preview": "https://ar-gcp-cdn.bistudio.com/image/e345/f3b99d0c738344cd8d7364e0b3a3b1ada801834676f2a32b6473f50b0675/95814.jpg",
+  "previewThumbs": [
+   "https://ar-gcp-cdn.bistudio.com/image/826f/ac590b7bcada4b68dbb43c904a60861ba906bcc485de784f311194106075/55712.jpg",
+   "https://ar-gcp-cdn.bistudio.com/image/1261/3000e39a9a5ac9246027c8c75aca87f23b5dee1197b03642e09983cf29da/19799.jpg",
+   "https://ar-gcp-cdn.bistudio.com/image/ce58/dead930f0f12d1c40968cae3bb69190eb7031ab29651c2860feb43d462a9/7454.jpg"
+  ],
   "screenshots": [],
-  "workshopUrl": "https://reforger.armaplatform.com/workshop/7B763100BAFA1F9A",
-  "previewFile": "assets/family/7B763100BAFA1F9A.jpg"
+  "workshopUrl": "https://reforger.armaplatform.com/workshop/4FD4A1BD550793F4",
+  "previewFile": "assets/family/4FD4A1BD550793F4.jpg"
+ },
+ {
+  "id": "40B5686CC205703A",
+  "name": "AI Rearm",
+  "author": "Project Outbreak",
+  "summary": "AI Rearm lets AI request magazines from squadmates, recover compatible ammunition from allowed dead bodies, and visit arsenals. A placeable Game Master settings system controls settings.",
+  "description": "AI Rearm allows infantry AI to find more ammunition when their usable reserve runs low. It runs on the server and does not replace your scenario, game mode, faction, character prefabs, AI configuration, or group waypoints.\n\nWhen a compatible soldier needs ammunition, AI Rearm can use three routes.\n\n1. SQUAD SHARING\n\nA safe, available AI squadmate can share compatible spare magazines through Reforger's physical drop-and-pickup behavior. AI Rearm protects the donor's reserve and confirms that the requester received usable ammunition.\n\n2. DEAD-BODY RECOVERY\n\nThe AI can move to an allowed dead character and recover compatible magazines that still contain ammunition. The default policy uses friendly AI bodies only. Mission settings can also permit enemy, neutral, and dead player bodies. Incapacitated or revivable characters are never used as sources.\n\n3. ARSENAL REARMING\n\nThe AI can find an enabled friendly or neutral arsenal, travel to it, and acquire a compatible magazine. Mission authors can use normal supply costs or make AI arsenal ammunition free. Arsenal access, item compatibility, stock, and inventory capacity are checked in both modes.\n\nCUSTOM CONTENT SUPPORT\n\nAI Rearm reads active weapons, magazine wells, inventory items, arsenal entries, and faction relationships at runtime. It has no faction-specific weapon table or magazine list.\n\nThe addon depends only on Arma Reforger. Compatibility has also been demonstrated with Bundeswehr Mod riflemen, G36 magazines, and arsenals without a Bundeswehr-specific adapter.\n\nMISSION SETTINGS\n\nThe optional AI Rearm Mission Settings object is available in Game Master's Systems browser. Place one control box to configure:\n\n- master enable or disable;\n- automatic or custom low-ammo thresholds;\n- automatic or custom target reserves;\n- squad sharing, body recovery, and arsenal routes;\n- friendly-AI-only or any-dead-body recovery;\n- normal supply charging or free AI arsenal ammunition;\n- body and arsenal search distances;\n- `SAFE`-only or `SAFE` and `VIGILANT` operation;\n- the ammunition reserve a donor must keep after sharing.\n\nThe controller is optional. Without one, AI Rearm uses its automatic weapon-based defaults. Mission authors can also place `Prefabs/Systems/AIRearm/AIR_AIRearmMissionSettings.et` in Workbench and edit the component values directly.\n\nINSTALLATION\n\nEnable AI Rearm for the scenario or server. Multiplayer servers must load the addon. No `SystemSettings` or scenario-prefab edit is required.\n\nCOMPATIBILITY\n\nAI Rearm is designed for infantry AI and additive mods that use Reforger's standard AI, weapon, magazine, inventory, faction, and arsenal systems.\n\nIt does not manage player-controlled characters, wildlife, inactive AI, vehicle or turret ammunition, disposable weapons, virtual ammunition systems, custom AI replacements, or arsenal and currency systems that bypass the standard interfaces. Those systems may need a separate integration. Testing the intended mod combination before deployment is recommended.",
+  "license": "Arma Public License (APL)",
+  "rating": 1,
+  "ratingCount": 13,
+  "version": "1.0.1",
+  "sizeBytes": 333855,
+  "gameVersion": "1.8.0.10",
+  "createdAt": "2026-08-09T15:04:29.000Z",
+  "updatedAt": "2026-08-30T20:00:54.000Z",
+  "downloads": 2206,
+  "tags": [
+   "AI",
+   "REARM",
+   "SYSTEMS"
+  ],
+  "dependencies": [],
+  "versions": [
+   {
+    "version": "1.0.1",
+    "gameVersion": "1.8.0.10",
+    "createdAt": "2026-08-30T20:00:50.000Z",
+    "size": 333855
+   },
+   {
+    "version": "1.0.0",
+    "gameVersion": "1.7.0.54",
+    "createdAt": "2026-08-09T15:04:29.000Z",
+    "size": 34533
+   }
+  ],
+  "changelog": "",
+  "preview": "https://ar-gcp-cdn.bistudio.com/image/bdc2/94c5c2d36a75a5d72080cd1402af814fdd575a8ada6481e94fdfd3b6f840/207455.jpg",
+  "previewThumbs": [
+   "https://ar-gcp-cdn.bistudio.com/image/f0d0/442b3723b7b5d0317210fca6cf4baa675adc154046ffdfa98f2f334fcb5f/169192.jpg",
+   "https://ar-gcp-cdn.bistudio.com/image/7cad/db2a9041379d93f9e4641083a5ad29b080b90fcefec7ccc7d60021d299c4/45091.jpg",
+   "https://ar-gcp-cdn.bistudio.com/image/1e5e/c6455d50cd9235a62d5a88e638cb0376fd292456eb01d4d8eab3f2346be1/12340.jpg"
+  ],
+  "screenshots": [
+   {
+    "url": "https://ar-gcp-cdn.bistudio.com/image/8fef/8b3574853020f7dfaaf6e2cffcc7fc343c08bbc6e8665ad5edea98ee1404/300126.jpg",
+    "width": 1920,
+    "height": 1080,
+    "thumbs": [
+     "https://ar-gcp-cdn.bistudio.com/image/33fb/b970694fe7ce6eae9ef65177d24e64b97d1e895a1579085225886bc31b16/196710.jpg",
+     "https://ar-gcp-cdn.bistudio.com/image/0e46/bee1ce7b4da899ae32025ddacb3fc6bbc896815743ad326a2892551a7840/64689.jpg",
+     "https://ar-gcp-cdn.bistudio.com/image/dc12/654ed512d30e03cba8d5e767c966843fe55e580fec30a151f56cd4acab86/18003.jpg"
+    ]
+   }
+  ],
+  "workshopUrl": "https://reforger.armaplatform.com/workshop/40B5686CC205703A",
+  "previewFile": "assets/family/40B5686CC205703A.jpg"
  }
 ]

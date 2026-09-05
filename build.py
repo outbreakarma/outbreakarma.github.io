@@ -52,12 +52,50 @@ ROLES = [
      "blurb": "The crawling archetype. Low, quick and hard to spot in cover and crops."},
 ]
 
-SHOTS = [
-    {"full": "assets/shots/po_00.jpg", "mid": "assets/shots/po_01.jpg", "small": "assets/shots/po_05.jpg", "alt": "Workshop title art: the Outbreak biohazard mark over a crowd of infected walking into the fire. Art by redeye.vol2"},
-    {"full": "assets/shots/po_07.jpg", "mid": "assets/shots/po_08.jpg", "small": "assets/shots/po_09.jpg", "alt": "A horde pours through a fence line toward a sandbagged position between two bunkers"},
-    {"full": "assets/shots/po_10.jpg", "mid": "assets/shots/po_11.jpg", "small": "assets/shots/po_12.jpg", "alt": "Night rain at a checkpoint: soldiers behind sandbags and a turret gunner fire into an advancing crowd"},
-    {"full": "assets/shots/po_13.jpg", "mid": "assets/shots/po_14.jpg", "small": "assets/shots/po_15.jpg", "alt": "A dozen infected in torn civilian and military clothes walk through a wheat field"},
-]
+IMAGES = json.loads((ROOT / "assets/data/images.json").read_text(encoding="utf-8")) if (ROOT / "assets/data/images.json").exists() else {}
+CAPS = json.loads((ROOT / "assets/data/captions.json").read_text(encoding="utf-8")) if (ROOT / "assets/data/captions.json").exists() else {"hero": None, "captions": {}}
+
+
+def local(url: str | None) -> str:
+    return IMAGES.get(url or "", "")
+
+
+def shots() -> list[dict]:
+    """Gallery entries from the listing: the title art first, then every screenshot."""
+    items = []
+    if PO.get("preview"):
+        items.append({"url": PO["preview"], "thumbs": PO.get("previewThumbs", [])})
+    for sshot in PO.get("screenshots", []):
+        if isinstance(sshot, dict):
+            items.append({"url": sshot["url"], "thumbs": sshot.get("thumbs", [])})
+        else:
+            items.append({"url": sshot, "thumbs": []})
+    out = []
+    for i, it in enumerate(items):
+        full = local(it["url"])
+        if not full:
+            continue
+        thumbs = [local(t) for t in it["thumbs"] if local(t)]
+        mid = thumbs[0] if thumbs else full
+        small = thumbs[1] if len(thumbs) > 1 else mid
+        caption = CAPS["captions"].get(it["url"]) or (f"Screenshot {i} from the Workshop listing" if i else "Workshop title art from the listing")
+        out.append({"full": full, "mid": mid, "small": small, "alt": caption})
+    return out
+
+
+def hero() -> tuple[str, str]:
+    """The configured hero if the listing still carries it, else the first screenshot, else the title art."""
+    all_shots = shots()
+    want = local(CAPS.get("hero"))
+    for cand in all_shots:
+        if want and cand["full"] == want:
+            return cand["full"], cand["mid"]
+    pick_from = all_shots[1:] or all_shots
+    return (pick_from[0]["full"], pick_from[0]["mid"]) if pick_from else ("", "")
+
+
+SHOTS = shots()
+HERO_FULL, HERO_MID = hero()
 
 FAMILY_ORDER = ["7B763100BAFA1F9A", "6209E38AB237098E", "6B9BD0DA529C0D1E", "4FD4A1BD550793F4", "40B5686CC205703A"]
 FAMILY_ROLE = {
@@ -134,7 +172,7 @@ page = f"""<!doctype html>
 <meta name="description" content="{E(PO["summary"])} A zombie sandbox add-on for Arma Reforger, on the Workshop.">
 <meta property="og:title" content="Project Outbreak">
 <meta property="og:description" content="{E(PO["summary"])}">
-<meta property="og:image" content="https://outbreakarma.github.io/assets/shots/po_00.jpg">
+<meta property="og:image" content="https://outbreakarma.github.io/{SHOTS[0]["full"] if SHOTS else ""}">
 <meta property="og:type" content="website">
 <link rel="icon" href="assets/cards/Outbreak_FactionIcon_ui.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -245,7 +283,7 @@ footer a{{color:var(--bone-2)}}
 </div></nav>
 
 <header class="hero" id="top">
-  <img class="bg" src="assets/shots/po_10.jpg" srcset="assets/shots/po_11.jpg 1480w, assets/shots/po_10.jpg 1920w" sizes="100vw" alt="" fetchpriority="high">
+  <img class="bg" src="{HERO_FULL}" srcset="{HERO_MID} 1480w, {HERO_FULL} 1920w" sizes="100vw" alt="" fetchpriority="high">
   <div class="wrap">
     <div class="eyebrow">Arma Reforger · Workshop add-on · version {E(PO["version"])}</div>
     <h1>Project <span>Outbreak</span></h1>
