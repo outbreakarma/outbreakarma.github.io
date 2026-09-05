@@ -1,0 +1,238 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Project Outbreak</title>
+<meta name="description" content="A custom zombie sandbox including slow, fast, and crawling Zombies. A zombie sandbox add-on for Arma Reforger, on the Workshop.">
+<meta property="og:title" content="Project Outbreak">
+<meta property="og:description" content="A custom zombie sandbox including slow, fast, and crawling Zombies.">
+<meta property="og:image" content="https://outbreakarma.github.io/assets/shots/po_00.jpg">
+<meta property="og:type" content="website">
+<link rel="icon" href="assets/cards/Outbreak_FactionIcon_ui.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anton&family=Public+Sans:ital,wght@0,400;0,600;0,700;1,400&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+:root{
+  --ground:#0c0a08; --ground-2:#14110d; --panel:#181410; --panel-2:#1f1a14; --line:#2c251d; --line-2:#3a3126;
+  --bone:#efe7d6; --bone-2:#cfc4b0; --muted:#9d9283; --ember:#e8931f; --ember-2:#f5b34a; --ember-soft:#2e1d08; --rust:#b8461f; --ok:#7fbf7a;
+  --display:'Anton','Impact','Arial Narrow',sans-serif; --body:'Public Sans','Segoe UI',system-ui,sans-serif; --mono:'IBM Plex Mono',ui-monospace,Consolas,monospace;
+  color-scheme:dark;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;background:var(--ground)}
+body{margin:0;background:var(--ground);color:var(--bone);font-family:var(--body);font-size:17px;line-height:1.55}
+body::before{content:"";position:fixed;inset:0;pointer-events:none;opacity:.055;background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='160' height='160'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='2' stitchTiles='stitch'/></filter><rect width='100%' height='100%' filter='url(%23n)'/></svg>");z-index:0}
+a{color:var(--ember-2)}
+.wrap{max-width:1180px;margin:0 auto;padding:0 22px;position:relative;z-index:1}
+nav.top{position:sticky;top:0;z-index:5;background:rgba(12,10,8,.82);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
+nav.top .wrap{display:flex;align-items:center;justify-content:space-between;gap:16px;height:58px}
+nav.top .logo{display:flex;align-items:center;gap:10px;font-family:var(--display);font-size:22px;letter-spacing:.06em;text-transform:uppercase;color:var(--bone);text-decoration:none}
+nav.top .logo img{width:30px;height:30px}
+nav.top ul{display:flex;gap:18px;list-style:none;margin:0;padding:0;font-size:14px;font-weight:600;letter-spacing:.04em;text-transform:uppercase}
+nav.top ul a{color:var(--bone-2);text-decoration:none}
+nav.top ul a:hover{color:var(--ember-2)}
+@media (max-width:820px){nav.top ul{display:none}}
+.hero{position:relative;min-height:600px;display:flex;align-items:flex-end;overflow:hidden;background:#000}
+.hero img.bg{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center 30%;opacity:.92}
+.hero::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(12,10,8,.15) 0%,rgba(12,10,8,.35) 45%,rgba(12,10,8,.96) 100%)}
+.hero .wrap{position:relative;z-index:2;padding-bottom:44px;padding-top:120px;width:100%}
+.eyebrow{font-family:var(--mono);font-size:12.5px;letter-spacing:.24em;text-transform:uppercase;color:var(--ember-2)}
+.hero h1{font-family:var(--display);font-size:clamp(56px,10vw,132px);line-height:.88;margin:10px 0 14px;letter-spacing:.02em;text-transform:uppercase;color:#fff;text-shadow:0 6px 40px rgba(0,0,0,.7)}
+.hero h1 span{color:var(--ember)}
+.hero p.lead{font-size:clamp(18px,2.2vw,24px);max-width:56ch;margin:0 0 22px;color:var(--bone);text-shadow:0 2px 12px rgba(0,0,0,.8)}
+.cta{display:flex;flex-wrap:wrap;gap:12px;align-items:center}
+.btn{display:inline-flex;align-items:center;gap:8px;padding:13px 20px;border-radius:3px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;font-size:14px;text-decoration:none;border:1px solid var(--ember);color:#1a1005;background:linear-gradient(180deg,var(--ember-2),var(--ember));box-shadow:0 8px 24px rgba(232,147,31,.25)}
+.btn.ghost{background:rgba(12,10,8,.55);color:var(--bone);border-color:var(--line-2)}
+.btn.small{padding:8px 12px;font-size:12px}
+.factstrip{display:flex;flex-wrap:wrap;gap:10px 26px;margin-top:26px;font-family:var(--mono);font-size:13px;color:var(--bone-2)}
+.factstrip b{color:#fff;font-weight:500}
+.credit{font-family:var(--mono);font-size:11.5px;color:var(--muted);margin-top:14px}
+section{padding:64px 0 10px}
+h2{font-family:var(--display);font-size:clamp(34px,5vw,56px);letter-spacing:.03em;text-transform:uppercase;margin:0 0 8px;line-height:1;color:#fff}
+h2 em{font-style:normal;color:var(--ember)}
+.sub{color:var(--muted);max-width:70ch;margin:0 0 26px;font-size:17px}
+.live-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:12px}
+.tile{background:linear-gradient(180deg,var(--panel-2),var(--panel));border:1px solid var(--line-2);border-radius:4px;padding:16px 18px;position:relative}
+.tile::before{content:"";position:absolute;left:0;top:0;bottom:0;width:3px;background:var(--ember)}
+.tile .k{font-family:var(--mono);font-size:11.5px;letter-spacing:.16em;text-transform:uppercase;color:var(--muted)}
+.tile .v{font-family:var(--display);font-size:52px;line-height:1;margin-top:6px;color:#fff;font-variant-numeric:tabular-nums}
+.tile .d{font-family:var(--mono);font-size:12px;color:var(--muted);margin-top:6px}
+.roles{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:16px}
+.role{background:var(--panel);border:1px solid var(--line-2);border-radius:4px;overflow:hidden;display:flex;flex-direction:column}
+.role-art{position:relative;aspect-ratio:4/3;background:#000}
+.role-art img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;transition:opacity .35s}
+.role-art img.alt{opacity:0}
+.role:hover .role-art img.alt{opacity:1}
+.role-body{padding:16px 18px 18px}
+.pace{font-family:var(--mono);font-size:11.5px;letter-spacing:.2em;text-transform:uppercase;color:var(--ember-2)}
+.role h3,.fam h3{font-family:var(--display);font-size:30px;letter-spacing:.03em;margin:4px 0 6px;color:#fff;text-transform:uppercase}
+.role p,.fam p{margin:0;color:var(--bone-2)}
+.gm{display:grid;grid-template-columns:1.1fr .9fr;gap:22px;align-items:center}
+@media (max-width:820px){.gm{grid-template-columns:1fr}}
+.gm ul{margin:0;padding-left:0;list-style:none;display:grid;gap:12px}
+.gm li{background:var(--panel);border:1px solid var(--line-2);border-left:3px solid var(--ember);padding:12px 14px;border-radius:3px}
+.gm li b{display:block;font-family:var(--mono);font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--ember-2);margin-bottom:4px}
+.gm img{width:100%;border-radius:4px;border:1px solid var(--line-2);display:block}
+.shots{display:grid;grid-template-columns:repeat(auto-fit,minmax(320px,1fr));gap:14px}
+.shot{margin:0}
+.shot img{width:100%;height:auto;display:block;border-radius:4px;border:1px solid var(--line-2)}
+.shot figcaption{font-family:var(--mono);font-size:12px;color:var(--muted);margin-top:8px}
+.fams{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:16px}
+.fam{background:var(--panel);border:1px solid var(--line-2);border-radius:4px;overflow:hidden;display:flex;flex-direction:column}
+.fam-art{display:block;aspect-ratio:16/9;background:#000}
+.fam-art img{width:100%;height:100%;object-fit:cover;display:block}
+.fam-body{padding:14px 16px 16px;display:flex;flex-direction:column;gap:8px;flex:1}
+.facts{display:flex;flex-wrap:wrap;gap:6px 12px;font-family:var(--mono);font-size:12px;color:var(--muted)}
+.facts .live{color:var(--ok)}
+.links{margin-top:auto;padding-top:6px}
+.two{display:grid;grid-template-columns:1.2fr .8fr;gap:24px}
+@media (max-width:820px){.two{grid-template-columns:1fr}}
+.changelog{background:var(--panel);border:1px solid var(--line-2);border-radius:4px;padding:18px 22px}
+.changelog h3{font-family:var(--mono);font-size:13px;letter-spacing:.18em;text-transform:uppercase;color:var(--ember-2);margin:0 0 10px}
+.changelog ul{margin:0;padding-left:20px;color:var(--bone-2)}
+.changelog li{margin:6px 0}
+details{border-top:1px solid var(--line);padding:10px 0}
+summary{cursor:pointer;font-weight:600;color:var(--bone)}
+summary .mono{color:var(--muted);font-weight:400;margin-left:8px}
+details ul{margin:8px 0 0;padding-left:20px;color:var(--bone-2)}
+table{width:100%;border-collapse:collapse;font-size:14px}
+th,td{padding:8px 10px;border-bottom:1px solid var(--line);text-align:left}
+th{font-family:var(--mono);font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--muted);font-weight:400}
+.mono{font-family:var(--mono)}
+.num{text-align:right}
+.tablewrap{overflow-x:auto;background:var(--panel);border:1px solid var(--line-2);border-radius:4px}
+.credits{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:14px}
+.credits div{background:var(--panel);border:1px solid var(--line-2);border-radius:4px;padding:14px 16px;font-size:15px;color:var(--bone-2)}
+.credits b{display:block;font-family:var(--mono);font-size:11.5px;letter-spacing:.16em;text-transform:uppercase;color:var(--ember-2);margin-bottom:6px}
+footer{margin-top:60px;border-top:1px solid var(--line-2);padding:26px 0 40px;color:var(--muted);font-size:14px}
+footer .wrap{display:flex;flex-wrap:wrap;justify-content:space-between;gap:12px 24px}
+footer a{color:var(--bone-2)}
+@media (prefers-reduced-motion:reduce){*{transition:none!important;scroll-behavior:auto}}
+</style>
+</head>
+<body>
+<nav class="top"><div class="wrap">
+  <a class="logo" href="#top"><img src="assets/cards/Outbreak_FactionIcon_ui.png" alt="">Project Outbreak</a>
+  <ul><li><a href="#live">Live</a></li><li><a href="#infected">The infected</a></li><li><a href="#gm">Game Master</a></li><li><a href="#shots">Screenshots</a></li><li><a href="#family">Add-ons</a></li><li><a href="#changes">Changes</a></li><li><a href="https://reforger.armaplatform.com/workshop/F1D4B9B5245B36ED" target="_blank" rel="noopener">Workshop</a></li></ul>
+</div></nav>
+
+<header class="hero" id="top">
+  <img class="bg" src="assets/shots/po_00.jpg" alt="" fetchpriority="high">
+  <div class="wrap">
+    <div class="eyebrow">Arma Reforger · Workshop add-on · version 1.2.0</div>
+    <h1>Project <span>Outbreak</span></h1>
+    <p class="lead">A custom zombie sandbox including slow, fast, and crawling Zombies. Place them through Game Master, or let ambient populations and directed waves shape an entire scenario.</p>
+    <div class="cta">
+      <a class="btn" href="https://reforger.armaplatform.com/workshop/F1D4B9B5245B36ED" target="_blank" rel="noopener">Get it on the Workshop</a>
+      <a class="btn ghost" href="https://discord.gg/JumfhFujRF" target="_blank" rel="noopener">Join the Discord</a>
+      <a class="btn ghost" href="https://outbreakarma.github.io/outbreak-stats/" target="_blank" rel="noopener">Live server stats</a>
+    </div>
+    <div class="factstrip">
+      <span>Downloads <b>2,818</b></span>
+      <span>Rating <b>100%</b> from 41 ratings</span>
+      <span>Game <b>1.8.0.13</b></span>
+      <span>Size <b>164 MB</b></span>
+      <span>Licence <b>Arma Public License (APL)</b></span>
+      <span>Updated <b>2026-09-04</b></span>
+    </div>
+    <div class="credit">Title art by redeye.vol2, as credited on the Workshop listing.</div>
+  </div>
+</header>
+
+<section id="live"><div class="wrap">
+  <h2>On servers <em>right now</em></h2>
+  <p class="sub">Counted hourly from the public Arma Reforger server list by our <a href="https://outbreakarma.github.io/outbreak-stats/" target="_blank" rel="noopener">server watch</a> (data from ArmaHQ). Players are the people on servers running the add-on, not subscribers.</p>
+  <div class="live-grid" id="live-grid">
+    <div class="tile"><div class="k">Servers running it</div><div class="v" data-k="servers">…</div><div class="d" data-k="servers-d"></div></div>
+    <div class="tile"><div class="k">Players on them</div><div class="v" data-k="players">…</div><div class="d" data-k="players-d"></div></div>
+    <div class="tile"><div class="k">Rank among zombie mods</div><div class="v" data-k="rank">…</div><div class="d" data-k="rank-d"></div></div>
+    <div class="tile"><div class="k">Versions in use</div><div class="v" data-k="versions">…</div><div class="d" data-k="versions-d"></div></div>
+  </div>
+</div></section>
+
+<section id="infected"><div class="wrap">
+  <h2>The <em>infected</em></h2>
+  <p class="sub">Three archetypes ship in the core add-on, each with its own animations and behaviour, in civilian and military dress. Health and damage are yours to tune.</p>
+  <div class="roles"><article class="role"><div class="role-art"><img src="assets/cards/PO_Card_Shambler_Military.png" alt="Shambler card art" loading="lazy" width="512" height="384"><img class="alt" src="assets/cards/PO_Card_Shambler_Civilian.png" alt="" loading="lazy" width="512" height="384"></div><div class="role-body"><div class="pace">Slow</div><h3>Shambler</h3><p>The slow archetype. Numbers over speed: the wall that keeps coming while you reload.</p></div></article><article class="role"><div class="role-art"><img src="assets/cards/PO_Card_Sprinter_Military.png" alt="Sprinter card art" loading="lazy" width="512" height="384"><img class="alt" src="assets/cards/PO_Card_Sprinter_Civilian.png" alt="" loading="lazy" width="512" height="384"></div><div class="role-body"><div class="pace">Fast</div><h3>Sprinter</h3><p>The fast archetype. Closes distance in seconds and tackles what it catches.</p></div></article><article class="role"><div class="role-art"><img src="assets/cards/PO_Card_Feral_Military.png" alt="Feral card art" loading="lazy" width="512" height="384"><img class="alt" src="assets/cards/PO_Card_Feral_Civilian.png" alt="" loading="lazy" width="512" height="384"></div><div class="role-body"><div class="pace">Crawling</div><h3>Feral</h3><p>The crawling archetype. Low, quick and hard to spot in cover and crops.</p></div></article></div>
+</div></section>
+
+<section id="gm"><div class="wrap">
+  <h2>Built for <em>Game Master</em></h2>
+  <p class="sub">Everything is placeable and configurable from the Game Master interface, on your own scenarios and servers.</p>
+  <div class="gm">
+    <ul>
+      <li><b>Place them directly</b>Single creatures and groups of four, eight or sixteen, plus a mixed horde card, straight from the Outbreak faction in Game Master.</li>
+      <li><b>Ambient populations and directed waves</b>Let the sandbox populate itself, or author waves and routes to drive a whole scenario.</li>
+      <li><b>Zombie Permanent Kills</b>A global setting. In the headshots, explosives and fire mode, ordinary body damage only knocks zombies down; a headshot, an explosion or fire finishes them. Works with ACE Medical hit-zone mods since 1.2.0.</li>
+      <li><b>Placing ignores AI limit</b>Off by default. Turn it on to keep placing creatures by hand after the active-AI budget is full; ambience, directed spawning and reanimation keep their own budgets.</li>
+      <li><b>Downed is not safe</b>Zombies feed on knocked-out survivors, more than one at a time, and finish them unless someone drives them off or revives them.</li>
+    </ul>
+    <img src="assets/cards/PO_Card_Director.png" alt="The Outbreak Director card art" loading="lazy" width="512" height="384">
+  </div>
+</div></section>
+
+<section id="shots"><div class="wrap">
+  <h2>From the <em>field</em></h2>
+  <p class="sub">Screenshots from the Workshop listing.</p>
+  <div class="shots"><figure class="shot"><a href="assets/shots/po_07.jpg" target="_blank" rel="noopener"><img src="assets/shots/po_08.jpg" srcset="assets/shots/po_09.jpg 776w, assets/shots/po_08.jpg 1480w, assets/shots/po_07.jpg 1920w" sizes="(max-width: 700px) 100vw, 60vw" alt="A horde pours through a fence line toward a sandbagged position between two bunkers" loading="lazy" width="1480" height="832"></a><figcaption>A horde pours through a fence line toward a sandbagged position between two bunkers</figcaption></figure><figure class="shot"><a href="assets/shots/po_10.jpg" target="_blank" rel="noopener"><img src="assets/shots/po_11.jpg" srcset="assets/shots/po_12.jpg 776w, assets/shots/po_11.jpg 1480w, assets/shots/po_10.jpg 1920w" sizes="(max-width: 700px) 100vw, 60vw" alt="Night rain at a checkpoint: soldiers behind sandbags and a turret gunner fire into an advancing crowd" loading="lazy" width="1480" height="832"></a><figcaption>Night rain at a checkpoint: soldiers behind sandbags and a turret gunner fire into an advancing crowd</figcaption></figure><figure class="shot"><a href="assets/shots/po_13.jpg" target="_blank" rel="noopener"><img src="assets/shots/po_14.jpg" srcset="assets/shots/po_15.jpg 776w, assets/shots/po_14.jpg 1480w, assets/shots/po_13.jpg 1920w" sizes="(max-width: 700px) 100vw, 60vw" alt="A dozen infected in torn civilian and military clothes walk through a wheat field" loading="lazy" width="1480" height="832"></a><figcaption>A dozen infected in torn civilian and military clothes walk through a wheat field</figcaption></figure></div>
+</div></section>
+
+<section id="family"><div class="wrap">
+  <h2>The Outbreak <em>family</em></h2>
+  <p class="sub">Optional modules extend the core add-on; Creature Melee AI is the foundation it runs on. Live server counts come from the server watch.</p>
+  <div class="fams"><article class="fam" data-mod="7B763100BAFA1F9A"><a class="fam-art" href="https://reforger.armaplatform.com/workshop/7B763100BAFA1F9A" target="_blank" rel="noopener"><img src="assets/family/7B763100BAFA1F9A.jpg" alt="Project Outbreak Infection Workshop preview" loading="lazy"></a><div class="fam-body"><div class="pace">Optional module</div><h3>Project Outbreak Infection</h3><p>An optional infection system for Project Outbreak that turns infected into Zombies.</p><div class="facts"><span>v1.0.3</span><span>1390 downloads</span><span>100% rating</span><span class="live" data-live="7B763100BAFA1F9A">live: …</span></div><div class="links"><a class="btn small" href="https://reforger.armaplatform.com/workshop/7B763100BAFA1F9A" target="_blank" rel="noopener">Workshop</a></div></div></article><article class="fam" data-mod="6209E38AB237098E"><a class="fam-art" href="https://reforger.armaplatform.com/workshop/6209E38AB237098E" target="_blank" rel="noopener"><img src="assets/family/6209E38AB237098E.jpg" alt="Project Outbreak Breach Workshop preview" loading="lazy"></a><div class="fam-body"><div class="pace">Optional module</div><h3>Project Outbreak Breach</h3><p>An optional destruction system that lets zombie pursuits continue through buildings and compounds by breaking doors and windows.</p><div class="facts"><span>v1.1.0</span><span>1063 downloads</span><span>100% rating</span><span class="live" data-live="6209E38AB237098E">live: …</span></div><div class="links"><a class="btn small" href="https://reforger.armaplatform.com/workshop/6209E38AB237098E" target="_blank" rel="noopener">Workshop</a></div></div></article><article class="fam" data-mod="6B9BD0DA529C0D1E"><a class="fam-art" href="https://reforger.armaplatform.com/workshop/6B9BD0DA529C0D1E" target="_blank" rel="noopener"><img src="assets/family/6B9BD0DA529C0D1E.jpg" alt="Project Outbreak Gadgets Workshop preview" loading="lazy"></a><div class="fam-body"><div class="pace">Optional module</div><h3>Project Outbreak Gadgets</h3><p>An equipment pack that gives players more options when a horde closes in.</p><div class="facts"><span>v1.0.6</span><span>947 downloads</span><span>100% rating</span><span class="live" data-live="6B9BD0DA529C0D1E">live: …</span></div><div class="links"><a class="btn small" href="https://reforger.armaplatform.com/workshop/6B9BD0DA529C0D1E" target="_blank" rel="noopener">Workshop</a></div></div></article><article class="fam" data-mod="4FD4A1BD550793F4"><a class="fam-art" href="https://reforger.armaplatform.com/workshop/4FD4A1BD550793F4" target="_blank" rel="noopener"><img src="assets/family/4FD4A1BD550793F4.jpg" alt="Creature Melee AI Workshop preview" loading="lazy"></a><div class="fam-body"><div class="pace">Required by Project Outbreak</div><h3>Creature Melee AI</h3><p>A flexible foundation for custom melee creatures.</p><div class="facts"><span>v1.1.0</span><span>2797 downloads</span><span>100% rating</span><span class="live" data-live="4FD4A1BD550793F4">live: …</span></div><div class="links"><a class="btn small" href="https://reforger.armaplatform.com/workshop/4FD4A1BD550793F4" target="_blank" rel="noopener">Workshop</a></div></div></article><article class="fam" data-mod="40B5686CC205703A"><a class="fam-art" href="https://reforger.armaplatform.com/workshop/40B5686CC205703A" target="_blank" rel="noopener"><img src="assets/family/40B5686CC205703A.jpg" alt="AI Rearm Workshop preview" loading="lazy"></a><div class="fam-body"><div class="pace">Same author, standalone</div><h3>AI Rearm</h3><p>AI Rearm lets AI request magazines from squadmates, recover compatible ammunition from allowed dead bodies, and visit arsenals. A placeable Game Master settings system controls settings.</p><div class="facts"><span>v1.0.1</span><span>2206 downloads</span><span>100% rating</span><span class="live" data-live="40B5686CC205703A">live: …</span></div><div class="links"><a class="btn small" href="https://reforger.armaplatform.com/workshop/40B5686CC205703A" target="_blank" rel="noopener">Workshop</a></div></div></article></div>
+</div></section>
+
+<section id="changes"><div class="wrap">
+  <h2>What <em>changed</em></h2>
+  <p class="sub">Published change notes, straight from the Workshop.</p>
+  <div class="two">
+    <div>
+      <div class="changelog"><h3>Project Outbreak Zombies 1.2.0</h3><ul><li>Fixed Zombie Permanent Kills with ACE Medical hit-zone mods. Headshots, explosions and fire can finish Zombies again, while ordinary body damage still only knocks them down. Servers without ACE are unchanged.</li><li>New setting: Placing Ignores AI Limit. Off by default. Turn it on to keep placing creatures by hand after Project Outbreak&#x27;s active-AI budget is full. Ambience, directed spawning and reanimation keep their own budgets.</li><li>Fixed scenario-authored zombie rules being absent from published packages.</li><li>Bonus Zombie vocals</li></ul></div>
+      <div style="margin-top:14px"><details><summary>Project Outbreak Infection <span class="mono">1.0.3</span></summary><ul><li>Added optional disease-free suspicious coughs from healthy AI, a Game Master Make Cough action, and a placeable Cough Ambience Emitter. Each has its own setting and never transmits infection.</li><li>Expanded cough audio and added subtle breathing and sniffing signs during the hidden early stages of infection.</li><li>Coughs now fade naturally over distance instead of becoming completely silent after 24 metres.</li><li>Fixed the Cough Ambience Emitter being absent from published packages.</li></ul></details><details><summary>Project Outbreak Breach <span class="mono">1.2.0</span></summary><ul><li>Creatures now approach, attack and pass through supported doors and windows under their own movement. A horde shares openings instead of piling every attacker into one spot.</li><li>Creatures choose openings that genuinely lead toward their prey. Supported doors, windows, fences and blocking sandbags can be breached; trees and ordinary scenery are ignored.</li><li>Broken windows are climbed in sequence, broken doors are entered immediately, and blocking sandbag remains are cleared from the passage.</li><li>Added Game Master Breach Settings for durability, crowding and feature switches. Deleting the card now restores every setting correctly.</li><li>Spiked wire durability is based on the complete piece and its measured size, including multi-section and modded pieces.</li><li>Large hordes scan structures far less often and share building searches, substantially reducing siege cost.</li><li>Structural state resets reliably between missions, and rotated, scaled or nested door parts are measured in their own frame for broader vanilla and modded-door support.</li></ul></details><details><summary>Project Outbreak Gadgets <span class="mono">1.0.6</span></summary><ul><li>Added Survivor Spearmen as living Game Master units in a new Outbreak Survivors faction. Thrower, Stabber and Mix cards use their two M48 spears differently and appear in varied civilian clothing.</li><li>Added a blue electro-shock lure grenade. Its pulses draw Zombies to the shell and shock nearby Zombies without harming survivors or unrelated entities.</li><li>Electro-shock pulses erupt upward from the ground in a blue-white electrical volume with a short spark afterglow. Upright ordinary Zombies recoil on the first pulse and fall on the second. Ferals and Zombies already on the ground fall immediately and are never pulled upright.</li><li>The blue electro-shock and orange napalm lure grenades can now be placed as rechargeable proximity traps without changing their normal throw. Traps remember their charges, can be recovered into inventory, and never block a doorway.</li><li>Fixed a fault that could prevent wardrobe variants of Survivor Spearmen from being set up correctly.</li></ul></details><details><summary>Creature Melee AI <span class="mono">1.1.0</span></summary><ul><li>Creatures that have to break in somewhere walk to the door or window and hold there under their own movement, so mods that let them break barriers no longer fight the creature AI for control.</li><li>A creature that cannot reach its spot at a door gives that door up after a few seconds instead of standing beside it.</li><li>A pack that loses sight of its prey keeps hunting to where it was last seen instead of stopping in the street.</li><li>Creatures push straight through a door they just broke open instead of pausing in it, and no longer overlook a door a few steps ahead on their path.</li><li>Creature pursuit keeps sole ownership of obstacle approaches and stock vault timing. Integrations such as electric fences can observe natural climbs without parking, steering or forcing creatures to move.</li><li>Large populations cost far less: a creature far from its prey thinks less often than one in contact, and sight is checked four times a second instead of twenty. Nothing changes in what creatures do.</li><li>A creature that cannot get any nearer to its prey for a few seconds stops trusting its path and looks for a way in, instead of pacing along a wall.</li><li>Server logs are much quieter. Detailed creature movement logging is off by default and can be turned back on with -POLaneDiag.</li></ul></details></div>
+    </div>
+    <div class="tablewrap"><table><thead><tr><th>Version</th><th>Published</th><th>Game</th><th class="num">Size</th></tr></thead><tbody><tr><td class="mono">1.2.0</td><td class="mono">2026-09-04</td><td class="mono">1.8.0.13</td><td class="mono num">164 MB</td></tr><tr><td class="mono">1.1.6</td><td class="mono">2026-09-02</td><td class="mono">1.8.0.10</td><td class="mono num">137 MB</td></tr><tr><td class="mono">1.1.5</td><td class="mono">2026-09-02</td><td class="mono">1.8.0.10</td><td class="mono num">137 MB</td></tr><tr><td class="mono">1.1.4</td><td class="mono">2026-09-01</td><td class="mono">1.8.0.10</td><td class="mono num">137 MB</td></tr><tr><td class="mono">1.1.3</td><td class="mono">2026-09-01</td><td class="mono">1.8.0.10</td><td class="mono num">137 MB</td></tr><tr><td class="mono">1.1.2</td><td class="mono">2026-09-01</td><td class="mono">1.8.0.10</td><td class="mono num">137 MB</td></tr><tr><td class="mono">1.1.1</td><td class="mono">2026-09-01</td><td class="mono">1.8.0.10</td><td class="mono num">137 MB</td></tr><tr><td class="mono">1.1.0</td><td class="mono">2026-09-01</td><td class="mono">1.8.0.10</td><td class="mono num">137 MB</td></tr><tr><td class="mono">1.0.2</td><td class="mono">2026-08-31</td><td class="mono">1.8.0.10</td><td class="mono num">137 MB</td></tr><tr><td class="mono">1.0.1</td><td class="mono">2026-08-30</td><td class="mono">1.8.0.10</td><td class="mono num">137 MB</td></tr></tbody></table></div>
+  </div>
+</div></section>
+
+<section id="credits"><div class="wrap">
+  <h2>Credits and <em>licence</em></h2>
+  <div class="credits">
+    <div><b>Licence</b>Original Project Outbreak content is released under the Arma Public License (APL). Incorporated assets remain under the Fab Standard License.</div>
+    <div><b>Animation and sound</b>Several attack and tackling animations and sounds come from Yummy Games. Feral movement uses Crawling Ghoul Anims by RamsterZ. The Gadgets spear movement is adapted from work by Bacengdu.</div>
+    <div><b>Dependency</b>Requires Creature Melee AI by the same author. Arma Reforger, Enfusion and Workbench are by Bohemia Interactive.</div>
+    <div><b>Not affiliated</b>Project Outbreak is an unofficial community project and is not endorsed by Bohemia Interactive. Server data on this site comes from ArmaHQ.</div>
+  </div>
+</div></section>
+
+<footer><div class="wrap">
+  <span>Project Outbreak · <a href="https://reforger.armaplatform.com/workshop/F1D4B9B5245B36ED" target="_blank" rel="noopener">Workshop</a> · <a href="https://discord.gg/JumfhFujRF" target="_blank" rel="noopener">Discord</a> · <a href="https://outbreakarma.github.io/outbreak-stats/" target="_blank" rel="noopener">Server watch</a> · <a href="https://github.com/outbreakarma" target="_blank" rel="noopener">GitHub</a></span>
+  <span class="mono">Built from the published listing, 2026-09-04 · listing id F1D4B9B5245B36ED</span>
+</div></footer>
+
+<script>
+(function(){
+  const fmt = n => (n==null?'–':Number(n).toLocaleString('en-US'));
+  const set = (k,v) => { const el=document.querySelector('[data-k="'+k+'"]'); if(el) el.textContent=v; };
+  fetch('https://outbreakarma.github.io/outbreak-stats/latest.json', {cache:'no-store'}).then(r=>r.ok?r.json():Promise.reject(r.status)).then(L=>{
+    const t = L.tracked && L.tracked['F1D4B9B5245B36ED'];
+    const kw = L.keyword || {};
+    if (t && t.seen){
+      set('servers', fmt(t.servers)); set('servers-d', fmt(t.serversWithPlayers)+' with players');
+      set('players', fmt(t.players)); set('players-d', fmt(t.capacity)+' slots available');
+      set('rank', t.keywordRank ? '#'+t.keywordRank : '–'); set('rank-d', 'of '+fmt(kw.modCount)+' zombie mods · #'+fmt(t.globalRank)+' of all mods');
+      const vs = Object.entries(t.versions||{});
+      set('versions', vs.length); set('versions-d', vs.slice(0,3).map(([v,c])=>v+' ×'+c).join(' · '));
+    } else { set('servers','0'); set('servers-d','not seen in the last snapshot'); }
+    document.querySelectorAll('[data-live]').forEach(el=>{
+      const m = L.tracked && L.tracked[el.getAttribute('data-live')];
+      el.textContent = (m && m.seen) ? 'live: '+fmt(m.servers)+' servers · '+fmt(m.players)+' players' : 'live: not on servers';
+    });
+    const when = new Date(L.generatedUtc);
+    const sub = document.querySelector('#live .sub'); if (sub) sub.insertAdjacentHTML('beforeend', ' Snapshot '+when.toISOString().replace('T',' ').slice(0,16)+' UTC.');
+  }).catch(()=>{ ['servers','players','rank','versions'].forEach(k=>set(k,'–')); set('servers-d','live numbers unavailable right now'); document.querySelectorAll('[data-live]').forEach(el=>el.textContent=''); });
+})();
+</script>
+</body>
+</html>

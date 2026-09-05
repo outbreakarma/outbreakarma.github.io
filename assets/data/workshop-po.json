@@ -1,0 +1,103 @@
+{
+ "id": "F1D4B9B5245B36ED",
+ "name": "Project Outbreak Zombies",
+ "author": "Project Outbreak",
+ "summary": "A custom zombie sandbox including slow, fast, and crawling Zombies.",
+ "description": "Project Outbreak aims to enhance the Zombie experience in Arma Reforger. It includes various Zombie archetypes (slow, fast, crawling), animations, and ways to customize Zombie health and damage.\n\n\nPlace them directly through Game Master or use ambient populations and directed waves to shape an entire scenario.\n\n\nSeveral attack and tackling animations come from Yummy Games, as well as sounds (https://www.fab.com/listings/f5e4fd19-febd-43b1-8799-b6c4c8f1f23b). Feral movement also uses Crawling Ghoul Anims (https://www.fab.com/listings/9e96b3f7-30ca-4221-a2eb-2bd46146b286) by RamsterZ.\n\nRequires Creature Melee AI. Original Project Outbreak content is released under the Arma Public License (APL). Incorporated assets remain under the Fab Standard License.\n\nFor questions, join the Discord Server: \nhttps://discord.gg/JumfhFujRF\n\nTItle Screenshot by redeye.vol2",
+ "license": "Arma Public License (APL)",
+ "rating": 1,
+ "ratingCount": 41,
+ "version": "1.2.0",
+ "sizeBytes": 172134779,
+ "gameVersion": "1.8.0.13",
+ "createdAt": "2026-08-30T18:23:05.000Z",
+ "updatedAt": "2026-09-04T19:50:09.000Z",
+ "downloads": 2818,
+ "tags": [
+  "CHARACTERS",
+  "INFECTION",
+  "MELEE",
+  "OUTBREAK",
+  "PROJECT",
+  "SURVIVAL",
+  "SYSTEMS",
+  "ZOMBIES"
+ ],
+ "dependencies": [
+  {
+   "id": "4FD4A1BD550793F4",
+   "name": "Creature Melee AI",
+   "version": "1.1.0"
+  }
+ ],
+ "versions": [
+  {
+   "version": "1.2.0",
+   "gameVersion": "1.8.0.13",
+   "createdAt": "2026-09-04T19:48:40.000Z",
+   "size": 172134779
+  },
+  {
+   "version": "1.1.6",
+   "gameVersion": "1.8.0.10",
+   "createdAt": "2026-09-02T13:11:14.000Z",
+   "size": 143344804
+  },
+  {
+   "version": "1.1.5",
+   "gameVersion": "1.8.0.10",
+   "createdAt": "2026-09-02T11:13:31.000Z",
+   "size": 143342593
+  },
+  {
+   "version": "1.1.4",
+   "gameVersion": "1.8.0.10",
+   "createdAt": "2026-09-01T21:15:43.000Z",
+   "size": 143341219
+  },
+  {
+   "version": "1.1.3",
+   "gameVersion": "1.8.0.10",
+   "createdAt": "2026-09-01T14:10:23.000Z",
+   "size": 143346815
+  },
+  {
+   "version": "1.1.2",
+   "gameVersion": "1.8.0.10",
+   "createdAt": "2026-09-01T12:23:02.000Z",
+   "size": 143346204
+  },
+  {
+   "version": "1.1.1",
+   "gameVersion": "1.8.0.10",
+   "createdAt": "2026-09-01T08:41:38.000Z",
+   "size": 143339728
+  },
+  {
+   "version": "1.1.0",
+   "gameVersion": "1.8.0.10",
+   "createdAt": "2026-09-01T07:34:59.000Z",
+   "size": 143337938
+  },
+  {
+   "version": "1.0.2",
+   "gameVersion": "1.8.0.10",
+   "createdAt": "2026-08-31T15:13:55.000Z",
+   "size": 143325231
+  },
+  {
+   "version": "1.0.1",
+   "gameVersion": "1.8.0.10",
+   "createdAt": "2026-08-30T20:38:08.000Z",
+   "size": 143325075
+  }
+ ],
+ "changelog": "1.2.0\n- Fixed Zombie Permanent Kills with ACE Medical hit-zone mods. Headshots, explosions and fire can finish Zombies again, while ordinary body damage still only knocks them down. Servers without ACE are unchanged.\n- New setting: Placing Ignores AI Limit. Off by default. Turn it on to keep placing creatures by hand after Project Outbreak's active-AI budget is full. Ambience, directed spawning and reanimation keep their own budgets.\n- Fixed scenario-authored zombie rules being absent from published packages.\n- Bonus Zombie vocals",
+ "preview": "https://ar-gcp-cdn.bistudio.com/image/2acf/50af531c77fb7b5f21ca79df26665c5a3e9f10ff3b0c4d08f6876c6370b0/158082.jpg",
+ "screenshots": [
+  "https://ar-gcp-cdn.bistudio.com/image/454a/56d450b61fc74493f7a01799bae39470b133b97419b4a9cdaf94165cb2a4/338626.jpg",
+  "https://ar-gcp-cdn.bistudio.com/image/77ff/141ba6c5a704bf26a1f712258c5425727c9d6827e14916d9cf5f77238c7e/309394.jpg",
+  "https://ar-gcp-cdn.bistudio.com/image/927f/eb5f78bee1754bee27e13048de2e1b17aed91c072d67adf716949c972ed0/506426.jpg"
+ ],
+ "workshopUrl": "https://reforger.armaplatform.com/workshop/F1D4B9B5245B36ED"
+}
