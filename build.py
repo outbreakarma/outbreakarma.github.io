@@ -53,6 +53,7 @@ ROLES = [
 ]
 
 SHOTS = [
+    {"full": "assets/shots/po_00.jpg", "mid": "assets/shots/po_01.jpg", "small": "assets/shots/po_05.jpg", "alt": "Workshop title art: the Outbreak biohazard mark over a crowd of infected walking into the fire. Art by redeye.vol2"},
     {"full": "assets/shots/po_07.jpg", "mid": "assets/shots/po_08.jpg", "small": "assets/shots/po_09.jpg", "alt": "A horde pours through a fence line toward a sandbagged position between two bunkers"},
     {"full": "assets/shots/po_10.jpg", "mid": "assets/shots/po_11.jpg", "small": "assets/shots/po_12.jpg", "alt": "Night rain at a checkpoint: soldiers behind sandbags and a turret gunner fire into an advancing crowd"},
     {"full": "assets/shots/po_13.jpg", "mid": "assets/shots/po_14.jpg", "small": "assets/shots/po_15.jpg", "alt": "A dozen infected in torn civilian and military clothes walk through a wheat field"},
@@ -244,7 +245,7 @@ footer a{{color:var(--bone-2)}}
 </div></nav>
 
 <header class="hero" id="top">
-  <img class="bg" src="assets/shots/po_00.jpg" alt="" fetchpriority="high">
+  <img class="bg" src="assets/shots/po_10.jpg" srcset="assets/shots/po_11.jpg 1480w, assets/shots/po_10.jpg 1920w" sizes="100vw" alt="" fetchpriority="high">
   <div class="wrap">
     <div class="eyebrow">Arma Reforger · Workshop add-on · version {E(PO["version"])}</div>
     <h1>Project <span>Outbreak</span></h1>
@@ -262,7 +263,6 @@ footer a{{color:var(--bone-2)}}
       <span>Licence <b>{E(PO["license"])}</b></span>
       <span>Updated <b>{E(date(PO["updatedAt"]))}</b></span>
     </div>
-    <div class="credit">Title art by redeye.vol2, as credited on the Workshop listing.</div>
   </div>
 </header>
 
