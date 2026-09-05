@@ -268,7 +268,7 @@ footer a{{color:var(--bone-2)}}
 
 <section id="live"><div class="wrap">
   <h2>On servers <em>right now</em></h2>
-  <p class="sub">Counted hourly from the public Arma Reforger server list by our <a href="{STATS_SITE}" target="_blank" rel="noopener">server watch</a> (data from ArmaHQ). Players are the people on servers running the add-on, not subscribers.</p>
+  <p class="sub">Counted hourly from the public Arma Reforger server list by the <a href="{STATS_SITE}" target="_blank" rel="noopener">Outbreak server watch</a> (data from ArmaHQ). Players are the people on servers running the add-on, not subscribers.</p>
   <div class="live-grid" id="live-grid">
     <div class="tile"><div class="k">Servers running it</div><div class="v" data-k="servers">…</div><div class="d" data-k="servers-d"></div></div>
     <div class="tile"><div class="k">Players on them</div><div class="v" data-k="players">…</div><div class="d" data-k="players-d"></div></div>
@@ -306,7 +306,7 @@ footer a{{color:var(--bone-2)}}
 
 <section id="family"><div class="wrap">
   <h2>The Outbreak <em>family</em></h2>
-  <p class="sub">Optional modules extend the core add-on; Creature Melee AI is the foundation it runs on. Live server counts come from the server watch.</p>
+  <p class="sub">Optional modules extend the core add-on; Creature Melee AI is the foundation it runs on. Live server counts come from the Outbreak server watch.</p>
   <div class="fams">{family_cards()}</div>
 </div></section>
 
