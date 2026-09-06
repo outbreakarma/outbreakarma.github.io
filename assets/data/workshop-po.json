@@ -6,13 +6,13 @@
  "description": "Project Outbreak aims to enhance the Zombie experience in Arma Reforger. It includes various Zombie archetypes (slow, fast, crawling), animations, and ways to customize Zombie health and damage.\n\n\nPlace them directly through Game Master or use ambient populations and directed waves to shape an entire scenario.\n\n\nSeveral attack and tackling animations come from Yummy Games, as well as sounds (https://www.fab.com/listings/f5e4fd19-febd-43b1-8799-b6c4c8f1f23b). Feral movement also uses Crawling Ghoul Anims (https://www.fab.com/listings/9e96b3f7-30ca-4221-a2eb-2bd46146b286) by RamsterZ.\n\nRequires Creature Melee AI. Original Project Outbreak content is released under the Arma Public License (APL). Incorporated assets remain under the Fab Standard License.\n\nFor questions, join the Discord Server: \nhttps://discord.gg/JumfhFujRF\n\nTItle Screenshot by redeye.vol2",
  "license": "Arma Public License (APL)",
  "rating": 0.98,
- "ratingCount": 45,
- "version": "1.2.0",
- "sizeBytes": 172134779,
+ "ratingCount": 47,
+ "version": "1.2.2",
+ "sizeBytes": 172137241,
  "gameVersion": "1.8.0.13",
  "createdAt": "2026-08-30T18:23:05.000Z",
- "updatedAt": "2026-09-04T19:50:09.000Z",
- "downloads": 3391,
+ "updatedAt": "2026-09-06T17:59:17.000Z",
+ "downloads": 4300,
  "tags": [
   "CHARACTERS",
   "INFECTION",
@@ -27,10 +27,22 @@
   {
    "id": "4FD4A1BD550793F4",
    "name": "Creature Melee AI",
-   "version": "1.1.0"
+   "version": "1.1.2"
   }
  ],
  "versions": [
+  {
+   "version": "1.2.2",
+   "gameVersion": "1.8.0.13",
+   "createdAt": "2026-09-06T17:57:58.000Z",
+   "size": 172137241
+  },
+  {
+   "version": "1.2.1",
+   "gameVersion": "1.8.0.13",
+   "createdAt": "2026-09-05T22:18:59.000Z",
+   "size": 172134845
+  },
   {
    "version": "1.2.0",
    "gameVersion": "1.8.0.13",
@@ -78,21 +90,9 @@
    "gameVersion": "1.8.0.10",
    "createdAt": "2026-09-01T07:34:59.000Z",
    "size": 143337938
-  },
-  {
-   "version": "1.0.2",
-   "gameVersion": "1.8.0.10",
-   "createdAt": "2026-08-31T15:13:55.000Z",
-   "size": 143325231
-  },
-  {
-   "version": "1.0.1",
-   "gameVersion": "1.8.0.10",
-   "createdAt": "2026-08-30T20:38:08.000Z",
-   "size": 143325075
   }
  ],
- "changelog": "1.2.0\n- Fixed Zombie Permanent Kills with ACE Medical hit-zone mods. Headshots, explosions and fire can finish Zombies again, while ordinary body damage still only knocks them down. Servers without ACE are unchanged.\n- New setting: Placing Ignores AI Limit. Off by default. Turn it on to keep placing creatures by hand after Project Outbreak's active-AI budget is full. Ambience, directed spawning and reanimation keep their own budgets.\n- Fixed scenario-authored zombie rules being absent from published packages.\n- Bonus Zombie vocals",
+ "changelog": "- Added Custom Soldier Voices, a Game Master setting (on by default). Turn it off and living, non-zombie characters use the base game's voice lines instead of Project Outbreak's. Zombie voices are unaffected. Available in the Game Master settings, a mission header, and the placeable rules prefab.\n- Spawner routes are now drawn on the map as a filled arrow with a marker at every point, and the line drapes over hills instead of sinking through them.\n- Route points are created and moved directly: right-click the newest point to extend the route, and drag any point to move it. New points are placed clear of whatever they were added from, so they can no longer appear buried inside it.\n- Fixed the Game Master logging an attribute registration error every session.",
  "preview": "https://ar-gcp-cdn.bistudio.com/image/2acf/50af531c77fb7b5f21ca79df26665c5a3e9f10ff3b0c4d08f6876c6370b0/158082.jpg",
  "previewThumbs": [
   "https://ar-gcp-cdn.bistudio.com/image/4cca/713c0a0d13d35c848872dd5398d4de1a8324f8931ead8fd865d03c85c843/86448.jpg",
