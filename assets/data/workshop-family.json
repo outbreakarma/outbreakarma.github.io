@@ -76,14 +76,14 @@
   "summary": "An optional destruction system that lets zombie pursuits continue through buildings and compounds by breaking doors and windows.",
   "description": "Breach makes defensive positions less predictable. Zombies can batter through doors and turn windows into climbable openings. Fences can also give way under pressure. \n\n\nRequires Project Outbreak. Released under the Arma Public License (APL).\n\nFor questions, join the Discord Server: \nhttps://discord.gg/JumfhFujRF",
   "license": "Arma Public License (APL)",
-  "rating": 1,
-  "ratingCount": 11,
-  "version": "1.1.0",
-  "sizeBytes": 281289,
+  "rating": 0.92,
+  "ratingCount": 12,
+  "version": "1.1.1",
+  "sizeBytes": 281447,
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-08-30T18:31:09.000Z",
-  "updatedAt": "2026-09-04T19:51:47.000Z",
-  "downloads": 1063,
+  "updatedAt": "2026-09-05T22:22:43.000Z",
+  "downloads": 1389,
   "tags": [
    "OUTBREAK",
    "SYSTEMS",
@@ -93,15 +93,21 @@
    {
     "id": "4FD4A1BD550793F4",
     "name": "Creature Melee AI",
-    "version": "1.1.0"
+    "version": "1.1.1"
    },
    {
     "id": "F1D4B9B5245B36ED",
     "name": "Project Outbreak Zombies",
-    "version": "1.2.0"
+    "version": "1.2.1"
    }
   ],
   "versions": [
+   {
+    "version": "1.1.1",
+    "gameVersion": "1.8.0.13",
+    "createdAt": "2026-09-05T22:22:38.000Z",
+    "size": 281447
+   },
    {
     "version": "1.1.0",
     "gameVersion": "1.8.0.13",
@@ -121,7 +127,7 @@
     "size": 206417
    }
   ],
-  "changelog": "1.2.0\n- Creatures now approach, attack and pass through supported doors and windows under their own movement. A horde shares openings instead of piling every attacker into one spot.\n- Creatures choose openings that genuinely lead toward their prey. Supported doors, windows, fences and blocking sandbags can be breached; trees and ordinary scenery are ignored.\n- Broken windows are climbed in sequence, broken doors are entered immediately, and blocking sandbag remains are cleared from the passage.\n- Added Game Master Breach Settings for durability, crowding and feature switches. Deleting the card now restores every setting correctly.\n- Spiked wire durability is based on the complete piece and its measured size, including multi-section and modded pieces.\n- Large hordes scan structures far less often and share building searches, substantially reducing siege cost.\n- Structural state resets reliably between missions, and rotated, scaled or nested door parts are measured in their own frame for broader vanilla and modded-door support.",
+  "changelog": "1.1.1\n- Fixes loading with Game Master FX while preserving normal barrier damage.\n- Fixes ArmaVision camera properties failing to open when Project Outbreak Breach is loaded.",
   "preview": "https://ar-gcp-cdn.bistudio.com/image/5bed/0a8b466346b0229c97c156bbf024f76419a6e1eb8b960a36b00e9145fbce/224343.jpg",
   "previewThumbs": [
    "https://ar-gcp-cdn.bistudio.com/image/7d75/5da9027f13bd2eb53c9792887fcf71e0a0198a257243bda52f28bcf15e8e/115565.jpg",
