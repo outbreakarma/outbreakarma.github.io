@@ -7,13 +7,13 @@
   "description": "When bitten, infection  develops over time and can spread through coughing. Dedicated medical equipment lets players test for infection before symptoms worsen. Early treatment can clear it. Suppressants only buy time. If an infected character dies, the same body can return as a zombie.\n\nRequires Project Outbreak. Released under the Arma Public License (APL).\n\nFor questions, join the Discord Server: \nhttps://discord.gg/JumfhFujRF",
   "license": "Arma Public License (APL)",
   "rating": 1,
-  "ratingCount": 17,
-  "version": "1.0.3",
-  "sizeBytes": 10144979,
+  "ratingCount": 18,
+  "version": "1.0.4",
+  "sizeBytes": 10144998,
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-08-30T18:29:18.000Z",
-  "updatedAt": "2026-09-04T19:55:31.000Z",
-  "downloads": 1390,
+  "updatedAt": "2026-09-05T22:22:19.000Z",
+  "downloads": 1826,
   "tags": [
    "INFECTION",
    "OUTBREAK",
@@ -24,15 +24,21 @@
    {
     "id": "4FD4A1BD550793F4",
     "name": "Creature Melee AI",
-    "version": "1.1.0"
+    "version": "1.1.1"
    },
    {
     "id": "F1D4B9B5245B36ED",
     "name": "Project Outbreak Zombies",
-    "version": "1.2.0"
+    "version": "1.2.1"
    }
   ],
   "versions": [
+   {
+    "version": "1.0.4",
+    "gameVersion": "1.8.0.13",
+    "createdAt": "2026-09-05T22:22:11.000Z",
+    "size": 10144998
+   },
    {
     "version": "1.0.3",
     "gameVersion": "1.8.0.13",
@@ -58,7 +64,7 @@
     "size": 3555581
    }
   ],
-  "changelog": "1.0.3\n- Added optional disease-free suspicious coughs from healthy AI, a Game Master Make Cough action, and a placeable Cough Ambience Emitter. Each has its own setting and never transmits infection.\n- Expanded cough audio and added subtle breathing and sniffing signs during the hidden early stages of infection.\n- Coughs now fade naturally over distance instead of becoming completely silent after 24 metres.\n- Fixed the Cough Ambience Emitter being absent from published packages.",
+  "changelog": "1.0.4\n- Fixes ArmaVision camera properties failing to open when Project Outbreak Infection is loaded.",
   "preview": "https://ar-gcp-cdn.bistudio.com/image/890a/2e690a44cd0ecea4b7e7e336db3d449f24c67280e27b944b11a6367bbd43/259454.jpg",
   "previewThumbs": [
    "https://ar-gcp-cdn.bistudio.com/image/2ee0/8108bfa63848f0565577b852b3d6bf0f53839d070af590ff24e1f9e19328/140121.jpg",
