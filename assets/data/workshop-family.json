@@ -232,12 +232,12 @@
   "license": "Arma Public License (APL)",
   "rating": 1,
   "ratingCount": 4,
-  "version": "1.1.0",
-  "sizeBytes": 993893,
+  "version": "1.1.1",
+  "sizeBytes": 993823,
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-08-30T18:18:07.000Z",
-  "updatedAt": "2026-09-04T19:47:07.000Z",
-  "downloads": 2797,
+  "updatedAt": "2026-09-05T22:18:26.000Z",
+  "downloads": 3454,
   "tags": [
    "CHARACTERS",
    "CREATURES",
@@ -250,6 +250,12 @@
   ],
   "dependencies": [],
   "versions": [
+   {
+    "version": "1.1.1",
+    "gameVersion": "1.8.0.13",
+    "createdAt": "2026-09-05T22:18:22.000Z",
+    "size": 993823
+   },
    {
     "version": "1.1.0",
     "gameVersion": "1.8.0.13",
@@ -287,7 +293,7 @@
     "size": 971755
    }
   ],
-  "changelog": "1.1.0\n- Creatures that have to break in somewhere walk to the door or window and hold there under their own movement, so mods that let them break barriers no longer fight the creature AI for control.\n- A creature that cannot reach its spot at a door gives that door up after a few seconds instead of standing beside it.\n- A pack that loses sight of its prey keeps hunting to where it was last seen instead of stopping in the street.\n- Creatures push straight through a door they just broke open instead of pausing in it, and no longer overlook a door a few steps ahead on their path.\n- Creature pursuit keeps sole ownership of obstacle approaches and stock vault timing. Integrations such as electric fences can observe natural climbs without parking, steering or forcing creatures to move.\n- Large populations cost far less: a creature far from its prey thinks less often than one in contact, and sight is checked four times a second instead of twenty. Nothing changes in what creatures do.\n- A creature that cannot get any nearer to its prey for a few seconds stops trusting its path and looks for a way in, instead of pacing along a wall.\n- Server logs are much quieter. Detailed creature movement logging is off by default and can be turned back on with -POLaneDiag.",
+  "changelog": "1.1.1\n- Fixes creatures getting stuck at low fences that the game allows them to climb.\n- Fixes ArmaVision camera properties failing to open when Creature Melee AI or Project Outbreak settings are loaded.",
   "preview": "https://ar-gcp-cdn.bistudio.com/image/e345/f3b99d0c738344cd8d7364e0b3a3b1ada801834676f2a32b6473f50b0675/95814.jpg",
   "previewThumbs": [
    "https://ar-gcp-cdn.bistudio.com/image/826f/ac590b7bcada4b68dbb43c904a60861ba906bcc485de784f311194106075/55712.jpg",
