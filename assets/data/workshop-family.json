@@ -153,12 +153,12 @@
   "license": "Arma Public License (APL)",
   "rating": 0.91,
   "ratingCount": 11,
-  "version": "1.0.6",
-  "sizeBytes": 23155506,
+  "version": "1.0.7",
+  "sizeBytes": 23155871,
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-08-30T18:27:33.000Z",
-  "updatedAt": "2026-09-04T19:51:16.000Z",
-  "downloads": 1077,
+  "updatedAt": "2026-09-06T18:00:06.000Z",
+  "downloads": 1472,
   "tags": [
    "GADGETS",
    "OUTBREAK",
@@ -172,15 +172,21 @@
    {
     "id": "4FD4A1BD550793F4",
     "name": "Creature Melee AI",
-    "version": "1.1.1"
+    "version": "1.1.2"
    },
    {
     "id": "F1D4B9B5245B36ED",
     "name": "Project Outbreak Zombies",
-    "version": "1.2.1"
+    "version": "1.2.2"
    }
   ],
   "versions": [
+   {
+    "version": "1.0.7",
+    "gameVersion": "1.8.0.13",
+    "createdAt": "2026-09-06T17:59:46.000Z",
+    "size": 23155871
+   },
    {
     "version": "1.0.6",
     "gameVersion": "1.8.0.13",
@@ -224,7 +230,7 @@
     "size": 22060532
    }
   ],
-  "changelog": "1.0.6\n- Added Survivor Spearmen as living Game Master units in a new Outbreak Survivors faction. Thrower, Stabber and Mix cards use their two M48 spears differently and appear in varied civilian clothing.\n- Added a blue electro-shock lure grenade. Its pulses draw Zombies to the shell and shock nearby Zombies without harming survivors or unrelated entities.\n- Electro-shock pulses erupt upward from the ground in a blue-white electrical volume with a short spark afterglow. Upright ordinary Zombies recoil on the first pulse and fall on the second. Ferals and Zombies already on the ground fall immediately and are never pulled upright.\n- The blue electro-shock and orange napalm lure grenades can now be placed as rechargeable proximity traps without changing their normal throw. Traps remember their charges, can be recovered into inventory, and never block a doorway.\n- Fixed a fault that could prevent wardrobe variants of Survivor Spearmen from being set up correctly.",
+  "changelog": "- Fixed living characters losing their faction on some custom scenarios, which could leave an empty item catalogue or a respawn out at sea. Survivor faction setup now leaves a scenario's own faction manager alone unless it already uses Survivors, and no longer forces a global target refresh.",
   "preview": "https://ar-gcp-cdn.bistudio.com/image/50f0/70743126ffaf4c694e4506551cbf16b5792a9cb03a44a105d4a5a54cd86f/280700.jpg",
   "previewThumbs": [
    "https://ar-gcp-cdn.bistudio.com/image/e37d/dfafedce4959e15b52b2a75c3e7bd274aaec1e373dd7958adf0fa9c26b10/151800.jpg",
