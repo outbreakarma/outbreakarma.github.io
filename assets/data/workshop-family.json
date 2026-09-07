@@ -244,12 +244,12 @@
   "license": "Arma Public License (APL)",
   "rating": 1,
   "ratingCount": 4,
-  "version": "1.1.1",
-  "sizeBytes": 993823,
+  "version": "1.1.2",
+  "sizeBytes": 994041,
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-08-30T18:18:07.000Z",
-  "updatedAt": "2026-09-05T22:18:26.000Z",
-  "downloads": 3454,
+  "updatedAt": "2026-09-06T17:56:53.000Z",
+  "downloads": 4396,
   "tags": [
    "CHARACTERS",
    "CREATURES",
@@ -262,6 +262,12 @@
   ],
   "dependencies": [],
   "versions": [
+   {
+    "version": "1.1.2",
+    "gameVersion": "1.8.0.13",
+    "createdAt": "2026-09-06T17:56:46.000Z",
+    "size": 994041
+   },
    {
     "version": "1.1.1",
     "gameVersion": "1.8.0.13",
@@ -305,7 +311,7 @@
     "size": 971755
    }
   ],
-  "changelog": "1.1.1\n- Fixes creatures getting stuck at low fences that the game allows them to climb.\n- Fixes ArmaVision camera properties failing to open when Creature Melee AI or Project Outbreak settings are loaded.",
+  "changelog": "- Fixed living characters losing their faction on some custom scenarios. Creature hostility setup no longer forces a global target refresh after changing who is friendly with whom.",
   "preview": "https://ar-gcp-cdn.bistudio.com/image/e345/f3b99d0c738344cd8d7364e0b3a3b1ada801834676f2a32b6473f50b0675/95814.jpg",
   "previewThumbs": [
    "https://ar-gcp-cdn.bistudio.com/image/826f/ac590b7bcada4b68dbb43c904a60861ba906bcc485de784f311194106075/55712.jpg",
