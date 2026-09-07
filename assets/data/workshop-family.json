@@ -83,13 +83,13 @@
   "description": "Breach makes defensive positions less predictable. Zombies can batter through doors and turn windows into climbable openings. Fences can also give way under pressure. \n\n\nRequires Project Outbreak. Released under the Arma Public License (APL).\n\nFor questions, join the Discord Server: \nhttps://discord.gg/JumfhFujRF",
   "license": "Arma Public License (APL)",
   "rating": 0.92,
-  "ratingCount": 12,
+  "ratingCount": 13,
   "version": "1.1.1",
   "sizeBytes": 281447,
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-08-30T18:31:09.000Z",
   "updatedAt": "2026-09-05T22:22:43.000Z",
-  "downloads": 1389,
+  "downloads": 1702,
   "tags": [
    "OUTBREAK",
    "SYSTEMS",
@@ -99,12 +99,12 @@
    {
     "id": "4FD4A1BD550793F4",
     "name": "Creature Melee AI",
-    "version": "1.1.1"
+    "version": "1.1.2"
    },
    {
     "id": "F1D4B9B5245B36ED",
     "name": "Project Outbreak Zombies",
-    "version": "1.2.1"
+    "version": "1.2.2"
    }
   ],
   "versions": [
