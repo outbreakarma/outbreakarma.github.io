@@ -6,13 +6,13 @@
  "description": "Project Outbreak aims to enhance the Zombie experience in Arma Reforger. It includes various Zombie archetypes (slow, fast, crawling), animations, and ways to customize Zombie health and damage.\n\n\nPlace them directly through Game Master or use ambient populations and directed waves to shape an entire scenario.\n\n\nSeveral attack and tackling animations come from Yummy Games, as well as sounds (https://www.fab.com/listings/f5e4fd19-febd-43b1-8799-b6c4c8f1f23b). Feral movement also uses Crawling Ghoul Anims (https://www.fab.com/listings/9e96b3f7-30ca-4221-a2eb-2bd46146b286) by RamsterZ.\n\nRequires Creature Melee AI. Original Project Outbreak content is released under the Arma Public License (APL). Incorporated assets remain under the Fab Standard License.\n\nFor questions, join the Discord Server: \nhttps://discord.gg/JumfhFujRF\n\nTItle Screenshot by redeye.vol2",
  "license": "Arma Public License (APL)",
  "rating": 0.98,
- "ratingCount": 47,
- "version": "1.2.2",
- "sizeBytes": 172137241,
+ "ratingCount": 48,
+ "version": "1.2.3",
+ "sizeBytes": 172117066,
  "gameVersion": "1.8.0.13",
  "createdAt": "2026-08-30T18:23:05.000Z",
- "updatedAt": "2026-09-06T17:59:17.000Z",
- "downloads": 4300,
+ "updatedAt": "2026-09-07T08:13:16.000Z",
+ "downloads": 5122,
  "tags": [
   "CHARACTERS",
   "INFECTION",
@@ -27,10 +27,16 @@
   {
    "id": "4FD4A1BD550793F4",
    "name": "Creature Melee AI",
-   "version": "1.1.2"
+   "version": "1.1.3"
   }
  ],
  "versions": [
+  {
+   "version": "1.2.3",
+   "gameVersion": "1.8.0.13",
+   "createdAt": "2026-09-07T08:12:02.000Z",
+   "size": 172117066
+  },
   {
    "version": "1.2.2",
    "gameVersion": "1.8.0.13",
@@ -84,15 +90,9 @@
    "gameVersion": "1.8.0.10",
    "createdAt": "2026-09-01T08:41:38.000Z",
    "size": 143339728
-  },
-  {
-   "version": "1.1.0",
-   "gameVersion": "1.8.0.10",
-   "createdAt": "2026-09-01T07:34:59.000Z",
-   "size": 143337938
   }
  ],
- "changelog": "- Added Custom Soldier Voices, a Game Master setting (on by default). Turn it off and living, non-zombie characters use the base game's voice lines instead of Project Outbreak's. Zombie voices are unaffected. Available in the Game Master settings, a mission header, and the placeable rules prefab.\n- Spawner routes are now drawn on the map as a filled arrow with a marker at every point, and the line drapes over hills instead of sinking through them.\n- Route points are created and moved directly: right-click the newest point to extend the route, and drag any point to move it. New points are placed clear of whatever they were added from, so they can no longer appear buried inside it.\n- Fixed the Game Master logging an attribute registration error every session.",
+ "changelog": "- Reworked Faction System to enable more compatibility with more scenarios\n- Removed an old unused horde spawn system",
  "preview": "https://ar-gcp-cdn.bistudio.com/image/2acf/50af531c77fb7b5f21ca79df26665c5a3e9f10ff3b0c4d08f6876c6370b0/158082.jpg",
  "previewThumbs": [
   "https://ar-gcp-cdn.bistudio.com/image/4cca/713c0a0d13d35c848872dd5398d4de1a8324f8931ead8fd865d03c85c843/86448.jpg",
@@ -101,13 +101,13 @@
  ],
  "screenshots": [
   {
-   "url": "https://ar-gcp-cdn.bistudio.com/image/454a/56d450b61fc74493f7a01799bae39470b133b97419b4a9cdaf94165cb2a4/338626.jpg",
+   "url": "https://ar-gcp-cdn.bistudio.com/image/927f/eb5f78bee1754bee27e13048de2e1b17aed91c072d67adf716949c972ed0/506426.jpg",
    "width": 1920,
    "height": 1080,
    "thumbs": [
-    "https://ar-gcp-cdn.bistudio.com/image/70b4/df2d11ac8529363855e5bb96791da98c356c4296a64b5fe3e15c4f2f287d/204307.jpg",
-    "https://ar-gcp-cdn.bistudio.com/image/a4db/4e68fcfcfd0722730db2820981482169029f094ff65c9134e96bbaad940d/62565.jpg",
-    "https://ar-gcp-cdn.bistudio.com/image/6495/21c0b1dbfe5769637b237e39984107f4c05ca8144852f2c618678954a157/17435.jpg"
+    "https://ar-gcp-cdn.bistudio.com/image/13b5/75234680c932bbedada64b818e1fcdcfd8820a45e0998080c0d7fd195bd3/310409.jpg",
+    "https://ar-gcp-cdn.bistudio.com/image/8872/1536e006d421621ff83b88fde5bbb100ee9afb0491b83120d9b068ce5dfd/97505.jpg",
+    "https://ar-gcp-cdn.bistudio.com/image/bd79/bbecd6d9a8bcc34df811a9adddc5791fb081f10e16f47c81f76bff07b2e4/26086.jpg"
    ]
   },
   {
@@ -121,13 +121,13 @@
    ]
   },
   {
-   "url": "https://ar-gcp-cdn.bistudio.com/image/927f/eb5f78bee1754bee27e13048de2e1b17aed91c072d67adf716949c972ed0/506426.jpg",
+   "url": "https://ar-gcp-cdn.bistudio.com/image/454a/56d450b61fc74493f7a01799bae39470b133b97419b4a9cdaf94165cb2a4/338626.jpg",
    "width": 1920,
    "height": 1080,
    "thumbs": [
-    "https://ar-gcp-cdn.bistudio.com/image/13b5/75234680c932bbedada64b818e1fcdcfd8820a45e0998080c0d7fd195bd3/310409.jpg",
-    "https://ar-gcp-cdn.bistudio.com/image/8872/1536e006d421621ff83b88fde5bbb100ee9afb0491b83120d9b068ce5dfd/97505.jpg",
-    "https://ar-gcp-cdn.bistudio.com/image/bd79/bbecd6d9a8bcc34df811a9adddc5791fb081f10e16f47c81f76bff07b2e4/26086.jpg"
+    "https://ar-gcp-cdn.bistudio.com/image/70b4/df2d11ac8529363855e5bb96791da98c356c4296a64b5fe3e15c4f2f287d/204307.jpg",
+    "https://ar-gcp-cdn.bistudio.com/image/a4db/4e68fcfcfd0722730db2820981482169029f094ff65c9134e96bbaad940d/62565.jpg",
+    "https://ar-gcp-cdn.bistudio.com/image/6495/21c0b1dbfe5769637b237e39984107f4c05ca8144852f2c618678954a157/17435.jpg"
    ]
   }
  ],
