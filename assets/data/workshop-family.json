@@ -13,7 +13,7 @@
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-08-30T18:29:18.000Z",
   "updatedAt": "2026-09-05T22:22:19.000Z",
-  "downloads": 1826,
+  "downloads": 2248,
   "tags": [
    "INFECTION",
    "OUTBREAK",
@@ -24,12 +24,12 @@
    {
     "id": "4FD4A1BD550793F4",
     "name": "Creature Melee AI",
-    "version": "1.1.1"
+    "version": "1.1.2"
    },
    {
     "id": "F1D4B9B5245B36ED",
     "name": "Project Outbreak Zombies",
-    "version": "1.2.1"
+    "version": "1.2.2"
    }
   ],
   "versions": [
