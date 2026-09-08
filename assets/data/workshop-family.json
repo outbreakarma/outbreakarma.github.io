@@ -157,14 +157,14 @@
   "summary": "An equipment pack that gives players more options when a horde closes in.",
   "description": "Gadgets adds practical tools that change the flow of an encounter. Draw zombies away with sound. Hold ground with fire or an electric fence. The recoverable M48 Talon Spear works up close and can also be thrown when distance matters.\n\nThe spear movement is adapted from https://www.fab.com/listings/fffbea69-14ff-499d-b85a-131171c1d6f8  by Bacengdu under the Fab Standard License.\n\nRequires Project Outbreak. Original Gadgets content is released under the Arma Public License (APL).\n\nFor questions, join the Discord Server: \nhttps://discord.gg/JumfhFujRF",
   "license": "Arma Public License (APL)",
-  "rating": 0.91,
-  "ratingCount": 11,
-  "version": "1.0.7",
-  "sizeBytes": 23155871,
+  "rating": 0.92,
+  "ratingCount": 12,
+  "version": "1.0.8",
+  "sizeBytes": 23156654,
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-08-30T18:27:33.000Z",
-  "updatedAt": "2026-09-06T18:00:06.000Z",
-  "downloads": 1472,
+  "updatedAt": "2026-09-07T08:14:42.000Z",
+  "downloads": 1798,
   "tags": [
    "GADGETS",
    "OUTBREAK",
@@ -178,15 +178,21 @@
    {
     "id": "4FD4A1BD550793F4",
     "name": "Creature Melee AI",
-    "version": "1.1.2"
+    "version": "1.1.3"
    },
    {
     "id": "F1D4B9B5245B36ED",
     "name": "Project Outbreak Zombies",
-    "version": "1.2.2"
+    "version": "1.2.3"
    }
   ],
   "versions": [
+   {
+    "version": "1.0.8",
+    "gameVersion": "1.8.0.13",
+    "createdAt": "2026-09-07T08:14:33.000Z",
+    "size": 23156654
+   },
    {
     "version": "1.0.7",
     "gameVersion": "1.8.0.13",
@@ -236,7 +242,7 @@
     "size": 22060532
    }
   ],
-  "changelog": "- Fixed living characters losing their faction on some custom scenarios, which could leave an empty item catalogue or a respawn out at sea. Survivor faction setup now leaves a scenario's own faction manager alone unless it already uses Survivors, and no longer forces a global target refresh.",
+  "changelog": "- Reworked Faction System to enable more compatibility with more scenarios",
   "preview": "https://ar-gcp-cdn.bistudio.com/image/50f0/70743126ffaf4c694e4506551cbf16b5792a9cb03a44a105d4a5a54cd86f/280700.jpg",
   "previewThumbs": [
    "https://ar-gcp-cdn.bistudio.com/image/e37d/dfafedce4959e15b52b2a75c3e7bd274aaec1e373dd7958adf0fa9c26b10/151800.jpg",
