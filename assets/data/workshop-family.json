@@ -270,16 +270,16 @@
   "name": "Creature Melee AI",
   "author": "Project Outbreak",
   "summary": "A flexible foundation for custom melee creatures.",
-  "description": "Creature Melee AI gives modders the core behavior needed for close-range enemies. Attacks and presentation remain replaceable, allowing each project to build its own identity.\n\n\nPowers Project Outbreak Zombies.\nFor questions, join the Discord Server: \nhttps://discord.gg/JumfhFujRF\n\n\nReleased under the Arma Public License (APL).",
+  "description": "Creature Melee AI gives modders the core behavior needed for close-range enemies. Attacks and presentation remain replaceable, allowing each project to build its own identity.\n\n\nPowers Project Outbreak Zombies.\nFor questions, join the Discord Server: \nhttps://discord.gg/JumfhFujRF\n\n\nReleased under the Arma Public License (APL).\n\n\nCode and animation for weapons melee combat is adapted from Melee Combat Extended by Sanxisan, used under the Arma Public License. Thanks to the great Sanxisan for releasing this cool mod and adding guidance! \n\nhttps://reforger.armaplatform.com/workshop/6595113A3678CF5D-MeleeCombatExtended",
   "license": "Arma Public License (APL)",
   "rating": 1,
   "ratingCount": 4,
-  "version": "1.1.3",
-  "sizeBytes": 995579,
+  "version": "1.1.5",
+  "sizeBytes": 1163713,
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-08-30T18:18:07.000Z",
-  "updatedAt": "2026-09-07T08:11:10.000Z",
-  "downloads": 7241,
+  "updatedAt": "2026-09-14T05:49:26.000Z",
+  "downloads": 7912,
   "tags": [
    "CHARACTERS",
    "CREATURES",
@@ -292,6 +292,12 @@
   ],
   "dependencies": [],
   "versions": [
+   {
+    "version": "1.1.5",
+    "gameVersion": "1.8.0.13",
+    "createdAt": "2026-09-14T05:49:22.000Z",
+    "size": 1163713
+   },
    {
     "version": "1.1.3",
     "gameVersion": "1.8.0.13",
@@ -347,7 +353,7 @@
     "size": 971755
    }
   ],
-  "changelog": "- Reworked faction system to enable more compatibility with more scenarios",
+  "changelog": "1.1.5\nCreatures can now fight with melee weapons (experimental)\nCode and animation for that is re-used from Melee Combat Extended by Sanxisan, used under the Arma Public License. \nhttps://reforger.armaplatform.com/workshop/6595113A3678CF5D-MeleeCombatExtended\n\nThis works alongside animation mods. Creature Melee AI does not replace the player animation graph, so it can be loaded next to an animation overhaul.\n\nFixed other creators' scenarios failing to spawn players. This mod adds its own faction to the world's faction list, and the way it did that could replace a scenario's own faction setup, leaving the game with nothing to spawn players into. It now keeps everything the base game's list already had and only adds to it.\n\nFleeing creatures can now hide inside nearby buildings, go upstairs where a floor is reachable, shut doors behind them, and keep running the way they were going instead of doubling back. Creatures looking for cover now count buildings and vehicles as cover, search farther before settling for an exposed spot, and no longer treat other characters as walls.",
   "preview": "https://ar-gcp-cdn.bistudio.com/image/e345/f3b99d0c738344cd8d7364e0b3a3b1ada801834676f2a32b6473f50b0675/95814.jpg",
   "previewThumbs": [
    "https://ar-gcp-cdn.bistudio.com/image/826f/ac590b7bcada4b68dbb43c904a60861ba906bcc485de784f311194106075/55712.jpg",
