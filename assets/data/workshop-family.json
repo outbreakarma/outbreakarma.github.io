@@ -113,7 +113,7 @@
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-08-30T18:31:09.000Z",
   "updatedAt": "2026-09-14T09:59:03.000Z",
-  "downloads": 3343,
+  "downloads": 3556,
   "tags": [
    "OUTBREAK",
    "SYSTEMS",
@@ -128,7 +128,7 @@
    {
     "id": "F1D4B9B5245B36ED",
     "name": "Project Outbreak Zombies",
-    "version": "1.3.1"
+    "version": "1.3.2"
    }
   ],
   "versions": [
@@ -194,7 +194,7 @@
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-08-30T18:27:33.000Z",
   "updatedAt": "2026-09-14T10:00:29.000Z",
-  "downloads": 2372,
+  "downloads": 2464,
   "tags": [
    "GADGETS",
    "OUTBREAK",
@@ -213,7 +213,7 @@
    {
     "id": "F1D4B9B5245B36ED",
     "name": "Project Outbreak Zombies",
-    "version": "1.3.1"
+    "version": "1.3.2"
    }
   ],
   "versions": [
