@@ -7,13 +7,13 @@
   "description": "When bitten, infection  develops over time and can spread through coughing. Dedicated medical equipment lets players test for infection before symptoms worsen. Early treatment can clear it. Suppressants only buy time. If an infected character dies, the same body can return as a zombie.\n\nRequires Project Outbreak. Released under the Arma Public License (APL).\n\nFor questions, join the Discord Server: \nhttps://discord.gg/JumfhFujRF",
   "license": "Arma Public License (APL)",
   "rating": 0.95,
-  "ratingCount": 20,
+  "ratingCount": 21,
   "version": "1.0.8",
   "sizeBytes": 10159105,
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-08-30T18:29:18.000Z",
   "updatedAt": "2026-09-14T09:57:40.000Z",
-  "downloads": 4350,
+  "downloads": 4557,
   "tags": [
    "INFECTION",
    "OUTBREAK",
@@ -29,7 +29,7 @@
    {
     "id": "F1D4B9B5245B36ED",
     "name": "Project Outbreak Zombies",
-    "version": "1.3.1"
+    "version": "1.3.2"
    }
   ],
   "versions": [
