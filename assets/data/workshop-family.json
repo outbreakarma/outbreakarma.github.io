@@ -119,7 +119,7 @@
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-08-30T18:31:09.000Z",
   "updatedAt": "2026-09-14T09:59:03.000Z",
-  "downloads": 3556,
+  "downloads": 3732,
   "tags": [
    "OUTBREAK",
    "SYSTEMS",
@@ -129,12 +129,12 @@
    {
     "id": "4FD4A1BD550793F4",
     "name": "Creature Melee AI",
-    "version": "1.1.5"
+    "version": "1.2.0"
    },
    {
     "id": "F1D4B9B5245B36ED",
     "name": "Project Outbreak Zombies",
-    "version": "1.3.2"
+    "version": "1.3.3"
    }
   ],
   "versions": [
@@ -195,12 +195,12 @@
   "license": "Arma Public License (APL)",
   "rating": 0.92,
   "ratingCount": 12,
-  "version": "1.1.1",
-  "sizeBytes": 22700138,
+  "version": "1.1.2",
+  "sizeBytes": 22701180,
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-08-30T18:27:33.000Z",
-  "updatedAt": "2026-09-14T10:00:29.000Z",
-  "downloads": 2464,
+  "updatedAt": "2026-09-16T20:26:01.000Z",
+  "downloads": 2567,
   "tags": [
    "GADGETS",
    "OUTBREAK",
@@ -214,15 +214,21 @@
    {
     "id": "4FD4A1BD550793F4",
     "name": "Creature Melee AI",
-    "version": "1.1.5"
+    "version": "1.2.0"
    },
    {
     "id": "F1D4B9B5245B36ED",
     "name": "Project Outbreak Zombies",
-    "version": "1.3.2"
+    "version": "1.3.3"
    }
   ],
   "versions": [
+   {
+    "version": "1.1.2",
+    "gameVersion": "1.8.0.13",
+    "createdAt": "2026-09-16T20:25:46.000Z",
+    "size": 22701180
+   },
    {
     "version": "1.1.1",
     "gameVersion": "1.8.0.13",
@@ -276,15 +282,9 @@
     "gameVersion": "1.8.0.10",
     "createdAt": "2026-09-01T07:39:24.000Z",
     "size": 22046856
-   },
-   {
-    "version": "1.0.1",
-    "gameVersion": "1.8.0.10",
-    "createdAt": "2026-08-31T18:52:17.000Z",
-    "size": 22059444
    }
   ],
-  "changelog": "1.1.1\n- Fixed survival gear items missing from faction arsenals, loot and saved loadouts in 1.1.0.",
+  "changelog": "1.1.2\n- Fixed the petrol jerry can, spark igniter, road flare and tripflare showing placeholder text instead of their names, descriptions and pouring hints.",
   "preview": "https://ar-gcp-cdn.bistudio.com/image/50f0/70743126ffaf4c694e4506551cbf16b5792a9cb03a44a105d4a5a54cd86f/280700.jpg",
   "previewThumbs": [
    "https://ar-gcp-cdn.bistudio.com/image/e37d/dfafedce4959e15b52b2a75c3e7bd274aaec1e373dd7958adf0fa9c26b10/151800.jpg",
