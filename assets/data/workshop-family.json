@@ -8,12 +8,12 @@
   "license": "Arma Public License (APL)",
   "rating": 0.95,
   "ratingCount": 21,
-  "version": "1.0.8",
-  "sizeBytes": 10159105,
+  "version": "1.1.0",
+  "sizeBytes": 10161701,
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-08-30T18:29:18.000Z",
-  "updatedAt": "2026-09-14T09:57:40.000Z",
-  "downloads": 4557,
+  "updatedAt": "2026-09-16T20:24:30.000Z",
+  "downloads": 4817,
   "tags": [
    "INFECTION",
    "OUTBREAK",
@@ -24,15 +24,21 @@
    {
     "id": "4FD4A1BD550793F4",
     "name": "Creature Melee AI",
-    "version": "1.1.5"
+    "version": "1.2.0"
    },
    {
     "id": "F1D4B9B5245B36ED",
     "name": "Project Outbreak Zombies",
-    "version": "1.3.2"
+    "version": "1.3.3"
    }
   ],
   "versions": [
+   {
+    "version": "1.1.0",
+    "gameVersion": "1.8.0.13",
+    "createdAt": "2026-09-16T20:24:22.000Z",
+    "size": 10161701
+   },
    {
     "version": "1.0.8",
     "gameVersion": "1.8.0.13",
@@ -88,7 +94,7 @@
     "size": 3555581
    }
   ],
-  "changelog": "1.0.8\n- Fixed infection medicine missing from faction arsenals, loot and saved loadouts in 1.0.7.",
+  "changelog": "1.1.0\n- The V-1 infection vial can now be kept out of the arsenal. Turn it off on the infection system and the vial no longer appears in faction arsenals, in loot, or in a saved loadout. The cure, the suppressant, the diagnostic and the analyzer are unaffected.\n- Fixed editor settings that could quietly fail to load.\n- Someone who turns while sitting in a vehicle now gets out first and falls beside it, instead of falling through the vehicle.",
   "preview": "https://ar-gcp-cdn.bistudio.com/image/890a/2e690a44cd0ecea4b7e7e336db3d449f24c67280e27b944b11a6367bbd43/259454.jpg",
   "previewThumbs": [
    "https://ar-gcp-cdn.bistudio.com/image/2ee0/8108bfa63848f0565577b852b3d6bf0f53839d070af590ff24e1f9e19328/140121.jpg",
