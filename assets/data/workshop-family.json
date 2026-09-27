@@ -8,12 +8,12 @@
   "license": "Arma Public License (APL)",
   "rating": 0.95,
   "ratingCount": 22,
-  "version": "1.1.0",
-  "sizeBytes": 10161701,
+  "version": "1.2.0",
+  "sizeBytes": 10158593,
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-08-30T18:29:18.000Z",
-  "updatedAt": "2026-09-16T20:24:30.000Z",
-  "downloads": 6296,
+  "updatedAt": "2026-09-27T00:39:29.000Z",
+  "downloads": 6655,
   "tags": [
    "INFECTION",
    "OUTBREAK",
@@ -24,15 +24,21 @@
    {
     "id": "4FD4A1BD550793F4",
     "name": "Creature Melee AI",
-    "version": "1.2.0"
+    "version": "1.3.0"
    },
    {
     "id": "F1D4B9B5245B36ED",
     "name": "Project Outbreak Zombies",
-    "version": "1.3.3"
+    "version": "2.0.1"
    }
   ],
   "versions": [
+   {
+    "version": "1.2.0",
+    "gameVersion": "1.8.0.13",
+    "createdAt": "2026-09-27T00:39:21.000Z",
+    "size": 10158593
+   },
    {
     "version": "1.1.0",
     "gameVersion": "1.8.0.13",
@@ -86,15 +92,9 @@
     "gameVersion": "1.8.0.10",
     "createdAt": "2026-09-01T07:37:01.000Z",
     "size": 3556974
-   },
-   {
-    "version": "1.0.0",
-    "gameVersion": "1.8.0.10",
-    "createdAt": "2026-08-30T18:29:18.000Z",
-    "size": 3555581
    }
   ],
-  "changelog": "1.1.0\n- The V-1 infection vial can now be kept out of the arsenal. Turn it off on the infection system and the vial no longer appears in faction arsenals, in loot, or in a saved loadout. The cure, the suppressant, the diagnostic and the analyzer are unaffected.\n- Fixed editor settings that could quietly fail to load.\n- Someone who turns while sitting in a vehicle now gets out first and falls beside it, instead of falling through the vehicle.",
+  "changelog": "1.2.0\n- Infected zombies now join their correct horde when they rise. If a turn cannot finish, it stops cleanly instead of reporting the same error forever.\n- Infection yields when a Game Master deliberately zombifies a player, allowing the player to die and respawn normally while the old body becomes an AI zombie.\n- An infected player turns into a zombie when they die. Respawning later does not delay that zombie. A shot that destroys the head still stops the turn.\n- The new body keeps the gear they were carrying. Guns drop by default. The new Infection setting can keep them stowed on the zombie instead; the global Outbreak setting also enables this. Zombies cannot use them.\n- Player corpse handoffs remain compatible with add-ons built against Infection 1.1.0.\n- Large infected populations keep the existing bounded work limit.",
   "preview": "https://ar-gcp-cdn.bistudio.com/image/890a/2e690a44cd0ecea4b7e7e336db3d449f24c67280e27b944b11a6367bbd43/259454.jpg",
   "previewThumbs": [
    "https://ar-gcp-cdn.bistudio.com/image/2ee0/8108bfa63848f0565577b852b3d6bf0f53839d070af590ff24e1f9e19328/140121.jpg",
