@@ -304,12 +304,12 @@
   "license": "Arma Public License (APL)",
   "rating": 1,
   "ratingCount": 7,
-  "version": "1.2.0",
-  "sizeBytes": 1168847,
+  "version": "1.3.0",
+  "sizeBytes": 1191356,
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-08-30T18:18:07.000Z",
-  "updatedAt": "2026-09-16T20:13:49.000Z",
-  "downloads": 12551,
+  "updatedAt": "2026-09-27T00:34:19.000Z",
+  "downloads": 13295,
   "tags": [
    "CHARACTERS",
    "CREATURES",
@@ -322,6 +322,12 @@
   ],
   "dependencies": [],
   "versions": [
+   {
+    "version": "1.3.0",
+    "gameVersion": "1.8.0.13",
+    "createdAt": "2026-09-27T00:34:15.000Z",
+    "size": 1191356
+   },
    {
     "version": "1.2.0",
     "gameVersion": "1.8.0.13",
@@ -375,15 +381,9 @@
     "gameVersion": "1.8.0.10",
     "createdAt": "2026-09-01T07:30:40.000Z",
     "size": 972544
-   },
-   {
-    "version": "1.0.1",
-    "gameVersion": "1.8.0.10",
-    "createdAt": "2026-08-31T15:49:53.000Z",
-    "size": 972542
    }
   ],
-  "changelog": "Creatures can now fight with melee weapons.\n\nAdded a shared melee animation family so any mod can give a creature a sword, club, blade, two-handed weapon or spear without building its own combat system.\n\nThis works alongside animation mods. Creature Melee AI does not replace the player animation graph, so it can be loaded next to an animation overhaul.\n\nCreatures carry and swing correctly standing and crouched, and hold a weapon properly while prone.\n\nFixed a creature holding a short weapon standing too far away to ever land a hit. Fixed a weapon that could stay stuck in its holster while the creature kept trying to draw it. Armed creatures now report their hits, so armour and other mods that react to being struck work against them too.\n\nFixed other creators' scenarios failing to spawn players. This mod adds its own faction to the world's faction list, and the way it did that could replace a scenario's own faction setup, leaving the game with nothing to spawn players into. It now keeps everything the base game's list already had and only adds to it.\n\nFleeing creatures can now hide inside nearby buildings, go upstairs where a floor is reachable, shut doors behind them, and keep running the way they were going instead of doubling back. Creatures looking for cover now count buildings and vehicles as cover, search farther before settling for an exposed spot, and no longer treat other characters as walls.\n\nExisting creatures are unchanged. The new behaviour is off unless a mod turns it on.\n\nKnown limits: two-handed weapons are built but not yet tested in play, and there is no example two-handed weapon yet. Thrusting one-handed weapons are not built. Crawling creatures cannot use a weapon at all.\n\nTwo-handed melee animation from Melee Combat Extended by Sanxisan, used under the Arma Public Licence.\n\nAlso in this release:\n- Soldiers now shoot back at creatures in scenarios that replace the faction list. Previously they could stand and ignore them.\n- Creatures no longer fight the creatures of another add-on. This works from our side only, so the other add-on's creatures may still attack ours.",
+  "changelog": "1.3.0\n- Creatures that reach a dead end while chasing or following a sound now try another route instead of standing in the same place.\n- Creatures can strike a prone or unconscious target that is within reach.\n- Creature Melee AI now adds its Game Master faction without overwriting changes another mod made to the base factions.\n- Shared scheduling and contact code reduce duplicated work while preserving the existing creature profiles and combat settings.",
   "preview": "https://ar-gcp-cdn.bistudio.com/image/e345/f3b99d0c738344cd8d7364e0b3a3b1ada801834676f2a32b6473f50b0675/95814.jpg",
   "previewThumbs": [
    "https://ar-gcp-cdn.bistudio.com/image/826f/ac590b7bcada4b68dbb43c904a60861ba906bcc485de784f311194106075/55712.jpg",
