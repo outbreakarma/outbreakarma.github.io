@@ -13,7 +13,7 @@
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-08-30T18:29:18.000Z",
   "updatedAt": "2026-09-29T15:35:10.000Z",
-  "downloads": 7261,
+  "downloads": 7724,
   "tags": [
    "INFECTION",
    "OUTBREAK",
@@ -29,7 +29,7 @@
    {
     "id": "F1D4B9B5245B36ED",
     "name": "Project Outbreak Zombies",
-    "version": "2.1.0"
+    "version": "2.1.1"
    }
   ],
   "versions": [
@@ -114,12 +114,12 @@
   "license": "Arma Public License (APL)",
   "rating": 0.93,
   "ratingCount": 15,
-  "version": "1.3.0",
-  "sizeBytes": 16651860,
+  "version": "1.3.1",
+  "sizeBytes": 16651883,
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-08-30T18:31:09.000Z",
-  "updatedAt": "2026-09-27T00:40:26.000Z",
-  "downloads": 5793,
+  "updatedAt": "2026-09-29T15:35:48.000Z",
+  "downloads": 6252,
   "tags": [
    "OUTBREAK",
    "SYSTEMS",
@@ -129,15 +129,21 @@
    {
     "id": "4FD4A1BD550793F4",
     "name": "Creature Melee AI",
-    "version": "1.3.0"
+    "version": "1.3.1"
    },
    {
     "id": "F1D4B9B5245B36ED",
     "name": "Project Outbreak Zombies",
-    "version": "2.0.1"
+    "version": "2.1.1"
    }
   ],
   "versions": [
+   {
+    "version": "1.3.1",
+    "gameVersion": "1.8.0.13",
+    "createdAt": "2026-09-29T15:35:41.000Z",
+    "size": 16651883
+   },
    {
     "version": "1.3.0",
     "gameVersion": "1.8.0.13",
@@ -181,7 +187,7 @@
     "size": 206417
    }
   ],
-  "changelog": "1.3.0\n- Zombies no longer remain gathered at a door or window that nobody is working on.\n- Doors that cannot be opened or breached are no longer selected repeatedly as siege targets.\n- Structure checks now schedule only the bodies whose sample is due, reducing wasted work in large crowds without changing authored breach timing.\n- Structure supplies remain behind each faction's own items in arsenals, loot and saved loadouts.",
+  "changelog": "Fixed: ArmaVision (photo mode) camera properties open normally again. Breach settings appear only in the Game Master edit list.",
   "preview": "https://ar-gcp-cdn.bistudio.com/image/5bed/0a8b466346b0229c97c156bbf024f76419a6e1eb8b960a36b00e9145fbce/224343.jpg",
   "previewThumbs": [
    "https://ar-gcp-cdn.bistudio.com/image/7d75/5da9027f13bd2eb53c9792887fcf71e0a0198a257243bda52f28bcf15e8e/115565.jpg",
@@ -201,12 +207,12 @@
   "license": "Arma Public License (APL)",
   "rating": 0.92,
   "ratingCount": 12,
-  "version": "1.2.0",
-  "sizeBytes": 22711787,
+  "version": "1.2.1",
+  "sizeBytes": 22711856,
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-08-30T18:27:33.000Z",
-  "updatedAt": "2026-09-27T00:40:59.000Z",
-  "downloads": 3468,
+  "updatedAt": "2026-09-29T15:36:38.000Z",
+  "downloads": 3704,
   "tags": [
    "GADGETS",
    "OUTBREAK",
@@ -220,15 +226,21 @@
    {
     "id": "4FD4A1BD550793F4",
     "name": "Creature Melee AI",
-    "version": "1.3.0"
+    "version": "1.3.1"
    },
    {
     "id": "F1D4B9B5245B36ED",
     "name": "Project Outbreak Zombies",
-    "version": "2.0.1"
+    "version": "2.1.1"
    }
   ],
   "versions": [
+   {
+    "version": "1.2.1",
+    "gameVersion": "1.8.0.13",
+    "createdAt": "2026-09-29T15:36:29.000Z",
+    "size": 22711856
+   },
    {
     "version": "1.2.0",
     "gameVersion": "1.8.0.13",
@@ -282,15 +294,9 @@
     "gameVersion": "1.8.0.10",
     "createdAt": "2026-09-01T21:18:10.000Z",
     "size": 22050399
-   },
-   {
-    "version": "1.0.3",
-    "gameVersion": "1.8.0.10",
-    "createdAt": "2026-09-01T16:22:01.000Z",
-    "size": 22047861
    }
   ],
-  "changelog": "1.2.0\n- Survival Gear now adds its Game Master faction content without overwriting changes another mod made to the base factions.\n- Gear lists after a faction's own items in arsenals, loot and saved loadouts.\n- Electric fence, petrol, napalm and lure scheduling now share the family scheduler while keeping their existing player-facing timing and behavior.\n- Timer-driven lures use one arming path, with their existing fuse lengths and effects unchanged.\n- A thrown spear clears from the throwing player's hand without dropping their other weapon.",
+  "changelog": "Fixed: an electric fence now rebuilds its wiring whenever its sections change. Two different layouts could add up to the same check value and keep the old wiring.\n\nPetrol trails skip links that already exist before they run water and collision checks. New links behave as before.\n\nHostile scanning for gadgets does less work. Range, timing and results are unchanged.",
   "preview": "https://ar-gcp-cdn.bistudio.com/image/50f0/70743126ffaf4c694e4506551cbf16b5792a9cb03a44a105d4a5a54cd86f/280700.jpg",
   "previewThumbs": [
    "https://ar-gcp-cdn.bistudio.com/image/e37d/dfafedce4959e15b52b2a75c3e7bd274aaec1e373dd7958adf0fa9c26b10/151800.jpg",
