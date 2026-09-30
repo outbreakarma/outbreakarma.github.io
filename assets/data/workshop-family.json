@@ -8,12 +8,12 @@
   "license": "Arma Public License (APL)",
   "rating": 0.96,
   "ratingCount": 23,
-  "version": "1.2.0",
-  "sizeBytes": 10158593,
+  "version": "1.2.1",
+  "sizeBytes": 10158442,
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-08-30T18:29:18.000Z",
-  "updatedAt": "2026-09-27T00:39:29.000Z",
-  "downloads": 7245,
+  "updatedAt": "2026-09-29T15:35:10.000Z",
+  "downloads": 7261,
   "tags": [
    "INFECTION",
    "OUTBREAK",
@@ -24,15 +24,21 @@
    {
     "id": "4FD4A1BD550793F4",
     "name": "Creature Melee AI",
-    "version": "1.3.0"
+    "version": "1.3.1"
    },
    {
     "id": "F1D4B9B5245B36ED",
     "name": "Project Outbreak Zombies",
-    "version": "2.0.1"
+    "version": "2.1.0"
    }
   ],
   "versions": [
+   {
+    "version": "1.2.1",
+    "gameVersion": "1.8.0.13",
+    "createdAt": "2026-09-29T15:35:01.000Z",
+    "size": 10158442
+   },
    {
     "version": "1.2.0",
     "gameVersion": "1.8.0.13",
@@ -86,15 +92,9 @@
     "gameVersion": "1.8.0.10",
     "createdAt": "2026-09-01T14:09:56.000Z",
     "size": 3557959
-   },
-   {
-    "version": "1.0.1",
-    "gameVersion": "1.8.0.10",
-    "createdAt": "2026-09-01T07:37:01.000Z",
-    "size": 3556974
    }
   ],
-  "changelog": "1.2.0\n- Infected zombies now join their correct horde when they rise. If a turn cannot finish, it stops cleanly instead of reporting the same error forever.\n- Infection yields when a Game Master deliberately zombifies a player, allowing the player to die and respawn normally while the old body becomes an AI zombie.\n- An infected player turns into a zombie when they die. Respawning later does not delay that zombie. A shot that destroys the head still stops the turn.\n- The new body keeps the gear they were carrying. Guns drop by default. The new Infection setting can keep them stowed on the zombie instead; the global Outbreak setting also enables this. Zombies cannot use them.\n- Player corpse handoffs remain compatible with add-ons built against Infection 1.1.0.\n- Large infected populations keep the existing bounded work limit.",
+  "changelog": "A dying infected body keeps the side it fell on, face down or face up. It plays one dying animation that starts and ends on that lying pose, and the zombie rises from the same pose with no cut.\n\nNew setting, Terminal Kneel Percent (default 50). A standing or crouching victim sometimes sinks to the knees for about four seconds before the collapse. A kneeling player cannot move while it plays.\n\nArmaVision (photo mode) camera properties open normally again. Infection settings appear only in the Game Master edit list.",
   "preview": "https://ar-gcp-cdn.bistudio.com/image/890a/2e690a44cd0ecea4b7e7e336db3d449f24c67280e27b944b11a6367bbd43/259454.jpg",
   "previewThumbs": [
    "https://ar-gcp-cdn.bistudio.com/image/2ee0/8108bfa63848f0565577b852b3d6bf0f53839d070af590ff24e1f9e19328/140121.jpg",
@@ -306,16 +306,16 @@
   "name": "Creature Melee AI",
   "author": "Project Outbreak",
   "summary": "A flexible foundation for custom melee creatures.",
-  "description": "Creature Melee AI gives modders the core behavior needed for close-range enemies. Attacks and presentation remain replaceable, allowing each project to build its own identity.\n\n\nPowers Project Outbreak Zombies.\nFor questions, join the Discord Server: \nhttps://discord.gg/JumfhFujRF\n\n\nReleased under the Arma Public License (APL).\n\n\nCode and animation for weapons melee combat is adapted from Melee Combat Extended by Sanxisan, used under the Arma Public License. Thanks to the great Sanxisan for releasing this cool mod and adding guidance! \n\nhttps://reforger.armaplatform.com/workshop/6595113A3678CF5D-MeleeCombatExtended",
+  "description": "Creature Melee AI gives modders the core behavior needed for close-range enemies. Attacks and presentation remain replaceable, allowing each project to build its own identity.\n\n\nPowers Project Outbreak Zombies.\nFor questions, join the Discord Server: \nhttps://discord.gg/JumfhFujRF\n\n\nReleased under the Arma Public License (APL).\n\n\nCode and animation for weapons melee combat is adapted from Melee Combat Extended by Sanxisan, used under the Arma Public License. Thanks to the great Sanxisan for releasing his cool melee weapon mod and adding guidance! \n\nhttps://reforger.armaplatform.com/workshop/6595113A3678CF5D-MeleeCombatExtended",
   "license": "Arma Public License (APL)",
   "rating": 1,
-  "ratingCount": 7,
-  "version": "1.3.0",
-  "sizeBytes": 1191356,
+  "ratingCount": 8,
+  "version": "1.3.1",
+  "sizeBytes": 1197790,
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-08-30T18:18:07.000Z",
-  "updatedAt": "2026-09-27T00:34:19.000Z",
-  "downloads": 14830,
+  "updatedAt": "2026-09-29T15:31:03.000Z",
+  "downloads": 15805,
   "tags": [
    "CHARACTERS",
    "CREATURES",
@@ -328,6 +328,12 @@
   ],
   "dependencies": [],
   "versions": [
+   {
+    "version": "1.3.1",
+    "gameVersion": "1.8.0.13",
+    "createdAt": "2026-09-29T15:30:55.000Z",
+    "size": 1197790
+   },
    {
     "version": "1.3.0",
     "gameVersion": "1.8.0.13",
@@ -381,15 +387,9 @@
     "gameVersion": "1.8.0.10",
     "createdAt": "2026-09-01T12:22:17.000Z",
     "size": 973151
-   },
-   {
-    "version": "1.0.2",
-    "gameVersion": "1.8.0.10",
-    "createdAt": "2026-09-01T07:30:40.000Z",
-    "size": 972544
    }
   ],
-  "changelog": "1.3.0\n- Creatures that reach a dead end while chasing or following a sound now try another route instead of standing in the same place.\n- Creatures can strike a prone or unconscious target that is within reach.\n- Creature Melee AI now adds its Game Master faction without overwriting changes another mod made to the base factions.\n- Shared scheduling and contact code reduce duplicated work while preserving the existing creature profiles and combat settings.",
+  "changelog": "Adds a shared vehicle launch that other add-ons can give to their creatures.\n\nImproved compatibility with servers that customize vehicle cleanup and persistence.",
   "preview": "https://ar-gcp-cdn.bistudio.com/image/e345/f3b99d0c738344cd8d7364e0b3a3b1ada801834676f2a32b6473f50b0675/95814.jpg",
   "previewThumbs": [
    "https://ar-gcp-cdn.bistudio.com/image/826f/ac590b7bcada4b68dbb43c904a60861ba906bcc485de784f311194106075/55712.jpg",
@@ -414,7 +414,7 @@
   "gameVersion": "1.8.0.10",
   "createdAt": "2026-08-09T15:04:29.000Z",
   "updatedAt": "2026-08-30T20:00:54.000Z",
-  "downloads": 3228,
+  "downloads": 3251,
   "tags": [
    "AI",
    "REARM",
