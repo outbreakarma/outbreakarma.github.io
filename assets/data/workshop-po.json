@@ -7,12 +7,12 @@
  "license": "Arma Public License (APL)",
  "rating": 0.96,
  "ratingCount": 80,
- "version": "2.1.3",
- "sizeBytes": 203323212,
+ "version": "2.2.0",
+ "sizeBytes": 215107327,
  "gameVersion": "1.8.0.13",
  "createdAt": "2026-08-30T18:23:05.000Z",
- "updatedAt": "2026-10-01T14:29:04.000Z",
- "downloads": 18504,
+ "updatedAt": "2026-10-03T16:36:23.000Z",
+ "downloads": 19591,
  "tags": [
   "CHARACTERS",
   "INFECTION",
@@ -27,10 +27,16 @@
   {
    "id": "4FD4A1BD550793F4",
    "name": "Creature Melee AI",
-   "version": "1.4.0"
+   "version": "1.5.0"
   }
  ],
  "versions": [
+  {
+   "version": "2.2.0",
+   "gameVersion": "1.8.0.13",
+   "createdAt": "2026-10-03T16:34:47.000Z",
+   "size": 215107327
+  },
   {
    "version": "2.1.3",
    "gameVersion": "1.8.0.13",
@@ -84,15 +90,9 @@
    "gameVersion": "1.8.0.13",
    "createdAt": "2026-09-14T07:39:36.000Z",
    "size": 2390084122
-  },
-  {
-   "version": "1.3.0",
-   "gameVersion": "1.8.0.13",
-   "createdAt": "2026-09-14T06:02:36.000Z",
-   "size": 2390083631
   }
  ],
- "changelog": "",
+ "changelog": "2.2.0\n- Standing zombies can climb suitable house walls to pursue people on rooftops.\n- Removed the redundant Climber and Climbers x4 Game Master cards. Existing mission placements remain compatible.\n- Improved wall grips, pull-over and movement on sloping roofs.\n- Reduced routine climbing logs on servers.\n- Safe Zones can kill zombies when critical kills only is enabled.\n- Fixed horde population tracking across spawner restarts.\n- Added concise server logs for Safe Zone and Spawner settings.\n- Restored the Nephilim's broad body on dedicated-server clients through holding, throwing and recovery.\n- Corrected the position of players held by a Nephilim. Their dropped weapons fall to the ground instead of floating.\n- Possessed creatures no longer get pulled into automatic corpse feeding.\n- Bodies that cannot reanimate in place can use nearby clear ground as a fallback.",
  "preview": "https://ar-gcp-cdn.bistudio.com/image/2acf/50af531c77fb7b5f21ca79df26665c5a3e9f10ff3b0c4d08f6876c6370b0/158082.jpg",
  "previewThumbs": [
   "https://ar-gcp-cdn.bistudio.com/image/4cca/713c0a0d13d35c848872dd5398d4de1a8324f8931ead8fd865d03c85c843/86448.jpg",
@@ -100,6 +100,16 @@
   "https://ar-gcp-cdn.bistudio.com/image/5db5/65f032b063ddb913c8c352ca734ee4de391de0e49fdfc5ebb8e9733c4194/11059.jpg"
  ],
  "screenshots": [
+  {
+   "url": "https://ar-gcp-cdn.bistudio.com/image/454a/56d450b61fc74493f7a01799bae39470b133b97419b4a9cdaf94165cb2a4/338626.jpg",
+   "width": 1920,
+   "height": 1080,
+   "thumbs": [
+    "https://ar-gcp-cdn.bistudio.com/image/70b4/df2d11ac8529363855e5bb96791da98c356c4296a64b5fe3e15c4f2f287d/204307.jpg",
+    "https://ar-gcp-cdn.bistudio.com/image/a4db/4e68fcfcfd0722730db2820981482169029f094ff65c9134e96bbaad940d/62565.jpg",
+    "https://ar-gcp-cdn.bistudio.com/image/6495/21c0b1dbfe5769637b237e39984107f4c05ca8144852f2c618678954a157/17435.jpg"
+   ]
+  },
   {
    "url": "https://ar-gcp-cdn.bistudio.com/image/77ff/141ba6c5a704bf26a1f712258c5425727c9d6827e14916d9cf5f77238c7e/309394.jpg",
    "width": 1920,
@@ -118,16 +128,6 @@
     "https://ar-gcp-cdn.bistudio.com/image/13b5/75234680c932bbedada64b818e1fcdcfd8820a45e0998080c0d7fd195bd3/310409.jpg",
     "https://ar-gcp-cdn.bistudio.com/image/8872/1536e006d421621ff83b88fde5bbb100ee9afb0491b83120d9b068ce5dfd/97505.jpg",
     "https://ar-gcp-cdn.bistudio.com/image/bd79/bbecd6d9a8bcc34df811a9adddc5791fb081f10e16f47c81f76bff07b2e4/26086.jpg"
-   ]
-  },
-  {
-   "url": "https://ar-gcp-cdn.bistudio.com/image/454a/56d450b61fc74493f7a01799bae39470b133b97419b4a9cdaf94165cb2a4/338626.jpg",
-   "width": 1920,
-   "height": 1080,
-   "thumbs": [
-    "https://ar-gcp-cdn.bistudio.com/image/70b4/df2d11ac8529363855e5bb96791da98c356c4296a64b5fe3e15c4f2f287d/204307.jpg",
-    "https://ar-gcp-cdn.bistudio.com/image/a4db/4e68fcfcfd0722730db2820981482169029f094ff65c9134e96bbaad940d/62565.jpg",
-    "https://ar-gcp-cdn.bistudio.com/image/6495/21c0b1dbfe5769637b237e39984107f4c05ca8144852f2c618678954a157/17435.jpg"
    ]
   }
  ],
