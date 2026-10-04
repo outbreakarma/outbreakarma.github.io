@@ -8,12 +8,12 @@
   "license": "Arma Public License (APL)",
   "rating": 0.96,
   "ratingCount": 23,
-  "version": "1.2.1",
-  "sizeBytes": 10158442,
+  "version": "1.2.2",
+  "sizeBytes": 10158686,
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-08-30T18:29:18.000Z",
-  "updatedAt": "2026-09-29T15:35:10.000Z",
-  "downloads": 8607,
+  "updatedAt": "2026-10-03T16:40:58.000Z",
+  "downloads": 9290,
   "tags": [
    "INFECTION",
    "OUTBREAK",
@@ -24,15 +24,21 @@
    {
     "id": "4FD4A1BD550793F4",
     "name": "Creature Melee AI",
-    "version": "1.4.0"
+    "version": "1.5.0"
    },
    {
     "id": "F1D4B9B5245B36ED",
     "name": "Project Outbreak Zombies",
-    "version": "2.1.3"
+    "version": "2.2.0"
    }
   ],
   "versions": [
+   {
+    "version": "1.2.2",
+    "gameVersion": "1.8.0.13",
+    "createdAt": "2026-10-03T16:40:51.000Z",
+    "size": 10158686
+   },
    {
     "version": "1.2.1",
     "gameVersion": "1.8.0.13",
@@ -86,15 +92,9 @@
     "gameVersion": "1.8.0.13",
     "createdAt": "2026-09-04T19:55:22.000Z",
     "size": 10144979
-   },
-   {
-    "version": "1.0.2",
-    "gameVersion": "1.8.0.10",
-    "createdAt": "2026-09-01T14:09:56.000Z",
-    "size": 3557959
    }
   ],
-  "changelog": "A dying infected body keeps the side it fell on, face down or face up. It plays one dying animation that starts and ends on that lying pose, and the zombie rises from the same pose with no cut.\n\nNew setting, Terminal Kneel Percent (default 50). A standing or crouching victim sometimes sinks to the knees for about four seconds before the collapse. A kneeling player cannot move while it plays.\n\nArmaVision (photo mode) camera properties open normally again. Infection settings appear only in the Game Master edit list.",
+  "changelog": "1.2.2\n- Uninfected unconscious players can respawn normally again.\n- Curing an unconscious player restores their option to respawn. Infected unconscious players keep their rescue and turning window.\n- Delayed respawn requests cannot kill a newly respawned character.",
   "preview": "https://ar-gcp-cdn.bistudio.com/image/890a/2e690a44cd0ecea4b7e7e336db3d449f24c67280e27b944b11a6367bbd43/259454.jpg",
   "previewThumbs": [
    "https://ar-gcp-cdn.bistudio.com/image/2ee0/8108bfa63848f0565577b852b3d6bf0f53839d070af590ff24e1f9e19328/140121.jpg",
@@ -114,12 +114,12 @@
   "license": "Arma Public License (APL)",
   "rating": 0.93,
   "ratingCount": 15,
-  "version": "1.3.1",
-  "sizeBytes": 16651883,
+  "version": "1.3.2",
+  "sizeBytes": 16652769,
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-08-30T18:31:09.000Z",
-  "updatedAt": "2026-09-29T15:35:48.000Z",
-  "downloads": 7072,
+  "updatedAt": "2026-10-03T16:42:37.000Z",
+  "downloads": 7675,
   "tags": [
    "OUTBREAK",
    "SYSTEMS",
@@ -129,15 +129,21 @@
    {
     "id": "4FD4A1BD550793F4",
     "name": "Creature Melee AI",
-    "version": "1.4.0"
+    "version": "1.5.0"
    },
    {
     "id": "F1D4B9B5245B36ED",
     "name": "Project Outbreak Zombies",
-    "version": "2.1.3"
+    "version": "2.2.0"
    }
   ],
   "versions": [
+   {
+    "version": "1.3.2",
+    "gameVersion": "1.8.0.13",
+    "createdAt": "2026-10-03T16:42:30.000Z",
+    "size": 16652769
+   },
    {
     "version": "1.3.1",
     "gameVersion": "1.8.0.13",
@@ -187,7 +193,7 @@
     "size": 206417
    }
   ],
-  "changelog": "Fixed: ArmaVision (photo mode) camera properties open normally again. Breach settings appear only in the Game Master edit list.",
+  "changelog": "1.3.2\n- Breach allows zombies to finish a wall approach or active climb.\n- Zombies can open a usable door in either direction before breaching it.",
   "preview": "https://ar-gcp-cdn.bistudio.com/image/5bed/0a8b466346b0229c97c156bbf024f76419a6e1eb8b960a36b00e9145fbce/224343.jpg",
   "previewThumbs": [
    "https://ar-gcp-cdn.bistudio.com/image/7d75/5da9027f13bd2eb53c9792887fcf71e0a0198a257243bda52f28bcf15e8e/115565.jpg",
@@ -212,7 +218,7 @@
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-08-30T18:27:33.000Z",
   "updatedAt": "2026-10-01T14:38:36.000Z",
-  "downloads": 4337,
+  "downloads": 4527,
   "tags": [
    "GADGETS",
    "OUTBREAK",
@@ -226,12 +232,12 @@
    {
     "id": "4FD4A1BD550793F4",
     "name": "Creature Melee AI",
-    "version": "1.4.0"
+    "version": "1.5.0"
    },
    {
     "id": "F1D4B9B5245B36ED",
     "name": "Project Outbreak Zombies",
-    "version": "2.1.3"
+    "version": "2.2.0"
    }
   ],
   "versions": [
