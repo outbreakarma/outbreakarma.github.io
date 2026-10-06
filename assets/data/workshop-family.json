@@ -322,12 +322,12 @@
   "license": "Arma Public License (APL)",
   "rating": 1,
   "ratingCount": 10,
-  "version": "1.5.0",
-  "sizeBytes": 1774578,
+  "version": "1.6.0",
+  "sizeBytes": 1837481,
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-08-30T18:18:07.000Z",
-  "updatedAt": "2026-10-03T16:30:07.000Z",
-  "downloads": 20535,
+  "updatedAt": "2026-10-06T05:21:03.000Z",
+  "downloads": 21292,
   "tags": [
    "CHARACTERS",
    "CREATURES",
@@ -340,6 +340,12 @@
   ],
   "dependencies": [],
   "versions": [
+   {
+    "version": "1.6.0",
+    "gameVersion": "1.8.0.13",
+    "createdAt": "2026-10-06T05:20:58.000Z",
+    "size": 1837481
+   },
    {
     "version": "1.5.0",
     "gameVersion": "1.8.0.13",
@@ -393,15 +399,9 @@
     "gameVersion": "1.8.0.13",
     "createdAt": "2026-09-05T22:18:22.000Z",
     "size": 993823
-   },
-   {
-    "version": "1.1.0",
-    "gameVersion": "1.8.0.13",
-    "createdAt": "2026-09-04T19:47:04.000Z",
-    "size": 993893
    }
   ],
-  "changelog": "1.5.0\nCreature creators can reuse a shared claw-slap profile, register separate durability settings for each creature type, and fit native first- and third-person cameras to their creatures. Durability changes preserve existing wounds and dead bodies. Startup settings can be configured in the profile Creatures JSON. Existing creatures retain their current behavior unless an addon opts into the new capabilities.\n- Game Masters can let unarmed characters lift, walk with and throw another character. Held characters keep moving, sit higher on the hands and unlock after release.\n- Fixed thrown players dropping at the release point on their own client while other players saw them fly.",
+  "changelog": "1.6.0\nFlying creatures can keep their own flight animations while carrying a person and use authored talon or beak grip points. Fixed authored carry clips, grip bones and timings being overwritten by shared defaults. A refused pickup can retry after a short delay; successful grabs retain their normal cooldown. Improved precise pursuit to helicopter grab positions and recovery after a cancelled approach.",
   "preview": "https://ar-gcp-cdn.bistudio.com/image/e345/f3b99d0c738344cd8d7364e0b3a3b1ada801834676f2a32b6473f50b0675/95814.jpg",
   "previewThumbs": [
    "https://ar-gcp-cdn.bistudio.com/image/826f/ac590b7bcada4b68dbb43c904a60861ba906bcc485de784f311194106075/55712.jpg",
