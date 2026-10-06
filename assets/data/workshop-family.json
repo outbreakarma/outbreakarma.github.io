@@ -8,12 +8,12 @@
   "license": "Arma Public License (APL)",
   "rating": 0.96,
   "ratingCount": 23,
-  "version": "1.2.2",
-  "sizeBytes": 10158686,
+  "version": "1.3.0",
+  "sizeBytes": 10159996,
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-08-30T18:29:18.000Z",
-  "updatedAt": "2026-10-03T16:40:58.000Z",
-  "downloads": 9654,
+  "updatedAt": "2026-10-06T13:58:46.000Z",
+  "downloads": 9936,
   "tags": [
    "INFECTION",
    "OUTBREAK",
@@ -24,15 +24,21 @@
    {
     "id": "4FD4A1BD550793F4",
     "name": "Creature Melee AI",
-    "version": "1.5.0"
+    "version": "1.7.0"
    },
    {
     "id": "F1D4B9B5245B36ED",
     "name": "Project Outbreak Zombies",
-    "version": "2.2.0"
+    "version": "2.3.0"
    }
   ],
   "versions": [
+   {
+    "version": "1.3.0",
+    "gameVersion": "1.8.0.13",
+    "createdAt": "2026-10-06T13:58:37.000Z",
+    "size": 10159996
+   },
    {
     "version": "1.2.2",
     "gameVersion": "1.8.0.13",
@@ -86,15 +92,9 @@
     "gameVersion": "1.8.0.13",
     "createdAt": "2026-09-05T22:22:11.000Z",
     "size": 10144998
-   },
-   {
-    "version": "1.0.3",
-    "gameVersion": "1.8.0.13",
-    "createdAt": "2026-09-04T19:55:22.000Z",
-    "size": 10144979
    }
   ],
-  "changelog": "1.2.2\n- Uninfected unconscious players can respawn normally again.\n- Curing an unconscious player restores their option to respawn. Infected unconscious players keep their rescue and turning window.\n- Delayed respawn requests cannot kill a newly respawned character.",
+  "changelog": "1.3.0\n- Place one Infection System and choose repeating daily activity hours on the in-game clock, including overnight windows.\n- Configure the schedule through Game Master or outbreak.json. It is off by default.",
   "preview": "https://ar-gcp-cdn.bistudio.com/image/890a/2e690a44cd0ecea4b7e7e336db3d449f24c67280e27b944b11a6367bbd43/259454.jpg",
   "previewThumbs": [
    "https://ar-gcp-cdn.bistudio.com/image/2ee0/8108bfa63848f0565577b852b3d6bf0f53839d070af590ff24e1f9e19328/140121.jpg",
@@ -119,7 +119,7 @@
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-08-30T18:31:09.000Z",
   "updatedAt": "2026-10-03T16:42:37.000Z",
-  "downloads": 8004,
+  "downloads": 8225,
   "tags": [
    "OUTBREAK",
    "SYSTEMS",
@@ -129,12 +129,12 @@
    {
     "id": "4FD4A1BD550793F4",
     "name": "Creature Melee AI",
-    "version": "1.5.0"
+    "version": "1.7.0"
    },
    {
     "id": "F1D4B9B5245B36ED",
     "name": "Project Outbreak Zombies",
-    "version": "2.2.0"
+    "version": "2.3.0"
    }
   ],
   "versions": [
@@ -218,7 +218,7 @@
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-08-30T18:27:33.000Z",
   "updatedAt": "2026-10-01T14:38:36.000Z",
-  "downloads": 4693,
+  "downloads": 4810,
   "tags": [
    "GADGETS",
    "OUTBREAK",
@@ -232,12 +232,12 @@
    {
     "id": "4FD4A1BD550793F4",
     "name": "Creature Melee AI",
-    "version": "1.5.0"
+    "version": "1.7.0"
    },
    {
     "id": "F1D4B9B5245B36ED",
     "name": "Project Outbreak Zombies",
-    "version": "2.2.0"
+    "version": "2.3.0"
    }
   ],
   "versions": [
