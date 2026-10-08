@@ -314,6 +314,879 @@
   "previewFile": "assets/family/6B9BD0DA529C0D1E.jpg"
  },
  {
+  "id": "384E32C2A832444E",
+  "name": "Project Outbreak Variety",
+  "author": "Project Outbreak",
+  "summary": "Optional Project Outbreak zombie appearances, including many new Zombie skins.",
+  "description": "Adds the optional normal-sized zombie appearance families for Project Outbreak. Install Project Outbreak first, then this pack.\n\nCredits and third-party licences:\n- Zombies Pack V4, Zombie Male AAB, Giant Zombie (Nephilim) and Decayed Zombie B by Studio New Punch, from Fab, used under the Fab Standard License. Modified and rigged for Arma Reforger.\n-  A huge thank you also goes to AlienBallien (BallienCreatures) for  native creature ragdoll approach, extremely helpful for custom creatures in this mod and was used under APL.",
+  "license": "Arma Public License (APL)",
+  "rating": 1,
+  "ratingCount": 13,
+  "version": "1.1.0",
+  "sizeBytes": 734323032,
+  "gameVersion": "1.8.0.13",
+  "createdAt": "2026-09-27T03:27:42.000Z",
+  "updatedAt": "2026-10-06T13:54:31.000Z",
+  "downloads": 2227,
+  "tags": [
+   "CHARACTERS",
+   "INFECTION",
+   "OUTBREAK",
+   "ZOMBIES"
+  ],
+  "dependencies": [
+   {
+    "id": "4FD4A1BD550793F4",
+    "name": "Creature Melee AI",
+    "version": "1.7.0"
+   },
+   {
+    "id": "F1D4B9B5245B36ED",
+    "name": "Project Outbreak Zombies",
+    "version": "2.3.0"
+   }
+  ],
+  "versions": [
+   {
+    "version": "1.1.0",
+    "gameVersion": "1.8.0.13",
+    "createdAt": "2026-10-06T13:50:05.000Z",
+    "size": 734323032
+   },
+   {
+    "version": "1.0.1",
+    "gameVersion": "1.8.0.13",
+    "createdAt": "2026-09-29T15:37:40.000Z",
+    "size": 697792668
+   },
+   {
+    "version": "1.0.0",
+    "gameVersion": "1.8.0.13",
+    "createdAt": "2026-09-27T03:27:42.000Z",
+    "size": 696194989
+   }
+  ],
+  "changelog": "1.1.0\n- Added a decayed female firefighter with repaired worn gear, finer hair, a readable FIRE helmet badge, fitted straps and a weathered breathing tank.\n- A direct bullet hit on her breathing tank releases one short-range pressure blast that damages nearby characters, with a bang, air, dust and small cosmetic chips, without flames. It is designed to happen once per tank. Hits to the rest of the body do not trigger it, and the cylinder stays attached and visually intact afterward.",
+  "preview": "https://ar-gcp-cdn.bistudio.com/image/2053/f038bf59f6c6534176196a61137d6dbe4fb722ca71070f0d6eeed21f5d59/184251.jpg",
+  "previewThumbs": [
+   "https://ar-gcp-cdn.bistudio.com/image/2266/e99e443af4641f628f1c02046ad09313dcfc4f2cc887252d74a677a59a27/106924.jpg",
+   "https://ar-gcp-cdn.bistudio.com/image/66d0/5559600eb061f60083fb191ca547dd1f0f28ade2774346f1c9fc27567497/36460.jpg",
+   "https://ar-gcp-cdn.bistudio.com/image/0eb0/e2925a8d8aa1eced0527d0eb6536304e00f06cca32bb75186eb5208f50c6/12381.jpg"
+  ],
+  "screenshots": [],
+  "workshopUrl": "https://reforger.armaplatform.com/workshop/384E32C2A832444E",
+  "previewFile": "assets/family/384E32C2A832444E_b60dd8c7a0.jpg"
+ },
+ {
+  "id": "297640FBAC0C46C3",
+  "name": "Special Zombies and Creatures",
+  "author": "Project Outbreak",
+  "summary": "Optional Project Outbreak special zombies and creatures, including the Nephilim and Nightingale.",
+  "description": "Adds optional special zombies and creatures to Project Outbreak. \n\nCurrent Roster:\n- (NEW) the Abomination, multiheaded freak. He only goes down if you kill all his heads (credit to Ghost35643 for concept!)\n- the Nephilim, a towering giant zombie with shirtless or military appearances, brutal throws, contact chokes, knockdown attacks\n- the Nightingale, a crying Half-Zombie who attracts hordes and runs away, hides inside buildings, closes doors, and uses her screams to knock nearby survivors down. Eliminate her to stop the horde!\n \n\nCredits and third-party licences:\n- Giant Zombie (Nephilim) by Studio New Punch, from Fab, used under the Fab Standard License. Modified and rigged for Arma Reforger.\n- Zombie Female: Nurse (the Nightingale) from Fab, used under the Fab Standard License.\n- Nephilim vocals: Zombies Sound Pack by artisticdude (CC0 1.0). https://opengameart.org/content/zombies-sound-pack\n- Nightingale vocal \"Crying female low tone Voice Over\" by JeanMyna_VA (OpenGameArt), licensed CC BY 3.0 (https://creativecommons.org/licenses/by/3.0/), edited. https://opengameart.org/content/crying-female-low-tone-voice-over-vocal-sound-for-character\n- Further Nightingale vocal sources under CC0 1.0, with thanks: WuxiaScrub, tcrocker68, AlucardsBride, RebekahDay, purplereptar, Samusasi, Pennywind.\n- Nightingale body base: MakeHuman hm08 topology and skin data (CC0 1.0); joepal_plain_bra (CC0); mindfront_nails_01_short by Mindfront (CC0 1.0).",
+  "license": "Arma Public License (APL)",
+  "rating": 1,
+  "ratingCount": 15,
+  "version": "1.1.3",
+  "sizeBytes": 345870896,
+  "gameVersion": "1.8.0.13",
+  "createdAt": "2026-09-27T03:41:17.000Z",
+  "updatedAt": "2026-10-06T13:58:23.000Z",
+  "downloads": 3268,
+  "tags": [
+   "CHARACTERS",
+   "OUTBREAK",
+   "SPECIAL",
+   "ZOMBIES"
+  ],
+  "dependencies": [
+   {
+    "id": "4FD4A1BD550793F4",
+    "name": "Creature Melee AI",
+    "version": "1.7.0"
+   },
+   {
+    "id": "F1D4B9B5245B36ED",
+    "name": "Project Outbreak Zombies",
+    "version": "2.3.0"
+   }
+  ],
+  "versions": [
+   {
+    "version": "1.1.3",
+    "gameVersion": "1.8.0.13",
+    "createdAt": "2026-10-06T13:55:55.000Z",
+    "size": 345870896
+   },
+   {
+    "version": "1.1.2",
+    "gameVersion": "1.8.0.13",
+    "createdAt": "2026-10-03T16:38:21.000Z",
+    "size": 347338504
+   },
+   {
+    "version": "1.1.1",
+    "gameVersion": "1.8.0.13",
+    "createdAt": "2026-10-01T14:33:40.000Z",
+    "size": 347338359
+   },
+   {
+    "version": "1.1.0",
+    "gameVersion": "1.8.0.13",
+    "createdAt": "2026-10-01T12:44:52.000Z",
+    "size": 347338253
+   },
+   {
+    "version": "1.0.2",
+    "gameVersion": "1.8.0.13",
+    "createdAt": "2026-09-29T15:43:49.000Z",
+    "size": 286795316
+   },
+   {
+    "version": "1.0.1",
+    "gameVersion": "1.8.0.13",
+    "createdAt": "2026-09-27T03:47:56.000Z",
+    "size": 286261472
+   },
+   {
+    "version": "1.0.0",
+    "gameVersion": "1.8.0.13",
+    "createdAt": "2026-09-27T03:41:17.000Z",
+    "size": 286261472
+   }
+  ],
+  "changelog": "1.1.3\n- New Nightingale cries, screams and death sounds.\n- Balanced the loudness of individual takes within each voice type.\n- Added Nightingale swing sounds. Her horde-calling scream keeps its existing behavior.",
+  "preview": "https://ar-gcp-cdn.bistudio.com/image/4b24/99d64077c30e62e9a0d8ed0ab163fe1b7bac2e78509ca21785dab0cd6b9e/174704.jpg",
+  "previewThumbs": [
+   "https://ar-gcp-cdn.bistudio.com/image/28cd/aa089bafe98a3234848bef4bc56c51fbaafeb93b300c9fed496c3de38363/100238.jpg",
+   "https://ar-gcp-cdn.bistudio.com/image/9a4c/14af60ef238df81c33eed8ce485c72d690aca6deeefcf690e8b69ff92857/33685.jpg",
+   "https://ar-gcp-cdn.bistudio.com/image/dbc5/42782375ebee8ba24a2e4d54af116d16a83913749090e8bae54b9a56d8b6/11214.jpg"
+  ],
+  "screenshots": [
+   {
+    "url": "https://ar-gcp-cdn.bistudio.com/image/1fc8/8a63bd623a4be5a53c238440872f3d0dcba614da9ee493f92e93780b22f2/237482.jpg",
+    "width": 1600,
+    "height": 900,
+    "thumbs": [
+     "https://ar-gcp-cdn.bistudio.com/image/3138/704623ee73c6df14d5f562960e77e99b549f98962823055204c173604972/201550.jpg",
+     "https://ar-gcp-cdn.bistudio.com/image/6c42/60419331076e2829df248f149290f6a56b9dfc1508bc6aee04a4c2e96d1c/63458.jpg",
+     "https://ar-gcp-cdn.bistudio.com/image/999b/fbaa8a9048af9f37d978c8f59eb8d38496cc25157043e7cba484552b4884/17775.jpg"
+    ]
+   },
+   {
+    "url": "https://ar-gcp-cdn.bistudio.com/image/9fa9/9ee9b51f2ead063be16255b55b26525527af6d5a7ad7db11f180a878b8fe/187209.jpg",
+    "width": 1759,
+    "height": 901,
+    "thumbs": [
+     "https://ar-gcp-cdn.bistudio.com/image/2a96/cdc976bfd3bfe230e20d5a88726ef4de0516c75d34b5b0eaf820398a1da7/150026.jpg",
+     "https://ar-gcp-cdn.bistudio.com/image/46c2/e6e9e84d2843dd627e2f5e1f77b03de4cddb863f063e641b588f64cefef9/53441.jpg",
+     "https://ar-gcp-cdn.bistudio.com/image/0b4c/2d1a4f81a1022fe7eb3b34e92d9c4ca7bd103ebadbe45fd8095888a88a45/15979.jpg"
+    ]
+   }
+  ],
+  "workshopUrl": "https://reforger.armaplatform.com/workshop/297640FBAC0C46C3",
+  "previewFile": "assets/family/297640FBAC0C46C3_e84180ac45.jpg"
+ },
+ {
+  "id": "0B4FB11C20129700",
+  "name": "Project Outbreak Deadwood",
+  "author": "Project Outbreak",
+  "summary": "A Zombie Apocalypse PvE Project Outbreakscenario on the Glenwood terrain.",
+  "description": "The undead have fully taken over Glenwood, a small American town. It's your job to retake it for the living. \n\nWHAT THIS IS \n- A PvE scenario on the Glenwood terrain, with the town dressed for the outbreak. \n- The infected are always there. They do not wait for a Game Master to place them. \n- Bases and radio relays across the map to take and hold, and a fixed main base to start from. \n- You fight the infected. \n\nWHO MADE THE PARTS \n\nThe outbreak mode is KdK Outbreak Zombie PVE by KdK CaptHero: its director, spawners, objectives and Game Master panel are what runs here. The dressed town is Dead Glenwood by Windy768, on the Glenwood terrain by vap3r, with Placeables for GM by Heine.CRV. The base layout follows MODERN PVE | GLENWOOD by guennyyy. Thank you to all of them; this scenario only arranges their work under APL.",
+  "license": "Arma Public License (APL)",
+  "rating": 0,
+  "ratingCount": 1,
+  "version": "0.1.2",
+  "sizeBytes": 3208147,
+  "gameVersion": "1.8.0.13",
+  "createdAt": "2026-09-22T02:24:31.000Z",
+  "updatedAt": "2026-10-01T07:14:39.000Z",
+  "downloads": 113,
+  "tags": [
+   "SCENARIOS_MP",
+   "SYSTEMS"
+  ],
+  "dependencies": [
+   {
+    "id": "4FD4A1BD550793F4",
+    "name": "Creature Melee AI",
+    "version": "1.7.0"
+   },
+   {
+    "id": "5965550F24A0C152",
+    "name": "Where Am I",
+    "version": "1.2.0"
+   },
+   {
+    "id": "5994AD5A9F33BE57",
+    "name": "Game Master FX",
+    "version": "1.7.0"
+   },
+   {
+    "id": "5B02128D896F7DE8",
+    "name": "WCS_Stryker",
+    "version": "8.3.0"
+   },
+   {
+    "id": "5D0551624969C92E",
+    "name": "Zeliks Character",
+    "version": "1.1.21"
+   },
+   {
+    "id": "5E389BB9F58B79A6",
+    "name": "WCS_SpaceCore",
+    "version": "8.3.0"
+   },
+   {
+    "id": "5EE2A316699473D1",
+    "name": "Third Person Vehicle Only",
+    "version": "1.0.1"
+   },
+   {
+    "id": "5F2944B7474F043F",
+    "name": "Disable Game Master Budgets",
+    "version": "1.0.5"
+   },
+   {
+    "id": "606B100247F5C709",
+    "name": "Bacon Loadout Editor",
+    "version": "1.7.3"
+   },
+   {
+    "id": "6088A3044B7ECBFD",
+    "name": "Keep Gun When Uncon",
+    "version": "1.0.1"
+   },
+   {
+    "id": "60E6F54E174C53C5",
+    "name": "Chungus SMGs",
+    "version": "1.0.50"
+   },
+   {
+    "id": "60ED3CC6E7E40221",
+    "name": "Sikorsky H60 Project",
+    "version": "0.6.56"
+   },
+   {
+    "id": "61110CC4F1FF9C8A",
+    "name": "Placeables for GM byHeine",
+    "version": "3.1.5"
+   },
+   {
+    "id": "612F512CD4CB21D5",
+    "name": "WCS_Earplugs",
+    "version": "8.3.0"
+   },
+   {
+    "id": "61344BDC155A5A28",
+    "name": "Chungus LMGs",
+    "version": "1.0.23"
+   },
+   {
+    "id": "615806DC6C57AF02",
+    "name": "WCS_NATO",
+    "version": "8.3.0"
+   },
+   {
+    "id": "615818DA7C0343FD",
+    "name": "WCS_RU",
+    "version": "8.3.0"
+   },
+   {
+    "id": "6174A376E06661BF",
+    "name": "Brutal Voices",
+    "version": "1.0.1"
+   },
+   {
+    "id": "6190F1B505C08562",
+    "name": "Chungus Launchers",
+    "version": "1.0.34"
+   },
+   {
+    "id": "61BD6595183FCEBD",
+    "name": "Chungus Bolt Guns",
+    "version": "1.0.63"
+   },
+   {
+    "id": "61C74A8B647617DA",
+    "name": "WCS_Attachments",
+    "version": "8.3.0"
+   },
+   {
+    "id": "6209E38AB237098E",
+    "name": "Project Outbreak Breach",
+    "version": "1.3.2"
+   },
+   {
+    "id": "620E584B1D2C96A4",
+    "name": "Chungus Shotguns",
+    "version": "1.0.43"
+   },
+   {
+    "id": "622120A5448725E3",
+    "name": "Bacon Zombies",
+    "version": "1.8.0"
+   },
+   {
+    "id": "6273146ADFE8241D",
+    "name": "WCS_AH-6M",
+    "version": "8.3.0"
+   },
+   {
+    "id": "6276E6E3CC97A22B",
+    "name": "AUS_CORE",
+    "version": "0.1.16"
+   },
+   {
+    "id": "629B2BA37EFFD577",
+    "name": "WCS_Armaments",
+    "version": "8.3.0"
+   },
+   {
+    "id": "62A668F513428630",
+    "name": "WCS_Scopes",
+    "version": "8.3.0"
+   },
+   {
+    "id": "62A711001B8FDEEA",
+    "name": "Chungus Rifles",
+    "version": "1.0.41"
+   },
+   {
+    "id": "62CCD69DD17E4F2F",
+    "name": "AKI_Core",
+    "version": "8.3.0"
+   },
+   {
+    "id": "62FCEB51DF8527B6",
+    "name": "Improved Blood Effect",
+    "version": "1.5.9"
+   },
+   {
+    "id": "63120AE07E6C0966",
+    "name": "WCS_M2A2",
+    "version": "8.3.0"
+   },
+   {
+    "id": "631C3C1AEE9C90BC",
+    "name": "WCS_Sounds",
+    "version": "8.3.0"
+   },
+   {
+    "id": "64CB39E57377C861",
+    "name": "WCS_AH-1S",
+    "version": "8.3.0"
+   },
+   {
+    "id": "64DE57C0A1601D14",
+    "name": "Lunacy Audio",
+    "version": "2.1.2"
+   },
+   {
+    "id": "64EE818E08AFCF94",
+    "name": "MFD Framework",
+    "version": "0.4.9"
+   },
+   {
+    "id": "65157D09F042428A",
+    "name": "GRS - Apparel",
+    "version": "1.0.68"
+   },
+   {
+    "id": "6534B9CEB6D12EE7",
+    "name": "BallienCreatures",
+    "version": "1.6.4"
+   },
+   {
+    "id": "657B064AE0E231DF",
+    "name": "GRS - Patches",
+    "version": "1.0.27"
+   },
+   {
+    "id": "65AD7BCC9F6B3B4E",
+    "name": "ACE Chopping Dev",
+    "version": "1.5.36"
+   },
+   {
+    "id": "65AD7C379CBD394D",
+    "name": "ACE Carrying Dev",
+    "version": "1.5.36"
+   },
+   {
+    "id": "65AD7D0D9941A380",
+    "name": "ACE Core Dev",
+    "version": "1.5.39"
+   },
+   {
+    "id": "65AD7D4099944EBD",
+    "name": "ACE Magazine Repack Dev",
+    "version": "1.5.36"
+   },
+   {
+    "id": "65B60A48AEC31157",
+    "name": "WCS_FMTV",
+    "version": "8.3.1"
+   },
+   {
+    "id": "65CF7AE8574E06D2",
+    "name": "WCS_Weapons",
+    "version": "8.3.0"
+   },
+   {
+    "id": "65DACC64CE785B6C",
+    "name": "GRS - Dev Framework",
+    "version": "1.0.55"
+   },
+   {
+    "id": "6614B4EBC1A63458",
+    "name": "ARMA-RY CORE",
+    "version": "1.0.33"
+   },
+   {
+    "id": "66330AEF351F0EEE",
+    "name": "Glenwood",
+    "version": "1.0.106"
+   },
+   {
+    "id": "663525C5DFA68E7A",
+    "name": "ARMA-RY M14 Battle Rifle",
+    "version": "1.0.8"
+   },
+   {
+    "id": "664AFDC993C9CE1A",
+    "name": "ACE Cook-Off Dev",
+    "version": "1.5.36"
+   },
+   {
+    "id": "665B1AF5996EB7AA",
+    "name": "ARMA-RY M1911A1 PISTOL",
+    "version": "1.0.3"
+   },
+   {
+    "id": "665B3E73D7215B29",
+    "name": "ARMA-RY DELTA 1911",
+    "version": "1.0.3"
+   },
+   {
+    "id": "66731579C7075EB3",
+    "name": "ARMA-RY M79 GRENADE LAUNCHER",
+    "version": "1.0.7"
+   },
+   {
+    "id": "66873087C05E787C",
+    "name": "ARMA-RY M3A1 GREASE GUN",
+    "version": "1.0.7"
+   },
+   {
+    "id": "66B523AD189F3233",
+    "name": "Bandit Gear",
+    "version": "0.16.2"
+   },
+   {
+    "id": "66C4458756B32594",
+    "name": "Bandit Faction",
+    "version": "0.3.2"
+   },
+   {
+    "id": "66D6340C1D565C98",
+    "name": "Chungus Core",
+    "version": "1.0.8"
+   },
+   {
+    "id": "6727292F1032D5D1",
+    "name": "Build How You Want OB21",
+    "version": "1.0.3"
+   },
+   {
+    "id": "6737675F7F2D6992",
+    "name": "GRS - PMC",
+    "version": "1.0.22"
+   },
+   {
+    "id": "6846EB65C0A446EE",
+    "name": "All-In-One Arsenals",
+    "version": "0.0.1"
+   },
+   {
+    "id": "685D2419C9F8D128",
+    "name": "Console Optimization Explosion",
+    "version": "1.7.1"
+   },
+   {
+    "id": "685EF097DEB91133",
+    "name": "Console Optimizion Engines",
+    "version": "1.7.1"
+   },
+   {
+    "id": "688239728B763003",
+    "name": "Dead Glenwood",
+    "version": "1.0.2"
+   },
+   {
+    "id": "68EAA4B96976D557",
+    "name": "ACE Facepaint Dev",
+    "version": "1.5.36"
+   },
+   {
+    "id": "68F006D910E7546F",
+    "name": "WCS_Weapon_Scripts",
+    "version": "8.3.0"
+   },
+   {
+    "id": "6A46DA328E97EC0A",
+    "name": "KdK_Outbreak",
+    "version": "1.1.4"
+   },
+   {
+    "id": "6B9BD0DA529C0D1E",
+    "name": "Project Outbreak Gadgets",
+    "version": "1.2.2"
+   },
+   {
+    "id": "7B763100BAFA1F9A",
+    "name": "Project Outbreak Infection",
+    "version": "1.3.0"
+   },
+   {
+    "id": "F1D4B9B5245B36ED",
+    "name": "Project Outbreak Zombies",
+    "version": "2.3.0"
+   }
+  ],
+  "versions": [
+   {
+    "version": "0.1.2",
+    "gameVersion": "1.8.0.13",
+    "createdAt": "2026-10-01T07:14:33.000Z",
+    "size": 3208147
+   },
+   {
+    "version": "0.1.1",
+    "gameVersion": "1.8.0.13",
+    "createdAt": "2026-09-22T07:13:05.000Z",
+    "size": 3170611
+   },
+   {
+    "version": "0.1.0",
+    "gameVersion": "1.8.0.13",
+    "createdAt": "2026-09-22T02:24:31.000Z",
+    "size": 1684348
+   }
+  ],
+  "changelog": "Taking a district stops its local infected reinforcements; roaming infected can still enter. Graves stop preparing new waves when an attack ends. Nearby infected remain, while abandoned groups clear after everyone leaves. The compact campaign map keeps bases and relays, with field orders in the journal. Joining screens show US Army Remnants. Enemy score icons and flags use the black-and-red Outbreak banner. Infection and Ambience opening overlays default to off. Selected barriers have openings while surrounding fence runs remain. Tunnels have been updated, but zombie movement and spawning underground are still under testing and are not yet reliable.",
+  "preview": "https://ar-gcp-cdn.bistudio.com/image/6a92/2db8d6d18bfe9e72772ce468b6aed7242865b1b1a4ad99222d6b431e8954/296643.jpg",
+  "previewThumbs": [
+   "https://ar-gcp-cdn.bistudio.com/image/a586/49e091f21648996c31da3c96e37ad42a3267479443b2cf014229eb2adf45/139140.jpg",
+   "https://ar-gcp-cdn.bistudio.com/image/103e/da1ea1c6460434b69a78915aeff31e8639ae6acf2e46d47f5e9d3d8a6ef9/40357.jpg",
+   "https://ar-gcp-cdn.bistudio.com/image/3d18/00e3f51859abf24915e92e2e241ca854a589e55c407368934237faa11a90/11506.jpg"
+  ],
+  "screenshots": [],
+  "workshopUrl": "https://reforger.armaplatform.com/workshop/0B4FB11C20129700",
+  "previewFile": "assets/family/0B4FB11C20129700_2729e40bce.jpg"
+ },
+ {
+  "id": "0B4FB11C20129701",
+  "name": "Project Outbreak Deadwood Lite",
+  "author": "Project Outbreak",
+  "summary": "A lighter Project Outbreak Deadwood: the same self-running PvE zombie scenario on the Glenwood terrain, with only Project Outbreak and the map as dependencies.",
+  "description": "Glenwood is a small American town, and it has gone under. This is the Lite build of Project Outbreak Deadwood: the same scenario, with a much smaller download.\n\nWHAT THIS IS\n- A PvE scenario on the Glenwood terrain, with the town dressed for the outbreak.\n- The infected are always there. They do not wait for a Game Master to place them.\n- Bases and radio relays across the map to take and hold, and a fixed main base to start from.\n- You fight the infected.\n\nWHAT IS DIFFERENT FROM PROJECT OUTBREAK DEADWOOD\n- It needs only Project Outbreak (with Creature Melee AI and Infection) and the Glenwood map content. About 1.9 GB in total.\n- It does not include KdK Outbreak, or the extra weapons, vehicles and equipment add-ons. Use your own server mod pack for those.\n- Without KdK Outbreak there is no extra loot, no cap on the infected population and no automatic cleanup. Your own mod pack can add them.\n- This build has not had a full playtest yet. Please report problems.\n- Use it instead of Project Outbreak Deadwood, not together with it. Both share the same scenario content.\n\nWHO MADE THE PARTS\nThe dressed town is Dead Glenwood by Windy768, on the Glenwood terrain by vap3r, with Placeables for GM by Heine.CRV. The base layout follows MODERN PVE | GLENWOOD by guennyyy. The infected and the melee creatures come from Project Outbreak and Creature Melee AI. Thank you to all of them; this scenario only arranges their work under APL.",
+  "license": "Arma Public License (APL)",
+  "rating": 0,
+  "ratingCount": 0,
+  "version": "0.1.2",
+  "sizeBytes": 3207603,
+  "gameVersion": "1.8.0.13",
+  "createdAt": "2026-10-08T02:57:35.000Z",
+  "updatedAt": "2026-10-08T02:57:41.000Z",
+  "downloads": 1,
+  "tags": [
+   "GLENWOOD",
+   "LIGHT",
+   "MULTIPLAYER",
+   "SCENARIO",
+   "SCENARIOS_MP",
+   "ZOMBIES"
+  ],
+  "dependencies": [
+   {
+    "id": "4FD4A1BD550793F4",
+    "name": "Creature Melee AI",
+    "version": "1.7.0"
+   },
+   {
+    "id": "61110CC4F1FF9C8A",
+    "name": "Placeables for GM byHeine",
+    "version": "3.1.5"
+   },
+   {
+    "id": "66330AEF351F0EEE",
+    "name": "Glenwood",
+    "version": "1.0.106"
+   },
+   {
+    "id": "688239728B763003",
+    "name": "Dead Glenwood",
+    "version": "1.0.2"
+   },
+   {
+    "id": "7B763100BAFA1F9A",
+    "name": "Project Outbreak Infection",
+    "version": "1.3.0"
+   },
+   {
+    "id": "F1D4B9B5245B36ED",
+    "name": "Project Outbreak Zombies",
+    "version": "2.3.0"
+   }
+  ],
+  "versions": [
+   {
+    "version": "0.1.2",
+    "gameVersion": "1.8.0.13",
+    "createdAt": "2026-10-08T02:57:35.000Z",
+    "size": 3207603
+   }
+  ],
+  "changelog": "",
+  "preview": "https://ar-gcp-cdn.bistudio.com/image/6a92/2db8d6d18bfe9e72772ce468b6aed7242865b1b1a4ad99222d6b431e8954/296643.jpg",
+  "previewThumbs": [
+   "https://ar-gcp-cdn.bistudio.com/image/a586/49e091f21648996c31da3c96e37ad42a3267479443b2cf014229eb2adf45/139140.jpg",
+   "https://ar-gcp-cdn.bistudio.com/image/103e/da1ea1c6460434b69a78915aeff31e8639ae6acf2e46d47f5e9d3d8a6ef9/40357.jpg",
+   "https://ar-gcp-cdn.bistudio.com/image/3d18/00e3f51859abf24915e92e2e241ca854a589e55c407368934237faa11a90/11506.jpg"
+  ],
+  "screenshots": [],
+  "workshopUrl": "https://reforger.armaplatform.com/workshop/0B4FB11C20129701",
+  "previewFile": "assets/family/0B4FB11C20129700_2729e40bce.jpg"
+ },
+ {
+  "id": "475357F020261002",
+  "name": "Goblin Swordsman",
+  "author": "Project Outbreak",
+  "summary": "Small sword-carrying creatures travel in groups. A larger crimson Blademaster wears layered armour and carries a dark, red-marked blade. Requires Creature Melee AI.",
+  "description": "Groups of small, sinewy creatures have been observed carrying worn swords and scraps of armour. They close distance quickly and respond to gunfire with guarded movements. How they obtain their equipment remains unconfirmed.\n\n\nThe larger Blademaster has crimson skin, an exposed horned face and black lacquered armour laced in red. Faint red fissures become visible in darkness, while brighter markings run along his sword. Short rushes and successive cuts make an approaching group difficult to keep at a distance.\n\n\nPart of the Creatures collection.\n\n\nIncludes Goblin Swordsman, Goblin Swordsman (Bare), Goblin Blademaster (Boss) and Goblin Warband (4). Requires the separately installed Creature Melee AI framework. No Project Outbreak gameplay addon is required.\n\n\nOriginal goblin, bamboo sword, textures and animations by RamsterZ, from Agile swordsman Anims, acquired under the Fab Standard License: https://www.fab.com/listings/3f4aadff-0a2c-46db-a17b-25bac0c352eb. License: https://www.fab.com/eula. Project Outbreak adapted the assets, retargeted the animations and authored the gameplay, materials and interface.\n\n\nBig thanks to AlienBalien for the custom ragdolling work in BallienCreatures, used as a workflow reference: https://reforger.armaplatform.com/workshop/6534B9CEB6D12EE7-BallienCreatures. Reference license: Arma Public License, https://www.bohemia.net/en/licenses/arma-public-license.\n\n\nCreature Melee AI is by Project Outbreak and retains its credit to Sanxisan's Melee Combat Extended work: https://reforger.armaplatform.com/workshop/6595113A3678CF5D-MeleeCombatExtended. Sword swing sounds were generated by Project Outbreak with ElevenLabs. Arma Reforger, Enfusion and base-game resources are by Bohemia Interactive.\n\n\nOriginal assets remain the property of their creators. The package grants no right to extract or redistribute the Fab assets, and their NoAI restriction remains applicable. See the included license.txt and THIRD_PARTY_NOTICES.md for component terms.\n\n\nWorkshop licence: Arma Public License (APL). Incorporated assets retain their original licences and credits; this listing does not grant additional rights to those assets. See the included notices for component terms.",
+  "license": "Arma Public License (APL)",
+  "rating": 1,
+  "ratingCount": 1,
+  "version": "0.1.0",
+  "sizeBytes": 136492379,
+  "gameVersion": "1.8.0.13",
+  "createdAt": "2026-10-06T16:56:25.000Z",
+  "updatedAt": "2026-10-06T16:58:43.000Z",
+  "downloads": 37,
+  "tags": [
+   "AI",
+   "BOSS",
+   "CHARACTERS",
+   "CREATURE",
+   "GAMEMASTER",
+   "MELEE"
+  ],
+  "dependencies": [
+   {
+    "id": "4FD4A1BD550793F4",
+    "name": "Creature Melee AI",
+    "version": "1.7.0"
+   }
+  ],
+  "versions": [
+   {
+    "version": "0.1.0",
+    "gameVersion": "1.8.0.13",
+    "createdAt": "2026-10-06T16:56:25.000Z",
+    "size": 136492379
+   }
+  ],
+  "changelog": "",
+  "preview": "https://ar-gcp-cdn.bistudio.com/image/d0d1/88984ccc8eab5be9a8d2dcc64106c5cee0014ec30d03fb6137604d4a18fc/130053.jpg",
+  "previewThumbs": [
+   "https://ar-gcp-cdn.bistudio.com/image/ded0/f49ea12ca81bbfd979b160d22ddd1935f62cece61f881a8e3927ac26431a/112173.jpg",
+   "https://ar-gcp-cdn.bistudio.com/image/523e/c7a3b1d910d5facfb1fd4cff1374cebdb71fd0903becca9e20c2d9d85837/35337.jpg",
+   "https://ar-gcp-cdn.bistudio.com/image/f241/c4b50a9ca533ea1685b8e91f09f7afd8ac26d15214fdc8a6e0921473b670/10740.jpg"
+  ],
+  "screenshots": [
+   {
+    "url": "https://ar-gcp-cdn.bistudio.com/image/6e3a/cf973333ece025f4d2db249c26625fcc634469013991f94a6ccec10c50aa/154152.jpg",
+    "width": 1600,
+    "height": 900,
+    "thumbs": [
+     "https://ar-gcp-cdn.bistudio.com/image/8029/3a151942e9c582e82d0f9d4822adbcbebdedc3efd4e9facc035d9ce15ea4/132769.jpg",
+     "https://ar-gcp-cdn.bistudio.com/image/7f14/ecebfce82394107d0667c8a528896b033b1061bfdda9f4b6b8b53ec3e8b5/44793.jpg",
+     "https://ar-gcp-cdn.bistudio.com/image/a6b5/1c985b697c7ea558315ed498c03acd8fb1e9d3c2c49d3d9e6ba4195d7db9/13894.jpg"
+    ]
+   }
+  ],
+  "workshopUrl": "https://reforger.armaplatform.com/workshop/475357F020261002",
+  "previewFile": "assets/family/475357F020261002_544e0da296.jpg"
+ },
+ {
+  "id": "9C6F9425B58142E7",
+  "name": "Warbeasts",
+  "author": "Project Outbreak",
+  "summary": "Two fully-controllable warbeasts with custom attacks and animations.",
+  "description": "Warbeasts brings two axe-wielding creatures to Arma Reforger.\nWarbeast is a smaller, savage fighter carrying paired bone axes. Warchief is a towering military brute equipped with field gear and sharp tactical axes.\n\nPlace them in Game Master or take control and swing their axes yourself. Warchief can launch cars, shove trucks and sometimes tip armoured vehicles while attacking enemies inside.\nRequires Creature Melee AI.\nCharacter assets: Epic Games, acquired under the Fab Standard License. The cover and creature preview images are actual in-game screenshots.\n\nAxes: tactical tomahawk adapted from Melee Combat Extended Resources by TonyFierce / Anton Firsenko (MCE author Sanxisan). The source model collection is credited under CC BY 4.0 to tubataigames, Marco Orazio Grasso, Hovl Studio, Edwin Wagha, CaptainHC, MaX3Dd, Dasamura, Eric Wallbank, FJH, Foxx Assets and Ruslan Maer. Changes include hand fit, a 180-degree rotation, rubber grips, a sharper cutting bevel and adapted steel finish.\nSource: https://github.com/TonyFierce/Melee-Combat-Extended-Resources/tree/efdd94028de3e0517771183d39b4124ee94738f0\nLicense: https://creativecommons.org/licenses/by/4.0/",
+  "license": "Arma Public License (APL)",
+  "rating": 1,
+  "ratingCount": 7,
+  "version": "1.0.2",
+  "sizeBytes": 143222585,
+  "gameVersion": "1.8.0.13",
+  "createdAt": "2026-10-02T05:03:39.000Z",
+  "updatedAt": "2026-10-03T17:30:47.000Z",
+  "downloads": 385,
+  "tags": [
+   "BEAST",
+   "CHARACTERS",
+   "CREATURE",
+   "MELEE",
+   "OUTBREAK",
+   "WARBEAST"
+  ],
+  "dependencies": [
+   {
+    "id": "4FD4A1BD550793F4",
+    "name": "Creature Melee AI",
+    "version": "1.7.0"
+   }
+  ],
+  "versions": [
+   {
+    "version": "1.0.2",
+    "gameVersion": "1.8.0.13",
+    "createdAt": "2026-10-03T17:29:30.000Z",
+    "size": 143222585
+   },
+   {
+    "version": "1.0.1",
+    "gameVersion": "1.8.0.13",
+    "createdAt": "2026-10-02T11:55:27.000Z",
+    "size": 143230723
+   },
+   {
+    "version": "1.0.0",
+    "gameVersion": "1.8.0.13",
+    "createdAt": "2026-10-02T05:03:39.000Z",
+    "size": 143230543
+   }
+  ],
+  "changelog": "",
+  "preview": "https://ar-gcp-cdn.bistudio.com/image/324a/f854dd2023ffc67cf9f4e3d2a651dcaeb81e9bc907768f80366b4dde60a7/292044.jpg",
+  "previewThumbs": [
+   "https://ar-gcp-cdn.bistudio.com/image/84d1/d734c68bef7105a26ae09ad588815c6d269fcd36ca4a70608bd3978e7f1f/160052.jpg",
+   "https://ar-gcp-cdn.bistudio.com/image/f65c/8c072c825c5312c27aab9d8dc03ecf08a57cd00cb0b3566b97dd29450a0a/46210.jpg",
+   "https://ar-gcp-cdn.bistudio.com/image/edb3/4407b7f4c8edb5aca76670cafed2d2cd211e857f537d7306ccad0e7f49a8/13170.jpg"
+  ],
+  "screenshots": [],
+  "workshopUrl": "https://reforger.armaplatform.com/workshop/9C6F9425B58142E7",
+  "previewFile": "assets/family/9C6F9425B58142E7_4c598ed522.jpg"
+ },
+ {
+  "id": "E1DCD3CAF138441C",
+  "name": "Eyekin",
+  "author": "Project Outbreak",
+  "summary": "Eyekin are pale humanoid organisms with a single enlarged eye occupying most of the head.",
+  "description": "Their origin is unknown. Individuals differ in size, with the largest standing approximately two metres tall. Iris colour varies between individuals.\n\nTheir origin is unknown. Individuals differ in size, with the largest standing approximately two metres tall. Iris colour varies between individuals.\n\nAt close range, Eyekin attack with rapid claw strikes. Larger individuals can also discharge a concentrated beam from the eye. The eye visibly charges before firing. Contact with a solid surface produces an explosive impact, with enough force to knock a person to the ground. Solid cover blocks the beam.\n\nPart of the Creatures collection. Available individually or in groups through Game Master. Requires Creature Melee AI 1.5.0.\n\nBig thanks to AlienBalien for the custom ragdolling work that informed these creatures. BallienCreatures is shared under the Arma Public License (APL): https://reforger.armaplatform.com/workshop/6534B9CEB6D12EE7-BallienCreatures. Licence: https://www.bohemia.net/en/licenses/arma-public-license.\n\nRetargeted slap animations: Zombie_Pack, purchased under the Fab Standard License (https://www.fab.com/eula); compiled embedded game content only. Laser audio: Mixkit's Cinematic laser gun thunder, under the Mixkit Sound Effects Free License: https://mixkit.co/license/#sfxFree. Complete component notices are included.",
+  "license": "Arma Public License (APL)",
+  "rating": 1,
+  "ratingCount": 5,
+  "version": "1.2.0",
+  "sizeBytes": 114251248,
+  "gameVersion": "1.8.0.13",
+  "createdAt": "2026-10-03T17:41:42.000Z",
+  "updatedAt": "2026-10-06T14:38:21.000Z",
+  "downloads": 396,
+  "tags": [
+   "CHARACTERS",
+   "CREATURE",
+   "EYEKIN",
+   "MUTANT",
+   "OUTBREAK"
+  ],
+  "dependencies": [
+   {
+    "id": "4FD4A1BD550793F4",
+    "name": "Creature Melee AI",
+    "version": "1.7.0"
+   }
+  ],
+  "versions": [
+   {
+    "version": "1.2.0",
+    "gameVersion": "1.8.0.13",
+    "createdAt": "2026-10-06T14:37:30.000Z",
+    "size": 114251248
+   },
+   {
+    "version": "1.1.0",
+    "gameVersion": "1.8.0.13",
+    "createdAt": "2026-10-04T14:16:40.000Z",
+    "size": 37926480
+   },
+   {
+    "version": "1.0.0",
+    "gameVersion": "1.8.0.13",
+    "createdAt": "2026-10-03T17:41:42.000Z",
+    "size": 37924244
+   }
+  ],
+  "changelog": "1.2.0\nAdded the 2.4 m Eyekin Bird, with detailed pink skin, repaired face and beak textures, both ground slaps, running and vertical takeoff, ascent/descent, forward and loaded flight, horizontal glide and an extended-neck, straight-leg dive. It grabs people in its beak or talons and drops them from height. It grips airborne helicopters by the skid or hull and pulls them down. Wing sounds follow the downstroke, including the occasional glide flap.\n\n\nAdded the 21 m Eyekin Titan with twelve eye weak points, eye lasers and stomp attacks. All twelve eyes must be defeated to kill it. Added separate Bird health and Titan eye-health settings in Game Master. Both forms support player control. Requires Creature Melee AI 1.7.0.",
+  "preview": "https://ar-gcp-cdn.bistudio.com/image/e516/38fbbb22cd0cfddd8f0497e2edaefd80c2bc51078f740b9baea82fd5f721/252017.jpg",
+  "previewThumbs": [
+   "https://ar-gcp-cdn.bistudio.com/image/7a13/92eea32520b8041063b74a78a64ac436cb8bf7a37e089701a08f0ebeafc5/142790.jpg",
+   "https://ar-gcp-cdn.bistudio.com/image/e741/2e4ecff1db7e6fb1db2dde6d0ece210ef6d7553d8de03f7a2d450f36e53e/44795.jpg",
+   "https://ar-gcp-cdn.bistudio.com/image/1918/94e57bd3cdf2ffeae572d593bc0ec642e9d3de75018385399ea0b6d21f86/13630.jpg"
+  ],
+  "screenshots": [],
+  "workshopUrl": "https://reforger.armaplatform.com/workshop/E1DCD3CAF138441C",
+  "previewFile": "assets/family/E1DCD3CAF138441C_fdb1beeed8.jpg"
+ },
+ {
+  "id": "135E4CF7BBB94766",
+  "name": "Maulkin",
+  "author": "Project Outbreak",
+  "summary": "A lean, fast creature that closes on prey and fights at close range.",
+  "description": "Maulkin is a lean, fast organism that hunts in short bursts. Its hide is a smooth pink, crossed by blue and purple veins that show through the skin. It is lightly built and moves low to the ground, closing on prey rather than holding distance.\n\n\nPart of the Creatures collection.\n\n\nCredits: the mesh, rig and skin belong to this add-on. Big thanks to AlienBalien for the custom ragdolling work that informed these creatures. BallienCreatures is shared under the Arma Public License (APL): https://reforger.armaplatform.com/workshop/6534B9CEB6D12EE7-BallienCreatures. Licence: https://www.bohemia.net/en/licenses/arma-public-license. Shared Sprinter animations are supplied by Creature Melee AI, whose original animation credits and licence terms ship with that add-on. Complete component notices are included with this add-on.\n\n\nRequires Creature Melee AI. Embedded vocal sounds: Zombie_Pack, used under the Fab Standard License (https://www.fab.com/eula). First-party code retains the Arma Public License and incorporated content retains its separate terms.\n\n\nWorkshop licence: Arma Public License (APL). Incorporated assets retain their original licences and credits; this listing does not grant additional rights to those assets. See the included notices for component terms.",
+  "license": "Arma Public License (APL)",
+  "rating": 1,
+  "ratingCount": 3,
+  "version": "0.1.0",
+  "sizeBytes": 50599905,
+  "gameVersion": "1.8.0.13",
+  "createdAt": "2026-10-06T17:34:28.000Z",
+  "updatedAt": "2026-10-06T17:34:51.000Z",
+  "downloads": 97,
+  "tags": [
+   "CHARACTERS",
+   "CMAI",
+   "CREATURES",
+   "GAMEMASTER",
+   "MODDED"
+  ],
+  "dependencies": [
+   {
+    "id": "4FD4A1BD550793F4",
+    "name": "Creature Melee AI",
+    "version": "1.7.0"
+   }
+  ],
+  "versions": [
+   {
+    "version": "0.1.0",
+    "gameVersion": "1.8.0.13",
+    "createdAt": "2026-10-06T17:34:28.000Z",
+    "size": 50599905
+   }
+  ],
+  "changelog": "",
+  "preview": "https://ar-gcp-cdn.bistudio.com/image/3b5f/dba20089df8aa0de3084ef8d1296d75d8bbbf289409411c9cee049153f1c/146303.jpg",
+  "previewThumbs": [
+   "https://ar-gcp-cdn.bistudio.com/image/f666/3764d615702f3e7c93bb17da06fdbc72792f55ca03f4e1f7e3a77b997223/121705.jpg",
+   "https://ar-gcp-cdn.bistudio.com/image/3222/3524481ff177e0d1659e5e9e7fe039327643ed23b051ddecae8fa281728d/37749.jpg",
+   "https://ar-gcp-cdn.bistudio.com/image/8bcc/bc5d73cf651f89ff95f3800d3ca00024839fb3301f21fa8d38cea0e9dab6/11343.jpg"
+  ],
+  "screenshots": [],
+  "workshopUrl": "https://reforger.armaplatform.com/workshop/135E4CF7BBB94766",
+  "previewFile": "assets/family/135E4CF7BBB94766_7ca033ba24.jpg"
+ },
+ {
   "id": "4FD4A1BD550793F4",
   "name": "Creature Melee AI",
   "author": "Project Outbreak",
@@ -426,7 +1299,7 @@
   "gameVersion": "1.8.0.10",
   "createdAt": "2026-08-09T15:04:29.000Z",
   "updatedAt": "2026-08-30T20:00:54.000Z",
-  "downloads": 3783,
+  "downloads": 3815,
   "tags": [
    "AI",
    "REARM",
@@ -468,5 +1341,147 @@
   ],
   "workshopUrl": "https://reforger.armaplatform.com/workshop/40B5686CC205703A",
   "previewFile": "assets/family/40B5686CC205703A.jpg"
+ },
+ {
+  "id": "3CBDFAB9713149BE",
+  "name": "Military Crossbow",
+  "author": "Project Outbreak",
+  "summary": "A standalone military crossbow with a four-bolt quiver, detachable scope and custom loading animation.",
+  "description": "Military Crossbow adds a handheld military crossbow, a four-bolt quiver and custom loading and re-cocking animation.\n\nFind it in Game Master or the arsenal. Pick it up, aim and fire. The scope uses the normal optic rail and can be removed; flip-up iron sights stand up when it is off. Fired bolts can be picked up again.\n\nThis first release has focused PC gameplay evidence. Current multiplayer, JIP and AI use remain under validation.\n\nThe iron sights are based on \"Iron Sight (FREE)\" (https://sketchfab.com/3d-models/iron-sight-free-3217e68522674fce9b24d8dae5d2c5b0) by Michael Karel (https://sketchfab.com/michaelkarel) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/).\n\n\nLICENCE\nThe Arma Public Licence covers only our first-party work. It does not cover the crossbow model and textures (Azaq Game Art Studio, Fab Standard License), the iron sights, or sounds by ElevenLabs. Those stay under their original licences and may not be extracted or redistributed. See THIRD_PARTY_NOTICES.md for full credits.",
+  "license": "Arma Public License (APL)",
+  "rating": 1,
+  "ratingCount": 4,
+  "version": "0.1.0",
+  "sizeBytes": 36525877,
+  "gameVersion": "1.8.0.13",
+  "createdAt": "2026-10-07T09:20:39.000Z",
+  "updatedAt": "2026-10-07T09:20:59.000Z",
+  "downloads": 136,
+  "tags": [
+   "CROSSBOW",
+   "GAMEMASTER",
+   "WEAPONS"
+  ],
+  "dependencies": [],
+  "versions": [
+   {
+    "version": "0.1.0",
+    "gameVersion": "1.8.0.13",
+    "createdAt": "2026-10-07T09:20:39.000Z",
+    "size": 36525877
+   }
+  ],
+  "changelog": "",
+  "preview": "https://ar-gcp-cdn.bistudio.com/image/befd/22b4c86a0cc134959bb6620d90b8c9804b1dfb0c11ca3a0e84955b1e5ea8/58987.jpg",
+  "previewThumbs": [
+   "https://ar-gcp-cdn.bistudio.com/image/e833/c4e6cdb5bdd05d65212fdf894bacbce2cc698dbf2879c4867f96732d298a/48685.jpg",
+   "https://ar-gcp-cdn.bistudio.com/image/a0bf/040199e630db72babc97ce5183b380ba23daea112b98ac8c79d7137e3cfa/15864.jpg",
+   "https://ar-gcp-cdn.bistudio.com/image/3043/2268dc7333dd5c420d8e0dee9daaa55faac929b5f9034a1fd47f8ffad3f8/5093.jpg"
+  ],
+  "screenshots": [
+   {
+    "url": "https://ar-gcp-cdn.bistudio.com/image/37fe/d9a8d25bc8cecccce3f9f8b17752be01b92c6729d7dd3b24e105eb9a6825/220083.jpg",
+    "width": 1920,
+    "height": 1080,
+    "thumbs": [
+     "https://ar-gcp-cdn.bistudio.com/image/a3a0/4381f756b40f5d5277cc3a53382300184bf0453d0c8337769be9c21332e3/140631.jpg",
+     "https://ar-gcp-cdn.bistudio.com/image/0243/a3e8221b66fb2ff9fd24e0dd3ebce4526c79a5a1d28f7ae2d7ad0141ba72/47398.jpg",
+     "https://ar-gcp-cdn.bistudio.com/image/e7cf/6d223f48a6e33edafbcc57cac6db2ecf0f18d175853c9427e145d9f7fbec/14749.jpg"
+    ]
+   },
+   {
+    "url": "https://ar-gcp-cdn.bistudio.com/image/37b8/f3f7c8a94944045a6d30de91a8ec2120f31a2a898134334a8871f8fba8e4/212564.jpg",
+    "width": 1920,
+    "height": 1080,
+    "thumbs": [
+     "https://ar-gcp-cdn.bistudio.com/image/baa1/a0e485381f76f6fef5d758783c41ba1d9dd55e6f18437659b0b478d75086/137037.jpg",
+     "https://ar-gcp-cdn.bistudio.com/image/2c40/5f206175eccbfbe574c17cb1edb8a79ba6f1ac1c18adf0822cb5ea44a5c3/47381.jpg",
+     "https://ar-gcp-cdn.bistudio.com/image/b68b/1a50103c8a992127c21faffd4438080f136b85d604b9b27a626e7034c502/15187.jpg"
+    ]
+   }
+  ],
+  "workshopUrl": "https://reforger.armaplatform.com/workshop/3CBDFAB9713149BE",
+  "previewFile": "assets/family/3CBDFAB9713149BE_2dd1b64a50.jpg"
+ },
+ {
+  "id": "9E4B2C7A1D5F8036",
+  "name": "Ballista Turret WIP",
+  "author": "Project Outbreak",
+  "summary": "Introduces a mannable Ballista Crowssbow that can be used to kill and hunt dragons",
+  "description": "Introduces a mannable Ballista Crowssbow that can be used to kill and hunt dragons (if you so choose!)\n\nStill WIP!\n\nModel used under Fab Standard License: \nhttps://www.fab.com/listings/3dfd95d1-6f6f-4c06-a659-b2bd374b713a?lang=it",
+  "license": "Arma Public License (APL)",
+  "rating": 1,
+  "ratingCount": 1,
+  "version": "0.1.2",
+  "sizeBytes": 21720782,
+  "gameVersion": "1.8.0.13",
+  "createdAt": "2026-09-29T16:59:01.000Z",
+  "updatedAt": "2026-10-01T19:16:41.000Z",
+  "downloads": 209,
+  "tags": [
+   "BALLISTA",
+   "MEDIEVAL",
+   "TURRET",
+   "WEAPONS"
+  ],
+  "dependencies": [],
+  "versions": [
+   {
+    "version": "0.1.2",
+    "gameVersion": "1.8.0.13",
+    "createdAt": "2026-10-01T19:16:24.000Z",
+    "size": 21720782
+   },
+   {
+    "version": "0.1.1",
+    "gameVersion": "1.8.0.13",
+    "createdAt": "2026-09-30T07:04:35.000Z",
+    "size": 20757715
+   },
+   {
+    "version": "0.1.0",
+    "gameVersion": "1.8.0.13",
+    "createdAt": "2026-09-29T16:59:01.000Z",
+    "size": 20211655
+   }
+  ],
+  "changelog": "Bigger bolts and a heavier sound.\n\n- Increased ballista bolt damage by 1,000x, from 250 to 250,000. A successful hit can now kill the supported dragon in one shot.\n- Added heavier release, winding and impact sounds for both mounts.\n- AI gunners now hold a usable ballista station during combat instead of repeatedly walking away. Casualties and explicit exit orders still work normally.\n\nThe classic and modern military mounts both use these changes. Still WIP; multiplayer presentation and full-range crew posture need further testing.",
+  "preview": "https://ar-gcp-cdn.bistudio.com/image/f123/8268727d408767bb79d53ed8f877539d9af42aa726c6659f6ff39bb712b4/127714.jpg",
+  "previewThumbs": [
+   "https://ar-gcp-cdn.bistudio.com/image/d26b/68263ba0ddffe7fdbdb9b840547cd4e181f69949021566378815aa252cf7/108008.jpg",
+   "https://ar-gcp-cdn.bistudio.com/image/c117/6b7b6a109325768625bd58c9d0d7d00f0b8b9d2555c563a7128fd03a17a5/30950.jpg",
+   "https://ar-gcp-cdn.bistudio.com/image/ae0a/119b3a157e239c1384a63f4e6cf7c4d35f7e7960b21ed8460bd70c0e65d9/8593.jpg"
+  ],
+  "screenshots": [
+   {
+    "url": "https://ar-gcp-cdn.bistudio.com/image/0a64/134627c514c327b998cd219a3340c5f55e56dc6877ec4f929be21c140b1a/94004.jpg",
+    "width": 1280,
+    "height": 720,
+    "thumbs": [
+     "https://ar-gcp-cdn.bistudio.com/image/a7d7/be0518929cfc1bf56607f3eae2d5116a757c7beedad9236c32c0736f283c/41794.jpg",
+     "https://ar-gcp-cdn.bistudio.com/image/fe26/5bbc491bd13f53e8ec7248b889be89972857686b0e3d3e06e00ca3893869/12577.jpg"
+    ]
+   },
+   {
+    "url": "https://ar-gcp-cdn.bistudio.com/image/3122/54e106207593e5584f4a8b2e1f2197ed6db49a59c32c47822595e7d88638/72233.jpg",
+    "width": 1280,
+    "height": 720,
+    "thumbs": [
+     "https://ar-gcp-cdn.bistudio.com/image/d02d/190d8f72a14e3f02a937fbece5d236a6c47a4e188e329bd82b86140d5b68/32313.jpg",
+     "https://ar-gcp-cdn.bistudio.com/image/a4fc/2cd8ada7858581632664a311bffc18d6e193cfb8b2e28610c047bdafdcd1/10834.jpg"
+    ]
+   },
+   {
+    "url": "https://ar-gcp-cdn.bistudio.com/image/1cbb/761df34c5503f1c79cfdb0c345c00af65d28354cc37eca89d3daf254292c/95036.jpg",
+    "width": 1280,
+    "height": 720,
+    "thumbs": [
+     "https://ar-gcp-cdn.bistudio.com/image/8767/ee8d586a345a6688b657a31f7a5c37c0ead8ef31d573e8ce00154a09fb51/43456.jpg",
+     "https://ar-gcp-cdn.bistudio.com/image/ee00/91fa6d56f019deff99629f5d5b1c576701504f97ce98b13726a1afce0ecc/13262.jpg"
+    ]
+   }
+  ],
+  "workshopUrl": "https://reforger.armaplatform.com/workshop/9E4B2C7A1D5F8036",
+  "previewFile": "assets/family/9E4B2C7A1D5F8036_ef403ad9cb.jpg"
  }
 ]

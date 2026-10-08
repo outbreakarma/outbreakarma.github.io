@@ -24,7 +24,13 @@ SHOTS = ROOT / "assets/shots"
 FAMILY_DIR = ROOT / "assets/family"
 UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0 Safari/537.36 OutbreakSite/1.0 (+https://github.com/outbreakarma/outbreakarma.github.io)"
 PO_ID = "F1D4B9B5245B36ED"
-FAMILY_IDS = ["7B763100BAFA1F9A", "6209E38AB237098E", "6B9BD0DA529C0D1E", "4FD4A1BD550793F4", "40B5686CC205703A"]
+# Every public Workshop item by the same author (test listings excluded). build.py groups them.
+FAMILY_IDS = [
+    "7B763100BAFA1F9A", "6209E38AB237098E", "6B9BD0DA529C0D1E", "384E32C2A832444E", "297640FBAC0C46C3",  # Project Outbreak modules
+    "0B4FB11C20129700", "0B4FB11C20129701",  # scenarios
+    "475357F020261002", "9C6F9425B58142E7", "E1DCD3CAF138441C", "135E4CF7BBB94766",  # creatures
+    "4FD4A1BD550793F4", "40B5686CC205703A", "3CBDFAB9713149BE", "9E4B2C7A1D5F8036",  # foundation and tools
+]
 NEXT_DATA_RE = re.compile(r'<script id="__NEXT_DATA__"[^>]*>(.*?)</script>', re.S)
 
 
