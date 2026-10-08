@@ -33,5 +33,7 @@ jobs:
             echo "nothing changed"
           else
             git commit -m "listing refresh $(date -u +'%Y-%m-%d %H:%M') UTC"
+            # A push to main during the run (a code change) must not cost this snapshot.
+            git pull --rebase origin main
             git push
           fi

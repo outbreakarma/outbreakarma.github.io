@@ -618,7 +618,7 @@ JS = r"""
     if (po.servers != null){
       big('servers', po.servers); big('players', po.players);
       set('servers-d', fmt(po.serversWithPlayers)+' of them with players');
-      if (hours && hours.p[CFG.po]){ let pk = null; hours.p[CFG.po].forEach((v,i) => { if (v != null && (!pk || v > pk.v)) pk = {v:v, t:hours.t[i]*1000}; }); if (pk) set('players-d', 'peak '+fmt(pk.v)+' in the last 14 days, '+new Date(pk.t).toISOString().slice(5,10)); }
+      if (hours && hours.p[CFG.po]){ let pk = null; hours.p[CFG.po].forEach((v,i) => { if (v != null && (!pk || v > pk.v)) pk = {v:v, t:hours.t[i]*1000}; }); const days = Math.round((hours.t[hours.t.length-1]-hours.t[0])/86400); if (pk) set('players-d', 'peak '+fmt(pk.v)+' in the last '+days+' days, on '+new Date(pk.t).toISOString().slice(5,10)); }
       if (hours){ set('servers-s', spark(hours.s[CFG.po] || [])); set('players-s', spark(hours.p[CFG.po] || [])); }
       const rk = $('[data-k="rank"]'); if (rk) rk.textContent = po.keywordRank ? '#'+po.keywordRank : '-';
       set('rank-d', 'of '+fmt(kwCount)+' zombie mods by servers · #'+fmt(po.globalRank)+' of all '+fmt(allMods)+' mods in use');
@@ -628,7 +628,7 @@ JS = r"""
       big('downloads', poDl);
       const g7 = dlGain(CFG.po, 7*DAY);
       set('downloads-d', g7 != null ? '<span class="up">+'+fmt(g7)+'</span> in the last 7 days' : 'Workshop total');
-      if (dl){ const a = series(CFG.po), v = []; DT.forEach((t,i) => { if (t >= gen-30*DAY && a[i] != null) v.push(a[i]); }); v.push(poDl); set('downloads-s', spark(v, true)); }
+      if (dl){ const a = series(CFG.po), v = []; DT.forEach((t,i) => { if (a[i] != null) v.push(a[i]); }); v.push(poDl); set('downloads-s', spark(v, true)); }
     }
     // how servers get it + player-hours
     const root = po.rootDeployments, viaDep = po.dependencyDeployments;
