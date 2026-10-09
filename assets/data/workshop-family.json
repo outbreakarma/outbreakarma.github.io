@@ -327,7 +327,7 @@
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-09-27T03:27:42.000Z",
   "updatedAt": "2026-10-06T13:54:31.000Z",
-  "downloads": 2227,
+  "downloads": 2432,
   "tags": [
    "CHARACTERS",
    "INFECTION",
@@ -338,12 +338,12 @@
    {
     "id": "4FD4A1BD550793F4",
     "name": "Creature Melee AI",
-    "version": "1.7.0"
+    "version": "1.8.0"
    },
    {
     "id": "F1D4B9B5245B36ED",
     "name": "Project Outbreak Zombies",
-    "version": "2.3.0"
+    "version": "2.3.1"
    }
   ],
   "versions": [
@@ -1196,29 +1196,34 @@
   "id": "4FD4A1BD550793F4",
   "name": "Creature Melee AI",
   "author": "Project Outbreak",
-  "summary": "A flexible foundation for custom melee creatures.",
-  "description": "Creature Melee AI gives modders the core behavior needed for close-range enemies. Attacks and presentation remain replaceable, allowing each project to build its own identity.\n\n\nPowers Project Outbreak Zombies.\nFor questions, join the Discord Server: \nhttps://discord.gg/JumfhFujRF\n\n\nReleased under the Arma Public License (APL).\n\n\nCode and animation for weapons melee combat is adapted from Melee Combat Extended by Sanxisan, used under the Arma Public License. Thanks to the great Sanxisan for releasing his cool melee weapon mod and adding guidance! \n\nhttps://reforger.armaplatform.com/workshop/6595113A3678CF5D-MeleeCombatExtended",
+  "summary": "Shared creature AI for Arma Reforger: hostile targeting, pursuit, melee, carry support and reusable animations. Includes authoring templates and optional Game Master examples.",
+  "description": "Creature Melee AI (CMAI) is a reusable creature-AI framework for Arma Reforger. A Character-compatible entity can acquire an eligible hostile Character, pursue it continuously through native navigation, and request an attack through a replaceable attack contract.\n\n\nAUTHORING\nCreate a creature from one inherited prefab and one inherited settings file. CMAI owns the common targeting, pursuit, scheduler, damage-request, cleanup, and replication infrastructure while a project can replace the creature presentation and attack behavior.\n\n\nINTEGRATION\nPublic settings, APIs, and capability hooks support independent creature projects. Optional Slow, Hunter, and Fast examples are supplied for sandbox testing. Their Game Master cards use the non-playable Melee AI faction and remain disabled unless a maintainer deliberately enables the single integration switch.\n\n\nSCOPE\nCMAI depends only on the Arma Reforger Base Game. Project Outbreak is not required. CMAI does not provide a spawner, wave manager, population director, or scenario lifecycle; those remain responsibilities of the consuming project.\n\n\nCREDITS\nRetargeted zombie locomotion, attacks, feeding and reactions: Zombie_Pack, purchased under the Fab Standard License (https://www.fab.com/eula). Throw/carry animations: RamsterZ Free Anims Volume 1: https://www.fab.com/listings/9319491d-0e91-422c-9b67-ad4bf6c01a02. These compiled animations are embedded game content; their source assets are not included.\n\n\nMelee animation: Melee Combat Extended by Sanxisan (Anton Firsenko / TonyFierce). Five compiled two-handed clips retain the Arma Public License: https://reforger.armaplatform.com/workshop/6595113A3678CF5D-MeleeCombatExtended and https://www.bohemia.net/community/licenses/arma-public-license. One-handed animation resources (MIT license): https://github.com/TonyFierce/Melee-Combat-Extended-Resources. Complete component notices are included.\n\n\nGiant stomp animation: Giant Pack V01 by MandB Animation, retargeted and fitted for Reforger by Project Outbreak. Fab Standard License: https://www.fab.com/listings/6c958505-2e10-4600-b85c-668cd158d25d. Animation retargeting, native graph integration and authored adaptations are by Project Outbreak.\n\n\nCrawling Ghoul Anims by RamsterZ: https://www.fab.com/listings/9e96b3f7-30ca-4221-a2eb-2bd46146b286. Climbing animation from Free Animation Library by voxel vision: https://www.fab.com/listings/481ef75b-892b-424f-a213-f1cc058c9c19. Spear throw from Cool Throwing Combat Animations by Bacengdu: https://www.fab.com/listings/fffbea69-14ff-499d-b85a-131171c1d6f8. These compiled derivatives retain the Fab Standard License; editable sources are excluded.\n\n\nWorkshop licence: Arma Public License (APL). Incorporated assets retain their original licences and credits; this listing does not grant additional rights to those assets. See the included notices for component terms.\n\nShared dual-strike animation: original Epic Games character motion acquired under the Fab Standard License, retargeted and fitted for CMAI. Source: https://www.fab.com/listings/8c4bac2c-f7f7-4632-a644-47f4e104f5d8. Compiled game content only; editable sources and standalone redistribution are excluded.",
   "license": "Arma Public License (APL)",
   "rating": 1,
   "ratingCount": 10,
-  "version": "1.7.0",
-  "sizeBytes": 9157840,
+  "version": "1.8.0",
+  "sizeBytes": 9882567,
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-08-30T18:18:07.000Z",
-  "updatedAt": "2026-10-06T12:50:42.000Z",
-  "downloads": 23093,
+  "updatedAt": "2026-10-09T13:08:51.000Z",
+  "downloads": 23716,
   "tags": [
+   "AI",
    "CHARACTERS",
    "CREATURES",
-   "MELEE",
-   "OUTBREAK",
-   "PROJECT",
-   "SANDBOX",
-   "SYSTEMS",
-   "WEAPONS"
+   "FRAMEWORK",
+   "GAMEMASTER",
+   "GAMEPLAY",
+   "SERVER"
   ],
   "dependencies": [],
   "versions": [
+   {
+    "version": "1.8.0",
+    "gameVersion": "1.8.0.13",
+    "createdAt": "2026-10-09T13:08:37.000Z",
+    "size": 9882567
+   },
    {
     "version": "1.7.0",
     "gameVersion": "1.8.0.13",
@@ -1272,24 +1277,29 @@
     "gameVersion": "1.8.0.13",
     "createdAt": "2026-09-07T08:11:07.000Z",
     "size": 995579
-   },
-   {
-    "version": "1.1.2",
-    "gameVersion": "1.8.0.13",
-    "createdAt": "2026-09-06T17:56:46.000Z",
-    "size": 994041
    }
   ],
-  "changelog": "1.7.0\nCreature creators can reuse shared Sprinter movement, melee, tackle, feeding and reaction animations through CMAI. Added contact hooks for possessed creatures and Goblin parries. Existing creature profiles keep their current behavior unless they opt into the new capabilities. Completed credits for the shared animation banks.",
-  "preview": "https://ar-gcp-cdn.bistudio.com/image/e345/f3b99d0c738344cd8d7364e0b3a3b1ada801834676f2a32b6473f50b0675/95814.jpg",
+  "changelog": "1.8.0\nAdded optional shared support for giant creatures: world crushing, fitted stomp animations, grounded footstep effects and impacts that scale with distance.\n\nImproved pursuit of retreating enemies and decisions after switching targets. Creature add-ons can choose area attacks from perceived groups and keep their cast while parking their own movement.\n\nBarefoot creatures no longer injure their feet while walking or running. Normal human footwear and other damage keep their existing behavior.\n\nWorld crushing and giant presentation remain off unless an add-on explicitly enables them. CMAI still requires only the Base Game.\n\nGiant gameplay remains experimental. Complete multiplayer, late-join and presentation coverage is still in progress.\n\nImproved carry cleanup when a carrier disappears or loses its settings. Delayed commands from an ended carry no longer replace a newer carry, and cleanup preserves unrelated character commands.\n\nShared Mushroom Rift animation bank: the fitted creature clips and attack graphs are supplied by CMAI, preserving their motion and resource identities.\n\nAdded optional per-hand melee contact and shared dual-strike animations for creature authors. Existing attacks retain their ordinary contact rules unless an addon enables hand windows.",
+  "preview": "https://ar-gcp-cdn.bistudio.com/image/f33c/a48bda46969df8a5c53a02029a5c78ebf3e6478765db430d0f486de85c35/96463.jpg",
   "previewThumbs": [
-   "https://ar-gcp-cdn.bistudio.com/image/826f/ac590b7bcada4b68dbb43c904a60861ba906bcc485de784f311194106075/55712.jpg",
-   "https://ar-gcp-cdn.bistudio.com/image/1261/3000e39a9a5ac9246027c8c75aca87f23b5dee1197b03642e09983cf29da/19799.jpg",
-   "https://ar-gcp-cdn.bistudio.com/image/ce58/dead930f0f12d1c40968cae3bb69190eb7031ab29651c2860feb43d462a9/7454.jpg"
+   "https://ar-gcp-cdn.bistudio.com/image/7f36/942828d7a90314e3c0227d3eb107a2d7823da8ad8651cefc2d2c7aaa0858/57109.jpg",
+   "https://ar-gcp-cdn.bistudio.com/image/4160/abfc7ea92f54efad0f3cf2182d29669e1a3ce011b15f982e5e1d98dc2969/20110.jpg",
+   "https://ar-gcp-cdn.bistudio.com/image/bf4b/99ebe759fa7eecea8d8e02ec0204d15d9033d69b100a8bbe91c70de10262/7331.jpg"
   ],
-  "screenshots": [],
+  "screenshots": [
+   {
+    "url": "https://ar-gcp-cdn.bistudio.com/image/f33c/a48bda46969df8a5c53a02029a5c78ebf3e6478765db430d0f486de85c35/96463.jpg",
+    "width": 1672,
+    "height": 941,
+    "thumbs": [
+     "https://ar-gcp-cdn.bistudio.com/image/8a2e/8a99626ec25973a43d25f5eff289813c096e0c0e97bb6cbe427b4185113f/82499.jpg",
+     "https://ar-gcp-cdn.bistudio.com/image/2bce/39fb920dbce21a8266e76158c8a928e886925f648eb800ef6a80d91b3758/31829.jpg",
+     "https://ar-gcp-cdn.bistudio.com/image/a596/4dc3c70f40d96408ab502df0e7d55122befcafc691df122c7e3506e76429/11443.jpg"
+    ]
+   }
+  ],
   "workshopUrl": "https://reforger.armaplatform.com/workshop/4FD4A1BD550793F4",
-  "previewFile": "assets/family/4FD4A1BD550793F4.jpg"
+  "previewFile": "assets/family/4FD4A1BD550793F4_056c2b4aec.jpg"
  },
  {
   "id": "40B5686CC205703A",
@@ -1305,7 +1315,7 @@
   "gameVersion": "1.8.0.10",
   "createdAt": "2026-08-09T15:04:29.000Z",
   "updatedAt": "2026-08-30T20:00:54.000Z",
-  "downloads": 3815,
+  "downloads": 3849,
   "tags": [
    "AI",
    "REARM",
@@ -1356,13 +1366,13 @@
   "description": "Military Crossbow adds a handheld military crossbow, a four-bolt quiver and custom loading and re-cocking animation.\n\nFind it in Game Master or the arsenal. Pick it up, aim and fire. The scope uses the normal optic rail and can be removed; flip-up iron sights stand up when it is off. Fired bolts can be picked up again.\n\nThis first release has focused PC gameplay evidence. Current multiplayer, JIP and AI use remain under validation.\n\nThe iron sights are based on \"Iron Sight (FREE)\" (https://sketchfab.com/3d-models/iron-sight-free-3217e68522674fce9b24d8dae5d2c5b0) by Michael Karel (https://sketchfab.com/michaelkarel) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/).\n\n\nLICENCE\nThe Arma Public Licence covers only our first-party work. It does not cover the crossbow model and textures (Azaq Game Art Studio, Fab Standard License), the iron sights, or sounds by ElevenLabs. Those stay under their original licences and may not be extracted or redistributed. See THIRD_PARTY_NOTICES.md for full credits.",
   "license": "Arma Public License (APL)",
   "rating": 1,
-  "ratingCount": 4,
-  "version": "0.1.0",
-  "sizeBytes": 36525877,
+  "ratingCount": 6,
+  "version": "0.2.1",
+  "sizeBytes": 108988308,
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-10-07T09:20:39.000Z",
-  "updatedAt": "2026-10-07T09:20:59.000Z",
-  "downloads": 136,
+  "updatedAt": "2026-10-09T10:56:14.000Z",
+  "downloads": 278,
   "tags": [
    "CROSSBOW",
    "GAMEMASTER",
@@ -1371,13 +1381,25 @@
   "dependencies": [],
   "versions": [
    {
+    "version": "0.2.1",
+    "gameVersion": "1.8.0.13",
+    "createdAt": "2026-10-09T10:55:32.000Z",
+    "size": 108988308
+   },
+   {
+    "version": "0.2.0",
+    "gameVersion": "1.8.0.13",
+    "createdAt": "2026-10-08T21:40:59.000Z",
+    "size": 108987950
+   },
+   {
     "version": "0.1.0",
     "gameVersion": "1.8.0.13",
     "createdAt": "2026-10-07T09:20:39.000Z",
     "size": 36525877
    }
   ],
-  "changelog": "",
+  "changelog": "Fixes the sideways first-person crossbow after drawing or equipping it. Keeps the flat back placement, vanilla draw/restow, front quiver reload, palm-down single-bolt reload, fitted inspections, finishes and FIRE/HE ammunition. Standalone: no other Workshop addon required.",
   "preview": "https://ar-gcp-cdn.bistudio.com/image/befd/22b4c86a0cc134959bb6620d90b8c9804b1dfb0c11ca3a0e84955b1e5ea8/58987.jpg",
   "previewThumbs": [
    "https://ar-gcp-cdn.bistudio.com/image/e833/c4e6cdb5bdd05d65212fdf894bacbce2cc698dbf2879c4867f96732d298a/48685.jpg",
@@ -1423,7 +1445,7 @@
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-09-29T16:59:01.000Z",
   "updatedAt": "2026-10-01T19:16:41.000Z",
-  "downloads": 209,
+  "downloads": 211,
   "tags": [
    "BALLISTA",
    "MEDIEVAL",
