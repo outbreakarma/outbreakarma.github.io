@@ -8,12 +8,12 @@
   "license": "Arma Public License (APL)",
   "rating": 0.96,
   "ratingCount": 23,
-  "version": "1.3.0",
-  "sizeBytes": 10159996,
+  "version": "1.3.1",
+  "sizeBytes": 10161031,
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-08-30T18:29:18.000Z",
-  "updatedAt": "2026-10-06T13:58:46.000Z",
-  "downloads": 10671,
+  "updatedAt": "2026-10-09T13:30:40.000Z",
+  "downloads": 11045,
   "tags": [
    "INFECTION",
    "OUTBREAK",
@@ -24,15 +24,21 @@
    {
     "id": "4FD4A1BD550793F4",
     "name": "Creature Melee AI",
-    "version": "1.7.0"
+    "version": "1.8.0"
    },
    {
     "id": "F1D4B9B5245B36ED",
     "name": "Project Outbreak Zombies",
-    "version": "2.3.0"
+    "version": "2.3.1"
    }
   ],
   "versions": [
+   {
+    "version": "1.3.1",
+    "gameVersion": "1.8.0.13",
+    "createdAt": "2026-10-09T13:30:32.000Z",
+    "size": 10161031
+   },
    {
     "version": "1.3.0",
     "gameVersion": "1.8.0.13",
@@ -86,15 +92,9 @@
     "gameVersion": "1.8.0.13",
     "createdAt": "2026-09-07T08:15:29.000Z",
     "size": 10144133
-   },
-   {
-    "version": "1.0.4",
-    "gameVersion": "1.8.0.13",
-    "createdAt": "2026-09-05T22:22:11.000Z",
-    "size": 10144998
    }
   ],
-  "changelog": "1.3.0\n- Place one Infection System and choose repeating daily activity hours on the in-game clock, including overnight windows.\n- Configure the schedule through Game Master or outbreak.json. It is off by default.",
+  "changelog": "1.3.1\nInfection stage popups are off by default. Game Masters and server owners can enable them with Show Symptom Alerts or outbreak.json. Examination, diagnosis and treatment feedback remain available.\n\nWhen symptom alerts are enabled, the risen notification now reaches the original player after their old body reanimates. Includes updated Workshop information and component licence clarification.",
   "preview": "https://ar-gcp-cdn.bistudio.com/image/890a/2e690a44cd0ecea4b7e7e336db3d449f24c67280e27b944b11a6367bbd43/259454.jpg",
   "previewThumbs": [
    "https://ar-gcp-cdn.bistudio.com/image/2ee0/8108bfa63848f0565577b852b3d6bf0f53839d070af590ff24e1f9e19328/140121.jpg",
@@ -119,7 +119,7 @@
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-08-30T18:31:09.000Z",
   "updatedAt": "2026-10-03T16:42:37.000Z",
-  "downloads": 8607,
+  "downloads": 8802,
   "tags": [
    "OUTBREAK",
    "SYSTEMS",
@@ -129,12 +129,12 @@
    {
     "id": "4FD4A1BD550793F4",
     "name": "Creature Melee AI",
-    "version": "1.7.0"
+    "version": "1.8.0"
    },
    {
     "id": "F1D4B9B5245B36ED",
     "name": "Project Outbreak Zombies",
-    "version": "2.3.0"
+    "version": "2.3.1"
    }
   ],
   "versions": [
@@ -218,7 +218,7 @@
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-08-30T18:27:33.000Z",
   "updatedAt": "2026-10-01T14:38:36.000Z",
-  "downloads": 4997,
+  "downloads": 5086,
   "tags": [
    "GADGETS",
    "OUTBREAK",
@@ -232,12 +232,12 @@
    {
     "id": "4FD4A1BD550793F4",
     "name": "Creature Melee AI",
-    "version": "1.7.0"
+    "version": "1.8.0"
    },
    {
     "id": "F1D4B9B5245B36ED",
     "name": "Project Outbreak Zombies",
-    "version": "2.3.0"
+    "version": "2.3.1"
    }
   ],
   "versions": [
@@ -977,7 +977,7 @@
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-10-06T16:56:25.000Z",
   "updatedAt": "2026-10-06T16:58:43.000Z",
-  "downloads": 70,
+  "downloads": 96,
   "tags": [
    "AI",
    "BOSS",
@@ -990,7 +990,7 @@
    {
     "id": "4FD4A1BD550793F4",
     "name": "Creature Melee AI",
-    "version": "1.7.0"
+    "version": "1.8.0"
    }
   ],
   "versions": [
@@ -1027,33 +1027,38 @@
   "id": "9C6F9425B58142E7",
   "name": "Warbeasts",
   "author": "Project Outbreak",
-  "summary": "Two fully-controllable warbeasts with custom attacks and animations.",
-  "description": "Warbeasts brings two axe-wielding creatures to Arma Reforger.\nWarbeast is a smaller, savage fighter carrying paired bone axes. Warchief is a towering military brute equipped with field gear and sharp tactical axes.\n\nPlace them in Game Master or take control and swing their axes yourself. Warchief can launch cars, shove trucks and sometimes tip armoured vehicles while attacking enemies inside.\nRequires Creature Melee AI.\nCharacter assets: Epic Games, acquired under the Fab Standard License. The cover and creature preview images are actual in-game screenshots.\n\nAxes: tactical tomahawk adapted from Melee Combat Extended Resources by TonyFierce / Anton Firsenko (MCE author Sanxisan). The source model collection is credited under CC BY 4.0 to tubataigames, Marco Orazio Grasso, Hovl Studio, Edwin Wagha, CaptainHC, MaX3Dd, Dasamura, Eric Wallbank, FJH, Foxx Assets and Ruslan Maer. Changes include hand fit, a 180-degree rotation, rubber grips, a sharper cutting bevel and adapted steel finish.\nSource: https://github.com/TonyFierce/Melee-Combat-Extended-Resources/tree/efdd94028de3e0517771183d39b4124ee94738f0\nLicense: https://creativecommons.org/licenses/by/4.0/",
+  "summary": "Witnesses report horned humanoids carrying paired axes, alongside heavier fist-fighting forms. Their equipment varies from bone tools to scavenged military kit, a white vest and denim.",
+  "description": "Warbeasts were first reported by civilians living near abandoned military positions. Witnesses described pale, horned humanoids with unusually large arms, carrying an axe in each hand. Further sightings were reported along rural roads and at the edges of nearby settlements.\n\nThe smaller Warbeast carries paired bone axes. The larger Warchief wears military field equipment and carries steel tactical axes. The Greenskin has a broad jaw, flat nose, lower tusks and green leathery skin. It carries the smaller Warbeast's paired bone axes. Its equipment is thought to have been scavenged from abandoned military stores, although this remains unconfirmed.\n\nSquidbeast has mottled hide and enlarged fists. It strikes with heavy punches and downward smashes. A larger orange form, called Big Jim in local reports, wears a white vest and denim. The remains of metal restraints hang from their wrists; their origin is unconfirmed.\n\nThey pursue nearby targets and attack at close range. The Warchief has sufficient strength to throw cars with a strike, shove trucks and, in some cases, overturn armoured vehicles. Entering a vehicle does not end the pursuit. The creature will attack the vehicle while its target remains inside.\n\nPart of the Creatures collection. Available through Game Master, with direct control of the axe-wielding creatures and both Squid variants with their fist and smash attacks. Requires Creature Melee AI 1.8.0 or newer.\n\nBig thanks to AlienBalien for the custom ragdolling work that informed these creatures. BallienCreatures is shared under the Arma Public License (APL): https://reforger.armaplatform.com/workshop/6534B9CEB6D12EE7-BallienCreatures. Licence: https://www.bohemia.net/en/licenses/arma-public-license.\n\nCharacter assets: Epic Games, acquired under the Fab Standard License. Squidbeast and Big Jim use adapted Rampage character assets, original animation curves and nonverbal voices. Authoring assets and standalone asset redistribution are excluded.\n\nAxes: tactical tomahawk source model from Melee Combat Extended Resources by TonyFierce / Anton Firsenko (MCE author Sanxisan). The source model collection is credited under CC BY 4.0 to tubataigames, Marco Orazio Grasso, Hovl Studio, Edwin Wagha, CaptainHC, MaX3Dd, Dasamura, Eric Wallbank, FJH, Foxx Assets and Ruslan Maer. Changes include hand fit, a 180-degree rotation, rubber grips, a sharper cutting bevel and adapted steel finish.\nSource: https://github.com/TonyFierce/Melee-Combat-Extended-Resources/tree/efdd94028de3e0517771183d39b4124ee94738f0\nLicense: https://creativecommons.org/licenses/by/4.0/\n\nWorkshop licence: Arma Public License (APL). Incorporated assets retain their original licences and credits; this listing does not grant additional rights to those assets. Complete component notices are included.",
   "license": "Arma Public License (APL)",
   "rating": 1,
   "ratingCount": 7,
-  "version": "1.0.2",
-  "sizeBytes": 143222585,
+  "version": "1.0.3",
+  "sizeBytes": 257418615,
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-10-02T05:03:39.000Z",
-  "updatedAt": "2026-10-03T17:30:47.000Z",
-  "downloads": 415,
+  "updatedAt": "2026-10-09T15:33:39.000Z",
+  "downloads": 457,
   "tags": [
-   "BEAST",
+   "AI",
    "CHARACTERS",
-   "CREATURE",
-   "MELEE",
-   "OUTBREAK",
-   "WARBEAST"
+   "CREATURES",
+   "GAMEMASTER",
+   "MELEE"
   ],
   "dependencies": [
    {
     "id": "4FD4A1BD550793F4",
     "name": "Creature Melee AI",
-    "version": "1.7.0"
+    "version": "1.8.0"
    }
   ],
   "versions": [
+   {
+    "version": "1.0.3",
+    "gameVersion": "1.8.0.13",
+    "createdAt": "2026-10-09T15:31:36.000Z",
+    "size": 257418615
+   },
    {
     "version": "1.0.2",
     "gameVersion": "1.8.0.13",
@@ -1073,16 +1078,26 @@
     "size": 143230543
    }
   ],
-  "changelog": "",
-  "preview": "https://ar-gcp-cdn.bistudio.com/image/324a/f854dd2023ffc67cf9f4e3d2a651dcaeb81e9bc907768f80366b4dde60a7/292044.jpg",
+  "changelog": "1.0.3\nGreenskin gains a broad jaw, flat nose, lower tusks, a heavier brow and leathery green hide. Fuller cheeks, softer facial creases and smoother face-to-neck skin transitions give it a more natural appearance. Removed its old crown and back spikes. The original Warbeast and Warchief remain available.\n\nBarefoot Warbeast and Warchief no longer injure their feet while walking or running with the updated Creature Melee AI dependency.\n\nWarbeast, Warchief and Greenskin now have health sliders in the shared Creatures settings of Game Master global attributes.\n\nThe shared Creatures faction label now keeps the standard Game Master faction setup, so it works better with other mods that add factions. Requires Creature Melee AI 1.8.0.\n\nAdds Squidbeast and Big Jim to the Creatures roster. Squidbeast uses the original mottled hide; Big Jim has orange hide, a white vest, denim and a larger body. Both use fist and smash attacks, creature voices and native turning.",
+  "preview": "https://ar-gcp-cdn.bistudio.com/image/c3ce/e4c5832c04f88e8026edd95f05a7b8aae154e466a829f0850c548d822f84/288539.jpg",
   "previewThumbs": [
-   "https://ar-gcp-cdn.bistudio.com/image/84d1/d734c68bef7105a26ae09ad588815c6d269fcd36ca4a70608bd3978e7f1f/160052.jpg",
-   "https://ar-gcp-cdn.bistudio.com/image/f65c/8c072c825c5312c27aab9d8dc03ecf08a57cd00cb0b3566b97dd29450a0a/46210.jpg",
-   "https://ar-gcp-cdn.bistudio.com/image/edb3/4407b7f4c8edb5aca76670cafed2d2cd211e857f537d7306ccad0e7f49a8/13170.jpg"
+   "https://ar-gcp-cdn.bistudio.com/image/705e/d842e8b91724664e75cbd860f387a00cb0206fe124927a998a45b1ac09f4/157620.jpg",
+   "https://ar-gcp-cdn.bistudio.com/image/bab2/1b59673402542935bcf2318dd96d84a55c5899c4cf290f5bce9b740900fd/45929.jpg",
+   "https://ar-gcp-cdn.bistudio.com/image/8b8d/429b20b7d7ac6587a8d30b11140e5bc2085579a27096e91c71f1833d6cea/12951.jpg"
   ],
-  "screenshots": [],
+  "screenshots": [
+   {
+    "url": "https://ar-gcp-cdn.bistudio.com/image/e0a3/65544bed505e9bc81a4db3e7075db19096e495eedd5258ec2b0c8c23e52c/105060.jpg",
+    "width": 1280,
+    "height": 720,
+    "thumbs": [
+     "https://ar-gcp-cdn.bistudio.com/image/98b2/c7d7a4aa20233cedfe67060f28ec311843f35f792150ed336eda16e7ee2c/43741.jpg",
+     "https://ar-gcp-cdn.bistudio.com/image/5894/63c9995551b6b5156745119851d35ed692cdfd1843c3695ced3b64fe4d44/13210.jpg"
+    ]
+   }
+  ],
   "workshopUrl": "https://reforger.armaplatform.com/workshop/9C6F9425B58142E7",
-  "previewFile": "assets/family/9C6F9425B58142E7_4c598ed522.jpg"
+  "previewFile": "assets/family/9C6F9425B58142E7_1dcaed7b55.jpg"
  },
  {
   "id": "E1DCD3CAF138441C",
