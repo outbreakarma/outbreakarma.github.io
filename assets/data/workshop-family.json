@@ -391,7 +391,7 @@
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-09-27T03:41:17.000Z",
   "updatedAt": "2026-10-06T13:58:23.000Z",
-  "downloads": 3268,
+  "downloads": 3525,
   "tags": [
    "CHARACTERS",
    "OUTBREAK",
@@ -500,7 +500,7 @@
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-09-22T02:24:31.000Z",
   "updatedAt": "2026-10-01T07:14:39.000Z",
-  "downloads": 113,
+  "downloads": 116,
   "tags": [
    "SCENARIOS_MP",
    "SYSTEMS"
@@ -694,7 +694,7 @@
    {
     "id": "6534B9CEB6D12EE7",
     "name": "BallienCreatures",
-    "version": "1.6.4"
+    "version": "1.6.6"
    },
    {
     "id": "657B064AE0E231DF",
@@ -1145,14 +1145,14 @@
   "summary": "A lean, fast creature that closes on prey and fights at close range.",
   "description": "Maulkin is a lean, fast organism that hunts in short bursts. Its hide is a smooth pink, crossed by blue and purple veins that show through the skin. It is lightly built and moves low to the ground, closing on prey rather than holding distance.\n\n\nPart of the Creatures collection.\n\n\nCredits: the mesh, rig and skin belong to this add-on. Big thanks to AlienBalien for the custom ragdolling work that informed these creatures. BallienCreatures is shared under the Arma Public License (APL): https://reforger.armaplatform.com/workshop/6534B9CEB6D12EE7-BallienCreatures. Licence: https://www.bohemia.net/en/licenses/arma-public-license. Shared Sprinter animations are supplied by Creature Melee AI, whose original animation credits and licence terms ship with that add-on. Complete component notices are included with this add-on.\n\n\nRequires Creature Melee AI. Embedded vocal sounds: Zombie_Pack, used under the Fab Standard License (https://www.fab.com/eula). First-party code retains the Arma Public License and incorporated content retains its separate terms.\n\n\nWorkshop licence: Arma Public License (APL). Incorporated assets retain their original licences and credits; this listing does not grant additional rights to those assets. See the included notices for component terms.",
   "license": "Arma Public License (APL)",
-  "rating": 1,
-  "ratingCount": 3,
+  "rating": 0.75,
+  "ratingCount": 4,
   "version": "0.1.0",
   "sizeBytes": 50599905,
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-10-06T17:34:28.000Z",
   "updatedAt": "2026-10-06T17:34:51.000Z",
-  "downloads": 97,
+  "downloads": 168,
   "tags": [
    "CHARACTERS",
    "CMAI",
