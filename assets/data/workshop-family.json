@@ -892,12 +892,12 @@
   "license": "Arma Public License (APL)",
   "rating": 0,
   "ratingCount": 0,
-  "version": "0.1.2",
-  "sizeBytes": 3207603,
+  "version": "0.1.3",
+  "sizeBytes": 3209239,
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-10-08T02:57:35.000Z",
-  "updatedAt": "2026-10-08T02:57:41.000Z",
-  "downloads": 1,
+  "updatedAt": "2026-10-08T16:49:37.000Z",
+  "downloads": 30,
   "tags": [
    "GLENWOOD",
    "LIGHT",
@@ -940,13 +940,19 @@
   ],
   "versions": [
    {
+    "version": "0.1.3",
+    "gameVersion": "1.8.0.13",
+    "createdAt": "2026-10-08T16:49:32.000Z",
+    "size": 3209239
+   },
+   {
     "version": "0.1.2",
     "gameVersion": "1.8.0.13",
     "createdAt": "2026-10-08T02:57:35.000Z",
     "size": 3207603
    }
   ],
-  "changelog": "",
+  "changelog": "The AI commander now gives your squads an objective for every base the infected hold, and gives a new one when the infected take a base back. Before this, no objective or target marker appeared until a player commander set one by hand. Nothing else changed from 0.1.2.",
   "preview": "https://ar-gcp-cdn.bistudio.com/image/6a92/2db8d6d18bfe9e72772ce468b6aed7242865b1b1a4ad99222d6b431e8954/296643.jpg",
   "previewThumbs": [
    "https://ar-gcp-cdn.bistudio.com/image/a586/49e091f21648996c31da3c96e37ad42a3267479443b2cf014229eb2adf45/139140.jpg",
@@ -1092,7 +1098,7 @@
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-10-03T17:41:42.000Z",
   "updatedAt": "2026-10-06T14:38:21.000Z",
-  "downloads": 396,
+  "downloads": 439,
   "tags": [
    "CHARACTERS",
    "CREATURE",
