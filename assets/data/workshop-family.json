@@ -13,7 +13,7 @@
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-08-30T18:29:18.000Z",
   "updatedAt": "2026-10-09T13:30:40.000Z",
-  "downloads": 11045,
+  "downloads": 11624,
   "tags": [
    "INFECTION",
    "OUTBREAK",
@@ -218,7 +218,7 @@
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-08-30T18:27:33.000Z",
   "updatedAt": "2026-10-01T14:38:36.000Z",
-  "downloads": 5086,
+  "downloads": 5209,
   "tags": [
    "GADGETS",
    "OUTBREAK",
@@ -327,7 +327,7 @@
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-09-27T03:27:42.000Z",
   "updatedAt": "2026-10-06T13:54:31.000Z",
-  "downloads": 2432,
+  "downloads": 2695,
   "tags": [
    "CHARACTERS",
    "INFECTION",
@@ -1243,7 +1243,7 @@
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-08-30T18:18:07.000Z",
   "updatedAt": "2026-10-09T13:08:51.000Z",
-  "downloads": 23716,
+  "downloads": 25001,
   "tags": [
    "AI",
    "CHARACTERS",
@@ -1352,7 +1352,7 @@
   "gameVersion": "1.8.0.10",
   "createdAt": "2026-08-09T15:04:29.000Z",
   "updatedAt": "2026-08-30T20:00:54.000Z",
-  "downloads": 3849,
+  "downloads": 3896,
   "tags": [
    "AI",
    "REARM",
@@ -1403,13 +1403,13 @@
   "description": "Military Crossbow adds a handheld military crossbow, a four-bolt quiver and custom loading and re-cocking animation.\n\nFind it in Game Master or the arsenal. Pick it up, aim and fire. The scope uses the normal optic rail and can be removed; flip-up iron sights stand up when it is off. Fired bolts can be picked up again.\n\nThis first release has focused PC gameplay evidence. Current multiplayer, JIP and AI use remain under validation.\n\nThe iron sights are based on \"Iron Sight (FREE)\" (https://sketchfab.com/3d-models/iron-sight-free-3217e68522674fce9b24d8dae5d2c5b0) by Michael Karel (https://sketchfab.com/michaelkarel) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/).\n\n\nLICENCE\nThe Arma Public Licence covers only our first-party work. It does not cover the crossbow model and textures (Azaq Game Art Studio, Fab Standard License), the iron sights, or sounds by ElevenLabs. Those stay under their original licences and may not be extracted or redistributed. See THIRD_PARTY_NOTICES.md for full credits.",
   "license": "Arma Public License (APL)",
   "rating": 1,
-  "ratingCount": 6,
+  "ratingCount": 7,
   "version": "0.2.1",
   "sizeBytes": 108988308,
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-10-07T09:20:39.000Z",
   "updatedAt": "2026-10-09T10:56:14.000Z",
-  "downloads": 278,
+  "downloads": 456,
   "tags": [
    "CROSSBOW",
    "GAMEMASTER",
@@ -1482,7 +1482,7 @@
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-09-29T16:59:01.000Z",
   "updatedAt": "2026-10-01T19:16:41.000Z",
-  "downloads": 211,
+  "downloads": 229,
   "tags": [
    "BALLISTA",
    "MEDIEVAL",
