@@ -1103,32 +1103,38 @@
   "id": "E1DCD3CAF138441C",
   "name": "Eyekin",
   "author": "Project Outbreak",
-  "summary": "Eyekin are pale humanoid organisms with a single enlarged eye occupying most of the head.",
-  "description": "Their origin is unknown. Individuals differ in size, with the largest standing approximately two metres tall. Iris colour varies between individuals.\n\nTheir origin is unknown. Individuals differ in size, with the largest standing approximately two metres tall. Iris colour varies between individuals.\n\nAt close range, Eyekin attack with rapid claw strikes. Larger individuals can also discharge a concentrated beam from the eye. The eye visibly charges before firing. Contact with a solid surface produces an explosive impact, with enough force to knock a person to the ground. Solid cover blocks the beam.\n\nPart of the Creatures collection. Available individually or in groups through Game Master. Requires Creature Melee AI 1.5.0.\n\nBig thanks to AlienBalien for the custom ragdolling work that informed these creatures. BallienCreatures is shared under the Arma Public License (APL): https://reforger.armaplatform.com/workshop/6534B9CEB6D12EE7-BallienCreatures. Licence: https://www.bohemia.net/en/licenses/arma-public-license.\n\nRetargeted slap animations: Zombie_Pack, purchased under the Fab Standard License (https://www.fab.com/eula); compiled embedded game content only. Laser audio: Mixkit's Cinematic laser gun thunder, under the Mixkit Sound Effects Free License: https://mixkit.co/license/#sfxFree. Complete component notices are included.",
+  "summary": "Pale, one-eyed organisms strike with claws and charged eye beams. A many-eyed Titan towers over settlements, while the winged form hunts from above and carries people away.",
+  "description": "Eyekin are pale humanoid organisms dominated by a single enlarged eye. Their origin is unknown. Individuals differ in size and iris colour. At close range they use rapid claw strikes; larger individuals can discharge a visibly charged eye beam with an explosive impact. Solid cover blocks the beam.\n\n\nThe Titan stands 21 metres tall and has twelve independent eye weak points. It stomps nearby prey and fires lasers from surviving eyes. Body hits cannot kill it; every eye must be defeated. Defeated eyes close and remain bloodshot. After half its eyes are defeated, the AI Titan starts running; players can run at any time.\n\n\nA winged form stands 2.4 metres tall, with pink skin, a hooked beak and powerful legs. It runs into takeoff and alternates between heavy wingbeats and an almost horizontal glide. During a prey dive, its neck extends forward and its legs stretch out. People can be seized in the beak or lifted by the talons and dropped from height. Against airborne helicopters, the bird grips a reachable skid or hull point and hauls the aircraft down.\n\n\nPart of the Creatures collection.\n\n\nAvailable through Game Master, with player control and separate durability settings for all four forms. Bird groups of 4 and 16 are available. Laser Launch Chance controls how often eligible laser hits give a brief upward ragdoll shove; it defaults to 5%, and 0 disables it. Fire slaps with the humanoids and stomps with the Titan; V fires an eye laser on the larger humanoid or Titan. Bird controls: Space climbs or takes off, C descends, WASD steers, V toggles flight, G grabs or releases, and Fire slaps on the ground or strikes with the legs in flight. Forward + C above 8 metres begins a dive. Flight and grab controls have gamepad bindings.\n\n\nRequires Creature Melee AI 1.8.0.\n\n\nBig thanks to AlienBalien for the custom ragdolling work that informed these creatures. BallienCreatures is shared under the Arma Public License (APL): https://reforger.armaplatform.com/workshop/6534B9CEB6D12EE7-BallienCreatures. Licence: https://www.bohemia.net/en/licenses/arma-public-license.\n\n\nRetargeted slap animations: Zombie_Pack, purchased under the Fab Standard License (https://www.fab.com/eula); compiled embedded game content only. Laser audio: Mixkit's Cinematic laser gun thunder, under the Mixkit Sound Effects Free License (https://mixkit.co/license/#sfxFree). Wing sound design and bird vocals: owner-generated recordings under a paid ElevenLabs plan (https://elevenlabs.io/sound-effects). Complete component notices are included.\n\n\nWorkshop licence: Arma Public License (APL). Incorporated assets retain their original licences and credits; this listing does not grant additional rights to those assets. See the included notices for component terms.",
   "license": "Arma Public License (APL)",
   "rating": 1,
-  "ratingCount": 5,
-  "version": "1.2.0",
-  "sizeBytes": 114251248,
+  "ratingCount": 6,
+  "version": "1.2.2",
+  "sizeBytes": 116879030,
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-10-03T17:41:42.000Z",
-  "updatedAt": "2026-10-06T14:38:21.000Z",
-  "downloads": 439,
+  "updatedAt": "2026-10-09T15:37:54.000Z",
+  "downloads": 543,
   "tags": [
+   "ALIEN",
    "CHARACTERS",
-   "CREATURE",
-   "EYEKIN",
-   "MUTANT",
-   "OUTBREAK"
+   "CMAI",
+   "CREATURES",
+   "GAMEMASTER"
   ],
   "dependencies": [
    {
     "id": "4FD4A1BD550793F4",
     "name": "Creature Melee AI",
-    "version": "1.7.0"
+    "version": "1.8.0"
    }
   ],
   "versions": [
+   {
+    "version": "1.2.2",
+    "gameVersion": "1.8.0.13",
+    "createdAt": "2026-10-09T15:37:01.000Z",
+    "size": 116879030
+   },
    {
     "version": "1.2.0",
     "gameVersion": "1.8.0.13",
@@ -1148,16 +1154,26 @@
     "size": 37924244
    }
   ],
-  "changelog": "1.2.0\nAdded the 2.4 m Eyekin Bird, with detailed pink skin, repaired face and beak textures, both ground slaps, running and vertical takeoff, ascent/descent, forward and loaded flight, horizontal glide and an extended-neck, straight-leg dive. It grabs people in its beak or talons and drops them from height. It grips airborne helicopters by the skid or hull and pulls them down. Wing sounds follow the downstroke, including the occasional glide flap.\n\n\nAdded the 21 m Eyekin Titan with twelve eye weak points, eye lasers and stomp attacks. All twelve eyes must be defeated to kill it. Added separate Bird health and Titan eye-health settings in Game Master. Both forms support player control. Requires Creature Melee AI 1.7.0.",
-  "preview": "https://ar-gcp-cdn.bistudio.com/image/e516/38fbbb22cd0cfddd8f0497e2edaefd80c2bc51078f740b9baea82fd5f721/252017.jpg",
+  "changelog": "1.2.2\nFixed the Bird blocking ordinary soldier controls during its hunt. Shooting, jumping, vaulting and interactions stayed working in the owner's local playtest.\n\nFixed Game Master selection and placement for the existing Eyekin groups. Added Bird groups of 4 and 16.\n\nAdded Laser Launch Chance in the global Creatures settings and Creatures.json. It defaults to 5%; 0 disables the small upward ragdoll shove. Ordinary laser damage and recovery are preserved.\n\nThe Bird now circles before diving at a person and misses if they move after its final approach. Added idle, distant, aggressive and attack vocals. Fixed its blank Game Master portrait and self-inflicted claw wounds in flight.\n\nAdded the Titan's own portrait and improved its hand pose. AI Titans start running after half their eyes are defeated; players can run at any time. Requires Creature Melee AI 1.8.0.",
+  "preview": "https://ar-gcp-cdn.bistudio.com/image/680f/f9caff5ecd11444e1c083358e6ef2d6da2bf51478b72ab01bc33423db553/250266.jpg",
   "previewThumbs": [
-   "https://ar-gcp-cdn.bistudio.com/image/7a13/92eea32520b8041063b74a78a64ac436cb8bf7a37e089701a08f0ebeafc5/142790.jpg",
-   "https://ar-gcp-cdn.bistudio.com/image/e741/2e4ecff1db7e6fb1db2dde6d0ece210ef6d7553d8de03f7a2d450f36e53e/44795.jpg",
-   "https://ar-gcp-cdn.bistudio.com/image/1918/94e57bd3cdf2ffeae572d593bc0ec642e9d3de75018385399ea0b6d21f86/13630.jpg"
+   "https://ar-gcp-cdn.bistudio.com/image/2d3c/86c66e5c098cb865062df7483eeaa66c41d9711e6d3124384498030561bb/140798.jpg",
+   "https://ar-gcp-cdn.bistudio.com/image/5856/01c9d6a3500c8eb9bb5d20e26cc713de3be61d5266c9a0b164b7bf921a67/44574.jpg",
+   "https://ar-gcp-cdn.bistudio.com/image/6d9f/1156ed2dc66e9c81a3441b0b219843f6dd73ae00fcf01eb8106fc4bcfd97/13341.jpg"
   ],
-  "screenshots": [],
+  "screenshots": [
+   {
+    "url": "https://ar-gcp-cdn.bistudio.com/image/fc64/cc6b20efd2c5177fa3400a3bd39f94ee67eed5c5524cf07306267e1424b4/131949.jpg",
+    "width": 1280,
+    "height": 720,
+    "thumbs": [
+     "https://ar-gcp-cdn.bistudio.com/image/e575/5237b2fc103a88aa506e0f2c157340ef18f4b8a706df78a6e89693732625/54474.jpg",
+     "https://ar-gcp-cdn.bistudio.com/image/96d9/26865ab86848dd7594594ab23d00e25b2bb967a2993edbe5a7667f620822/16207.jpg"
+    ]
+   }
+  ],
   "workshopUrl": "https://reforger.armaplatform.com/workshop/E1DCD3CAF138441C",
-  "previewFile": "assets/family/E1DCD3CAF138441C_fdb1beeed8.jpg"
+  "previewFile": "assets/family/E1DCD3CAF138441C_e9882fba72.jpg"
  },
  {
   "id": "135E4CF7BBB94766",
