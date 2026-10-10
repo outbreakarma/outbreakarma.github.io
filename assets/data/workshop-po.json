@@ -7,12 +7,12 @@
  "license": "Arma Public License (APL)",
  "rating": 0.96,
  "ratingCount": 83,
- "version": "2.3.0",
- "sizeBytes": 208220850,
+ "version": "2.3.1",
+ "sizeBytes": 208225337,
  "gameVersion": "1.8.0.13",
  "createdAt": "2026-08-30T18:23:05.000Z",
- "updatedAt": "2026-10-06T13:48:27.000Z",
- "downloads": 23122,
+ "updatedAt": "2026-10-09T13:27:09.000Z",
+ "downloads": 24200,
  "tags": [
   "CHARACTERS",
   "INFECTION",
@@ -27,10 +27,16 @@
   {
    "id": "4FD4A1BD550793F4",
    "name": "Creature Melee AI",
-   "version": "1.7.0"
+   "version": "1.8.0"
   }
  ],
  "versions": [
+  {
+   "version": "2.3.1",
+   "gameVersion": "1.8.0.13",
+   "createdAt": "2026-10-09T13:25:53.000Z",
+   "size": 208225337
+  },
   {
    "version": "2.3.0",
    "gameVersion": "1.8.0.13",
@@ -84,15 +90,9 @@
    "gameVersion": "1.8.0.13",
    "createdAt": "2026-09-16T20:15:40.000Z",
    "size": 1002083368
-  },
-  {
-   "version": "1.3.2",
-   "gameVersion": "1.8.0.13",
-   "createdAt": "2026-09-15T16:11:24.000Z",
-   "size": 1001909937
   }
  ],
- "changelog": "2.3.0\n- Zombies grab reachable helicopter skids during takeoff, hang on through flight and fall off during hard turns. Zombies beside a lifting helicopter reach for its rail.\n- Improved helicopter reach, hand contact and release.\n- Game Master Zombify keeps modded robes and coats through the turn.\n- Zombify leaves bodies that cannot wear clothing as they are and tells the Game Master why.\n- Game Masters and servers can make Nephilim use only neck grabs, without lifting and throwing people.",
+ "changelog": "2.3.1\nServers can hide Infection, Spawner and Ambience startup popups through outbreak.json while keeping those systems active. Infection symptom popups are off by default and can be enabled through outbreak.json.\n\nA zombie with Slung Rifle Chance set to 0 no longer receives a rifle from Director or Ambience spawning. Modders can change the slung rifles by overriding Configs/Wardrobe/Z_SlungWeapons.conf, without editing scripts.\n\nIncludes updated Workshop information and component licence clarification. Requires Creature Melee AI 1.8.0.",
  "preview": "https://ar-gcp-cdn.bistudio.com/image/2acf/50af531c77fb7b5f21ca79df26665c5a3e9f10ff3b0c4d08f6876c6370b0/158082.jpg",
  "previewThumbs": [
   "https://ar-gcp-cdn.bistudio.com/image/4cca/713c0a0d13d35c848872dd5398d4de1a8324f8931ead8fd865d03c85c843/86448.jpg",
@@ -100,16 +100,6 @@
   "https://ar-gcp-cdn.bistudio.com/image/5db5/65f032b063ddb913c8c352ca734ee4de391de0e49fdfc5ebb8e9733c4194/11059.jpg"
  ],
  "screenshots": [
-  {
-   "url": "https://ar-gcp-cdn.bistudio.com/image/454a/56d450b61fc74493f7a01799bae39470b133b97419b4a9cdaf94165cb2a4/338626.jpg",
-   "width": 1920,
-   "height": 1080,
-   "thumbs": [
-    "https://ar-gcp-cdn.bistudio.com/image/70b4/df2d11ac8529363855e5bb96791da98c356c4296a64b5fe3e15c4f2f287d/204307.jpg",
-    "https://ar-gcp-cdn.bistudio.com/image/a4db/4e68fcfcfd0722730db2820981482169029f094ff65c9134e96bbaad940d/62565.jpg",
-    "https://ar-gcp-cdn.bistudio.com/image/6495/21c0b1dbfe5769637b237e39984107f4c05ca8144852f2c618678954a157/17435.jpg"
-   ]
-  },
   {
    "url": "https://ar-gcp-cdn.bistudio.com/image/927f/eb5f78bee1754bee27e13048de2e1b17aed91c072d67adf716949c972ed0/506426.jpg",
    "width": 1920,
@@ -128,6 +118,16 @@
     "https://ar-gcp-cdn.bistudio.com/image/0b64/1b7fcc259bc4016d4fa84608144bad0c01a06d3fbf8df276d0d27e6ccc6d/190061.jpg",
     "https://ar-gcp-cdn.bistudio.com/image/4c14/f79c26db7b515a7c5f0cabb88b75b1a9fb302acb6b6950d18e19c98bcb8b/61216.jpg",
     "https://ar-gcp-cdn.bistudio.com/image/ff65/950f215c6e9104b837997d5cc7f8be0b72c661f65e5ab4534f3442d0e8e8/18297.jpg"
+   ]
+  },
+  {
+   "url": "https://ar-gcp-cdn.bistudio.com/image/454a/56d450b61fc74493f7a01799bae39470b133b97419b4a9cdaf94165cb2a4/338626.jpg",
+   "width": 1920,
+   "height": 1080,
+   "thumbs": [
+    "https://ar-gcp-cdn.bistudio.com/image/70b4/df2d11ac8529363855e5bb96791da98c356c4296a64b5fe3e15c4f2f287d/204307.jpg",
+    "https://ar-gcp-cdn.bistudio.com/image/a4db/4e68fcfcfd0722730db2820981482169029f094ff65c9134e96bbaad940d/62565.jpg",
+    "https://ar-gcp-cdn.bistudio.com/image/6495/21c0b1dbfe5769637b237e39984107f4c05ca8144852f2c618678954a157/17435.jpg"
    ]
   }
  ],
