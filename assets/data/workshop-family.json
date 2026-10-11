@@ -892,12 +892,12 @@
   "license": "Arma Public License (APL)",
   "rating": 0,
   "ratingCount": 0,
-  "version": "0.1.4",
-  "sizeBytes": 3211581,
+  "version": "0.1.5",
+  "sizeBytes": 3212990,
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-10-08T02:57:35.000Z",
-  "updatedAt": "2026-10-09T16:07:41.000Z",
-  "downloads": 56,
+  "updatedAt": "2026-10-10T13:32:57.000Z",
+  "downloads": 90,
   "tags": [
    "GLENWOOD",
    "LIGHT",
@@ -940,6 +940,12 @@
   ],
   "versions": [
    {
+    "version": "0.1.5",
+    "gameVersion": "1.8.0.13",
+    "createdAt": "2026-10-10T13:32:50.000Z",
+    "size": 3212990
+   },
+   {
     "version": "0.1.4",
     "gameVersion": "1.8.0.13",
     "createdAt": "2026-10-09T16:07:36.000Z",
@@ -958,7 +964,7 @@
     "size": 3207603
    }
   ],
-  "changelog": "Objectives and capture now advance through neighboring bases instead of opening the whole map. Each base you hold opens its linked neighbors, with several routes available. Distant bases and relays cannot be captured early. Losing the last supporting neighbor cancels that objective and interrupts capture; infected-held targets reopen when a route is available again.",
+  "changelog": "Active mass graves can now spawn the Abomination on servers that load Special Zombies and Creatures. Each grave has a 1% chance per minute, with at most one Abomination alive across the valley. It follows the existing lure, population limit and idle cleanup rules. The creature addon remains optional; Lite's required dependencies and other infected spawn chances are unchanged.",
   "preview": "https://ar-gcp-cdn.bistudio.com/image/6a92/2db8d6d18bfe9e72772ce468b6aed7242865b1b1a4ad99222d6b431e8954/296643.jpg",
   "previewThumbs": [
    "https://ar-gcp-cdn.bistudio.com/image/a586/49e091f21648996c31da3c96e37ad42a3267479443b2cf014229eb2adf45/139140.jpg",
@@ -1119,7 +1125,7 @@
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-10-03T17:41:42.000Z",
   "updatedAt": "2026-10-09T15:37:54.000Z",
-  "downloads": 543,
+  "downloads": 612,
   "tags": [
    "ALIEN",
    "CHARACTERS",
