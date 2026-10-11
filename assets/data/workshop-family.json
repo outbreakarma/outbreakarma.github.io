@@ -13,7 +13,7 @@
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-08-30T18:29:18.000Z",
   "updatedAt": "2026-10-09T13:30:40.000Z",
-  "downloads": 11624,
+  "downloads": 12137,
   "tags": [
    "INFECTION",
    "OUTBREAK",
@@ -119,7 +119,7 @@
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-08-30T18:31:09.000Z",
   "updatedAt": "2026-10-03T16:42:37.000Z",
-  "downloads": 9038,
+  "downloads": 9373,
   "tags": [
    "OUTBREAK",
    "SYSTEMS",
@@ -218,7 +218,7 @@
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-08-30T18:27:33.000Z",
   "updatedAt": "2026-10-01T14:38:36.000Z",
-  "downloads": 5209,
+  "downloads": 5336,
   "tags": [
    "GADGETS",
    "OUTBREAK",
@@ -321,13 +321,13 @@
   "description": "Adds the optional normal-sized zombie appearance families for Project Outbreak. Install Project Outbreak first, then this pack.\n\nCredits and third-party licences:\n- Zombies Pack V4, Zombie Male AAB, Giant Zombie (Nephilim) and Decayed Zombie B by Studio New Punch, from Fab, used under the Fab Standard License. Modified and rigged for Arma Reforger.\n-  A huge thank you also goes to AlienBallien (BallienCreatures) for  native creature ragdoll approach, extremely helpful for custom creatures in this mod and was used under APL.",
   "license": "Arma Public License (APL)",
   "rating": 1,
-  "ratingCount": 13,
+  "ratingCount": 14,
   "version": "1.1.0",
   "sizeBytes": 734323032,
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-09-27T03:27:42.000Z",
   "updatedAt": "2026-10-06T13:54:31.000Z",
-  "downloads": 2695,
+  "downloads": 3059,
   "tags": [
    "CHARACTERS",
    "INFECTION",
@@ -1249,7 +1249,7 @@
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-08-30T18:18:07.000Z",
   "updatedAt": "2026-10-09T13:08:51.000Z",
-  "downloads": 25001,
+  "downloads": 26084,
   "tags": [
    "AI",
    "CHARACTERS",
@@ -1358,7 +1358,7 @@
   "gameVersion": "1.8.0.10",
   "createdAt": "2026-08-09T15:04:29.000Z",
   "updatedAt": "2026-08-30T20:00:54.000Z",
-  "downloads": 3896,
+  "downloads": 3944,
   "tags": [
    "AI",
    "REARM",
@@ -1415,7 +1415,7 @@
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-10-07T09:20:39.000Z",
   "updatedAt": "2026-10-09T10:56:14.000Z",
-  "downloads": 456,
+  "downloads": 582,
   "tags": [
    "CROSSBOW",
    "GAMEMASTER",
@@ -1488,7 +1488,7 @@
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-09-29T16:59:01.000Z",
   "updatedAt": "2026-10-01T19:16:41.000Z",
-  "downloads": 229,
+  "downloads": 245,
   "tags": [
    "BALLISTA",
    "MEDIEVAL",
