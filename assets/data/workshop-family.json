@@ -890,14 +890,14 @@
   "summary": "A lighter Project Outbreak Deadwood: the same self-running PvE zombie scenario on the Glenwood terrain, with only Project Outbreak and the map as dependencies.",
   "description": "Glenwood is a small American town, and it has gone under. This is the Lite build of Project Outbreak Deadwood: the same scenario, with a much smaller download.\n\nWHAT THIS IS\n- A PvE scenario on the Glenwood terrain, with the town dressed for the outbreak.\n- The infected are always there. They do not wait for a Game Master to place them.\n- Bases and radio relays across the map to take and hold, and a fixed main base to start from.\n- You fight the infected.\n\nWHAT IS DIFFERENT FROM PROJECT OUTBREAK DEADWOOD\n- It needs only Project Outbreak (with Creature Melee AI and Infection) and the Glenwood map content. About 1.9 GB in total.\n- It does not include KdK Outbreak, or the extra weapons, vehicles and equipment add-ons. Use your own server mod pack for those.\n- Without KdK Outbreak there is no extra loot, no cap on the infected population and no automatic cleanup. Your own mod pack can add them.\n- This build has not had a full playtest yet. Please report problems.\n- Use it instead of Project Outbreak Deadwood, not together with it. Both share the same scenario content.\n\nWHO MADE THE PARTS\nThe dressed town is Dead Glenwood by Windy768, on the Glenwood terrain by vap3r, with Placeables for GM by Heine.CRV. The base layout follows MODERN PVE | GLENWOOD by guennyyy. The infected and the melee creatures come from Project Outbreak and Creature Melee AI. Thank you to all of them; this scenario only arranges their work under APL.",
   "license": "Arma Public License (APL)",
-  "rating": 0,
-  "ratingCount": 0,
+  "rating": 1,
+  "ratingCount": 1,
   "version": "0.1.5",
   "sizeBytes": 3212990,
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-10-08T02:57:35.000Z",
   "updatedAt": "2026-10-10T13:32:57.000Z",
-  "downloads": 90,
+  "downloads": 116,
   "tags": [
    "GLENWOOD",
    "LIGHT",
@@ -910,7 +910,7 @@
    {
     "id": "4FD4A1BD550793F4",
     "name": "Creature Melee AI",
-    "version": "1.8.0"
+    "version": "1.8.1"
    },
    {
     "id": "61110CC4F1FF9C8A",
@@ -1244,12 +1244,12 @@
   "license": "Arma Public License (APL)",
   "rating": 1,
   "ratingCount": 10,
-  "version": "1.8.0",
-  "sizeBytes": 9882567,
+  "version": "1.8.1",
+  "sizeBytes": 9887127,
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-08-30T18:18:07.000Z",
-  "updatedAt": "2026-10-09T13:08:51.000Z",
-  "downloads": 26084,
+  "updatedAt": "2026-10-12T04:45:56.000Z",
+  "downloads": 27211,
   "tags": [
    "AI",
    "CHARACTERS",
@@ -1261,6 +1261,12 @@
   ],
   "dependencies": [],
   "versions": [
+   {
+    "version": "1.8.1",
+    "gameVersion": "1.8.0.13",
+    "createdAt": "2026-10-12T04:45:47.000Z",
+    "size": 9887127
+   },
    {
     "version": "1.8.0",
     "gameVersion": "1.8.0.13",
@@ -1314,15 +1320,9 @@
     "gameVersion": "1.8.0.13",
     "createdAt": "2026-09-14T05:49:22.000Z",
     "size": 1163713
-   },
-   {
-    "version": "1.1.3",
-    "gameVersion": "1.8.0.13",
-    "createdAt": "2026-09-07T08:11:07.000Z",
-    "size": 995579
    }
   ],
-  "changelog": "1.8.0\nAdded optional shared support for giant creatures: world crushing, fitted stomp animations, grounded footstep effects and impacts that scale with distance.\n\nImproved pursuit of retreating enemies and decisions after switching targets. Creature add-ons can choose area attacks from perceived groups and keep their cast while parking their own movement.\n\nBarefoot creatures no longer injure their feet while walking or running. Normal human footwear and other damage keep their existing behavior.\n\nWorld crushing and giant presentation remain off unless an add-on explicitly enables them. CMAI still requires only the Base Game.\n\nGiant gameplay remains experimental. Complete multiplayer, late-join and presentation coverage is still in progress.\n\nImproved carry cleanup when a carrier disappears or loses its settings. Delayed commands from an ended carry no longer replace a newer carry, and cleanup preserves unrelated character commands.\n\nShared Mushroom Rift animation bank: the fitted creature clips and attack graphs are supplied by CMAI, preserving their motion and resource identities.\n\nAdded optional per-hand melee contact and shared dual-strike animations for creature authors. Existing attacks retain their ordinary contact rules unless an addon enables hand windows.",
+  "changelog": "1.8.1\nPrevent missing bolt-cycle, shooting-seat and riding animation controls on zombies using the shared graph. Add a shared heavy footstep/stomp sound bank and a climbing motion helper for creature addons; existing creatures do not gain climbing automatically.",
   "preview": "https://ar-gcp-cdn.bistudio.com/image/f33c/a48bda46969df8a5c53a02029a5c78ebf3e6478765db430d0f486de85c35/96463.jpg",
   "previewThumbs": [
    "https://ar-gcp-cdn.bistudio.com/image/7f36/942828d7a90314e3c0227d3eb107a2d7823da8ad8651cefc2d2c7aaa0858/57109.jpg",
