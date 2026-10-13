@@ -119,7 +119,7 @@
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-08-30T18:31:09.000Z",
   "updatedAt": "2026-10-03T16:42:37.000Z",
-  "downloads": 9647,
+  "downloads": 9913,
   "tags": [
    "OUTBREAK",
    "SYSTEMS",
@@ -134,7 +134,7 @@
    {
     "id": "F1D4B9B5245B36ED",
     "name": "Project Outbreak Zombies",
-    "version": "2.3.1"
+    "version": "2.3.2"
    }
   ],
   "versions": [
@@ -989,7 +989,7 @@
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-10-06T16:56:25.000Z",
   "updatedAt": "2026-10-06T16:58:43.000Z",
-  "downloads": 196,
+  "downloads": 217,
   "tags": [
    "AI",
    "BOSS",
@@ -1043,13 +1043,13 @@
   "description": "Warbeasts were first reported by civilians living near abandoned military positions. Witnesses described pale, horned humanoids with unusually large arms, carrying an axe in each hand. Further sightings were reported along rural roads and at the edges of nearby settlements.\n\nThe smaller Warbeast carries paired bone axes. The larger Warchief wears military field equipment and carries steel tactical axes. The Greenskin has a broad jaw, flat nose, lower tusks and green leathery skin. It carries the smaller Warbeast's paired bone axes. Its equipment is thought to have been scavenged from abandoned military stores, although this remains unconfirmed.\n\nSquidbeast has mottled hide and enlarged fists. It strikes with heavy punches and downward smashes. A larger orange form, called Big Jim in local reports, wears a white vest and denim. The remains of metal restraints hang from their wrists; their origin is unconfirmed.\n\nThey pursue nearby targets and attack at close range. The Warchief has sufficient strength to throw cars with a strike, shove trucks and, in some cases, overturn armoured vehicles. Entering a vehicle does not end the pursuit. The creature will attack the vehicle while its target remains inside.\n\nPart of the Creatures collection. Available through Game Master, with direct control of the axe-wielding creatures and both Squid variants with their fist and smash attacks. Requires Creature Melee AI 1.8.0 or newer.\n\nBig thanks to AlienBalien for the custom ragdolling work that informed these creatures. BallienCreatures is shared under the Arma Public License (APL): https://reforger.armaplatform.com/workshop/6534B9CEB6D12EE7-BallienCreatures. Licence: https://www.bohemia.net/en/licenses/arma-public-license.\n\nCharacter assets: Epic Games, acquired under the Fab Standard License. Squidbeast and Big Jim use adapted Rampage character assets, original animation curves and nonverbal voices. Authoring assets and standalone asset redistribution are excluded.\n\nAxes: tactical tomahawk source model from Melee Combat Extended Resources by TonyFierce / Anton Firsenko (MCE author Sanxisan). The source model collection is credited under CC BY 4.0 to tubataigames, Marco Orazio Grasso, Hovl Studio, Edwin Wagha, CaptainHC, MaX3Dd, Dasamura, Eric Wallbank, FJH, Foxx Assets and Ruslan Maer. Changes include hand fit, a 180-degree rotation, rubber grips, a sharper cutting bevel and adapted steel finish.\nSource: https://github.com/TonyFierce/Melee-Combat-Extended-Resources/tree/efdd94028de3e0517771183d39b4124ee94738f0\nLicense: https://creativecommons.org/licenses/by/4.0/\n\nWorkshop licence: Arma Public License (APL). Incorporated assets retain their original licences and credits; this listing does not grant additional rights to those assets. Complete component notices are included.",
   "license": "Arma Public License (APL)",
   "rating": 1,
-  "ratingCount": 8,
+  "ratingCount": 9,
   "version": "1.0.3",
   "sizeBytes": 257418615,
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-10-02T05:03:39.000Z",
   "updatedAt": "2026-10-09T15:33:39.000Z",
-  "downloads": 691,
+  "downloads": 720,
   "tags": [
    "AI",
    "CHARACTERS",
@@ -1358,7 +1358,7 @@
   "gameVersion": "1.8.0.10",
   "createdAt": "2026-08-09T15:04:29.000Z",
   "updatedAt": "2026-08-30T20:00:54.000Z",
-  "downloads": 3988,
+  "downloads": 4020,
   "tags": [
    "AI",
    "REARM",
@@ -1415,7 +1415,7 @@
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-10-07T09:20:39.000Z",
   "updatedAt": "2026-10-09T10:56:14.000Z",
-  "downloads": 694,
+  "downloads": 764,
   "tags": [
    "CROSSBOW",
    "GAMEMASTER",
