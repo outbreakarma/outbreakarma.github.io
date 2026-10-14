@@ -6,13 +6,13 @@
  "description": "Project Outbreak aims to enhance the Zombie experience in Arma Reforger. It includes various Zombie archetypes (slow, fast, crawling), animations, and ways to customize Zombie health and damage.\n\n\nPlace them directly through Game Master or use ambient populations and directed waves to shape an entire scenario.\n\n\n\n\nCredits and third-party licences:\n- Special thanks and credits to microplastic9000, this mod adapts Zombie Hive for Outbreak as well as the audio spatial fix under APL. A huge thank you also goes to AlienBallien (BallienCreatures) for  native creature ragdoll approach, extremely helpful for custom creatures in this mod and was used under APL.\n- Several attack and tackling animations come from Yummy Games, as well as sounds (https://www.fab.com/listings/f5e4fd19-febd-43b1-8799-b6c4c8f1f23b). Feral movement also uses Crawling Ghoul Anims (https://www.fab.com/listings/9e96b3f7-30ca-4221-a2eb-2bd46146b286) by RamsterZ. \n- Zombies Pack V4, Zombie Male AAB, Giant Zombie (Nephilim) and Decayed Zombie B by Studio New Punch, from Fab, used under the Fab Standard License. Modified and rigged for Arma Reforger.\n- Zombie Female: Nurse (the Nightingale), Crawling Ghoul Anims and RamsterZ Free Anims Volume 1 by RamsterZ, from Fab, used under their Fab licences\n- Spear animations adapted from Cool Throwing Combat Animations by Bacengdu, from Fab, used under the Fab Standard License.\n\n\n\nRequires Creature Melee AI. Original Project Outbreak content is released under the Arma Public License (APL). Incorporated assets remain under the Fab Standard License.\n\nFor questions, join the Discord Server: \nhttps://discord.gg/JumfhFujRF\n\nTitle Screenshot by redeye.vol2",
  "license": "Arma Public License (APL)",
  "rating": 0.96,
- "ratingCount": 84,
- "version": "2.3.1",
- "sizeBytes": 208225337,
+ "ratingCount": 85,
+ "version": "2.3.3",
+ "sizeBytes": 208226282,
  "gameVersion": "1.8.0.13",
  "createdAt": "2026-08-30T18:23:05.000Z",
- "updatedAt": "2026-10-09T13:27:09.000Z",
- "downloads": 26602,
+ "updatedAt": "2026-10-14T08:20:04.000Z",
+ "downloads": 27710,
  "tags": [
   "CHARACTERS",
   "INFECTION",
@@ -31,6 +31,18 @@
   }
  ],
  "versions": [
+  {
+   "version": "2.3.3",
+   "gameVersion": "1.8.0.13",
+   "createdAt": "2026-10-14T08:18:33.000Z",
+   "size": 208226282
+  },
+  {
+   "version": "2.3.2",
+   "gameVersion": "1.8.0.13",
+   "createdAt": "2026-10-13T20:28:58.000Z",
+   "size": 208225755
+  },
   {
    "version": "2.3.1",
    "gameVersion": "1.8.0.13",
@@ -78,21 +90,9 @@
    "gameVersion": "1.8.0.13",
    "createdAt": "2026-09-27T03:46:01.000Z",
    "size": 203197785
-  },
-  {
-   "version": "2.0.0",
-   "gameVersion": "1.8.0.13",
-   "createdAt": "2026-09-27T00:36:05.000Z",
-   "size": 203197785
-  },
-  {
-   "version": "1.3.3",
-   "gameVersion": "1.8.0.13",
-   "createdAt": "2026-09-16T20:15:40.000Z",
-   "size": 1002083368
   }
  ],
- "changelog": "2.3.1\nServers can hide Infection, Spawner and Ambience startup popups through outbreak.json while keeping those systems active. Infection symptom popups are off by default and can be enabled through outbreak.json.\n\nA zombie with Slung Rifle Chance set to 0 no longer receives a rifle from Director or Ambience spawning. Modders can change the slung rifles by overriding Configs/Wardrobe/Z_SlungWeapons.conf, without editing scripts.\n\nIncludes updated Workshop information and component licence clarification. Requires Creature Melee AI 1.8.0.",
+ "changelog": "2.3.3\nFixes a single zombie destroying a whole helicopter in one grab on servers where another add-on makes vehicle hulls weak to melee damage. Each strike from a zombie holding on to a helicopter now removes the same small amount of hull health however the hull is set up, so a hanging zombie wears the helicopter down over time as intended.\n\nRequires Creature Melee AI 1.8.0.",
  "preview": "https://ar-gcp-cdn.bistudio.com/image/2acf/50af531c77fb7b5f21ca79df26665c5a3e9f10ff3b0c4d08f6876c6370b0/158082.jpg",
  "previewThumbs": [
   "https://ar-gcp-cdn.bistudio.com/image/4cca/713c0a0d13d35c848872dd5398d4de1a8324f8931ead8fd865d03c85c843/86448.jpg",
@@ -111,16 +111,6 @@
    ]
   },
   {
-   "url": "https://ar-gcp-cdn.bistudio.com/image/77ff/141ba6c5a704bf26a1f712258c5425727c9d6827e14916d9cf5f77238c7e/309394.jpg",
-   "width": 1920,
-   "height": 1080,
-   "thumbs": [
-    "https://ar-gcp-cdn.bistudio.com/image/0b64/1b7fcc259bc4016d4fa84608144bad0c01a06d3fbf8df276d0d27e6ccc6d/190061.jpg",
-    "https://ar-gcp-cdn.bistudio.com/image/4c14/f79c26db7b515a7c5f0cabb88b75b1a9fb302acb6b6950d18e19c98bcb8b/61216.jpg",
-    "https://ar-gcp-cdn.bistudio.com/image/ff65/950f215c6e9104b837997d5cc7f8be0b72c661f65e5ab4534f3442d0e8e8/18297.jpg"
-   ]
-  },
-  {
    "url": "https://ar-gcp-cdn.bistudio.com/image/454a/56d450b61fc74493f7a01799bae39470b133b97419b4a9cdaf94165cb2a4/338626.jpg",
    "width": 1920,
    "height": 1080,
@@ -128,6 +118,16 @@
     "https://ar-gcp-cdn.bistudio.com/image/70b4/df2d11ac8529363855e5bb96791da98c356c4296a64b5fe3e15c4f2f287d/204307.jpg",
     "https://ar-gcp-cdn.bistudio.com/image/a4db/4e68fcfcfd0722730db2820981482169029f094ff65c9134e96bbaad940d/62565.jpg",
     "https://ar-gcp-cdn.bistudio.com/image/6495/21c0b1dbfe5769637b237e39984107f4c05ca8144852f2c618678954a157/17435.jpg"
+   ]
+  },
+  {
+   "url": "https://ar-gcp-cdn.bistudio.com/image/77ff/141ba6c5a704bf26a1f712258c5425727c9d6827e14916d9cf5f77238c7e/309394.jpg",
+   "width": 1920,
+   "height": 1080,
+   "thumbs": [
+    "https://ar-gcp-cdn.bistudio.com/image/0b64/1b7fcc259bc4016d4fa84608144bad0c01a06d3fbf8df276d0d27e6ccc6d/190061.jpg",
+    "https://ar-gcp-cdn.bistudio.com/image/4c14/f79c26db7b515a7c5f0cabb88b75b1a9fb302acb6b6950d18e19c98bcb8b/61216.jpg",
+    "https://ar-gcp-cdn.bistudio.com/image/ff65/950f215c6e9104b837997d5cc7f8be0b72c661f65e5ab4534f3442d0e8e8/18297.jpg"
    ]
   }
  ],
