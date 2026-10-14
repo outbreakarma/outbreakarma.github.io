@@ -500,7 +500,7 @@
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-09-22T02:24:31.000Z",
   "updatedAt": "2026-10-01T07:14:39.000Z",
-  "downloads": 132,
+  "downloads": 135,
   "tags": [
    "SCENARIOS_MP",
    "SYSTEMS"
@@ -524,7 +524,7 @@
    {
     "id": "5B02128D896F7DE8",
     "name": "WCS_Stryker",
-    "version": "8.3.0"
+    "version": "8.4.0"
    },
    {
     "id": "5D0551624969C92E",
@@ -534,7 +534,7 @@
    {
     "id": "5E389BB9F58B79A6",
     "name": "WCS_SpaceCore",
-    "version": "8.3.0"
+    "version": "8.4.0"
    },
    {
     "id": "5EE2A316699473D1",
@@ -574,7 +574,7 @@
    {
     "id": "612F512CD4CB21D5",
     "name": "WCS_Earplugs",
-    "version": "8.3.0"
+    "version": "8.4.0"
    },
    {
     "id": "61344BDC155A5A28",
@@ -584,7 +584,7 @@
    {
     "id": "615806DC6C57AF02",
     "name": "WCS_NATO",
-    "version": "8.3.0"
+    "version": "8.4.0"
    },
    {
     "id": "615818DA7C0343FD",
@@ -609,7 +609,7 @@
    {
     "id": "61C74A8B647617DA",
     "name": "WCS_Attachments",
-    "version": "8.3.0"
+    "version": "8.4.1"
    },
    {
     "id": "6209E38AB237098E",
@@ -629,7 +629,7 @@
    {
     "id": "6273146ADFE8241D",
     "name": "WCS_AH-6M",
-    "version": "8.3.0"
+    "version": "8.4.0"
    },
    {
     "id": "6276E6E3CC97A22B",
@@ -639,12 +639,12 @@
    {
     "id": "629B2BA37EFFD577",
     "name": "WCS_Armaments",
-    "version": "8.3.0"
+    "version": "8.4.0"
    },
    {
     "id": "62A668F513428630",
     "name": "WCS_Scopes",
-    "version": "8.3.0"
+    "version": "8.4.0"
    },
    {
     "id": "62A711001B8FDEEA",
@@ -664,7 +664,7 @@
    {
     "id": "63120AE07E6C0966",
     "name": "WCS_M2A2",
-    "version": "8.3.0"
+    "version": "8.4.0"
    },
    {
     "id": "631C3C1AEE9C90BC",
@@ -674,7 +674,7 @@
    {
     "id": "64CB39E57377C861",
     "name": "WCS_AH-1S",
-    "version": "8.3.0"
+    "version": "8.4.0"
    },
    {
     "id": "64DE57C0A1601D14",
@@ -724,12 +724,12 @@
    {
     "id": "65B60A48AEC31157",
     "name": "WCS_FMTV",
-    "version": "8.3.1"
+    "version": "8.4.0"
    },
    {
     "id": "65CF7AE8574E06D2",
     "name": "WCS_Weapons",
-    "version": "8.3.0"
+    "version": "8.4.0"
    },
    {
     "id": "65DACC64CE785B6C",
@@ -829,7 +829,7 @@
    {
     "id": "68F006D910E7546F",
     "name": "WCS_Weapon_Scripts",
-    "version": "8.3.0"
+    "version": "8.4.0"
    },
    {
     "id": "6A46DA328E97EC0A",
@@ -849,7 +849,7 @@
    {
     "id": "F1D4B9B5245B36ED",
     "name": "Project Outbreak Zombies",
-    "version": "2.3.1"
+    "version": "2.3.2"
    }
   ],
   "versions": [
@@ -1201,7 +1201,7 @@
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-10-06T17:34:28.000Z",
   "updatedAt": "2026-10-06T17:34:51.000Z",
-  "downloads": 398,
+  "downloads": 432,
   "tags": [
    "CHARACTERS",
    "CMAI",
