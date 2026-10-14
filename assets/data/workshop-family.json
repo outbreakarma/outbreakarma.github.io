@@ -891,13 +891,13 @@
   "description": "Glenwood is a small American town, and it has gone under. This is the Lite build of Project Outbreak Deadwood: the same scenario, with a much smaller download.\n\nWHAT THIS IS\n- A PvE scenario on the Glenwood terrain, with the town dressed for the outbreak.\n- The infected are always there. They do not wait for a Game Master to place them.\n- Bases and radio relays across the map to take and hold, and a fixed main base to start from.\n- You fight the infected.\n\nWHAT IS DIFFERENT FROM PROJECT OUTBREAK DEADWOOD\n- It needs only Project Outbreak (with Creature Melee AI and Infection) and the Glenwood map content. About 1.9 GB in total.\n- It does not include KdK Outbreak, or the extra weapons, vehicles and equipment add-ons. Use your own server mod pack for those.\n- Without KdK Outbreak there is no extra loot, no cap on the infected population and no automatic cleanup. Your own mod pack can add them.\n- This build has not had a full playtest yet. Please report problems.\n- Use it instead of Project Outbreak Deadwood, not together with it. Both share the same scenario content.\n\nWHO MADE THE PARTS\nThe dressed town is Dead Glenwood by Windy768, on the Glenwood terrain by vap3r, with Placeables for GM by Heine.CRV. The base layout follows MODERN PVE | GLENWOOD by guennyyy. The infected and the melee creatures come from Project Outbreak and Creature Melee AI. Thank you to all of them; this scenario only arranges their work under APL.",
   "license": "Arma Public License (APL)",
   "rating": 1,
-  "ratingCount": 1,
+  "ratingCount": 2,
   "version": "0.1.5",
   "sizeBytes": 3212990,
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-10-08T02:57:35.000Z",
   "updatedAt": "2026-10-10T13:32:57.000Z",
-  "downloads": 154,
+  "downloads": 169,
   "tags": [
    "GLENWOOD",
    "LIGHT",
@@ -935,7 +935,7 @@
    {
     "id": "F1D4B9B5245B36ED",
     "name": "Project Outbreak Zombies",
-    "version": "2.3.1"
+    "version": "2.3.3"
    }
   ],
   "versions": [
@@ -1125,7 +1125,7 @@
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-10-03T17:41:42.000Z",
   "updatedAt": "2026-10-09T15:37:54.000Z",
-  "downloads": 706,
+  "downloads": 739,
   "tags": [
    "ALIEN",
    "CHARACTERS",
