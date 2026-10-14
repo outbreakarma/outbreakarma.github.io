@@ -391,7 +391,7 @@
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-09-27T03:41:17.000Z",
   "updatedAt": "2026-10-06T13:58:23.000Z",
-  "downloads": 4692,
+  "downloads": 4959,
   "tags": [
    "CHARACTERS",
    "OUTBREAK",
@@ -407,7 +407,7 @@
    {
     "id": "F1D4B9B5245B36ED",
     "name": "Project Outbreak Zombies",
-    "version": "2.3.1"
+    "version": "2.3.2"
    }
   ],
   "versions": [
