@@ -119,7 +119,7 @@
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-08-30T18:31:09.000Z",
   "updatedAt": "2026-10-03T16:42:37.000Z",
-  "downloads": 9913,
+  "downloads": 10131,
   "tags": [
    "OUTBREAK",
    "SYSTEMS",
@@ -134,7 +134,7 @@
    {
     "id": "F1D4B9B5245B36ED",
     "name": "Project Outbreak Zombies",
-    "version": "2.3.2"
+    "version": "2.3.4"
    }
   ],
   "versions": [
@@ -1488,7 +1488,7 @@
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-09-29T16:59:01.000Z",
   "updatedAt": "2026-10-01T19:16:41.000Z",
-  "downloads": 262,
+  "downloads": 270,
   "tags": [
    "BALLISTA",
    "MEDIEVAL",
