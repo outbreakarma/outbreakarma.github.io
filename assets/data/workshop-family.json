@@ -897,7 +897,7 @@
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-10-08T02:57:35.000Z",
   "updatedAt": "2026-10-10T13:32:57.000Z",
-  "downloads": 169,
+  "downloads": 187,
   "tags": [
    "GLENWOOD",
    "LIGHT",
@@ -935,7 +935,7 @@
    {
     "id": "F1D4B9B5245B36ED",
     "name": "Project Outbreak Zombies",
-    "version": "2.3.3"
+    "version": "2.3.4"
    }
   ],
   "versions": [
@@ -1125,7 +1125,7 @@
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-10-03T17:41:42.000Z",
   "updatedAt": "2026-10-09T15:37:54.000Z",
-  "downloads": 739,
+  "downloads": 764,
   "tags": [
    "ALIEN",
    "CHARACTERS",
