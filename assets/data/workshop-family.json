@@ -119,7 +119,7 @@
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-08-30T18:31:09.000Z",
   "updatedAt": "2026-10-03T16:42:37.000Z",
-  "downloads": 10285,
+  "downloads": 10470,
   "tags": [
    "OUTBREAK",
    "SYSTEMS",
@@ -129,7 +129,7 @@
    {
     "id": "4FD4A1BD550793F4",
     "name": "Creature Melee AI",
-    "version": "1.8.1"
+    "version": "1.8.5"
    },
    {
     "id": "F1D4B9B5245B36ED",
@@ -1488,7 +1488,7 @@
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-09-29T16:59:01.000Z",
   "updatedAt": "2026-10-01T19:16:41.000Z",
-  "downloads": 277,
+  "downloads": 279,
   "tags": [
    "BALLISTA",
    "MEDIEVAL",
