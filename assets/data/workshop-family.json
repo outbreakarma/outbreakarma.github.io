@@ -897,7 +897,7 @@
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-10-08T02:57:35.000Z",
   "updatedAt": "2026-10-10T13:32:57.000Z",
-  "downloads": 187,
+  "downloads": 199,
   "tags": [
    "GLENWOOD",
    "LIGHT",
@@ -910,7 +910,7 @@
    {
     "id": "4FD4A1BD550793F4",
     "name": "Creature Melee AI",
-    "version": "1.8.1"
+    "version": "1.8.4"
    },
    {
     "id": "61110CC4F1FF9C8A",
@@ -1125,7 +1125,7 @@
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-10-03T17:41:42.000Z",
   "updatedAt": "2026-10-09T15:37:54.000Z",
-  "downloads": 764,
+  "downloads": 793,
   "tags": [
    "ALIEN",
    "CHARACTERS",
