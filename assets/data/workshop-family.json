@@ -327,7 +327,7 @@
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-09-27T03:27:42.000Z",
   "updatedAt": "2026-10-06T13:54:31.000Z",
-  "downloads": 4216,
+  "downloads": 4457,
   "tags": [
    "CHARACTERS",
    "INFECTION",
@@ -338,7 +338,7 @@
    {
     "id": "4FD4A1BD550793F4",
     "name": "Creature Melee AI",
-    "version": "1.8.5"
+    "version": "1.8.6"
    },
    {
     "id": "F1D4B9B5245B36ED",
@@ -1249,13 +1249,13 @@
   "description": "Creature Melee AI (CMAI) is a reusable creature-AI framework for Arma Reforger. A Character-compatible entity can acquire an eligible hostile Character, pursue it continuously through native navigation, and request an attack through a replaceable attack contract.\n\n\nAUTHORING\nCreate a creature from one inherited prefab and one inherited settings file. CMAI owns the common targeting, pursuit, scheduler, damage-request, cleanup, and replication infrastructure while a project can replace the creature presentation and attack behavior.\n\n\nINTEGRATION\nPublic settings, APIs, and capability hooks support independent creature projects. Optional Slow, Hunter, and Fast examples are supplied for sandbox testing. Their Game Master cards use the non-playable Melee AI faction and remain disabled unless a maintainer deliberately enables the single integration switch.\n\n\nSCOPE\nCMAI depends only on the Arma Reforger Base Game. Project Outbreak is not required. CMAI does not provide a spawner, wave manager, population director, or scenario lifecycle; those remain responsibilities of the consuming project.\n\n\nCREDITS\nRetargeted zombie locomotion, attacks, feeding and reactions: Zombie_Pack, purchased under the Fab Standard License (https://www.fab.com/eula). Throw/carry animations: RamsterZ Free Anims Volume 1: https://www.fab.com/listings/9319491d-0e91-422c-9b67-ad4bf6c01a02. These compiled animations are embedded game content; their source assets are not included.\n\n\nMelee animation: Melee Combat Extended by Sanxisan (Anton Firsenko / TonyFierce). Five compiled two-handed clips retain the Arma Public License: https://reforger.armaplatform.com/workshop/6595113A3678CF5D-MeleeCombatExtended and https://www.bohemia.net/community/licenses/arma-public-license. One-handed animation resources (MIT license): https://github.com/TonyFierce/Melee-Combat-Extended-Resources. Complete component notices are included.\n\n\nGiant stomp animation: Giant Pack V01 by MandB Animation, retargeted and fitted for Reforger by Project Outbreak. Fab Standard License: https://www.fab.com/listings/6c958505-2e10-4600-b85c-668cd158d25d. Animation retargeting, native graph integration and authored adaptations are by Project Outbreak.\n\n\nCrawling Ghoul Anims by RamsterZ: https://www.fab.com/listings/9e96b3f7-30ca-4221-a2eb-2bd46146b286. Climbing animation from Free Animation Library by voxel vision: https://www.fab.com/listings/481ef75b-892b-424f-a213-f1cc058c9c19. Spear throw from Cool Throwing Combat Animations by Bacengdu: https://www.fab.com/listings/fffbea69-14ff-499d-b85a-131171c1d6f8. These compiled derivatives retain the Fab Standard License; editable sources are excluded.\n\n\nWorkshop licence: Arma Public License (APL). Incorporated assets retain their original licences and credits; this listing does not grant additional rights to those assets. See the included notices for component terms.\n\nShared dual-strike animation: original Epic Games character motion acquired under the Fab Standard License, retargeted and fitted for CMAI. Source: https://www.fab.com/listings/8c4bac2c-f7f7-4632-a644-47f4e104f5d8. Compiled game content only; editable sources and standalone redistribution are excluded.\n\n\nWerewolf claw animations: Werewolf by Lilpupinduy, Fab Standard License: https://www.fab.com/listings/e6d3f2fc-f64d-418b-b41d-1f8808be3f21. Bigfoot boxing animations created with Tripo3D under a paid license. These compiled animations are embedded game content; editable sources are excluded.",
   "license": "Arma Public License (APL)",
   "rating": 1,
-  "ratingCount": 10,
-  "version": "1.8.5",
-  "sizeBytes": 10067439,
+  "ratingCount": 11,
+  "version": "1.8.6",
+  "sizeBytes": 10067735,
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-08-30T18:18:07.000Z",
-  "updatedAt": "2026-10-16T18:54:15.000Z",
-  "downloads": 32324,
+  "updatedAt": "2026-10-18T09:57:53.000Z",
+  "downloads": 33771,
   "tags": [
    "AI",
    "CHARACTERS",
@@ -1267,6 +1267,12 @@
   ],
   "dependencies": [],
   "versions": [
+   {
+    "version": "1.8.6",
+    "gameVersion": "1.8.0.13",
+    "createdAt": "2026-10-18T09:57:40.000Z",
+    "size": 10067735
+   },
    {
     "version": "1.8.5",
     "gameVersion": "1.8.0.13",
@@ -1320,15 +1326,9 @@
     "gameVersion": "1.8.0.13",
     "createdAt": "2026-09-29T15:30:55.000Z",
     "size": 1197790
-   },
-   {
-    "version": "1.3.0",
-    "gameVersion": "1.8.0.13",
-    "createdAt": "2026-09-27T00:34:15.000Z",
-    "size": 1191356
    }
   ],
-  "changelog": "1.8.5\nFixes Game Master cards spawning the wrong creature on dedicated servers, such as the Dark Werewolf card placing an Ice Werewolf. Each card now places exactly the creature it shows.",
+  "changelog": "1.8.6\nAdds an internal carry admission path used by creature add-ons that have already proved physical contact with the body they struck, such as the Eyekin bird's dive grab. Creature and player behaviour through the existing pickup search is unchanged.",
   "preview": "https://ar-gcp-cdn.bistudio.com/image/f33c/a48bda46969df8a5c53a02029a5c78ebf3e6478765db430d0f486de85c35/96463.jpg",
   "previewThumbs": [
    "https://ar-gcp-cdn.bistudio.com/image/7f36/942828d7a90314e3c0227d3eb107a2d7823da8ad8651cefc2d2c7aaa0858/57109.jpg",
