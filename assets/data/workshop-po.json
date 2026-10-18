@@ -12,7 +12,7 @@
  "gameVersion": "1.8.0.13",
  "createdAt": "2026-08-30T18:23:05.000Z",
  "updatedAt": "2026-10-14T19:38:18.000Z",
- "downloads": 30311,
+ "downloads": 30988,
  "tags": [
   "CHARACTERS",
   "INFECTION",
@@ -27,7 +27,7 @@
   {
    "id": "4FD4A1BD550793F4",
    "name": "Creature Melee AI",
-   "version": "1.8.5"
+   "version": "1.8.6"
   }
  ],
  "versions": [
