@@ -500,7 +500,7 @@
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-09-22T02:24:31.000Z",
   "updatedAt": "2026-10-01T07:14:39.000Z",
-  "downloads": 154,
+  "downloads": 156,
   "tags": [
    "SCENARIOS_MP",
    "SYSTEMS"
@@ -509,7 +509,7 @@
    {
     "id": "4FD4A1BD550793F4",
     "name": "Creature Melee AI",
-    "version": "1.8.5"
+    "version": "1.8.6"
    },
    {
     "id": "5965550F24A0C152",
@@ -779,7 +779,7 @@
    {
     "id": "66B523AD189F3233",
     "name": "Bandit Gear",
-    "version": "0.16.2"
+    "version": "0.16.3"
    },
    {
     "id": "66C4458756B32594",
@@ -1125,7 +1125,7 @@
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-10-03T17:41:42.000Z",
   "updatedAt": "2026-10-18T10:35:37.000Z",
-  "downloads": 886,
+  "downloads": 988,
   "tags": [
    "ALIEN",
    "CHARACTERS",
@@ -1207,7 +1207,7 @@
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-10-06T17:34:28.000Z",
   "updatedAt": "2026-10-06T17:34:51.000Z",
-  "downloads": 602,
+  "downloads": 651,
   "tags": [
    "CHARACTERS",
    "CMAI",
@@ -1219,7 +1219,7 @@
    {
     "id": "4FD4A1BD550793F4",
     "name": "Creature Melee AI",
-    "version": "1.8.5"
+    "version": "1.8.6"
    }
   ],
   "versions": [
