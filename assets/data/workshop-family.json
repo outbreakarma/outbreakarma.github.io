@@ -500,7 +500,7 @@
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-09-22T02:24:31.000Z",
   "updatedAt": "2026-10-01T07:14:39.000Z",
-  "downloads": 158,
+  "downloads": 160,
   "tags": [
    "SCENARIOS_MP",
    "SYSTEMS"
@@ -684,7 +684,7 @@
    {
     "id": "64EE818E08AFCF94",
     "name": "MFD Framework",
-    "version": "0.4.9"
+    "version": "0.4.10"
    },
    {
     "id": "65157D09F042428A",
@@ -897,7 +897,7 @@
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-10-08T02:57:35.000Z",
   "updatedAt": "2026-10-10T13:32:57.000Z",
-  "downloads": 274,
+  "downloads": 283,
   "tags": [
    "GLENWOOD",
    "LIGHT",
@@ -1125,7 +1125,7 @@
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-10-03T17:41:42.000Z",
   "updatedAt": "2026-10-18T10:35:37.000Z",
-  "downloads": 1045,
+  "downloads": 1080,
   "tags": [
    "ALIEN",
    "CHARACTERS",
@@ -1207,7 +1207,7 @@
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-10-06T17:34:28.000Z",
   "updatedAt": "2026-10-06T17:34:51.000Z",
-  "downloads": 682,
+  "downloads": 705,
   "tags": [
    "CHARACTERS",
    "CMAI",
