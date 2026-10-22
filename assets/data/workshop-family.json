@@ -114,12 +114,12 @@
   "license": "Arma Public License (APL)",
   "rating": 0.94,
   "ratingCount": 16,
-  "version": "1.3.2",
-  "sizeBytes": 16652769,
+  "version": "1.3.3",
+  "sizeBytes": 16653783,
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-08-30T18:31:09.000Z",
-  "updatedAt": "2026-10-03T16:42:37.000Z",
-  "downloads": 11287,
+  "updatedAt": "2026-10-21T23:23:02.000Z",
+  "downloads": 11465,
   "tags": [
    "OUTBREAK",
    "SYSTEMS",
@@ -129,15 +129,21 @@
    {
     "id": "4FD4A1BD550793F4",
     "name": "Creature Melee AI",
-    "version": "1.8.6"
+    "version": "1.8.7"
    },
    {
     "id": "F1D4B9B5245B36ED",
     "name": "Project Outbreak Zombies",
-    "version": "2.3.4"
+    "version": "2.4.7"
    }
   ],
   "versions": [
+   {
+    "version": "1.3.3",
+    "gameVersion": "1.8.0.13",
+    "createdAt": "2026-10-21T23:22:51.000Z",
+    "size": 16653783
+   },
    {
     "version": "1.3.2",
     "gameVersion": "1.8.0.13",
@@ -193,7 +199,7 @@
     "size": 206417
    }
   ],
-  "changelog": "1.3.2\n- Breach allows zombies to finish a wall approach or active climb.\n- Zombies can open a usable door in either direction before breaching it.",
+  "changelog": "1.3.3\nZombies blocked with no usable door or window route now reuse that search result briefly, reducing repeated work in crowds while retaining checks for changed targets and openings.",
   "preview": "https://ar-gcp-cdn.bistudio.com/image/5bed/0a8b466346b0229c97c156bbf024f76419a6e1eb8b960a36b00e9145fbce/224343.jpg",
   "previewThumbs": [
    "https://ar-gcp-cdn.bistudio.com/image/7d75/5da9027f13bd2eb53c9792887fcf71e0a0198a257243bda52f28bcf15e8e/115565.jpg",
@@ -1207,7 +1213,7 @@
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-10-06T17:34:28.000Z",
   "updatedAt": "2026-10-06T17:34:51.000Z",
-  "downloads": 705,
+  "downloads": 723,
   "tags": [
    "CHARACTERS",
    "CMAI",
@@ -1219,7 +1225,7 @@
    {
     "id": "4FD4A1BD550793F4",
     "name": "Creature Melee AI",
-    "version": "1.8.6"
+    "version": "1.8.7"
    }
   ],
   "versions": [
@@ -1494,7 +1500,7 @@
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-09-29T16:59:01.000Z",
   "updatedAt": "2026-10-01T19:16:41.000Z",
-  "downloads": 317,
+  "downloads": 321,
   "tags": [
    "BALLISTA",
    "MEDIEVAL",
