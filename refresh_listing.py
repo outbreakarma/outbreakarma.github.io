@@ -29,6 +29,8 @@ FAMILY_IDS = [
     "7B763100BAFA1F9A", "6209E38AB237098E", "6B9BD0DA529C0D1E", "384E32C2A832444E", "297640FBAC0C46C3",  # Project Outbreak modules
     "0B4FB11C20129700", "0B4FB11C20129701",  # scenarios
     "475357F020261002", "9C6F9425B58142E7", "E1DCD3CAF138441C", "135E4CF7BBB94766",  # creatures
+    "0751D781B4F6F9BB", "E3617517555C481D", "6443DC7DCCE347B6", "0C5BC5D358A14BF6",
+    "FD246F60963E46D8", "A129104B9AA1D58B", "A1C2ED1F87D04FF8",  # newer creature releases
     "4FD4A1BD550793F4", "40B5686CC205703A", "3CBDFAB9713149BE", "9E4B2C7A1D5F8036",  # foundation and tools
 ]
 NEXT_DATA_RE = re.compile(r'<script id="__NEXT_DATA__"[^>]*>(.*?)</script>', re.S)
@@ -48,7 +50,8 @@ def get(url: str, retries: int = 3) -> bytes:
 
 
 def page_props(mod_id: str) -> dict:
-    html = get(f"https://reforger.armaplatform.com/workshop/{mod_id}").decode("utf-8", errors="replace")
+    # Plain listing URLs can keep serving a cached version after a new publication.
+    html = get(f"https://reforger.armaplatform.com/workshop/{mod_id}?refresh={time.time_ns()}").decode("utf-8", errors="replace")
     m = NEXT_DATA_RE.search(html)
     if not m:
         raise RuntimeError(f"no embedded data on the listing page for {mod_id}")

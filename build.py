@@ -149,7 +149,9 @@ GROUPS = [
     {"id": "scenarios", "label": "Scenarios", "blurb": "Ready-to-host multiplayer scenarios that run Project Outbreak for you.",
      "items": ["0B4FB11C20129700", "0B4FB11C20129701"]},
     {"id": "creatures", "label": "Creatures", "blurb": "Stand-alone creature add-ons, each built on Creature Melee AI.",
-     "items": ["475357F020261002", "9C6F9425B58142E7", "E1DCD3CAF138441C", "135E4CF7BBB94766"]},
+     "items": ["475357F020261002", "9C6F9425B58142E7", "E1DCD3CAF138441C", "135E4CF7BBB94766",
+               "0751D781B4F6F9BB", "E3617517555C481D", "6443DC7DCCE347B6", "0C5BC5D358A14BF6",
+               "FD246F60963E46D8", "A129104B9AA1D58B", "A1C2ED1F87D04FF8"]},
     {"id": "tools", "label": "Foundation and tools", "blurb": "The melee AI framework under every creature here, plus AI support and weapons.",
      "items": [CMAI_ID, "40B5686CC205703A", "3CBDFAB9713149BE", "9E4B2C7A1D5F8036"]},
 ]
@@ -159,6 +161,8 @@ ROLE = {
     "384E32C2A832444E": "Optional module", "297640FBAC0C46C3": "Optional module, creatures",
     "0B4FB11C20129700": "Scenario", "0B4FB11C20129701": "Scenario, lighter",
     "475357F020261002": "Creature", "9C6F9425B58142E7": "Creatures", "E1DCD3CAF138441C": "Creature", "135E4CF7BBB94766": "Creature",
+    "0751D781B4F6F9BB": "Creatures", "E3617517555C481D": "Creature", "6443DC7DCCE347B6": "Creature",
+    "0C5BC5D358A14BF6": "Creature", "FD246F60963E46D8": "Creature", "A129104B9AA1D58B": "Creature", "A1C2ED1F87D04FF8": "Creatures",
     CMAI_ID: "Foundation, required", "40B5686CC205703A": "Standalone", "3CBDFAB9713149BE": "Weapon", "9E4B2C7A1D5F8036": "Weapon, work in progress",
 }
 PO_ENTRY = dict(PO, previewFile=local(PO.get("preview")))

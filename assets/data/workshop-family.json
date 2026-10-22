@@ -8,12 +8,12 @@
   "license": "Arma Public License (APL)",
   "rating": 0.96,
   "ratingCount": 23,
-  "version": "1.3.1",
-  "sizeBytes": 10161031,
+  "version": "1.3.5",
+  "sizeBytes": 10164163,
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-08-30T18:29:18.000Z",
-  "updatedAt": "2026-10-09T13:30:40.000Z",
-  "downloads": 15015,
+  "updatedAt": "2026-10-21T23:20:00.000Z",
+  "downloads": 15316,
   "tags": [
    "INFECTION",
    "OUTBREAK",
@@ -24,15 +24,21 @@
    {
     "id": "4FD4A1BD550793F4",
     "name": "Creature Melee AI",
-    "version": "1.8.6"
+    "version": "1.8.7"
    },
    {
     "id": "F1D4B9B5245B36ED",
     "name": "Project Outbreak Zombies",
-    "version": "2.3.4"
+    "version": "2.4.7"
    }
   ],
   "versions": [
+   {
+    "version": "1.3.5",
+    "gameVersion": "1.8.0.13",
+    "createdAt": "2026-10-21T23:19:52.000Z",
+    "size": 10164163
+   },
    {
     "version": "1.3.1",
     "gameVersion": "1.8.0.13",
@@ -86,15 +92,9 @@
     "gameVersion": "1.8.0.13",
     "createdAt": "2026-09-14T06:25:53.000Z",
     "size": 10158831
-   },
-   {
-    "version": "1.0.5",
-    "gameVersion": "1.8.0.13",
-    "createdAt": "2026-09-07T08:15:29.000Z",
-    "size": 10144133
    }
   ],
-  "changelog": "1.3.1\nInfection stage popups are off by default. Game Masters and server owners can enable them with Show Symptom Alerts or outbreak.json. Examination, diagnosis and treatment feedback remain available.\n\nWhen symptom alerts are enabled, the risen notification now reaches the original player after their old body reanimates. Includes updated Workshop information and component licence clarification.",
+  "changelog": "1.3.5\nCoughing is quieter by default and has a configurable volume, including mute. Game Master indicators show whether infection is active, scheduled off or disabled. Attacks from Project Outbreak stand-ins can infect. A turned zombie killed immediately after rising still counts as a completed turn.",
   "preview": "https://ar-gcp-cdn.bistudio.com/image/890a/2e690a44cd0ecea4b7e7e336db3d449f24c67280e27b944b11a6367bbd43/259454.jpg",
   "previewThumbs": [
    "https://ar-gcp-cdn.bistudio.com/image/2ee0/8108bfa63848f0565577b852b3d6bf0f53839d070af590ff24e1f9e19328/140121.jpg",
@@ -119,7 +119,7 @@
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-08-30T18:31:09.000Z",
   "updatedAt": "2026-10-21T23:23:02.000Z",
-  "downloads": 11465,
+  "downloads": 11575,
   "tags": [
    "OUTBREAK",
    "SYSTEMS",
@@ -219,12 +219,12 @@
   "license": "Arma Public License (APL)",
   "rating": 0.92,
   "ratingCount": 13,
-  "version": "1.2.2",
-  "sizeBytes": 22717378,
+  "version": "1.2.3",
+  "sizeBytes": 22717390,
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-08-30T18:27:33.000Z",
-  "updatedAt": "2026-10-01T14:38:36.000Z",
-  "downloads": 6400,
+  "updatedAt": "2026-10-21T23:26:48.000Z",
+  "downloads": 6496,
   "tags": [
    "GADGETS",
    "OUTBREAK",
@@ -238,15 +238,21 @@
    {
     "id": "4FD4A1BD550793F4",
     "name": "Creature Melee AI",
-    "version": "1.8.6"
+    "version": "1.8.7"
    },
    {
     "id": "F1D4B9B5245B36ED",
     "name": "Project Outbreak Zombies",
-    "version": "2.3.4"
+    "version": "2.4.7"
    }
   ],
   "versions": [
+   {
+    "version": "1.2.3",
+    "gameVersion": "1.8.0.13",
+    "createdAt": "2026-10-21T23:26:34.000Z",
+    "size": 22717390
+   },
    {
     "version": "1.2.2",
     "gameVersion": "1.8.0.13",
@@ -300,15 +306,9 @@
     "gameVersion": "1.8.0.13",
     "createdAt": "2026-09-04T19:50:56.000Z",
     "size": 23155506
-   },
-   {
-    "version": "1.0.5",
-    "gameVersion": "1.8.0.10",
-    "createdAt": "2026-09-02T11:15:02.000Z",
-    "size": 22050807
    }
   ],
-  "changelog": "- Hotfix for Electric fence sections causing crash.\n- Fixed a false warning from the Defense Supplies crate’s stock check.\n- Fixed errors during napalm cleanup when burned zombies disappear. The flames and burned appearance stay the same, with less background work. It should be faster now!",
+  "changelog": "1.2.3\nThe M48 spear grip now uses the shared Creature Melee AI animation resource. Existing spear handling and throw behavior are retained.",
   "preview": "https://ar-gcp-cdn.bistudio.com/image/50f0/70743126ffaf4c694e4506551cbf16b5792a9cb03a44a105d4a5a54cd86f/280700.jpg",
   "previewThumbs": [
    "https://ar-gcp-cdn.bistudio.com/image/e37d/dfafedce4959e15b52b2a75c3e7bd274aaec1e373dd7958adf0fa9c26b10/151800.jpg",
@@ -328,12 +328,12 @@
   "license": "Arma Public License (APL)",
   "rating": 1,
   "ratingCount": 16,
-  "version": "1.1.0",
-  "sizeBytes": 734323032,
+  "version": "1.2.1",
+  "sizeBytes": 827531546,
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-09-27T03:27:42.000Z",
-  "updatedAt": "2026-10-06T13:54:31.000Z",
-  "downloads": 4907,
+  "updatedAt": "2026-10-21T23:13:44.000Z",
+  "downloads": 5114,
   "tags": [
    "CHARACTERS",
    "INFECTION",
@@ -344,15 +344,21 @@
    {
     "id": "4FD4A1BD550793F4",
     "name": "Creature Melee AI",
-    "version": "1.8.6"
+    "version": "1.8.7"
    },
    {
     "id": "F1D4B9B5245B36ED",
     "name": "Project Outbreak Zombies",
-    "version": "2.3.4"
+    "version": "2.4.7"
    }
   ],
   "versions": [
+   {
+    "version": "1.2.1",
+    "gameVersion": "1.8.0.13",
+    "createdAt": "2026-10-21T23:08:29.000Z",
+    "size": 827531546
+   },
    {
     "version": "1.1.0",
     "gameVersion": "1.8.0.13",
@@ -372,7 +378,7 @@
     "size": 696194989
    }
   ],
-  "changelog": "1.1.0\n- Added a decayed female firefighter with repaired worn gear, finer hair, a readable FIRE helmet badge, fitted straps and a weathered breathing tank.\n- A direct bullet hit on her breathing tank releases one short-range pressure blast that damages nearby characters, with a bang, air, dust and small cosmetic chips, without flames. It is designed to happen once per tank. Hits to the rest of the body do not trigger it, and the cylinder stays attached and visually intact afterward.",
+  "changelog": "1.2.1\nAdded the Handyman, Businesswoman and Professional Woman to the ordinary zombie mix, including four Handyman bodies and female voice cues for the two women. Firefighters are rarer in ordinary civilian groups. Shooting a firefighter's tank now causes a damaging air-and-debris explosion with nearby knockback, without fire. Updated lower-detail meshes for 59 existing bodies.",
   "preview": "https://ar-gcp-cdn.bistudio.com/image/2053/f038bf59f6c6534176196a61137d6dbe4fb722ca71070f0d6eeed21f5d59/184251.jpg",
   "previewThumbs": [
    "https://ar-gcp-cdn.bistudio.com/image/2266/e99e443af4641f628f1c02046ad09313dcfc4f2cc887252d74a677a59a27/106924.jpg",
@@ -397,7 +403,7 @@
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-09-27T03:41:17.000Z",
   "updatedAt": "2026-10-21T23:17:24.000Z",
-  "downloads": 6651,
+  "downloads": 6735,
   "tags": [
    "CHARACTERS",
    "OUTBREAK",
@@ -512,7 +518,7 @@
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-09-22T02:24:31.000Z",
   "updatedAt": "2026-10-01T07:14:39.000Z",
-  "downloads": 160,
+  "downloads": 161,
   "tags": [
    "SCENARIOS_MP",
    "SYSTEMS"
@@ -521,7 +527,7 @@
    {
     "id": "4FD4A1BD550793F4",
     "name": "Creature Melee AI",
-    "version": "1.8.6"
+    "version": "1.8.7"
    },
    {
     "id": "5965550F24A0C152",
@@ -626,7 +632,7 @@
    {
     "id": "6209E38AB237098E",
     "name": "Project Outbreak Breach",
-    "version": "1.3.2"
+    "version": "1.3.3"
    },
    {
     "id": "620E584B1D2C96A4",
@@ -851,17 +857,17 @@
    {
     "id": "6B9BD0DA529C0D1E",
     "name": "Project Outbreak Gadgets",
-    "version": "1.2.2"
+    "version": "1.2.3"
    },
    {
     "id": "7B763100BAFA1F9A",
     "name": "Project Outbreak Infection",
-    "version": "1.3.1"
+    "version": "1.3.5"
    },
    {
     "id": "F1D4B9B5245B36ED",
     "name": "Project Outbreak Zombies",
-    "version": "2.3.4"
+    "version": "2.4.7"
    }
   ],
   "versions": [
@@ -904,12 +910,12 @@
   "license": "Arma Public License (APL)",
   "rating": 1,
   "ratingCount": 3,
-  "version": "0.1.5",
-  "sizeBytes": 3212990,
+  "version": "0.1.12",
+  "sizeBytes": 3531554,
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-10-08T02:57:35.000Z",
-  "updatedAt": "2026-10-10T13:32:57.000Z",
-  "downloads": 283,
+  "updatedAt": "2026-10-22T01:38:50.000Z",
+  "downloads": 292,
   "tags": [
    "GLENWOOD",
    "LIGHT",
@@ -922,7 +928,7 @@
    {
     "id": "4FD4A1BD550793F4",
     "name": "Creature Melee AI",
-    "version": "1.8.6"
+    "version": "1.8.7"
    },
    {
     "id": "61110CC4F1FF9C8A",
@@ -942,15 +948,21 @@
    {
     "id": "7B763100BAFA1F9A",
     "name": "Project Outbreak Infection",
-    "version": "1.3.1"
+    "version": "1.3.5"
    },
    {
     "id": "F1D4B9B5245B36ED",
     "name": "Project Outbreak Zombies",
-    "version": "2.3.4"
+    "version": "2.4.7"
    }
   ],
   "versions": [
+   {
+    "version": "0.1.12",
+    "gameVersion": "1.8.0.13",
+    "createdAt": "2026-10-22T01:38:43.000Z",
+    "size": 3531554
+   },
    {
     "version": "0.1.5",
     "gameVersion": "1.8.0.13",
@@ -976,7 +988,7 @@
     "size": 3207603
    }
   ],
-  "changelog": "Active mass graves can now spawn the Abomination on servers that load Special Zombies and Creatures. Each grave has a 1% chance per minute, with at most one Abomination alive across the valley. It follows the existing lure, population limit and idle cleanup rules. The creature addon remains optional; Lite's required dependencies and other infected spawn chances are unchanged.",
+  "changelog": "0.1.12\nServer owners can now raise the number of infected from the server config: groups kept around each player, groups alive across the valley, groups per top-up and seconds between top-ups. Servers that set none of them play exactly as before. Far groups that walk as Project Outbreak stand-ins now stay counted and turn back into zombies when a player comes near. Needs Project Outbreak 2.4.6 or later. Fixed: after a server restart from a save, the headquarters and their spawn points now come back reliably. With another add-on that also manages seize objectives, the two no longer rebuild each other's tasks over and over, which slowed long-running servers down. Infected-held bases keep their owner and flag after a restart from a save, and an opened mass grave keeps spawning until it is destroyed. The Outbreak flag on the bases' flagpoles now shows the whole banner instead of a stretched, cut-off part of it. A base under attack with no player near no longer keeps spawning more and more infected while its far groups walk as stand-ins. A mass grave now also counts its infected walking as stand-ins far away, so it no longer opens a new wave while the last one is still out there.",
   "preview": "https://ar-gcp-cdn.bistudio.com/image/6a92/2db8d6d18bfe9e72772ce468b6aed7242865b1b1a4ad99222d6b431e8954/296643.jpg",
   "previewThumbs": [
    "https://ar-gcp-cdn.bistudio.com/image/a586/49e091f21648996c31da3c96e37ad42a3267479443b2cf014229eb2adf45/139140.jpg",
@@ -996,12 +1008,12 @@
   "license": "Arma Public License (APL)",
   "rating": 1,
   "ratingCount": 3,
-  "version": "0.1.0",
-  "sizeBytes": 136492379,
+  "version": "0.1.1",
+  "sizeBytes": 136327877,
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-10-06T16:56:25.000Z",
-  "updatedAt": "2026-10-06T16:58:43.000Z",
-  "downloads": 322,
+  "updatedAt": "2026-10-22T01:38:11.000Z",
+  "downloads": 345,
   "tags": [
    "AI",
    "BOSS",
@@ -1014,10 +1026,16 @@
    {
     "id": "4FD4A1BD550793F4",
     "name": "Creature Melee AI",
-    "version": "1.8.6"
+    "version": "1.8.7"
    }
   ],
   "versions": [
+   {
+    "version": "0.1.1",
+    "gameVersion": "1.8.0.13",
+    "createdAt": "2026-10-22T01:37:05.000Z",
+    "size": 136327877
+   },
    {
     "version": "0.1.0",
     "gameVersion": "1.8.0.13",
@@ -1025,7 +1043,7 @@
     "size": 136492379
    }
   ],
-  "changelog": "",
+  "changelog": "0.1.1\nUpdated lower-detail meshes for both Goblin bodies. Blademaster attacks and reactions now use shared Creature Melee AI resources. Existing possession controls, timed parry, armor fitting and grip fixes are retained.",
   "preview": "https://ar-gcp-cdn.bistudio.com/image/d0d1/88984ccc8eab5be9a8d2dcc64106c5cee0014ec30d03fb6137604d4a18fc/130053.jpg",
   "previewThumbs": [
    "https://ar-gcp-cdn.bistudio.com/image/ded0/f49ea12ca81bbfd979b160d22ddd1935f62cece61f881a8e3927ac26431a/112173.jpg",
@@ -1056,12 +1074,12 @@
   "license": "Arma Public License (APL)",
   "rating": 1,
   "ratingCount": 11,
-  "version": "1.0.3",
-  "sizeBytes": 257418615,
+  "version": "1.0.4",
+  "sizeBytes": 257418641,
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-10-02T05:03:39.000Z",
-  "updatedAt": "2026-10-09T15:33:39.000Z",
-  "downloads": 905,
+  "updatedAt": "2026-10-22T00:53:42.000Z",
+  "downloads": 977,
   "tags": [
    "AI",
    "CHARACTERS",
@@ -1073,10 +1091,16 @@
    {
     "id": "4FD4A1BD550793F4",
     "name": "Creature Melee AI",
-    "version": "1.8.6"
+    "version": "1.8.7"
    }
   ],
   "versions": [
+   {
+    "version": "1.0.4",
+    "gameVersion": "1.8.0.13",
+    "createdAt": "2026-10-22T00:52:07.000Z",
+    "size": 257418641
+   },
    {
     "version": "1.0.3",
     "gameVersion": "1.8.0.13",
@@ -1102,12 +1126,12 @@
     "size": 143230543
    }
   ],
-  "changelog": "1.0.3\nGreenskin gains a broad jaw, flat nose, lower tusks, a heavier brow and leathery green hide. Fuller cheeks, softer facial creases and smoother face-to-neck skin transitions give it a more natural appearance. Removed its old crown and back spikes. The original Warbeast and Warchief remain available.\n\nBarefoot Warbeast and Warchief no longer injure their feet while walking or running with the updated Creature Melee AI dependency.\n\nWarbeast, Warchief and Greenskin now have health sliders in the shared Creatures settings of Game Master global attributes.\n\nThe shared Creatures faction label now keeps the standard Game Master faction setup, so it works better with other mods that add factions. Requires Creature Melee AI 1.8.0.\n\nAdds Squidbeast and Big Jim to the Creatures roster. Squidbeast uses the original mottled hide; Big Jim has orange hide, a white vest, denim and a larger body. Both use fist and smash attacks, creature voices and native turning.",
-  "preview": "https://ar-gcp-cdn.bistudio.com/image/c3ce/e4c5832c04f88e8026edd95f05a7b8aae154e466a829f0850c548d822f84/288539.jpg",
+  "changelog": "1.0.4\nWarbeast, Warchief and Greenskin attacks now use the shared Creature Melee AI resources. Existing attacks and creature appearances are retained.",
+  "preview": "https://ar-gcp-cdn.bistudio.com/image/324a/f854dd2023ffc67cf9f4e3d2a651dcaeb81e9bc907768f80366b4dde60a7/292044.jpg",
   "previewThumbs": [
-   "https://ar-gcp-cdn.bistudio.com/image/705e/d842e8b91724664e75cbd860f387a00cb0206fe124927a998a45b1ac09f4/157620.jpg",
-   "https://ar-gcp-cdn.bistudio.com/image/bab2/1b59673402542935bcf2318dd96d84a55c5899c4cf290f5bce9b740900fd/45929.jpg",
-   "https://ar-gcp-cdn.bistudio.com/image/8b8d/429b20b7d7ac6587a8d30b11140e5bc2085579a27096e91c71f1833d6cea/12951.jpg"
+   "https://ar-gcp-cdn.bistudio.com/image/84d1/d734c68bef7105a26ae09ad588815c6d269fcd36ca4a70608bd3978e7f1f/160052.jpg",
+   "https://ar-gcp-cdn.bistudio.com/image/f65c/8c072c825c5312c27aab9d8dc03ecf08a57cd00cb0b3566b97dd29450a0a/46210.jpg",
+   "https://ar-gcp-cdn.bistudio.com/image/edb3/4407b7f4c8edb5aca76670cafed2d2cd211e857f537d7306ccad0e7f49a8/13170.jpg"
   ],
   "screenshots": [
    {
@@ -1121,7 +1145,7 @@
    }
   ],
   "workshopUrl": "https://reforger.armaplatform.com/workshop/9C6F9425B58142E7",
-  "previewFile": "assets/family/9C6F9425B58142E7_1dcaed7b55.jpg"
+  "previewFile": "assets/family/9C6F9425B58142E7_4c598ed522.jpg"
  },
  {
   "id": "E1DCD3CAF138441C",
@@ -1132,12 +1156,12 @@
   "license": "Arma Public License (APL)",
   "rating": 1,
   "ratingCount": 6,
-  "version": "1.2.4",
-  "sizeBytes": 116880138,
+  "version": "1.2.5",
+  "sizeBytes": 116880965,
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-10-03T17:41:42.000Z",
-  "updatedAt": "2026-10-18T10:35:37.000Z",
-  "downloads": 1080,
+  "updatedAt": "2026-10-22T00:51:19.000Z",
+  "downloads": 1128,
   "tags": [
    "ALIEN",
    "CHARACTERS",
@@ -1149,10 +1173,16 @@
    {
     "id": "4FD4A1BD550793F4",
     "name": "Creature Melee AI",
-    "version": "1.8.6"
+    "version": "1.8.7"
    }
   ],
   "versions": [
+   {
+    "version": "1.2.5",
+    "gameVersion": "1.8.0.13",
+    "createdAt": "2026-10-22T00:50:25.000Z",
+    "size": 116880965
+   },
    {
     "version": "1.2.4",
     "gameVersion": "1.8.0.13",
@@ -1184,12 +1214,12 @@
     "size": 37924244
    }
   ],
-  "changelog": "1.2.4\nThe bird's dive now grabs only the person its talons actually hit - a nearby stander can no longer be snatched instead, and nothing locks a person's controls before the talons strike. Requires Creature Melee AI 1.8.6.",
-  "preview": "https://ar-gcp-cdn.bistudio.com/image/680f/f9caff5ecd11444e1c083358e6ef2d6da2bf51478b72ab01bc33423db553/250266.jpg",
+  "changelog": "1.2.5\nClaw and stomp animations now use the shared Creature Melee AI resources. The previously published exact-hit swoop pickup fix is retained.",
+  "preview": "https://ar-gcp-cdn.bistudio.com/image/e516/38fbbb22cd0cfddd8f0497e2edaefd80c2bc51078f740b9baea82fd5f721/252017.jpg",
   "previewThumbs": [
-   "https://ar-gcp-cdn.bistudio.com/image/2d3c/86c66e5c098cb865062df7483eeaa66c41d9711e6d3124384498030561bb/140798.jpg",
-   "https://ar-gcp-cdn.bistudio.com/image/5856/01c9d6a3500c8eb9bb5d20e26cc713de3be61d5266c9a0b164b7bf921a67/44574.jpg",
-   "https://ar-gcp-cdn.bistudio.com/image/6d9f/1156ed2dc66e9c81a3441b0b219843f6dd73ae00fcf01eb8106fc4bcfd97/13341.jpg"
+   "https://ar-gcp-cdn.bistudio.com/image/7a13/92eea32520b8041063b74a78a64ac436cb8bf7a37e089701a08f0ebeafc5/142790.jpg",
+   "https://ar-gcp-cdn.bistudio.com/image/e741/2e4ecff1db7e6fb1db2dde6d0ece210ef6d7553d8de03f7a2d450f36e53e/44795.jpg",
+   "https://ar-gcp-cdn.bistudio.com/image/1918/94e57bd3cdf2ffeae572d593bc0ec642e9d3de75018385399ea0b6d21f86/13630.jpg"
   ],
   "screenshots": [
    {
@@ -1203,7 +1233,7 @@
    }
   ],
   "workshopUrl": "https://reforger.armaplatform.com/workshop/E1DCD3CAF138441C",
-  "previewFile": "assets/family/E1DCD3CAF138441C_e9882fba72.jpg"
+  "previewFile": "assets/family/E1DCD3CAF138441C_fdb1beeed8.jpg"
  },
  {
   "id": "135E4CF7BBB94766",
@@ -1219,7 +1249,7 @@
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-10-06T17:34:28.000Z",
   "updatedAt": "2026-10-06T17:34:51.000Z",
-  "downloads": 705,
+  "downloads": 725,
   "tags": [
    "CHARACTERS",
    "CMAI",
@@ -1231,7 +1261,7 @@
    {
     "id": "4FD4A1BD550793F4",
     "name": "Creature Melee AI",
-    "version": "1.8.6"
+    "version": "1.8.7"
    }
   ],
   "versions": [
@@ -1254,6 +1284,567 @@
   "previewFile": "assets/family/135E4CF7BBB94766_7ca033ba24.jpg"
  },
  {
+  "id": "0751D781B4F6F9BB",
+  "name": "Mushroom Rift",
+  "author": "Project Outbreak",
+  "summary": "Fungal organisms have been reported near settlements and abandoned ground. Small clawed forms travel in groups, while larger bodies stand above the canopy and release others from their tissue.",
+  "description": "Reports describe fungal organisms with layered caps, pale branching tissue and long claws. The smaller Dewcap and broad-capped Sporewarden pursue people at close range. They are often found together, although their relationship to ordinary fungi remains uncertain.\n\nThe Mycelial Spire remains rooted in place and releases Dewcaps and Sporewardens around it. Destroying the parent stops further releases; organisms already outside continue moving independently. The much larger Fungal Titan crushes nearby prey with its feet. Living tissue fills the spaces behind its chest lattice.\n\nThe luminous Mycelial Empyrean stands above the surrounding trees. Its observed attacks include Halo of Ruin, Pale Benediction and Sporefall. This form remains a work in progress, with combat and multiplayer presentation still being improved.\n\nPart of the Creatures collection.\n\nFind the creatures in Game Master. Dewcap and Sporewarden are also available in groups of 8 and 16. The Spire's properties control continuous or finite releases, wave size, interval, alive limit, radius and creature mix; set Spawning to Running to begin. Separate creature durability settings are available under Creatures. Requires Creature Melee AI 1.8.0. Other Creatures addons and Project Outbreak are optional.\n\nBig thanks to AlienBalien for the custom ragdolling workflow used as an implementation reference. BallienCreatures is shared under the Arma Public License (APL): https://reforger.armaplatform.com/workshop/6534B9CEB6D12EE7-BallienCreatures. Licence: https://www.bohemia.net/en/licenses/arma-public-license.\n\nGiant stomp animations use Giant Pack V01 by MandB Animation; claw animations use Zombie_Pack. These packs were acquired under the Fab Standard License and are incorporated only as compiled game content. Giant Pack: https://www.fab.com/listings/6c958505-2e10-4600-b85c-668cd158d25d. Fab licence: https://www.fab.com/eula.\n\nWorkshop licence: Arma Public License (APL). Incorporated assets retain their original licences and credits; this listing does not grant additional rights to those assets. Complete component terms are included in THIRD_PARTY_NOTICES. Editable asset sources are excluded.",
+  "license": "Arma Public License (APL)",
+  "rating": 1,
+  "ratingCount": 14,
+  "version": "0.1.2",
+  "sizeBytes": 108220876,
+  "gameVersion": "1.8.0.13",
+  "createdAt": "2026-10-09T13:22:19.000Z",
+  "updatedAt": "2026-10-21T23:36:33.000Z",
+  "downloads": 950,
+  "tags": [
+   "CHARACTERS",
+   "CMAI",
+   "CREATURES",
+   "GAMEMASTER",
+   "GIANT"
+  ],
+  "dependencies": [
+   {
+    "id": "4FD4A1BD550793F4",
+    "name": "Creature Melee AI",
+    "version": "1.8.7"
+   }
+  ],
+  "versions": [
+   {
+    "version": "0.1.2",
+    "gameVersion": "1.8.0.13",
+    "createdAt": "2026-10-21T23:35:54.000Z",
+    "size": 108220876
+   },
+   {
+    "version": "0.1.1",
+    "gameVersion": "1.8.0.13",
+    "createdAt": "2026-10-17T20:17:59.000Z",
+    "size": 108220876
+   },
+   {
+    "version": "0.1.0",
+    "gameVersion": "1.8.0.13",
+    "createdAt": "2026-10-09T13:22:19.000Z",
+    "size": 85600749
+   }
+  ],
+  "changelog": "0.1.2\nCleaned up duplicate animation resource paths. Creature abilities, animations and Spire spawning are unchanged.",
+  "preview": "https://ar-gcp-cdn.bistudio.com/image/6188/41c95a7ec3dbfe9b3ca21e200540dd922779d5bb96e4801800f68498eddf/135841.jpg",
+  "previewThumbs": [
+   "https://ar-gcp-cdn.bistudio.com/image/b118/d3733e3db16fe54c2450b86c5b7c45c4afa3689c3035acbdf586019c78b1/114589.jpg",
+   "https://ar-gcp-cdn.bistudio.com/image/ef8d/e04452666693f0243a4bb26518137af788c62459e6dde8c520bec63a98ad/35415.jpg",
+   "https://ar-gcp-cdn.bistudio.com/image/f54e/94cc0cc75ae1c21fa8050539e3524206f2f69846dc80b255b3277bdac97e/10817.jpg"
+  ],
+  "screenshots": [
+   {
+    "url": "https://ar-gcp-cdn.bistudio.com/image/1f33/8b4f72ccf8930fc85757c586a11ed0e7674e6e0d963aa5825c0c9e4db03c/158481.jpg",
+    "width": 1600,
+    "height": 900,
+    "thumbs": [
+     "https://ar-gcp-cdn.bistudio.com/image/090c/beec3ccbc28c46cb1efec5a1c0aa0d7e0b7cbc4cd994cdbf5364e7e2fa8f/142435.jpg",
+     "https://ar-gcp-cdn.bistudio.com/image/f2ed/1bae2a5219dcbec3b2f07d74c852e1e4457002f52f51f957ed00ff562eee/48218.jpg",
+     "https://ar-gcp-cdn.bistudio.com/image/14eb/8f99f151fee3dcb2fa105d6ba762ff2bba25bcfe42fa2456ffad5e244bee/14617.jpg"
+    ]
+   }
+  ],
+  "workshopUrl": "https://reforger.armaplatform.com/workshop/0751D781B4F6F9BB",
+  "previewFile": "assets/family/0751D781B4F6F9BB_5e92237066.jpg"
+ },
+ {
+  "id": "E3617517555C481D",
+  "name": "Lumenkin",
+  "author": "Project Outbreak",
+  "summary": "A 21-metre creature with four flexible spotlight heads, a red target warning and heavy Titan footfalls. Early work in progress. Requires Creature Melee AI.",
+  "description": "A figure roughly twenty-one metres tall has been observed beyond the edge of illuminated ground. Four lamps rise from long, flexible stalks above a body threaded with dark cables and unfamiliar flesh. Their beams search for living humans.\n\n\nWhen the lamps gather on a target, their light turns red. A deep warning precedes its advance. Witnesses describe heavy impacts beneath its feet and a sudden close-range strike after the warning ends.\n\n\nPart of the Creatures collection.\n\n\nModel created with Tripo3D. Sounds by Elevenlabls.\n\n\nBig thanks to AlienBalien for the custom ragdolling work in BallienCreatures, used as a workflow reference: https://reforger.armaplatform.com/workshop/6534B9CEB6D12EE7-BallienCreatures. Reference licence: Arma Public License, https://www.bohemia.net/en/licenses/arma-public-license. Kraken was consulted for its serial bone-chain structure; its artwork is not included.\n\n\nCreature Melee AI is by Project Outbreak and retains its credit to Sanxisan's Melee Combat Extended work: https://reforger.armaplatform.com/workshop/6595113A3678CF5D-MeleeCombatExtended. The fitted stomps reference the shared CMAI animation bank under its component terms. Arma Reforger, Enfusion and base-game resources are by Bohemia Interactive.\n\n\nWorkshop licence: Arma Public License (APL). Incorporated assets retain their component terms and credits; this listing grants no additional rights to those assets. See the included license.txt and THIRD_PARTY_NOTICES.md.",
+  "license": "Arma Public License (APL)",
+  "rating": 1,
+  "ratingCount": 4,
+  "version": "0.1.2",
+  "sizeBytes": 15852457,
+  "gameVersion": "1.8.0.13",
+  "createdAt": "2026-10-15T10:13:41.000Z",
+  "updatedAt": "2026-10-16T00:41:04.000Z",
+  "downloads": 392,
+  "tags": [
+   "AI",
+   "CHARACTERS",
+   "CREATURE",
+   "GAMEMASTER",
+   "HORROR",
+   "WIP"
+  ],
+  "dependencies": [
+   {
+    "id": "4FD4A1BD550793F4",
+    "name": "Creature Melee AI",
+    "version": "1.8.7"
+   }
+  ],
+  "versions": [
+   {
+    "version": "0.1.2",
+    "gameVersion": "1.8.0.13",
+    "createdAt": "2026-10-16T00:40:50.000Z",
+    "size": 15852457
+   },
+   {
+    "version": "0.1.1",
+    "gameVersion": "1.8.0.13",
+    "createdAt": "2026-10-15T14:37:22.000Z",
+    "size": 15848919
+   },
+   {
+    "version": "0.1.0",
+    "gameVersion": "1.8.0.13",
+    "createdAt": "2026-10-15T10:13:41.000Z",
+    "size": 15848919
+   }
+  ],
+  "changelog": "While possessing Lumenkin, use Fire (left mouse button by default) to alternate left and right stomps. Fixed attack cleanup when releasing control or dying. Existing AI behavior, sounds and appearance are retained.",
+  "preview": "https://ar-gcp-cdn.bistudio.com/image/f9aa/c256aec445bb2f6700150d28dd40b7969eb68685d34703b675daaf754fa2/29054.jpg",
+  "previewThumbs": [
+   "https://ar-gcp-cdn.bistudio.com/image/383e/99e8829522cd909ce45b159d5b30d03c2e24220e4eb5395adb3df8ab6c60/24542.jpg",
+   "https://ar-gcp-cdn.bistudio.com/image/8d36/96cfe8d314d63aa3e4ebb0ef0b0d91f2db78ec879fdc537d7e72833a447e/8351.jpg",
+   "https://ar-gcp-cdn.bistudio.com/image/5ef5/00cce745b702bf4acfe2bec56f8457ab4521be0da7e71a6e38b770926abf/3112.jpg"
+  ],
+  "screenshots": [
+   {
+    "url": "https://ar-gcp-cdn.bistudio.com/image/99fc/be6db06e7757084999fa68da9a78b9bdb93f962043d6f1c0f0c1be6bf69c/66834.jpg",
+    "width": 1920,
+    "height": 1080,
+    "thumbs": [
+     "https://ar-gcp-cdn.bistudio.com/image/dee1/5ab7cbed006b1c9a23175d0bc0e95d36d0db89a910facadc3be1ecfb6b22/42580.jpg",
+     "https://ar-gcp-cdn.bistudio.com/image/e8a8/375f608775c7b55e64aed98761d671cbe72e2dd69d2c4767d4d8e64cc136/14916.jpg",
+     "https://ar-gcp-cdn.bistudio.com/image/f68f/121c4296404a82e4da827f1aa76e32843ff2a176321ff7b8eff0b1671e03/5187.jpg"
+    ]
+   },
+   {
+    "url": "https://ar-gcp-cdn.bistudio.com/image/1e5e/beeec07d6095fe5a9848ae83cd2a686e6b18abf20c377c2792b66351d9d6/111218.jpg",
+    "width": 1920,
+    "height": 1080,
+    "thumbs": [
+     "https://ar-gcp-cdn.bistudio.com/image/e973/28252549d2cbcfa7a46792a50d9589c76c17ac928f68484cc12d7be66802/72315.jpg",
+     "https://ar-gcp-cdn.bistudio.com/image/da5b/dfac5ec9eb59c9019758cf7acb2bdfe056f6729a7131786b3862b7c2fded/23683.jpg",
+     "https://ar-gcp-cdn.bistudio.com/image/708e/a2b5eed233e7155f63a6edf78668edcbba558e8332c5e306ddca92da5615/7077.jpg"
+    ]
+   },
+   {
+    "url": "https://ar-gcp-cdn.bistudio.com/image/cdff/a424c1ad1b2b221c1ab3d16ccb231ffa3ee5bc105ef18462111513af48f0/134898.jpg",
+    "width": 1672,
+    "height": 941,
+    "thumbs": [
+     "https://ar-gcp-cdn.bistudio.com/image/b0d7/5fc0664f2619f74813cfa27700e729d49d96f852dcab164b6a12ddc38889/111835.jpg",
+     "https://ar-gcp-cdn.bistudio.com/image/8828/ec2cbcd906160fead1a423dbf5ff061e9415ad01b4932994c2313e5dacf1/37640.jpg",
+     "https://ar-gcp-cdn.bistudio.com/image/aa4a/ab8b86d8926f6756b67bafa88e50293c7084916990b4f1f1b02a38dd8b25/10813.jpg"
+    ]
+   },
+   {
+    "url": "https://ar-gcp-cdn.bistudio.com/image/2f44/b727d5ebc69e99f978ccc0d309cb856a4d5d8840704ea37abee4af0bb848/67099.jpg",
+    "width": 1672,
+    "height": 941,
+    "thumbs": [
+     "https://ar-gcp-cdn.bistudio.com/image/9016/8ba2926bd86ca042b7ae37590a53d92b04e88bd7c782c53a715c5b1c944f/54179.jpg",
+     "https://ar-gcp-cdn.bistudio.com/image/a5a7/dc9698270244d7608d6c8c01613c851610ecfd78366b946079228ebd8d81/17333.jpg",
+     "https://ar-gcp-cdn.bistudio.com/image/3ad8/c4181b27b6a5874c081d19ab6b06a39529ce297618ce51f9b261c8eab518/5136.jpg"
+    ]
+   },
+   {
+    "url": "https://ar-gcp-cdn.bistudio.com/image/f9aa/c256aec445bb2f6700150d28dd40b7969eb68685d34703b675daaf754fa2/29054.jpg",
+    "width": 1280,
+    "height": 720,
+    "thumbs": [
+     "https://ar-gcp-cdn.bistudio.com/image/285b/6a121b5783a688cafb0664ce6e12542da1a6bf3782fb6902c374f31aaf28/13290.jpg",
+     "https://ar-gcp-cdn.bistudio.com/image/a9f6/f142bab79d45f1a066621a29508db77d2ff13bfafc403352fd13d7ee8fe8/4728.jpg"
+    ]
+   }
+  ],
+  "workshopUrl": "https://reforger.armaplatform.com/workshop/E3617517555C481D",
+  "previewFile": "assets/family/E3617517555C481D_62453c3e2a.jpg"
+ },
+ {
+  "id": "6443DC7DCCE347B6",
+  "name": "Teuthisan",
+  "author": "Project Outbreak",
+  "summary": "A crawling forest predator with caustic spit and tree ambushes. Includes Game Master groups of 4 and 16. Early work in progress; requires Creature Melee AI.",
+  "description": "Teuthisan is a pale, six-armed forest predator observed resting against trunks beneath the canopy. Its long limbs brace around bark while the body remains close to the tree. Reports describe a wet chitter followed by a wide-mouthed scream, sometimes accompanied by a discharge of caustic bile.\n\n\nThe creature crawls or rises to strike at close range. It searches for reachable trunks, climbs to sleep, and may wake into a leap or pursuit. Bile left on a struck body burns briefly. Individual creatures and Game Master groups of four and sixteen are included.\n\n\nPart of the Creatures collection.\n\n\nThis is an early work in progress. Requires the separately installed Creature Melee AI framework.\n\n\nTeuthisan model, texture artwork, original rig and four source animation takes are by Aaron Sims Creative: TEUTHISAN | Alien Predator (FREE), https://www.fab.com/listings/04d8f11b-ddf6-4e0c-835b-9648e8b4379d. Incorporated under the Fab Standard License, https://www.fab.com/eula. Project Outbreak adapted the rig, skin and materials, animation playback, melee and tree actions, bile effects and gameplay.\n\n\nCreature voice and sound effects were made with Woosh-Flow v1.0.0 by Sony Research: https://github.com/SonyResearch/Woosh. This addon is free and non-commercial. Sony model weights retain CC BY-NC 4.0 terms, https://creativecommons.org/licenses/by-nc/4.0/. Full citation and preparation details are in THIRD_PARTY_NOTICES.md.\n\n\nBig thanks to AlienBalien for the custom ragdolling workflow reference in BallienCreatures, https://reforger.armaplatform.com/workshop/6534B9CEB6D12EE7-BallienCreatures, under the Arma Public License, https://www.bohemia.net/en/licenses/arma-public-license. Creature Melee AI is by Project Outbreak and retains its credit to Sanxisan's Melee Combat Extended work, https://reforger.armaplatform.com/workshop/6595113A3678CF5D-MeleeCombatExtended. Arma Reforger, Enfusion and base-game resources are by Bohemia Interactive.\n\n\nWorkshop licence: Arma Public License (APL) for original code and authored contributions. Incorporated Aaron Sims Creative assets retain the Fab Standard License and are excluded from the APL grant. They are included only within this playable addon, with no standalone asset or animation redistribution rights. Other components retain their own terms and credits. See license.txt and THIRD_PARTY_NOTICES.md.",
+  "license": "Arma Public License (APL)",
+  "rating": 1,
+  "ratingCount": 1,
+  "version": "0.1.2",
+  "sizeBytes": 128776153,
+  "gameVersion": "1.8.0.13",
+  "createdAt": "2026-10-15T23:43:22.000Z",
+  "updatedAt": "2026-10-19T14:39:54.000Z",
+  "downloads": 306,
+  "tags": [
+   "AI",
+   "CHARACTERS",
+   "CREATURE",
+   "GAMEMASTER",
+   "HORROR",
+   "WIP"
+  ],
+  "dependencies": [
+   {
+    "id": "4FD4A1BD550793F4",
+    "name": "Creature Melee AI",
+    "version": "1.8.7"
+   }
+  ],
+  "versions": [
+   {
+    "version": "0.1.2",
+    "gameVersion": "1.8.0.13",
+    "createdAt": "2026-10-19T14:39:13.000Z",
+    "size": 128776153
+   },
+   {
+    "version": "0.1.1",
+    "gameVersion": "1.8.0.13",
+    "createdAt": "2026-10-16T18:56:26.000Z",
+    "size": 128776153
+   },
+   {
+    "version": "0.1.0",
+    "gameVersion": "1.8.0.13",
+    "createdAt": "2026-10-15T23:43:22.000Z",
+    "size": 128775112
+   }
+  ],
+  "changelog": "Teuthisan's claw strikes and tree ambushes now hit much harder. Direct spit hits also deal more damage, while the brief acid burn stays capped. Applies to individual creatures and the groups of 4 and 16.",
+  "preview": "https://ar-gcp-cdn.bistudio.com/image/c041/83703f934374be34ef8c7d771ad83c94f522079b70c0c50bded6a5dfda5d/193746.jpg",
+  "previewThumbs": [
+   "https://ar-gcp-cdn.bistudio.com/image/b3ba/2e7769343d74c1075d8b852c3296b61f2428deaed98f50cca0d19c102112/165907.jpg",
+   "https://ar-gcp-cdn.bistudio.com/image/23ff/ca320de85c75deecf342ed86047ab081367c721753027137b3ecfda3aee7/51069.jpg",
+   "https://ar-gcp-cdn.bistudio.com/image/4c75/cd6869b85b981c302fbbd550070e01c5a4f316f8efc72aea3945002ce01c/14364.jpg"
+  ],
+  "screenshots": [
+   {
+    "url": "https://ar-gcp-cdn.bistudio.com/image/2ff6/9ee7f10185ddeb439fa70ba6029fe42e48a9cbc4ca3f14e2f3e5e7628cc1/400343.jpg",
+    "width": 1920,
+    "height": 1080,
+    "thumbs": [
+     "https://ar-gcp-cdn.bistudio.com/image/413a/d7597bac20ad45ef59eddb32f30ae8bf16d64afbc51f5a69c24c1b9e9ab7/241903.jpg",
+     "https://ar-gcp-cdn.bistudio.com/image/0ba5/5ce0435ddf08616a918a18fdb76a221409bb3858620aef50b6f775b59c1f/77541.jpg",
+     "https://ar-gcp-cdn.bistudio.com/image/84f1/b7917cc438b95e94016cea0b85c7c0151403d8a158775b2edb11290e09ea/21827.jpg"
+    ]
+   },
+   {
+    "url": "https://ar-gcp-cdn.bistudio.com/image/1402/a3e40c1c527314aded83ca5b1b0a70a190097dd6d104230bbb3a2503ec54/501282.jpg",
+    "width": 1920,
+    "height": 1080,
+    "thumbs": [
+     "https://ar-gcp-cdn.bistudio.com/image/ffb5/70463c455657990e3f2497a419e5695e0737bec73922912af5ee2877ad07/304710.jpg",
+     "https://ar-gcp-cdn.bistudio.com/image/123e/3f7f331ac425a2a900b832ed347bd6ae3ee2fe174c701a8a285ebe6ecaa8/98460.jpg",
+     "https://ar-gcp-cdn.bistudio.com/image/07bc/853b00b7b4059d63b74dfbf57bc9a80204ee046d2090961723ec757dd21c/27087.jpg"
+    ]
+   }
+  ],
+  "workshopUrl": "https://reforger.armaplatform.com/workshop/6443DC7DCCE347B6",
+  "previewFile": "assets/family/6443DC7DCCE347B6_6ba16897bd.jpg"
+ },
+ {
+  "id": "0C5BC5D358A14BF6",
+  "name": "Werewolf",
+  "author": "Project Outbreak",
+  "summary": "Grey, Brown, Dark and Ice Werewolves for the Creatures collection, with custom movement, claw attacks and positional sound effects. Requires Creature Melee AI.",
+  "description": "Deep claw marks and a low, steady growl often give the first warning. A Werewolf can remain upright while watching a clearing, then drop onto all fours as it closes the distance. When it rises again, its long arms reach well beyond the muzzle.\n\n\nGrey, Brown, Dark and Ice appearances bring the same creature to woodland, ruined settlements and colder landscapes. Game Masters can place them together or choose the fur that fits their scene.\n\n\nPart of the Creatures collection.\n\n\nRequires Creature Melee AI. Arma Reforger supplies the base game.\n\n\nBig thanks to AlienBalien for the native creature ragdoll workflow reference in BallienCreatures: https://reforger.armaplatform.com/workshop/6534B9CEB6D12EE7-BallienCreatures. Arma Public License: https://www.bohemia.net/en/licenses/arma-public-license.\n\n\nModel, textures and source animations: Werewolf by Lilpupinduy, acquired under the Fab Standard License. https://www.fab.com/listings/e6d3f2fc-f64d-418b-b41d-1f8808be3f21 and https://www.fab.com/eula. Native conversion, fitted animation derivatives and creature integration by Project Outbreak. Shared compiled claw animations are supplied through Creature Melee AI. Editable source assets and standalone asset redistribution are excluded.\n\n\nSounds used under the Fab Standard License. The howl is a public-domain recording by the U.S. Fish and Wildlife Service.\n\n\nWorkshop licence: Arma Public License (APL). Incorporated art, animations and audio retain their applicable component terms; this listing does not grant additional rights to those assets. Complete notices are included.",
+  "license": "Arma Public License (APL)",
+  "rating": 1,
+  "ratingCount": 7,
+  "version": "0.1.1",
+  "sizeBytes": 23628911,
+  "gameVersion": "1.8.0.13",
+  "createdAt": "2026-10-16T11:15:49.000Z",
+  "updatedAt": "2026-10-16T18:58:48.000Z",
+  "downloads": 433,
+  "tags": [
+   "AI",
+   "CHARACTERS",
+   "CREATURES",
+   "GAMEMASTER",
+   "WEREWOLF"
+  ],
+  "dependencies": [
+   {
+    "id": "4FD4A1BD550793F4",
+    "name": "Creature Melee AI",
+    "version": "1.8.7"
+   }
+  ],
+  "versions": [
+   {
+    "version": "0.1.1",
+    "gameVersion": "1.8.0.13",
+    "createdAt": "2026-10-16T18:58:34.000Z",
+    "size": 23628911
+   },
+   {
+    "version": "0.1.0",
+    "gameVersion": "1.8.0.13",
+    "createdAt": "2026-10-16T11:15:49.000Z",
+    "size": 23628681
+   }
+  ],
+  "changelog": "0.1.1\nFixes the Werewolf floating away after a jump and not responding until it lands. Applies whether you control it or it is AI.",
+  "preview": "https://ar-gcp-cdn.bistudio.com/image/4290/90d8e5df72fd60c0754e231b58ada66be3c1053820506d54076de8c59812/153362.jpg",
+  "previewThumbs": [
+   "https://ar-gcp-cdn.bistudio.com/image/33f3/8b4aa68deb699eed1b505f22999e974763096b666495a4279c8fea9116d0/124742.jpg",
+   "https://ar-gcp-cdn.bistudio.com/image/24af/d514cffa7148ac9968cb574b303b7f81faeda22fa9759bfea380260e695e/37359.jpg",
+   "https://ar-gcp-cdn.bistudio.com/image/35b6/3625214c7a91e4d3cd6e4c9ef509718b94bd42b50e40f3c3d4b5653c1c6f/10528.jpg"
+  ],
+  "screenshots": [],
+  "workshopUrl": "https://reforger.armaplatform.com/workshop/0C5BC5D358A14BF6",
+  "previewFile": "assets/family/0C5BC5D358A14BF6_166ffc2336.jpg"
+ },
+ {
+  "id": "FD246F60963E46D8",
+  "name": "Bigfoot",
+  "author": "Project Outbreak",
+  "summary": "A large forest creature with dark fur and a powerful build.",
+  "description": "Sightings describe a broad, dark-haired figure moving between wooded areas. His long arms and heavy shoulders give him a distinctive silhouette. When approached by hostile people, he pursues them and strikes with his hands. Reports of other movements are varied, including greetings, dancing and digging.\n\n\nPart of the Creatures collection.\n\n\nRequires Creature Melee AI. When controlled, Bigfoot has a move wheel for all 17 moves and three boxing styles.\n\n\nModel and animations created with Tripo3D. Sounds used under the Fab Standard License. First-party code uses the Arma Public License; third-party assets retain their component terms.\n\n\nBig thanks to AlienBalien for the custom ragdolling workflow used as an implementation reference: https://reforger.armaplatform.com/workshop/6534B9CEB6D12EE7-BallienCreatures (Arma Public License: https://www.bohemia.net/en/licenses/arma-public-license).",
+  "license": "Arma Public License (APL)",
+  "rating": 1,
+  "ratingCount": 1,
+  "version": "0.1.1",
+  "sizeBytes": 46686789,
+  "gameVersion": "1.8.0.13",
+  "createdAt": "2026-10-16T11:10:30.000Z",
+  "updatedAt": "2026-10-17T23:40:37.000Z",
+  "downloads": 366,
+  "tags": [
+   "AI",
+   "BIGFOOT",
+   "CHARACTERS",
+   "CREATURES",
+   "GAMEMASTER"
+  ],
+  "dependencies": [
+   {
+    "id": "4FD4A1BD550793F4",
+    "name": "Creature Melee AI",
+    "version": "1.8.7"
+   }
+  ],
+  "versions": [
+   {
+    "version": "0.1.1",
+    "gameVersion": "1.8.0.13",
+    "createdAt": "2026-10-17T23:40:15.000Z",
+    "size": 46686789
+   },
+   {
+    "version": "0.1.0",
+    "gameVersion": "1.8.0.13",
+    "createdAt": "2026-10-16T11:10:30.000Z",
+    "size": 46684920
+   }
+  ],
+  "changelog": "0.1.1\nBigfoot now chases at full sprint, and a player controlling Bigfoot sprints without holding the sprint key. Height is unchanged.\n\n0.1.0\nFirst release of Bigfoot for the Creatures collection: walking and running, three boxing styles, vocals and a move wheel with all 17 moves. Press G or hold D-pad Down to open the wheel; Fire uses the selected boxing style.",
+  "preview": "https://ar-gcp-cdn.bistudio.com/image/0b02/7653ba48f1d019fbf7c0e2a6f6a3739d5d71b6c0fd3173bccfb37147f7af/177194.jpg",
+  "previewThumbs": [
+   "https://ar-gcp-cdn.bistudio.com/image/0292/98c254639f9ad46a710772cdd83b3859dffdbe0294d64a7c5d04dd06e5ee/148031.jpg",
+   "https://ar-gcp-cdn.bistudio.com/image/3049/48f22ff624c397a5ff33b10c566dee0fe12776ed6c894749db58cd6d14a3/43546.jpg",
+   "https://ar-gcp-cdn.bistudio.com/image/9b89/53313c43e510135ee2cb47e3b9450c0dfcc84aee3cf671604bc70b647a47/11610.jpg"
+  ],
+  "screenshots": [],
+  "workshopUrl": "https://reforger.armaplatform.com/workshop/FD246F60963E46D8",
+  "previewFile": "assets/family/FD246F60963E46D8_3efa878b09.jpg"
+ },
+ {
+  "id": "A129104B9AA1D58B",
+  "name": "Harlequin",
+  "author": "Project Outbreak",
+  "summary": "A grinning jester that hides nearby, plays cruel pranks on its prey and keeps the fight going before slipping away.",
+  "description": "Small bells hang from Harlequin's bright jester costume. It waits near cover, closes in and plays its tricks: a squeaky hammer, confetti, a soaker full of water. Then it withdraws to hide again. The pale grin never moves.\n\nPart of the Creatures collection. Requires Creature Melee AI.\n\nCredits: clown model by Dima3dartist (Fab Standard License); toy hammer by Sygma and Super Soaker by Shani132 (Fab Standard License). Sounds by ElevenLabs. Thanks to AlienBalien for the ragdoll reference.",
+  "license": "Arma Public License (APL)",
+  "rating": 0,
+  "ratingCount": 0,
+  "version": "0.1.0",
+  "sizeBytes": 46742934,
+  "gameVersion": "1.8.0.13",
+  "createdAt": "2026-10-22T00:49:08.000Z",
+  "updatedAt": "2026-10-22T00:49:31.000Z",
+  "downloads": 0,
+  "tags": [
+   "CHARACTERS",
+   "CMAI",
+   "CREATURES",
+   "GAMEMASTER",
+   "HARLEQUIN"
+  ],
+  "dependencies": [
+   {
+    "id": "4FD4A1BD550793F4",
+    "name": "Creature Melee AI",
+    "version": "1.8.7"
+   }
+  ],
+  "versions": [
+   {
+    "version": "0.1.0",
+    "gameVersion": "1.8.0.13",
+    "createdAt": "2026-10-22T00:49:08.000Z",
+    "size": 46742934
+   }
+  ],
+  "changelog": "",
+  "preview": "https://ar-gcp-cdn.bistudio.com/image/81a1/89a1fc25c692af6d2f22659d95a2df8fb84fa57fe403c4106cf42442cae6/50676.jpg",
+  "previewThumbs": [
+   "https://ar-gcp-cdn.bistudio.com/image/9a10/0ec1bb2f68b8d351744d69500710a03bf12ea7bbe4c88bfa2426aa588174/23198.jpg",
+   "https://ar-gcp-cdn.bistudio.com/image/bd46/4d673c34039a1b9d5cae7016180ebd08e58b592edff5b58cbc381d797f3f/7839.jpg"
+  ],
+  "screenshots": [
+   {
+    "url": "https://ar-gcp-cdn.bistudio.com/image/4f37/41f44cfa4567402e46c1f9322c19a4442f77b38b821cacc8533cb251b285/49943.jpg",
+    "width": 960,
+    "height": 540,
+    "thumbs": [
+     "https://ar-gcp-cdn.bistudio.com/image/09f3/33c3a749707dee5e60cbb6c37498967139a71a12f7fad3356519b33a964a/36182.jpg",
+     "https://ar-gcp-cdn.bistudio.com/image/5bbc/e4c996432634a27280258786e4696fb810df5f87f6d1ed83b0b5c46be244/11875.jpg"
+    ]
+   }
+  ],
+  "workshopUrl": "https://reforger.armaplatform.com/workshop/A129104B9AA1D58B",
+  "previewFile": "assets/family/A129104B9AA1D58B_cbbc2e313e.jpg"
+ },
+ {
+  "id": "A1C2ED1F87D04FF8",
+  "name": "Grimdark Horde",
+  "author": "Project Outbreak",
+  "summary": "A scavenged orc warband for Game Master: Greenskin, White and Black Orcs with saw swords, axes and crude guns, the drum-thumping Warbasha, an armoured troll, the Scrap Walker mech and Wallbreaker gun.",
+  "description": "Grimdark Horde brings a scrap-armoured Orc faction to Game Master and scenario makers. Find its units under the Grimdark Horde faction filter. The Horde fights other factions and allies with Creature Melee AI creatures.\n\nTHE WARBAND\nTwelve outfits across three families: Greenskin Runner, Scrapper, Spike-Yoke, Plated Brute and Bannerboss; White Orc Hunter, Bone-Plate and Lacquer Guard; Black Orc Iron-Clad, Plague-Helm, Brute and Chieftain. Each family has distinct armour, skin and loadouts.\n\nWEAPONS AND VOICES\nFitted saw swords and Atris axes, plus nine crude guns: pistols, twin pistols, long gun, mag gun, axe gun and flamethrower. Guns fire projectiles along their barrels in short bursts; melee uses Creature Melee AI blade contacts. Non-verbal war cries, efforts, pain, death and laughter accompany the fighting. Reload animations are not included.\n\nCREATURES AND MACHINES\nWarbasha is a drum-thumping brute armed with two spiked clubs. The Armoured Troll carries a massive greatsword. The Scrap Walker combines an enlarged mech, an Orc pilot and a recoiling cannon. The Wallbreaker artillery gun supports a player gunner or an AI crew firing at distant targets.\n\nREQUIREMENTS\nCreature Melee AI: https://reforger.armaplatform.com/workshop/4FD4A1BD550793F4\nWarbeasts: https://reforger.armaplatform.com/workshop/9C6F9425B58142E7\nThe Workshop installs these dependencies with Grimdark Horde.\n\nCREDITS AND ORIGINAL SOURCES\nThe following creators supplied the original assets adapted for this add-on. Thank you for their work.\n\nJedy92 - Orc with Axe: original Orc character, head, equipment and animations; also used for the Scrap Walker pilot.\nhttps://www.fab.com/listings/63d8fd8f-ef10-4436-8e0e-714dbca74688\n\nTauan Talari Bellintani - Post Apocalyptic Weapons: Saw Sword.\nhttps://www.fab.com/listings/8015db3e-60bd-44a1-8a91-3916f708f631\n\nPetr Luchko - Atris axes.\nhttps://www.fab.com/listings/3905779c-7035-4a17-a28d-9d215336ea53\n\nBitgem - Gun Set: Hand Painted Series, adapted into the Horde's firearms and flamethrower.\nhttps://www.fab.com/listings/a90204f0-9b1f-4393-b913-41e4cec7d4e3\n\nMist Polygon - Plague Knight Helmet, based on Mike Franchina's concept artwork; adapted for Plague-Helm.\nModel: https://www.fab.com/listings/4376c360-11bd-4f33-8451-c9c532e1bea6\nConcept: https://www.artstation.com/artwork/5dkJW\n\nKaanTezcan (s_cat) - Free Game Character: Armored Troll With Sword.\nhttps://www.fab.com/listings/a5299d26-73c5-4fcf-8203-06d1418597f6\n\ncybeck - Earthshaker Artillery Gun, adapted as the Wallbreaker.\nhttps://www.fab.com/listings/d83a153d-829b-4f50-a9ae-02859e66dfad\n\nEpic Games - original Grux body used through Warbeasts for the Greenskins, Narbash body/animations/non-verbal voices adapted for Warbasha and Orc voices, and Howitzer mech adapted for the Scrap Walker.\nGrux: https://www.fab.com/listings/8c4bac2c-f7f7-4632-a644-47f4e104f5d8\nNarbash: https://www.fab.com/listings/d8904a0e-9169-4763-b82b-5fcf864235a4\nHowitzer: https://www.fab.com/listings/7397dd8d-2e47-4e68-9e9d-a10c6fa0a9c7\n\nBohemia Interactive - Arma Reforger base-game resources and character tools used by the adaptation. Grimdark Horde adds the faction, gameplay integration, fitted grips, outfit adaptations and locally authored armour/paint/effects.\n\nLICENCES\nOriginal add-on code is released under the Arma Public Licence (APL):\nhttps://portal.bohemia.net/community/licenses/arma-public-license\n\nThe credited models, textures, animations and audio retain their original acquisition licences and permissions; the APL does not relicense those assets. Fab licence information and full terms:\nhttps://www.fab.com/eula\n\nThis is an incorporated playable mod, not a standalone asset pack. Full asset-specific provenance, terms and exclusions are included in THIRD_PARTY_NOTICES.md and the dependency notices. No endorsement by the original creators is implied.",
+  "license": "Arma Public License (APL)",
+  "rating": 1,
+  "ratingCount": 3,
+  "version": "0.1.1",
+  "sizeBytes": 662004599,
+  "gameVersion": "1.8.0.13",
+  "createdAt": "2026-10-21T23:41:12.000Z",
+  "updatedAt": "2026-10-22T00:26:58.000Z",
+  "downloads": 45,
+  "tags": [
+   "AI",
+   "CHARACTERS",
+   "CREATURES",
+   "FACTIONS",
+   "GAMEMASTER",
+   "MELEE",
+   "WEAPONS"
+  ],
+  "dependencies": [
+   {
+    "id": "4FD4A1BD550793F4",
+    "name": "Creature Melee AI",
+    "version": "1.8.7"
+   },
+   {
+    "id": "9C6F9425B58142E7",
+    "name": "Warbeasts",
+    "version": "1.0.4"
+   }
+  ],
+  "versions": [
+   {
+    "version": "0.1.1",
+    "gameVersion": "1.8.0.13",
+    "createdAt": "2026-10-22T00:20:53.000Z",
+    "size": 662004599
+   },
+   {
+    "version": "0.1.0",
+    "gameVersion": "1.8.0.13",
+    "createdAt": "2026-10-21T23:41:12.000Z",
+    "size": 662004599
+   }
+  ],
+  "changelog": "Listing update: add original asset creator, source and licence links, and remove the Wallbreaker gallery screenshot. Gameplay package unchanged.",
+  "preview": "https://ar-gcp-cdn.bistudio.com/image/4e66/13c07941c08b2700223b322bfc0c6845dc34fdf77a834f1cc41be9ed56ea/136515.jpg",
+  "previewThumbs": [
+   "https://ar-gcp-cdn.bistudio.com/image/431b/58c9ac2cfa4ca7d593c283cf5a0f1cad799a393e9e860ce2d92b981eb58a/117299.jpg",
+   "https://ar-gcp-cdn.bistudio.com/image/2128/254d1e28b5bae2d717e8a857f25a5dcb9436b272b5b7fd4fcbdc132b791c/34679.jpg",
+   "https://ar-gcp-cdn.bistudio.com/image/db9e/3dac0737cec2bd3fbb64ab1654fd8e25d4f3242d4684fd777b04fa23120d/10124.jpg"
+  ],
+  "screenshots": [
+   {
+    "url": "https://ar-gcp-cdn.bistudio.com/image/9f70/ad8f8b1f2ffd8df12622ff8e7bd0e0b2d4fb29f9bf8dfe2a1d3874db470e/191633.jpg",
+    "width": 1600,
+    "height": 900,
+    "thumbs": [
+     "https://ar-gcp-cdn.bistudio.com/image/7611/67b44d928b556d01991ac67927346fa53e5e94849a2663c31b23c4c6caba/172195.jpg",
+     "https://ar-gcp-cdn.bistudio.com/image/4ad7/6d8d713d6c6ca2b929c3a04318c4f533a85995ec8174db1b93d622fb74df/53721.jpg",
+     "https://ar-gcp-cdn.bistudio.com/image/aafc/b9c04073384091a979ca1124fc58cd3cca9911cf3f4900365e39458af38b/15187.jpg"
+    ]
+   },
+   {
+    "url": "https://ar-gcp-cdn.bistudio.com/image/4112/f1f7366e7785a2b2dbdb94ce9722771aefb18a15e470999ae339086357f4/200012.jpg",
+    "width": 1600,
+    "height": 900,
+    "thumbs": [
+     "https://ar-gcp-cdn.bistudio.com/image/41d3/542ccac911cc7e7749147f3e4bc93d92e0699ada0961fff5e1efd52a9d21/178671.jpg",
+     "https://ar-gcp-cdn.bistudio.com/image/76da/5a5222c2df65ab898d27cd011dd47c6acd4f1b8ede84f4f0fbc7b58e3501/56109.jpg",
+     "https://ar-gcp-cdn.bistudio.com/image/3248/552135ac0e561c5f16f40ecb85a4e5b87b516912e69ca5ddf7bbf980eae4/15791.jpg"
+    ]
+   },
+   {
+    "url": "https://ar-gcp-cdn.bistudio.com/image/6d94/e9b6bdf18a00989a3d546e9fed535112285500b1a9ad2cbe2eafc23e3fb7/131950.jpg",
+    "width": 1600,
+    "height": 900,
+    "thumbs": [
+     "https://ar-gcp-cdn.bistudio.com/image/d895/72d044a96cbb2e4609fafeafc33e578e290490eeac1b21c2204c86750449/117321.jpg",
+     "https://ar-gcp-cdn.bistudio.com/image/5faf/fe676e6dd3cfede74f0d2b85a0d84e64715093c0f59e50adee00af2a5e58/38904.jpg",
+     "https://ar-gcp-cdn.bistudio.com/image/ca7c/689d0ead4320c03e3003e1501ec3acbb0917fe12da751ae9924436c46937/12172.jpg"
+    ]
+   },
+   {
+    "url": "https://ar-gcp-cdn.bistudio.com/image/3141/c83e05496f7c9b80100c75e620e59b4447d7355ac388ba4cec4e68d80bc0/205764.jpg",
+    "width": 1600,
+    "height": 900,
+    "thumbs": [
+     "https://ar-gcp-cdn.bistudio.com/image/3f31/3e5f3e3e367481daedeaf260e6422dcc04ed407b273d9d772bae25619e9c/184231.jpg",
+     "https://ar-gcp-cdn.bistudio.com/image/582a/5f57897dbb7ec9d2014e21a7f14764ac05a7b8ee812291f7ac59e288a0d3/59855.jpg",
+     "https://ar-gcp-cdn.bistudio.com/image/f573/94341b47d9f5eaea21a69ab3d00f590a6f64d1c023b67eb91fd00a6328c5/17290.jpg"
+    ]
+   },
+   {
+    "url": "https://ar-gcp-cdn.bistudio.com/image/8da4/4318b4ac00d5be6e62b2f18b6f1d39d9a6276c34010afc796a258404db6f/210948.jpg",
+    "width": 1600,
+    "height": 900,
+    "thumbs": [
+     "https://ar-gcp-cdn.bistudio.com/image/58d9/dff1cd0e0ac424bf602b8ceb65284fbcf3ac78342e481cfd1ecce11e1c47/193657.jpg",
+     "https://ar-gcp-cdn.bistudio.com/image/5e05/b19cc2f86983b4cb725afc20266492426d5e28492b7f7adcd5b28f6b7c18/64074.jpg",
+     "https://ar-gcp-cdn.bistudio.com/image/a292/5f79c1a95ab29b5c4f5b19f328f7d3f70e6a99f6999662d8834173b5b65e/17746.jpg"
+    ]
+   },
+   {
+    "url": "https://ar-gcp-cdn.bistudio.com/image/7c9b/ee23f2297cc70fe06f3631bd71036767170126ecb55ef45cb54f6dfa85d3/182620.jpg",
+    "width": 1600,
+    "height": 900,
+    "thumbs": [
+     "https://ar-gcp-cdn.bistudio.com/image/0ce8/56b9ce2c385ae2df579e51f39dcb1725f3e7ad3dd1aa49c46504820723b3/165030.jpg",
+     "https://ar-gcp-cdn.bistudio.com/image/d346/80af80176f4aa1e56c26a34ffe2286f421c688f9dbb7a50888098a3d603e/52830.jpg",
+     "https://ar-gcp-cdn.bistudio.com/image/fc6c/be85e3ab2c2d1fa8e5461f5128c27c83ba73ad454de2f9c364342ea50910/14917.jpg"
+    ]
+   },
+   {
+    "url": "https://ar-gcp-cdn.bistudio.com/image/df31/440eed8291160690543b6f2f3a48fa23db300574e99472a437cea70e1fe4/189641.jpg",
+    "width": 1600,
+    "height": 900,
+    "thumbs": [
+     "https://ar-gcp-cdn.bistudio.com/image/6951/8d84174b526b656200356069a1645fbe3a22e5480265f55cdb893477a9c4/167617.jpg",
+     "https://ar-gcp-cdn.bistudio.com/image/23d6/764e01bbf42ae7d553aee15edd930df1130763d3633edf304322b1e13e8b/51361.jpg",
+     "https://ar-gcp-cdn.bistudio.com/image/f69d/daa8891d7562ef01e763e77055f431ffb0b7251c0824e4f419b1eaa83556/13938.jpg"
+    ]
+   }
+  ],
+  "workshopUrl": "https://reforger.armaplatform.com/workshop/A1C2ED1F87D04FF8",
+  "previewFile": "assets/family/A1C2ED1F87D04FF8_18b8bc1c8f.jpg"
+ },
+ {
   "id": "4FD4A1BD550793F4",
   "name": "Creature Melee AI",
   "author": "Project Outbreak",
@@ -1262,12 +1853,12 @@
   "license": "Arma Public License (APL)",
   "rating": 1,
   "ratingCount": 11,
-  "version": "1.8.6",
-  "sizeBytes": 10067735,
+  "version": "1.8.7",
+  "sizeBytes": 12218365,
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-08-30T18:18:07.000Z",
-  "updatedAt": "2026-10-18T09:57:53.000Z",
-  "downloads": 36206,
+  "updatedAt": "2026-10-21T22:56:47.000Z",
+  "downloads": 36824,
   "tags": [
    "AI",
    "CHARACTERS",
@@ -1279,6 +1870,12 @@
   ],
   "dependencies": [],
   "versions": [
+   {
+    "version": "1.8.7",
+    "gameVersion": "1.8.0.13",
+    "createdAt": "2026-10-21T22:56:23.000Z",
+    "size": 12218365
+   },
    {
     "version": "1.8.6",
     "gameVersion": "1.8.0.13",
@@ -1332,20 +1929,14 @@
     "gameVersion": "1.8.0.13",
     "createdAt": "2026-10-01T12:38:37.000Z",
     "size": 1423025
-   },
-   {
-    "version": "1.3.1",
-    "gameVersion": "1.8.0.13",
-    "createdAt": "2026-09-29T15:30:55.000Z",
-    "size": 1197790
    }
   ],
-  "changelog": "1.8.6\nAdds an internal carry admission path used by creature add-ons that have already proved physical contact with the body they struck, such as the Eyekin bird's dive grab. Creature and player behaviour through the existing pickup search is unchanged.",
-  "preview": "https://ar-gcp-cdn.bistudio.com/image/f33c/a48bda46969df8a5c53a02029a5c78ebf3e6478765db430d0f486de85c35/96463.jpg",
+  "changelog": "1.8.7\nShared attack, stomp, feeding and spear animations are now available through Creature Melee AI. Repeated attacks retain their animation timing. Added animation support used by Project Outbreak's distant zombies. Reduced script initialization overhead while preserving compatibility for existing mods.",
+  "preview": "https://ar-gcp-cdn.bistudio.com/image/e345/f3b99d0c738344cd8d7364e0b3a3b1ada801834676f2a32b6473f50b0675/95814.jpg",
   "previewThumbs": [
-   "https://ar-gcp-cdn.bistudio.com/image/7f36/942828d7a90314e3c0227d3eb107a2d7823da8ad8651cefc2d2c7aaa0858/57109.jpg",
-   "https://ar-gcp-cdn.bistudio.com/image/4160/abfc7ea92f54efad0f3cf2182d29669e1a3ce011b15f982e5e1d98dc2969/20110.jpg",
-   "https://ar-gcp-cdn.bistudio.com/image/bf4b/99ebe759fa7eecea8d8e02ec0204d15d9033d69b100a8bbe91c70de10262/7331.jpg"
+   "https://ar-gcp-cdn.bistudio.com/image/826f/ac590b7bcada4b68dbb43c904a60861ba906bcc485de784f311194106075/55712.jpg",
+   "https://ar-gcp-cdn.bistudio.com/image/1261/3000e39a9a5ac9246027c8c75aca87f23b5dee1197b03642e09983cf29da/19799.jpg",
+   "https://ar-gcp-cdn.bistudio.com/image/ce58/dead930f0f12d1c40968cae3bb69190eb7031ab29651c2860feb43d462a9/7454.jpg"
   ],
   "screenshots": [
    {
@@ -1360,7 +1951,7 @@
    }
   ],
   "workshopUrl": "https://reforger.armaplatform.com/workshop/4FD4A1BD550793F4",
-  "previewFile": "assets/family/4FD4A1BD550793F4_056c2b4aec.jpg"
+  "previewFile": "assets/family/4FD4A1BD550793F4.jpg"
  },
  {
   "id": "40B5686CC205703A",
@@ -1376,7 +1967,7 @@
   "gameVersion": "1.8.0.10",
   "createdAt": "2026-08-09T15:04:29.000Z",
   "updatedAt": "2026-08-30T20:00:54.000Z",
-  "downloads": 4174,
+  "downloads": 4190,
   "tags": [
    "AI",
    "REARM",
@@ -1433,7 +2024,7 @@
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-10-07T09:20:39.000Z",
   "updatedAt": "2026-10-09T10:56:14.000Z",
-  "downloads": 1573,
+  "downloads": 1582,
   "tags": [
    "CROSSBOW",
    "GAMEMASTER",
@@ -1506,7 +2097,7 @@
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-09-29T16:59:01.000Z",
   "updatedAt": "2026-10-01T19:16:41.000Z",
-  "downloads": 321,
+  "downloads": 322,
   "tags": [
    "BALLISTA",
    "MEDIEVAL",
