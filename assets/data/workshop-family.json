@@ -13,7 +13,7 @@
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-08-30T18:29:18.000Z",
   "updatedAt": "2026-10-21T23:20:00.000Z",
-  "downloads": 15316,
+  "downloads": 15409,
   "tags": [
    "INFECTION",
    "OUTBREAK",
@@ -119,7 +119,7 @@
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-08-30T18:31:09.000Z",
   "updatedAt": "2026-10-21T23:23:02.000Z",
-  "downloads": 11575,
+  "downloads": 11655,
   "tags": [
    "OUTBREAK",
    "SYSTEMS",
@@ -224,7 +224,7 @@
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-08-30T18:27:33.000Z",
   "updatedAt": "2026-10-21T23:26:48.000Z",
-  "downloads": 6496,
+  "downloads": 6533,
   "tags": [
    "GADGETS",
    "OUTBREAK",
@@ -333,7 +333,7 @@
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-09-27T03:27:42.000Z",
   "updatedAt": "2026-10-21T23:13:44.000Z",
-  "downloads": 5114,
+  "downloads": 5183,
   "tags": [
    "CHARACTERS",
    "INFECTION",
@@ -403,7 +403,7 @@
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-09-27T03:41:17.000Z",
   "updatedAt": "2026-10-21T23:17:24.000Z",
-  "downloads": 6735,
+  "downloads": 6799,
   "tags": [
    "CHARACTERS",
    "OUTBREAK",
@@ -915,7 +915,7 @@
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-10-08T02:57:35.000Z",
   "updatedAt": "2026-10-22T01:38:50.000Z",
-  "downloads": 292,
+  "downloads": 299,
   "tags": [
    "GLENWOOD",
    "LIGHT",
@@ -1013,7 +1013,7 @@
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-10-06T16:56:25.000Z",
   "updatedAt": "2026-10-22T01:38:11.000Z",
-  "downloads": 345,
+  "downloads": 357,
   "tags": [
    "AI",
    "BOSS",
@@ -1079,7 +1079,7 @@
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-10-02T05:03:39.000Z",
   "updatedAt": "2026-10-22T00:53:42.000Z",
-  "downloads": 977,
+  "downloads": 999,
   "tags": [
    "AI",
    "CHARACTERS",
@@ -1161,7 +1161,7 @@
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-10-03T17:41:42.000Z",
   "updatedAt": "2026-10-22T00:51:19.000Z",
-  "downloads": 1128,
+  "downloads": 1148,
   "tags": [
    "ALIEN",
    "CHARACTERS",
@@ -1249,7 +1249,7 @@
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-10-06T17:34:28.000Z",
   "updatedAt": "2026-10-06T17:34:51.000Z",
-  "downloads": 725,
+  "downloads": 734,
   "tags": [
    "CHARACTERS",
    "CMAI",
@@ -1297,7 +1297,7 @@
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-10-09T13:22:19.000Z",
   "updatedAt": "2026-10-21T23:36:33.000Z",
-  "downloads": 950,
+  "downloads": 964,
   "tags": [
    "CHARACTERS",
    "CMAI",
@@ -1368,7 +1368,7 @@
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-10-15T10:13:41.000Z",
   "updatedAt": "2026-10-16T00:41:04.000Z",
-  "downloads": 392,
+  "downloads": 404,
   "tags": [
    "AI",
    "CHARACTERS",
@@ -1479,7 +1479,7 @@
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-10-15T23:43:22.000Z",
   "updatedAt": "2026-10-19T14:39:54.000Z",
-  "downloads": 306,
+  "downloads": 312,
   "tags": [
    "AI",
    "CHARACTERS",
@@ -1552,16 +1552,16 @@
   "name": "Werewolf",
   "author": "Project Outbreak",
   "summary": "Grey, Brown, Dark and Ice Werewolves for the Creatures collection, with custom movement, claw attacks and positional sound effects. Requires Creature Melee AI.",
-  "description": "Deep claw marks and a low, steady growl often give the first warning. A Werewolf can remain upright while watching a clearing, then drop onto all fours as it closes the distance. When it rises again, its long arms reach well beyond the muzzle.\n\n\nGrey, Brown, Dark and Ice appearances bring the same creature to woodland, ruined settlements and colder landscapes. Game Masters can place them together or choose the fur that fits their scene.\n\n\nPart of the Creatures collection.\n\n\nRequires Creature Melee AI. Arma Reforger supplies the base game.\n\n\nBig thanks to AlienBalien for the native creature ragdoll workflow reference in BallienCreatures: https://reforger.armaplatform.com/workshop/6534B9CEB6D12EE7-BallienCreatures. Arma Public License: https://www.bohemia.net/en/licenses/arma-public-license.\n\n\nModel, textures and source animations: Werewolf by Lilpupinduy, acquired under the Fab Standard License. https://www.fab.com/listings/e6d3f2fc-f64d-418b-b41d-1f8808be3f21 and https://www.fab.com/eula. Native conversion, fitted animation derivatives and creature integration by Project Outbreak. Shared compiled claw animations are supplied through Creature Melee AI. Editable source assets and standalone asset redistribution are excluded.\n\n\nSounds used under the Fab Standard License. The howl is a public-domain recording by the U.S. Fish and Wildlife Service.\n\n\nWorkshop licence: Arma Public License (APL). Incorporated art, animations and audio retain their applicable component terms; this listing does not grant additional rights to those assets. Complete notices are included.",
+  "description": "Deep claw marks and a low, steady growl often give the first warning. A Werewolf can remain upright while watching a clearing, then drop onto all fours as it closes the distance. When it rises again, its long arms reach well beyond the muzzle.\n\n\nGrey, Brown, Dark and Ice appearances bring the same creature to woodland, ruined settlements and colder landscapes. Game Masters can place them together or choose the fur that fits their scene.\n\n\nPart of the Creatures collection.\n\n\nRequires Creature Melee AI. Arma Reforger supplies the base game.\n\n\nBig thanks to AlienBalien for the native creature ragdoll workflow reference in BallienCreatures: https://reforger.armaplatform.com/workshop/6534B9CEB6D12EE7-BallienCreatures. Arma Public License: https://www.bohemia.net/en/licenses/arma-public-license.\n\n\nModel, textures and source animations: Werewolf by Lilpupinduy, acquired under the Fab Standard License. https://www.fab.com/listings/e6d3f2fc-f64d-418b-b41d-1f8808be3f21 and https://www.fab.com/eula. Native conversion, fitted animation derivatives and creature integration by Project Outbreak. Shared compiled claw animations are supplied through Creature Melee AI. Editable source assets and standalone asset redistribution are excluded.\n\n\nAnimal vocals by Atelier Magicae. Wolf howl by NaturesTemper, licensed CC0: https://freesound.org/people/NaturesTemper/sounds/398430/ and https://creativecommons.org/publicdomain/zero/1.0/. Incorporated under their separate component terms.\n\n\nWorkshop licence: Arma Public License (APL). Incorporated art, animations and audio retain their applicable component terms; this listing does not grant additional rights to those assets. Complete notices are included.",
   "license": "Arma Public License (APL)",
   "rating": 1,
   "ratingCount": 7,
-  "version": "0.1.1",
-  "sizeBytes": 23628911,
+  "version": "0.1.2",
+  "sizeBytes": 24235895,
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-10-16T11:15:49.000Z",
-  "updatedAt": "2026-10-16T18:58:48.000Z",
-  "downloads": 433,
+  "updatedAt": "2026-10-22T12:52:17.000Z",
+  "downloads": 445,
   "tags": [
    "AI",
    "CHARACTERS",
@@ -1578,6 +1578,12 @@
   ],
   "versions": [
    {
+    "version": "0.1.2",
+    "gameVersion": "1.8.0.13",
+    "createdAt": "2026-10-22T12:52:04.000Z",
+    "size": 24235895
+   },
+   {
     "version": "0.1.1",
     "gameVersion": "1.8.0.13",
     "createdAt": "2026-10-16T18:58:34.000Z",
@@ -1590,7 +1596,7 @@
     "size": 23628681
    }
   ],
-  "changelog": "0.1.1\nFixes the Werewolf floating away after a jump and not responding until it lands. Applies whether you control it or it is AI.",
+  "changelog": "0.1.2\nNew Werewolf roars, attacks, growls and reactions by Atelier Magicae across all four appearances. Added the selected NaturesTemper wolf howl, preserving its pitch and timing without added reverb. Speech and laughs are excluded.",
   "preview": "https://ar-gcp-cdn.bistudio.com/image/4290/90d8e5df72fd60c0754e231b58ada66be3c1053820506d54076de8c59812/153362.jpg",
   "previewThumbs": [
    "https://ar-gcp-cdn.bistudio.com/image/33f3/8b4aa68deb699eed1b505f22999e974763096b666495a4279c8fea9116d0/124742.jpg",
@@ -1615,7 +1621,7 @@
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-10-16T11:10:30.000Z",
   "updatedAt": "2026-10-17T23:40:37.000Z",
-  "downloads": 366,
+  "downloads": 372,
   "tags": [
    "AI",
    "BIGFOOT",
@@ -1669,7 +1675,7 @@
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-10-22T00:49:08.000Z",
   "updatedAt": "2026-10-22T00:49:31.000Z",
-  "downloads": 0,
+  "downloads": 2,
   "tags": [
    "CHARACTERS",
    "CMAI",
@@ -1726,7 +1732,7 @@
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-10-21T23:41:12.000Z",
   "updatedAt": "2026-10-22T00:26:58.000Z",
-  "downloads": 45,
+  "downloads": 60,
   "tags": [
    "AI",
    "CHARACTERS",
@@ -1858,7 +1864,7 @@
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-08-30T18:18:07.000Z",
   "updatedAt": "2026-10-21T22:56:47.000Z",
-  "downloads": 36824,
+  "downloads": 37020,
   "tags": [
    "AI",
    "CHARACTERS",
@@ -1967,7 +1973,7 @@
   "gameVersion": "1.8.0.10",
   "createdAt": "2026-08-09T15:04:29.000Z",
   "updatedAt": "2026-08-30T20:00:54.000Z",
-  "downloads": 4190,
+  "downloads": 4194,
   "tags": [
    "AI",
    "REARM",
@@ -2024,7 +2030,7 @@
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-10-07T09:20:39.000Z",
   "updatedAt": "2026-10-09T10:56:14.000Z",
-  "downloads": 1582,
+  "downloads": 1658,
   "tags": [
    "CROSSBOW",
    "GAMEMASTER",
