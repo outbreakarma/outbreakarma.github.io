@@ -7,12 +7,12 @@
  "license": "Arma Public License (APL)",
  "rating": 0.97,
  "ratingCount": 89,
- "version": "2.4.7",
- "sizeBytes": 208878654,
+ "version": "2.4.8",
+ "sizeBytes": 208879972,
  "gameVersion": "1.8.0.13",
  "createdAt": "2026-08-30T18:23:05.000Z",
- "updatedAt": "2026-10-21T23:03:32.000Z",
- "downloads": 33578,
+ "updatedAt": "2026-10-23T02:03:49.000Z",
+ "downloads": 33832,
  "tags": [
   "CHARACTERS",
   "INFECTION",
@@ -27,10 +27,16 @@
   {
    "id": "4FD4A1BD550793F4",
    "name": "Creature Melee AI",
-   "version": "1.8.7"
+   "version": "1.8.8"
   }
  ],
  "versions": [
+  {
+   "version": "2.4.8",
+   "gameVersion": "1.8.0.13",
+   "createdAt": "2026-10-23T02:02:28.000Z",
+   "size": 208879972
+  },
   {
    "version": "2.4.7",
    "gameVersion": "1.8.0.13",
@@ -84,15 +90,9 @@
    "gameVersion": "1.8.0.13",
    "createdAt": "2026-10-01T12:40:36.000Z",
    "size": 203323202
-  },
-  {
-   "version": "2.1.1",
-   "gameVersion": "1.8.0.13",
-   "createdAt": "2026-09-29T19:31:06.000Z",
-   "size": 202963557
   }
  ],
- "changelog": "2.4.7\nLarger hordes: distant zombies use lightweight stand-ins that keep moving, pursue prey, react to gunfire, attack and feed, and become full zombies when players approach or a climb is needed. Sprinter stand-ins run, soldiers fight back, and stand-in attacks work with Infection. Fixed incomplete horde arrivals, population accounting, frame-capped server budgets and turning-body cleanup. Other mods' groups stay full zombies unless they opt in; mod authors can disable individual appearances. Ambience cards now count and recycle only their own creatures. Added helicopter body chains and configurable zombie sound volume. Fixed dropped rifles remaining suspended for other players. Game Master filtering and prey-list updates do less repeated work. Reduced script initialization overhead.",
+ "changelog": "2.4.8\nFerals slide much less. A sprinting Feral now keeps its bound instead of dropping back to the crawl every second, uses the fast crawl between crawl and bound, and stops and starts in the right gait at once.",
  "preview": "https://ar-gcp-cdn.bistudio.com/image/fc05/133486948814f92773c75211e4a30e1f2cf1a2313fae2ddbf5929e7451bb/157837.jpg",
  "previewThumbs": [
   "https://ar-gcp-cdn.bistudio.com/image/7b3d/4ebd4645a28aeb188261af0c86e4357fcb8f57ca8c1d52e207be85d7622b/86114.jpg",
@@ -111,16 +111,6 @@
    ]
   },
   {
-   "url": "https://ar-gcp-cdn.bistudio.com/image/64a7/1f8dd24b28ecc871482e5891481a77e47431f6b1975cca770b4468df801e/338671.jpg",
-   "width": 1920,
-   "height": 1080,
-   "thumbs": [
-    "https://ar-gcp-cdn.bistudio.com/image/06cd/650266c031016fde1b12dfb3130668e65875c61915491cf7e1ae5d607377/206112.jpg",
-    "https://ar-gcp-cdn.bistudio.com/image/88b1/997888d530d41e78ad6065c01ed72e2c401debccfff2480dc3fa2bf6d007/62746.jpg",
-    "https://ar-gcp-cdn.bistudio.com/image/dd29/3fec00c460d8d705e53425d5b022b8cc8ab94cfa1607c4ff09a089852d97/17469.jpg"
-   ]
-  },
-  {
    "url": "https://ar-gcp-cdn.bistudio.com/image/25e0/a268811fbd9fe9cf028eb750c485bfc64326f71158e4fdb531836c6a9ba0/309326.jpg",
    "width": 1920,
    "height": 1080,
@@ -128,6 +118,16 @@
     "https://ar-gcp-cdn.bistudio.com/image/8ce8/2c475df4bd778bb49934c72997ff0adcbf65c3323cb1ba1c498e29dedde9/192153.jpg",
     "https://ar-gcp-cdn.bistudio.com/image/95df/10a30f23caafbecb4c82bb5addad456e64507c4cd147d0429ce8b0b5e70b/61361.jpg",
     "https://ar-gcp-cdn.bistudio.com/image/507d/dc7a1c22f139101030c8ce6d9f059174ff37945490c8fe5642b6642060f1/18306.jpg"
+   ]
+  },
+  {
+   "url": "https://ar-gcp-cdn.bistudio.com/image/64a7/1f8dd24b28ecc871482e5891481a77e47431f6b1975cca770b4468df801e/338671.jpg",
+   "width": 1920,
+   "height": 1080,
+   "thumbs": [
+    "https://ar-gcp-cdn.bistudio.com/image/06cd/650266c031016fde1b12dfb3130668e65875c61915491cf7e1ae5d607377/206112.jpg",
+    "https://ar-gcp-cdn.bistudio.com/image/88b1/997888d530d41e78ad6065c01ed72e2c401debccfff2480dc3fa2bf6d007/62746.jpg",
+    "https://ar-gcp-cdn.bistudio.com/image/dd29/3fec00c460d8d705e53425d5b022b8cc8ab94cfa1607c4ff09a089852d97/17469.jpg"
    ]
   }
  ],
