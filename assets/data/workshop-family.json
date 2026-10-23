@@ -13,7 +13,7 @@
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-08-30T18:29:18.000Z",
   "updatedAt": "2026-10-22T23:30:53.000Z",
-  "downloads": 15798,
+  "downloads": 15885,
   "tags": [
    "INFECTION",
    "OUTBREAK",
@@ -24,7 +24,7 @@
    {
     "id": "4FD4A1BD550793F4",
     "name": "Creature Melee AI",
-    "version": "1.8.8"
+    "version": "1.8.9"
    },
    {
     "id": "F1D4B9B5245B36ED",
@@ -119,7 +119,7 @@
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-08-30T18:31:09.000Z",
   "updatedAt": "2026-10-21T23:23:02.000Z",
-  "downloads": 11938,
+  "downloads": 11998,
   "tags": [
    "OUTBREAK",
    "SYSTEMS",
@@ -129,7 +129,7 @@
    {
     "id": "4FD4A1BD550793F4",
     "name": "Creature Melee AI",
-    "version": "1.8.8"
+    "version": "1.8.9"
    },
    {
     "id": "F1D4B9B5245B36ED",
@@ -224,7 +224,7 @@
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-08-30T18:27:33.000Z",
   "updatedAt": "2026-10-21T23:26:48.000Z",
-  "downloads": 6657,
+  "downloads": 6692,
   "tags": [
    "GADGETS",
    "OUTBREAK",
@@ -238,7 +238,7 @@
    {
     "id": "4FD4A1BD550793F4",
     "name": "Creature Melee AI",
-    "version": "1.8.8"
+    "version": "1.8.9"
    },
    {
     "id": "F1D4B9B5245B36ED",
@@ -333,7 +333,7 @@
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-09-27T03:27:42.000Z",
   "updatedAt": "2026-10-21T23:13:44.000Z",
-  "downloads": 5427,
+  "downloads": 5468,
   "tags": [
    "CHARACTERS",
    "INFECTION",
@@ -344,7 +344,7 @@
    {
     "id": "4FD4A1BD550793F4",
     "name": "Creature Melee AI",
-    "version": "1.8.8"
+    "version": "1.8.9"
    },
    {
     "id": "F1D4B9B5245B36ED",
@@ -403,7 +403,7 @@
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-09-27T03:41:17.000Z",
   "updatedAt": "2026-10-21T23:17:24.000Z",
-  "downloads": 7098,
+  "downloads": 7151,
   "tags": [
    "CHARACTERS",
    "OUTBREAK",
@@ -414,7 +414,7 @@
    {
     "id": "4FD4A1BD550793F4",
     "name": "Creature Melee AI",
-    "version": "1.8.8"
+    "version": "1.8.9"
    },
    {
     "id": "F1D4B9B5245B36ED",
@@ -518,7 +518,7 @@
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-09-22T02:24:31.000Z",
   "updatedAt": "2026-10-01T07:14:39.000Z",
-  "downloads": 166,
+  "downloads": 168,
   "tags": [
    "SCENARIOS_MP",
    "SYSTEMS"
@@ -527,7 +527,7 @@
    {
     "id": "4FD4A1BD550793F4",
     "name": "Creature Melee AI",
-    "version": "1.8.8"
+    "version": "1.8.9"
    },
    {
     "id": "5965550F24A0C152",
@@ -915,7 +915,7 @@
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-10-08T02:57:35.000Z",
   "updatedAt": "2026-10-22T01:38:50.000Z",
-  "downloads": 318,
+  "downloads": 321,
   "tags": [
    "GLENWOOD",
    "LIGHT",
@@ -928,7 +928,7 @@
    {
     "id": "4FD4A1BD550793F4",
     "name": "Creature Melee AI",
-    "version": "1.8.8"
+    "version": "1.8.9"
    },
    {
     "id": "61110CC4F1FF9C8A",
@@ -1013,7 +1013,7 @@
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-10-06T16:56:25.000Z",
   "updatedAt": "2026-10-22T01:38:11.000Z",
-  "downloads": 375,
+  "downloads": 379,
   "tags": [
    "AI",
    "BOSS",
@@ -1026,7 +1026,7 @@
    {
     "id": "4FD4A1BD550793F4",
     "name": "Creature Melee AI",
-    "version": "1.8.8"
+    "version": "1.8.9"
    }
   ],
   "versions": [
@@ -1079,7 +1079,7 @@
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-10-02T05:03:39.000Z",
   "updatedAt": "2026-10-22T00:53:42.000Z",
-  "downloads": 1114,
+  "downloads": 1133,
   "tags": [
    "AI",
    "CHARACTERS",
@@ -1091,7 +1091,7 @@
    {
     "id": "4FD4A1BD550793F4",
     "name": "Creature Melee AI",
-    "version": "1.8.8"
+    "version": "1.8.9"
    }
   ],
   "versions": [
@@ -1161,7 +1161,7 @@
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-10-03T17:41:42.000Z",
   "updatedAt": "2026-10-22T00:51:19.000Z",
-  "downloads": 1198,
+  "downloads": 1208,
   "tags": [
    "ALIEN",
    "CHARACTERS",
@@ -1173,7 +1173,7 @@
    {
     "id": "4FD4A1BD550793F4",
     "name": "Creature Melee AI",
-    "version": "1.8.8"
+    "version": "1.8.9"
    }
   ],
   "versions": [
@@ -1249,7 +1249,7 @@
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-10-06T17:34:28.000Z",
   "updatedAt": "2026-10-06T17:34:51.000Z",
-  "downloads": 753,
+  "downloads": 756,
   "tags": [
    "CHARACTERS",
    "CMAI",
@@ -1261,7 +1261,7 @@
    {
     "id": "4FD4A1BD550793F4",
     "name": "Creature Melee AI",
-    "version": "1.8.8"
+    "version": "1.8.9"
    }
   ],
   "versions": [
@@ -1297,7 +1297,7 @@
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-10-09T13:22:19.000Z",
   "updatedAt": "2026-10-21T23:36:33.000Z",
-  "downloads": 1015,
+  "downloads": 1026,
   "tags": [
    "CHARACTERS",
    "CMAI",
@@ -1309,7 +1309,7 @@
    {
     "id": "4FD4A1BD550793F4",
     "name": "Creature Melee AI",
-    "version": "1.8.8"
+    "version": "1.8.9"
    }
   ],
   "versions": [
@@ -1368,7 +1368,7 @@
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-10-15T10:13:41.000Z",
   "updatedAt": "2026-10-16T00:41:04.000Z",
-  "downloads": 430,
+  "downloads": 434,
   "tags": [
    "AI",
    "CHARACTERS",
@@ -1381,7 +1381,7 @@
    {
     "id": "4FD4A1BD550793F4",
     "name": "Creature Melee AI",
-    "version": "1.8.8"
+    "version": "1.8.9"
    }
   ],
   "versions": [
@@ -1479,7 +1479,7 @@
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-10-15T23:43:22.000Z",
   "updatedAt": "2026-10-19T14:39:54.000Z",
-  "downloads": 330,
+  "downloads": 332,
   "tags": [
    "AI",
    "CHARACTERS",
@@ -1492,7 +1492,7 @@
    {
     "id": "4FD4A1BD550793F4",
     "name": "Creature Melee AI",
-    "version": "1.8.8"
+    "version": "1.8.9"
    }
   ],
   "versions": [
@@ -1561,7 +1561,7 @@
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-10-16T11:15:49.000Z",
   "updatedAt": "2026-10-22T12:52:17.000Z",
-  "downloads": 508,
+  "downloads": 524,
   "tags": [
    "AI",
    "CHARACTERS",
@@ -1573,7 +1573,7 @@
    {
     "id": "4FD4A1BD550793F4",
     "name": "Creature Melee AI",
-    "version": "1.8.8"
+    "version": "1.8.9"
    }
   ],
   "versions": [
@@ -1621,7 +1621,7 @@
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-10-16T11:10:30.000Z",
   "updatedAt": "2026-10-17T23:40:37.000Z",
-  "downloads": 398,
+  "downloads": 407,
   "tags": [
    "AI",
    "BIGFOOT",
@@ -1633,7 +1633,7 @@
    {
     "id": "4FD4A1BD550793F4",
     "name": "Creature Melee AI",
-    "version": "1.8.8"
+    "version": "1.8.9"
    }
   ],
   "versions": [
@@ -1675,7 +1675,7 @@
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-10-22T00:49:08.000Z",
   "updatedAt": "2026-10-22T00:49:31.000Z",
-  "downloads": 6,
+  "downloads": 7,
   "tags": [
    "CHARACTERS",
    "CMAI",
@@ -1687,7 +1687,7 @@
    {
     "id": "4FD4A1BD550793F4",
     "name": "Creature Melee AI",
-    "version": "1.8.8"
+    "version": "1.8.9"
    }
   ],
   "versions": [
@@ -1732,7 +1732,7 @@
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-10-21T23:41:12.000Z",
   "updatedAt": "2026-10-22T00:26:58.000Z",
-  "downloads": 135,
+  "downloads": 151,
   "tags": [
    "AI",
    "CHARACTERS",
@@ -1746,7 +1746,7 @@
    {
     "id": "4FD4A1BD550793F4",
     "name": "Creature Melee AI",
-    "version": "1.8.8"
+    "version": "1.8.9"
    },
    {
     "id": "9C6F9425B58142E7",
@@ -1859,12 +1859,12 @@
   "license": "Arma Public License (APL)",
   "rating": 1,
   "ratingCount": 11,
-  "version": "1.8.8",
-  "sizeBytes": 12218581,
+  "version": "1.8.9",
+  "sizeBytes": 12219168,
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-08-30T18:18:07.000Z",
-  "updatedAt": "2026-10-23T02:00:34.000Z",
-  "downloads": 37994,
+  "updatedAt": "2026-10-23T11:28:54.000Z",
+  "downloads": 38267,
   "tags": [
    "AI",
    "CHARACTERS",
@@ -1876,6 +1876,12 @@
   ],
   "dependencies": [],
   "versions": [
+   {
+    "version": "1.8.9",
+    "gameVersion": "1.8.0.13",
+    "createdAt": "2026-10-23T11:28:42.000Z",
+    "size": 12219168
+   },
    {
     "version": "1.8.8",
     "gameVersion": "1.8.0.13",
@@ -1929,15 +1935,9 @@
     "gameVersion": "1.8.0.13",
     "createdAt": "2026-10-06T05:20:58.000Z",
     "size": 1837481
-   },
-   {
-    "version": "1.5.0",
-    "gameVersion": "1.8.0.13",
-    "createdAt": "2026-10-03T16:30:02.000Z",
-    "size": 1774578
    }
   ],
-  "changelog": "1.8.8\nFeral (four-legged zombie) gaits now play at the speed the body moves and blend smoothly between crawl, fast crawl and bound, so their hands and feet slide much less.",
+  "changelog": "1.8.9\nAllied creatures no longer block melee contacts in crowded fights. Adds shared support for creatures that prioritize active enemies over unconscious targets.",
   "preview": "https://ar-gcp-cdn.bistudio.com/image/e345/f3b99d0c738344cd8d7364e0b3a3b1ada801834676f2a32b6473f50b0675/95814.jpg",
   "previewThumbs": [
    "https://ar-gcp-cdn.bistudio.com/image/826f/ac590b7bcada4b68dbb43c904a60861ba906bcc485de784f311194106075/55712.jpg",
@@ -1973,7 +1973,7 @@
   "gameVersion": "1.8.0.10",
   "createdAt": "2026-08-09T15:04:29.000Z",
   "updatedAt": "2026-08-30T20:00:54.000Z",
-  "downloads": 4213,
+  "downloads": 4215,
   "tags": [
    "AI",
    "REARM",
@@ -2030,7 +2030,7 @@
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-10-07T09:20:39.000Z",
   "updatedAt": "2026-10-09T10:56:14.000Z",
-  "downloads": 1885,
+  "downloads": 1921,
   "tags": [
    "CROSSBOW",
    "GAMEMASTER",
