@@ -7,12 +7,12 @@
  "license": "Arma Public License (APL)",
  "rating": 0.97,
  "ratingCount": 91,
- "version": "2.4.9",
- "sizeBytes": 209349299,
+ "version": "2.4.10",
+ "sizeBytes": 209349660,
  "gameVersion": "1.8.0.13",
  "createdAt": "2026-08-30T18:23:05.000Z",
- "updatedAt": "2026-10-23T23:37:01.000Z",
- "downloads": 34801,
+ "updatedAt": "2026-10-24T09:54:43.000Z",
+ "downloads": 34987,
  "tags": [
   "CHARACTERS",
   "INFECTION",
@@ -31,6 +31,12 @@
   }
  ],
  "versions": [
+  {
+   "version": "2.4.10",
+   "gameVersion": "1.8.0.13",
+   "createdAt": "2026-10-24T09:53:20.000Z",
+   "size": 209349660
+  },
   {
    "version": "2.4.9",
    "gameVersion": "1.8.0.13",
@@ -84,15 +90,9 @@
    "gameVersion": "1.8.0.13",
    "createdAt": "2026-10-03T16:34:47.000Z",
    "size": 215107327
-  },
-  {
-   "version": "2.1.3",
-   "gameVersion": "1.8.0.13",
-   "createdAt": "2026-10-01T14:28:03.000Z",
-   "size": 203323212
   }
  ],
- "changelog": "2.4.9\nZombies can now climb suitable walls blocking their route, cross the top and keep hunting. A suitable ledge is required; the height limit for climbing from the ground in one move is about 2.4 m. New Game Master setting: Zombie Climb Chance. New optional cooperative climbing (off by default): crowded zombies brace against a wall and others climb over them. Fixes a race that could leave a reclaimed weapon unable to reload or drop after a zombie grab.",
+ "changelog": "2.4.10\nFixes lag spikes on servers and Game Master hosts (consoles included) that came with 2.4.9. With cooperative climbing off (the default), the game no longer restarts the cooperative climbing system over and over, and zombies below a player on a roof no longer wait in fixed spots by the wall. Each zombie also does less background work on every machine.",
  "preview": "https://ar-gcp-cdn.bistudio.com/image/fc05/133486948814f92773c75211e4a30e1f2cf1a2313fae2ddbf5929e7451bb/157837.jpg",
  "previewThumbs": [
   "https://ar-gcp-cdn.bistudio.com/image/7b3d/4ebd4645a28aeb188261af0c86e4357fcb8f57ca8c1d52e207be85d7622b/86114.jpg",
@@ -111,16 +111,6 @@
    ]
   },
   {
-   "url": "https://ar-gcp-cdn.bistudio.com/image/25e0/a268811fbd9fe9cf028eb750c485bfc64326f71158e4fdb531836c6a9ba0/309326.jpg",
-   "width": 1920,
-   "height": 1080,
-   "thumbs": [
-    "https://ar-gcp-cdn.bistudio.com/image/8ce8/2c475df4bd778bb49934c72997ff0adcbf65c3323cb1ba1c498e29dedde9/192153.jpg",
-    "https://ar-gcp-cdn.bistudio.com/image/95df/10a30f23caafbecb4c82bb5addad456e64507c4cd147d0429ce8b0b5e70b/61361.jpg",
-    "https://ar-gcp-cdn.bistudio.com/image/507d/dc7a1c22f139101030c8ce6d9f059174ff37945490c8fe5642b6642060f1/18306.jpg"
-   ]
-  },
-  {
    "url": "https://ar-gcp-cdn.bistudio.com/image/64a7/1f8dd24b28ecc871482e5891481a77e47431f6b1975cca770b4468df801e/338671.jpg",
    "width": 1920,
    "height": 1080,
@@ -128,6 +118,16 @@
     "https://ar-gcp-cdn.bistudio.com/image/06cd/650266c031016fde1b12dfb3130668e65875c61915491cf7e1ae5d607377/206112.jpg",
     "https://ar-gcp-cdn.bistudio.com/image/88b1/997888d530d41e78ad6065c01ed72e2c401debccfff2480dc3fa2bf6d007/62746.jpg",
     "https://ar-gcp-cdn.bistudio.com/image/dd29/3fec00c460d8d705e53425d5b022b8cc8ab94cfa1607c4ff09a089852d97/17469.jpg"
+   ]
+  },
+  {
+   "url": "https://ar-gcp-cdn.bistudio.com/image/25e0/a268811fbd9fe9cf028eb750c485bfc64326f71158e4fdb531836c6a9ba0/309326.jpg",
+   "width": 1920,
+   "height": 1080,
+   "thumbs": [
+    "https://ar-gcp-cdn.bistudio.com/image/8ce8/2c475df4bd778bb49934c72997ff0adcbf65c3323cb1ba1c498e29dedde9/192153.jpg",
+    "https://ar-gcp-cdn.bistudio.com/image/95df/10a30f23caafbecb4c82bb5addad456e64507c4cd147d0429ce8b0b5e70b/61361.jpg",
+    "https://ar-gcp-cdn.bistudio.com/image/507d/dc7a1c22f139101030c8ce6d9f059174ff37945490c8fe5642b6642060f1/18306.jpg"
    ]
   }
  ],
