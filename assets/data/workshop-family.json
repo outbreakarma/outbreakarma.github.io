@@ -13,7 +13,7 @@
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-08-30T18:29:18.000Z",
   "updatedAt": "2026-10-24T14:24:30.000Z",
-  "downloads": 16469,
+  "downloads": 16582,
   "tags": [
    "INFECTION",
    "OUTBREAK",
@@ -24,7 +24,7 @@
    {
     "id": "4FD4A1BD550793F4",
     "name": "Creature Melee AI",
-    "version": "1.8.10"
+    "version": "1.8.11"
    },
    {
     "id": "F1D4B9B5245B36ED",
@@ -119,7 +119,7 @@
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-08-30T18:31:09.000Z",
   "updatedAt": "2026-10-21T23:23:02.000Z",
-  "downloads": 12300,
+  "downloads": 12344,
   "tags": [
    "OUTBREAK",
    "SYSTEMS",
@@ -129,7 +129,7 @@
    {
     "id": "4FD4A1BD550793F4",
     "name": "Creature Melee AI",
-    "version": "1.8.10"
+    "version": "1.8.11"
    },
    {
     "id": "F1D4B9B5245B36ED",
@@ -224,7 +224,7 @@
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-08-30T18:27:33.000Z",
   "updatedAt": "2026-10-21T23:26:48.000Z",
-  "downloads": 6835,
+  "downloads": 6855,
   "tags": [
    "GADGETS",
    "OUTBREAK",
@@ -238,7 +238,7 @@
    {
     "id": "4FD4A1BD550793F4",
     "name": "Creature Melee AI",
-    "version": "1.8.10"
+    "version": "1.8.11"
    },
    {
     "id": "F1D4B9B5245B36ED",
@@ -333,7 +333,7 @@
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-09-27T03:27:42.000Z",
   "updatedAt": "2026-10-21T23:13:44.000Z",
-  "downloads": 5699,
+  "downloads": 5733,
   "tags": [
    "CHARACTERS",
    "INFECTION",
@@ -344,7 +344,7 @@
    {
     "id": "4FD4A1BD550793F4",
     "name": "Creature Melee AI",
-    "version": "1.8.10"
+    "version": "1.8.11"
    },
    {
     "id": "F1D4B9B5245B36ED",
@@ -403,7 +403,7 @@
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-09-27T03:41:17.000Z",
   "updatedAt": "2026-10-21T23:17:24.000Z",
-  "downloads": 7454,
+  "downloads": 7497,
   "tags": [
    "CHARACTERS",
    "OUTBREAK",
@@ -414,7 +414,7 @@
    {
     "id": "4FD4A1BD550793F4",
     "name": "Creature Melee AI",
-    "version": "1.8.10"
+    "version": "1.8.11"
    },
    {
     "id": "F1D4B9B5245B36ED",
@@ -518,7 +518,7 @@
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-09-22T02:24:31.000Z",
   "updatedAt": "2026-10-01T07:14:39.000Z",
-  "downloads": 171,
+  "downloads": 173,
   "tags": [
    "SCENARIOS_MP",
    "SYSTEMS"
@@ -527,7 +527,7 @@
    {
     "id": "4FD4A1BD550793F4",
     "name": "Creature Melee AI",
-    "version": "1.8.10"
+    "version": "1.8.11"
    },
    {
     "id": "5965550F24A0C152",
@@ -915,7 +915,7 @@
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-10-08T02:57:35.000Z",
   "updatedAt": "2026-10-22T01:38:50.000Z",
-  "downloads": 336,
+  "downloads": 339,
   "tags": [
    "GLENWOOD",
    "LIGHT",
@@ -928,7 +928,7 @@
    {
     "id": "4FD4A1BD550793F4",
     "name": "Creature Melee AI",
-    "version": "1.8.10"
+    "version": "1.8.11"
    },
    {
     "id": "61110CC4F1FF9C8A",
@@ -1013,7 +1013,7 @@
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-10-06T16:56:25.000Z",
   "updatedAt": "2026-10-22T01:38:11.000Z",
-  "downloads": 392,
+  "downloads": 396,
   "tags": [
    "AI",
    "BOSS",
@@ -1026,7 +1026,7 @@
    {
     "id": "4FD4A1BD550793F4",
     "name": "Creature Melee AI",
-    "version": "1.8.10"
+    "version": "1.8.11"
    }
   ],
   "versions": [
@@ -1079,7 +1079,7 @@
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-10-02T05:03:39.000Z",
   "updatedAt": "2026-10-22T00:53:42.000Z",
-  "downloads": 1235,
+  "downloads": 1245,
   "tags": [
    "AI",
    "CHARACTERS",
@@ -1091,7 +1091,7 @@
    {
     "id": "4FD4A1BD550793F4",
     "name": "Creature Melee AI",
-    "version": "1.8.10"
+    "version": "1.8.11"
    }
   ],
   "versions": [
@@ -1161,7 +1161,7 @@
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-10-03T17:41:42.000Z",
   "updatedAt": "2026-10-22T00:51:19.000Z",
-  "downloads": 1258,
+  "downloads": 1266,
   "tags": [
    "ALIEN",
    "CHARACTERS",
@@ -1173,7 +1173,7 @@
    {
     "id": "4FD4A1BD550793F4",
     "name": "Creature Melee AI",
-    "version": "1.8.10"
+    "version": "1.8.11"
    }
   ],
   "versions": [
@@ -1249,7 +1249,7 @@
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-10-06T17:34:28.000Z",
   "updatedAt": "2026-10-06T17:34:51.000Z",
-  "downloads": 776,
+  "downloads": 780,
   "tags": [
    "CHARACTERS",
    "CMAI",
@@ -1261,7 +1261,7 @@
    {
     "id": "4FD4A1BD550793F4",
     "name": "Creature Melee AI",
-    "version": "1.8.10"
+    "version": "1.8.11"
    }
   ],
   "versions": [
@@ -1297,7 +1297,7 @@
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-10-09T13:22:19.000Z",
   "updatedAt": "2026-10-21T23:36:33.000Z",
-  "downloads": 1074,
+  "downloads": 1085,
   "tags": [
    "CHARACTERS",
    "CMAI",
@@ -1309,7 +1309,7 @@
    {
     "id": "4FD4A1BD550793F4",
     "name": "Creature Melee AI",
-    "version": "1.8.10"
+    "version": "1.8.11"
    }
   ],
   "versions": [
@@ -1368,7 +1368,7 @@
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-10-15T10:13:41.000Z",
   "updatedAt": "2026-10-16T00:41:04.000Z",
-  "downloads": 467,
+  "downloads": 481,
   "tags": [
    "AI",
    "CHARACTERS",
@@ -1381,7 +1381,7 @@
    {
     "id": "4FD4A1BD550793F4",
     "name": "Creature Melee AI",
-    "version": "1.8.10"
+    "version": "1.8.11"
    }
   ],
   "versions": [
@@ -1479,7 +1479,7 @@
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-10-15T23:43:22.000Z",
   "updatedAt": "2026-10-24T08:44:58.000Z",
-  "downloads": 356,
+  "downloads": 373,
   "tags": [
    "AI",
    "CHARACTERS",
@@ -1492,7 +1492,7 @@
    {
     "id": "4FD4A1BD550793F4",
     "name": "Creature Melee AI",
-    "version": "1.8.10"
+    "version": "1.8.11"
    }
   ],
   "versions": [
@@ -1567,7 +1567,7 @@
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-10-16T11:15:49.000Z",
   "updatedAt": "2026-10-22T12:52:17.000Z",
-  "downloads": 572,
+  "downloads": 583,
   "tags": [
    "AI",
    "CHARACTERS",
@@ -1579,7 +1579,7 @@
    {
     "id": "4FD4A1BD550793F4",
     "name": "Creature Melee AI",
-    "version": "1.8.10"
+    "version": "1.8.11"
    }
   ],
   "versions": [
@@ -1627,7 +1627,7 @@
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-10-16T11:10:30.000Z",
   "updatedAt": "2026-10-17T23:40:37.000Z",
-  "downloads": 432,
+  "downloads": 443,
   "tags": [
    "AI",
    "BIGFOOT",
@@ -1639,7 +1639,7 @@
    {
     "id": "4FD4A1BD550793F4",
     "name": "Creature Melee AI",
-    "version": "1.8.10"
+    "version": "1.8.11"
    }
   ],
   "versions": [
@@ -1693,7 +1693,7 @@
    {
     "id": "4FD4A1BD550793F4",
     "name": "Creature Melee AI",
-    "version": "1.8.10"
+    "version": "1.8.11"
    }
   ],
   "versions": [
@@ -1738,7 +1738,7 @@
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-10-21T23:41:12.000Z",
   "updatedAt": "2026-10-24T06:42:09.000Z",
-  "downloads": 243,
+  "downloads": 265,
   "tags": [
    "AI",
    "CHARACTERS",
@@ -1752,7 +1752,7 @@
    {
     "id": "4FD4A1BD550793F4",
     "name": "Creature Melee AI",
-    "version": "1.8.10"
+    "version": "1.8.11"
    },
    {
     "id": "9C6F9425B58142E7",
@@ -1867,16 +1867,16 @@
   "name": "Creature Melee AI",
   "author": "Project Outbreak",
   "summary": "Shared creature AI for Arma Reforger: hostile targeting, pursuit, melee, carry support and reusable animations. Includes authoring templates and optional Game Master examples.",
-  "description": "Creature Melee AI (CMAI) is a reusable creature-AI framework for Arma Reforger. A Character-compatible entity can acquire an eligible hostile Character, pursue it continuously through native navigation, and request an attack through a replaceable attack contract.\n\n\nAUTHORING\nCreate a creature from one inherited prefab and one inherited settings file. CMAI owns the common targeting, pursuit, scheduler, damage-request, cleanup, and replication infrastructure while a project can replace the creature presentation and attack behavior.\n\n\nINTEGRATION\nPublic settings, APIs, and capability hooks support independent creature projects. Optional Slow, Hunter, and Fast examples are supplied for sandbox testing. Their Game Master cards use the non-playable Melee AI faction and remain disabled unless a maintainer deliberately enables the single integration switch.\n\n\nSCOPE\nCMAI depends only on the Arma Reforger Base Game. Project Outbreak is not required. CMAI does not provide a spawner, wave manager, population director, or scenario lifecycle; those remain responsibilities of the consuming project.\n\n\nCREDITS\nRetargeted zombie locomotion, attacks, feeding and reactions: Zombie_Pack, purchased under the Fab Standard License (https://www.fab.com/eula). Throw/carry animations: RamsterZ Free Anims Volume 1: https://www.fab.com/listings/9319491d-0e91-422c-9b67-ad4bf6c01a02. These compiled animations are embedded game content; their source assets are not included.\n\n\nMelee animation: Melee Combat Extended by Sanxisan (Anton Firsenko / TonyFierce). Five compiled two-handed clips retain the Arma Public License: https://reforger.armaplatform.com/workshop/6595113A3678CF5D-MeleeCombatExtended and https://www.bohemia.net/community/licenses/arma-public-license. One-handed animation resources (MIT license): https://github.com/TonyFierce/Melee-Combat-Extended-Resources. Complete component notices are included.\n\n\nGiant stomp animation: Giant Pack V01 by MandB Animation, retargeted and fitted for Reforger by Project Outbreak. Fab Standard License: https://www.fab.com/listings/6c958505-2e10-4600-b85c-668cd158d25d. Animation retargeting, native graph integration and authored adaptations are by Project Outbreak.\n\n\nCrawling Ghoul Anims by RamsterZ: https://www.fab.com/listings/9e96b3f7-30ca-4221-a2eb-2bd46146b286. Climbing animation from Free Animation Library by voxel vision: https://www.fab.com/listings/481ef75b-892b-424f-a213-f1cc058c9c19. Spear throw from Cool Throwing Combat Animations by Bacengdu: https://www.fab.com/listings/fffbea69-14ff-499d-b85a-131171c1d6f8. These compiled derivatives retain the Fab Standard License; editable sources are excluded.\n\n\nWorkshop licence: Arma Public License (APL). Incorporated assets retain their original licences and credits; this listing does not grant additional rights to those assets. See the included notices for component terms.\n\nShared dual-strike animation: original Epic Games character motion acquired under the Fab Standard License, retargeted and fitted for CMAI. Source: https://www.fab.com/listings/8c4bac2c-f7f7-4632-a644-47f4e104f5d8. Compiled game content only; editable sources and standalone redistribution are excluded.\n\n\nWerewolf claw animations: Werewolf by Lilpupinduy, Fab Standard License: https://www.fab.com/listings/e6d3f2fc-f64d-418b-b41d-1f8808be3f21. Bigfoot boxing animations created with Tripo3D under a paid license. These compiled animations are embedded game content; editable sources are excluded.",
+  "description": "Creature Melee AI (CMAI) is a reusable creature-AI framework for Arma Reforger. A Character-compatible entity can acquire an eligible hostile Character, pursue it continuously through native navigation, and request an attack through a replaceable attack contract.\n\n\nAUTHORING\nCreate a creature from one inherited prefab and one inherited settings file. CMAI owns the common targeting, pursuit, scheduler, damage-request, cleanup, and replication infrastructure while a project can replace the creature presentation and attack behavior.\n\n\nINTEGRATION\nPublic settings, APIs, and capability hooks support independent creature projects. Optional Slow, Hunter, and Fast examples are supplied for sandbox testing. Their Game Master cards use the non-playable Melee AI faction and remain disabled unless a maintainer deliberately enables the single integration switch.\n\n\nSCOPE\nCMAI depends only on the Arma Reforger Base Game. Project Outbreak is not required. CMAI does not provide a spawner, wave manager, population director, or scenario lifecycle; those remain responsibilities of the consuming project.\n\n\nCREDITS\nRetargeted zombie locomotion, attacks, feeding and reactions: Zombie_Pack, purchased under the Fab Standard License (https://www.fab.com/eula). Throw/carry animations: RamsterZ Free Anims Volume 1: https://www.fab.com/listings/9319491d-0e91-422c-9b67-ad4bf6c01a02. These compiled animations are embedded game content; their source assets are not included.\n\n\nMelee animation: Melee Combat Extended by Sanxisan (Anton Firsenko / TonyFierce). Five compiled two-handed clips retain the Arma Public License: https://reforger.armaplatform.com/workshop/6595113A3678CF5D-MeleeCombatExtended and https://www.bohemia.net/community/licenses/arma-public-license. One-handed animation resources (MIT license): https://github.com/TonyFierce/Melee-Combat-Extended-Resources. Complete component notices are included.\n\n\nGiant stomp animation: Giant Pack V01 by MandB Animation, retargeted and fitted for Reforger by Project Outbreak. Fab Standard License: https://www.fab.com/listings/6c958505-2e10-4600-b85c-668cd158d25d. Animation retargeting, native graph integration and authored adaptations are by Project Outbreak.\n\n\nCrawling Ghoul Anims by RamsterZ: https://www.fab.com/listings/9e96b3f7-30ca-4221-a2eb-2bd46146b286. Climbing animation from Free Animation Library by voxel vision: https://www.fab.com/listings/481ef75b-892b-424f-a213-f1cc058c9c19. Spear throw from Cool Throwing Combat Animations by Bacengdu: https://www.fab.com/listings/fffbea69-14ff-499d-b85a-131171c1d6f8. These compiled derivatives retain the Fab Standard License; editable sources are excluded.\n\n\nWorkshop licence: Arma Public License (APL). Incorporated assets retain their original licences and credits; this listing does not grant additional rights to those assets. See the included notices for component terms.\n\nShared dual-strike animation: original Epic Games character motion acquired under the Fab Standard License, retargeted and fitted for CMAI. Source: https://www.fab.com/listings/8c4bac2c-f7f7-4632-a644-47f4e104f5d8. Compiled game content only; editable sources and standalone redistribution are excluded.\n\n\nWerewolf claw animations: Werewolf by Lilpupinduy, Fab Standard License: https://www.fab.com/listings/e6d3f2fc-f64d-418b-b41d-1f8808be3f21. Bigfoot boxing animations created with Tripo3D under a paid license. These compiled animations are embedded game content; editable sources are excluded.\n\nStonekin motion: Armored Stone Golem - Dark Fantasy Boss by Alexander Lenski, acquired under the Fab Standard License: https://www.fab.com/listings/e40713f0-ebea-4f4d-ad9b-b577db4432d5. Retargeted and fitted by Project Outbreak. Compiled embedded game content only; editable sources and standalone animation redistribution are excluded.",
   "license": "Arma Public License (APL)",
   "rating": 1,
   "ratingCount": 11,
-  "version": "1.8.10",
-  "sizeBytes": 12215219,
+  "version": "1.8.11",
+  "sizeBytes": 12674484,
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-08-30T18:18:07.000Z",
-  "updatedAt": "2026-10-23T23:33:53.000Z",
-  "downloads": 39787,
+  "updatedAt": "2026-10-24T17:44:28.000Z",
+  "downloads": 40019,
   "tags": [
    "AI",
    "CHARACTERS",
@@ -1888,6 +1888,12 @@
   ],
   "dependencies": [],
   "versions": [
+   {
+    "version": "1.8.11",
+    "gameVersion": "1.8.0.13",
+    "createdAt": "2026-10-24T17:44:05.000Z",
+    "size": 12674484
+   },
    {
     "version": "1.8.10",
     "gameVersion": "1.8.0.13",
@@ -1941,20 +1947,14 @@
     "gameVersion": "1.8.0.13",
     "createdAt": "2026-10-09T13:08:37.000Z",
     "size": 9882567
-   },
-   {
-    "version": "1.7.0",
-    "gameVersion": "1.8.0.13",
-    "createdAt": "2026-10-06T12:50:33.000Z",
-    "size": 9157840
    }
   ],
-  "changelog": "1.8.10\nCarrying is more reliable in multiplayer: a carried player is no longer put down early, a finished carry no longer blocks the next pickup, and a grabbed player's weapon drops only after it has left their hands. Mods that use the existing carry functions keep working. Added animation support for Project Outbreak's cooperative zombie climbing. Feral Ghoul animations no longer pause for one frame at the end of each loop.",
-  "preview": "https://ar-gcp-cdn.bistudio.com/image/e345/f3b99d0c738344cd8d7364e0b3a3b1ada801834676f2a32b6473f50b0675/95814.jpg",
+  "changelog": "1.8.11\nFeral Ghouls no longer slide when they bound at full speed: their hands and feet stay planted on the ground while the body moves over them, and the hind knees stay below the back. Adds shared golem attack and giant stomp animations, with stomp contact support, for creature add-ons that use them. Existing creatures behave as before.",
+  "preview": "https://ar-gcp-cdn.bistudio.com/image/f33c/a48bda46969df8a5c53a02029a5c78ebf3e6478765db430d0f486de85c35/96463.jpg",
   "previewThumbs": [
-   "https://ar-gcp-cdn.bistudio.com/image/826f/ac590b7bcada4b68dbb43c904a60861ba906bcc485de784f311194106075/55712.jpg",
-   "https://ar-gcp-cdn.bistudio.com/image/1261/3000e39a9a5ac9246027c8c75aca87f23b5dee1197b03642e09983cf29da/19799.jpg",
-   "https://ar-gcp-cdn.bistudio.com/image/ce58/dead930f0f12d1c40968cae3bb69190eb7031ab29651c2860feb43d462a9/7454.jpg"
+   "https://ar-gcp-cdn.bistudio.com/image/7f36/942828d7a90314e3c0227d3eb107a2d7823da8ad8651cefc2d2c7aaa0858/57109.jpg",
+   "https://ar-gcp-cdn.bistudio.com/image/4160/abfc7ea92f54efad0f3cf2182d29669e1a3ce011b15f982e5e1d98dc2969/20110.jpg",
+   "https://ar-gcp-cdn.bistudio.com/image/bf4b/99ebe759fa7eecea8d8e02ec0204d15d9033d69b100a8bbe91c70de10262/7331.jpg"
   ],
   "screenshots": [
    {
@@ -1969,7 +1969,7 @@
    }
   ],
   "workshopUrl": "https://reforger.armaplatform.com/workshop/4FD4A1BD550793F4",
-  "previewFile": "assets/family/4FD4A1BD550793F4.jpg"
+  "previewFile": "assets/family/4FD4A1BD550793F4_056c2b4aec.jpg"
  },
  {
   "id": "40B5686CC205703A",
@@ -1985,7 +1985,7 @@
   "gameVersion": "1.8.0.10",
   "createdAt": "2026-08-09T15:04:29.000Z",
   "updatedAt": "2026-08-30T20:00:54.000Z",
-  "downloads": 4241,
+  "downloads": 4242,
   "tags": [
    "AI",
    "REARM",
@@ -2042,7 +2042,7 @@
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-10-07T09:20:39.000Z",
   "updatedAt": "2026-10-09T10:56:14.000Z",
-  "downloads": 2279,
+  "downloads": 2375,
   "tags": [
    "CROSSBOW",
    "GAMEMASTER",
