@@ -7,12 +7,12 @@
  "license": "Arma Public License (APL)",
  "rating": 0.97,
  "ratingCount": 91,
- "version": "2.4.8",
- "sizeBytes": 208879972,
+ "version": "2.4.9",
+ "sizeBytes": 209349299,
  "gameVersion": "1.8.0.13",
  "createdAt": "2026-08-30T18:23:05.000Z",
- "updatedAt": "2026-10-23T02:03:49.000Z",
- "downloads": 34400,
+ "updatedAt": "2026-10-23T23:37:01.000Z",
+ "downloads": 34549,
  "tags": [
   "CHARACTERS",
   "INFECTION",
@@ -27,10 +27,16 @@
   {
    "id": "4FD4A1BD550793F4",
    "name": "Creature Melee AI",
-   "version": "1.8.9"
+   "version": "1.8.10"
   }
  ],
  "versions": [
+  {
+   "version": "2.4.9",
+   "gameVersion": "1.8.0.13",
+   "createdAt": "2026-10-23T23:35:15.000Z",
+   "size": 209349299
+  },
   {
    "version": "2.4.8",
    "gameVersion": "1.8.0.13",
@@ -84,15 +90,9 @@
    "gameVersion": "1.8.0.13",
    "createdAt": "2026-10-01T14:28:03.000Z",
    "size": 203323212
-  },
-  {
-   "version": "2.1.2",
-   "gameVersion": "1.8.0.13",
-   "createdAt": "2026-10-01T12:40:36.000Z",
-   "size": 203323202
   }
  ],
- "changelog": "2.4.8\nFerals slide much less. A sprinting Feral now keeps its bound instead of dropping back to the crawl every second, uses the fast crawl between crawl and bound, and stops and starts in the right gait at once.",
+ "changelog": "2.4.9\nZombies can now climb suitable walls blocking their route, cross the top and keep hunting. A suitable ledge is required; the height limit for climbing from the ground in one move is about 2.4 m. New Game Master setting: Zombie Climb Chance. New optional cooperative climbing (off by default): crowded zombies brace against a wall and others climb over them. Fixes a race that could leave a reclaimed weapon unable to reload or drop after a zombie grab.",
  "preview": "https://ar-gcp-cdn.bistudio.com/image/fc05/133486948814f92773c75211e4a30e1f2cf1a2313fae2ddbf5929e7451bb/157837.jpg",
  "previewThumbs": [
   "https://ar-gcp-cdn.bistudio.com/image/7b3d/4ebd4645a28aeb188261af0c86e4357fcb8f57ca8c1d52e207be85d7622b/86114.jpg",
