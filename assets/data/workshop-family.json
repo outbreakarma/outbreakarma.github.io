@@ -13,7 +13,7 @@
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-08-30T18:29:18.000Z",
   "updatedAt": "2026-10-23T16:09:29.000Z",
-  "downloads": 16194,
+  "downloads": 16308,
   "tags": [
    "INFECTION",
    "OUTBREAK",
@@ -119,7 +119,7 @@
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-08-30T18:31:09.000Z",
   "updatedAt": "2026-10-21T23:23:02.000Z",
-  "downloads": 12124,
+  "downloads": 12199,
   "tags": [
    "OUTBREAK",
    "SYSTEMS",
@@ -224,7 +224,7 @@
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-08-30T18:27:33.000Z",
   "updatedAt": "2026-10-21T23:26:48.000Z",
-  "downloads": 6755,
+  "downloads": 6794,
   "tags": [
    "GADGETS",
    "OUTBREAK",
@@ -333,7 +333,7 @@
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-09-27T03:27:42.000Z",
   "updatedAt": "2026-10-21T23:13:44.000Z",
-  "downloads": 5595,
+  "downloads": 5644,
   "tags": [
    "CHARACTERS",
    "INFECTION",
@@ -403,7 +403,7 @@
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-09-27T03:41:17.000Z",
   "updatedAt": "2026-10-21T23:17:24.000Z",
-  "downloads": 7289,
+  "downloads": 7362,
   "tags": [
    "CHARACTERS",
    "OUTBREAK",
@@ -518,7 +518,7 @@
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-09-22T02:24:31.000Z",
   "updatedAt": "2026-10-01T07:14:39.000Z",
-  "downloads": 170,
+  "downloads": 171,
   "tags": [
    "SCENARIOS_MP",
    "SYSTEMS"
@@ -702,7 +702,7 @@
    {
     "id": "64EE818E08AFCF94",
     "name": "MFD Framework",
-    "version": "0.4.10"
+    "version": "0.5.0"
    },
    {
     "id": "65157D09F042428A",
@@ -915,7 +915,7 @@
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-10-08T02:57:35.000Z",
   "updatedAt": "2026-10-22T01:38:50.000Z",
-  "downloads": 329,
+  "downloads": 334,
   "tags": [
    "GLENWOOD",
    "LIGHT",
@@ -1013,7 +1013,7 @@
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-10-06T16:56:25.000Z",
   "updatedAt": "2026-10-22T01:38:11.000Z",
-  "downloads": 387,
+  "downloads": 388,
   "tags": [
    "AI",
    "BOSS",
@@ -1079,7 +1079,7 @@
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-10-02T05:03:39.000Z",
   "updatedAt": "2026-10-22T00:53:42.000Z",
-  "downloads": 1195,
+  "downloads": 1213,
   "tags": [
    "AI",
    "CHARACTERS",
@@ -1161,7 +1161,7 @@
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-10-03T17:41:42.000Z",
   "updatedAt": "2026-10-22T00:51:19.000Z",
-  "downloads": 1241,
+  "downloads": 1247,
   "tags": [
    "ALIEN",
    "CHARACTERS",
@@ -1249,7 +1249,7 @@
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-10-06T17:34:28.000Z",
   "updatedAt": "2026-10-06T17:34:51.000Z",
-  "downloads": 768,
+  "downloads": 772,
   "tags": [
    "CHARACTERS",
    "CMAI",
@@ -1297,7 +1297,7 @@
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-10-09T13:22:19.000Z",
   "updatedAt": "2026-10-21T23:36:33.000Z",
-  "downloads": 1060,
+  "downloads": 1063,
   "tags": [
    "CHARACTERS",
    "CMAI",
@@ -1368,7 +1368,7 @@
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-10-15T10:13:41.000Z",
   "updatedAt": "2026-10-16T00:41:04.000Z",
-  "downloads": 453,
+  "downloads": 457,
   "tags": [
    "AI",
    "CHARACTERS",
@@ -1479,7 +1479,7 @@
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-10-15T23:43:22.000Z",
   "updatedAt": "2026-10-19T14:39:54.000Z",
-  "downloads": 343,
+  "downloads": 344,
   "tags": [
    "AI",
    "CHARACTERS",
@@ -1561,7 +1561,7 @@
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-10-16T11:15:49.000Z",
   "updatedAt": "2026-10-22T12:52:17.000Z",
-  "downloads": 557,
+  "downloads": 563,
   "tags": [
    "AI",
    "CHARACTERS",
@@ -1621,7 +1621,7 @@
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-10-16T11:10:30.000Z",
   "updatedAt": "2026-10-17T23:40:37.000Z",
-  "downloads": 418,
+  "downloads": 422,
   "tags": [
    "AI",
    "BIGFOOT",
@@ -1726,13 +1726,13 @@
   "description": "Grimdark Horde brings a scrap-armoured Orc faction to Game Master and scenario makers. Find its units under the Grimdark Horde faction filter. The Horde fights other factions and allies with Creature Melee AI creatures.\n\nTHE WARBAND\nTwelve outfits across three families: Greenskin Runner, Scrapper, Spike-Yoke, Plated Brute and Bannerboss; White Orc Hunter, Bone-Plate and Lacquer Guard; Black Orc Iron-Clad, Plague-Helm, Brute and Chieftain. Each family has distinct armour, skin and loadouts.\n\nWEAPONS AND VOICES\nFitted saw swords and Atris axes, plus nine crude guns: pistols, twin pistols, long gun, mag gun, axe gun and flamethrower. Guns fire projectiles along their barrels in short bursts; melee uses Creature Melee AI blade contacts. Non-verbal war cries, efforts, pain, death and laughter accompany the fighting. Reload animations are not included.\n\nCREATURES AND MACHINES\nWarbasha is a drum-thumping brute armed with two spiked clubs. The Armoured Troll carries a massive greatsword. The Scrap Walker combines an enlarged mech, an Orc pilot and a recoiling cannon. The Wallbreaker artillery gun supports a player gunner or an AI crew firing at distant targets.\n\nREQUIREMENTS\nCreature Melee AI: https://reforger.armaplatform.com/workshop/4FD4A1BD550793F4\nWarbeasts: https://reforger.armaplatform.com/workshop/9C6F9425B58142E7\nThe Workshop installs these dependencies with Grimdark Horde.\n\nCREDITS AND ORIGINAL SOURCES\nThe following creators supplied the original assets adapted for this add-on. Thank you for their work.\n\nJedy92 - Orc with Axe: original Orc character, head, equipment and animations; also used for the Scrap Walker pilot.\nhttps://www.fab.com/listings/63d8fd8f-ef10-4436-8e0e-714dbca74688\n\nTauan Talari Bellintani - Post Apocalyptic Weapons: Saw Sword.\nhttps://www.fab.com/listings/8015db3e-60bd-44a1-8a91-3916f708f631\n\nPetr Luchko - Atris axes.\nhttps://www.fab.com/listings/3905779c-7035-4a17-a28d-9d215336ea53\n\nBitgem - Gun Set: Hand Painted Series, adapted into the Horde's firearms and flamethrower.\nhttps://www.fab.com/listings/a90204f0-9b1f-4393-b913-41e4cec7d4e3\n\nMist Polygon - Plague Knight Helmet, based on Mike Franchina's concept artwork; adapted for Plague-Helm.\nModel: https://www.fab.com/listings/4376c360-11bd-4f33-8451-c9c532e1bea6\nConcept: https://www.artstation.com/artwork/5dkJW\n\nKaanTezcan (s_cat) - Free Game Character: Armored Troll With Sword.\nhttps://www.fab.com/listings/a5299d26-73c5-4fcf-8203-06d1418597f6\n\ncybeck - Earthshaker Artillery Gun, adapted as the Wallbreaker.\nhttps://www.fab.com/listings/d83a153d-829b-4f50-a9ae-02859e66dfad\n\nEpic Games - original Grux body used through Warbeasts for the Greenskins, Narbash body/animations/non-verbal voices adapted for Warbasha and Orc voices, and Howitzer mech adapted for the Scrap Walker.\nGrux: https://www.fab.com/listings/8c4bac2c-f7f7-4632-a644-47f4e104f5d8\nNarbash: https://www.fab.com/listings/d8904a0e-9169-4763-b82b-5fcf864235a4\nHowitzer: https://www.fab.com/listings/7397dd8d-2e47-4e68-9e9d-a10c6fa0a9c7\n\nBohemia Interactive - Arma Reforger base-game resources and character tools used by the adaptation. Grimdark Horde adds the faction, gameplay integration, fitted grips, outfit adaptations and locally authored armour/paint/effects.\n\nLICENCES\nOriginal add-on code is released under the Arma Public Licence (APL):\nhttps://portal.bohemia.net/community/licenses/arma-public-license\n\nThe credited models, textures, animations and audio retain their original acquisition licences and permissions; the APL does not relicense those assets. Fab licence information and full terms:\nhttps://www.fab.com/eula\n\nThis is an incorporated playable mod, not a standalone asset pack. Full asset-specific provenance, terms and exclusions are included in THIRD_PARTY_NOTICES.md and the dependency notices. No endorsement by the original creators is implied.",
   "license": "Arma Public License (APL)",
   "rating": 1,
-  "ratingCount": 4,
+  "ratingCount": 5,
   "version": "0.1.1",
   "sizeBytes": 662004599,
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-10-21T23:41:12.000Z",
   "updatedAt": "2026-10-22T00:26:58.000Z",
-  "downloads": 199,
+  "downloads": 215,
   "tags": [
    "AI",
    "CHARACTERS",
@@ -1864,7 +1864,7 @@
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-08-30T18:18:07.000Z",
   "updatedAt": "2026-10-23T23:33:53.000Z",
-  "downloads": 39069,
+  "downloads": 39425,
   "tags": [
    "AI",
    "CHARACTERS",
@@ -1973,7 +1973,7 @@
   "gameVersion": "1.8.0.10",
   "createdAt": "2026-08-09T15:04:29.000Z",
   "updatedAt": "2026-08-30T20:00:54.000Z",
-  "downloads": 4230,
+  "downloads": 4234,
   "tags": [
    "AI",
    "REARM",
@@ -2030,7 +2030,7 @@
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-10-07T09:20:39.000Z",
   "updatedAt": "2026-10-09T10:56:14.000Z",
-  "downloads": 2176,
+  "downloads": 2188,
   "tags": [
    "CROSSBOW",
    "GAMEMASTER",
