@@ -13,7 +13,7 @@
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-08-30T18:29:18.000Z",
   "updatedAt": "2026-10-24T14:24:30.000Z",
-  "downloads": 17086,
+  "downloads": 17175,
   "tags": [
    "INFECTION",
    "OUTBREAK",
@@ -29,7 +29,7 @@
    {
     "id": "F1D4B9B5245B36ED",
     "name": "Project Outbreak Zombies",
-    "version": "2.4.10"
+    "version": "2.4.12"
    }
   ],
   "versions": [
@@ -114,12 +114,12 @@
   "license": "Arma Public License (APL)",
   "rating": 0.94,
   "ratingCount": 16,
-  "version": "1.3.3",
-  "sizeBytes": 16653783,
+  "version": "1.3.4",
+  "sizeBytes": 16658892,
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-08-30T18:31:09.000Z",
-  "updatedAt": "2026-10-21T23:23:02.000Z",
-  "downloads": 12658,
+  "updatedAt": "2026-10-25T18:47:59.000Z",
+  "downloads": 12773,
   "tags": [
    "OUTBREAK",
    "SYSTEMS",
@@ -134,10 +134,16 @@
    {
     "id": "F1D4B9B5245B36ED",
     "name": "Project Outbreak Zombies",
-    "version": "2.4.10"
+    "version": "2.4.12"
    }
   ],
   "versions": [
+   {
+    "version": "1.3.4",
+    "gameVersion": "1.8.0.13",
+    "createdAt": "2026-10-25T18:47:49.000Z",
+    "size": 16658892
+   },
    {
     "version": "1.3.3",
     "gameVersion": "1.8.0.13",
@@ -191,15 +197,9 @@
     "gameVersion": "1.8.0.10",
     "createdAt": "2026-09-01T07:38:18.000Z",
     "size": 196345
-   },
-   {
-    "version": "1.0.0",
-    "gameVersion": "1.8.0.10",
-    "createdAt": "2026-08-30T18:31:09.000Z",
-    "size": 206417
    }
   ],
-  "changelog": "1.3.3\nZombies blocked with no usable door or window route now reuse that search result briefly, reducing repeated work in crowds while retaining checks for changed targets and openings.",
+  "changelog": "1.3.4\nMajor server and host performance update for town sieges and large crowds. Siege area scans now spread their building checks across frames at 2 ms per frame and re-scan whole areas every 20 seconds instead of stalling one frame every 2 seconds. Zombies attacking or waiting at windows reuse window geometry and retry blocked lane searches every half second instead of every tick. Obstacle checks share one forward glass trace per pulse, skip fence checks when no fence is destructible, spread new crowd pulse timings evenly, and stay at the 1-second chase rate when no building or barrier is in reach.",
   "preview": "https://ar-gcp-cdn.bistudio.com/image/5bed/0a8b466346b0229c97c156bbf024f76419a6e1eb8b960a36b00e9145fbce/224343.jpg",
   "previewThumbs": [
    "https://ar-gcp-cdn.bistudio.com/image/7d75/5da9027f13bd2eb53c9792887fcf71e0a0198a257243bda52f28bcf15e8e/115565.jpg",
@@ -219,12 +219,12 @@
   "license": "Arma Public License (APL)",
   "rating": 0.92,
   "ratingCount": 13,
-  "version": "1.2.3",
-  "sizeBytes": 22717390,
+  "version": "1.2.4",
+  "sizeBytes": 22717514,
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-08-30T18:27:33.000Z",
-  "updatedAt": "2026-10-21T23:26:48.000Z",
-  "downloads": 6971,
+  "updatedAt": "2026-10-25T18:48:35.000Z",
+  "downloads": 7027,
   "tags": [
    "GADGETS",
    "OUTBREAK",
@@ -243,10 +243,16 @@
    {
     "id": "F1D4B9B5245B36ED",
     "name": "Project Outbreak Zombies",
-    "version": "2.4.10"
+    "version": "2.4.12"
    }
   ],
   "versions": [
+   {
+    "version": "1.2.4",
+    "gameVersion": "1.8.0.13",
+    "createdAt": "2026-10-25T18:48:21.000Z",
+    "size": 22717514
+   },
    {
     "version": "1.2.3",
     "gameVersion": "1.8.0.13",
@@ -300,15 +306,9 @@
     "gameVersion": "1.8.0.13",
     "createdAt": "2026-09-06T17:59:46.000Z",
     "size": 23155871
-   },
-   {
-    "version": "1.0.6",
-    "gameVersion": "1.8.0.13",
-    "createdAt": "2026-09-04T19:50:56.000Z",
-    "size": 23155506
    }
   ],
-  "changelog": "1.2.3\nThe M48 spear grip now uses the shared Creature Melee AI animation resource. Existing spear handling and throw behavior are retained.",
+  "changelog": "1.2.4\nRemoves a 240 m sphere scan that ran every 5 seconds around each player to look for powered radios that never emitted a lure. All working lures behave as before.",
   "preview": "https://ar-gcp-cdn.bistudio.com/image/50f0/70743126ffaf4c694e4506551cbf16b5792a9cb03a44a105d4a5a54cd86f/280700.jpg",
   "previewThumbs": [
    "https://ar-gcp-cdn.bistudio.com/image/e37d/dfafedce4959e15b52b2a75c3e7bd274aaec1e373dd7958adf0fa9c26b10/151800.jpg",
@@ -323,22 +323,23 @@
   "id": "384E32C2A832444E",
   "name": "Project Outbreak Variety",
   "author": "Project Outbreak",
-  "summary": "Optional Project Outbreak zombie appearances, including many new Zombie skins.",
-  "description": "Adds the optional normal-sized zombie appearance families for Project Outbreak. Install Project Outbreak first, then this pack.\n\nCredits and third-party licences:\n- Zombies Pack V4, Zombie Male AAB, Giant Zombie (Nephilim) and Decayed Zombie B by Studio New Punch, from Fab, used under the Fab Standard License. Modified and rigged for Arma Reforger.\n-  A huge thank you also goes to AlienBallien (BallienCreatures) for  native creature ragdoll approach, extremely helpful for custom creatures in this mod and was used under APL.",
+  "summary": "More civilian zombie appearances for Project Outbreak, including the Handyman, Businesswomen, Firefighter, Zombie Girl, Romero, Zombie Medic and Zombie Worker.",
+  "description": "Adds optional zombie appearance families to Project Outbreak. Install Project Outbreak and its Creature Melee AI dependency first, then Variety.\n\nNew in 1.2.2: Zombie Girl, Romero, Zombie Medic (Chad) and Zombie Worker (Pete). Chad and Pete have corpse skin, glazed eyes and bloodied clothing. Existing military appearances and combat rules are unchanged.\n\nCredits and incorporated asset terms:\n- Studio New Punch: Zombies Pack V4, Zombie Male AAB, Giant Zombie (Nephilim) and Decayed Zombie B, obtained through Fab under the Fab Standard License and adapted for Reforger.\n- AlienBallien (BallienCreatures): native creature ragdoll workflow reference, used under the Arma Public License. Thank you for sharing this approach.\n- Adobe Mixamo: Zombiegirl W Kurniawan, Romero, Chad and Pete, adapted as integrated game characters under the Mixamo terms. These character assets are excluded from the APL grant. Raw downloads, editable scenes, FBX files and authoring textures are not distributed.\n- Bohemia Interactive: Arma Reforger, Enfusion and base-game resources.\n\nWorkshop licence: Arma Public License (APL) for original contributions. Incorporated assets retain their own licences and credits; this listing grants no additional rights to those assets. See THIRD_PARTY_NOTICES.md.",
   "license": "Arma Public License (APL)",
   "rating": 1,
   "ratingCount": 16,
-  "version": "1.2.1",
-  "sizeBytes": 827531546,
+  "version": "1.2.2",
+  "sizeBytes": 938177409,
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-09-27T03:27:42.000Z",
-  "updatedAt": "2026-10-21T23:13:44.000Z",
-  "downloads": 5947,
+  "updatedAt": "2026-10-25T19:10:17.000Z",
+  "downloads": 6039,
   "tags": [
    "CHARACTERS",
-   "INFECTION",
-   "OUTBREAK",
-   "ZOMBIES"
+   "CREATURES",
+   "CUSTOMIZATION",
+   "HORROR",
+   "VISUALS"
   ],
   "dependencies": [
    {
@@ -349,10 +350,16 @@
    {
     "id": "F1D4B9B5245B36ED",
     "name": "Project Outbreak Zombies",
-    "version": "2.4.10"
+    "version": "2.4.12"
    }
   ],
   "versions": [
+   {
+    "version": "1.2.2",
+    "gameVersion": "1.8.0.13",
+    "createdAt": "2026-10-25T19:04:48.000Z",
+    "size": 938177409
+   },
    {
     "version": "1.2.1",
     "gameVersion": "1.8.0.13",
@@ -378,16 +385,44 @@
     "size": 696194989
    }
   ],
-  "changelog": "1.2.1\nAdded the Handyman, Businesswoman and Professional Woman to the ordinary zombie mix, including four Handyman bodies and female voice cues for the two women. Firefighters are rarer in ordinary civilian groups. Shooting a firefighter's tank now causes a damaging air-and-debris explosion with nearby knockback, without fire. Updated lower-detail meshes for 59 existing bodies.",
-  "preview": "https://ar-gcp-cdn.bistudio.com/image/2053/f038bf59f6c6534176196a61137d6dbe4fb722ca71070f0d6eeed21f5d59/184251.jpg",
+  "changelog": "1.2.2\nAdded Zombie Girl, Romero, Zombie Medic (Chad) and Zombie Worker (Pete) to the civilian zombie mix. Chad and Pete have corpse skin, glazed eyes and bloodied clothing; Girl has finer hair transparency. All four use native movement, attacks and ragdolls. Existing military appearances and combat rules are unchanged.",
+  "preview": "https://ar-gcp-cdn.bistudio.com/image/99cf/40d5a22c0f336f22209500fb131a84ace4f633f3f4e8ccfa615214a9729c/113025.jpg",
   "previewThumbs": [
-   "https://ar-gcp-cdn.bistudio.com/image/2266/e99e443af4641f628f1c02046ad09313dcfc4f2cc887252d74a677a59a27/106924.jpg",
-   "https://ar-gcp-cdn.bistudio.com/image/66d0/5559600eb061f60083fb191ca547dd1f0f28ade2774346f1c9fc27567497/36460.jpg",
-   "https://ar-gcp-cdn.bistudio.com/image/0eb0/e2925a8d8aa1eced0527d0eb6536304e00f06cca32bb75186eb5208f50c6/12381.jpg"
+   "https://ar-gcp-cdn.bistudio.com/image/6f4c/bb2718cafd27d2b745b19ac36a8073245c7bc13bfd5a2999f787c264005a/92940.jpg",
+   "https://ar-gcp-cdn.bistudio.com/image/0241/0a76bf45e4d722e396778bc844a4046d14b75d17888ea7dfbe623193f78a/27085.jpg",
+   "https://ar-gcp-cdn.bistudio.com/image/4f77/2a16005527ab8531bb42309ab802f8fd6bb5ff718f5085bc86147ebfb781/7703.jpg"
   ],
-  "screenshots": [],
+  "screenshots": [
+   {
+    "url": "https://ar-gcp-cdn.bistudio.com/image/83e0/e0aeb7e86f20deae4dbdf3a9157c8a52ee078316e0f1c5b940ae898b337d/112160.jpg",
+    "width": 1280,
+    "height": 720,
+    "thumbs": [
+     "https://ar-gcp-cdn.bistudio.com/image/dff9/71643d4ed0c1b2547523c4551486eb0b708ec4ae46a65d86876582ff72c6/46519.jpg",
+     "https://ar-gcp-cdn.bistudio.com/image/8bf2/86d65c37df7ebaeab7786f668051ecca4c8380b3db9f1a19a17d02372c67/13329.jpg"
+    ]
+   },
+   {
+    "url": "https://ar-gcp-cdn.bistudio.com/image/7a85/ca86b98526907aaffd6116ba64d048075bfedb8caf76f2368ca98b90789b/112478.jpg",
+    "width": 1280,
+    "height": 720,
+    "thumbs": [
+     "https://ar-gcp-cdn.bistudio.com/image/28e9/d5e347c30051a031915b75c89565bf1990d7b7cbc07c94ed2afd3bb3d9d3/46709.jpg",
+     "https://ar-gcp-cdn.bistudio.com/image/b71a/b98058715b11058c21548f818d305f9c42e2632136b07a858f43b752e41c/13371.jpg"
+    ]
+   },
+   {
+    "url": "https://ar-gcp-cdn.bistudio.com/image/99cf/40d5a22c0f336f22209500fb131a84ace4f633f3f4e8ccfa615214a9729c/113025.jpg",
+    "width": 1280,
+    "height": 720,
+    "thumbs": [
+     "https://ar-gcp-cdn.bistudio.com/image/e31f/e4790749ceeea04baee3b1d0dab62ee82c54ff401edf7041b491b2831d02/46738.jpg",
+     "https://ar-gcp-cdn.bistudio.com/image/882b/7b51fa030411f54810841425b178c7a8ae8d83e4de897aa203efbc3d1509/13350.jpg"
+    ]
+   }
+  ],
   "workshopUrl": "https://reforger.armaplatform.com/workshop/384E32C2A832444E",
-  "previewFile": "assets/family/384E32C2A832444E_b60dd8c7a0.jpg"
+  "previewFile": "assets/family/384E32C2A832444E_2e20a1e548.jpg"
  },
  {
   "id": "297640FBAC0C46C3",
@@ -403,7 +438,7 @@
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-09-27T03:41:17.000Z",
   "updatedAt": "2026-10-21T23:17:24.000Z",
-  "downloads": 7778,
+  "downloads": 7822,
   "tags": [
    "CHARACTERS",
    "OUTBREAK",
@@ -419,7 +454,7 @@
    {
     "id": "F1D4B9B5245B36ED",
     "name": "Project Outbreak Zombies",
-    "version": "2.4.10"
+    "version": "2.4.12"
    }
   ],
   "versions": [
@@ -632,7 +667,7 @@
    {
     "id": "6209E38AB237098E",
     "name": "Project Outbreak Breach",
-    "version": "1.3.3"
+    "version": "1.3.4"
    },
    {
     "id": "620E584B1D2C96A4",
@@ -857,7 +892,7 @@
    {
     "id": "6B9BD0DA529C0D1E",
     "name": "Project Outbreak Gadgets",
-    "version": "1.2.3"
+    "version": "1.2.4"
    },
    {
     "id": "7B763100BAFA1F9A",
@@ -867,7 +902,7 @@
    {
     "id": "F1D4B9B5245B36ED",
     "name": "Project Outbreak Zombies",
-    "version": "2.4.10"
+    "version": "2.4.12"
    }
   ],
   "versions": [
@@ -915,7 +950,7 @@
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-10-08T02:57:35.000Z",
   "updatedAt": "2026-10-22T01:38:50.000Z",
-  "downloads": 361,
+  "downloads": 364,
   "tags": [
    "GLENWOOD",
    "LIGHT",
@@ -953,7 +988,7 @@
    {
     "id": "F1D4B9B5245B36ED",
     "name": "Project Outbreak Zombies",
-    "version": "2.4.10"
+    "version": "2.4.12"
    }
   ],
   "versions": [
@@ -1008,12 +1043,12 @@
   "license": "Arma Public License (APL)",
   "rating": 1,
   "ratingCount": 3,
-  "version": "0.1.1",
-  "sizeBytes": 136327877,
+  "version": "0.1.2",
+  "sizeBytes": 136327653,
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-10-06T16:56:25.000Z",
-  "updatedAt": "2026-10-22T01:38:11.000Z",
-  "downloads": 411,
+  "updatedAt": "2026-10-25T18:55:59.000Z",
+  "downloads": 420,
   "tags": [
    "AI",
    "BOSS",
@@ -1031,6 +1066,12 @@
   ],
   "versions": [
    {
+    "version": "0.1.2",
+    "gameVersion": "1.8.0.13",
+    "createdAt": "2026-10-25T18:54:50.000Z",
+    "size": 136327653
+   },
+   {
     "version": "0.1.1",
     "gameVersion": "1.8.0.13",
     "createdAt": "2026-10-22T01:37:05.000Z",
@@ -1043,7 +1084,7 @@
     "size": 136492379
    }
   ],
-  "changelog": "0.1.1\nUpdated lower-detail meshes for both Goblin bodies. Blademaster attacks and reactions now use shared Creature Melee AI resources. Existing possession controls, timed parry, armor fitting and grip fixes are retained.",
+  "changelog": "0.1.2\nFaster filtered entity lists and spawn-browser tab switching in Game Master with the matching Creature Melee AI update. Existing creature abilities and controls are unchanged.",
   "preview": "https://ar-gcp-cdn.bistudio.com/image/d0d1/88984ccc8eab5be9a8d2dcc64106c5cee0014ec30d03fb6137604d4a18fc/130053.jpg",
   "previewThumbs": [
    "https://ar-gcp-cdn.bistudio.com/image/ded0/f49ea12ca81bbfd979b160d22ddd1935f62cece61f881a8e3927ac26431a/112173.jpg",
@@ -1074,12 +1115,12 @@
   "license": "Arma Public License (APL)",
   "rating": 1,
   "ratingCount": 11,
-  "version": "1.0.4",
-  "sizeBytes": 257418641,
+  "version": "1.0.5",
+  "sizeBytes": 257418475,
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-10-02T05:03:39.000Z",
-  "updatedAt": "2026-10-22T00:53:42.000Z",
-  "downloads": 1325,
+  "updatedAt": "2026-10-25T18:51:06.000Z",
+  "downloads": 1363,
   "tags": [
    "AI",
    "CHARACTERS",
@@ -1095,6 +1136,12 @@
    }
   ],
   "versions": [
+   {
+    "version": "1.0.5",
+    "gameVersion": "1.8.0.13",
+    "createdAt": "2026-10-25T18:49:27.000Z",
+    "size": 257418475
+   },
    {
     "version": "1.0.4",
     "gameVersion": "1.8.0.13",
@@ -1126,7 +1173,7 @@
     "size": 143230543
    }
   ],
-  "changelog": "1.0.4\nWarbeast, Warchief and Greenskin attacks now use the shared Creature Melee AI resources. Existing attacks and creature appearances are retained.",
+  "changelog": "1.0.5\nFaster filtered entity lists and spawn-browser tab switching in Game Master with the matching Creature Melee AI update. Existing creature abilities and controls are unchanged.",
   "preview": "https://ar-gcp-cdn.bistudio.com/image/324a/f854dd2023ffc67cf9f4e3d2a651dcaeb81e9bc907768f80366b4dde60a7/292044.jpg",
   "previewThumbs": [
    "https://ar-gcp-cdn.bistudio.com/image/84d1/d734c68bef7105a26ae09ad588815c6d269fcd36ca4a70608bd3978e7f1f/160052.jpg",
@@ -1156,12 +1203,12 @@
   "license": "Arma Public License (APL)",
   "rating": 1,
   "ratingCount": 6,
-  "version": "1.2.5",
-  "sizeBytes": 116880965,
+  "version": "1.2.6",
+  "sizeBytes": 116880862,
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-10-03T17:41:42.000Z",
-  "updatedAt": "2026-10-22T00:51:19.000Z",
-  "downloads": 1323,
+  "updatedAt": "2026-10-25T18:52:21.000Z",
+  "downloads": 1352,
   "tags": [
    "ALIEN",
    "CHARACTERS",
@@ -1177,6 +1224,12 @@
    }
   ],
   "versions": [
+   {
+    "version": "1.2.6",
+    "gameVersion": "1.8.0.13",
+    "createdAt": "2026-10-25T18:51:38.000Z",
+    "size": 116880862
+   },
    {
     "version": "1.2.5",
     "gameVersion": "1.8.0.13",
@@ -1214,7 +1267,7 @@
     "size": 37924244
    }
   ],
-  "changelog": "1.2.5\nClaw and stomp animations now use the shared Creature Melee AI resources. The previously published exact-hit swoop pickup fix is retained.",
+  "changelog": "1.2.6\nFaster filtered entity lists and spawn-browser tab switching in Game Master with the matching Creature Melee AI update. Existing creature abilities and controls are unchanged.",
   "preview": "https://ar-gcp-cdn.bistudio.com/image/e516/38fbbb22cd0cfddd8f0497e2edaefd80c2bc51078f740b9baea82fd5f721/252017.jpg",
   "previewThumbs": [
    "https://ar-gcp-cdn.bistudio.com/image/7a13/92eea32520b8041063b74a78a64ac436cb8bf7a37e089701a08f0ebeafc5/142790.jpg",
@@ -1249,7 +1302,7 @@
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-10-06T17:34:28.000Z",
   "updatedAt": "2026-10-06T17:34:51.000Z",
-  "downloads": 806,
+  "downloads": 812,
   "tags": [
    "CHARACTERS",
    "CMAI",
@@ -1292,12 +1345,12 @@
   "license": "Arma Public License (APL)",
   "rating": 1,
   "ratingCount": 15,
-  "version": "0.1.2",
-  "sizeBytes": 108220876,
+  "version": "0.1.3",
+  "sizeBytes": 108220647,
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-10-09T13:22:19.000Z",
-  "updatedAt": "2026-10-21T23:36:33.000Z",
-  "downloads": 1156,
+  "updatedAt": "2026-10-25T18:53:58.000Z",
+  "downloads": 1195,
   "tags": [
    "CHARACTERS",
    "CMAI",
@@ -1313,6 +1366,12 @@
    }
   ],
   "versions": [
+   {
+    "version": "0.1.3",
+    "gameVersion": "1.8.0.13",
+    "createdAt": "2026-10-25T18:53:37.000Z",
+    "size": 108220647
+   },
    {
     "version": "0.1.2",
     "gameVersion": "1.8.0.13",
@@ -1332,7 +1391,7 @@
     "size": 85600749
    }
   ],
-  "changelog": "0.1.2\nCleaned up duplicate animation resource paths. Creature abilities, animations and Spire spawning are unchanged.",
+  "changelog": "0.1.3\nFaster filtered entity lists and spawn-browser tab switching in Game Master with the matching Creature Melee AI update. Existing creature abilities and controls are unchanged.",
   "preview": "https://ar-gcp-cdn.bistudio.com/image/6188/41c95a7ec3dbfe9b3ca21e200540dd922779d5bb96e4801800f68498eddf/135841.jpg",
   "previewThumbs": [
    "https://ar-gcp-cdn.bistudio.com/image/b118/d3733e3db16fe54c2450b86c5b7c45c4afa3689c3035acbdf586019c78b1/114589.jpg",
@@ -1363,12 +1422,12 @@
   "license": "Arma Public License (APL)",
   "rating": 1,
   "ratingCount": 4,
-  "version": "0.1.2",
-  "sizeBytes": 15852457,
+  "version": "0.1.3",
+  "sizeBytes": 15852228,
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-10-15T10:13:41.000Z",
-  "updatedAt": "2026-10-16T00:41:04.000Z",
-  "downloads": 528,
+  "updatedAt": "2026-10-25T18:59:22.000Z",
+  "downloads": 557,
   "tags": [
    "AI",
    "CHARACTERS",
@@ -1385,6 +1444,12 @@
    }
   ],
   "versions": [
+   {
+    "version": "0.1.3",
+    "gameVersion": "1.8.0.13",
+    "createdAt": "2026-10-25T18:59:12.000Z",
+    "size": 15852228
+   },
    {
     "version": "0.1.2",
     "gameVersion": "1.8.0.13",
@@ -1404,7 +1469,7 @@
     "size": 15848919
    }
   ],
-  "changelog": "While possessing Lumenkin, use Fire (left mouse button by default) to alternate left and right stomps. Fixed attack cleanup when releasing control or dying. Existing AI behavior, sounds and appearance are retained.",
+  "changelog": "0.1.3\nFaster filtered entity lists and spawn-browser tab switching in Game Master with the matching Creature Melee AI update. Existing creature abilities and controls are unchanged.",
   "preview": "https://ar-gcp-cdn.bistudio.com/image/f9aa/c256aec445bb2f6700150d28dd40b7969eb68685d34703b675daaf754fa2/29054.jpg",
   "previewThumbs": [
    "https://ar-gcp-cdn.bistudio.com/image/383e/99e8829522cd909ce45b159d5b30d03c2e24220e4eb5395adb3df8ab6c60/24542.jpg",
@@ -1479,7 +1544,7 @@
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-10-15T23:43:22.000Z",
   "updatedAt": "2026-10-24T08:44:58.000Z",
-  "downloads": 410,
+  "downloads": 420,
   "tags": [
    "AI",
    "CHARACTERS",
@@ -1567,7 +1632,7 @@
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-10-16T11:15:49.000Z",
   "updatedAt": "2026-10-22T12:52:17.000Z",
-  "downloads": 646,
+  "downloads": 659,
   "tags": [
    "AI",
    "CHARACTERS",
@@ -1622,12 +1687,12 @@
   "license": "Arma Public License (APL)",
   "rating": 1,
   "ratingCount": 1,
-  "version": "0.1.1",
-  "sizeBytes": 46686789,
+  "version": "0.1.2",
+  "sizeBytes": 46686565,
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-10-16T11:10:30.000Z",
-  "updatedAt": "2026-10-17T23:40:37.000Z",
-  "downloads": 469,
+  "updatedAt": "2026-10-25T18:53:09.000Z",
+  "downloads": 495,
   "tags": [
    "AI",
    "BIGFOOT",
@@ -1644,6 +1709,12 @@
   ],
   "versions": [
    {
+    "version": "0.1.2",
+    "gameVersion": "1.8.0.13",
+    "createdAt": "2026-10-25T18:52:46.000Z",
+    "size": 46686565
+   },
+   {
     "version": "0.1.1",
     "gameVersion": "1.8.0.13",
     "createdAt": "2026-10-17T23:40:15.000Z",
@@ -1656,7 +1727,7 @@
     "size": 46684920
    }
   ],
-  "changelog": "0.1.1\nBigfoot now chases at full sprint, and a player controlling Bigfoot sprints without holding the sprint key. Height is unchanged.\n\n0.1.0\nFirst release of Bigfoot for the Creatures collection: walking and running, three boxing styles, vocals and a move wheel with all 17 moves. Press G or hold D-pad Down to open the wheel; Fire uses the selected boxing style.",
+  "changelog": "0.1.2\nFaster filtered entity lists and spawn-browser tab switching in Game Master with the matching Creature Melee AI update. Existing creature abilities and controls are unchanged.",
   "preview": "https://ar-gcp-cdn.bistudio.com/image/0b02/7653ba48f1d019fbf7c0e2a6f6a3739d5d71b6c0fd3173bccfb37147f7af/177194.jpg",
   "previewThumbs": [
    "https://ar-gcp-cdn.bistudio.com/image/0292/98c254639f9ad46a710772cdd83b3859dffdbe0294d64a7c5d04dd06e5ee/148031.jpg",
@@ -1676,11 +1747,11 @@
   "license": "Arma Public License (APL)",
   "rating": 0,
   "ratingCount": 0,
-  "version": "0.1.0",
-  "sizeBytes": 46742934,
+  "version": "0.1.1",
+  "sizeBytes": 46742710,
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-10-22T00:49:08.000Z",
-  "updatedAt": "2026-10-22T00:49:31.000Z",
+  "updatedAt": "2026-10-25T18:58:08.000Z",
   "downloads": 10,
   "tags": [
    "CHARACTERS",
@@ -1698,13 +1769,19 @@
   ],
   "versions": [
    {
+    "version": "0.1.1",
+    "gameVersion": "1.8.0.13",
+    "createdAt": "2026-10-25T18:57:41.000Z",
+    "size": 46742710
+   },
+   {
     "version": "0.1.0",
     "gameVersion": "1.8.0.13",
     "createdAt": "2026-10-22T00:49:08.000Z",
     "size": 46742934
    }
   ],
-  "changelog": "",
+  "changelog": "0.1.1\nFaster filtered entity lists and spawn-browser tab switching in Game Master with the matching Creature Melee AI update. Existing creature abilities and controls are unchanged.",
   "preview": "https://ar-gcp-cdn.bistudio.com/image/81a1/89a1fc25c692af6d2f22659d95a2df8fb84fa57fe403c4106cf42442cae6/50676.jpg",
   "previewThumbs": [
    "https://ar-gcp-cdn.bistudio.com/image/9a10/0ec1bb2f68b8d351744d69500710a03bf12ea7bbe4c88bfa2426aa588174/23198.jpg",
@@ -1728,17 +1805,17 @@
   "id": "A1C2ED1F87D04FF8",
   "name": "Grimdark Horde",
   "author": "Project Outbreak",
-  "summary": "A scavenged orc warband for Game Master: Greenskin, White and Black Orcs with saw swords, axes and crude guns, the drum-thumping Warbasha, an armoured troll, the Scrap Walker mech and Wallbreaker gun.",
-  "description": "Grimdark Horde brings a scrap-armoured Orc faction to Game Master and scenario makers. Find its units under the Grimdark Horde faction filter. The Horde fights other factions and allies with Creature Melee AI creatures.\n\nTHE WARBAND\nTwelve outfits across three families: Greenskin Runner, Scrapper, Spike-Yoke, Plated Brute and Bannerboss; White Orc Hunter, Bone-Plate and Lacquer Guard; Black Orc Iron-Clad, Plague-Helm, Brute and Chieftain. Each family has distinct armour, skin and loadouts.\n\nWEAPONS AND VOICES\nFitted saw swords and Atris axes, plus nine crude guns: pistols, twin pistols, long gun, mag gun, axe gun and flamethrower. Guns fire projectiles along their barrels in short bursts; melee uses Creature Melee AI blade contacts. Non-verbal war cries, efforts, pain, death and laughter accompany the fighting. Reload animations are not included.\n\nCREATURES AND MACHINES\nWarbasha is a drum-thumping brute armed with two spiked clubs. The Armoured Troll carries a massive greatsword. The Scrap Walker combines an enlarged mech, an Orc pilot and a recoiling cannon. The Wallbreaker artillery gun supports a player gunner or an AI crew firing at distant targets.\n\nREQUIREMENTS\nCreature Melee AI: https://reforger.armaplatform.com/workshop/4FD4A1BD550793F4\nWarbeasts: https://reforger.armaplatform.com/workshop/9C6F9425B58142E7\nThe Workshop installs these dependencies with Grimdark Horde.\n\nCREDITS AND ORIGINAL SOURCES\nThe following creators supplied the original assets adapted for this add-on. Thank you for their work.\n\nJedy92 - Orc with Axe: original Orc character, head, equipment and animations; also used for the Scrap Walker pilot.\nhttps://www.fab.com/listings/63d8fd8f-ef10-4436-8e0e-714dbca74688\n\nTauan Talari Bellintani - Post Apocalyptic Weapons: Saw Sword.\nhttps://www.fab.com/listings/8015db3e-60bd-44a1-8a91-3916f708f631\n\nPetr Luchko - Atris axes.\nhttps://www.fab.com/listings/3905779c-7035-4a17-a28d-9d215336ea53\n\nBitgem - Gun Set: Hand Painted Series, adapted into the Horde's firearms and flamethrower.\nhttps://www.fab.com/listings/a90204f0-9b1f-4393-b913-41e4cec7d4e3\n\nMist Polygon - Plague Knight Helmet, based on Mike Franchina's concept artwork; adapted for Plague-Helm.\nModel: https://www.fab.com/listings/4376c360-11bd-4f33-8451-c9c532e1bea6\nConcept: https://www.artstation.com/artwork/5dkJW\n\nKaanTezcan (s_cat) - Free Game Character: Armored Troll With Sword.\nhttps://www.fab.com/listings/a5299d26-73c5-4fcf-8203-06d1418597f6\n\ncybeck - Earthshaker Artillery Gun, adapted as the Wallbreaker.\nhttps://www.fab.com/listings/d83a153d-829b-4f50-a9ae-02859e66dfad\n\nEpic Games - original Grux body used through Warbeasts for the Greenskins, Narbash body/animations/non-verbal voices adapted for Warbasha and Orc voices, and Howitzer mech adapted for the Scrap Walker.\nGrux: https://www.fab.com/listings/8c4bac2c-f7f7-4632-a644-47f4e104f5d8\nNarbash: https://www.fab.com/listings/d8904a0e-9169-4763-b82b-5fcf864235a4\nHowitzer: https://www.fab.com/listings/7397dd8d-2e47-4e68-9e9d-a10c6fa0a9c7\n\nBohemia Interactive - Arma Reforger base-game resources and character tools used by the adaptation. Grimdark Horde adds the faction, gameplay integration, fitted grips, outfit adaptations and locally authored armour/paint/effects.\n\nLICENCES\nOriginal add-on code is released under the Arma Public Licence (APL):\nhttps://portal.bohemia.net/community/licenses/arma-public-license\n\nThe credited models, textures, animations and audio retain their original acquisition licences and permissions; the APL does not relicense those assets. Fab licence information and full terms:\nhttps://www.fab.com/eula\n\nThis is an incorporated playable mod, not a standalone asset pack. Full asset-specific provenance, terms and exclusions are included in THIRD_PARTY_NOTICES.md and the dependency notices. No endorsement by the original creators is implied.",
+  "summary": "A scrap-armoured Orc faction for Game Master: Green, White and Black Orcs, roaring Flesh-Saw fighters, crude guns, Warbasha, an armoured troll, Scrap Walker and Wallbreaker artillery.",
+  "description": "Grimdark Horde brings a scrap-armoured Orc faction to Game Master and scenario makers. Find its units under the Grimdark Horde faction filter. The Horde fights other factions and allies with Creature Melee AI creatures.\n\nTHE WARBAND\nTwelve outfits across three families: Greenskin Runner, Scrapper, Spike-Yoke, Plated Brute and Bannerboss; White Orc Hunter, Bone-Plate and Lacquer Guard; Black Orc Iron-Clad, Plague-Helm, Brute and Chieftain. Each family has distinct armour, skin and loadouts.\n\nFLESH-SAWS\nGreen, White and Black Orc Flesh-Saw specialists carry a roaring chain blade in blackened steel with exposed teeth and a red saw-ring skull. Find all three by searching Flesh-Saw in Game Master. Family groups include one in each 4-unit formation and four in each 16-unit formation.\n\nWEAPONS AND VOICES\nFitted saw swords and Atris axes, plus nine crude guns: pistols, twin pistols, long gun, mag gun, axe gun and flamethrower. Guns fire projectiles along their barrels in short bursts; melee uses Creature Melee AI blade contacts. Non-verbal war cries, efforts, pain, death and laughter accompany the fighting. Reload animations are not included.\n\nCREATURES AND MACHINES\nWarbasha is a drum-thumping brute armed with two spiked clubs. The Armoured Troll carries a massive greatsword. The Scrap Walker combines an enlarged mech, an Orc pilot and a recoiling cannon. The Wallbreaker artillery gun supports a player gunner or an AI crew firing at distant targets.\n\nREQUIREMENTS\nCreature Melee AI: https://reforger.armaplatform.com/workshop/4FD4A1BD550793F4\nWarbeasts: https://reforger.armaplatform.com/workshop/9C6F9425B58142E7\nThe Workshop installs these dependencies with Grimdark Horde.\n\nCREDITS AND ORIGINAL SOURCES\nThe following creators supplied the original assets adapted for this add-on. Thank you for their work.\n\nJedy92 - Orc with Axe: original Orc character, head, equipment and animations; also used for the Scrap Walker pilot.\nhttps://www.fab.com/listings/63d8fd8f-ef10-4436-8e0e-714dbca74688\n\nTauan Talari Bellintani - Post Apocalyptic Weapons: Saw Sword.\nhttps://www.fab.com/listings/8015db3e-60bd-44a1-8a91-3916f708f631\n\nDZTFIX PARADOX - Pumpkin Saw: Stylized Halloween Chainsaw Sword, adapted as the Flesh-Saw.\nhttps://www.fab.com/listings/3bcd47d1-821e-4e60-871f-c9544448773a\n\nPetr Luchko - Atris axes.\nhttps://www.fab.com/listings/3905779c-7035-4a17-a28d-9d215336ea53\n\nBitgem - Gun Set: Hand Painted Series, adapted into the Horde's firearms and flamethrower.\nhttps://www.fab.com/listings/a90204f0-9b1f-4393-b913-41e4cec7d4e3\n\nMist Polygon - Plague Knight Helmet, based on Mike Franchina's concept artwork; adapted for Plague-Helm.\nModel: https://www.fab.com/listings/4376c360-11bd-4f33-8451-c9c532e1bea6\nConcept: https://www.artstation.com/artwork/5dkJW\n\nKaanTezcan (s_cat) - Free Game Character: Armored Troll With Sword.\nhttps://www.fab.com/listings/a5299d26-73c5-4fcf-8203-06d1418597f6\n\ncybeck - Earthshaker Artillery Gun, adapted as the Wallbreaker.\nhttps://www.fab.com/listings/d83a153d-829b-4f50-a9ae-02859e66dfad\n\nEpic Games - original Grux body used through Warbeasts for the Greenskins, Narbash body/animations/non-verbal voices adapted for Warbasha and Orc voices, and Howitzer mech adapted for the Scrap Walker.\nGrux: https://www.fab.com/listings/8c4bac2c-f7f7-4632-a644-47f4e104f5d8\nNarbash: https://www.fab.com/listings/d8904a0e-9169-4763-b82b-5fcf864235a4\nHowitzer: https://www.fab.com/listings/7397dd8d-2e47-4e68-9e9d-a10c6fa0a9c7\n\nBohemia Interactive - Arma Reforger base-game resources and character tools used by the adaptation. Grimdark Horde adds the faction, gameplay integration, fitted grips, outfit adaptations and locally authored armour/paint/effects.\n\nLICENCES\nOriginal add-on code is released under the Arma Public Licence (APL):\nhttps://portal.bohemia.net/community/licenses/arma-public-license\n\nThe credited models, textures, animations and audio retain their original acquisition licences and permissions; the APL does not relicense those assets. Fab licence information and full terms:\nhttps://www.fab.com/eula\n\nThis is an incorporated playable mod, not a standalone asset pack. Full asset-specific provenance, terms and exclusions are included in THIRD_PARTY_NOTICES.md and the dependency notices. No endorsement by the original creators is implied.",
   "license": "Arma Public License (APL)",
   "rating": 1,
   "ratingCount": 5,
-  "version": "0.1.3",
-  "sizeBytes": 662975362,
+  "version": "0.1.4",
+  "sizeBytes": 672127453,
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-10-21T23:41:12.000Z",
-  "updatedAt": "2026-10-25T04:07:45.000Z",
-  "downloads": 403,
+  "updatedAt": "2026-10-25T20:46:10.000Z",
+  "downloads": 431,
   "tags": [
    "AI",
    "CHARACTERS",
@@ -1757,10 +1834,16 @@
    {
     "id": "9C6F9425B58142E7",
     "name": "Warbeasts",
-    "version": "1.0.4"
+    "version": "1.0.5"
    }
   ],
   "versions": [
+   {
+    "version": "0.1.4",
+    "gameVersion": "1.8.0.13",
+    "createdAt": "2026-10-25T20:41:59.000Z",
+    "size": 672127453
+   },
    {
     "version": "0.1.3",
     "gameVersion": "1.8.0.13",
@@ -1786,7 +1869,7 @@
     "size": 662004599
    }
   ],
-  "changelog": "Flamethrower, long-gun and axe-gun Orcs no longer charge into melee range and stop firing. They hold their distance and keep shooting: flamethrowers from 4 to 5 m, other gunners from about 16 m. If you close in on them, they keep firing until you are about a barrel's length away. The Scrap Walker stops about 15 m away and fires its cannon instead of walking up to its target.",
+  "changelog": "0.1.4\nAdd Green Orc, White Orc and Black Orc Flesh-Saw specialists with distinct Game Master portraits. Their blackened-steel saws have exposed steel teeth, a red saw-ring skull and positional motor idle and attack revs, with no blue paint or glow. Each matching 4-unit group includes one Flesh-Saw and each 16-unit group includes four. All three specialists can be found by searching Flesh-Saw in Game Master. Move Orc hand attachments into their loadouts to avoid character slot-manager conflicts when other add-ons modify characters. Faster filtered Game Master lists and tab switching with the matching Creature Melee AI update.",
   "preview": "https://ar-gcp-cdn.bistudio.com/image/4e66/13c07941c08b2700223b322bfc0c6845dc34fdf77a834f1cc41be9ed56ea/136515.jpg",
   "previewThumbs": [
    "https://ar-gcp-cdn.bistudio.com/image/431b/58c9ac2cfa4ca7d593c283cf5a0f1cad799a393e9e860ce2d92b981eb58a/117299.jpg",
@@ -1805,6 +1888,25 @@
     ]
    },
    {
+    "url": "https://ar-gcp-cdn.bistudio.com/image/3141/c83e05496f7c9b80100c75e620e59b4447d7355ac388ba4cec4e68d80bc0/205764.jpg",
+    "width": 1600,
+    "height": 900,
+    "thumbs": [
+     "https://ar-gcp-cdn.bistudio.com/image/3f31/3e5f3e3e367481daedeaf260e6422dcc04ed407b273d9d772bae25619e9c/184231.jpg",
+     "https://ar-gcp-cdn.bistudio.com/image/582a/5f57897dbb7ec9d2014e21a7f14764ac05a7b8ee812291f7ac59e288a0d3/59855.jpg",
+     "https://ar-gcp-cdn.bistudio.com/image/f573/94341b47d9f5eaea21a69ab3d00f590a6f64d1c023b67eb91fd00a6328c5/17290.jpg"
+    ]
+   },
+   {
+    "url": "https://ar-gcp-cdn.bistudio.com/image/6fdd/7aa24a4c1ff512e6486c93fe0a0ed8910bc097e8238fe60cc8bb09ebfcb8/105251.jpg",
+    "width": 1280,
+    "height": 720,
+    "thumbs": [
+     "https://ar-gcp-cdn.bistudio.com/image/925f/4a44681826c28873aa74ee8cd4dadafd8f98220cf5892bfc3d8bc705d4bc/43283.jpg",
+     "https://ar-gcp-cdn.bistudio.com/image/d083/1173f39dce925bc81168e9b9ff379f7d48f3f4070b119f15203bbbf32a7a/12763.jpg"
+    ]
+   },
+   {
     "url": "https://ar-gcp-cdn.bistudio.com/image/4112/f1f7366e7785a2b2dbdb94ce9722771aefb18a15e470999ae339086357f4/200012.jpg",
     "width": 1600,
     "height": 900,
@@ -1812,6 +1914,16 @@
      "https://ar-gcp-cdn.bistudio.com/image/41d3/542ccac911cc7e7749147f3e4bc93d92e0699ada0961fff5e1efd52a9d21/178671.jpg",
      "https://ar-gcp-cdn.bistudio.com/image/76da/5a5222c2df65ab898d27cd011dd47c6acd4f1b8ede84f4f0fbc7b58e3501/56109.jpg",
      "https://ar-gcp-cdn.bistudio.com/image/3248/552135ac0e561c5f16f40ecb85a4e5b87b516912e69ca5ddf7bbf980eae4/15791.jpg"
+    ]
+   },
+   {
+    "url": "https://ar-gcp-cdn.bistudio.com/image/df31/440eed8291160690543b6f2f3a48fa23db300574e99472a437cea70e1fe4/189641.jpg",
+    "width": 1600,
+    "height": 900,
+    "thumbs": [
+     "https://ar-gcp-cdn.bistudio.com/image/6951/8d84174b526b656200356069a1645fbe3a22e5480265f55cdb893477a9c4/167617.jpg",
+     "https://ar-gcp-cdn.bistudio.com/image/23d6/764e01bbf42ae7d553aee15edd930df1130763d3633edf304322b1e13e8b/51361.jpg",
+     "https://ar-gcp-cdn.bistudio.com/image/f69d/daa8891d7562ef01e763e77055f431ffb0b7251c0824e4f419b1eaa83556/13938.jpg"
     ]
    },
    {
@@ -1825,26 +1937,6 @@
     ]
    },
    {
-    "url": "https://ar-gcp-cdn.bistudio.com/image/3141/c83e05496f7c9b80100c75e620e59b4447d7355ac388ba4cec4e68d80bc0/205764.jpg",
-    "width": 1600,
-    "height": 900,
-    "thumbs": [
-     "https://ar-gcp-cdn.bistudio.com/image/3f31/3e5f3e3e367481daedeaf260e6422dcc04ed407b273d9d772bae25619e9c/184231.jpg",
-     "https://ar-gcp-cdn.bistudio.com/image/582a/5f57897dbb7ec9d2014e21a7f14764ac05a7b8ee812291f7ac59e288a0d3/59855.jpg",
-     "https://ar-gcp-cdn.bistudio.com/image/f573/94341b47d9f5eaea21a69ab3d00f590a6f64d1c023b67eb91fd00a6328c5/17290.jpg"
-    ]
-   },
-   {
-    "url": "https://ar-gcp-cdn.bistudio.com/image/8da4/4318b4ac00d5be6e62b2f18b6f1d39d9a6276c34010afc796a258404db6f/210948.jpg",
-    "width": 1600,
-    "height": 900,
-    "thumbs": [
-     "https://ar-gcp-cdn.bistudio.com/image/58d9/dff1cd0e0ac424bf602b8ceb65284fbcf3ac78342e481cfd1ecce11e1c47/193657.jpg",
-     "https://ar-gcp-cdn.bistudio.com/image/5e05/b19cc2f86983b4cb725afc20266492426d5e28492b7f7adcd5b28f6b7c18/64074.jpg",
-     "https://ar-gcp-cdn.bistudio.com/image/a292/5f79c1a95ab29b5c4f5b19f328f7d3f70e6a99f6999662d8834173b5b65e/17746.jpg"
-    ]
-   },
-   {
     "url": "https://ar-gcp-cdn.bistudio.com/image/7c9b/ee23f2297cc70fe06f3631bd71036767170126ecb55ef45cb54f6dfa85d3/182620.jpg",
     "width": 1600,
     "height": 900,
@@ -1855,13 +1947,13 @@
     ]
    },
    {
-    "url": "https://ar-gcp-cdn.bistudio.com/image/df31/440eed8291160690543b6f2f3a48fa23db300574e99472a437cea70e1fe4/189641.jpg",
+    "url": "https://ar-gcp-cdn.bistudio.com/image/8da4/4318b4ac00d5be6e62b2f18b6f1d39d9a6276c34010afc796a258404db6f/210948.jpg",
     "width": 1600,
     "height": 900,
     "thumbs": [
-     "https://ar-gcp-cdn.bistudio.com/image/6951/8d84174b526b656200356069a1645fbe3a22e5480265f55cdb893477a9c4/167617.jpg",
-     "https://ar-gcp-cdn.bistudio.com/image/23d6/764e01bbf42ae7d553aee15edd930df1130763d3633edf304322b1e13e8b/51361.jpg",
-     "https://ar-gcp-cdn.bistudio.com/image/f69d/daa8891d7562ef01e763e77055f431ffb0b7251c0824e4f419b1eaa83556/13938.jpg"
+     "https://ar-gcp-cdn.bistudio.com/image/58d9/dff1cd0e0ac424bf602b8ceb65284fbcf3ac78342e481cfd1ecce11e1c47/193657.jpg",
+     "https://ar-gcp-cdn.bistudio.com/image/5e05/b19cc2f86983b4cb725afc20266492426d5e28492b7f7adcd5b28f6b7c18/64074.jpg",
+     "https://ar-gcp-cdn.bistudio.com/image/a292/5f79c1a95ab29b5c4f5b19f328f7d3f70e6a99f6999662d8834173b5b65e/17746.jpg"
     ]
    }
   ],
@@ -1882,7 +1974,7 @@
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-08-30T18:18:07.000Z",
   "updatedAt": "2026-10-25T16:59:34.000Z",
-  "downloads": 41436,
+  "downloads": 41792,
   "tags": [
    "AI",
    "CHARACTERS",
@@ -1991,7 +2083,7 @@
   "gameVersion": "1.8.0.10",
   "createdAt": "2026-08-09T15:04:29.000Z",
   "updatedAt": "2026-08-30T20:00:54.000Z",
-  "downloads": 4276,
+  "downloads": 4282,
   "tags": [
    "AI",
    "REARM",
@@ -2048,7 +2140,7 @@
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-10-07T09:20:39.000Z",
   "updatedAt": "2026-10-09T10:56:14.000Z",
-  "downloads": 2718,
+  "downloads": 2814,
   "tags": [
    "CROSSBOW",
    "GAMEMASTER",
