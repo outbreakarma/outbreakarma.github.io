@@ -13,7 +13,7 @@
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-08-30T18:29:18.000Z",
   "updatedAt": "2026-10-24T14:24:30.000Z",
-  "downloads": 17264,
+  "downloads": 17315,
   "tags": [
    "INFECTION",
    "OUTBREAK",
@@ -119,7 +119,7 @@
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-08-30T18:31:09.000Z",
   "updatedAt": "2026-10-25T18:47:59.000Z",
-  "downloads": 12910,
+  "downloads": 12989,
   "tags": [
    "OUTBREAK",
    "SYSTEMS",
@@ -224,7 +224,7 @@
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-08-30T18:27:33.000Z",
   "updatedAt": "2026-10-25T18:48:35.000Z",
-  "downloads": 7083,
+  "downloads": 7117,
   "tags": [
    "GADGETS",
    "OUTBREAK",
@@ -327,13 +327,13 @@
   "description": "Adds optional zombie appearance families to Project Outbreak. Install Project Outbreak and its Creature Melee AI dependency first, then Variety.\n\nNew in 1.2.2: Zombie Girl, Romero, Zombie Medic (Chad) and Zombie Worker (Pete). Chad and Pete have corpse skin, glazed eyes and bloodied clothing. Existing military appearances and combat rules are unchanged.\n\nCredits and incorporated asset terms:\n- Studio New Punch: Zombies Pack V4, Zombie Male AAB, Giant Zombie (Nephilim) and Decayed Zombie B, obtained through Fab under the Fab Standard License and adapted for Reforger.\n- AlienBallien (BallienCreatures): native creature ragdoll workflow reference, used under the Arma Public License. Thank you for sharing this approach.\n- Adobe Mixamo: Zombiegirl W Kurniawan, Romero, Chad and Pete, adapted as integrated game characters under the Mixamo terms. These character assets are excluded from the APL grant. Raw downloads, editable scenes, FBX files and authoring textures are not distributed.\n- Bohemia Interactive: Arma Reforger, Enfusion and base-game resources.\n\nWorkshop licence: Arma Public License (APL) for original contributions. Incorporated assets retain their own licences and credits; this listing grants no additional rights to those assets. See THIRD_PARTY_NOTICES.md.",
   "license": "Arma Public License (APL)",
   "rating": 1,
-  "ratingCount": 16,
-  "version": "1.2.3",
-  "sizeBytes": 938177409,
+  "ratingCount": 17,
+  "version": "1.2.4",
+  "sizeBytes": 921400185,
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-09-27T03:27:42.000Z",
-  "updatedAt": "2026-10-25T21:37:22.000Z",
-  "downloads": 6162,
+  "updatedAt": "2026-10-26T03:36:45.000Z",
+  "downloads": 6235,
   "tags": [
    "CHARACTERS",
    "CREATURES",
@@ -354,6 +354,12 @@
    }
   ],
   "versions": [
+   {
+    "version": "1.2.4",
+    "gameVersion": "1.8.0.13",
+    "createdAt": "2026-10-26T03:34:28.000Z",
+    "size": 921400185
+   },
    {
     "version": "1.2.3",
     "gameVersion": "1.8.0.13",
@@ -391,7 +397,7 @@
     "size": 696194989
    }
   ],
-  "changelog": "1.2.3\nRestored the original Variety title card.",
+  "changelog": "1.2.4\nReduced the oversized firefighter body texture and its working source to 2K. Existing appearances, materials and gameplay are unchanged. Kept the restored original Variety title card.",
   "preview": "https://ar-gcp-cdn.bistudio.com/image/b4c5/083b6b7c2a590e64350fe39ca0ddae049eb3f9392a140c96db936e1bc75b/184056.jpg",
   "previewThumbs": [
    "https://ar-gcp-cdn.bistudio.com/image/43a9/7f5a793552bb477309107119b1a913fcab6e5ca3856d268da7c42fd3f952/106597.jpg",
@@ -409,21 +415,21 @@
     ]
    },
    {
-    "url": "https://ar-gcp-cdn.bistudio.com/image/7a85/ca86b98526907aaffd6116ba64d048075bfedb8caf76f2368ca98b90789b/112478.jpg",
-    "width": 1280,
-    "height": 720,
-    "thumbs": [
-     "https://ar-gcp-cdn.bistudio.com/image/28e9/d5e347c30051a031915b75c89565bf1990d7b7cbc07c94ed2afd3bb3d9d3/46709.jpg",
-     "https://ar-gcp-cdn.bistudio.com/image/b71a/b98058715b11058c21548f818d305f9c42e2632136b07a858f43b752e41c/13371.jpg"
-    ]
-   },
-   {
     "url": "https://ar-gcp-cdn.bistudio.com/image/99cf/40d5a22c0f336f22209500fb131a84ace4f633f3f4e8ccfa615214a9729c/113025.jpg",
     "width": 1280,
     "height": 720,
     "thumbs": [
      "https://ar-gcp-cdn.bistudio.com/image/e31f/e4790749ceeea04baee3b1d0dab62ee82c54ff401edf7041b491b2831d02/46738.jpg",
      "https://ar-gcp-cdn.bistudio.com/image/882b/7b51fa030411f54810841425b178c7a8ae8d83e4de897aa203efbc3d1509/13350.jpg"
+    ]
+   },
+   {
+    "url": "https://ar-gcp-cdn.bistudio.com/image/7a85/ca86b98526907aaffd6116ba64d048075bfedb8caf76f2368ca98b90789b/112478.jpg",
+    "width": 1280,
+    "height": 720,
+    "thumbs": [
+     "https://ar-gcp-cdn.bistudio.com/image/28e9/d5e347c30051a031915b75c89565bf1990d7b7cbc07c94ed2afd3bb3d9d3/46709.jpg",
+     "https://ar-gcp-cdn.bistudio.com/image/b71a/b98058715b11058c21548f818d305f9c42e2632136b07a858f43b752e41c/13371.jpg"
     ]
    }
   ],
@@ -444,7 +450,7 @@
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-09-27T03:41:17.000Z",
   "updatedAt": "2026-10-21T23:17:24.000Z",
-  "downloads": 7874,
+  "downloads": 7905,
   "tags": [
    "CHARACTERS",
    "OUTBREAK",
@@ -956,7 +962,7 @@
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-10-08T02:57:35.000Z",
   "updatedAt": "2026-10-22T01:38:50.000Z",
-  "downloads": 368,
+  "downloads": 369,
   "tags": [
    "GLENWOOD",
    "LIGHT",
@@ -1054,7 +1060,7 @@
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-10-06T16:56:25.000Z",
   "updatedAt": "2026-10-25T18:55:59.000Z",
-  "downloads": 434,
+  "downloads": 440,
   "tags": [
    "AI",
    "BOSS",
@@ -1126,7 +1132,7 @@
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-10-02T05:03:39.000Z",
   "updatedAt": "2026-10-25T18:51:06.000Z",
-  "downloads": 1433,
+  "downloads": 1467,
   "tags": [
    "AI",
    "CHARACTERS",
@@ -1214,7 +1220,7 @@
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-10-03T17:41:42.000Z",
   "updatedAt": "2026-10-25T18:52:21.000Z",
-  "downloads": 1375,
+  "downloads": 1394,
   "tags": [
    "ALIEN",
    "CHARACTERS",
@@ -1308,7 +1314,7 @@
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-10-06T17:34:28.000Z",
   "updatedAt": "2026-10-06T17:34:51.000Z",
-  "downloads": 822,
+  "downloads": 823,
   "tags": [
    "CHARACTERS",
    "CMAI",
@@ -1351,12 +1357,12 @@
   "license": "Arma Public License (APL)",
   "rating": 1,
   "ratingCount": 15,
-  "version": "0.1.3",
-  "sizeBytes": 108220647,
+  "version": "0.1.4",
+  "sizeBytes": 81043087,
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-10-09T13:22:19.000Z",
-  "updatedAt": "2026-10-25T18:53:58.000Z",
-  "downloads": 1225,
+  "updatedAt": "2026-10-26T01:53:41.000Z",
+  "downloads": 1260,
   "tags": [
    "CHARACTERS",
    "CMAI",
@@ -1372,6 +1378,12 @@
    }
   ],
   "versions": [
+   {
+    "version": "0.1.4",
+    "gameVersion": "1.8.0.13",
+    "createdAt": "2026-10-26T01:53:16.000Z",
+    "size": 81043087
+   },
    {
     "version": "0.1.3",
     "gameVersion": "1.8.0.13",
@@ -1397,7 +1409,7 @@
     "size": 85600749
    }
   ],
-  "changelog": "0.1.3\nFaster filtered entity lists and spawn-browser tab switching in Game Master with the matching Creature Melee AI update. Existing creature abilities and controls are unchanged.",
+  "changelog": "Reduced oversized Mushroom Rift body textures to 2K to cut texture file sizes. Creature abilities, sounds and controls are unchanged.",
   "preview": "https://ar-gcp-cdn.bistudio.com/image/6188/41c95a7ec3dbfe9b3ca21e200540dd922779d5bb96e4801800f68498eddf/135841.jpg",
   "previewThumbs": [
    "https://ar-gcp-cdn.bistudio.com/image/b118/d3733e3db16fe54c2450b86c5b7c45c4afa3689c3035acbdf586019c78b1/114589.jpg",
@@ -1433,7 +1445,7 @@
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-10-15T10:13:41.000Z",
   "updatedAt": "2026-10-25T18:59:22.000Z",
-  "downloads": 587,
+  "downloads": 607,
   "tags": [
    "AI",
    "CHARACTERS",
@@ -1550,7 +1562,7 @@
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-10-15T23:43:22.000Z",
   "updatedAt": "2026-10-24T08:44:58.000Z",
-  "downloads": 429,
+  "downloads": 436,
   "tags": [
    "AI",
    "CHARACTERS",
@@ -1638,7 +1650,7 @@
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-10-16T11:15:49.000Z",
   "updatedAt": "2026-10-22T12:52:17.000Z",
-  "downloads": 676,
+  "downloads": 683,
   "tags": [
    "AI",
    "CHARACTERS",
@@ -1693,12 +1705,12 @@
   "license": "Arma Public License (APL)",
   "rating": 1,
   "ratingCount": 1,
-  "version": "0.1.2",
-  "sizeBytes": 46686565,
+  "version": "0.1.3",
+  "sizeBytes": 20197655,
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-10-16T11:10:30.000Z",
-  "updatedAt": "2026-10-25T18:53:09.000Z",
-  "downloads": 520,
+  "updatedAt": "2026-10-26T01:40:36.000Z",
+  "downloads": 535,
   "tags": [
    "AI",
    "BIGFOOT",
@@ -1714,6 +1726,12 @@
    }
   ],
   "versions": [
+   {
+    "version": "0.1.3",
+    "gameVersion": "1.8.0.13",
+    "createdAt": "2026-10-26T01:40:27.000Z",
+    "size": 20197655
+   },
    {
     "version": "0.1.2",
     "gameVersion": "1.8.0.13",
@@ -1733,7 +1751,7 @@
     "size": 46684920
    }
   ],
-  "changelog": "0.1.2\nFaster filtered entity lists and spawn-browser tab switching in Game Master with the matching Creature Melee AI update. Existing creature abilities and controls are unchanged.",
+  "changelog": "Reduced oversized Bigfoot body textures to 2K to cut texture file sizes. Combat, sounds and controls are unchanged.",
   "preview": "https://ar-gcp-cdn.bistudio.com/image/0b02/7653ba48f1d019fbf7c0e2a6f6a3739d5d71b6c0fd3173bccfb37147f7af/177194.jpg",
   "previewThumbs": [
    "https://ar-gcp-cdn.bistudio.com/image/0292/98c254639f9ad46a710772cdd83b3859dffdbe0294d64a7c5d04dd06e5ee/148031.jpg",
@@ -1758,7 +1776,7 @@
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-10-22T00:49:08.000Z",
   "updatedAt": "2026-10-25T18:58:08.000Z",
-  "downloads": 10,
+  "downloads": 11,
   "tags": [
    "CHARACTERS",
    "CMAI",
@@ -1816,12 +1834,12 @@
   "license": "Arma Public License (APL)",
   "rating": 1,
   "ratingCount": 5,
-  "version": "0.1.4",
-  "sizeBytes": 672127453,
+  "version": "0.1.5",
+  "sizeBytes": 554443686,
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-10-21T23:41:12.000Z",
-  "updatedAt": "2026-10-25T20:46:10.000Z",
-  "downloads": 491,
+  "updatedAt": "2026-10-26T02:37:09.000Z",
+  "downloads": 520,
   "tags": [
    "AI",
    "CHARACTERS",
@@ -1844,6 +1862,12 @@
    }
   ],
   "versions": [
+   {
+    "version": "0.1.5",
+    "gameVersion": "1.8.0.13",
+    "createdAt": "2026-10-26T02:34:26.000Z",
+    "size": 554443686
+   },
    {
     "version": "0.1.4",
     "gameVersion": "1.8.0.13",
@@ -1875,7 +1899,7 @@
     "size": 662004599
    }
   ],
-  "changelog": "0.1.4\nAdd Green Orc, White Orc and Black Orc Flesh-Saw specialists with distinct Game Master portraits. Their blackened-steel saws have exposed steel teeth, a red saw-ring skull and positional motor idle and attack revs, with no blue paint or glow. Each matching 4-unit group includes one Flesh-Saw and each 16-unit group includes four. All three specialists can be found by searching Flesh-Saw in Game Master. Move Orc hand attachments into their loadouts to avoid character slot-manager conflicts when other add-ons modify characters. Faster filtered Game Master lists and tab switching with the matching Creature Melee AI update.",
+  "changelog": "Reduced oversized Greenskin outfit and Scrap Walker textures to 2K to cut texture file sizes. Weapons and gameplay are unchanged.",
   "preview": "https://ar-gcp-cdn.bistudio.com/image/4e66/13c07941c08b2700223b322bfc0c6845dc34fdf77a834f1cc41be9ed56ea/136515.jpg",
   "previewThumbs": [
    "https://ar-gcp-cdn.bistudio.com/image/431b/58c9ac2cfa4ca7d593c283cf5a0f1cad799a393e9e860ce2d92b981eb58a/117299.jpg",
@@ -1980,7 +2004,7 @@
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-08-30T18:18:07.000Z",
   "updatedAt": "2026-10-25T16:59:34.000Z",
-  "downloads": 42217,
+  "downloads": 42454,
   "tags": [
    "AI",
    "CHARACTERS",
@@ -2089,7 +2113,7 @@
   "gameVersion": "1.8.0.10",
   "createdAt": "2026-08-09T15:04:29.000Z",
   "updatedAt": "2026-08-30T20:00:54.000Z",
-  "downloads": 4285,
+  "downloads": 4288,
   "tags": [
    "AI",
    "REARM",
@@ -2146,7 +2170,7 @@
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-10-07T09:20:39.000Z",
   "updatedAt": "2026-10-09T10:56:14.000Z",
-  "downloads": 2831,
+  "downloads": 2848,
   "tags": [
    "CROSSBOW",
    "GAMEMASTER",
