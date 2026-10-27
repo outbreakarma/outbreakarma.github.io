@@ -13,7 +13,7 @@
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-08-30T18:29:18.000Z",
   "updatedAt": "2026-10-24T14:24:30.000Z",
-  "downloads": 17567,
+  "downloads": 17601,
   "tags": [
    "INFECTION",
    "OUTBREAK",
@@ -24,7 +24,7 @@
    {
     "id": "4FD4A1BD550793F4",
     "name": "Creature Melee AI",
-    "version": "1.8.15"
+    "version": "1.8.16"
    },
    {
     "id": "F1D4B9B5245B36ED",
@@ -119,7 +119,7 @@
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-08-30T18:31:09.000Z",
   "updatedAt": "2026-10-25T18:47:59.000Z",
-  "downloads": 13285,
+  "downloads": 13324,
   "tags": [
    "OUTBREAK",
    "SYSTEMS",
@@ -129,7 +129,7 @@
    {
     "id": "4FD4A1BD550793F4",
     "name": "Creature Melee AI",
-    "version": "1.8.15"
+    "version": "1.8.16"
    },
    {
     "id": "F1D4B9B5245B36ED",
@@ -224,7 +224,7 @@
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-08-30T18:27:33.000Z",
   "updatedAt": "2026-10-25T18:48:35.000Z",
-  "downloads": 7252,
+  "downloads": 7273,
   "tags": [
    "GADGETS",
    "OUTBREAK",
@@ -238,7 +238,7 @@
    {
     "id": "4FD4A1BD550793F4",
     "name": "Creature Melee AI",
-    "version": "1.8.15"
+    "version": "1.8.16"
    },
    {
     "id": "F1D4B9B5245B36ED",
@@ -333,7 +333,7 @@
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-09-27T03:27:42.000Z",
   "updatedAt": "2026-10-26T03:36:45.000Z",
-  "downloads": 6556,
+  "downloads": 6601,
   "tags": [
    "CHARACTERS",
    "CREATURES",
@@ -345,7 +345,7 @@
    {
     "id": "4FD4A1BD550793F4",
     "name": "Creature Melee AI",
-    "version": "1.8.15"
+    "version": "1.8.16"
    },
    {
     "id": "F1D4B9B5245B36ED",
@@ -450,7 +450,7 @@
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-09-27T03:41:17.000Z",
   "updatedAt": "2026-10-21T23:17:24.000Z",
-  "downloads": 8080,
+  "downloads": 8113,
   "tags": [
    "CHARACTERS",
    "OUTBREAK",
@@ -461,7 +461,7 @@
    {
     "id": "4FD4A1BD550793F4",
     "name": "Creature Melee AI",
-    "version": "1.8.15"
+    "version": "1.8.16"
    },
    {
     "id": "F1D4B9B5245B36ED",
@@ -574,7 +574,7 @@
    {
     "id": "4FD4A1BD550793F4",
     "name": "Creature Melee AI",
-    "version": "1.8.15"
+    "version": "1.8.16"
    },
    {
     "id": "5965550F24A0C152",
@@ -962,7 +962,7 @@
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-10-08T02:57:35.000Z",
   "updatedAt": "2026-10-22T01:38:50.000Z",
-  "downloads": 379,
+  "downloads": 382,
   "tags": [
    "GLENWOOD",
    "LIGHT",
@@ -975,7 +975,7 @@
    {
     "id": "4FD4A1BD550793F4",
     "name": "Creature Melee AI",
-    "version": "1.8.15"
+    "version": "1.8.16"
    },
    {
     "id": "61110CC4F1FF9C8A",
@@ -1060,7 +1060,7 @@
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-10-06T16:56:25.000Z",
   "updatedAt": "2026-10-25T18:55:59.000Z",
-  "downloads": 465,
+  "downloads": 467,
   "tags": [
    "AI",
    "BOSS",
@@ -1073,7 +1073,7 @@
    {
     "id": "4FD4A1BD550793F4",
     "name": "Creature Melee AI",
-    "version": "1.8.15"
+    "version": "1.8.16"
    }
   ],
   "versions": [
@@ -1132,7 +1132,7 @@
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-10-02T05:03:39.000Z",
   "updatedAt": "2026-10-25T18:51:06.000Z",
-  "downloads": 1579,
+  "downloads": 1593,
   "tags": [
    "AI",
    "CHARACTERS",
@@ -1144,7 +1144,7 @@
    {
     "id": "4FD4A1BD550793F4",
     "name": "Creature Melee AI",
-    "version": "1.8.15"
+    "version": "1.8.16"
    }
   ],
   "versions": [
@@ -1220,7 +1220,7 @@
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-10-03T17:41:42.000Z",
   "updatedAt": "2026-10-25T18:52:21.000Z",
-  "downloads": 1464,
+  "downloads": 1476,
   "tags": [
    "ALIEN",
    "CHARACTERS",
@@ -1232,7 +1232,7 @@
    {
     "id": "4FD4A1BD550793F4",
     "name": "Creature Melee AI",
-    "version": "1.8.15"
+    "version": "1.8.16"
    }
   ],
   "versions": [
@@ -1314,7 +1314,7 @@
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-10-06T17:34:28.000Z",
   "updatedAt": "2026-10-06T17:34:51.000Z",
-  "downloads": 851,
+  "downloads": 855,
   "tags": [
    "CHARACTERS",
    "CMAI",
@@ -1326,7 +1326,7 @@
    {
     "id": "4FD4A1BD550793F4",
     "name": "Creature Melee AI",
-    "version": "1.8.15"
+    "version": "1.8.16"
    }
   ],
   "versions": [
@@ -1362,7 +1362,7 @@
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-10-09T13:22:19.000Z",
   "updatedAt": "2026-10-26T01:53:41.000Z",
-  "downloads": 1358,
+  "downloads": 1368,
   "tags": [
    "CHARACTERS",
    "CMAI",
@@ -1374,7 +1374,7 @@
    {
     "id": "4FD4A1BD550793F4",
     "name": "Creature Melee AI",
-    "version": "1.8.15"
+    "version": "1.8.16"
    }
   ],
   "versions": [
@@ -1445,7 +1445,7 @@
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-10-15T10:13:41.000Z",
   "updatedAt": "2026-10-25T18:59:22.000Z",
-  "downloads": 684,
+  "downloads": 694,
   "tags": [
    "AI",
    "CHARACTERS",
@@ -1458,7 +1458,7 @@
    {
     "id": "4FD4A1BD550793F4",
     "name": "Creature Melee AI",
-    "version": "1.8.15"
+    "version": "1.8.16"
    }
   ],
   "versions": [
@@ -1562,7 +1562,7 @@
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-10-15T23:43:22.000Z",
   "updatedAt": "2026-10-24T08:44:58.000Z",
-  "downloads": 466,
+  "downloads": 470,
   "tags": [
    "AI",
    "CHARACTERS",
@@ -1575,7 +1575,7 @@
    {
     "id": "4FD4A1BD550793F4",
     "name": "Creature Melee AI",
-    "version": "1.8.15"
+    "version": "1.8.16"
    }
   ],
   "versions": [
@@ -1650,7 +1650,7 @@
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-10-16T11:15:49.000Z",
   "updatedAt": "2026-10-22T12:52:17.000Z",
-  "downloads": 731,
+  "downloads": 734,
   "tags": [
    "AI",
    "CHARACTERS",
@@ -1662,7 +1662,7 @@
    {
     "id": "4FD4A1BD550793F4",
     "name": "Creature Melee AI",
-    "version": "1.8.15"
+    "version": "1.8.16"
    }
   ],
   "versions": [
@@ -1710,7 +1710,7 @@
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-10-16T11:10:30.000Z",
   "updatedAt": "2026-10-26T01:40:36.000Z",
-  "downloads": 600,
+  "downloads": 608,
   "tags": [
    "AI",
    "BIGFOOT",
@@ -1722,7 +1722,7 @@
    {
     "id": "4FD4A1BD550793F4",
     "name": "Creature Melee AI",
-    "version": "1.8.15"
+    "version": "1.8.16"
    }
   ],
   "versions": [
@@ -1788,7 +1788,7 @@
    {
     "id": "4FD4A1BD550793F4",
     "name": "Creature Melee AI",
-    "version": "1.8.15"
+    "version": "1.8.16"
    }
   ],
   "versions": [
@@ -1839,7 +1839,7 @@
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-10-21T23:41:12.000Z",
   "updatedAt": "2026-10-27T04:28:51.000Z",
-  "downloads": 636,
+  "downloads": 657,
   "tags": [
    "AI",
    "CHARACTERS",
@@ -1853,7 +1853,7 @@
    {
     "id": "4FD4A1BD550793F4",
     "name": "Creature Melee AI",
-    "version": "1.8.15"
+    "version": "1.8.16"
    },
    {
     "id": "9C6F9425B58142E7",
@@ -2005,12 +2005,12 @@
   "license": "Arma Public License (APL)",
   "rating": 1,
   "ratingCount": 11,
-  "version": "1.8.15",
-  "sizeBytes": 12815367,
+  "version": "1.8.16",
+  "sizeBytes": 12816210,
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-08-30T18:18:07.000Z",
-  "updatedAt": "2026-10-25T16:59:34.000Z",
-  "downloads": 43341,
+  "updatedAt": "2026-10-27T14:33:17.000Z",
+  "downloads": 43563,
   "tags": [
    "AI",
    "CHARACTERS",
@@ -2022,6 +2022,12 @@
   ],
   "dependencies": [],
   "versions": [
+   {
+    "version": "1.8.16",
+    "gameVersion": "1.8.0.13",
+    "createdAt": "2026-10-27T14:33:03.000Z",
+    "size": 12816210
+   },
    {
     "version": "1.8.15",
     "gameVersion": "1.8.0.13",
@@ -2075,20 +2081,14 @@
     "gameVersion": "1.8.0.13",
     "createdAt": "2026-10-16T10:17:42.000Z",
     "size": 10066147
-   },
-   {
-    "version": "1.8.1",
-    "gameVersion": "1.8.0.13",
-    "createdAt": "2026-10-12T04:45:47.000Z",
-    "size": 9887127
    }
   ],
-  "changelog": "1.8.15\nFaster filtered Game Master lists and tab switching, improved creature camera clearance, and shared support for animated claw and weapon contact, giant throws and vehicle interactions. Adds private suppressed-hit targeting for compatible add-ons and updates shared melee animations. Reduces targeting work in large crowds.",
-  "preview": "https://ar-gcp-cdn.bistudio.com/image/e345/f3b99d0c738344cd8d7364e0b3a3b1ada801834676f2a32b6473f50b0675/95814.jpg",
+  "changelog": "1.8.16\nAdds camera framing support for Tortuga, keeping both tortoise sizes and their sweeping fire attacks visible in third person. Preserves the existing camera defaults for other creatures.",
+  "preview": "https://ar-gcp-cdn.bistudio.com/image/f33c/a48bda46969df8a5c53a02029a5c78ebf3e6478765db430d0f486de85c35/96463.jpg",
   "previewThumbs": [
-   "https://ar-gcp-cdn.bistudio.com/image/826f/ac590b7bcada4b68dbb43c904a60861ba906bcc485de784f311194106075/55712.jpg",
-   "https://ar-gcp-cdn.bistudio.com/image/1261/3000e39a9a5ac9246027c8c75aca87f23b5dee1197b03642e09983cf29da/19799.jpg",
-   "https://ar-gcp-cdn.bistudio.com/image/ce58/dead930f0f12d1c40968cae3bb69190eb7031ab29651c2860feb43d462a9/7454.jpg"
+   "https://ar-gcp-cdn.bistudio.com/image/7f36/942828d7a90314e3c0227d3eb107a2d7823da8ad8651cefc2d2c7aaa0858/57109.jpg",
+   "https://ar-gcp-cdn.bistudio.com/image/4160/abfc7ea92f54efad0f3cf2182d29669e1a3ce011b15f982e5e1d98dc2969/20110.jpg",
+   "https://ar-gcp-cdn.bistudio.com/image/bf4b/99ebe759fa7eecea8d8e02ec0204d15d9033d69b100a8bbe91c70de10262/7331.jpg"
   ],
   "screenshots": [
    {
@@ -2103,7 +2103,7 @@
    }
   ],
   "workshopUrl": "https://reforger.armaplatform.com/workshop/4FD4A1BD550793F4",
-  "previewFile": "assets/family/4FD4A1BD550793F4.jpg"
+  "previewFile": "assets/family/4FD4A1BD550793F4_056c2b4aec.jpg"
  },
  {
   "id": "40B5686CC205703A",
@@ -2119,7 +2119,7 @@
   "gameVersion": "1.8.0.10",
   "createdAt": "2026-08-09T15:04:29.000Z",
   "updatedAt": "2026-08-30T20:00:54.000Z",
-  "downloads": 4316,
+  "downloads": 4319,
   "tags": [
    "AI",
    "REARM",
@@ -2176,7 +2176,7 @@
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-10-07T09:20:39.000Z",
   "updatedAt": "2026-10-09T10:56:14.000Z",
-  "downloads": 3069,
+  "downloads": 3113,
   "tags": [
    "CROSSBOW",
    "GAMEMASTER",
@@ -2249,7 +2249,7 @@
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-09-29T16:59:01.000Z",
   "updatedAt": "2026-10-01T19:16:41.000Z",
-  "downloads": 343,
+  "downloads": 344,
   "tags": [
    "BALLISTA",
    "MEDIEVAL",
