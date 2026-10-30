@@ -13,7 +13,7 @@
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-08-30T18:29:18.000Z",
   "updatedAt": "2026-10-24T14:24:30.000Z",
-  "downloads": 18179,
+  "downloads": 18227,
   "tags": [
    "INFECTION",
    "OUTBREAK",
@@ -119,7 +119,7 @@
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-08-30T18:31:09.000Z",
   "updatedAt": "2026-10-25T18:47:59.000Z",
-  "downloads": 13928,
+  "downloads": 13989,
   "tags": [
    "OUTBREAK",
    "SYSTEMS",
@@ -224,7 +224,7 @@
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-08-30T18:27:33.000Z",
   "updatedAt": "2026-10-25T18:48:35.000Z",
-  "downloads": 7523,
+  "downloads": 7540,
   "tags": [
    "GADGETS",
    "OUTBREAK",
@@ -333,7 +333,7 @@
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-09-27T03:27:42.000Z",
   "updatedAt": "2026-10-26T03:36:45.000Z",
-  "downloads": 7148,
+  "downloads": 7193,
   "tags": [
    "CHARACTERS",
    "CREATURES",
@@ -450,7 +450,7 @@
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-09-27T03:41:17.000Z",
   "updatedAt": "2026-10-21T23:17:24.000Z",
-  "downloads": 8592,
+  "downloads": 8639,
   "tags": [
    "CHARACTERS",
    "OUTBREAK",
@@ -962,7 +962,7 @@
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-10-08T02:57:35.000Z",
   "updatedAt": "2026-10-22T01:38:50.000Z",
-  "downloads": 419,
+  "downloads": 423,
   "tags": [
    "GLENWOOD",
    "LIGHT",
@@ -1132,7 +1132,7 @@
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-10-02T05:03:39.000Z",
   "updatedAt": "2026-10-25T18:51:06.000Z",
-  "downloads": 1779,
+  "downloads": 1794,
   "tags": [
    "AI",
    "CHARACTERS",
@@ -1220,7 +1220,7 @@
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-10-03T17:41:42.000Z",
   "updatedAt": "2026-10-25T18:52:21.000Z",
-  "downloads": 1587,
+  "downloads": 1592,
   "tags": [
    "ALIEN",
    "CHARACTERS",
@@ -1314,7 +1314,7 @@
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-10-06T17:34:28.000Z",
   "updatedAt": "2026-10-06T17:34:51.000Z",
-  "downloads": 927,
+  "downloads": 934,
   "tags": [
    "CHARACTERS",
    "CMAI",
@@ -1356,13 +1356,13 @@
   "description": "Reports describe fungal organisms with layered caps, pale branching tissue and long claws. The smaller Dewcap and broad-capped Sporewarden pursue people at close range. They are often found together, although their relationship to ordinary fungi remains uncertain.\n\nThe Mycelial Spire remains rooted in place and releases Dewcaps and Sporewardens around it. Destroying the parent stops further releases; organisms already outside continue moving independently. The much larger Fungal Titan crushes nearby prey with its feet. Living tissue fills the spaces behind its chest lattice.\n\nThe luminous Mycelial Empyrean stands above the surrounding trees. Its observed attacks include Halo of Ruin, Pale Benediction and Sporefall. This form remains a work in progress, with combat and multiplayer presentation still being improved.\n\nPart of the Creatures collection.\n\nFind the creatures in Game Master. Dewcap and Sporewarden are also available in groups of 8 and 16. The Spire's properties control continuous or finite releases, wave size, interval, alive limit, radius and creature mix; set Spawning to Running to begin. Separate creature durability settings are available under Creatures. Requires Creature Melee AI 1.8.0. Other Creatures addons and Project Outbreak are optional.\n\nBig thanks to AlienBalien for the custom ragdolling workflow used as an implementation reference. BallienCreatures is shared under the Arma Public License (APL): https://reforger.armaplatform.com/workshop/6534B9CEB6D12EE7-BallienCreatures. Licence: https://www.bohemia.net/en/licenses/arma-public-license.\n\nGiant stomp animations use Giant Pack V01 by MandB Animation; claw animations use Zombie_Pack. These packs were acquired under the Fab Standard License and are incorporated only as compiled game content. Giant Pack: https://www.fab.com/listings/6c958505-2e10-4600-b85c-668cd158d25d. Fab licence: https://www.fab.com/eula.\n\nWorkshop licence: Arma Public License (APL). Incorporated assets retain their original licences and credits; this listing does not grant additional rights to those assets. Complete component terms are included in THIRD_PARTY_NOTICES. Editable asset sources are excluded.",
   "license": "Arma Public License (APL)",
   "rating": 1,
-  "ratingCount": 15,
+  "ratingCount": 16,
   "version": "0.1.4",
   "sizeBytes": 81043087,
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-10-09T13:22:19.000Z",
   "updatedAt": "2026-10-26T01:53:41.000Z",
-  "downloads": 1504,
+  "downloads": 1511,
   "tags": [
    "CHARACTERS",
    "CMAI",
@@ -1439,13 +1439,13 @@
   "description": "A figure roughly twenty-one metres tall has been observed beyond the edge of illuminated ground. Four lamps rise from long, flexible stalks above a body threaded with dark cables and unfamiliar flesh. Their beams search for living humans.\n\n\nWhen the lamps gather on a target, their light turns red. A deep warning precedes its advance. Witnesses describe heavy impacts beneath its feet and a sudden close-range strike after the warning ends.\n\n\nPart of the Creatures collection.\n\n\nModel created with Tripo3D. Sounds by Elevenlabls.\n\n\nBig thanks to AlienBalien for the custom ragdolling work in BallienCreatures, used as a workflow reference: https://reforger.armaplatform.com/workshop/6534B9CEB6D12EE7-BallienCreatures. Reference licence: Arma Public License, https://www.bohemia.net/en/licenses/arma-public-license. Kraken was consulted for its serial bone-chain structure; its artwork is not included.\n\n\nCreature Melee AI is by Project Outbreak and retains its credit to Sanxisan's Melee Combat Extended work: https://reforger.armaplatform.com/workshop/6595113A3678CF5D-MeleeCombatExtended. The fitted stomps reference the shared CMAI animation bank under its component terms. Arma Reforger, Enfusion and base-game resources are by Bohemia Interactive.\n\n\nWorkshop licence: Arma Public License (APL). Incorporated assets retain their component terms and credits; this listing grants no additional rights to those assets. See the included license.txt and THIRD_PARTY_NOTICES.md.",
   "license": "Arma Public License (APL)",
   "rating": 1,
-  "ratingCount": 6,
+  "ratingCount": 7,
   "version": "0.1.3",
   "sizeBytes": 15852228,
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-10-15T10:13:41.000Z",
   "updatedAt": "2026-10-25T18:59:22.000Z",
-  "downloads": 834,
+  "downloads": 845,
   "tags": [
    "AI",
    "CHARACTERS",
@@ -1562,7 +1562,7 @@
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-10-15T23:43:22.000Z",
   "updatedAt": "2026-10-24T08:44:58.000Z",
-  "downloads": 539,
+  "downloads": 543,
   "tags": [
    "AI",
    "CHARACTERS",
@@ -1650,7 +1650,7 @@
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-10-16T11:15:49.000Z",
   "updatedAt": "2026-10-22T12:52:17.000Z",
-  "downloads": 835,
+  "downloads": 840,
   "tags": [
    "AI",
    "CHARACTERS",
@@ -1710,7 +1710,7 @@
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-10-16T11:10:30.000Z",
   "updatedAt": "2026-10-26T01:40:36.000Z",
-  "downloads": 703,
+  "downloads": 711,
   "tags": [
    "AI",
    "BIGFOOT",
@@ -1839,7 +1839,7 @@
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-10-21T23:41:12.000Z",
   "updatedAt": "2026-10-27T04:28:51.000Z",
-  "downloads": 883,
+  "downloads": 897,
   "tags": [
    "AI",
    "CHARACTERS",
@@ -2004,13 +2004,13 @@
   "description": "Creature Melee AI (CMAI) is a reusable creature-AI framework for Arma Reforger. A Character-compatible entity can acquire an eligible hostile Character, pursue it continuously through native navigation, and request an attack through a replaceable attack contract.\n\n\nAUTHORING\nCreate a creature from one inherited prefab and one inherited settings file. CMAI owns the common targeting, pursuit, scheduler, damage-request, cleanup, and replication infrastructure while a project can replace the creature presentation and attack behavior.\n\n\nINTEGRATION\nPublic settings, APIs, and capability hooks support independent creature projects. Optional Slow, Hunter, and Fast examples are supplied for sandbox testing. Their Game Master cards use the non-playable Melee AI faction and remain disabled unless a maintainer deliberately enables the single integration switch.\n\n\nSCOPE\nCMAI depends only on the Arma Reforger Base Game. Project Outbreak is not required. CMAI does not provide a spawner, wave manager, population director, or scenario lifecycle; those remain responsibilities of the consuming project.\n\n\nCREDITS\nRetargeted zombie locomotion, attacks, feeding and reactions: Zombie_Pack, purchased under the Fab Standard License (https://www.fab.com/eula). Throw/carry animations: RamsterZ Free Anims Volume 1: https://www.fab.com/listings/9319491d-0e91-422c-9b67-ad4bf6c01a02. These compiled animations are embedded game content; their source assets are not included.\n\n\nMelee animation: Melee Combat Extended by Sanxisan (Anton Firsenko / TonyFierce). Five compiled two-handed clips retain the Arma Public License: https://reforger.armaplatform.com/workshop/6595113A3678CF5D-MeleeCombatExtended and https://www.bohemia.net/community/licenses/arma-public-license. One-handed animation resources (MIT license): https://github.com/TonyFierce/Melee-Combat-Extended-Resources. Complete component notices are included.\n\n\nGiant stomp animation: Giant Pack V01 by MandB Animation, retargeted and fitted for Reforger by Project Outbreak. Fab Standard License: https://www.fab.com/listings/6c958505-2e10-4600-b85c-668cd158d25d. Animation retargeting, native graph integration and authored adaptations are by Project Outbreak.\n\n\nCrawling Ghoul Anims by RamsterZ: https://www.fab.com/listings/9e96b3f7-30ca-4221-a2eb-2bd46146b286. Climbing animation from Free Animation Library by voxel vision: https://www.fab.com/listings/481ef75b-892b-424f-a213-f1cc058c9c19. Spear throw from Cool Throwing Combat Animations by Bacengdu: https://www.fab.com/listings/fffbea69-14ff-499d-b85a-131171c1d6f8. These compiled derivatives retain the Fab Standard License; editable sources are excluded.\n\n\nWorkshop licence: Arma Public License (APL). Incorporated assets retain their original licences and credits; this listing does not grant additional rights to those assets. See the included notices for component terms.\n\nShared dual-strike animation: original Epic Games character motion acquired under the Fab Standard License, retargeted and fitted for CMAI. Source: https://www.fab.com/listings/8c4bac2c-f7f7-4632-a644-47f4e104f5d8. Compiled game content only; editable sources and standalone redistribution are excluded.\n\n\nWerewolf claw animations: Werewolf by Lilpupinduy, Fab Standard License: https://www.fab.com/listings/e6d3f2fc-f64d-418b-b41d-1f8808be3f21. Bigfoot boxing animations created with Tripo3D under a paid license. These compiled animations are embedded game content; editable sources are excluded.\n\nStonekin motion: Armored Stone Golem - Dark Fantasy Boss by Alexander Lenski, acquired under the Fab Standard License: https://www.fab.com/listings/e40713f0-ebea-4f4d-ad9b-b577db4432d5. Retargeted and fitted by Project Outbreak. Compiled embedded game content only; editable sources and standalone animation redistribution are excluded.",
   "license": "Arma Public License (APL)",
   "rating": 1,
-  "ratingCount": 11,
+  "ratingCount": 12,
   "version": "1.8.16",
   "sizeBytes": 12816210,
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-08-30T18:18:07.000Z",
   "updatedAt": "2026-10-27T14:33:17.000Z",
-  "downloads": 46262,
+  "downloads": 46446,
   "tags": [
    "AI",
    "CHARACTERS",
@@ -2119,7 +2119,7 @@
   "gameVersion": "1.8.0.10",
   "createdAt": "2026-08-09T15:04:29.000Z",
   "updatedAt": "2026-08-30T20:00:54.000Z",
-  "downloads": 4394,
+  "downloads": 4406,
   "tags": [
    "AI",
    "REARM",
@@ -2176,7 +2176,7 @@
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-10-07T09:20:39.000Z",
   "updatedAt": "2026-10-09T10:56:14.000Z",
-  "downloads": 3615,
+  "downloads": 3670,
   "tags": [
    "CROSSBOW",
    "GAMEMASTER",
