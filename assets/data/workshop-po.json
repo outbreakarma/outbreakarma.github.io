@@ -7,12 +7,12 @@
  "license": "Arma Public License (APL)",
  "rating": 0.97,
  "ratingCount": 92,
- "version": "2.4.12",
- "sizeBytes": 209349966,
+ "version": "2.4.13",
+ "sizeBytes": 210467016,
  "gameVersion": "1.8.0.13",
  "createdAt": "2026-08-30T18:23:05.000Z",
- "updatedAt": "2026-10-25T18:46:27.000Z",
- "downloads": 40605,
+ "updatedAt": "2026-11-02T16:00:19.000Z",
+ "downloads": 40955,
  "tags": [
   "CHARACTERS",
   "INFECTION",
@@ -27,10 +27,16 @@
   {
    "id": "4FD4A1BD550793F4",
    "name": "Creature Melee AI",
-   "version": "1.8.16"
+   "version": "1.8.17"
   }
  ],
  "versions": [
+  {
+   "version": "2.4.13",
+   "gameVersion": "1.8.0.13",
+   "createdAt": "2026-11-02T15:59:33.000Z",
+   "size": 210467016
+  },
   {
    "version": "2.4.12",
    "gameVersion": "1.8.0.13",
@@ -84,15 +90,9 @@
    "gameVersion": "1.8.0.13",
    "createdAt": "2026-10-09T13:25:53.000Z",
    "size": 208225337
-  },
-  {
-   "version": "2.3.0",
-   "gameVersion": "1.8.0.13",
-   "createdAt": "2026-10-06T13:46:55.000Z",
-   "size": 208220850
   }
  ],
- "changelog": "2.4.12\nFaster filtered Game Master lists and spawn-browser tab switching. Suppressed shots keep a hit zombie's retaliation private unless it gains another reason to alert nearby zombies. Reduces unnecessary pursuit checks for zombies that cannot throw victims.",
+ "changelog": "2.4.13\nServer stability and frame time update for large hordes. Scripted knockdowns (the Nightingale's scream, Survival Gear electro and fences, Structures wire) now queue and fall a few bodies per frame instead of all in one frame. This goes after the dedicated server crashes seen when several Giants were knocked over at once; on our dedicated test server, three electro lure blasts over eight Giants and a 500-zombie crowd, then all eight Giants dying in the same frame, ran without a crash. Settled Giant corpses no longer cost frame time every frame. Horde despawns, spawns and deletes are spread across frames instead of landing in one server tick. Each zombie also does less background work on servers and clients, and fewer debug lines are printed.\nDeliberate changes: the Nightingale's scream no longer knocks Giants down. When you lower Creatures per Player, extra zombies are removed at most 4 per player every 2 seconds. Players more than 340 m away no longer count as watching the Nightingale.\nAlso in this update: ambient zombies no longer freeze in place after one or two wander legs. Crawlers now drag themselves head first at about 0.45 m/s (about 10 % slower), with new Game Master groups Crawlers x4, x8 and x16. A group of crawlers no longer twitches or pushes itself apart, crawlers no longer snap round or slide sideways in turns, and the crawler leg bite now stays down on the ground instead of standing the crawler up at its start and end. A Shambler or Sprinter shot in the leg now barely takes damage, falls and crawls on as a Crawler; set it with the Game Master setting Leg Shot Crawler Chance (default 100 %, 0 turns it off). The Brute stays on its feet. When many corpses lie piled up after a big fight, some piled bodies out of view can disappear early to keep the frame rate up; lone corpses and corpses near a player stay. Corpses now disappear on time instead of lingering for minutes under load. Dedicated servers skip a Giant drawing pass they never needed.\nProject Outbreak soldier voice lines are now off by default. Turn them on with Custom Soldier Voices. When the setting is off, soldiers no longer use the Project Outbreak lines for target down and out of ammo.",
  "preview": "https://ar-gcp-cdn.bistudio.com/image/2acf/50af531c77fb7b5f21ca79df26665c5a3e9f10ff3b0c4d08f6876c6370b0/158082.jpg",
  "previewThumbs": [
   "https://ar-gcp-cdn.bistudio.com/image/4cca/713c0a0d13d35c848872dd5398d4de1a8324f8931ead8fd865d03c85c843/86448.jpg",
