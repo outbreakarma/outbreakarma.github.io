@@ -7,12 +7,12 @@
  "license": "Arma Public License (APL)",
  "rating": 0.97,
  "ratingCount": 94,
- "version": "2.4.13",
- "sizeBytes": 210467016,
+ "version": "2.4.14",
+ "sizeBytes": 210467085,
  "gameVersion": "1.8.0.13",
  "createdAt": "2026-08-30T18:23:05.000Z",
- "updatedAt": "2026-11-02T16:00:19.000Z",
- "downloads": 41799,
+ "updatedAt": "2026-11-04T04:56:50.000Z",
+ "downloads": 42015,
  "tags": [
   "CHARACTERS",
   "INFECTION",
@@ -31,6 +31,12 @@
   }
  ],
  "versions": [
+  {
+   "version": "2.4.14",
+   "gameVersion": "1.8.0.13",
+   "createdAt": "2026-11-04T04:56:01.000Z",
+   "size": 210467085
+  },
   {
    "version": "2.4.13",
    "gameVersion": "1.8.0.13",
@@ -84,15 +90,9 @@
    "gameVersion": "1.8.0.13",
    "createdAt": "2026-10-13T20:28:58.000Z",
    "size": 208225755
-  },
-  {
-   "version": "2.3.1",
-   "gameVersion": "1.8.0.13",
-   "createdAt": "2026-10-09T13:25:53.000Z",
-   "size": 208225337
   }
  ],
- "changelog": "2.4.13\nServer stability and frame time update for large hordes. Scripted knockdowns (the Nightingale's scream, Survival Gear electro and fences, Structures wire) now queue and fall a few bodies per frame instead of all in one frame. This goes after the dedicated server crashes seen when several Giants were knocked over at once; on our dedicated test server, three electro lure blasts over eight Giants and a 500-zombie crowd, then all eight Giants dying in the same frame, ran without a crash. Settled Giant corpses no longer cost frame time every frame. Horde despawns, spawns and deletes are spread across frames instead of landing in one server tick. Each zombie also does less background work on servers and clients, and fewer debug lines are printed.\nDeliberate changes: the Nightingale's scream no longer knocks Giants down. When you lower Creatures per Player, extra zombies are removed at most 4 per player every 2 seconds. Players more than 340 m away no longer count as watching the Nightingale.\nAlso in this update: ambient zombies no longer freeze in place after one or two wander legs. Crawlers now drag themselves head first at about 0.45 m/s (about 10 % slower), with new Game Master groups Crawlers x4, x8 and x16. A group of crawlers no longer twitches or pushes itself apart, crawlers no longer snap round or slide sideways in turns, and the crawler leg bite now stays down on the ground instead of standing the crawler up at its start and end. A Shambler or Sprinter shot in the leg now barely takes damage, falls and crawls on as a Crawler; set it with the Game Master setting Leg Shot Crawler Chance (default 100 %, 0 turns it off). The Brute stays on its feet. When many corpses lie piled up after a big fight, some piled bodies out of view can disappear early to keep the frame rate up; lone corpses and corpses near a player stay. Corpses now disappear on time instead of lingering for minutes under load. Dedicated servers skip a Giant drawing pass they never needed.\nProject Outbreak soldier voice lines are now off by default. Turn them on with Custom Soldier Voices. When the setting is off, soldiers no longer use the Project Outbreak lines for target down and out of ammo.",
+ "changelog": "2.4.14\nHotfix: spawning a Crawlers x4, x8 or x16 group no longer kicks every player from a multiplayer server with a system failure.",
  "preview": "https://ar-gcp-cdn.bistudio.com/image/2acf/50af531c77fb7b5f21ca79df26665c5a3e9f10ff3b0c4d08f6876c6370b0/158082.jpg",
  "previewThumbs": [
   "https://ar-gcp-cdn.bistudio.com/image/4cca/713c0a0d13d35c848872dd5398d4de1a8324f8931ead8fd865d03c85c843/86448.jpg",
@@ -100,6 +100,16 @@
   "https://ar-gcp-cdn.bistudio.com/image/5db5/65f032b063ddb913c8c352ca734ee4de391de0e49fdfc5ebb8e9733c4194/11059.jpg"
  ],
  "screenshots": [
+  {
+   "url": "https://ar-gcp-cdn.bistudio.com/image/77ff/141ba6c5a704bf26a1f712258c5425727c9d6827e14916d9cf5f77238c7e/309394.jpg",
+   "width": 1920,
+   "height": 1080,
+   "thumbs": [
+    "https://ar-gcp-cdn.bistudio.com/image/0b64/1b7fcc259bc4016d4fa84608144bad0c01a06d3fbf8df276d0d27e6ccc6d/190061.jpg",
+    "https://ar-gcp-cdn.bistudio.com/image/4c14/f79c26db7b515a7c5f0cabb88b75b1a9fb302acb6b6950d18e19c98bcb8b/61216.jpg",
+    "https://ar-gcp-cdn.bistudio.com/image/ff65/950f215c6e9104b837997d5cc7f8be0b72c661f65e5ab4534f3442d0e8e8/18297.jpg"
+   ]
+  },
   {
    "url": "https://ar-gcp-cdn.bistudio.com/image/927f/eb5f78bee1754bee27e13048de2e1b17aed91c072d67adf716949c972ed0/506426.jpg",
    "width": 1920,
@@ -118,16 +128,6 @@
     "https://ar-gcp-cdn.bistudio.com/image/70b4/df2d11ac8529363855e5bb96791da98c356c4296a64b5fe3e15c4f2f287d/204307.jpg",
     "https://ar-gcp-cdn.bistudio.com/image/a4db/4e68fcfcfd0722730db2820981482169029f094ff65c9134e96bbaad940d/62565.jpg",
     "https://ar-gcp-cdn.bistudio.com/image/6495/21c0b1dbfe5769637b237e39984107f4c05ca8144852f2c618678954a157/17435.jpg"
-   ]
-  },
-  {
-   "url": "https://ar-gcp-cdn.bistudio.com/image/77ff/141ba6c5a704bf26a1f712258c5425727c9d6827e14916d9cf5f77238c7e/309394.jpg",
-   "width": 1920,
-   "height": 1080,
-   "thumbs": [
-    "https://ar-gcp-cdn.bistudio.com/image/0b64/1b7fcc259bc4016d4fa84608144bad0c01a06d3fbf8df276d0d27e6ccc6d/190061.jpg",
-    "https://ar-gcp-cdn.bistudio.com/image/4c14/f79c26db7b515a7c5f0cabb88b75b1a9fb302acb6b6950d18e19c98bcb8b/61216.jpg",
-    "https://ar-gcp-cdn.bistudio.com/image/ff65/950f215c6e9104b837997d5cc7f8be0b72c661f65e5ab4534f3442d0e8e8/18297.jpg"
    ]
   }
  ],

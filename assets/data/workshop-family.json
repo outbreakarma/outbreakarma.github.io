@@ -13,7 +13,7 @@
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-08-30T18:29:18.000Z",
   "updatedAt": "2026-11-02T16:10:47.000Z",
-  "downloads": 19549,
+  "downloads": 19619,
   "tags": [
    "INFECTION",
    "OUTBREAK",
@@ -29,7 +29,7 @@
    {
     "id": "F1D4B9B5245B36ED",
     "name": "Project Outbreak Zombies",
-    "version": "2.4.13"
+    "version": "2.4.14"
    }
   ],
   "versions": [
@@ -119,7 +119,7 @@
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-08-30T18:31:09.000Z",
   "updatedAt": "2026-11-02T16:11:17.000Z",
-  "downloads": 14983,
+  "downloads": 15049,
   "tags": [
    "OUTBREAK",
    "SYSTEMS",
@@ -134,7 +134,7 @@
    {
     "id": "F1D4B9B5245B36ED",
     "name": "Project Outbreak Zombies",
-    "version": "2.4.13"
+    "version": "2.4.14"
    }
   ],
   "versions": [
@@ -224,7 +224,7 @@
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-08-30T18:27:33.000Z",
   "updatedAt": "2026-11-02T16:12:49.000Z",
-  "downloads": 7983,
+  "downloads": 8020,
   "tags": [
    "GADGETS",
    "OUTBREAK",
@@ -243,7 +243,7 @@
    {
     "id": "F1D4B9B5245B36ED",
     "name": "Project Outbreak Zombies",
-    "version": "2.4.13"
+    "version": "2.4.14"
    }
   ],
   "versions": [
@@ -333,7 +333,7 @@
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-09-27T03:27:42.000Z",
   "updatedAt": "2026-11-02T16:07:32.000Z",
-  "downloads": 8310,
+  "downloads": 8374,
   "tags": [
    "CHARACTERS",
    "CREATURES",
@@ -350,7 +350,7 @@
    {
     "id": "F1D4B9B5245B36ED",
     "name": "Project Outbreak Zombies",
-    "version": "2.4.13"
+    "version": "2.4.14"
    }
   ],
   "versions": [
@@ -456,7 +456,7 @@
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-09-27T03:41:17.000Z",
   "updatedAt": "2026-11-02T16:10:20.000Z",
-  "downloads": 9572,
+  "downloads": 9633,
   "tags": [
    "CHARACTERS",
    "OUTBREAK",
@@ -472,7 +472,7 @@
    {
     "id": "F1D4B9B5245B36ED",
     "name": "Project Outbreak Zombies",
-    "version": "2.4.13"
+    "version": "2.4.14"
    }
   ],
   "versions": [
@@ -681,7 +681,7 @@
    {
     "id": "61BD6595183FCEBD",
     "name": "Chungus Bolt Guns",
-    "version": "1.0.63"
+    "version": "1.0.64"
    },
    {
     "id": "61C74A8B647617DA",
@@ -696,7 +696,7 @@
    {
     "id": "620E584B1D2C96A4",
     "name": "Chungus Shotguns",
-    "version": "1.0.43"
+    "version": "1.0.46"
    },
    {
     "id": "622120A5448725E3",
@@ -866,7 +866,7 @@
    {
     "id": "66D6340C1D565C98",
     "name": "Chungus Core",
-    "version": "1.0.8"
+    "version": "1.0.9"
    },
    {
     "id": "6727292F1032D5D1",
@@ -926,7 +926,7 @@
    {
     "id": "F1D4B9B5245B36ED",
     "name": "Project Outbreak Zombies",
-    "version": "2.4.13"
+    "version": "2.4.14"
    }
   ],
   "versions": [
@@ -969,12 +969,12 @@
   "license": "Arma Public License (APL)",
   "rating": 1,
   "ratingCount": 3,
-  "version": "0.1.12",
-  "sizeBytes": 3531554,
+  "version": "0.1.13",
+  "sizeBytes": 3531623,
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-10-08T02:57:35.000Z",
-  "updatedAt": "2026-10-22T01:38:50.000Z",
-  "downloads": 473,
+  "updatedAt": "2026-11-04T06:58:42.000Z",
+  "downloads": 474,
   "tags": [
    "GLENWOOD",
    "LIGHT",
@@ -1012,10 +1012,16 @@
    {
     "id": "F1D4B9B5245B36ED",
     "name": "Project Outbreak Zombies",
-    "version": "2.4.13"
+    "version": "2.4.14"
    }
   ],
   "versions": [
+   {
+    "version": "0.1.13",
+    "gameVersion": "1.8.0.13",
+    "createdAt": "2026-11-04T06:58:38.000Z",
+    "size": 3531623
+   },
    {
     "version": "0.1.12",
     "gameVersion": "1.8.0.13",
@@ -1047,7 +1053,7 @@
     "size": 3207603
    }
   ],
-  "changelog": "0.1.12\nServer owners can now raise the number of infected from the server config: groups kept around each player, groups alive across the valley, groups per top-up and seconds between top-ups. Servers that set none of them play exactly as before. Far groups that walk as Project Outbreak stand-ins now stay counted and turn back into zombies when a player comes near. Needs Project Outbreak 2.4.6 or later. Fixed: after a server restart from a save, the headquarters and their spawn points now come back reliably. With another add-on that also manages seize objectives, the two no longer rebuild each other's tasks over and over, which slowed long-running servers down. Infected-held bases keep their owner and flag after a restart from a save, and an opened mass grave keeps spawning until it is destroyed. The Outbreak flag on the bases' flagpoles now shows the whole banner instead of a stretched, cut-off part of it. A base under attack with no player near no longer keeps spawning more and more infected while its far groups walk as stand-ins. A mass grave now also counts its infected walking as stand-ins far away, so it no longer opens a new wave while the last one is still out there.",
+  "changelog": "0.1.13\nMultiplayer fix: the three tunnel zombie groups (Feral, Sprinters and Shamblers) had no saved entity ID, the same fault that made the Project Outbreak crawler groups kick players. A prefab without a saved ID gets a different ID on the server and on each client, and spawning it can disconnect players from a multiplayer server. Each group now carries its own saved ID.",
   "preview": "https://ar-gcp-cdn.bistudio.com/image/6a92/2db8d6d18bfe9e72772ce468b6aed7242865b1b1a4ad99222d6b431e8954/296643.jpg",
   "previewThumbs": [
    "https://ar-gcp-cdn.bistudio.com/image/a586/49e091f21648996c31da3c96e37ad42a3267479443b2cf014229eb2adf45/139140.jpg",
@@ -1067,12 +1073,12 @@
   "license": "Arma Public License (APL)",
   "rating": 1,
   "ratingCount": 4,
-  "version": "0.1.3",
-  "sizeBytes": 136329817,
+  "version": "0.1.4",
+  "sizeBytes": 136329840,
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-10-06T16:56:25.000Z",
-  "updatedAt": "2026-11-02T15:45:44.000Z",
-  "downloads": 592,
+  "updatedAt": "2026-11-04T06:46:53.000Z",
+  "downloads": 604,
   "tags": [
    "AI",
    "BOSS",
@@ -1089,6 +1095,12 @@
    }
   ],
   "versions": [
+   {
+    "version": "0.1.4",
+    "gameVersion": "1.8.0.13",
+    "createdAt": "2026-11-04T06:45:58.000Z",
+    "size": 136329840
+   },
    {
     "version": "0.1.3",
     "gameVersion": "1.8.0.13",
@@ -1114,7 +1126,7 @@
     "size": 136492379
    }
   ],
-  "changelog": "0.1.3\nHealth rebalance: regular and Bare goblins now have 150 health. The Blademaster keeps its health but takes more bullet damage than before (0.5 instead of 0.15), so it is no longer near bullet-proof; its parries and weak moments are unchanged.",
+  "changelog": "0.1.4\nMultiplayer safety: the add-on's Game Master faction setup now carries its own saved entity ID, like every prefab should. Nothing else changes.",
   "preview": "https://ar-gcp-cdn.bistudio.com/image/d0d1/88984ccc8eab5be9a8d2dcc64106c5cee0014ec30d03fb6137604d4a18fc/130053.jpg",
   "previewThumbs": [
    "https://ar-gcp-cdn.bistudio.com/image/ded0/f49ea12ca81bbfd979b160d22ddd1935f62cece61f881a8e3927ac26431a/112173.jpg",
@@ -1145,12 +1157,12 @@
   "license": "Arma Public License (APL)",
   "rating": 1,
   "ratingCount": 11,
-  "version": "1.0.6",
-  "sizeBytes": 257419783,
+  "version": "1.0.7",
+  "sizeBytes": 257419806,
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-10-02T05:03:39.000Z",
-  "updatedAt": "2026-11-02T15:49:16.000Z",
-  "downloads": 2088,
+  "updatedAt": "2026-11-04T06:50:33.000Z",
+  "downloads": 2124,
   "tags": [
    "AI",
    "CHARACTERS",
@@ -1166,6 +1178,12 @@
    }
   ],
   "versions": [
+   {
+    "version": "1.0.7",
+    "gameVersion": "1.8.0.13",
+    "createdAt": "2026-11-04T06:49:07.000Z",
+    "size": 257419806
+   },
    {
     "version": "1.0.6",
     "gameVersion": "1.8.0.13",
@@ -1209,7 +1227,7 @@
     "size": 143230543
    }
   ],
-  "changelog": "1.0.6\nHealth rebalance: Warbeast and the original Greenskin have 600 health, the Warchief and Scarred Elder 900, and the Squidbeast and Big Jim 800, with head and neck health to match.",
+  "changelog": "1.0.7\nMultiplayer safety: the add-on's Game Master faction setup now carries its own saved entity ID, like every prefab should. Nothing else changes.",
   "preview": "https://ar-gcp-cdn.bistudio.com/image/324a/f854dd2023ffc67cf9f4e3d2a651dcaeb81e9bc907768f80366b4dde60a7/292044.jpg",
   "previewThumbs": [
    "https://ar-gcp-cdn.bistudio.com/image/84d1/d734c68bef7105a26ae09ad588815c6d269fcd36ca4a70608bd3978e7f1f/160052.jpg",
@@ -1239,12 +1257,12 @@
   "license": "Arma Public License (APL)",
   "rating": 1,
   "ratingCount": 9,
-  "version": "1.2.6",
-  "sizeBytes": 116880862,
+  "version": "1.2.7",
+  "sizeBytes": 116881391,
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-10-03T17:41:42.000Z",
-  "updatedAt": "2026-10-25T18:52:21.000Z",
-  "downloads": 1813,
+  "updatedAt": "2026-11-04T06:39:00.000Z",
+  "downloads": 1826,
   "tags": [
    "ALIEN",
    "CHARACTERS",
@@ -1260,6 +1278,12 @@
    }
   ],
   "versions": [
+   {
+    "version": "1.2.7",
+    "gameVersion": "1.8.0.13",
+    "createdAt": "2026-11-04T06:38:02.000Z",
+    "size": 116881391
+   },
    {
     "version": "1.2.6",
     "gameVersion": "1.8.0.13",
@@ -1303,7 +1327,7 @@
     "size": 37924244
    }
   ],
-  "changelog": "1.2.6\nFaster filtered entity lists and spawn-browser tab switching in Game Master with the matching Creature Melee AI update. Existing creature abilities and controls are unchanged.",
+  "changelog": "1.2.7\nMultiplayer fix: the Alien Game Master previews, the beam, glow and eyelid effects, the twelve Titan eyes and the Game Master faction setup had no saved entity ID. A prefab without a saved ID gets a different ID on the server and on each client, and spawning it can disconnect players from a multiplayer server. Each one now carries its own saved ID.",
   "preview": "https://ar-gcp-cdn.bistudio.com/image/e516/38fbbb22cd0cfddd8f0497e2edaefd80c2bc51078f740b9baea82fd5f721/252017.jpg",
   "previewThumbs": [
    "https://ar-gcp-cdn.bistudio.com/image/7a13/92eea32520b8041063b74a78a64ac436cb8bf7a37e089701a08f0ebeafc5/142790.jpg",
@@ -1338,7 +1362,7 @@
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-10-06T17:34:28.000Z",
   "updatedAt": "2026-11-02T15:54:01.000Z",
-  "downloads": 1098,
+  "downloads": 1110,
   "tags": [
    "CHARACTERS",
    "CMAI",
@@ -1387,12 +1411,12 @@
   "license": "Arma Public License (APL)",
   "rating": 1,
   "ratingCount": 18,
-  "version": "0.1.5",
-  "sizeBytes": 81045335,
+  "version": "0.1.6",
+  "sizeBytes": 81045406,
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-10-09T13:22:19.000Z",
-  "updatedAt": "2026-11-02T15:44:17.000Z",
-  "downloads": 1728,
+  "updatedAt": "2026-11-04T06:45:10.000Z",
+  "downloads": 1748,
   "tags": [
    "CHARACTERS",
    "CMAI",
@@ -1408,6 +1432,12 @@
    }
   ],
   "versions": [
+   {
+    "version": "0.1.6",
+    "gameVersion": "1.8.0.13",
+    "createdAt": "2026-11-04T06:44:22.000Z",
+    "size": 81045406
+   },
    {
     "version": "0.1.5",
     "gameVersion": "1.8.0.13",
@@ -1445,7 +1475,7 @@
     "size": 85600749
    }
   ],
-  "changelog": "0.1.5\nHealth rebalance: the Mycelian Queen now has 600 health with a stronger head and neck. The Mycelial Empyrean now has 15,000 health, and a new Mycelial Empyrean (Raid) has 60,000 health for boss fights. Other fungal creatures are unchanged.",
+  "changelog": "0.1.6\nMultiplayer fix: the two Game Master preview prefabs and the Game Master faction setup had no saved entity ID. A prefab without a saved ID gets a different ID on the server and on each client, and spawning it can disconnect players from a multiplayer server. Each one now carries its own saved ID.",
   "preview": "https://ar-gcp-cdn.bistudio.com/image/6188/41c95a7ec3dbfe9b3ca21e200540dd922779d5bb96e4801800f68498eddf/135841.jpg",
   "previewThumbs": [
    "https://ar-gcp-cdn.bistudio.com/image/b118/d3733e3db16fe54c2450b86c5b7c45c4afa3689c3035acbdf586019c78b1/114589.jpg",
@@ -1481,7 +1511,7 @@
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-10-15T10:13:41.000Z",
   "updatedAt": "2026-11-02T15:53:07.000Z",
-  "downloads": 1222,
+  "downloads": 1236,
   "tags": [
    "AI",
    "CHARACTERS",
@@ -1604,7 +1634,7 @@
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-10-15T23:43:22.000Z",
   "updatedAt": "2026-11-02T15:55:18.000Z",
-  "downloads": 694,
+  "downloads": 704,
   "tags": [
    "AI",
    "CHARACTERS",
@@ -1698,7 +1728,7 @@
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-10-16T11:15:49.000Z",
   "updatedAt": "2026-11-02T15:55:52.000Z",
-  "downloads": 1032,
+  "downloads": 1045,
   "tags": [
    "AI",
    "CHARACTERS",
@@ -1759,12 +1789,12 @@
   "license": "Arma Public License (APL)",
   "rating": 1,
   "ratingCount": 3,
-  "version": "0.1.4",
-  "sizeBytes": 20197661,
+  "version": "0.1.5",
+  "sizeBytes": 20197684,
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-10-16T11:10:30.000Z",
-  "updatedAt": "2026-11-02T15:40:56.000Z",
-  "downloads": 863,
+  "updatedAt": "2026-11-04T06:40:16.000Z",
+  "downloads": 876,
   "tags": [
    "AI",
    "BIGFOOT",
@@ -1780,6 +1810,12 @@
    }
   ],
   "versions": [
+   {
+    "version": "0.1.5",
+    "gameVersion": "1.8.0.13",
+    "createdAt": "2026-11-04T06:40:08.000Z",
+    "size": 20197684
+   },
    {
     "version": "0.1.4",
     "gameVersion": "1.8.0.13",
@@ -1811,7 +1847,7 @@
     "size": 46684920
    }
   ],
-  "changelog": "0.1.4\nHealth rebalance: Bigfoot keeps 600 health, and its head (240) and neck (200) are no longer fragile weak spots.",
+  "changelog": "0.1.5\nMultiplayer safety: the add-on's Game Master faction setup now carries its own saved entity ID, like every prefab should. Nothing else changes.",
   "preview": "https://ar-gcp-cdn.bistudio.com/image/0b02/7653ba48f1d019fbf7c0e2a6f6a3739d5d71b6c0fd3173bccfb37147f7af/177194.jpg",
   "previewThumbs": [
    "https://ar-gcp-cdn.bistudio.com/image/0292/98c254639f9ad46a710772cdd83b3859dffdbe0294d64a7c5d04dd06e5ee/148031.jpg",
@@ -1831,12 +1867,12 @@
   "license": "Arma Public License (APL)",
   "rating": 0,
   "ratingCount": 0,
-  "version": "0.1.2",
-  "sizeBytes": 46743699,
+  "version": "0.1.3",
+  "sizeBytes": 46743722,
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-10-22T00:49:08.000Z",
-  "updatedAt": "2026-11-02T15:50:02.000Z",
-  "downloads": 44,
+  "updatedAt": "2026-11-04T06:51:26.000Z",
+  "downloads": 48,
   "tags": [
    "CHARACTERS",
    "CMAI",
@@ -1852,6 +1888,12 @@
    }
   ],
   "versions": [
+   {
+    "version": "0.1.3",
+    "gameVersion": "1.8.0.13",
+    "createdAt": "2026-11-04T06:50:51.000Z",
+    "size": 46743722
+   },
    {
     "version": "0.1.2",
     "gameVersion": "1.8.0.13",
@@ -1871,7 +1913,7 @@
     "size": 46742934
    }
   ],
-  "changelog": "0.1.2\nHealth rebalance: the Harlequin now has 300 health, with consistent head, neck and body health.",
+  "changelog": "0.1.3\nMultiplayer safety: the add-on's Game Master faction setup now carries its own saved entity ID, like every prefab should. Nothing else changes.",
   "preview": "https://ar-gcp-cdn.bistudio.com/image/81a1/89a1fc25c692af6d2f22659d95a2df8fb84fa57fe403c4106cf42442cae6/50676.jpg",
   "previewThumbs": [
    "https://ar-gcp-cdn.bistudio.com/image/9a10/0ec1bb2f68b8d351744d69500710a03bf12ea7bbe4c88bfa2426aa588174/23198.jpg",
@@ -1900,12 +1942,12 @@
   "license": "Arma Public License (APL)",
   "rating": 1,
   "ratingCount": 7,
-  "version": "0.1.7",
-  "sizeBytes": 555542330,
+  "version": "0.1.8",
+  "sizeBytes": 555542353,
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-10-21T23:41:12.000Z",
-  "updatedAt": "2026-11-02T15:38:18.000Z",
-  "downloads": 1148,
+  "updatedAt": "2026-11-04T06:58:18.000Z",
+  "downloads": 1174,
   "tags": [
    "AI",
    "CHARACTERS",
@@ -1924,10 +1966,16 @@
    {
     "id": "9C6F9425B58142E7",
     "name": "Warbeasts",
-    "version": "1.0.6"
+    "version": "1.0.7"
    }
   ],
   "versions": [
+   {
+    "version": "0.1.8",
+    "gameVersion": "1.8.0.13",
+    "createdAt": "2026-11-04T06:54:48.000Z",
+    "size": 555542353
+   },
    {
     "version": "0.1.7",
     "gameVersion": "1.8.0.13",
@@ -1977,7 +2025,7 @@
     "size": 662004599
    }
   ],
-  "changelog": "Possessed orcs: the attack key now attacks with the orc's own weapon. Rebindable \"Switch melee / shoot (possessed orc)\" (keyboard V, gamepad B) under Settings > Controls > Grimdark Horde. In Shoot mode a small aim mark shows at the screen centre and shots fly to the point you look at. Possessed Greenskin melee now deals damage, and Warbasha and the Armoured Troll can swing when possessed.\nAI melee: orcs turn to face a target before they swing, standing orcs turn to a soldier beside or behind them, swing only the hand that holds the melee weapon, and deal damage when the blade lands instead of about half a second later. A target that steps aside during the swing can still be hit when it is within arm's length.\nGun orcs aim smoothly, keep their aim between bursts and hit soldiers on rooftops, upper floors and towers: they hold the target, look for a nearby spot with a clear shot and aim up to 80 deg. Bigger muzzle flashes and impacts, tracer rounds, and muzzle effects that stay on the barrel tip.\nThe two-sided axe of the Scrapper, Bone-Plate and Hunter is turned 90 degrees in the hand, so the edge leads the swing instead of the flat side.\nBreach: melee orcs break sandbags, fences, barbed wire, small walls and barricades in their path.\nWarband, Warbasha, Armoured Troll and Scrap Walker no longer fall unconscious. Warbasha has no flinch. The Scrap Walker turns at most 60 deg/s and small bullet hits no longer rock it. Warbasha and the Armoured Troll attack people in vehicles and flip the vehicle. The flamethrower sound stops when its orc dies.\nClearer health tiers: axe infantry 250, Warbasha 600, Armoured Troll 900.\nRemoved the Gunner, Marauder and Raider units in all skins and helmets, the Fire Support and Scout Pair groups, and their Game Master health sliders. Scenarios that placed these units need new units.\nKnown: Greenskin orcs break sandbags and barbed tape without a visible swing.",
+  "changelog": "Multiplayer fix: the Scrap Walker death visual had no saved entity ID. A prefab without a saved ID gets a different ID on the server and on each client, and spawning it can disconnect players from a multiplayer server. It now carries its own saved ID.",
   "preview": "https://ar-gcp-cdn.bistudio.com/image/4e66/13c07941c08b2700223b322bfc0c6845dc34fdf77a834f1cc41be9ed56ea/136515.jpg",
   "previewThumbs": [
    "https://ar-gcp-cdn.bistudio.com/image/431b/58c9ac2cfa4ca7d593c283cf5a0f1cad799a393e9e860ce2d92b981eb58a/117299.jpg",
@@ -2082,7 +2130,7 @@
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-08-30T18:18:07.000Z",
   "updatedAt": "2026-11-02T15:57:08.000Z",
-  "downloads": 50478,
+  "downloads": 50730,
   "tags": [
    "AI",
    "CHARACTERS",
@@ -2191,7 +2239,7 @@
   "gameVersion": "1.8.0.10",
   "createdAt": "2026-08-09T15:04:29.000Z",
   "updatedAt": "2026-08-30T20:00:54.000Z",
-  "downloads": 4511,
+  "downloads": 4519,
   "tags": [
    "AI",
    "REARM",
@@ -2248,7 +2296,7 @@
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-10-07T09:20:39.000Z",
   "updatedAt": "2026-10-09T10:56:14.000Z",
-  "downloads": 4306,
+  "downloads": 4322,
   "tags": [
    "CROSSBOW",
    "GAMEMASTER",
@@ -2321,7 +2369,7 @@
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-09-29T16:59:01.000Z",
   "updatedAt": "2026-10-01T19:16:41.000Z",
-  "downloads": 370,
+  "downloads": 371,
   "tags": [
    "BALLISTA",
    "MEDIEVAL",
