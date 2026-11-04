@@ -7,13 +7,13 @@
   "description": "When bitten, infection  develops over time and can spread through coughing. Dedicated medical equipment lets players test for infection before symptoms worsen. Early treatment can clear it. Suppressants only buy time. If an infected character dies, the same body can return as a zombie.\n\nRequires Project Outbreak. Released under the Arma Public License (APL).\n\nFor questions, join the Discord Server: \nhttps://discord.gg/JumfhFujRF",
   "license": "Arma Public License (APL)",
   "rating": 0.96,
-  "ratingCount": 24,
+  "ratingCount": 25,
   "version": "1.4.3",
   "sizeBytes": 21663520,
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-08-30T18:29:18.000Z",
   "updatedAt": "2026-11-02T16:10:47.000Z",
-  "downloads": 19680,
+  "downloads": 19736,
   "tags": [
    "INFECTION",
    "OUTBREAK",
@@ -119,7 +119,7 @@
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-08-30T18:31:09.000Z",
   "updatedAt": "2026-11-02T16:11:17.000Z",
-  "downloads": 15111,
+  "downloads": 15165,
   "tags": [
    "OUTBREAK",
    "SYSTEMS",
@@ -224,7 +224,7 @@
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-08-30T18:27:33.000Z",
   "updatedAt": "2026-11-02T16:12:49.000Z",
-  "downloads": 8053,
+  "downloads": 8082,
   "tags": [
    "GADGETS",
    "OUTBREAK",
@@ -333,7 +333,7 @@
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-09-27T03:27:42.000Z",
   "updatedAt": "2026-11-02T16:07:32.000Z",
-  "downloads": 8412,
+  "downloads": 8450,
   "tags": [
    "CHARACTERS",
    "CREATURES",
@@ -456,7 +456,7 @@
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-09-27T03:41:17.000Z",
   "updatedAt": "2026-11-02T16:10:20.000Z",
-  "downloads": 9681,
+  "downloads": 9722,
   "tags": [
    "CHARACTERS",
    "OUTBREAK",
@@ -577,7 +577,7 @@
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-09-22T02:24:31.000Z",
   "updatedAt": "2026-10-01T07:14:39.000Z",
-  "downloads": 203,
+  "downloads": 206,
   "tags": [
    "SCENARIOS_MP",
    "SYSTEMS"
@@ -974,7 +974,7 @@
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-10-08T02:57:35.000Z",
   "updatedAt": "2026-11-04T06:58:42.000Z",
-  "downloads": 486,
+  "downloads": 495,
   "tags": [
    "GLENWOOD",
    "LIGHT",
@@ -1078,7 +1078,7 @@
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-10-06T16:56:25.000Z",
   "updatedAt": "2026-11-04T06:46:53.000Z",
-  "downloads": 610,
+  "downloads": 620,
   "tags": [
    "AI",
    "BOSS",
@@ -1162,7 +1162,7 @@
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-10-02T05:03:39.000Z",
   "updatedAt": "2026-11-04T06:50:33.000Z",
-  "downloads": 2149,
+  "downloads": 2197,
   "tags": [
    "AI",
    "CHARACTERS",
@@ -1262,7 +1262,7 @@
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-10-03T17:41:42.000Z",
   "updatedAt": "2026-11-04T06:39:00.000Z",
-  "downloads": 1849,
+  "downloads": 1883,
   "tags": [
    "ALIEN",
    "CHARACTERS",
@@ -1362,7 +1362,7 @@
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-10-06T17:34:28.000Z",
   "updatedAt": "2026-11-02T15:54:01.000Z",
-  "downloads": 1119,
+  "downloads": 1129,
   "tags": [
    "CHARACTERS",
    "CMAI",
@@ -1416,7 +1416,7 @@
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-10-09T13:22:19.000Z",
   "updatedAt": "2026-11-04T06:45:10.000Z",
-  "downloads": 1767,
+  "downloads": 1796,
   "tags": [
    "CHARACTERS",
    "CMAI",
@@ -1511,7 +1511,7 @@
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-10-15T10:13:41.000Z",
   "updatedAt": "2026-11-02T15:53:07.000Z",
-  "downloads": 1246,
+  "downloads": 1262,
   "tags": [
    "AI",
    "CHARACTERS",
@@ -1634,7 +1634,7 @@
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-10-15T23:43:22.000Z",
   "updatedAt": "2026-11-02T15:55:18.000Z",
-  "downloads": 709,
+  "downloads": 717,
   "tags": [
    "AI",
    "CHARACTERS",
@@ -1728,7 +1728,7 @@
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-10-16T11:15:49.000Z",
   "updatedAt": "2026-11-02T15:55:52.000Z",
-  "downloads": 1050,
+  "downloads": 1065,
   "tags": [
    "AI",
    "CHARACTERS",
@@ -1794,7 +1794,7 @@
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-10-16T11:10:30.000Z",
   "updatedAt": "2026-11-04T06:40:16.000Z",
-  "downloads": 899,
+  "downloads": 924,
   "tags": [
    "AI",
    "BIGFOOT",
@@ -1872,7 +1872,7 @@
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-10-22T00:49:08.000Z",
   "updatedAt": "2026-11-04T06:51:26.000Z",
-  "downloads": 51,
+  "downloads": 53,
   "tags": [
    "CHARACTERS",
    "CMAI",
@@ -1947,7 +1947,7 @@
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-10-21T23:41:12.000Z",
   "updatedAt": "2026-11-04T06:58:18.000Z",
-  "downloads": 1188,
+  "downloads": 1226,
   "tags": [
    "AI",
    "CHARACTERS",
@@ -2130,7 +2130,7 @@
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-08-30T18:18:07.000Z",
   "updatedAt": "2026-11-02T15:57:08.000Z",
-  "downloads": 50908,
+  "downloads": 51105,
   "tags": [
    "AI",
    "CHARACTERS",
@@ -2239,7 +2239,7 @@
   "gameVersion": "1.8.0.10",
   "createdAt": "2026-08-09T15:04:29.000Z",
   "updatedAt": "2026-08-30T20:00:54.000Z",
-  "downloads": 4527,
+  "downloads": 4531,
   "tags": [
    "AI",
    "REARM",
@@ -2296,7 +2296,7 @@
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-10-07T09:20:39.000Z",
   "updatedAt": "2026-10-09T10:56:14.000Z",
-  "downloads": 4357,
+  "downloads": 4404,
   "tags": [
    "CROSSBOW",
    "GAMEMASTER",
@@ -2369,7 +2369,7 @@
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-09-29T16:59:01.000Z",
   "updatedAt": "2026-10-01T19:16:41.000Z",
-  "downloads": 373,
+  "downloads": 375,
   "tags": [
    "BALLISTA",
    "MEDIEVAL",
