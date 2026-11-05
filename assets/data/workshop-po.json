@@ -6,13 +6,13 @@
  "description": "Project Outbreak aims to enhance the Zombie experience in Arma Reforger. It includes various Zombie archetypes (slow, fast, crawling), animations, and ways to customize Zombie health and damage.\n\n\nPlace them directly through Game Master or use ambient populations and directed waves to shape an entire scenario.\n\n\n\n\nCredits and third-party licences:\n- Special thanks and credits to microplastic9000, this mod adapts Zombie Hive for Outbreak as well as the audio spatial fix under APL. A huge thank you also goes to AlienBallien (BallienCreatures) for  native creature ragdoll approach, extremely helpful for custom creatures in this mod and was used under APL.\n- Several attack and tackling animations come from Yummy Games, as well as sounds (https://www.fab.com/listings/f5e4fd19-febd-43b1-8799-b6c4c8f1f23b). Feral movement also uses Crawling Ghoul Anims (https://www.fab.com/listings/9e96b3f7-30ca-4221-a2eb-2bd46146b286) by RamsterZ. \n- Zombies Pack V4, Zombie Male AAB, Giant Zombie (Nephilim) and Decayed Zombie B by Studio New Punch, from Fab, used under the Fab Standard License. Modified and rigged for Arma Reforger.\n- Zombie Female: Nurse (the Nightingale), Crawling Ghoul Anims and RamsterZ Free Anims Volume 1 by RamsterZ, from Fab, used under their Fab licences\n- Spear animations: Cool Throwing Combat Animations by Bacengdu, from Fab, used under the Fab Standard License.\n\n\n\nRequires Creature Melee AI. Original Project Outbreak content is released under the Arma Public License (APL). Incorporated assets remain under the Fab Standard License.\n\nFor questions, join the Discord Server: \nhttps://discord.gg/JumfhFujRF\n\nTitle Screenshot by redeye.vol2\n\n\nSpecial thanks to ChuckyDUECE22 for contributing the Game Master spawn menu and resource browser filtering fix.",
  "license": "Arma Public License (APL)",
  "rating": 0.97,
- "ratingCount": 95,
- "version": "2.4.15",
- "sizeBytes": 210467362,
- "gameVersion": "1.8.0.13",
+ "ratingCount": 96,
+ "version": "2.4.16",
+ "sizeBytes": 210467383,
+ "gameVersion": "1.9.0.37",
  "createdAt": "2026-08-30T18:23:05.000Z",
- "updatedAt": "2026-11-04T23:08:17.000Z",
- "downloads": 43006,
+ "updatedAt": "2026-11-05T16:30:55.000Z",
+ "downloads": 43389,
  "tags": [
   "CHARACTERS",
   "INFECTION",
@@ -27,10 +27,16 @@
   {
    "id": "4FD4A1BD550793F4",
    "name": "Creature Melee AI",
-   "version": "1.8.17"
+   "version": "1.8.18"
   }
  ],
  "versions": [
+  {
+   "version": "2.4.16",
+   "gameVersion": "1.9.0.37",
+   "createdAt": "2026-11-05T16:25:32.000Z",
+   "size": 210467383
+  },
   {
    "version": "2.4.15",
    "gameVersion": "1.8.0.13",
@@ -84,15 +90,9 @@
    "gameVersion": "1.8.0.13",
    "createdAt": "2026-10-14T19:37:19.000Z",
    "size": 208226891
-  },
-  {
-   "version": "2.3.3",
-   "gameVersion": "1.8.0.13",
-   "createdAt": "2026-10-14T08:18:33.000Z",
-   "size": 208226282
   }
  ],
- "changelog": "2.4.15\nHotfix: Romero, Zombie Girl, Zombie Medic, Zombie Worker, the Handyman and the Firefighter from Project Outbreak Variety no longer spawn as a head with the rest of the body missing. Update Project Outbreak Variety to 1.2.6 as well.",
+ "changelog": "2.4.16\nArma Reforger 1.9 update: Project Outbreak works on game version 1.9 again. Version 1.9 changed a game function that zombie grabs build on, so every game or server with Project Outbreak loaded failed to start. Update Creature Melee AI to 1.8.18 as well. Nothing else changed.",
  "preview": "https://ar-gcp-cdn.bistudio.com/image/2acf/50af531c77fb7b5f21ca79df26665c5a3e9f10ff3b0c4d08f6876c6370b0/158082.jpg",
  "previewThumbs": [
   "https://ar-gcp-cdn.bistudio.com/image/4cca/713c0a0d13d35c848872dd5398d4de1a8324f8931ead8fd865d03c85c843/86448.jpg",

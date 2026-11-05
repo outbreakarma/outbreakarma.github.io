@@ -13,7 +13,7 @@
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-08-30T18:29:18.000Z",
   "updatedAt": "2026-11-02T16:10:47.000Z",
-  "downloads": 19863,
+  "downloads": 19995,
   "tags": [
    "INFECTION",
    "OUTBREAK",
@@ -24,12 +24,12 @@
    {
     "id": "4FD4A1BD550793F4",
     "name": "Creature Melee AI",
-    "version": "1.8.17"
+    "version": "1.8.18"
    },
    {
     "id": "F1D4B9B5245B36ED",
     "name": "Project Outbreak Zombies",
-    "version": "2.4.15"
+    "version": "2.4.16"
    }
   ],
   "versions": [
@@ -113,13 +113,13 @@
   "description": "Breach makes defensive positions less predictable. Zombies can batter through doors and turn windows into climbable openings. Fences can also give way under pressure. \n\n\nRequires Project Outbreak. Released under the Arma Public License (APL).\n\nFor questions, join the Discord Server: \nhttps://discord.gg/JumfhFujRF",
   "license": "Arma Public License (APL)",
   "rating": 0.94,
-  "ratingCount": 17,
+  "ratingCount": 18,
   "version": "1.3.5",
   "sizeBytes": 16672856,
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-08-30T18:31:09.000Z",
   "updatedAt": "2026-11-02T16:11:17.000Z",
-  "downloads": 15257,
+  "downloads": 15378,
   "tags": [
    "OUTBREAK",
    "SYSTEMS",
@@ -129,12 +129,12 @@
    {
     "id": "4FD4A1BD550793F4",
     "name": "Creature Melee AI",
-    "version": "1.8.17"
+    "version": "1.8.18"
    },
    {
     "id": "F1D4B9B5245B36ED",
     "name": "Project Outbreak Zombies",
-    "version": "2.4.15"
+    "version": "2.4.16"
    }
   ],
   "versions": [
@@ -217,14 +217,14 @@
   "summary": "An equipment pack that gives players more options when a horde closes in.",
   "description": "Gadgets adds practical tools that change the flow of an encounter. Draw zombies away with sound. Hold ground with fire or an electric fence. The recoverable M48 Talon Spear works up close and can also be thrown when distance matters.\n\nCredits and third-party licences:\nThe spear movement is adapted from https://www.fab.com/listings/fffbea69-14ff-499d-b85a-131171c1d6f8  by Bacengdu under the Fab Standard License. \n- Spear throw sound adapted from \"spear_thrust (6)\" by Yodguard, from Pixabay, used under the Pixabay Content License. https://pixabay.com/sound-effects/film-special-effects-spear-thrust-6-382403/\n\n\nRequires Project Outbreak. Original Gadgets content is released under the Arma Public License (APL).\n\nFor questions, join the Discord Server: \nhttps://discord.gg/JumfhFujRF",
   "license": "Arma Public License (APL)",
-  "rating": 0.92,
-  "ratingCount": 13,
+  "rating": 0.93,
+  "ratingCount": 14,
   "version": "1.2.5",
   "sizeBytes": 22733535,
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-08-30T18:27:33.000Z",
   "updatedAt": "2026-11-02T16:12:49.000Z",
-  "downloads": 8126,
+  "downloads": 8188,
   "tags": [
    "GADGETS",
    "OUTBREAK",
@@ -238,12 +238,12 @@
    {
     "id": "4FD4A1BD550793F4",
     "name": "Creature Melee AI",
-    "version": "1.8.17"
+    "version": "1.8.18"
    },
    {
     "id": "F1D4B9B5245B36ED",
     "name": "Project Outbreak Zombies",
-    "version": "2.4.15"
+    "version": "2.4.16"
    }
   ],
   "versions": [
@@ -327,13 +327,13 @@
   "description": "Adds optional zombie appearance families to Project Outbreak. Install Project Outbreak and its Creature Melee AI dependency first, then Variety.\n\nNew in 1.2.2: Zombie Girl, Romero, Zombie Medic (Chad) and Zombie Worker (Pete). Chad and Pete have corpse skin, glazed eyes and bloodied clothing. Existing military appearances and combat rules are unchanged.\n\nCredits and incorporated asset terms:\n- Studio New Punch: Zombies Pack V4, Zombie Male AAB, Giant Zombie (Nephilim) and Decayed Zombie B, obtained through Fab under the Fab Standard License and adapted for Reforger.\n- AlienBallien (BallienCreatures): native creature ragdoll workflow reference, used under the Arma Public License. Thank you for sharing this approach.\n- Adobe Mixamo: Zombiegirl W Kurniawan, Romero, Chad and Pete, adapted as integrated game characters under the Mixamo terms. These character assets are excluded from the APL grant. Raw downloads, editable scenes, FBX files and authoring textures are not distributed.\n- Bohemia Interactive: Arma Reforger, Enfusion and base-game resources.\n\nWorkshop licence: Arma Public License (APL) for original contributions. Incorporated assets retain their own licences and credits; this listing grants no additional rights to those assets. See THIRD_PARTY_NOTICES.md.",
   "license": "Arma Public License (APL)",
   "rating": 1,
-  "ratingCount": 18,
+  "ratingCount": 19,
   "version": "1.2.6",
   "sizeBytes": 920646808,
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-09-27T03:27:42.000Z",
   "updatedAt": "2026-11-04T23:16:28.000Z",
-  "downloads": 8610,
+  "downloads": 8736,
   "tags": [
    "CHARACTERS",
    "CREATURES",
@@ -345,12 +345,12 @@
    {
     "id": "4FD4A1BD550793F4",
     "name": "Creature Melee AI",
-    "version": "1.8.17"
+    "version": "1.8.18"
    },
    {
     "id": "F1D4B9B5245B36ED",
     "name": "Project Outbreak Zombies",
-    "version": "2.4.15"
+    "version": "2.4.16"
    }
   ],
   "versions": [
@@ -455,14 +455,14 @@
   "summary": "Optional Project Outbreak special zombies and creatures, including the Nephilim and Nightingale.",
   "description": "Adds optional special zombies and creatures to Project Outbreak. \n\nCurrent Roster:\n- (NEW) the Abomination, multiheaded freak. He only goes down if you kill all his heads (credit to Ghost35643 for concept!)\n- the Nephilim, a towering giant zombie with shirtless or military appearances, brutal throws, contact chokes, knockdown attacks\n- the Nightingale, a crying Half-Zombie who attracts hordes and runs away, hides inside buildings, closes doors, and uses her screams to knock nearby survivors down. Eliminate her to stop the horde!\n \n\nCredits and third-party licences:\n- Giant Zombie (Nephilim) by Studio New Punch, from Fab, used under the Fab Standard License. Modified and rigged for Arma Reforger.\n- Zombie Female: Nurse (the Nightingale) from Fab, used under the Fab Standard License.\n- Nephilim vocals: Zombies Sound Pack by artisticdude (CC0 1.0). https://opengameart.org/content/zombies-sound-pack\n- Nightingale vocal \"Crying female low tone Voice Over\" by JeanMyna_VA (OpenGameArt), licensed CC BY 3.0 (https://creativecommons.org/licenses/by/3.0/), edited. https://opengameart.org/content/crying-female-low-tone-voice-over-vocal-sound-for-character\n- Further Nightingale vocal sources under CC0 1.0, with thanks: WuxiaScrub, tcrocker68, AlucardsBride, RebekahDay, purplereptar, Samusasi, Pennywind.\n- Nightingale body base: MakeHuman hm08 topology and skin data (CC0 1.0); joepal_plain_bra (CC0); mindfront_nails_01_short by Mindfront (CC0 1.0).",
   "license": "Arma Public License (APL)",
-  "rating": 0.91,
-  "ratingCount": 22,
+  "rating": 0.92,
+  "ratingCount": 24,
   "version": "1.1.6",
   "sizeBytes": 345015715,
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-09-27T03:41:17.000Z",
   "updatedAt": "2026-11-02T16:10:20.000Z",
-  "downloads": 9805,
+  "downloads": 9917,
   "tags": [
    "CHARACTERS",
    "OUTBREAK",
@@ -473,12 +473,12 @@
    {
     "id": "4FD4A1BD550793F4",
     "name": "Creature Melee AI",
-    "version": "1.8.17"
+    "version": "1.8.18"
    },
    {
     "id": "F1D4B9B5245B36ED",
     "name": "Project Outbreak Zombies",
-    "version": "2.4.15"
+    "version": "2.4.16"
    }
   ],
   "versions": [
@@ -576,14 +576,14 @@
   "summary": "A Zombie Apocalypse PvE Project Outbreakscenario on the Glenwood terrain.",
   "description": "The undead have fully taken over Glenwood, a small American town. It's your job to retake it for the living. \n\nWHAT THIS IS \n- A PvE scenario on the Glenwood terrain, with the town dressed for the outbreak. \n- The infected are always there. They do not wait for a Game Master to place them. \n- Bases and radio relays across the map to take and hold, and a fixed main base to start from. \n- You fight the infected. \n\nWHO MADE THE PARTS \n\nThe outbreak mode is KdK Outbreak Zombie PVE by KdK CaptHero: its director, spawners, objectives and Game Master panel are what runs here. The dressed town is Dead Glenwood by Windy768, on the Glenwood terrain by vap3r, with Placeables for GM by Heine.CRV. The base layout follows MODERN PVE | GLENWOOD by guennyyy. Thank you to all of them; this scenario only arranges their work under APL.",
   "license": "Arma Public License (APL)",
-  "rating": 0,
-  "ratingCount": 1,
+  "rating": 0.5,
+  "ratingCount": 2,
   "version": "0.1.2",
   "sizeBytes": 3208147,
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-09-22T02:24:31.000Z",
   "updatedAt": "2026-10-01T07:14:39.000Z",
-  "downloads": 206,
+  "downloads": 213,
   "tags": [
    "SCENARIOS_MP",
    "SYSTEMS"
@@ -592,7 +592,7 @@
    {
     "id": "4FD4A1BD550793F4",
     "name": "Creature Melee AI",
-    "version": "1.8.17"
+    "version": "1.8.18"
    },
    {
     "id": "5965550F24A0C152",
@@ -787,22 +787,22 @@
    {
     "id": "65AD7BCC9F6B3B4E",
     "name": "ACE Chopping Dev",
-    "version": "1.5.36"
+    "version": "1.5.40"
    },
    {
     "id": "65AD7C379CBD394D",
     "name": "ACE Carrying Dev",
-    "version": "1.5.36"
+    "version": "1.5.40"
    },
    {
     "id": "65AD7D0D9941A380",
     "name": "ACE Core Dev",
-    "version": "1.5.39"
+    "version": "1.5.40"
    },
    {
     "id": "65AD7D4099944EBD",
     "name": "ACE Magazine Repack Dev",
-    "version": "1.5.36"
+    "version": "1.5.40"
    },
    {
     "id": "65B60A48AEC31157",
@@ -817,12 +817,12 @@
    {
     "id": "65DACC64CE785B6C",
     "name": "GRS - Dev Framework",
-    "version": "1.0.55"
+    "version": "1.0.56"
    },
    {
     "id": "6614B4EBC1A63458",
     "name": "ARMA-RY CORE",
-    "version": "1.0.33"
+    "version": "1.0.34"
    },
    {
     "id": "66330AEF351F0EEE",
@@ -832,32 +832,32 @@
    {
     "id": "663525C5DFA68E7A",
     "name": "ARMA-RY M14 Battle Rifle",
-    "version": "1.0.8"
+    "version": "1.0.9"
    },
    {
     "id": "664AFDC993C9CE1A",
     "name": "ACE Cook-Off Dev",
-    "version": "1.5.36"
+    "version": "1.5.40"
    },
    {
     "id": "665B1AF5996EB7AA",
     "name": "ARMA-RY M1911A1 PISTOL",
-    "version": "1.0.3"
+    "version": "1.0.4"
    },
    {
     "id": "665B3E73D7215B29",
     "name": "ARMA-RY DELTA 1911",
-    "version": "1.0.3"
+    "version": "1.0.4"
    },
    {
     "id": "66731579C7075EB3",
     "name": "ARMA-RY M79 GRENADE LAUNCHER",
-    "version": "1.0.7"
+    "version": "1.0.8"
    },
    {
     "id": "66873087C05E787C",
     "name": "ARMA-RY M3A1 GREASE GUN",
-    "version": "1.0.7"
+    "version": "1.0.8"
    },
    {
     "id": "66B523AD189F3233",
@@ -872,7 +872,7 @@
    {
     "id": "66D6340C1D565C98",
     "name": "Chungus Core",
-    "version": "1.0.10"
+    "version": "1.0.11"
    },
    {
     "id": "6727292F1032D5D1",
@@ -907,7 +907,7 @@
    {
     "id": "68EAA4B96976D557",
     "name": "ACE Facepaint Dev",
-    "version": "1.5.36"
+    "version": "1.5.40"
    },
    {
     "id": "68F006D910E7546F",
@@ -932,7 +932,7 @@
    {
     "id": "F1D4B9B5245B36ED",
     "name": "Project Outbreak Zombies",
-    "version": "2.4.15"
+    "version": "2.4.16"
    }
   ],
   "versions": [
@@ -974,13 +974,13 @@
   "description": "Glenwood is a small American town, and it has gone under. This is the Lite build of Project Outbreak Deadwood: the same scenario, with a much smaller download.\n\nWHAT THIS IS\n- A PvE scenario on the Glenwood terrain, with the town dressed for the outbreak.\n- The infected are always there. They do not wait for a Game Master to place them.\n- Bases and radio relays across the map to take and hold, and a fixed main base to start from.\n- You fight the infected.\n\nWHAT IS DIFFERENT FROM PROJECT OUTBREAK DEADWOOD\n- It needs only Project Outbreak (with Creature Melee AI and Infection) and the Glenwood map content. About 1.9 GB in total.\n- It does not include KdK Outbreak, or the extra weapons, vehicles and equipment add-ons. Use your own server mod pack for those.\n- Without KdK Outbreak there is no extra loot, no cap on the infected population and no automatic cleanup. Your own mod pack can add them.\n- This build has not had a full playtest yet. Please report problems.\n- Use it instead of Project Outbreak Deadwood, not together with it. Both share the same scenario content.\n\nWHO MADE THE PARTS\nThe dressed town is Dead Glenwood by Windy768, on the Glenwood terrain by vap3r, with Placeables for GM by Heine.CRV. The base layout follows MODERN PVE | GLENWOOD by guennyyy. The infected and the melee creatures come from Project Outbreak and Creature Melee AI. Thank you to all of them; this scenario only arranges their work under APL.",
   "license": "Arma Public License (APL)",
   "rating": 1,
-  "ratingCount": 3,
+  "ratingCount": 4,
   "version": "0.1.13",
   "sizeBytes": 3531623,
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-10-08T02:57:35.000Z",
   "updatedAt": "2026-11-04T06:58:42.000Z",
-  "downloads": 509,
+  "downloads": 535,
   "tags": [
    "GLENWOOD",
    "LIGHT",
@@ -993,7 +993,7 @@
    {
     "id": "4FD4A1BD550793F4",
     "name": "Creature Melee AI",
-    "version": "1.8.17"
+    "version": "1.8.18"
    },
    {
     "id": "61110CC4F1FF9C8A",
@@ -1018,7 +1018,7 @@
    {
     "id": "F1D4B9B5245B36ED",
     "name": "Project Outbreak Zombies",
-    "version": "2.4.15"
+    "version": "2.4.16"
    }
   ],
   "versions": [
@@ -1084,7 +1084,7 @@
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-10-06T16:56:25.000Z",
   "updatedAt": "2026-11-04T06:46:53.000Z",
-  "downloads": 639,
+  "downloads": 657,
   "tags": [
    "AI",
    "BOSS",
@@ -1097,7 +1097,7 @@
    {
     "id": "4FD4A1BD550793F4",
     "name": "Creature Melee AI",
-    "version": "1.8.17"
+    "version": "1.8.18"
    }
   ],
   "versions": [
@@ -1168,7 +1168,7 @@
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-10-02T05:03:39.000Z",
   "updatedAt": "2026-11-04T06:50:33.000Z",
-  "downloads": 2256,
+  "downloads": 2280,
   "tags": [
    "AI",
    "CHARACTERS",
@@ -1180,7 +1180,7 @@
    {
     "id": "4FD4A1BD550793F4",
     "name": "Creature Melee AI",
-    "version": "1.8.17"
+    "version": "1.8.18"
    }
   ],
   "versions": [
@@ -1268,7 +1268,7 @@
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-10-03T17:41:42.000Z",
   "updatedAt": "2026-11-04T06:39:00.000Z",
-  "downloads": 1911,
+  "downloads": 1949,
   "tags": [
    "ALIEN",
    "CHARACTERS",
@@ -1280,7 +1280,7 @@
    {
     "id": "4FD4A1BD550793F4",
     "name": "Creature Melee AI",
-    "version": "1.8.17"
+    "version": "1.8.18"
    }
   ],
   "versions": [
@@ -1368,7 +1368,7 @@
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-10-06T17:34:28.000Z",
   "updatedAt": "2026-11-02T15:54:01.000Z",
-  "downloads": 1135,
+  "downloads": 1159,
   "tags": [
    "CHARACTERS",
    "CMAI",
@@ -1380,7 +1380,7 @@
    {
     "id": "4FD4A1BD550793F4",
     "name": "Creature Melee AI",
-    "version": "1.8.17"
+    "version": "1.8.18"
    }
   ],
   "versions": [
@@ -1422,7 +1422,7 @@
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-10-09T13:22:19.000Z",
   "updatedAt": "2026-11-04T06:45:10.000Z",
-  "downloads": 1830,
+  "downloads": 1855,
   "tags": [
    "CHARACTERS",
    "CMAI",
@@ -1434,7 +1434,7 @@
    {
     "id": "4FD4A1BD550793F4",
     "name": "Creature Melee AI",
-    "version": "1.8.17"
+    "version": "1.8.18"
    }
   ],
   "versions": [
@@ -1517,7 +1517,7 @@
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-10-15T10:13:41.000Z",
   "updatedAt": "2026-11-02T15:53:07.000Z",
-  "downloads": 1282,
+  "downloads": 1314,
   "tags": [
    "AI",
    "CHARACTERS",
@@ -1530,7 +1530,7 @@
    {
     "id": "4FD4A1BD550793F4",
     "name": "Creature Melee AI",
-    "version": "1.8.17"
+    "version": "1.8.18"
    }
   ],
   "versions": [
@@ -1640,7 +1640,7 @@
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-10-15T23:43:22.000Z",
   "updatedAt": "2026-11-02T15:55:18.000Z",
-  "downloads": 737,
+  "downloads": 750,
   "tags": [
    "AI",
    "CHARACTERS",
@@ -1653,7 +1653,7 @@
    {
     "id": "4FD4A1BD550793F4",
     "name": "Creature Melee AI",
-    "version": "1.8.17"
+    "version": "1.8.18"
    }
   ],
   "versions": [
@@ -1734,7 +1734,7 @@
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-10-16T11:15:49.000Z",
   "updatedAt": "2026-11-02T15:55:52.000Z",
-  "downloads": 1085,
+  "downloads": 1105,
   "tags": [
    "AI",
    "CHARACTERS",
@@ -1746,7 +1746,7 @@
    {
     "id": "4FD4A1BD550793F4",
     "name": "Creature Melee AI",
-    "version": "1.8.17"
+    "version": "1.8.18"
    }
   ],
   "versions": [
@@ -1800,7 +1800,7 @@
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-10-16T11:10:30.000Z",
   "updatedAt": "2026-11-04T06:40:16.000Z",
-  "downloads": 945,
+  "downloads": 972,
   "tags": [
    "AI",
    "BIGFOOT",
@@ -1812,7 +1812,7 @@
    {
     "id": "4FD4A1BD550793F4",
     "name": "Creature Melee AI",
-    "version": "1.8.17"
+    "version": "1.8.18"
    }
   ],
   "versions": [
@@ -1878,7 +1878,7 @@
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-10-22T00:49:08.000Z",
   "updatedAt": "2026-11-04T06:51:26.000Z",
-  "downloads": 55,
+  "downloads": 58,
   "tags": [
    "CHARACTERS",
    "CMAI",
@@ -1890,7 +1890,7 @@
    {
     "id": "4FD4A1BD550793F4",
     "name": "Creature Melee AI",
-    "version": "1.8.17"
+    "version": "1.8.18"
    }
   ],
   "versions": [
@@ -1953,7 +1953,7 @@
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-10-21T23:41:12.000Z",
   "updatedAt": "2026-11-04T06:58:18.000Z",
-  "downloads": 1271,
+  "downloads": 1285,
   "tags": [
    "AI",
    "CHARACTERS",
@@ -1967,7 +1967,7 @@
    {
     "id": "4FD4A1BD550793F4",
     "name": "Creature Melee AI",
-    "version": "1.8.17"
+    "version": "1.8.18"
    },
    {
     "id": "9C6F9425B58142E7",
@@ -2130,13 +2130,13 @@
   "description": "Creature Melee AI (CMAI) is a reusable creature-AI framework for Arma Reforger. A Character-compatible entity can acquire an eligible hostile Character, pursue it continuously through native navigation, and request an attack through a replaceable attack contract.\n\n\nAUTHORING\nCreate a creature from one inherited prefab and one inherited settings file. CMAI owns the common targeting, pursuit, scheduler, damage-request, cleanup, and replication infrastructure while a project can replace the creature presentation and attack behavior.\n\n\nINTEGRATION\nPublic settings, APIs, and capability hooks support independent creature projects. Optional Slow, Hunter, and Fast examples are supplied for sandbox testing. Their Game Master cards use the non-playable Melee AI faction and remain disabled unless a maintainer deliberately enables the single integration switch.\n\n\nSCOPE\nCMAI depends only on the Arma Reforger Base Game. Project Outbreak is not required. CMAI does not provide a spawner, wave manager, population director, or scenario lifecycle; those remain responsibilities of the consuming project.\n\n\nCREDITS\nRetargeted zombie locomotion, attacks, feeding and reactions: Zombie_Pack, purchased under the Fab Standard License (https://www.fab.com/eula). Throw/carry animations: RamsterZ Free Anims Volume 1: https://www.fab.com/listings/9319491d-0e91-422c-9b67-ad4bf6c01a02. These compiled animations are embedded game content; their source assets are not included.\n\n\nMelee animation: Melee Combat Extended by Sanxisan (Anton Firsenko / TonyFierce). Five compiled two-handed clips retain the Arma Public License: https://reforger.armaplatform.com/workshop/6595113A3678CF5D-MeleeCombatExtended and https://www.bohemia.net/community/licenses/arma-public-license. One-handed animation resources (MIT license): https://github.com/TonyFierce/Melee-Combat-Extended-Resources. Complete component notices are included.\n\n\nGiant stomp animation: Giant Pack V01 by MandB Animation, retargeted and fitted for Reforger by Project Outbreak. Fab Standard License: https://www.fab.com/listings/6c958505-2e10-4600-b85c-668cd158d25d. Animation retargeting, native graph integration and authored adaptations are by Project Outbreak.\n\n\nCrawling Ghoul Anims by RamsterZ: https://www.fab.com/listings/9e96b3f7-30ca-4221-a2eb-2bd46146b286. Climbing animation from Free Animation Library by voxel vision: https://www.fab.com/listings/481ef75b-892b-424f-a213-f1cc058c9c19. Spear throw from Cool Throwing Combat Animations by Bacengdu: https://www.fab.com/listings/fffbea69-14ff-499d-b85a-131171c1d6f8. These compiled derivatives retain the Fab Standard License; editable sources are excluded.\n\n\nWorkshop licence: Arma Public License (APL). Incorporated assets retain their original licences and credits; this listing does not grant additional rights to those assets. See the included notices for component terms.\n\nShared dual-strike animation: original Epic Games character motion acquired under the Fab Standard License, retargeted and fitted for CMAI. Source: https://www.fab.com/listings/8c4bac2c-f7f7-4632-a644-47f4e104f5d8. Compiled game content only; editable sources and standalone redistribution are excluded.\n\n\nWerewolf claw animations: Werewolf by Lilpupinduy, Fab Standard License: https://www.fab.com/listings/e6d3f2fc-f64d-418b-b41d-1f8808be3f21. Bigfoot boxing animations created with Tripo3D under a paid license. These compiled animations are embedded game content; editable sources are excluded.\n\nStonekin motion: Armored Stone Golem - Dark Fantasy Boss by Alexander Lenski, acquired under the Fab Standard License: https://www.fab.com/listings/e40713f0-ebea-4f4d-ad9b-b577db4432d5. Retargeted and fitted by Project Outbreak. Compiled embedded game content only; editable sources and standalone animation redistribution are excluded.",
   "license": "Arma Public License (APL)",
   "rating": 1,
-  "ratingCount": 13,
-  "version": "1.8.17",
-  "sizeBytes": 12952522,
-  "gameVersion": "1.8.0.13",
+  "ratingCount": 14,
+  "version": "1.8.18",
+  "sizeBytes": 12952568,
+  "gameVersion": "1.9.0.37",
   "createdAt": "2026-08-30T18:18:07.000Z",
-  "updatedAt": "2026-11-02T15:57:08.000Z",
-  "downloads": 51475,
+  "updatedAt": "2026-11-05T16:23:58.000Z",
+  "downloads": 51865,
   "tags": [
    "AI",
    "CHARACTERS",
@@ -2148,6 +2148,12 @@
   ],
   "dependencies": [],
   "versions": [
+   {
+    "version": "1.8.18",
+    "gameVersion": "1.9.0.37",
+    "createdAt": "2026-11-05T16:23:42.000Z",
+    "size": 12952568
+   },
    {
     "version": "1.8.17",
     "gameVersion": "1.8.0.13",
@@ -2201,15 +2207,9 @@
     "gameVersion": "1.8.0.13",
     "createdAt": "2026-10-18T09:57:40.000Z",
     "size": 10067735
-   },
-   {
-    "version": "1.8.5",
-    "gameVersion": "1.8.0.13",
-    "createdAt": "2026-10-16T18:54:03.000Z",
-    "size": 10067439
    }
   ],
-  "changelog": "1.8.17\nLess server work per creature in large crowds. Creatures reuse their target lists, chase lanes, action reservations and formation slots instead of rebuilding them, and creatures or targets that are gone are cleared from the crowd lists. Debug-only chase log text is no longer built when logging is off. The shared scheduler now keeps its clock in whole milliseconds, which fixes creature timing that drifted on servers running for 18 hours or more.\nAlso: creatures no longer stand still for good after finishing a move. Ambient wanderers keep taking new legs, and a chase that finishes a leg picks the next one. Dead creatures are checked about every 1.5 seconds instead of four times a second, which frees time for the living. New shared head-first crawl animation and a prone leg-bite animation for crawling zombies.",
+  "changelog": "1.8.18\nArma Reforger 1.9 update: Creature Melee AI works on game version 1.9 again. Version 1.9 changed a game function that creature carries and throws build on, so every game or server with Creature Melee AI loaded failed to start. Nothing else changed.",
   "preview": "https://ar-gcp-cdn.bistudio.com/image/e345/f3b99d0c738344cd8d7364e0b3a3b1ada801834676f2a32b6473f50b0675/95814.jpg",
   "previewThumbs": [
    "https://ar-gcp-cdn.bistudio.com/image/826f/ac590b7bcada4b68dbb43c904a60861ba906bcc485de784f311194106075/55712.jpg",
@@ -2245,7 +2245,7 @@
   "gameVersion": "1.8.0.10",
   "createdAt": "2026-08-09T15:04:29.000Z",
   "updatedAt": "2026-08-30T20:00:54.000Z",
-  "downloads": 4540,
+  "downloads": 4552,
   "tags": [
    "AI",
    "REARM",
@@ -2302,7 +2302,7 @@
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-10-07T09:20:39.000Z",
   "updatedAt": "2026-10-09T10:56:14.000Z",
-  "downloads": 4444,
+  "downloads": 4625,
   "tags": [
    "CROSSBOW",
    "GAMEMASTER",
@@ -2375,7 +2375,7 @@
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-09-29T16:59:01.000Z",
   "updatedAt": "2026-10-01T19:16:41.000Z",
-  "downloads": 375,
+  "downloads": 377,
   "tags": [
    "BALLISTA",
    "MEDIEVAL",
