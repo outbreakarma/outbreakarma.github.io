@@ -6,13 +6,13 @@
  "description": "Project Outbreak aims to enhance the Zombie experience in Arma Reforger. It includes various Zombie archetypes (slow, fast, crawling), animations, and ways to customize Zombie health and damage.\n\n\nPlace them directly through Game Master or use ambient populations and directed waves to shape an entire scenario.\n\n\n\n\nCredits and third-party licences:\n- Special thanks and credits to microplastic9000, this mod adapts Zombie Hive for Outbreak as well as the audio spatial fix under APL. A huge thank you also goes to AlienBallien (BallienCreatures) for  native creature ragdoll approach, extremely helpful for custom creatures in this mod and was used under APL.\n- Several attack and tackling animations come from Yummy Games, as well as sounds (https://www.fab.com/listings/f5e4fd19-febd-43b1-8799-b6c4c8f1f23b). Feral movement also uses Crawling Ghoul Anims (https://www.fab.com/listings/9e96b3f7-30ca-4221-a2eb-2bd46146b286) by RamsterZ. \n- Zombies Pack V4, Zombie Male AAB, Giant Zombie (Nephilim) and Decayed Zombie B by Studio New Punch, from Fab, used under the Fab Standard License. Modified and rigged for Arma Reforger.\n- Zombie Female: Nurse (the Nightingale), Crawling Ghoul Anims and RamsterZ Free Anims Volume 1 by RamsterZ, from Fab, used under their Fab licences\n- Spear animations: Cool Throwing Combat Animations by Bacengdu, from Fab, used under the Fab Standard License.\n\n\n\nRequires Creature Melee AI. Original Project Outbreak content is released under the Arma Public License (APL). Incorporated assets remain under the Fab Standard License.\n\nFor questions, join the Discord Server: \nhttps://discord.gg/JumfhFujRF\n\nTitle Screenshot by redeye.vol2\n\n\nSpecial thanks to ChuckyDUECE22 for contributing the Game Master spawn menu and resource browser filtering fix.",
  "license": "Arma Public License (APL)",
  "rating": 0.97,
- "ratingCount": 94,
- "version": "2.4.14",
- "sizeBytes": 210467085,
+ "ratingCount": 95,
+ "version": "2.4.15",
+ "sizeBytes": 210467362,
  "gameVersion": "1.8.0.13",
  "createdAt": "2026-08-30T18:23:05.000Z",
- "updatedAt": "2026-11-04T04:56:50.000Z",
- "downloads": 42507,
+ "updatedAt": "2026-11-04T23:08:17.000Z",
+ "downloads": 42747,
  "tags": [
   "CHARACTERS",
   "INFECTION",
@@ -31,6 +31,12 @@
   }
  ],
  "versions": [
+  {
+   "version": "2.4.15",
+   "gameVersion": "1.8.0.13",
+   "createdAt": "2026-11-04T23:07:02.000Z",
+   "size": 210467362
+  },
   {
    "version": "2.4.14",
    "gameVersion": "1.8.0.13",
@@ -84,15 +90,9 @@
    "gameVersion": "1.8.0.13",
    "createdAt": "2026-10-14T08:18:33.000Z",
    "size": 208226282
-  },
-  {
-   "version": "2.3.2",
-   "gameVersion": "1.8.0.13",
-   "createdAt": "2026-10-13T20:28:58.000Z",
-   "size": 208225755
   }
  ],
- "changelog": "2.4.14\nHotfix: spawning a Crawlers x4, x8 or x16 group no longer kicks every player from a multiplayer server with a system failure.",
+ "changelog": "2.4.15\nHotfix: Romero, Zombie Girl, Zombie Medic, Zombie Worker, the Handyman and the Firefighter from Project Outbreak Variety no longer spawn as a head with the rest of the body missing. Update Project Outbreak Variety to 1.2.6 as well.",
  "preview": "https://ar-gcp-cdn.bistudio.com/image/2acf/50af531c77fb7b5f21ca79df26665c5a3e9f10ff3b0c4d08f6876c6370b0/158082.jpg",
  "previewThumbs": [
   "https://ar-gcp-cdn.bistudio.com/image/4cca/713c0a0d13d35c848872dd5398d4de1a8324f8931ead8fd865d03c85c843/86448.jpg",
@@ -100,6 +100,16 @@
   "https://ar-gcp-cdn.bistudio.com/image/5db5/65f032b063ddb913c8c352ca734ee4de391de0e49fdfc5ebb8e9733c4194/11059.jpg"
  ],
  "screenshots": [
+  {
+   "url": "https://ar-gcp-cdn.bistudio.com/image/454a/56d450b61fc74493f7a01799bae39470b133b97419b4a9cdaf94165cb2a4/338626.jpg",
+   "width": 1920,
+   "height": 1080,
+   "thumbs": [
+    "https://ar-gcp-cdn.bistudio.com/image/70b4/df2d11ac8529363855e5bb96791da98c356c4296a64b5fe3e15c4f2f287d/204307.jpg",
+    "https://ar-gcp-cdn.bistudio.com/image/a4db/4e68fcfcfd0722730db2820981482169029f094ff65c9134e96bbaad940d/62565.jpg",
+    "https://ar-gcp-cdn.bistudio.com/image/6495/21c0b1dbfe5769637b237e39984107f4c05ca8144852f2c618678954a157/17435.jpg"
+   ]
+  },
   {
    "url": "https://ar-gcp-cdn.bistudio.com/image/77ff/141ba6c5a704bf26a1f712258c5425727c9d6827e14916d9cf5f77238c7e/309394.jpg",
    "width": 1920,
@@ -118,16 +128,6 @@
     "https://ar-gcp-cdn.bistudio.com/image/13b5/75234680c932bbedada64b818e1fcdcfd8820a45e0998080c0d7fd195bd3/310409.jpg",
     "https://ar-gcp-cdn.bistudio.com/image/8872/1536e006d421621ff83b88fde5bbb100ee9afb0491b83120d9b068ce5dfd/97505.jpg",
     "https://ar-gcp-cdn.bistudio.com/image/bd79/bbecd6d9a8bcc34df811a9adddc5791fb081f10e16f47c81f76bff07b2e4/26086.jpg"
-   ]
-  },
-  {
-   "url": "https://ar-gcp-cdn.bistudio.com/image/454a/56d450b61fc74493f7a01799bae39470b133b97419b4a9cdaf94165cb2a4/338626.jpg",
-   "width": 1920,
-   "height": 1080,
-   "thumbs": [
-    "https://ar-gcp-cdn.bistudio.com/image/70b4/df2d11ac8529363855e5bb96791da98c356c4296a64b5fe3e15c4f2f287d/204307.jpg",
-    "https://ar-gcp-cdn.bistudio.com/image/a4db/4e68fcfcfd0722730db2820981482169029f094ff65c9134e96bbaad940d/62565.jpg",
-    "https://ar-gcp-cdn.bistudio.com/image/6495/21c0b1dbfe5769637b237e39984107f4c05ca8144852f2c618678954a157/17435.jpg"
    ]
   }
  ],
