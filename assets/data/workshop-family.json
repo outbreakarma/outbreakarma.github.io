@@ -8,12 +8,12 @@
   "license": "Arma Public License (APL)",
   "rating": 0.96,
   "ratingCount": 25,
-  "version": "1.4.3",
+  "version": "1.4.4",
   "sizeBytes": 21663520,
-  "gameVersion": "1.8.0.13",
+  "gameVersion": "1.9.0.37",
   "createdAt": "2026-08-30T18:29:18.000Z",
-  "updatedAt": "2026-11-02T16:10:47.000Z",
-  "downloads": 20248,
+  "updatedAt": "2026-11-06T16:42:12.000Z",
+  "downloads": 20445,
   "tags": [
    "INFECTION",
    "OUTBREAK",
@@ -24,15 +24,21 @@
    {
     "id": "4FD4A1BD550793F4",
     "name": "Creature Melee AI",
-    "version": "1.8.19"
+    "version": "1.8.20"
    },
    {
     "id": "F1D4B9B5245B36ED",
     "name": "Project Outbreak Zombies",
-    "version": "2.4.17"
+    "version": "2.4.18"
    }
   ],
   "versions": [
+   {
+    "version": "1.4.4",
+    "gameVersion": "1.9.0.37",
+    "createdAt": "2026-11-06T16:42:02.000Z",
+    "size": 21663520
+   },
    {
     "version": "1.4.3",
     "gameVersion": "1.8.0.13",
@@ -86,15 +92,9 @@
     "gameVersion": "1.8.0.13",
     "createdAt": "2026-09-29T15:35:01.000Z",
     "size": 10158442
-   },
-   {
-    "version": "1.2.0",
-    "gameVersion": "1.8.0.13",
-    "createdAt": "2026-09-27T00:39:21.000Z",
-    "size": 10158593
    }
   ],
-  "changelog": "1.4.3\nLess server work per infected body. Damage checks run the cheap refusals first, pending turns are checked in small batches, and a risen zombie keeps its blood state on its own body. A joining player now gets one message listing the bloodied zombies, instead of every client getting one broadcast per zombie. Debug lines only print when turn diagnostics are on.",
+  "changelog": "1.4.4\nCompatibility update for Arma Reforger 1.9. Game content is unchanged.",
   "preview": "https://ar-gcp-cdn.bistudio.com/image/890a/2e690a44cd0ecea4b7e7e336db3d449f24c67280e27b944b11a6367bbd43/259454.jpg",
   "previewThumbs": [
    "https://ar-gcp-cdn.bistudio.com/image/2ee0/8108bfa63848f0565577b852b3d6bf0f53839d070af590ff24e1f9e19328/140121.jpg",
@@ -114,12 +114,12 @@
   "license": "Arma Public License (APL)",
   "rating": 0.94,
   "ratingCount": 18,
-  "version": "1.3.5",
+  "version": "1.3.6",
   "sizeBytes": 16672856,
-  "gameVersion": "1.8.0.13",
+  "gameVersion": "1.9.0.37",
   "createdAt": "2026-08-30T18:31:09.000Z",
-  "updatedAt": "2026-11-02T16:11:17.000Z",
-  "downloads": 15587,
+  "updatedAt": "2026-11-06T16:43:53.000Z",
+  "downloads": 15753,
   "tags": [
    "OUTBREAK",
    "SYSTEMS",
@@ -129,15 +129,21 @@
    {
     "id": "4FD4A1BD550793F4",
     "name": "Creature Melee AI",
-    "version": "1.8.19"
+    "version": "1.8.20"
    },
    {
     "id": "F1D4B9B5245B36ED",
     "name": "Project Outbreak Zombies",
-    "version": "2.4.17"
+    "version": "2.4.18"
    }
   ],
   "versions": [
+   {
+    "version": "1.3.6",
+    "gameVersion": "1.9.0.37",
+    "createdAt": "2026-11-06T16:43:43.000Z",
+    "size": 16672856
+   },
    {
     "version": "1.3.5",
     "gameVersion": "1.8.0.13",
@@ -191,15 +197,9 @@
     "gameVersion": "1.8.0.13",
     "createdAt": "2026-09-05T22:22:38.000Z",
     "size": 281447
-   },
-   {
-    "version": "1.1.0",
-    "gameVersion": "1.8.0.13",
-    "createdAt": "2026-09-04T19:51:43.000Z",
-    "size": 281289
    }
   ],
-  "changelog": "1.3.5\nWire no longer knocks Giants down. Other zombies knocked down by wire fall a few per frame through Project Outbreak's shared queue instead of all at once. Barricade remains are removed after the obstacle scan instead of during it.\nLess siege work per zombie at doors and windows. Opening lists are trimmed once per frame, nearby openings are found by area, door hit particles and sounds are skipped on dedicated servers, and removed windows no longer re-apply their removed state every 2 seconds while it still holds. The fallback probe timer stays accurate on servers that run for many hours.",
+  "changelog": "1.3.6\nCompatibility update for Arma Reforger 1.9. Game content is unchanged.",
   "preview": "https://ar-gcp-cdn.bistudio.com/image/5bed/0a8b466346b0229c97c156bbf024f76419a6e1eb8b960a36b00e9145fbce/224343.jpg",
   "previewThumbs": [
    "https://ar-gcp-cdn.bistudio.com/image/7d75/5da9027f13bd2eb53c9792887fcf71e0a0198a257243bda52f28bcf15e8e/115565.jpg",
@@ -219,12 +219,12 @@
   "license": "Arma Public License (APL)",
   "rating": 0.93,
   "ratingCount": 14,
-  "version": "1.2.5",
+  "version": "1.2.6",
   "sizeBytes": 22733535,
-  "gameVersion": "1.8.0.13",
+  "gameVersion": "1.9.0.37",
   "createdAt": "2026-08-30T18:27:33.000Z",
-  "updatedAt": "2026-11-02T16:12:49.000Z",
-  "downloads": 8304,
+  "updatedAt": "2026-11-06T16:44:40.000Z",
+  "downloads": 8394,
   "tags": [
    "GADGETS",
    "OUTBREAK",
@@ -238,15 +238,21 @@
    {
     "id": "4FD4A1BD550793F4",
     "name": "Creature Melee AI",
-    "version": "1.8.19"
+    "version": "1.8.20"
    },
    {
     "id": "F1D4B9B5245B36ED",
     "name": "Project Outbreak Zombies",
-    "version": "2.4.17"
+    "version": "2.4.18"
    }
   ],
   "versions": [
+   {
+    "version": "1.2.6",
+    "gameVersion": "1.9.0.37",
+    "createdAt": "2026-11-06T16:44:24.000Z",
+    "size": 22733535
+   },
    {
     "version": "1.2.5",
     "gameVersion": "1.8.0.13",
@@ -300,15 +306,9 @@
     "gameVersion": "1.8.0.13",
     "createdAt": "2026-09-14T06:25:14.000Z",
     "size": 22699911
-   },
-   {
-    "version": "1.0.8",
-    "gameVersion": "1.8.0.13",
-    "createdAt": "2026-09-07T08:14:33.000Z",
-    "size": 23156654
    }
   ],
-  "changelog": "1.2.5\nReworks how electro grenades, electro traps and electric fences knock down Giants, to go after the dedicated server crashes seen when several Giants were shocked at once. Knockdowns now wait until the area scan has finished and then fall a few per frame. A Giant is knocked down on every fourth shock that would lift it. The other shocks still do their damage. Fences handle at most 4 shocks per 100 ms tick and the rest wait one tick.\nAlso less server and client work. Lures no longer scan up to 420 m on every pulse. One electro pulse sends one network message instead of one per target. Fence contact checks only look at nearby sections. Napalm flames and petrol trails may appear a few frames later under heavy load. Proximity trap timers stay accurate on servers that run for many hours.\nAlso: the M48 spear sits correctly on Giants, and survivors and movement leases no longer stop after finishing a move.",
+  "changelog": "1.2.6\nCompatibility update for Arma Reforger 1.9. Game content is unchanged.",
   "preview": "https://ar-gcp-cdn.bistudio.com/image/50f0/70743126ffaf4c694e4506551cbf16b5792a9cb03a44a105d4a5a54cd86f/280700.jpg",
   "previewThumbs": [
    "https://ar-gcp-cdn.bistudio.com/image/e37d/dfafedce4959e15b52b2a75c3e7bd274aaec1e373dd7958adf0fa9c26b10/151800.jpg",
@@ -328,12 +328,12 @@
   "license": "Arma Public License (APL)",
   "rating": 1,
   "ratingCount": 19,
-  "version": "1.2.6",
+  "version": "1.2.7",
   "sizeBytes": 920646808,
-  "gameVersion": "1.8.0.13",
+  "gameVersion": "1.9.0.37",
   "createdAt": "2026-09-27T03:27:42.000Z",
-  "updatedAt": "2026-11-04T23:16:28.000Z",
-  "downloads": 8974,
+  "updatedAt": "2026-11-06T16:50:13.000Z",
+  "downloads": 9120,
   "tags": [
    "CHARACTERS",
    "CREATURES",
@@ -345,15 +345,21 @@
    {
     "id": "4FD4A1BD550793F4",
     "name": "Creature Melee AI",
-    "version": "1.8.19"
+    "version": "1.8.20"
    },
    {
     "id": "F1D4B9B5245B36ED",
     "name": "Project Outbreak Zombies",
-    "version": "2.4.17"
+    "version": "2.4.18"
    }
   ],
   "versions": [
+   {
+    "version": "1.2.7",
+    "gameVersion": "1.9.0.37",
+    "createdAt": "2026-11-06T16:46:44.000Z",
+    "size": 920646808
+   },
    {
     "version": "1.2.6",
     "gameVersion": "1.8.0.13",
@@ -409,7 +415,7 @@
     "size": 696194989
    }
   ],
-  "changelog": "1.2.6\nHotfix: Romero, Zombie Girl, Zombie Medic, Zombie Worker, the four Handyman looks and the Firefighter no longer spawn as a head with the rest of the body missing. Needs Project Outbreak 2.4.15, which comes out at the same time.",
+  "changelog": "1.2.7\nCompatibility update for Arma Reforger 1.9. Game content is unchanged.",
   "preview": "https://ar-gcp-cdn.bistudio.com/image/2053/f038bf59f6c6534176196a61137d6dbe4fb722ca71070f0d6eeed21f5d59/184251.jpg",
   "previewThumbs": [
    "https://ar-gcp-cdn.bistudio.com/image/2266/e99e443af4641f628f1c02046ad09313dcfc4f2cc887252d74a677a59a27/106924.jpg",
@@ -457,12 +463,12 @@
   "license": "Arma Public License (APL)",
   "rating": 0.92,
   "ratingCount": 24,
-  "version": "1.1.6",
+  "version": "1.1.7",
   "sizeBytes": 345015715,
-  "gameVersion": "1.8.0.13",
+  "gameVersion": "1.9.0.37",
   "createdAt": "2026-09-27T03:41:17.000Z",
-  "updatedAt": "2026-11-02T16:10:20.000Z",
-  "downloads": 10134,
+  "updatedAt": "2026-11-06T16:53:42.000Z",
+  "downloads": 10293,
   "tags": [
    "CHARACTERS",
    "OUTBREAK",
@@ -473,15 +479,21 @@
    {
     "id": "4FD4A1BD550793F4",
     "name": "Creature Melee AI",
-    "version": "1.8.19"
+    "version": "1.8.20"
    },
    {
     "id": "F1D4B9B5245B36ED",
     "name": "Project Outbreak Zombies",
-    "version": "2.4.17"
+    "version": "2.4.18"
    }
   ],
   "versions": [
+   {
+    "version": "1.1.7",
+    "gameVersion": "1.9.0.37",
+    "createdAt": "2026-11-06T16:52:17.000Z",
+    "size": 345015715
+   },
    {
     "version": "1.1.6",
     "gameVersion": "1.8.0.13",
@@ -537,7 +549,7 @@
     "size": 286261472
    }
   ],
-  "changelog": "1.1.6\nThe Mutant no longer runs its melee check every frame on players' machines, where it had nothing to do. This saves client frame time when many Mutants are nearby. The Mutant's attacks are unchanged. Leg shots do not turn the Nephilim, the Abomination or the Nightingale into crawlers; they stay on their feet.",
+  "changelog": "1.1.7\nCompatibility update for Arma Reforger 1.9. Game content is unchanged.",
   "preview": "https://ar-gcp-cdn.bistudio.com/image/4b24/99d64077c30e62e9a0d8ed0ab163fe1b7bac2e78509ca21785dab0cd6b9e/174704.jpg",
   "previewThumbs": [
    "https://ar-gcp-cdn.bistudio.com/image/28cd/aa089bafe98a3234848bef4bc56c51fbaafeb93b300c9fed496c3de38363/100238.jpg",
@@ -583,7 +595,7 @@
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-09-22T02:24:31.000Z",
   "updatedAt": "2026-10-01T07:14:39.000Z",
-  "downloads": 218,
+  "downloads": 229,
   "tags": [
    "SCENARIOS_MP",
    "SYSTEMS"
@@ -592,7 +604,7 @@
    {
     "id": "4FD4A1BD550793F4",
     "name": "Creature Melee AI",
-    "version": "1.8.19"
+    "version": "1.8.20"
    },
    {
     "id": "5965550F24A0C152",
@@ -697,7 +709,7 @@
    {
     "id": "6209E38AB237098E",
     "name": "Project Outbreak Breach",
-    "version": "1.3.5"
+    "version": "1.3.6"
    },
    {
     "id": "620E584B1D2C96A4",
@@ -922,17 +934,17 @@
    {
     "id": "6B9BD0DA529C0D1E",
     "name": "Project Outbreak Gadgets",
-    "version": "1.2.5"
+    "version": "1.2.6"
    },
    {
     "id": "7B763100BAFA1F9A",
     "name": "Project Outbreak Infection",
-    "version": "1.4.3"
+    "version": "1.4.4"
    },
    {
     "id": "F1D4B9B5245B36ED",
     "name": "Project Outbreak Zombies",
-    "version": "2.4.17"
+    "version": "2.4.18"
    }
   ],
   "versions": [
@@ -975,12 +987,12 @@
   "license": "Arma Public License (APL)",
   "rating": 1,
   "ratingCount": 4,
-  "version": "0.1.13",
+  "version": "0.1.14",
   "sizeBytes": 3531623,
-  "gameVersion": "1.8.0.13",
+  "gameVersion": "1.9.0.37",
   "createdAt": "2026-10-08T02:57:35.000Z",
-  "updatedAt": "2026-11-04T06:58:42.000Z",
-  "downloads": 572,
+  "updatedAt": "2026-11-06T16:55:22.000Z",
+  "downloads": 607,
   "tags": [
    "GLENWOOD",
    "LIGHT",
@@ -993,7 +1005,7 @@
    {
     "id": "4FD4A1BD550793F4",
     "name": "Creature Melee AI",
-    "version": "1.8.19"
+    "version": "1.8.20"
    },
    {
     "id": "61110CC4F1FF9C8A",
@@ -1013,15 +1025,21 @@
    {
     "id": "7B763100BAFA1F9A",
     "name": "Project Outbreak Infection",
-    "version": "1.4.3"
+    "version": "1.4.4"
    },
    {
     "id": "F1D4B9B5245B36ED",
     "name": "Project Outbreak Zombies",
-    "version": "2.4.17"
+    "version": "2.4.18"
    }
   ],
   "versions": [
+   {
+    "version": "0.1.14",
+    "gameVersion": "1.9.0.37",
+    "createdAt": "2026-11-06T16:55:15.000Z",
+    "size": 3531623
+   },
    {
     "version": "0.1.13",
     "gameVersion": "1.8.0.13",
@@ -1059,7 +1077,7 @@
     "size": 3207603
    }
   ],
-  "changelog": "0.1.13\nMultiplayer fix: the three tunnel zombie groups (Feral, Sprinters and Shamblers) had no saved entity ID, the same fault that made the Project Outbreak crawler groups kick players. A prefab without a saved ID gets a different ID on the server and on each client, and spawning it can disconnect players from a multiplayer server. Each group now carries its own saved ID.",
+  "changelog": "0.1.14\nCompatibility update for Arma Reforger 1.9. Game content is unchanged.",
   "preview": "https://ar-gcp-cdn.bistudio.com/image/6a92/2db8d6d18bfe9e72772ce468b6aed7242865b1b1a4ad99222d6b431e8954/296643.jpg",
   "previewThumbs": [
    "https://ar-gcp-cdn.bistudio.com/image/a586/49e091f21648996c31da3c96e37ad42a3267479443b2cf014229eb2adf45/139140.jpg",
@@ -1079,12 +1097,12 @@
   "license": "Arma Public License (APL)",
   "rating": 1,
   "ratingCount": 4,
-  "version": "0.1.4",
+  "version": "0.1.5",
   "sizeBytes": 136329840,
-  "gameVersion": "1.8.0.13",
+  "gameVersion": "1.9.0.37",
   "createdAt": "2026-10-06T16:56:25.000Z",
-  "updatedAt": "2026-11-04T06:46:53.000Z",
-  "downloads": 676,
+  "updatedAt": "2026-11-06T16:31:10.000Z",
+  "downloads": 686,
   "tags": [
    "AI",
    "BOSS",
@@ -1097,10 +1115,16 @@
    {
     "id": "4FD4A1BD550793F4",
     "name": "Creature Melee AI",
-    "version": "1.8.19"
+    "version": "1.8.20"
    }
   ],
   "versions": [
+   {
+    "version": "0.1.5",
+    "gameVersion": "1.9.0.37",
+    "createdAt": "2026-11-06T16:30:20.000Z",
+    "size": 136329840
+   },
    {
     "version": "0.1.4",
     "gameVersion": "1.8.0.13",
@@ -1132,7 +1156,7 @@
     "size": 136492379
    }
   ],
-  "changelog": "0.1.4\nMultiplayer safety: the add-on's Game Master faction setup now carries its own saved entity ID, like every prefab should. Nothing else changes.",
+  "changelog": "0.1.5\nCompatibility update for Arma Reforger 1.9. Game content is unchanged.",
   "preview": "https://ar-gcp-cdn.bistudio.com/image/d0d1/88984ccc8eab5be9a8d2dcc64106c5cee0014ec30d03fb6137604d4a18fc/130053.jpg",
   "previewThumbs": [
    "https://ar-gcp-cdn.bistudio.com/image/ded0/f49ea12ca81bbfd979b160d22ddd1935f62cece61f881a8e3927ac26431a/112173.jpg",
@@ -1163,12 +1187,12 @@
   "license": "Arma Public License (APL)",
   "rating": 1,
   "ratingCount": 11,
-  "version": "1.0.7",
+  "version": "1.0.8",
   "sizeBytes": 257419806,
-  "gameVersion": "1.8.0.13",
+  "gameVersion": "1.9.0.37",
   "createdAt": "2026-10-02T05:03:39.000Z",
-  "updatedAt": "2026-11-04T06:50:33.000Z",
-  "downloads": 2333,
+  "updatedAt": "2026-11-06T16:34:23.000Z",
+  "downloads": 2365,
   "tags": [
    "AI",
    "CHARACTERS",
@@ -1180,10 +1204,16 @@
    {
     "id": "4FD4A1BD550793F4",
     "name": "Creature Melee AI",
-    "version": "1.8.19"
+    "version": "1.8.20"
    }
   ],
   "versions": [
+   {
+    "version": "1.0.8",
+    "gameVersion": "1.9.0.37",
+    "createdAt": "2026-11-06T16:32:43.000Z",
+    "size": 257419806
+   },
    {
     "version": "1.0.7",
     "gameVersion": "1.8.0.13",
@@ -1233,7 +1263,7 @@
     "size": 143230543
    }
   ],
-  "changelog": "1.0.7\nMultiplayer safety: the add-on's Game Master faction setup now carries its own saved entity ID, like every prefab should. Nothing else changes.",
+  "changelog": "1.0.8\nCompatibility update for Arma Reforger 1.9. Game content is unchanged.",
   "preview": "https://ar-gcp-cdn.bistudio.com/image/324a/f854dd2023ffc67cf9f4e3d2a651dcaeb81e9bc907768f80366b4dde60a7/292044.jpg",
   "previewThumbs": [
    "https://ar-gcp-cdn.bistudio.com/image/84d1/d734c68bef7105a26ae09ad588815c6d269fcd36ca4a70608bd3978e7f1f/160052.jpg",
@@ -1268,7 +1298,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-10-03T17:41:42.000Z",
   "updatedAt": "2026-11-06T14:11:39.000Z",
-  "downloads": 2018,
+  "downloads": 2068,
   "tags": [
    "ALIEN",
    "CHARACTERS",
@@ -1280,7 +1310,7 @@
    {
     "id": "4FD4A1BD550793F4",
     "name": "Creature Melee AI",
-    "version": "1.8.19"
+    "version": "1.8.20"
    }
   ],
   "versions": [
@@ -1369,12 +1399,12 @@
   "license": "Arma Public License (APL)",
   "rating": 0.83,
   "ratingCount": 6,
-  "version": "0.1.1",
+  "version": "0.1.2",
   "sizeBytes": 50599914,
-  "gameVersion": "1.8.0.13",
+  "gameVersion": "1.9.0.37",
   "createdAt": "2026-10-06T17:34:28.000Z",
-  "updatedAt": "2026-11-02T15:54:01.000Z",
-  "downloads": 1187,
+  "updatedAt": "2026-11-06T16:39:20.000Z",
+  "downloads": 1209,
   "tags": [
    "CHARACTERS",
    "CMAI",
@@ -1386,10 +1416,16 @@
    {
     "id": "4FD4A1BD550793F4",
     "name": "Creature Melee AI",
-    "version": "1.8.19"
+    "version": "1.8.20"
    }
   ],
   "versions": [
+   {
+    "version": "0.1.2",
+    "gameVersion": "1.9.0.37",
+    "createdAt": "2026-11-06T16:38:58.000Z",
+    "size": 50599914
+   },
    {
     "version": "0.1.1",
     "gameVersion": "1.8.0.13",
@@ -1403,7 +1439,7 @@
     "size": 50599905
    }
   ],
-  "changelog": "0.1.1\nHealth rebalance: the Maulkin now has 300 health, tougher than a human without becoming a boss.",
+  "changelog": "0.1.2\nCompatibility update for Arma Reforger 1.9. Game content is unchanged.",
   "preview": "https://ar-gcp-cdn.bistudio.com/image/3b5f/dba20089df8aa0de3084ef8d1296d75d8bbbf289409411c9cee049153f1c/146303.jpg",
   "previewThumbs": [
    "https://ar-gcp-cdn.bistudio.com/image/f666/3764d615702f3e7c93bb17da06fdbc72792f55ca03f4e1f7e3a77b997223/121705.jpg",
@@ -1423,12 +1459,12 @@
   "license": "Arma Public License (APL)",
   "rating": 1,
   "ratingCount": 18,
-  "version": "0.1.6",
+  "version": "0.1.7",
   "sizeBytes": 81045406,
-  "gameVersion": "1.8.0.13",
+  "gameVersion": "1.9.0.37",
   "createdAt": "2026-10-09T13:22:19.000Z",
-  "updatedAt": "2026-11-04T06:45:10.000Z",
-  "downloads": 1908,
+  "updatedAt": "2026-11-06T16:29:16.000Z",
+  "downloads": 1941,
   "tags": [
    "CHARACTERS",
    "CMAI",
@@ -1440,10 +1476,16 @@
    {
     "id": "4FD4A1BD550793F4",
     "name": "Creature Melee AI",
-    "version": "1.8.19"
+    "version": "1.8.20"
    }
   ],
   "versions": [
+   {
+    "version": "0.1.7",
+    "gameVersion": "1.9.0.37",
+    "createdAt": "2026-11-06T16:28:37.000Z",
+    "size": 81045406
+   },
    {
     "version": "0.1.6",
     "gameVersion": "1.8.0.13",
@@ -1487,7 +1529,7 @@
     "size": 85600749
    }
   ],
-  "changelog": "0.1.6\nMultiplayer fix: the two Game Master preview prefabs and the Game Master faction setup had no saved entity ID. A prefab without a saved ID gets a different ID on the server and on each client, and spawning it can disconnect players from a multiplayer server. Each one now carries its own saved ID.",
+  "changelog": "0.1.7\nCompatibility update for Arma Reforger 1.9. Game content is unchanged.",
   "preview": "https://ar-gcp-cdn.bistudio.com/image/6188/41c95a7ec3dbfe9b3ca21e200540dd922779d5bb96e4801800f68498eddf/135841.jpg",
   "previewThumbs": [
    "https://ar-gcp-cdn.bistudio.com/image/b118/d3733e3db16fe54c2450b86c5b7c45c4afa3689c3035acbdf586019c78b1/114589.jpg",
@@ -1518,12 +1560,12 @@
   "license": "Arma Public License (APL)",
   "rating": 1,
   "ratingCount": 8,
-  "version": "0.1.4",
+  "version": "0.1.5",
   "sizeBytes": 15852239,
-  "gameVersion": "1.8.0.13",
+  "gameVersion": "1.9.0.37",
   "createdAt": "2026-10-15T10:13:41.000Z",
-  "updatedAt": "2026-11-02T15:53:07.000Z",
-  "downloads": 1369,
+  "updatedAt": "2026-11-06T16:38:31.000Z",
+  "downloads": 1431,
   "tags": [
    "AI",
    "CHARACTERS",
@@ -1536,10 +1578,16 @@
    {
     "id": "4FD4A1BD550793F4",
     "name": "Creature Melee AI",
-    "version": "1.8.19"
+    "version": "1.8.20"
    }
   ],
   "versions": [
+   {
+    "version": "0.1.5",
+    "gameVersion": "1.9.0.37",
+    "createdAt": "2026-11-06T16:38:26.000Z",
+    "size": 15852239
+   },
    {
     "version": "0.1.4",
     "gameVersion": "1.8.0.13",
@@ -1571,7 +1619,7 @@
     "size": 15848919
    }
   ],
-  "changelog": "0.1.4\nHealth rebalance: the Lumenkin now has 1,200 health, with a 450 head and 350 neck.",
+  "changelog": "0.1.5\nCompatibility update for Arma Reforger 1.9. Game content is unchanged.",
   "preview": "https://ar-gcp-cdn.bistudio.com/image/f9aa/c256aec445bb2f6700150d28dd40b7969eb68685d34703b675daaf754fa2/29054.jpg",
   "previewThumbs": [
    "https://ar-gcp-cdn.bistudio.com/image/383e/99e8829522cd909ce45b159d5b30d03c2e24220e4eb5395adb3df8ab6c60/24542.jpg",
@@ -1646,7 +1694,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-10-15T23:43:22.000Z",
   "updatedAt": "2026-11-05T20:03:00.000Z",
-  "downloads": 813,
+  "downloads": 827,
   "tags": [
    "AI",
    "CHARACTERS",
@@ -1659,7 +1707,7 @@
    {
     "id": "4FD4A1BD550793F4",
     "name": "Creature Melee AI",
-    "version": "1.8.19"
+    "version": "1.8.20"
    }
   ],
   "versions": [
@@ -1741,12 +1789,12 @@
   "license": "Arma Public License (APL)",
   "rating": 1,
   "ratingCount": 8,
-  "version": "0.1.3",
+  "version": "0.1.4",
   "sizeBytes": 24236763,
-  "gameVersion": "1.8.0.13",
+  "gameVersion": "1.9.0.37",
   "createdAt": "2026-10-16T11:15:49.000Z",
-  "updatedAt": "2026-11-02T15:55:52.000Z",
-  "downloads": 1153,
+  "updatedAt": "2026-11-06T16:41:33.000Z",
+  "downloads": 1182,
   "tags": [
    "AI",
    "CHARACTERS",
@@ -1758,10 +1806,16 @@
    {
     "id": "4FD4A1BD550793F4",
     "name": "Creature Melee AI",
-    "version": "1.8.19"
+    "version": "1.8.20"
    }
   ],
   "versions": [
+   {
+    "version": "0.1.4",
+    "gameVersion": "1.9.0.37",
+    "createdAt": "2026-11-06T16:41:22.000Z",
+    "size": 24236763
+   },
    {
     "version": "0.1.3",
     "gameVersion": "1.8.0.13",
@@ -1787,7 +1841,7 @@
     "size": 23628681
    }
   ],
-  "changelog": "0.1.3\nHealth rebalance: all four werewolves now have 450 health, with a 150 head and 125 neck.",
+  "changelog": "0.1.4\nCompatibility update for Arma Reforger 1.9. Game content is unchanged.",
   "preview": "https://ar-gcp-cdn.bistudio.com/image/4290/90d8e5df72fd60c0754e231b58ada66be3c1053820506d54076de8c59812/153362.jpg",
   "previewThumbs": [
    "https://ar-gcp-cdn.bistudio.com/image/33f3/8b4aa68deb699eed1b505f22999e974763096b666495a4279c8fea9116d0/124742.jpg",
@@ -1807,12 +1861,12 @@
   "license": "Arma Public License (APL)",
   "rating": 1,
   "ratingCount": 3,
-  "version": "0.1.5",
+  "version": "0.1.6",
   "sizeBytes": 20197684,
-  "gameVersion": "1.8.0.13",
+  "gameVersion": "1.9.0.37",
   "createdAt": "2026-10-16T11:10:30.000Z",
-  "updatedAt": "2026-11-04T06:40:16.000Z",
-  "downloads": 999,
+  "updatedAt": "2026-11-06T16:27:18.000Z",
+  "downloads": 1026,
   "tags": [
    "AI",
    "BIGFOOT",
@@ -1824,10 +1878,16 @@
    {
     "id": "4FD4A1BD550793F4",
     "name": "Creature Melee AI",
-    "version": "1.8.19"
+    "version": "1.8.20"
    }
   ],
   "versions": [
+   {
+    "version": "0.1.6",
+    "gameVersion": "1.9.0.37",
+    "createdAt": "2026-11-06T16:26:23.000Z",
+    "size": 20197684
+   },
    {
     "version": "0.1.5",
     "gameVersion": "1.8.0.13",
@@ -1865,7 +1925,7 @@
     "size": 46684920
    }
   ],
-  "changelog": "0.1.5\nMultiplayer safety: the add-on's Game Master faction setup now carries its own saved entity ID, like every prefab should. Nothing else changes.",
+  "changelog": "0.1.6\nCompatibility update for Arma Reforger 1.9. Game content is unchanged.",
   "preview": "https://ar-gcp-cdn.bistudio.com/image/0b02/7653ba48f1d019fbf7c0e2a6f6a3739d5d71b6c0fd3173bccfb37147f7af/177194.jpg",
   "previewThumbs": [
    "https://ar-gcp-cdn.bistudio.com/image/0292/98c254639f9ad46a710772cdd83b3859dffdbe0294d64a7c5d04dd06e5ee/148031.jpg",
@@ -1885,12 +1945,12 @@
   "license": "Arma Public License (APL)",
   "rating": 0,
   "ratingCount": 0,
-  "version": "0.1.3",
+  "version": "0.1.4",
   "sizeBytes": 46743722,
-  "gameVersion": "1.8.0.13",
+  "gameVersion": "1.9.0.37",
   "createdAt": "2026-10-22T00:49:08.000Z",
-  "updatedAt": "2026-11-04T06:51:26.000Z",
-  "downloads": 59,
+  "updatedAt": "2026-11-06T16:35:20.000Z",
+  "downloads": 60,
   "tags": [
    "CHARACTERS",
    "CMAI",
@@ -1902,10 +1962,16 @@
    {
     "id": "4FD4A1BD550793F4",
     "name": "Creature Melee AI",
-    "version": "1.8.19"
+    "version": "1.8.20"
    }
   ],
   "versions": [
+   {
+    "version": "0.1.4",
+    "gameVersion": "1.9.0.37",
+    "createdAt": "2026-11-06T16:35:05.000Z",
+    "size": 46743722
+   },
    {
     "version": "0.1.3",
     "gameVersion": "1.8.0.13",
@@ -1931,7 +1997,7 @@
     "size": 46742934
    }
   ],
-  "changelog": "0.1.3\nMultiplayer safety: the add-on's Game Master faction setup now carries its own saved entity ID, like every prefab should. Nothing else changes.",
+  "changelog": "0.1.4\nCompatibility update for Arma Reforger 1.9. Game content is unchanged.",
   "preview": "https://ar-gcp-cdn.bistudio.com/image/81a1/89a1fc25c692af6d2f22659d95a2df8fb84fa57fe403c4106cf42442cae6/50676.jpg",
   "previewThumbs": [
    "https://ar-gcp-cdn.bistudio.com/image/9a10/0ec1bb2f68b8d351744d69500710a03bf12ea7bbe4c88bfa2426aa588174/23198.jpg",
@@ -1965,7 +2031,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-10-21T23:41:12.000Z",
   "updatedAt": "2026-11-05T20:00:25.000Z",
-  "downloads": 1343,
+  "downloads": 1355,
   "tags": [
    "AI",
    "CHARACTERS",
@@ -1979,12 +2045,12 @@
    {
     "id": "4FD4A1BD550793F4",
     "name": "Creature Melee AI",
-    "version": "1.8.19"
+    "version": "1.8.20"
    },
    {
     "id": "9C6F9425B58142E7",
     "name": "Warbeasts",
-    "version": "1.0.7"
+    "version": "1.0.8"
    }
   ],
   "versions": [
@@ -2149,12 +2215,12 @@
   "license": "Arma Public License (APL)",
   "rating": 1,
   "ratingCount": 14,
-  "version": "1.8.19",
+  "version": "1.8.20",
   "sizeBytes": 12959434,
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-08-30T18:18:07.000Z",
-  "updatedAt": "2026-11-06T10:56:25.000Z",
-  "downloads": 52938,
+  "updatedAt": "2026-11-06T15:48:17.000Z",
+  "downloads": 53402,
   "tags": [
    "AI",
    "CHARACTERS",
@@ -2166,6 +2232,12 @@
   ],
   "dependencies": [],
   "versions": [
+   {
+    "version": "1.8.20",
+    "gameVersion": "1.9.0.37",
+    "createdAt": "2026-11-06T15:48:04.000Z",
+    "size": 12959434
+   },
    {
     "version": "1.8.19",
     "gameVersion": "1.9.0.37",
@@ -2219,15 +2291,9 @@
     "gameVersion": "1.8.0.13",
     "createdAt": "2026-10-23T02:00:20.000Z",
     "size": 12218581
-   },
-   {
-    "version": "1.8.7",
-    "gameVersion": "1.8.0.13",
-    "createdAt": "2026-10-21T22:56:23.000Z",
-    "size": 12218365
    }
   ],
-  "changelog": "1.8.19\nFixed carry and throw animation transitions on Reforger 1.9.\nFixed carry animations remaining active after release and blocking the next carry, including in multiplayer.\nUpdate Project Outbreak Zombies together with Creature Melee AI.",
+  "changelog": "1.8.20\nReforger 1.9 compatibility refresh of the verified carry, throw and shared combat fixes.\nUpdate Creature Melee AI and Project Outbreak Zombies together. Game content is unchanged.",
   "preview": "https://ar-gcp-cdn.bistudio.com/image/e345/f3b99d0c738344cd8d7364e0b3a3b1ada801834676f2a32b6473f50b0675/95814.jpg",
   "previewThumbs": [
    "https://ar-gcp-cdn.bistudio.com/image/826f/ac590b7bcada4b68dbb43c904a60861ba906bcc485de784f311194106075/55712.jpg",
@@ -2258,12 +2324,12 @@
   "license": "Arma Public License (APL)",
   "rating": 1,
   "ratingCount": 22,
-  "version": "1.0.1",
-  "sizeBytes": 333855,
-  "gameVersion": "1.8.0.10",
+  "version": "1.0.2",
+  "sizeBytes": 331734,
+  "gameVersion": "1.9.0.37",
   "createdAt": "2026-08-09T15:04:29.000Z",
-  "updatedAt": "2026-08-30T20:00:54.000Z",
-  "downloads": 4570,
+  "updatedAt": "2026-11-06T18:29:09.000Z",
+  "downloads": 4611,
   "tags": [
    "AI",
    "REARM",
@@ -2271,6 +2337,12 @@
   ],
   "dependencies": [],
   "versions": [
+   {
+    "version": "1.0.2",
+    "gameVersion": "1.9.0.37",
+    "createdAt": "2026-11-06T18:29:03.000Z",
+    "size": 331734
+   },
    {
     "version": "1.0.1",
     "gameVersion": "1.8.0.10",
@@ -2284,7 +2356,7 @@
     "size": 34533
    }
   ],
-  "changelog": "",
+  "changelog": "Compatibility update for Arma Reforger 1.9. Keeps the current gameplay, corrects the mission-settings prefab structure, and removes development-only editor tools from the download.",
   "preview": "https://ar-gcp-cdn.bistudio.com/image/bdc2/94c5c2d36a75a5d72080cd1402af814fdd575a8ada6481e94fdfd3b6f840/207455.jpg",
   "previewThumbs": [
    "https://ar-gcp-cdn.bistudio.com/image/f0d0/442b3723b7b5d0317210fca6cf4baa675adc154046ffdfa98f2f334fcb5f/169192.jpg",
@@ -2315,12 +2387,12 @@
   "license": "Arma Public License (APL)",
   "rating": 1,
   "ratingCount": 10,
-  "version": "0.2.1",
+  "version": "0.2.2",
   "sizeBytes": 108988308,
-  "gameVersion": "1.8.0.13",
+  "gameVersion": "1.9.0.37",
   "createdAt": "2026-10-07T09:20:39.000Z",
-  "updatedAt": "2026-10-09T10:56:14.000Z",
-  "downloads": 4817,
+  "updatedAt": "2026-11-06T17:05:17.000Z",
+  "downloads": 5021,
   "tags": [
    "CROSSBOW",
    "GAMEMASTER",
@@ -2328,6 +2400,12 @@
   ],
   "dependencies": [],
   "versions": [
+   {
+    "version": "0.2.2",
+    "gameVersion": "1.9.0.37",
+    "createdAt": "2026-11-06T17:04:37.000Z",
+    "size": 108988308
+   },
    {
     "version": "0.2.1",
     "gameVersion": "1.8.0.13",
@@ -2347,7 +2425,7 @@
     "size": 36525877
    }
   ],
-  "changelog": "Fixes the sideways first-person crossbow after drawing or equipping it. Keeps the flat back placement, vanilla draw/restow, front quiver reload, palm-down single-bolt reload, fitted inspections, finishes and FIRE/HE ammunition. Standalone: no other Workshop addon required.",
+  "changelog": "0.2.2\nCompatibility update for Arma Reforger 1.9. Game content is unchanged.",
   "preview": "https://ar-gcp-cdn.bistudio.com/image/befd/22b4c86a0cc134959bb6620d90b8c9804b1dfb0c11ca3a0e84955b1e5ea8/58987.jpg",
   "previewThumbs": [
    "https://ar-gcp-cdn.bistudio.com/image/e833/c4e6cdb5bdd05d65212fdf894bacbce2cc698dbf2879c4867f96732d298a/48685.jpg",
@@ -2388,12 +2466,12 @@
   "license": "Arma Public License (APL)",
   "rating": 1,
   "ratingCount": 1,
-  "version": "0.1.2",
+  "version": "0.1.3",
   "sizeBytes": 21720782,
-  "gameVersion": "1.8.0.13",
+  "gameVersion": "1.9.0.37",
   "createdAt": "2026-09-29T16:59:01.000Z",
-  "updatedAt": "2026-10-01T19:16:41.000Z",
-  "downloads": 378,
+  "updatedAt": "2026-11-06T16:54:18.000Z",
+  "downloads": 387,
   "tags": [
    "BALLISTA",
    "MEDIEVAL",
@@ -2402,6 +2480,12 @@
   ],
   "dependencies": [],
   "versions": [
+   {
+    "version": "0.1.3",
+    "gameVersion": "1.9.0.37",
+    "createdAt": "2026-11-06T16:54:03.000Z",
+    "size": 21720782
+   },
    {
     "version": "0.1.2",
     "gameVersion": "1.8.0.13",
@@ -2421,12 +2505,12 @@
     "size": 20211655
    }
   ],
-  "changelog": "Bigger bolts and a heavier sound.\n\n- Increased ballista bolt damage by 1,000x, from 250 to 250,000. A successful hit can now kill the supported dragon in one shot.\n- Added heavier release, winding and impact sounds for both mounts.\n- AI gunners now hold a usable ballista station during combat instead of repeatedly walking away. Casualties and explicit exit orders still work normally.\n\nThe classic and modern military mounts both use these changes. Still WIP; multiplayer presentation and full-range crew posture need further testing.",
-  "preview": "https://ar-gcp-cdn.bistudio.com/image/f123/8268727d408767bb79d53ed8f877539d9af42aa726c6659f6ff39bb712b4/127714.jpg",
+  "changelog": "0.1.3\nCompatibility update for Arma Reforger 1.9. Game content is unchanged.",
+  "preview": "https://ar-gcp-cdn.bistudio.com/image/cd49/13e6b0ba0dd9312a7d81782f1eb94f68add5aa93ff2feec3a85ed13196b5/127806.jpg",
   "previewThumbs": [
-   "https://ar-gcp-cdn.bistudio.com/image/d26b/68263ba0ddffe7fdbdb9b840547cd4e181f69949021566378815aa252cf7/108008.jpg",
-   "https://ar-gcp-cdn.bistudio.com/image/c117/6b7b6a109325768625bd58c9d0d7d00f0b8b9d2555c563a7128fd03a17a5/30950.jpg",
-   "https://ar-gcp-cdn.bistudio.com/image/ae0a/119b3a157e239c1384a63f4e6cf7c4d35f7e7960b21ed8460bd70c0e65d9/8593.jpg"
+   "https://ar-gcp-cdn.bistudio.com/image/431e/e574521d911d839599159715e01a9dfcae6e57044becced58024180d80d1/108651.jpg",
+   "https://ar-gcp-cdn.bistudio.com/image/04a4/76ee1dccd9ab7cb690125fa0a6c50c6ef081027457d19992d3ff2c97fc7d/30987.jpg",
+   "https://ar-gcp-cdn.bistudio.com/image/cc90/eb357516c0b9fa889b6ad9327729aefcf247a9af1199efd4d972341e94be/8597.jpg"
   ],
   "screenshots": [
    {
@@ -2458,6 +2542,6 @@
    }
   ],
   "workshopUrl": "https://reforger.armaplatform.com/workshop/9E4B2C7A1D5F8036",
-  "previewFile": "assets/family/9E4B2C7A1D5F8036_ef403ad9cb.jpg"
+  "previewFile": "assets/family/9E4B2C7A1D5F8036_0d0e840648.jpg"
  }
 ]
