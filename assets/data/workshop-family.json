@@ -13,7 +13,7 @@
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-08-30T18:29:18.000Z",
   "updatedAt": "2026-11-02T16:10:47.000Z",
-  "downloads": 20181,
+  "downloads": 20248,
   "tags": [
    "INFECTION",
    "OUTBREAK",
@@ -24,12 +24,12 @@
    {
     "id": "4FD4A1BD550793F4",
     "name": "Creature Melee AI",
-    "version": "1.8.18"
+    "version": "1.8.19"
    },
    {
     "id": "F1D4B9B5245B36ED",
     "name": "Project Outbreak Zombies",
-    "version": "2.4.16"
+    "version": "2.4.17"
    }
   ],
   "versions": [
@@ -119,7 +119,7 @@
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-08-30T18:31:09.000Z",
   "updatedAt": "2026-11-02T16:11:17.000Z",
-  "downloads": 15525,
+  "downloads": 15587,
   "tags": [
    "OUTBREAK",
    "SYSTEMS",
@@ -129,12 +129,12 @@
    {
     "id": "4FD4A1BD550793F4",
     "name": "Creature Melee AI",
-    "version": "1.8.18"
+    "version": "1.8.19"
    },
    {
     "id": "F1D4B9B5245B36ED",
     "name": "Project Outbreak Zombies",
-    "version": "2.4.16"
+    "version": "2.4.17"
    }
   ],
   "versions": [
@@ -224,7 +224,7 @@
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-08-30T18:27:33.000Z",
   "updatedAt": "2026-11-02T16:12:49.000Z",
-  "downloads": 8274,
+  "downloads": 8304,
   "tags": [
    "GADGETS",
    "OUTBREAK",
@@ -238,12 +238,12 @@
    {
     "id": "4FD4A1BD550793F4",
     "name": "Creature Melee AI",
-    "version": "1.8.18"
+    "version": "1.8.19"
    },
    {
     "id": "F1D4B9B5245B36ED",
     "name": "Project Outbreak Zombies",
-    "version": "2.4.16"
+    "version": "2.4.17"
    }
   ],
   "versions": [
@@ -333,7 +333,7 @@
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-09-27T03:27:42.000Z",
   "updatedAt": "2026-11-04T23:16:28.000Z",
-  "downloads": 8901,
+  "downloads": 8974,
   "tags": [
    "CHARACTERS",
    "CREATURES",
@@ -345,12 +345,12 @@
    {
     "id": "4FD4A1BD550793F4",
     "name": "Creature Melee AI",
-    "version": "1.8.18"
+    "version": "1.8.19"
    },
    {
     "id": "F1D4B9B5245B36ED",
     "name": "Project Outbreak Zombies",
-    "version": "2.4.16"
+    "version": "2.4.17"
    }
   ],
   "versions": [
@@ -462,7 +462,7 @@
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-09-27T03:41:17.000Z",
   "updatedAt": "2026-11-02T16:10:20.000Z",
-  "downloads": 10071,
+  "downloads": 10134,
   "tags": [
    "CHARACTERS",
    "OUTBREAK",
@@ -473,12 +473,12 @@
    {
     "id": "4FD4A1BD550793F4",
     "name": "Creature Melee AI",
-    "version": "1.8.18"
+    "version": "1.8.19"
    },
    {
     "id": "F1D4B9B5245B36ED",
     "name": "Project Outbreak Zombies",
-    "version": "2.4.16"
+    "version": "2.4.17"
    }
   ],
   "versions": [
@@ -583,7 +583,7 @@
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-09-22T02:24:31.000Z",
   "updatedAt": "2026-10-01T07:14:39.000Z",
-  "downloads": 216,
+  "downloads": 218,
   "tags": [
    "SCENARIOS_MP",
    "SYSTEMS"
@@ -592,7 +592,7 @@
    {
     "id": "4FD4A1BD550793F4",
     "name": "Creature Melee AI",
-    "version": "1.8.18"
+    "version": "1.8.19"
    },
    {
     "id": "5965550F24A0C152",
@@ -602,7 +602,7 @@
    {
     "id": "5994AD5A9F33BE57",
     "name": "Game Master FX",
-    "version": "1.7.0"
+    "version": "1.9.0"
    },
    {
     "id": "5B02128D896F7DE8",
@@ -632,7 +632,7 @@
    {
     "id": "606B100247F5C709",
     "name": "Bacon Loadout Editor",
-    "version": "1.7.3"
+    "version": "1.9.0"
    },
    {
     "id": "6088A3044B7ECBFD",
@@ -932,7 +932,7 @@
    {
     "id": "F1D4B9B5245B36ED",
     "name": "Project Outbreak Zombies",
-    "version": "2.4.16"
+    "version": "2.4.17"
    }
   ],
   "versions": [
@@ -980,7 +980,7 @@
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-10-08T02:57:35.000Z",
   "updatedAt": "2026-11-04T06:58:42.000Z",
-  "downloads": 561,
+  "downloads": 572,
   "tags": [
    "GLENWOOD",
    "LIGHT",
@@ -993,7 +993,7 @@
    {
     "id": "4FD4A1BD550793F4",
     "name": "Creature Melee AI",
-    "version": "1.8.18"
+    "version": "1.8.19"
    },
    {
     "id": "61110CC4F1FF9C8A",
@@ -1018,7 +1018,7 @@
    {
     "id": "F1D4B9B5245B36ED",
     "name": "Project Outbreak Zombies",
-    "version": "2.4.16"
+    "version": "2.4.17"
    }
   ],
   "versions": [
@@ -1084,7 +1084,7 @@
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-10-06T16:56:25.000Z",
   "updatedAt": "2026-11-04T06:46:53.000Z",
-  "downloads": 671,
+  "downloads": 676,
   "tags": [
    "AI",
    "BOSS",
@@ -1097,7 +1097,7 @@
    {
     "id": "4FD4A1BD550793F4",
     "name": "Creature Melee AI",
-    "version": "1.8.18"
+    "version": "1.8.19"
    }
   ],
   "versions": [
@@ -1168,7 +1168,7 @@
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-10-02T05:03:39.000Z",
   "updatedAt": "2026-11-04T06:50:33.000Z",
-  "downloads": 2316,
+  "downloads": 2333,
   "tags": [
    "AI",
    "CHARACTERS",
@@ -1180,7 +1180,7 @@
    {
     "id": "4FD4A1BD550793F4",
     "name": "Creature Melee AI",
-    "version": "1.8.18"
+    "version": "1.8.19"
    }
   ],
   "versions": [
@@ -1263,12 +1263,12 @@
   "license": "Arma Public License (APL)",
   "rating": 1,
   "ratingCount": 9,
-  "version": "1.2.7",
+  "version": "1.2.8",
   "sizeBytes": 116881391,
-  "gameVersion": "1.8.0.13",
+  "gameVersion": "1.9.0.37",
   "createdAt": "2026-10-03T17:41:42.000Z",
-  "updatedAt": "2026-11-04T06:39:00.000Z",
-  "downloads": 1996,
+  "updatedAt": "2026-11-06T14:11:39.000Z",
+  "downloads": 2018,
   "tags": [
    "ALIEN",
    "CHARACTERS",
@@ -1280,10 +1280,16 @@
    {
     "id": "4FD4A1BD550793F4",
     "name": "Creature Melee AI",
-    "version": "1.8.18"
+    "version": "1.8.19"
    }
   ],
   "versions": [
+   {
+    "version": "1.2.8",
+    "gameVersion": "1.9.0.37",
+    "createdAt": "2026-11-06T14:11:17.000Z",
+    "size": 116881391
+   },
    {
     "version": "1.2.7",
     "gameVersion": "1.8.0.13",
@@ -1333,7 +1339,7 @@
     "size": 37924244
    }
   ],
-  "changelog": "1.2.7\nMultiplayer fix: the Alien Game Master previews, the beam, glow and eyelid effects, the twelve Titan eyes and the Game Master faction setup had no saved entity ID. A prefab without a saved ID gets a different ID on the server and on each client, and spawning it can disconnect players from a multiplayer server. Each one now carries its own saved ID.",
+  "changelog": "1.2.8\nCompatibility update for Arma Reforger 1.9. Game content is unchanged.",
   "preview": "https://ar-gcp-cdn.bistudio.com/image/e516/38fbbb22cd0cfddd8f0497e2edaefd80c2bc51078f740b9baea82fd5f721/252017.jpg",
   "previewThumbs": [
    "https://ar-gcp-cdn.bistudio.com/image/7a13/92eea32520b8041063b74a78a64ac436cb8bf7a37e089701a08f0ebeafc5/142790.jpg",
@@ -1368,7 +1374,7 @@
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-10-06T17:34:28.000Z",
   "updatedAt": "2026-11-02T15:54:01.000Z",
-  "downloads": 1178,
+  "downloads": 1187,
   "tags": [
    "CHARACTERS",
    "CMAI",
@@ -1380,7 +1386,7 @@
    {
     "id": "4FD4A1BD550793F4",
     "name": "Creature Melee AI",
-    "version": "1.8.18"
+    "version": "1.8.19"
    }
   ],
   "versions": [
@@ -1422,7 +1428,7 @@
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-10-09T13:22:19.000Z",
   "updatedAt": "2026-11-04T06:45:10.000Z",
-  "downloads": 1891,
+  "downloads": 1908,
   "tags": [
    "CHARACTERS",
    "CMAI",
@@ -1434,7 +1440,7 @@
    {
     "id": "4FD4A1BD550793F4",
     "name": "Creature Melee AI",
-    "version": "1.8.18"
+    "version": "1.8.19"
    }
   ],
   "versions": [
@@ -1517,7 +1523,7 @@
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-10-15T10:13:41.000Z",
   "updatedAt": "2026-11-02T15:53:07.000Z",
-  "downloads": 1348,
+  "downloads": 1369,
   "tags": [
    "AI",
    "CHARACTERS",
@@ -1530,7 +1536,7 @@
    {
     "id": "4FD4A1BD550793F4",
     "name": "Creature Melee AI",
-    "version": "1.8.18"
+    "version": "1.8.19"
    }
   ],
   "versions": [
@@ -1640,7 +1646,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-10-15T23:43:22.000Z",
   "updatedAt": "2026-11-05T20:03:00.000Z",
-  "downloads": 805,
+  "downloads": 813,
   "tags": [
    "AI",
    "CHARACTERS",
@@ -1653,7 +1659,7 @@
    {
     "id": "4FD4A1BD550793F4",
     "name": "Creature Melee AI",
-    "version": "1.8.18"
+    "version": "1.8.19"
    }
   ],
   "versions": [
@@ -1740,7 +1746,7 @@
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-10-16T11:15:49.000Z",
   "updatedAt": "2026-11-02T15:55:52.000Z",
-  "downloads": 1140,
+  "downloads": 1153,
   "tags": [
    "AI",
    "CHARACTERS",
@@ -1752,7 +1758,7 @@
    {
     "id": "4FD4A1BD550793F4",
     "name": "Creature Melee AI",
-    "version": "1.8.18"
+    "version": "1.8.19"
    }
   ],
   "versions": [
@@ -1806,7 +1812,7 @@
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-10-16T11:10:30.000Z",
   "updatedAt": "2026-11-04T06:40:16.000Z",
-  "downloads": 991,
+  "downloads": 999,
   "tags": [
    "AI",
    "BIGFOOT",
@@ -1818,7 +1824,7 @@
    {
     "id": "4FD4A1BD550793F4",
     "name": "Creature Melee AI",
-    "version": "1.8.18"
+    "version": "1.8.19"
    }
   ],
   "versions": [
@@ -1896,7 +1902,7 @@
    {
     "id": "4FD4A1BD550793F4",
     "name": "Creature Melee AI",
-    "version": "1.8.18"
+    "version": "1.8.19"
    }
   ],
   "versions": [
@@ -1959,7 +1965,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-10-21T23:41:12.000Z",
   "updatedAt": "2026-11-05T20:00:25.000Z",
-  "downloads": 1331,
+  "downloads": 1343,
   "tags": [
    "AI",
    "CHARACTERS",
@@ -1973,7 +1979,7 @@
    {
     "id": "4FD4A1BD550793F4",
     "name": "Creature Melee AI",
-    "version": "1.8.18"
+    "version": "1.8.19"
    },
    {
     "id": "9C6F9425B58142E7",
@@ -2143,12 +2149,12 @@
   "license": "Arma Public License (APL)",
   "rating": 1,
   "ratingCount": 14,
-  "version": "1.8.18",
-  "sizeBytes": 12952568,
+  "version": "1.8.19",
+  "sizeBytes": 12959434,
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-08-30T18:18:07.000Z",
-  "updatedAt": "2026-11-05T16:23:58.000Z",
-  "downloads": 52551,
+  "updatedAt": "2026-11-06T10:56:25.000Z",
+  "downloads": 52938,
   "tags": [
    "AI",
    "CHARACTERS",
@@ -2160,6 +2166,12 @@
   ],
   "dependencies": [],
   "versions": [
+   {
+    "version": "1.8.19",
+    "gameVersion": "1.9.0.37",
+    "createdAt": "2026-11-06T10:56:07.000Z",
+    "size": 12959434
+   },
    {
     "version": "1.8.18",
     "gameVersion": "1.9.0.37",
@@ -2213,15 +2225,9 @@
     "gameVersion": "1.8.0.13",
     "createdAt": "2026-10-21T22:56:23.000Z",
     "size": 12218365
-   },
-   {
-    "version": "1.8.6",
-    "gameVersion": "1.8.0.13",
-    "createdAt": "2026-10-18T09:57:40.000Z",
-    "size": 10067735
    }
   ],
-  "changelog": "1.8.18\nArma Reforger 1.9 update: Creature Melee AI works on game version 1.9 again. Version 1.9 changed a game function that creature carries and throws build on, so every game or server with Creature Melee AI loaded failed to start. Nothing else changed.",
+  "changelog": "1.8.19\nFixed carry and throw animation transitions on Reforger 1.9.\nFixed carry animations remaining active after release and blocking the next carry, including in multiplayer.\nUpdate Project Outbreak Zombies together with Creature Melee AI.",
   "preview": "https://ar-gcp-cdn.bistudio.com/image/e345/f3b99d0c738344cd8d7364e0b3a3b1ada801834676f2a32b6473f50b0675/95814.jpg",
   "previewThumbs": [
    "https://ar-gcp-cdn.bistudio.com/image/826f/ac590b7bcada4b68dbb43c904a60861ba906bcc485de784f311194106075/55712.jpg",
@@ -2257,7 +2263,7 @@
   "gameVersion": "1.8.0.10",
   "createdAt": "2026-08-09T15:04:29.000Z",
   "updatedAt": "2026-08-30T20:00:54.000Z",
-  "downloads": 4565,
+  "downloads": 4570,
   "tags": [
    "AI",
    "REARM",
@@ -2314,7 +2320,7 @@
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-10-07T09:20:39.000Z",
   "updatedAt": "2026-10-09T10:56:14.000Z",
-  "downloads": 4765,
+  "downloads": 4817,
   "tags": [
    "CROSSBOW",
    "GAMEMASTER",

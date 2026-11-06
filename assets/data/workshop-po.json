@@ -7,12 +7,12 @@
  "license": "Arma Public License (APL)",
  "rating": 0.97,
  "ratingCount": 97,
- "version": "2.4.16",
- "sizeBytes": 210467383,
+ "version": "2.4.17",
+ "sizeBytes": 210472354,
  "gameVersion": "1.9.0.37",
  "createdAt": "2026-08-30T18:23:05.000Z",
- "updatedAt": "2026-11-05T16:30:55.000Z",
- "downloads": 43917,
+ "updatedAt": "2026-11-06T10:59:39.000Z",
+ "downloads": 44210,
  "tags": [
   "CHARACTERS",
   "INFECTION",
@@ -27,10 +27,16 @@
   {
    "id": "4FD4A1BD550793F4",
    "name": "Creature Melee AI",
-   "version": "1.8.18"
+   "version": "1.8.19"
   }
  ],
  "versions": [
+  {
+   "version": "2.4.17",
+   "gameVersion": "1.9.0.37",
+   "createdAt": "2026-11-06T10:58:05.000Z",
+   "size": 210472354
+  },
   {
    "version": "2.4.16",
    "gameVersion": "1.9.0.37",
@@ -84,15 +90,9 @@
    "gameVersion": "1.8.0.13",
    "createdAt": "2026-10-21T23:02:03.000Z",
    "size": 208878654
-  },
-  {
-   "version": "2.3.4",
-   "gameVersion": "1.8.0.13",
-   "createdAt": "2026-10-14T19:37:19.000Z",
-   "size": 208226891
   }
  ],
- "changelog": "2.4.16\nArma Reforger 1.9 update: Project Outbreak works on game version 1.9 again. Version 1.9 changed a game function that zombie grabs build on, so every game or server with Project Outbreak loaded failed to start. Update Creature Melee AI to 1.8.18 as well. Nothing else changed.",
+ "changelog": "2.4.17\nFixed the Nephilim losing its pickup pose or leaving a carried survivor away from its hands when switching to a walking hold on Reforger 1.9.\nFixed initial pickup alignment for remotely controlled Nephilim, so survivors start at the correct grab distance.\nFixed AI giant throws launching a victim before the paired animations played.\nFixed carry cleanup so surviving players regain movement and weapon controls after release.\nUpdate Creature Melee AI to 1.8.19 together with this update.",
  "preview": "https://ar-gcp-cdn.bistudio.com/image/2acf/50af531c77fb7b5f21ca79df26665c5a3e9f10ff3b0c4d08f6876c6370b0/158082.jpg",
  "previewThumbs": [
   "https://ar-gcp-cdn.bistudio.com/image/4cca/713c0a0d13d35c848872dd5398d4de1a8324f8931ead8fd865d03c85c843/86448.jpg",
