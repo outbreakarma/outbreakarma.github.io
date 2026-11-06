@@ -13,7 +13,7 @@
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-08-30T18:29:18.000Z",
   "updatedAt": "2026-11-02T16:10:47.000Z",
-  "downloads": 19995,
+  "downloads": 20102,
   "tags": [
    "INFECTION",
    "OUTBREAK",
@@ -119,7 +119,7 @@
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-08-30T18:31:09.000Z",
   "updatedAt": "2026-11-02T16:11:17.000Z",
-  "downloads": 15378,
+  "downloads": 15460,
   "tags": [
    "OUTBREAK",
    "SYSTEMS",
@@ -224,7 +224,7 @@
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-08-30T18:27:33.000Z",
   "updatedAt": "2026-11-02T16:12:49.000Z",
-  "downloads": 8188,
+  "downloads": 8235,
   "tags": [
    "GADGETS",
    "OUTBREAK",
@@ -333,7 +333,7 @@
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-09-27T03:27:42.000Z",
   "updatedAt": "2026-11-04T23:16:28.000Z",
-  "downloads": 8736,
+  "downloads": 8836,
   "tags": [
    "CHARACTERS",
    "CREATURES",
@@ -462,7 +462,7 @@
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-09-27T03:41:17.000Z",
   "updatedAt": "2026-11-02T16:10:20.000Z",
-  "downloads": 9917,
+  "downloads": 10000,
   "tags": [
    "CHARACTERS",
    "OUTBREAK",
@@ -583,7 +583,7 @@
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-09-22T02:24:31.000Z",
   "updatedAt": "2026-10-01T07:14:39.000Z",
-  "downloads": 213,
+  "downloads": 216,
   "tags": [
    "SCENARIOS_MP",
    "SYSTEMS"
@@ -607,7 +607,7 @@
    {
     "id": "5B02128D896F7DE8",
     "name": "WCS_Stryker",
-    "version": "8.4.0"
+    "version": "9.0.0"
    },
    {
     "id": "5D0551624969C92E",
@@ -617,7 +617,7 @@
    {
     "id": "5E389BB9F58B79A6",
     "name": "WCS_SpaceCore",
-    "version": "8.4.0"
+    "version": "9.0.0"
    },
    {
     "id": "5EE2A316699473D1",
@@ -657,7 +657,7 @@
    {
     "id": "612F512CD4CB21D5",
     "name": "WCS_Earplugs",
-    "version": "8.4.0"
+    "version": "9.0.0"
    },
    {
     "id": "61344BDC155A5A28",
@@ -667,12 +667,12 @@
    {
     "id": "615806DC6C57AF02",
     "name": "WCS_NATO",
-    "version": "8.4.0"
+    "version": "9.0.0"
    },
    {
     "id": "615818DA7C0343FD",
     "name": "WCS_RU",
-    "version": "8.3.0"
+    "version": "9.0.0"
    },
    {
     "id": "6174A376E06661BF",
@@ -692,7 +692,7 @@
    {
     "id": "61C74A8B647617DA",
     "name": "WCS_Attachments",
-    "version": "8.4.1"
+    "version": "9.0.0"
    },
    {
     "id": "6209E38AB237098E",
@@ -712,7 +712,7 @@
    {
     "id": "6273146ADFE8241D",
     "name": "WCS_AH-6M",
-    "version": "8.4.0"
+    "version": "9.0.0"
    },
    {
     "id": "6276E6E3CC97A22B",
@@ -722,12 +722,12 @@
    {
     "id": "629B2BA37EFFD577",
     "name": "WCS_Armaments",
-    "version": "8.4.0"
+    "version": "9.0.0"
    },
    {
     "id": "62A668F513428630",
     "name": "WCS_Scopes",
-    "version": "8.4.0"
+    "version": "9.0.0"
    },
    {
     "id": "62A711001B8FDEEA",
@@ -737,7 +737,7 @@
    {
     "id": "62CCD69DD17E4F2F",
     "name": "AKI_Core",
-    "version": "8.3.0"
+    "version": "9.0.0"
    },
    {
     "id": "62FCEB51DF8527B6",
@@ -747,17 +747,17 @@
    {
     "id": "63120AE07E6C0966",
     "name": "WCS_M2A2",
-    "version": "8.4.0"
+    "version": "9.0.0"
    },
    {
     "id": "631C3C1AEE9C90BC",
     "name": "WCS_Sounds",
-    "version": "8.3.0"
+    "version": "9.0.0"
    },
    {
     "id": "64CB39E57377C861",
     "name": "WCS_AH-1S",
-    "version": "8.4.0"
+    "version": "9.0.0"
    },
    {
     "id": "64DE57C0A1601D14",
@@ -797,7 +797,7 @@
    {
     "id": "65AD7D0D9941A380",
     "name": "ACE Core Dev",
-    "version": "1.5.40"
+    "version": "1.5.41"
    },
    {
     "id": "65AD7D4099944EBD",
@@ -807,12 +807,12 @@
    {
     "id": "65B60A48AEC31157",
     "name": "WCS_FMTV",
-    "version": "8.4.0"
+    "version": "9.0.0"
    },
    {
     "id": "65CF7AE8574E06D2",
     "name": "WCS_Weapons",
-    "version": "8.4.0"
+    "version": "9.0.1"
    },
    {
     "id": "65DACC64CE785B6C",
@@ -912,7 +912,7 @@
    {
     "id": "68F006D910E7546F",
     "name": "WCS_Weapon_Scripts",
-    "version": "8.4.0"
+    "version": "9.0.0"
    },
    {
     "id": "6A46DA328E97EC0A",
@@ -980,7 +980,7 @@
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-10-08T02:57:35.000Z",
   "updatedAt": "2026-11-04T06:58:42.000Z",
-  "downloads": 535,
+  "downloads": 555,
   "tags": [
    "GLENWOOD",
    "LIGHT",
@@ -1084,7 +1084,7 @@
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-10-06T16:56:25.000Z",
   "updatedAt": "2026-11-04T06:46:53.000Z",
-  "downloads": 657,
+  "downloads": 664,
   "tags": [
    "AI",
    "BOSS",
@@ -1168,7 +1168,7 @@
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-10-02T05:03:39.000Z",
   "updatedAt": "2026-11-04T06:50:33.000Z",
-  "downloads": 2280,
+  "downloads": 2296,
   "tags": [
    "AI",
    "CHARACTERS",
@@ -1268,7 +1268,7 @@
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-10-03T17:41:42.000Z",
   "updatedAt": "2026-11-04T06:39:00.000Z",
-  "downloads": 1949,
+  "downloads": 1973,
   "tags": [
    "ALIEN",
    "CHARACTERS",
@@ -1368,7 +1368,7 @@
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-10-06T17:34:28.000Z",
   "updatedAt": "2026-11-02T15:54:01.000Z",
-  "downloads": 1159,
+  "downloads": 1170,
   "tags": [
    "CHARACTERS",
    "CMAI",
@@ -1422,7 +1422,7 @@
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-10-09T13:22:19.000Z",
   "updatedAt": "2026-11-04T06:45:10.000Z",
-  "downloads": 1855,
+  "downloads": 1871,
   "tags": [
    "CHARACTERS",
    "CMAI",
@@ -1517,7 +1517,7 @@
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-10-15T10:13:41.000Z",
   "updatedAt": "2026-11-02T15:53:07.000Z",
-  "downloads": 1314,
+  "downloads": 1331,
   "tags": [
    "AI",
    "CHARACTERS",
@@ -1635,12 +1635,12 @@
   "license": "Arma Public License (APL)",
   "rating": 1,
   "ratingCount": 4,
-  "version": "0.1.4",
-  "sizeBytes": 128780423,
-  "gameVersion": "1.8.0.13",
+  "version": "0.1.5",
+  "sizeBytes": 128780429,
+  "gameVersion": "1.9.0.37",
   "createdAt": "2026-10-15T23:43:22.000Z",
-  "updatedAt": "2026-11-02T15:55:18.000Z",
-  "downloads": 750,
+  "updatedAt": "2026-11-05T20:03:00.000Z",
+  "downloads": 785,
   "tags": [
    "AI",
    "CHARACTERS",
@@ -1657,6 +1657,12 @@
    }
   ],
   "versions": [
+   {
+    "version": "0.1.5",
+    "gameVersion": "1.9.0.37",
+    "createdAt": "2026-11-05T20:02:21.000Z",
+    "size": 128780429
+   },
    {
     "version": "0.1.4",
     "gameVersion": "1.8.0.13",
@@ -1688,7 +1694,7 @@
     "size": 128775112
    }
   ],
-  "changelog": "0.1.4\nHealth rebalance: the Teuthisan now has 500 health, with a 175 head and 150 neck.",
+  "changelog": "0.1.5\nArma Reforger 1.9 update: the Teuthisan works on game version 1.9 again. Version 1.9 adds a game class whose name clashed with one of the Teuthisan's animation helpers, so every game or server with the Teuthisan loaded failed to start. Update Creature Melee AI to 1.8.18 as well. Nothing else changed.",
   "preview": "https://ar-gcp-cdn.bistudio.com/image/c041/83703f934374be34ef8c7d771ad83c94f522079b70c0c50bded6a5dfda5d/193746.jpg",
   "previewThumbs": [
    "https://ar-gcp-cdn.bistudio.com/image/b3ba/2e7769343d74c1075d8b852c3296b61f2428deaed98f50cca0d19c102112/165907.jpg",
@@ -1734,7 +1740,7 @@
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-10-16T11:15:49.000Z",
   "updatedAt": "2026-11-02T15:55:52.000Z",
-  "downloads": 1105,
+  "downloads": 1122,
   "tags": [
    "AI",
    "CHARACTERS",
@@ -1800,7 +1806,7 @@
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-10-16T11:10:30.000Z",
   "updatedAt": "2026-11-04T06:40:16.000Z",
-  "downloads": 972,
+  "downloads": 981,
   "tags": [
    "AI",
    "BIGFOOT",
@@ -1947,13 +1953,13 @@
   "description": "Grimdark Horde brings a scrap-armoured Orc faction to Game Master and scenario makers. Find its units under the Grimdark Horde faction filter. The Horde fights other factions and allies with Creature Melee AI creatures.\n\nTHE WARBAND\nTwelve outfits across three families: Greenskin Runner, Scrapper, Spike-Yoke, Plated Brute and Bannerboss; White Orc Hunter, Bone-Plate and Lacquer Guard; Black Orc Iron-Clad, Plague-Helm, Brute and Chieftain. Each family has distinct armour, skin and loadouts.\n\nFLESH-SAWS\nGreen, White and Black Orc Flesh-Saw specialists carry a roaring chain blade in blackened steel with exposed teeth and a red saw-ring skull. Find all three by searching Flesh-Saw in Game Master. Family groups include one in each 4-unit formation and four in each 16-unit formation.\n\nWEAPONS AND VOICES\nFitted saw swords and Atris axes, plus nine crude guns: pistols, twin pistols, long gun, mag gun, axe gun and flamethrower. Guns fire projectiles along their barrels in short bursts; melee uses Creature Melee AI blade contacts. Non-verbal war cries, efforts, pain, death and laughter accompany the fighting. Reload animations are not included.\n\nCREATURES AND MACHINES\nWarbasha is a drum-thumping brute armed with two spiked clubs. The Armoured Troll carries a massive greatsword. The Scrap Walker combines an enlarged mech, an Orc pilot and a recoiling cannon. The Wallbreaker artillery gun supports a player gunner or an AI crew firing at distant targets.\n\nREQUIREMENTS\nCreature Melee AI: https://reforger.armaplatform.com/workshop/4FD4A1BD550793F4\nWarbeasts: https://reforger.armaplatform.com/workshop/9C6F9425B58142E7\nThe Workshop installs these dependencies with Grimdark Horde.\n\nCREDITS AND ORIGINAL SOURCES\nThe following creators supplied the original assets adapted for this add-on. Thank you for their work.\n\nJedy92 - Orc with Axe: original Orc character, head, equipment and animations; also used for the Scrap Walker pilot.\nhttps://www.fab.com/listings/63d8fd8f-ef10-4436-8e0e-714dbca74688\n\nTauan Talari Bellintani - Post Apocalyptic Weapons: Saw Sword.\nhttps://www.fab.com/listings/8015db3e-60bd-44a1-8a91-3916f708f631\n\nDZTFIX PARADOX - Pumpkin Saw: Stylized Halloween Chainsaw Sword, adapted as the Flesh-Saw.\nhttps://www.fab.com/listings/3bcd47d1-821e-4e60-871f-c9544448773a\n\nPetr Luchko - Atris axes.\nhttps://www.fab.com/listings/3905779c-7035-4a17-a28d-9d215336ea53\n\nBitgem - Gun Set: Hand Painted Series, adapted into the Horde's firearms and flamethrower.\nhttps://www.fab.com/listings/a90204f0-9b1f-4393-b913-41e4cec7d4e3\n\nMist Polygon - Plague Knight Helmet, based on Mike Franchina's concept artwork; adapted for Plague-Helm.\nModel: https://www.fab.com/listings/4376c360-11bd-4f33-8451-c9c532e1bea6\nConcept: https://www.artstation.com/artwork/5dkJW\n\nKaanTezcan (s_cat) - Free Game Character: Armored Troll With Sword.\nhttps://www.fab.com/listings/a5299d26-73c5-4fcf-8203-06d1418597f6\n\ncybeck - Earthshaker Artillery Gun, adapted as the Wallbreaker.\nhttps://www.fab.com/listings/d83a153d-829b-4f50-a9ae-02859e66dfad\n\nEpic Games - original Grux body used through Warbeasts for the Greenskins, Narbash body/animations/non-verbal voices adapted for Warbasha and Orc voices, and Howitzer mech adapted for the Scrap Walker.\nGrux: https://www.fab.com/listings/8c4bac2c-f7f7-4632-a644-47f4e104f5d8\nNarbash: https://www.fab.com/listings/d8904a0e-9169-4763-b82b-5fcf864235a4\nHowitzer: https://www.fab.com/listings/7397dd8d-2e47-4e68-9e9d-a10c6fa0a9c7\n\nBohemia Interactive - Arma Reforger base-game resources and character tools used by the adaptation. Grimdark Horde adds the faction, gameplay integration, fitted grips, outfit adaptations and locally authored armour/paint/effects.\n\nLICENCES\nOriginal add-on code is released under the Arma Public Licence (APL):\nhttps://portal.bohemia.net/community/licenses/arma-public-license\n\nThe credited models, textures, animations and audio retain their original acquisition licences and permissions; the APL does not relicense those assets. Fab licence information and full terms:\nhttps://www.fab.com/eula\n\nThis is an incorporated playable mod, not a standalone asset pack. Full asset-specific provenance, terms and exclusions are included in THIRD_PARTY_NOTICES.md and the dependency notices. No endorsement by the original creators is implied.",
   "license": "Arma Public License (APL)",
   "rating": 1,
-  "ratingCount": 7,
-  "version": "0.1.8",
-  "sizeBytes": 555542353,
-  "gameVersion": "1.8.0.13",
+  "ratingCount": 8,
+  "version": "0.1.9",
+  "sizeBytes": 555542442,
+  "gameVersion": "1.9.0.37",
   "createdAt": "2026-10-21T23:41:12.000Z",
-  "updatedAt": "2026-11-04T06:58:18.000Z",
-  "downloads": 1285,
+  "updatedAt": "2026-11-05T20:00:25.000Z",
+  "downloads": 1310,
   "tags": [
    "AI",
    "CHARACTERS",
@@ -1976,6 +1982,12 @@
    }
   ],
   "versions": [
+   {
+    "version": "0.1.9",
+    "gameVersion": "1.9.0.37",
+    "createdAt": "2026-11-05T19:56:09.000Z",
+    "size": 555542442
+   },
    {
     "version": "0.1.8",
     "gameVersion": "1.8.0.13",
@@ -2031,7 +2043,7 @@
     "size": 662004599
    }
   ],
-  "changelog": "Multiplayer fix: the Scrap Walker death visual had no saved entity ID. A prefab without a saved ID gets a different ID on the server and on each client, and spawning it can disconnect players from a multiplayer server. It now carries its own saved ID.",
+  "changelog": "0.1.9\nArma Reforger 1.9 update: Grimdark Horde works on game version 1.9 again. Version 1.9 changed a game function that the orcs' melee recovery builds on, so every game or server with Grimdark Horde loaded failed to start. Update Creature Melee AI to 1.8.18 as well. Nothing else changed.",
   "preview": "https://ar-gcp-cdn.bistudio.com/image/4e66/13c07941c08b2700223b322bfc0c6845dc34fdf77a834f1cc41be9ed56ea/136515.jpg",
   "previewThumbs": [
    "https://ar-gcp-cdn.bistudio.com/image/431b/58c9ac2cfa4ca7d593c283cf5a0f1cad799a393e9e860ce2d92b981eb58a/117299.jpg",
@@ -2136,7 +2148,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-08-30T18:18:07.000Z",
   "updatedAt": "2026-11-05T16:23:58.000Z",
-  "downloads": 51865,
+  "downloads": 52253,
   "tags": [
    "AI",
    "CHARACTERS",
@@ -2245,7 +2257,7 @@
   "gameVersion": "1.8.0.10",
   "createdAt": "2026-08-09T15:04:29.000Z",
   "updatedAt": "2026-08-30T20:00:54.000Z",
-  "downloads": 4552,
+  "downloads": 4560,
   "tags": [
    "AI",
    "REARM",
@@ -2302,7 +2314,7 @@
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-10-07T09:20:39.000Z",
   "updatedAt": "2026-10-09T10:56:14.000Z",
-  "downloads": 4625,
+  "downloads": 4744,
   "tags": [
    "CROSSBOW",
    "GAMEMASTER",
@@ -2375,7 +2387,7 @@
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-09-29T16:59:01.000Z",
   "updatedAt": "2026-10-01T19:16:41.000Z",
-  "downloads": 377,
+  "downloads": 378,
   "tags": [
    "BALLISTA",
    "MEDIEVAL",
