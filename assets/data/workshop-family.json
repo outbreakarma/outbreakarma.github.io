@@ -13,7 +13,7 @@
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-08-30T18:29:18.000Z",
   "updatedAt": "2026-11-02T16:10:47.000Z",
-  "downloads": 20102,
+  "downloads": 20181,
   "tags": [
    "INFECTION",
    "OUTBREAK",
@@ -119,7 +119,7 @@
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-08-30T18:31:09.000Z",
   "updatedAt": "2026-11-02T16:11:17.000Z",
-  "downloads": 15460,
+  "downloads": 15525,
   "tags": [
    "OUTBREAK",
    "SYSTEMS",
@@ -224,7 +224,7 @@
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-08-30T18:27:33.000Z",
   "updatedAt": "2026-11-02T16:12:49.000Z",
-  "downloads": 8235,
+  "downloads": 8274,
   "tags": [
    "GADGETS",
    "OUTBREAK",
@@ -333,7 +333,7 @@
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-09-27T03:27:42.000Z",
   "updatedAt": "2026-11-04T23:16:28.000Z",
-  "downloads": 8836,
+  "downloads": 8901,
   "tags": [
    "CHARACTERS",
    "CREATURES",
@@ -462,7 +462,7 @@
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-09-27T03:41:17.000Z",
   "updatedAt": "2026-11-02T16:10:20.000Z",
-  "downloads": 10000,
+  "downloads": 10071,
   "tags": [
    "CHARACTERS",
    "OUTBREAK",
@@ -607,7 +607,7 @@
    {
     "id": "5B02128D896F7DE8",
     "name": "WCS_Stryker",
-    "version": "9.0.0"
+    "version": "9.0.1"
    },
    {
     "id": "5D0551624969C92E",
@@ -617,7 +617,7 @@
    {
     "id": "5E389BB9F58B79A6",
     "name": "WCS_SpaceCore",
-    "version": "9.0.0"
+    "version": "9.0.1"
    },
    {
     "id": "5EE2A316699473D1",
@@ -657,7 +657,7 @@
    {
     "id": "612F512CD4CB21D5",
     "name": "WCS_Earplugs",
-    "version": "9.0.0"
+    "version": "9.0.1"
    },
    {
     "id": "61344BDC155A5A28",
@@ -692,7 +692,7 @@
    {
     "id": "61C74A8B647617DA",
     "name": "WCS_Attachments",
-    "version": "9.0.0"
+    "version": "9.0.1"
    },
    {
     "id": "6209E38AB237098E",
@@ -712,7 +712,7 @@
    {
     "id": "6273146ADFE8241D",
     "name": "WCS_AH-6M",
-    "version": "9.0.0"
+    "version": "9.0.1"
    },
    {
     "id": "6276E6E3CC97A22B",
@@ -722,12 +722,12 @@
    {
     "id": "629B2BA37EFFD577",
     "name": "WCS_Armaments",
-    "version": "9.0.0"
+    "version": "9.0.1"
    },
    {
     "id": "62A668F513428630",
     "name": "WCS_Scopes",
-    "version": "9.0.0"
+    "version": "9.0.1"
    },
    {
     "id": "62A711001B8FDEEA",
@@ -737,7 +737,7 @@
    {
     "id": "62CCD69DD17E4F2F",
     "name": "AKI_Core",
-    "version": "9.0.0"
+    "version": "9.0.1"
    },
    {
     "id": "62FCEB51DF8527B6",
@@ -747,7 +747,7 @@
    {
     "id": "63120AE07E6C0966",
     "name": "WCS_M2A2",
-    "version": "9.0.0"
+    "version": "9.0.1"
    },
    {
     "id": "631C3C1AEE9C90BC",
@@ -757,7 +757,7 @@
    {
     "id": "64CB39E57377C861",
     "name": "WCS_AH-1S",
-    "version": "9.0.0"
+    "version": "9.0.1"
    },
    {
     "id": "64DE57C0A1601D14",
@@ -807,12 +807,12 @@
    {
     "id": "65B60A48AEC31157",
     "name": "WCS_FMTV",
-    "version": "9.0.0"
+    "version": "9.0.1"
    },
    {
     "id": "65CF7AE8574E06D2",
     "name": "WCS_Weapons",
-    "version": "9.0.1"
+    "version": "9.0.2"
    },
    {
     "id": "65DACC64CE785B6C",
@@ -912,7 +912,7 @@
    {
     "id": "68F006D910E7546F",
     "name": "WCS_Weapon_Scripts",
-    "version": "9.0.0"
+    "version": "9.0.1"
    },
    {
     "id": "6A46DA328E97EC0A",
@@ -980,7 +980,7 @@
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-10-08T02:57:35.000Z",
   "updatedAt": "2026-11-04T06:58:42.000Z",
-  "downloads": 555,
+  "downloads": 561,
   "tags": [
    "GLENWOOD",
    "LIGHT",
@@ -1084,7 +1084,7 @@
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-10-06T16:56:25.000Z",
   "updatedAt": "2026-11-04T06:46:53.000Z",
-  "downloads": 664,
+  "downloads": 671,
   "tags": [
    "AI",
    "BOSS",
@@ -1168,7 +1168,7 @@
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-10-02T05:03:39.000Z",
   "updatedAt": "2026-11-04T06:50:33.000Z",
-  "downloads": 2296,
+  "downloads": 2316,
   "tags": [
    "AI",
    "CHARACTERS",
@@ -1268,7 +1268,7 @@
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-10-03T17:41:42.000Z",
   "updatedAt": "2026-11-04T06:39:00.000Z",
-  "downloads": 1973,
+  "downloads": 1996,
   "tags": [
    "ALIEN",
    "CHARACTERS",
@@ -1368,7 +1368,7 @@
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-10-06T17:34:28.000Z",
   "updatedAt": "2026-11-02T15:54:01.000Z",
-  "downloads": 1170,
+  "downloads": 1178,
   "tags": [
    "CHARACTERS",
    "CMAI",
@@ -1422,7 +1422,7 @@
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-10-09T13:22:19.000Z",
   "updatedAt": "2026-11-04T06:45:10.000Z",
-  "downloads": 1871,
+  "downloads": 1891,
   "tags": [
    "CHARACTERS",
    "CMAI",
@@ -1517,7 +1517,7 @@
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-10-15T10:13:41.000Z",
   "updatedAt": "2026-11-02T15:53:07.000Z",
-  "downloads": 1331,
+  "downloads": 1348,
   "tags": [
    "AI",
    "CHARACTERS",
@@ -1640,7 +1640,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-10-15T23:43:22.000Z",
   "updatedAt": "2026-11-05T20:03:00.000Z",
-  "downloads": 785,
+  "downloads": 805,
   "tags": [
    "AI",
    "CHARACTERS",
@@ -1740,7 +1740,7 @@
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-10-16T11:15:49.000Z",
   "updatedAt": "2026-11-02T15:55:52.000Z",
-  "downloads": 1122,
+  "downloads": 1140,
   "tags": [
    "AI",
    "CHARACTERS",
@@ -1806,7 +1806,7 @@
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-10-16T11:10:30.000Z",
   "updatedAt": "2026-11-04T06:40:16.000Z",
-  "downloads": 981,
+  "downloads": 991,
   "tags": [
    "AI",
    "BIGFOOT",
@@ -1884,7 +1884,7 @@
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-10-22T00:49:08.000Z",
   "updatedAt": "2026-11-04T06:51:26.000Z",
-  "downloads": 58,
+  "downloads": 59,
   "tags": [
    "CHARACTERS",
    "CMAI",
@@ -1959,7 +1959,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-10-21T23:41:12.000Z",
   "updatedAt": "2026-11-05T20:00:25.000Z",
-  "downloads": 1310,
+  "downloads": 1331,
   "tags": [
    "AI",
    "CHARACTERS",
@@ -2148,7 +2148,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-08-30T18:18:07.000Z",
   "updatedAt": "2026-11-05T16:23:58.000Z",
-  "downloads": 52253,
+  "downloads": 52551,
   "tags": [
    "AI",
    "CHARACTERS",
@@ -2257,7 +2257,7 @@
   "gameVersion": "1.8.0.10",
   "createdAt": "2026-08-09T15:04:29.000Z",
   "updatedAt": "2026-08-30T20:00:54.000Z",
-  "downloads": 4560,
+  "downloads": 4565,
   "tags": [
    "AI",
    "REARM",
@@ -2314,7 +2314,7 @@
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-10-07T09:20:39.000Z",
   "updatedAt": "2026-10-09T10:56:14.000Z",
-  "downloads": 4744,
+  "downloads": 4765,
   "tags": [
    "CROSSBOW",
    "GAMEMASTER",
