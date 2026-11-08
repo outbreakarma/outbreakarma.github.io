@@ -1,7 +1,7 @@
 # Project Outbreak website
 
 The public site for **Project Outbreak**, a zombie sandbox add-on for Arma Reforger:
-https://outbreakarma.github.io/
+https://projectoutbreak.cc/ (outbreakarma.github.io forwards there)
 
 Static, no framework. `build.py` renders `index.html` from the published Workshop listing
 data under `assets/data/` (versions, change notes, screenshots, and every other public
@@ -14,7 +14,7 @@ is published on the Workshop. The page groups the items in `GROUPS` in `build.py
 - `assets/data/workshop-po.json`, `workshop-family.json` the listing data the page is built from
 
 Live numbers (servers, players, rank, downloads, player-hours) are fetched at view time from
-the sibling stats site, https://outbreakarma.github.io/outbreak-stats/ (`trend.json` and
+the sibling stats site, https://projectoutbreak.cc/stats/ (`trend.json` and
 `latest.json`), which counts them hourly from ReforgerMods.net and ArmaHQ. The page renders
 completely without them.
 
@@ -24,7 +24,9 @@ completely without them.
 python build.py
 ```
 
-Then commit `index.html`. GitHub Pages serves the repository root from `main`.
+Then commit `index.html`. GitHub Pages builds the repository root from `main`; the server behind
+projectoutbreak.cc copies `main` every 5 minutes and serves it, with the stats site under `/stats/`
+and the live map under `/live/`.
 
 ## Refresh the listing data
 

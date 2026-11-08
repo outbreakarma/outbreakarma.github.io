@@ -6,7 +6,7 @@ Sources (all published, nothing in progress):
   assets/data/workshop-family.json  every other public Workshop item by the same author
   assets/shots/, assets/family/, assets/cards/   images downloaded from the listings and the shipped card art
 Live numbers (servers, players, rank, download history) are fetched by the page at view time from the
-sibling stats site, /outbreak-stats/trend.json and /outbreak-stats/latest.json (same origin on GitHub Pages).
+sibling stats site, /stats/trend.json and /stats/latest.json (same origin on projectoutbreak.cc).
 The page renders completely without them; the live parts then say that the numbers are unavailable.
 """
 from __future__ import annotations
@@ -20,7 +20,9 @@ PO = json.loads((ROOT / "assets/data/workshop-po.json").read_text(encoding="utf-
 FAMILY = json.loads((ROOT / "assets/data/workshop-family.json").read_text(encoding="utf-8"))
 
 DISCORD = "https://discord.gg/JumfhFujRF"
-STATS_SITE = "https://outbreakarma.github.io/outbreak-stats/"
+SITE = "https://projectoutbreak.cc/"
+STATS_SITE = SITE + "stats/"
+LIVE_MAP = SITE + "live/"
 GITHUB = "https://github.com/outbreakarma"
 SITE_REPO = "https://github.com/outbreakarma/outbreakarma.github.io"
 STATS_REPO = "https://github.com/outbreakarma/outbreak-stats"
@@ -207,7 +209,7 @@ def card(mod_id: str, featured: bool = False) -> str:
     cta = ""
     if featured:
         cta = (f'<div class="cta small-cta">{ext(ws(mod_id), "Subscribe on the Workshop", "btn small")}'
-               f'{ext(STATS_SITE, "Live server stats", "btn small ghost")}</div>')
+               f'{ext(STATS_SITE, "Live server stats", "btn small ghost")}{ext(LIVE_MAP, "Live map", "btn small ghost")}</div>')
     return (
         f'<article class="{cls}" data-mod="{mod_id}">'
         f'<a class="fam-art" href="{ws(mod_id)}" target="_blank" rel="noopener" tabindex="-1" aria-hidden="true"><img src="{img}" alt="" loading="lazy"></a>'
@@ -300,6 +302,7 @@ def links_html() -> str:
         ]),
         ("Live numbers", [
             (STATS_SITE, "Outbreak Server Watch", "Hourly servers, players, downloads and rankings"),
+            (LIVE_MAP, "Live map", "The Project Outbreak server as it plays: zombies, hordes, fights and players"),
             (RM_MOD.format(id=PO_ID), "Project Outbreak Zombies on ReforgerMods.net", "30-day server and player history"),
             (AHQ_MOD.format(id=PO_ID), "Project Outbreak Zombies on ArmaHQ", "Every server running it right now"),
             (STATS_SITE + "trend.json", "trend.json", "The live numbers on this page, as JSON"),
@@ -690,7 +693,7 @@ page = f"""<!doctype html>
 <meta name="theme-color" content="#0c0a08">
 <meta property="og:title" content="Project Outbreak">
 <meta property="og:description" content="{E(PO["summary"])}">
-<meta property="og:image" content="https://outbreakarma.github.io/{SHOTS[0]["full"] if SHOTS else ""}">
+<meta property="og:image" content="{SITE}{SHOTS[0]["full"] if SHOTS else ""}">
 <meta property="og:type" content="website">
 <meta name="twitter:card" content="summary_large_image">
 <link rel="icon" href="assets/cards/Outbreak_FactionIcon_ui.png">
@@ -718,6 +721,7 @@ page = f"""<!doctype html>
       {ext(ws(PO_ID), "Get it on the Workshop", "btn")}
       {ext(DISCORD, "Join the Discord", "btn ghost")}
       {ext(STATS_SITE, "Live server stats", "btn ghost")}
+      {ext(LIVE_MAP, "Live map", "btn ghost")}
     </div>
     <div class="factstrip">
       <span>Downloads <b data-dl="{PO_ID}" data-build="{int(PO["downloads"] or 0)}">{int(PO["downloads"] or 0):,}</b></span>
@@ -740,7 +744,7 @@ page = f"""<!doctype html>
     <div class="tile reveal"><div class="k">Rank among zombie mods</div><div class="v" data-k="rank">-</div><div class="d" data-k="rank-d"></div></div>
   </div>
   <div class="live-wide" id="live-wide"></div>
-  <div class="live-foot"><span id="live-stamp"></span>{ext(STATS_SITE, "Open the full server watch", "btn small ghost")}</div>
+  <div class="live-foot"><span id="live-stamp"></span>{ext(STATS_SITE, "Open the full server watch", "btn small ghost")}{ext(LIVE_MAP, "Watch the live map", "btn small ghost")}</div>
 </div></section>
 
 <section id="infected"><div class="wrap">
