@@ -7,12 +7,12 @@
  "license": "Arma Public License (APL)",
  "rating": 0.96,
  "ratingCount": 101,
- "version": "2.4.18",
- "sizeBytes": 210472354,
+ "version": "2.4.19",
+ "sizeBytes": 210472429,
  "gameVersion": "1.9.0.37",
  "createdAt": "2026-08-30T18:23:05.000Z",
- "updatedAt": "2026-11-06T15:50:15.000Z",
- "downloads": 45771,
+ "updatedAt": "2026-11-08T17:12:12.000Z",
+ "downloads": 46133,
  "tags": [
   "CHARACTERS",
   "INFECTION",
@@ -31,6 +31,12 @@
   }
  ],
  "versions": [
+  {
+   "version": "2.4.19",
+   "gameVersion": "1.9.0.37",
+   "createdAt": "2026-11-08T12:06:00.000Z",
+   "size": 210472429
+  },
   {
    "version": "2.4.18",
    "gameVersion": "1.9.0.37",
@@ -84,15 +90,9 @@
    "gameVersion": "1.8.0.13",
    "createdAt": "2026-10-23T23:35:15.000Z",
    "size": 209349299
-  },
-  {
-   "version": "2.4.8",
-   "gameVersion": "1.8.0.13",
-   "createdAt": "2026-10-23T02:02:28.000Z",
-   "size": 208879972
   }
  ],
- "changelog": "2.4.18\nReforger 1.9 compatibility refresh of the verified carry, throw and shared combat fixes.\nUpdate Creature Melee AI and Project Outbreak Zombies together. Game content is unchanged.",
+ "changelog": "2.4.19\nFixed characters getting stuck after throwing a spear on Arma Reforger 1.9.\nFixed people pulled out of a vehicle by a zombie: they are knocked down again, as intended.\nUpdate Creature Melee AI and Project Outbreak Zombies together.",
  "preview": "https://ar-gcp-cdn.bistudio.com/image/2acf/50af531c77fb7b5f21ca79df26665c5a3e9f10ff3b0c4d08f6876c6370b0/158082.jpg",
  "previewThumbs": [
   "https://ar-gcp-cdn.bistudio.com/image/4cca/713c0a0d13d35c848872dd5398d4de1a8324f8931ead8fd865d03c85c843/86448.jpg",
@@ -111,16 +111,6 @@
    ]
   },
   {
-   "url": "https://ar-gcp-cdn.bistudio.com/image/77ff/141ba6c5a704bf26a1f712258c5425727c9d6827e14916d9cf5f77238c7e/309394.jpg",
-   "width": 1920,
-   "height": 1080,
-   "thumbs": [
-    "https://ar-gcp-cdn.bistudio.com/image/0b64/1b7fcc259bc4016d4fa84608144bad0c01a06d3fbf8df276d0d27e6ccc6d/190061.jpg",
-    "https://ar-gcp-cdn.bistudio.com/image/4c14/f79c26db7b515a7c5f0cabb88b75b1a9fb302acb6b6950d18e19c98bcb8b/61216.jpg",
-    "https://ar-gcp-cdn.bistudio.com/image/ff65/950f215c6e9104b837997d5cc7f8be0b72c661f65e5ab4534f3442d0e8e8/18297.jpg"
-   ]
-  },
-  {
    "url": "https://ar-gcp-cdn.bistudio.com/image/454a/56d450b61fc74493f7a01799bae39470b133b97419b4a9cdaf94165cb2a4/338626.jpg",
    "width": 1920,
    "height": 1080,
@@ -128,6 +118,16 @@
     "https://ar-gcp-cdn.bistudio.com/image/70b4/df2d11ac8529363855e5bb96791da98c356c4296a64b5fe3e15c4f2f287d/204307.jpg",
     "https://ar-gcp-cdn.bistudio.com/image/a4db/4e68fcfcfd0722730db2820981482169029f094ff65c9134e96bbaad940d/62565.jpg",
     "https://ar-gcp-cdn.bistudio.com/image/6495/21c0b1dbfe5769637b237e39984107f4c05ca8144852f2c618678954a157/17435.jpg"
+   ]
+  },
+  {
+   "url": "https://ar-gcp-cdn.bistudio.com/image/77ff/141ba6c5a704bf26a1f712258c5425727c9d6827e14916d9cf5f77238c7e/309394.jpg",
+   "width": 1920,
+   "height": 1080,
+   "thumbs": [
+    "https://ar-gcp-cdn.bistudio.com/image/0b64/1b7fcc259bc4016d4fa84608144bad0c01a06d3fbf8df276d0d27e6ccc6d/190061.jpg",
+    "https://ar-gcp-cdn.bistudio.com/image/4c14/f79c26db7b515a7c5f0cabb88b75b1a9fb302acb6b6950d18e19c98bcb8b/61216.jpg",
+    "https://ar-gcp-cdn.bistudio.com/image/ff65/950f215c6e9104b837997d5cc7f8be0b72c661f65e5ab4534f3442d0e8e8/18297.jpg"
    ]
   }
  ],
