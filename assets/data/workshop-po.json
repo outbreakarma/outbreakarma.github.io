@@ -7,12 +7,12 @@
  "license": "Arma Public License (APL)",
  "rating": 0.96,
  "ratingCount": 101,
- "version": "2.4.19",
- "sizeBytes": 210472429,
+ "version": "2.4.20",
+ "sizeBytes": 210472734,
  "gameVersion": "1.9.0.37",
  "createdAt": "2026-08-30T18:23:05.000Z",
- "updatedAt": "2026-11-08T17:12:12.000Z",
- "downloads": 46133,
+ "updatedAt": "2026-11-08T17:13:41.000Z",
+ "downloads": 46447,
  "tags": [
   "CHARACTERS",
   "INFECTION",
@@ -31,6 +31,12 @@
   }
  ],
  "versions": [
+  {
+   "version": "2.4.20",
+   "gameVersion": "1.9.0.37",
+   "createdAt": "2026-11-08T17:10:45.000Z",
+   "size": 210472734
+  },
   {
    "version": "2.4.19",
    "gameVersion": "1.9.0.37",
@@ -84,15 +90,9 @@
    "gameVersion": "1.8.0.13",
    "createdAt": "2026-10-24T09:53:20.000Z",
    "size": 209349660
-  },
-  {
-   "version": "2.4.9",
-   "gameVersion": "1.8.0.13",
-   "createdAt": "2026-10-23T23:35:15.000Z",
-   "size": 209349299
   }
  ],
- "changelog": "2.4.19\nFixed characters getting stuck after throwing a spear on Arma Reforger 1.9.\nFixed people pulled out of a vehicle by a zombie: they are knocked down again, as intended.\nUpdate Creature Melee AI and Project Outbreak Zombies together.",
+ "changelog": "2.4.20\nZombie and survivor voices now fade out within 60 to 100 m. Before, they could be heard across the whole map.\nDead zombies no longer groan when they are shot.",
  "preview": "https://ar-gcp-cdn.bistudio.com/image/2acf/50af531c77fb7b5f21ca79df26665c5a3e9f10ff3b0c4d08f6876c6370b0/158082.jpg",
  "previewThumbs": [
   "https://ar-gcp-cdn.bistudio.com/image/4cca/713c0a0d13d35c848872dd5398d4de1a8324f8931ead8fd865d03c85c843/86448.jpg",
