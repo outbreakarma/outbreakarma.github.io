@@ -13,7 +13,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-08-30T18:29:18.000Z",
   "updatedAt": "2026-11-06T16:42:12.000Z",
-  "downloads": 21330,
+  "downloads": 21378,
   "tags": [
    "INFECTION",
    "OUTBREAK",
@@ -119,7 +119,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-08-30T18:31:09.000Z",
   "updatedAt": "2026-11-06T16:43:53.000Z",
-  "downloads": 16408,
+  "downloads": 16445,
   "tags": [
    "OUTBREAK",
    "SYSTEMS",
@@ -224,7 +224,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-08-30T18:27:33.000Z",
   "updatedAt": "2026-11-06T16:44:40.000Z",
-  "downloads": 8730,
+  "downloads": 8749,
   "tags": [
    "GADGETS",
    "OUTBREAK",
@@ -333,7 +333,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-09-27T03:27:42.000Z",
   "updatedAt": "2026-11-06T16:50:13.000Z",
-  "downloads": 9676,
+  "downloads": 9702,
   "tags": [
    "CHARACTERS",
    "CREATURES",
@@ -468,7 +468,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-09-27T03:41:17.000Z",
   "updatedAt": "2026-11-06T16:53:42.000Z",
-  "downloads": 10890,
+  "downloads": 10922,
   "tags": [
    "CHARACTERS",
    "OUTBREAK",
@@ -595,7 +595,7 @@
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-09-22T02:24:31.000Z",
   "updatedAt": "2026-10-01T07:14:39.000Z",
-  "downloads": 261,
+  "downloads": 263,
   "tags": [
    "SCENARIOS_MP",
    "SYSTEMS"
@@ -992,7 +992,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-10-08T02:57:35.000Z",
   "updatedAt": "2026-11-08T16:43:49.000Z",
-  "downloads": 794,
+  "downloads": 807,
   "tags": [
    "GLENWOOD",
    "LIGHT",
@@ -1120,7 +1120,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-10-06T16:56:25.000Z",
   "updatedAt": "2026-11-06T16:31:10.000Z",
-  "downloads": 740,
+  "downloads": 743,
   "tags": [
    "AI",
    "BOSS",
@@ -1210,7 +1210,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-10-02T05:03:39.000Z",
   "updatedAt": "2026-11-06T16:34:23.000Z",
-  "downloads": 2506,
+  "downloads": 2513,
   "tags": [
    "AI",
    "CHARACTERS",
@@ -1316,7 +1316,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-10-03T17:41:42.000Z",
   "updatedAt": "2026-11-06T14:11:39.000Z",
-  "downloads": 2209,
+  "downloads": 2223,
   "tags": [
    "ALIEN",
    "CHARACTERS",
@@ -1422,7 +1422,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-10-06T17:34:28.000Z",
   "updatedAt": "2026-11-06T16:39:20.000Z",
-  "downloads": 1307,
+  "downloads": 1317,
   "tags": [
    "CHARACTERS",
    "CMAI",
@@ -1482,7 +1482,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-10-09T13:22:19.000Z",
   "updatedAt": "2026-11-07T16:32:31.000Z",
-  "downloads": 2107,
+  "downloads": 2118,
   "tags": [
    "CHARACTERS",
    "CMAI",
@@ -1589,7 +1589,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-10-15T10:13:41.000Z",
   "updatedAt": "2026-11-06T16:38:31.000Z",
-  "downloads": 1616,
+  "downloads": 1626,
   "tags": [
    "AI",
    "CHARACTERS",
@@ -1718,7 +1718,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-10-15T23:43:22.000Z",
   "updatedAt": "2026-11-05T20:03:00.000Z",
-  "downloads": 899,
+  "downloads": 905,
   "tags": [
    "AI",
    "CHARACTERS",
@@ -1818,7 +1818,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-10-16T11:15:49.000Z",
   "updatedAt": "2026-11-07T16:30:25.000Z",
-  "downloads": 1321,
+  "downloads": 1329,
   "tags": [
    "AI",
    "CHARACTERS",
@@ -1896,7 +1896,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-10-16T11:10:30.000Z",
   "updatedAt": "2026-11-06T16:27:18.000Z",
-  "downloads": 1125,
+  "downloads": 1128,
   "tags": [
    "AI",
    "BIGFOOT",
@@ -2061,7 +2061,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-10-21T23:41:12.000Z",
   "updatedAt": "2026-11-05T20:00:25.000Z",
-  "downloads": 1423,
+  "downloads": 1429,
   "tags": [
    "AI",
    "CHARACTERS",
@@ -2250,7 +2250,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-08-30T18:18:07.000Z",
   "updatedAt": "2026-11-08T03:02:32.000Z",
-  "downloads": 56177,
+  "downloads": 56348,
   "tags": [
    "AI",
    "CHARACTERS",
@@ -2359,7 +2359,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-08-09T15:04:29.000Z",
   "updatedAt": "2026-11-06T18:29:09.000Z",
-  "downloads": 4853,
+  "downloads": 4871,
   "tags": [
    "AI",
    "REARM",
@@ -2422,7 +2422,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-10-07T09:20:39.000Z",
   "updatedAt": "2026-11-06T17:05:17.000Z",
-  "downloads": 6321,
+  "downloads": 6355,
   "tags": [
    "CROSSBOW",
    "GAMEMASTER",
@@ -2501,7 +2501,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-09-29T16:59:01.000Z",
   "updatedAt": "2026-11-06T16:54:18.000Z",
-  "downloads": 414,
+  "downloads": 415,
   "tags": [
    "BALLISTA",
    "MEDIEVAL",
