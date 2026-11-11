@@ -6,13 +6,13 @@
  "description": "Project Outbreak aims to enhance the Zombie experience in Arma Reforger. It includes various Zombie archetypes (slow, fast, crawling), animations, and ways to customize Zombie health and damage.\n\n\nPlace them directly through Game Master or use ambient populations and directed waves to shape an entire scenario.\n\n\n\n\nCredits and third-party licences:\n- Special thanks and credits to microplastic9000, this mod adapts Zombie Hive for Outbreak as well as the audio spatial fix under APL. A huge thank you also goes to AlienBallien (BallienCreatures) for  native creature ragdoll approach, extremely helpful for custom creatures in this mod and was used under APL.\n- Several attack and tackling animations come from Yummy Games, as well as sounds (https://www.fab.com/listings/f5e4fd19-febd-43b1-8799-b6c4c8f1f23b). Feral movement also uses Crawling Ghoul Anims (https://www.fab.com/listings/9e96b3f7-30ca-4221-a2eb-2bd46146b286) by RamsterZ. \n- Zombies Pack V4, Zombie Male AAB, Giant Zombie (Nephilim) and Decayed Zombie B by Studio New Punch, from Fab, used under the Fab Standard License. Modified and rigged for Arma Reforger.\n- Zombie Female: Nurse (the Nightingale), Crawling Ghoul Anims and RamsterZ Free Anims Volume 1 by RamsterZ, from Fab, used under their Fab licences\n- Spear animations: Cool Throwing Combat Animations by Bacengdu, from Fab, used under the Fab Standard License.\n\n\n\nRequires Creature Melee AI. Original Project Outbreak content is released under the Arma Public License (APL). Incorporated assets remain under the Fab Standard License.\n\nFor questions, join the Discord Server: \nhttps://discord.gg/JumfhFujRF\n\nTitle Screenshot by redeye.vol2\n\n\nSpecial thanks to ChuckyDUECE22 for contributing the Game Master spawn menu and resource browser filtering fix.",
  "license": "Arma Public License (APL)",
  "rating": 0.96,
- "ratingCount": 103,
- "version": "2.4.21",
- "sizeBytes": 210473426,
+ "ratingCount": 104,
+ "version": "2.4.22",
+ "sizeBytes": 210476154,
  "gameVersion": "1.9.0.37",
  "createdAt": "2026-08-30T18:23:05.000Z",
- "updatedAt": "2026-11-09T13:12:33.000Z",
- "downloads": 47948,
+ "updatedAt": "2026-11-10T20:31:23.000Z",
+ "downloads": 48265,
  "tags": [
   "CHARACTERS",
   "INFECTION",
@@ -27,10 +27,16 @@
   {
    "id": "4FD4A1BD550793F4",
    "name": "Creature Melee AI",
-   "version": "1.8.24"
+   "version": "1.8.25"
   }
  ],
  "versions": [
+  {
+   "version": "2.4.22",
+   "gameVersion": "1.9.0.37",
+   "createdAt": "2026-11-10T20:30:03.000Z",
+   "size": 210476154
+  },
   {
    "version": "2.4.21",
    "gameVersion": "1.9.0.37",
@@ -84,15 +90,9 @@
    "gameVersion": "1.8.0.13",
    "createdAt": "2026-11-02T15:59:33.000Z",
    "size": 210467016
-  },
-  {
-   "version": "2.4.12",
-   "gameVersion": "1.8.0.13",
-   "createdAt": "2026-10-25T18:44:52.000Z",
-   "size": 209349966
   }
  ],
- "changelog": "2.4.21\nFixed players who could not move after they got up from a ragdoll that started while a zombie had them pinned on Arma Reforger 1.9. Update Creature Melee AI to 1.8.24 together with Project Outbreak.",
+ "changelog": "2.4.22\nZombies now stand up after Zombify, an infection death or any turn instead of sliding along the floor. Zombies no longer hunt, pin, bite or bleed players that a safe-zone or login-protection mod protects. Update Creature Melee AI to 1.8.25, Project Outbreak Infection to 1.4.5 and Special Zombies and Creatures to 1.1.8 together with Project Outbreak.",
  "preview": "https://ar-gcp-cdn.bistudio.com/image/2acf/50af531c77fb7b5f21ca79df26665c5a3e9f10ff3b0c4d08f6876c6370b0/158082.jpg",
  "previewThumbs": [
   "https://ar-gcp-cdn.bistudio.com/image/4cca/713c0a0d13d35c848872dd5398d4de1a8324f8931ead8fd865d03c85c843/86448.jpg",
@@ -100,16 +100,6 @@
   "https://ar-gcp-cdn.bistudio.com/image/5db5/65f032b063ddb913c8c352ca734ee4de391de0e49fdfc5ebb8e9733c4194/11059.jpg"
  ],
  "screenshots": [
-  {
-   "url": "https://ar-gcp-cdn.bistudio.com/image/77ff/141ba6c5a704bf26a1f712258c5425727c9d6827e14916d9cf5f77238c7e/309394.jpg",
-   "width": 1920,
-   "height": 1080,
-   "thumbs": [
-    "https://ar-gcp-cdn.bistudio.com/image/0b64/1b7fcc259bc4016d4fa84608144bad0c01a06d3fbf8df276d0d27e6ccc6d/190061.jpg",
-    "https://ar-gcp-cdn.bistudio.com/image/4c14/f79c26db7b515a7c5f0cabb88b75b1a9fb302acb6b6950d18e19c98bcb8b/61216.jpg",
-    "https://ar-gcp-cdn.bistudio.com/image/ff65/950f215c6e9104b837997d5cc7f8be0b72c661f65e5ab4534f3442d0e8e8/18297.jpg"
-   ]
-  },
   {
    "url": "https://ar-gcp-cdn.bistudio.com/image/927f/eb5f78bee1754bee27e13048de2e1b17aed91c072d67adf716949c972ed0/506426.jpg",
    "width": 1920,
@@ -128,6 +118,16 @@
     "https://ar-gcp-cdn.bistudio.com/image/70b4/df2d11ac8529363855e5bb96791da98c356c4296a64b5fe3e15c4f2f287d/204307.jpg",
     "https://ar-gcp-cdn.bistudio.com/image/a4db/4e68fcfcfd0722730db2820981482169029f094ff65c9134e96bbaad940d/62565.jpg",
     "https://ar-gcp-cdn.bistudio.com/image/6495/21c0b1dbfe5769637b237e39984107f4c05ca8144852f2c618678954a157/17435.jpg"
+   ]
+  },
+  {
+   "url": "https://ar-gcp-cdn.bistudio.com/image/77ff/141ba6c5a704bf26a1f712258c5425727c9d6827e14916d9cf5f77238c7e/309394.jpg",
+   "width": 1920,
+   "height": 1080,
+   "thumbs": [
+    "https://ar-gcp-cdn.bistudio.com/image/0b64/1b7fcc259bc4016d4fa84608144bad0c01a06d3fbf8df276d0d27e6ccc6d/190061.jpg",
+    "https://ar-gcp-cdn.bistudio.com/image/4c14/f79c26db7b515a7c5f0cabb88b75b1a9fb302acb6b6950d18e19c98bcb8b/61216.jpg",
+    "https://ar-gcp-cdn.bistudio.com/image/ff65/950f215c6e9104b837997d5cc7f8be0b72c661f65e5ab4534f3442d0e8e8/18297.jpg"
    ]
   }
  ],
