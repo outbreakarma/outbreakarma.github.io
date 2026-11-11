@@ -13,7 +13,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-08-30T18:29:18.000Z",
   "updatedAt": "2026-11-10T20:34:23.000Z",
-  "downloads": 22054,
+  "downloads": 22181,
   "tags": [
    "INFECTION",
    "OUTBREAK",
@@ -119,7 +119,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-08-30T18:31:09.000Z",
   "updatedAt": "2026-11-06T16:43:53.000Z",
-  "downloads": 16701,
+  "downloads": 16731,
   "tags": [
    "OUTBREAK",
    "SYSTEMS",
@@ -224,7 +224,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-08-30T18:27:33.000Z",
   "updatedAt": "2026-11-06T16:44:40.000Z",
-  "downloads": 8887,
+  "downloads": 8901,
   "tags": [
    "GADGETS",
    "OUTBREAK",
@@ -333,7 +333,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-09-27T03:27:42.000Z",
   "updatedAt": "2026-11-06T16:50:13.000Z",
-  "downloads": 9931,
+  "downloads": 9956,
   "tags": [
    "CHARACTERS",
    "CREATURES",
@@ -468,7 +468,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-09-27T03:41:17.000Z",
   "updatedAt": "2026-11-10T20:33:58.000Z",
-  "downloads": 11493,
+  "downloads": 11595,
   "tags": [
    "CHARACTERS",
    "OUTBREAK",
@@ -595,7 +595,7 @@
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-09-22T02:24:31.000Z",
   "updatedAt": "2026-10-01T07:14:39.000Z",
-  "downloads": 277,
+  "downloads": 278,
   "tags": [
    "SCENARIOS_MP",
    "SYSTEMS"
@@ -992,12 +992,12 @@
   "license": "Arma Public License (APL)",
   "rating": 1,
   "ratingCount": 5,
-  "version": "0.1.27",
-  "sizeBytes": 3495927,
+  "version": "0.2.1",
+  "sizeBytes": 3524807,
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-10-08T02:57:35.000Z",
-  "updatedAt": "2026-11-11T14:50:04.000Z",
-  "downloads": 1053,
+  "updatedAt": "2026-11-11T19:46:52.000Z",
+  "downloads": 1122,
   "tags": [
    "GLENWOOD",
    "LIGHT",
@@ -1029,6 +1029,18 @@
    }
   ],
   "versions": [
+   {
+    "version": "0.2.1",
+    "gameVersion": "1.9.0.37",
+    "createdAt": "2026-11-11T19:46:46.000Z",
+    "size": 3524807
+   },
+   {
+    "version": "0.2.0",
+    "gameVersion": "1.9.0.37",
+    "createdAt": "2026-11-11T17:54:33.000Z",
+    "size": 3521947
+   },
    {
     "version": "0.1.27",
     "gameVersion": "1.9.0.37",
@@ -1076,21 +1088,9 @@
     "gameVersion": "1.9.0.37",
     "createdAt": "2026-11-09T11:41:56.000Z",
     "size": 3537425
-   },
-   {
-    "version": "0.1.19",
-    "gameVersion": "1.9.0.37",
-    "createdAt": "2026-11-08T16:43:43.000Z",
-    "size": 3534991
-   },
-   {
-    "version": "0.1.18",
-    "gameVersion": "1.9.0.37",
-    "createdAt": "2026-11-08T14:17:19.000Z",
-    "size": 3534277
    }
   ],
-  "changelog": "0.1.27\n- The Abomination is back at mass graves when the Special Zombies and Creatures add-on is loaded. It was switched off in 0.1.25 because it could crash the server.\n- Fixed the cause of that crash. A Nephilim, Nightingale or Abomination no longer appears inside the grave itself: it now appears on clear ground a few metres beside the grave, on the side of the base under attack. Creatures that companion add-ons send out of a grave use the same spot.\n- When there is no clear ground beside a grave, that special is skipped and the grave tries again at its next roll.",
+  "changelog": "0.2.1\n- Uncleared houses now act as ambient emergence points: when players move near uncleared buildings, ambient infected have a 60% chance to spawn on a ground-floor room inside a nearby house and push out through its exterior door onto the street until that house is cleared.\n- Killing all infected that came out of (or slept inside) a house marks that building cleared for the rest of the session (+35 XP) so neither sleepers nor future ambient waves spawn from it again; walking away without killing them leaves the house uncleared.\n- Tightened passive indoor sleeper activation to 48 m and lowered the concurrent sleeper cap from 40 to 16 across the valley so nearby towns keep close-quarters room clearing without holding idle AI slots across distant blocks.\n- Reduced load-time script attribute registrations across the campaign directors to give heavily modded servers extra startup headroom.",
   "preview": "https://ar-gcp-cdn.bistudio.com/image/6a92/2db8d6d18bfe9e72772ce468b6aed7242865b1b1a4ad99222d6b431e8954/296643.jpg",
   "previewThumbs": [
    "https://ar-gcp-cdn.bistudio.com/image/a586/49e091f21648996c31da3c96e37ad42a3267479443b2cf014229eb2adf45/139140.jpg",
@@ -1115,7 +1115,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-10-06T16:56:25.000Z",
   "updatedAt": "2026-11-06T16:31:10.000Z",
-  "downloads": 760,
+  "downloads": 762,
   "tags": [
    "AI",
    "BOSS",
@@ -1205,7 +1205,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-10-02T05:03:39.000Z",
   "updatedAt": "2026-11-06T16:34:23.000Z",
-  "downloads": 2588,
+  "downloads": 2613,
   "tags": [
    "AI",
    "CHARACTERS",
@@ -1306,12 +1306,12 @@
   "license": "Arma Public License (APL)",
   "rating": 1,
   "ratingCount": 9,
-  "version": "1.2.8",
-  "sizeBytes": 116881391,
+  "version": "1.2.10",
+  "sizeBytes": 116882854,
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-10-03T17:41:42.000Z",
-  "updatedAt": "2026-11-06T14:11:39.000Z",
-  "downloads": 2297,
+  "updatedAt": "2026-11-11T22:40:05.000Z",
+  "downloads": 2344,
   "tags": [
    "ALIEN",
    "CHARACTERS",
@@ -1327,6 +1327,18 @@
    }
   ],
   "versions": [
+   {
+    "version": "1.2.10",
+    "gameVersion": "1.9.0.37",
+    "createdAt": "2026-11-11T22:39:18.000Z",
+    "size": 116882854
+   },
+   {
+    "version": "1.2.9",
+    "gameVersion": "1.9.0.37",
+    "createdAt": "2026-11-11T17:51:59.000Z",
+    "size": 116882482
+   },
    {
     "version": "1.2.8",
     "gameVersion": "1.9.0.37",
@@ -1374,15 +1386,9 @@
     "gameVersion": "1.8.0.13",
     "createdAt": "2026-10-04T14:16:40.000Z",
     "size": 37926480
-   },
-   {
-    "version": "1.0.0",
-    "gameVersion": "1.8.0.13",
-    "createdAt": "2026-10-03T17:41:42.000Z",
-    "size": 37924244
    }
   ],
-  "changelog": "1.2.8\nCompatibility update for Arma Reforger 1.9. Game content is unchanged.",
+  "changelog": "1.2.10\n- Fixed winged Eyekin failing to stay airborne when spawned in open-sky roost flocks alongside certain character movement add-ons, regardless of mod load order.",
   "preview": "https://ar-gcp-cdn.bistudio.com/image/e516/38fbbb22cd0cfddd8f0497e2edaefd80c2bc51078f740b9baea82fd5f721/252017.jpg",
   "previewThumbs": [
    "https://ar-gcp-cdn.bistudio.com/image/7a13/92eea32520b8041063b74a78a64ac436cb8bf7a37e089701a08f0ebeafc5/142790.jpg",
@@ -1417,7 +1423,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-10-06T17:34:28.000Z",
   "updatedAt": "2026-11-06T16:39:20.000Z",
-  "downloads": 1355,
+  "downloads": 1359,
   "tags": [
    "CHARACTERS",
    "CMAI",
@@ -1477,7 +1483,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-10-09T13:22:19.000Z",
   "updatedAt": "2026-11-07T16:32:31.000Z",
-  "downloads": 2190,
+  "downloads": 2207,
   "tags": [
    "CHARACTERS",
    "CMAI",
@@ -1584,7 +1590,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-10-15T10:13:41.000Z",
   "updatedAt": "2026-11-06T16:38:31.000Z",
-  "downloads": 1711,
+  "downloads": 1725,
   "tags": [
    "AI",
    "CHARACTERS",
@@ -1713,7 +1719,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-10-15T23:43:22.000Z",
   "updatedAt": "2026-11-05T20:03:00.000Z",
-  "downloads": 925,
+  "downloads": 929,
   "tags": [
    "AI",
    "CHARACTERS",
@@ -1813,7 +1819,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-10-16T11:15:49.000Z",
   "updatedAt": "2026-11-07T16:30:25.000Z",
-  "downloads": 1389,
+  "downloads": 1390,
   "tags": [
    "AI",
    "CHARACTERS",
@@ -1891,7 +1897,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-10-16T11:10:30.000Z",
   "updatedAt": "2026-11-06T16:27:18.000Z",
-  "downloads": 1166,
+  "downloads": 1172,
   "tags": [
    "AI",
    "BIGFOOT",
@@ -2056,7 +2062,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-10-21T23:41:12.000Z",
   "updatedAt": "2026-11-05T20:00:25.000Z",
-  "downloads": 1481,
+  "downloads": 1504,
   "tags": [
    "AI",
    "CHARACTERS",
@@ -2245,7 +2251,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-08-30T18:18:07.000Z",
   "updatedAt": "2026-11-10T20:28:27.000Z",
-  "downloads": 58649,
+  "downloads": 58956,
   "tags": [
    "AI",
    "CHARACTERS",
@@ -2354,7 +2360,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-08-09T15:04:29.000Z",
   "updatedAt": "2026-11-06T18:29:09.000Z",
-  "downloads": 4968,
+  "downloads": 4981,
   "tags": [
    "AI",
    "REARM",
@@ -2417,7 +2423,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-10-07T09:20:39.000Z",
   "updatedAt": "2026-11-06T17:05:17.000Z",
-  "downloads": 6904,
+  "downloads": 7020,
   "tags": [
    "CROSSBOW",
    "GAMEMASTER",
@@ -2496,7 +2502,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-09-29T16:59:01.000Z",
   "updatedAt": "2026-11-06T16:54:18.000Z",
-  "downloads": 425,
+  "downloads": 426,
   "tags": [
    "BALLISTA",
    "MEDIEVAL",
