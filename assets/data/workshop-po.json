@@ -7,12 +7,12 @@
  "license": "Arma Public License (APL)",
  "rating": 0.96,
  "ratingCount": 104,
- "version": "2.4.22",
- "sizeBytes": 210476154,
+ "version": "2.4.23",
+ "sizeBytes": 210484625,
  "gameVersion": "1.9.0.37",
  "createdAt": "2026-08-30T18:23:05.000Z",
- "updatedAt": "2026-11-10T20:31:23.000Z",
- "downloads": 48530,
+ "updatedAt": "2026-11-11T14:25:31.000Z",
+ "downloads": 48828,
  "tags": [
   "CHARACTERS",
   "INFECTION",
@@ -31,6 +31,12 @@
   }
  ],
  "versions": [
+  {
+   "version": "2.4.23",
+   "gameVersion": "1.9.0.37",
+   "createdAt": "2026-11-11T14:24:07.000Z",
+   "size": 210484625
+  },
   {
    "version": "2.4.22",
    "gameVersion": "1.9.0.37",
@@ -84,15 +90,9 @@
    "gameVersion": "1.8.0.13",
    "createdAt": "2026-11-04T04:56:01.000Z",
    "size": 210467085
-  },
-  {
-   "version": "2.4.13",
-   "gameVersion": "1.8.0.13",
-   "createdAt": "2026-11-02T15:59:33.000Z",
-   "size": 210467016
   }
  ],
- "changelog": "2.4.22\nZombies now stand up after Zombify, an infection death or any turn instead of sliding along the floor. Zombies no longer hunt, pin, bite or bleed players that a safe-zone or login-protection mod protects. Update Creature Melee AI to 1.8.25, Project Outbreak Infection to 1.4.5 and Special Zombies and Creatures to 1.1.8 together with Project Outbreak.",
+ "changelog": "2.4.23\nFixed servers and clients with large modlists crashing on startup in #InitGlobals ('NULL pointer to instance'). Project Outbreak now sets up its internal values after script load instead of inside the shared startup table, with no gameplay or balance changes.",
  "preview": "https://ar-gcp-cdn.bistudio.com/image/2acf/50af531c77fb7b5f21ca79df26665c5a3e9f10ff3b0c4d08f6876c6370b0/158082.jpg",
  "previewThumbs": [
   "https://ar-gcp-cdn.bistudio.com/image/4cca/713c0a0d13d35c848872dd5398d4de1a8324f8931ead8fd865d03c85c843/86448.jpg",
