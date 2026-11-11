@@ -22,6 +22,7 @@ FAMILY = json.loads((ROOT / "assets/data/workshop-family.json").read_text(encodi
 DISCORD = "https://discord.gg/JumfhFujRF"
 SITE = "https://projectoutbreak.cc/"
 STATS_SITE = SITE + "stats/"
+SERVER_POST = SITE + "server/"
 LIVE_MAP = SITE + "live/"
 GITHUB = "https://github.com/outbreakarma"
 SITE_REPO = "https://github.com/outbreakarma/outbreakarma.github.io"
@@ -209,7 +210,7 @@ def card(mod_id: str, featured: bool = False) -> str:
     cta = ""
     if featured:
         cta = (f'<div class="cta small-cta">{ext(ws(mod_id), "Subscribe on the Workshop", "btn small")}'
-               f'{ext(STATS_SITE, "Live server stats", "btn small ghost")}{ext(LIVE_MAP, "Live map", "btn small ghost")}</div>')
+               f'{ext(STATS_SITE, "Live server stats", "btn small ghost")}{ext(SERVER_POST, "Official server", "btn small ghost")}{ext(LIVE_MAP, "Live map", "btn small ghost")}</div>')
     return (
         f'<article class="{cls}" data-mod="{mod_id}">'
         f'<a class="fam-art" href="{ws(mod_id)}" target="_blank" rel="noopener" tabindex="-1" aria-hidden="true"><img src="{img}" alt="" loading="lazy"></a>'
@@ -302,6 +303,7 @@ def links_html() -> str:
         ]),
         ("Live numbers", [
             (STATS_SITE, "Outbreak Server Watch", "Hourly servers, players, downloads and rankings"),
+            (SERVER_POST, "Outbreak Command Post", "Live players, tick FPS, 30-day seismograph and Glenwood map plans on the official server"),
             (LIVE_MAP, "Live map", "The Project Outbreak server as it plays: zombies, hordes, fights and players"),
             (RM_MOD.format(id=PO_ID), "Project Outbreak Zombies on ReforgerMods.net", "30-day server and player history"),
             (AHQ_MOD.format(id=PO_ID), "Project Outbreak Zombies on ArmaHQ", "Every server running it right now"),
@@ -706,7 +708,7 @@ page = f"""<!doctype html>
 <body>
 <nav class="top" aria-label="Sections"><div class="wrap">
   <a class="logo" href="#top"><img src="assets/cards/Outbreak_FactionIcon_ui.png" alt=""><span>Project Outbreak</span></a>
-  <ul>{"".join(f'<li><a href="#{k}">{v}</a></li>' for k, v in NAV)}</ul>
+  <ul>{"".join(f'<li><a href="#{k}">{v}</a></li>' for k, v in NAV)}<li>{ext(SERVER_POST, "Command post")}</li></ul>
   {ext(ws(PO_ID), "Workshop", "btn small navcta")}
 </div></nav>
 
@@ -721,6 +723,7 @@ page = f"""<!doctype html>
       {ext(ws(PO_ID), "Get it on the Workshop", "btn")}
       {ext(DISCORD, "Join the Discord", "btn ghost")}
       {ext(STATS_SITE, "Live server stats", "btn ghost")}
+      {ext(SERVER_POST, "Official server", "btn ghost")}
       {ext(LIVE_MAP, "Live map", "btn ghost")}
     </div>
     <div class="factstrip">
@@ -744,7 +747,7 @@ page = f"""<!doctype html>
     <div class="tile reveal"><div class="k">Rank among zombie mods</div><div class="v" data-k="rank">-</div><div class="d" data-k="rank-d"></div></div>
   </div>
   <div class="live-wide" id="live-wide"></div>
-  <div class="live-foot"><span id="live-stamp"></span>{ext(STATS_SITE, "Open the full server watch", "btn small ghost")}{ext(LIVE_MAP, "Watch the live map", "btn small ghost")}</div>
+  <div class="live-foot"><span id="live-stamp"></span><span class="cta small-cta">{ext(STATS_SITE, "Open the full server watch", "btn small ghost")}{ext(SERVER_POST, "Official server command post", "btn small ghost")}{ext(LIVE_MAP, "Watch the live map", "btn small ghost")}</span></div>
 </div></section>
 
 <section id="infected"><div class="wrap">
@@ -812,7 +815,7 @@ page = f"""<!doctype html>
 </div></section>
 
 <footer><div class="wrap">
-  <span>Project Outbreak · {ext(ws(PO_ID), "Workshop")} · {ext(DISCORD, "Discord")} · {ext(STATS_SITE, "Server watch")} · {ext(GITHUB, "GitHub")}</span>
+  <span>Project Outbreak · {ext(ws(PO_ID), "Workshop")} · {ext(DISCORD, "Discord")} · {ext(STATS_SITE, "Server watch")} · {ext(SERVER_POST, "Command post")} · {ext(GITHUB, "GitHub")}</span>
   <span class="mono">Built from the published listings, {E(date(PO["updatedAt"]))} · listing id {E(PO_ID)}</span>
 </div></footer>
 <script type="application/json" id="cfg">{CFG}</script>
