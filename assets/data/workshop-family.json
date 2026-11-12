@@ -13,7 +13,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-08-30T18:29:18.000Z",
   "updatedAt": "2026-11-10T20:34:23.000Z",
-  "downloads": 22273,
+  "downloads": 22364,
   "tags": [
    "INFECTION",
    "OUTBREAK",
@@ -29,7 +29,7 @@
    {
     "id": "F1D4B9B5245B36ED",
     "name": "Project Outbreak Zombies",
-    "version": "2.4.24"
+    "version": "2.4.25"
    }
   ],
   "versions": [
@@ -119,7 +119,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-08-30T18:31:09.000Z",
   "updatedAt": "2026-11-06T16:43:53.000Z",
-  "downloads": 16756,
+  "downloads": 16771,
   "tags": [
    "OUTBREAK",
    "SYSTEMS",
@@ -134,7 +134,7 @@
    {
     "id": "F1D4B9B5245B36ED",
     "name": "Project Outbreak Zombies",
-    "version": "2.4.24"
+    "version": "2.4.25"
    }
   ],
   "versions": [
@@ -224,7 +224,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-08-30T18:27:33.000Z",
   "updatedAt": "2026-11-06T16:44:40.000Z",
-  "downloads": 8912,
+  "downloads": 8920,
   "tags": [
    "GADGETS",
    "OUTBREAK",
@@ -243,7 +243,7 @@
    {
     "id": "F1D4B9B5245B36ED",
     "name": "Project Outbreak Zombies",
-    "version": "2.4.24"
+    "version": "2.4.25"
    }
   ],
   "versions": [
@@ -333,7 +333,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-09-27T03:27:42.000Z",
   "updatedAt": "2026-11-06T16:50:13.000Z",
-  "downloads": 9982,
+  "downloads": 10007,
   "tags": [
    "CHARACTERS",
    "CREATURES",
@@ -350,7 +350,7 @@
    {
     "id": "F1D4B9B5245B36ED",
     "name": "Project Outbreak Zombies",
-    "version": "2.4.24"
+    "version": "2.4.25"
    }
   ],
   "versions": [
@@ -468,7 +468,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-09-27T03:41:17.000Z",
   "updatedAt": "2026-11-10T20:33:58.000Z",
-  "downloads": 11679,
+  "downloads": 11760,
   "tags": [
    "CHARACTERS",
    "OUTBREAK",
@@ -484,7 +484,7 @@
    {
     "id": "F1D4B9B5245B36ED",
     "name": "Project Outbreak Zombies",
-    "version": "2.4.24"
+    "version": "2.4.25"
    }
   ],
   "versions": [
@@ -949,7 +949,7 @@
    {
     "id": "F1D4B9B5245B36ED",
     "name": "Project Outbreak Zombies",
-    "version": "2.4.24"
+    "version": "2.4.25"
    }
   ],
   "versions": [
@@ -992,12 +992,12 @@
   "license": "Arma Public License (APL)",
   "rating": 1,
   "ratingCount": 5,
-  "version": "0.2.2",
-  "sizeBytes": 3525688,
+  "version": "0.2.3",
+  "sizeBytes": 3526776,
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-10-08T02:57:35.000Z",
-  "updatedAt": "2026-11-11T23:13:46.000Z",
-  "downloads": 1166,
+  "updatedAt": "2026-11-12T07:22:46.000Z",
+  "downloads": 1196,
   "tags": [
    "GLENWOOD",
    "LIGHT",
@@ -1025,10 +1025,16 @@
    {
     "id": "F1D4B9B5245B36ED",
     "name": "Project Outbreak Zombies",
-    "version": "2.4.24"
+    "version": "2.4.25"
    }
   ],
   "versions": [
+   {
+    "version": "0.2.3",
+    "gameVersion": "1.9.0.37",
+    "createdAt": "2026-11-12T07:22:41.000Z",
+    "size": 3526776
+   },
    {
     "version": "0.2.2",
     "gameVersion": "1.9.0.37",
@@ -1082,15 +1088,9 @@
     "gameVersion": "1.9.0.37",
     "createdAt": "2026-11-10T22:53:24.000Z",
     "size": 3480331
-   },
-   {
-    "version": "0.1.21",
-    "gameVersion": "1.9.0.37",
-    "createdAt": "2026-11-10T18:02:28.000Z",
-    "size": 3537429
    }
   ],
-  "changelog": "0.2.2\n- Fixed a dedicated-server crash at the end of every round. When a round ends, the end screen is shown and the scenario reloads by itself after about 75 seconds.\n- No gameplay changes.",
+  "changelog": "0.2.3\n- Fixed: after a server crash or restart in the middle of a round nobody could deploy (\"No spawn point available\"). The main bases, their owners and the seize tasks are now set up on such a start.\n- A restart in the middle of a round still starts the campaign from the beginning, at the saved time of day.\n- The scenario's Zombified Factions list now names Z, FIA and CIV. Until now it named FIA and CIV, and Project Outbreak did not read it. The list takes effect with Project Outbreak 2.4.25; on a server with an older Project Outbreak nothing changes.\n- No other gameplay changes.",
   "preview": "https://ar-gcp-cdn.bistudio.com/image/6a92/2db8d6d18bfe9e72772ce468b6aed7242865b1b1a4ad99222d6b431e8954/296643.jpg",
   "previewThumbs": [
    "https://ar-gcp-cdn.bistudio.com/image/a586/49e091f21648996c31da3c96e37ad42a3267479443b2cf014229eb2adf45/139140.jpg",
@@ -1115,7 +1115,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-10-06T16:56:25.000Z",
   "updatedAt": "2026-11-06T16:31:10.000Z",
-  "downloads": 765,
+  "downloads": 767,
   "tags": [
    "AI",
    "BOSS",
@@ -1205,7 +1205,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-10-02T05:03:39.000Z",
   "updatedAt": "2026-11-06T16:34:23.000Z",
-  "downloads": 2637,
+  "downloads": 2647,
   "tags": [
    "AI",
    "CHARACTERS",
@@ -1311,7 +1311,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-10-03T17:41:42.000Z",
   "updatedAt": "2026-11-11T22:40:05.000Z",
-  "downloads": 2384,
+  "downloads": 2411,
   "tags": [
    "ALIEN",
    "CHARACTERS",
@@ -1423,7 +1423,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-10-06T17:34:28.000Z",
   "updatedAt": "2026-11-06T16:39:20.000Z",
-  "downloads": 1363,
+  "downloads": 1366,
   "tags": [
    "CHARACTERS",
    "CMAI",
@@ -1483,7 +1483,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-10-09T13:22:19.000Z",
   "updatedAt": "2026-11-07T16:32:31.000Z",
-  "downloads": 2222,
+  "downloads": 2234,
   "tags": [
    "CHARACTERS",
    "CMAI",
@@ -1590,7 +1590,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-10-15T10:13:41.000Z",
   "updatedAt": "2026-11-06T16:38:31.000Z",
-  "downloads": 1735,
+  "downloads": 1741,
   "tags": [
    "AI",
    "CHARACTERS",
@@ -1719,7 +1719,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-10-15T23:43:22.000Z",
   "updatedAt": "2026-11-05T20:03:00.000Z",
-  "downloads": 933,
+  "downloads": 934,
   "tags": [
    "AI",
    "CHARACTERS",
@@ -1819,7 +1819,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-10-16T11:15:49.000Z",
   "updatedAt": "2026-11-07T16:30:25.000Z",
-  "downloads": 1395,
+  "downloads": 1400,
   "tags": [
    "AI",
    "CHARACTERS",
@@ -1897,7 +1897,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-10-16T11:10:30.000Z",
   "updatedAt": "2026-11-06T16:27:18.000Z",
-  "downloads": 1180,
+  "downloads": 1184,
   "tags": [
    "AI",
    "BIGFOOT",
@@ -2062,7 +2062,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-10-21T23:41:12.000Z",
   "updatedAt": "2026-11-05T20:00:25.000Z",
-  "downloads": 1522,
+  "downloads": 1528,
   "tags": [
    "AI",
    "CHARACTERS",
@@ -2251,7 +2251,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-08-30T18:18:07.000Z",
   "updatedAt": "2026-11-10T20:28:27.000Z",
-  "downloads": 59152,
+  "downloads": 59350,
   "tags": [
    "AI",
    "CHARACTERS",
@@ -2360,7 +2360,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-08-09T15:04:29.000Z",
   "updatedAt": "2026-11-06T18:29:09.000Z",
-  "downloads": 4987,
+  "downloads": 4995,
   "tags": [
    "AI",
    "REARM",
@@ -2423,7 +2423,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-10-07T09:20:39.000Z",
   "updatedAt": "2026-11-06T17:05:17.000Z",
-  "downloads": 7046,
+  "downloads": 7081,
   "tags": [
    "CROSSBOW",
    "GAMEMASTER",
