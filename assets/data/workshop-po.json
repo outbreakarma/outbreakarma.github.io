@@ -7,12 +7,12 @@
  "license": "Arma Public License (APL)",
  "rating": 0.96,
  "ratingCount": 104,
- "version": "2.4.25",
- "sizeBytes": 210486460,
+ "version": "2.4.26",
+ "sizeBytes": 210502097,
  "gameVersion": "1.9.0.37",
  "createdAt": "2026-08-30T18:23:05.000Z",
- "updatedAt": "2026-11-12T09:00:08.000Z",
- "downloads": 49732,
+ "updatedAt": "2026-11-12T18:00:32.000Z",
+ "downloads": 50137,
  "tags": [
   "CHARACTERS",
   "INFECTION",
@@ -27,10 +27,16 @@
   {
    "id": "4FD4A1BD550793F4",
    "name": "Creature Melee AI",
-   "version": "1.8.25"
+   "version": "1.8.26"
   }
  ],
  "versions": [
+  {
+   "version": "2.4.26",
+   "gameVersion": "1.9.0.37",
+   "createdAt": "2026-11-12T17:59:14.000Z",
+   "size": 210502097
+  },
   {
    "version": "2.4.25",
    "gameVersion": "1.9.0.37",
@@ -84,15 +90,9 @@
    "gameVersion": "1.9.0.37",
    "createdAt": "2026-11-06T10:58:05.000Z",
    "size": 210472354
-  },
-  {
-   "version": "2.4.16",
-   "gameVersion": "1.9.0.37",
-   "createdAt": "2026-11-05T16:25:32.000Z",
-   "size": 210467383
   }
  ],
- "changelog": "2.4.25\nFixed zombie rules that a scenario sets for itself not taking effect. The settings block in a mission header and a placed Project Outbreak zombie rules entity were ignored, and the game ran on the defaults. Scenarios that set such rules now get them, for example their own Zombified Factions list. Rules set in the server file or by a Game Master work as before. No other gameplay or balance changes.",
+ "changelog": "2.4.26\nZombies now damage vehicles. A zombie that hits a vehicle with people inside damages it, and you hear a metal thud. Each hit takes a little health. Hits alone never take a vehicle below a quarter of its health, so zombies cannot destroy it under its crew.\nZombies now also grab on to moving cars, trucks and tracked vehicles, as they already do with helicopters. A zombie chasing someone in a vehicle that drives off can catch hold of it, is dragged along and keeps beating on it. Hard turns, braking and high speed shake it off; when the vehicle stops, it lets go.\nGame Masters can turn either off in the zombie rules: Zombies Damage Vehicles and Zombies Hang On To Vehicles. Both are on by default.\nNo other gameplay or balance changes.",
  "preview": "https://ar-gcp-cdn.bistudio.com/image/2acf/50af531c77fb7b5f21ca79df26665c5a3e9f10ff3b0c4d08f6876c6370b0/158082.jpg",
  "previewThumbs": [
   "https://ar-gcp-cdn.bistudio.com/image/4cca/713c0a0d13d35c848872dd5398d4de1a8324f8931ead8fd865d03c85c843/86448.jpg",
