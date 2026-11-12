@@ -13,7 +13,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-08-30T18:29:18.000Z",
   "updatedAt": "2026-11-10T20:34:23.000Z",
-  "downloads": 22181,
+  "downloads": 22273,
   "tags": [
    "INFECTION",
    "OUTBREAK",
@@ -29,7 +29,7 @@
    {
     "id": "F1D4B9B5245B36ED",
     "name": "Project Outbreak Zombies",
-    "version": "2.4.23"
+    "version": "2.4.24"
    }
   ],
   "versions": [
@@ -119,7 +119,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-08-30T18:31:09.000Z",
   "updatedAt": "2026-11-06T16:43:53.000Z",
-  "downloads": 16731,
+  "downloads": 16756,
   "tags": [
    "OUTBREAK",
    "SYSTEMS",
@@ -134,7 +134,7 @@
    {
     "id": "F1D4B9B5245B36ED",
     "name": "Project Outbreak Zombies",
-    "version": "2.4.23"
+    "version": "2.4.24"
    }
   ],
   "versions": [
@@ -224,7 +224,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-08-30T18:27:33.000Z",
   "updatedAt": "2026-11-06T16:44:40.000Z",
-  "downloads": 8901,
+  "downloads": 8912,
   "tags": [
    "GADGETS",
    "OUTBREAK",
@@ -243,7 +243,7 @@
    {
     "id": "F1D4B9B5245B36ED",
     "name": "Project Outbreak Zombies",
-    "version": "2.4.23"
+    "version": "2.4.24"
    }
   ],
   "versions": [
@@ -333,7 +333,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-09-27T03:27:42.000Z",
   "updatedAt": "2026-11-06T16:50:13.000Z",
-  "downloads": 9956,
+  "downloads": 9982,
   "tags": [
    "CHARACTERS",
    "CREATURES",
@@ -350,7 +350,7 @@
    {
     "id": "F1D4B9B5245B36ED",
     "name": "Project Outbreak Zombies",
-    "version": "2.4.23"
+    "version": "2.4.24"
    }
   ],
   "versions": [
@@ -468,7 +468,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-09-27T03:41:17.000Z",
   "updatedAt": "2026-11-10T20:33:58.000Z",
-  "downloads": 11595,
+  "downloads": 11679,
   "tags": [
    "CHARACTERS",
    "OUTBREAK",
@@ -484,7 +484,7 @@
    {
     "id": "F1D4B9B5245B36ED",
     "name": "Project Outbreak Zombies",
-    "version": "2.4.23"
+    "version": "2.4.24"
    }
   ],
   "versions": [
@@ -595,7 +595,7 @@
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-09-22T02:24:31.000Z",
   "updatedAt": "2026-10-01T07:14:39.000Z",
-  "downloads": 278,
+  "downloads": 279,
   "tags": [
    "SCENARIOS_MP",
    "SYSTEMS"
@@ -949,7 +949,7 @@
    {
     "id": "F1D4B9B5245B36ED",
     "name": "Project Outbreak Zombies",
-    "version": "2.4.23"
+    "version": "2.4.24"
    }
   ],
   "versions": [
@@ -992,12 +992,12 @@
   "license": "Arma Public License (APL)",
   "rating": 1,
   "ratingCount": 5,
-  "version": "0.2.1",
-  "sizeBytes": 3524807,
+  "version": "0.2.2",
+  "sizeBytes": 3525688,
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-10-08T02:57:35.000Z",
-  "updatedAt": "2026-11-11T19:46:52.000Z",
-  "downloads": 1122,
+  "updatedAt": "2026-11-11T23:13:46.000Z",
+  "downloads": 1166,
   "tags": [
    "GLENWOOD",
    "LIGHT",
@@ -1025,10 +1025,16 @@
    {
     "id": "F1D4B9B5245B36ED",
     "name": "Project Outbreak Zombies",
-    "version": "2.4.23"
+    "version": "2.4.24"
    }
   ],
   "versions": [
+   {
+    "version": "0.2.2",
+    "gameVersion": "1.9.0.37",
+    "createdAt": "2026-11-11T23:13:41.000Z",
+    "size": 3525688
+   },
    {
     "version": "0.2.1",
     "gameVersion": "1.9.0.37",
@@ -1082,15 +1088,9 @@
     "gameVersion": "1.9.0.37",
     "createdAt": "2026-11-10T18:02:28.000Z",
     "size": 3537429
-   },
-   {
-    "version": "0.1.20",
-    "gameVersion": "1.9.0.37",
-    "createdAt": "2026-11-09T11:41:56.000Z",
-    "size": 3537425
    }
   ],
-  "changelog": "0.2.1\n- Uncleared houses now act as ambient emergence points: when players move near uncleared buildings, ambient infected have a 60% chance to spawn on a ground-floor room inside a nearby house and push out through its exterior door onto the street until that house is cleared.\n- Killing all infected that came out of (or slept inside) a house marks that building cleared for the rest of the session (+35 XP) so neither sleepers nor future ambient waves spawn from it again; walking away without killing them leaves the house uncleared.\n- Tightened passive indoor sleeper activation to 48 m and lowered the concurrent sleeper cap from 40 to 16 across the valley so nearby towns keep close-quarters room clearing without holding idle AI slots across distant blocks.\n- Reduced load-time script attribute registrations across the campaign directors to give heavily modded servers extra startup headroom.",
+  "changelog": "0.2.2\n- Fixed a dedicated-server crash at the end of every round. When a round ends, the end screen is shown and the scenario reloads by itself after about 75 seconds.\n- No gameplay changes.",
   "preview": "https://ar-gcp-cdn.bistudio.com/image/6a92/2db8d6d18bfe9e72772ce468b6aed7242865b1b1a4ad99222d6b431e8954/296643.jpg",
   "previewThumbs": [
    "https://ar-gcp-cdn.bistudio.com/image/a586/49e091f21648996c31da3c96e37ad42a3267479443b2cf014229eb2adf45/139140.jpg",
@@ -1115,7 +1115,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-10-06T16:56:25.000Z",
   "updatedAt": "2026-11-06T16:31:10.000Z",
-  "downloads": 762,
+  "downloads": 765,
   "tags": [
    "AI",
    "BOSS",
@@ -1205,7 +1205,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-10-02T05:03:39.000Z",
   "updatedAt": "2026-11-06T16:34:23.000Z",
-  "downloads": 2613,
+  "downloads": 2637,
   "tags": [
    "AI",
    "CHARACTERS",
@@ -1311,7 +1311,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-10-03T17:41:42.000Z",
   "updatedAt": "2026-11-11T22:40:05.000Z",
-  "downloads": 2344,
+  "downloads": 2384,
   "tags": [
    "ALIEN",
    "CHARACTERS",
@@ -1423,7 +1423,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-10-06T17:34:28.000Z",
   "updatedAt": "2026-11-06T16:39:20.000Z",
-  "downloads": 1359,
+  "downloads": 1363,
   "tags": [
    "CHARACTERS",
    "CMAI",
@@ -1483,7 +1483,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-10-09T13:22:19.000Z",
   "updatedAt": "2026-11-07T16:32:31.000Z",
-  "downloads": 2207,
+  "downloads": 2222,
   "tags": [
    "CHARACTERS",
    "CMAI",
@@ -1590,7 +1590,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-10-15T10:13:41.000Z",
   "updatedAt": "2026-11-06T16:38:31.000Z",
-  "downloads": 1725,
+  "downloads": 1735,
   "tags": [
    "AI",
    "CHARACTERS",
@@ -1719,7 +1719,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-10-15T23:43:22.000Z",
   "updatedAt": "2026-11-05T20:03:00.000Z",
-  "downloads": 929,
+  "downloads": 933,
   "tags": [
    "AI",
    "CHARACTERS",
@@ -1819,7 +1819,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-10-16T11:15:49.000Z",
   "updatedAt": "2026-11-07T16:30:25.000Z",
-  "downloads": 1390,
+  "downloads": 1395,
   "tags": [
    "AI",
    "CHARACTERS",
@@ -1897,7 +1897,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-10-16T11:10:30.000Z",
   "updatedAt": "2026-11-06T16:27:18.000Z",
-  "downloads": 1172,
+  "downloads": 1180,
   "tags": [
    "AI",
    "BIGFOOT",
@@ -1981,7 +1981,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-10-22T00:49:08.000Z",
   "updatedAt": "2026-11-06T16:35:20.000Z",
-  "downloads": 73,
+  "downloads": 74,
   "tags": [
    "CHARACTERS",
    "CMAI",
@@ -2062,7 +2062,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-10-21T23:41:12.000Z",
   "updatedAt": "2026-11-05T20:00:25.000Z",
-  "downloads": 1504,
+  "downloads": 1522,
   "tags": [
    "AI",
    "CHARACTERS",
@@ -2251,7 +2251,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-08-30T18:18:07.000Z",
   "updatedAt": "2026-11-10T20:28:27.000Z",
-  "downloads": 58956,
+  "downloads": 59152,
   "tags": [
    "AI",
    "CHARACTERS",
@@ -2360,7 +2360,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-08-09T15:04:29.000Z",
   "updatedAt": "2026-11-06T18:29:09.000Z",
-  "downloads": 4981,
+  "downloads": 4987,
   "tags": [
    "AI",
    "REARM",
@@ -2423,7 +2423,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-10-07T09:20:39.000Z",
   "updatedAt": "2026-11-06T17:05:17.000Z",
-  "downloads": 7020,
+  "downloads": 7046,
   "tags": [
    "CROSSBOW",
    "GAMEMASTER",
@@ -2502,7 +2502,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-09-29T16:59:01.000Z",
   "updatedAt": "2026-11-06T16:54:18.000Z",
-  "downloads": 426,
+  "downloads": 428,
   "tags": [
    "BALLISTA",
    "MEDIEVAL",
