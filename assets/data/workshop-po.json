@@ -7,12 +7,12 @@
  "license": "Arma Public License (APL)",
  "rating": 0.96,
  "ratingCount": 105,
- "version": "2.4.26",
- "sizeBytes": 210502097,
+ "version": "2.4.27",
+ "sizeBytes": 210516339,
  "gameVersion": "1.9.0.37",
  "createdAt": "2026-08-30T18:23:05.000Z",
- "updatedAt": "2026-11-12T18:00:32.000Z",
- "downloads": 50911,
+ "updatedAt": "2026-11-13T22:43:06.000Z",
+ "downloads": 51185,
  "tags": [
   "CHARACTERS",
   "INFECTION",
@@ -31,6 +31,12 @@
   }
  ],
  "versions": [
+  {
+   "version": "2.4.27",
+   "gameVersion": "1.9.0.37",
+   "createdAt": "2026-11-13T22:41:39.000Z",
+   "size": 210516339
+  },
   {
    "version": "2.4.26",
    "gameVersion": "1.9.0.37",
@@ -84,15 +90,9 @@
    "gameVersion": "1.9.0.37",
    "createdAt": "2026-11-06T15:48:47.000Z",
    "size": 210472354
-  },
-  {
-   "version": "2.4.17",
-   "gameVersion": "1.9.0.37",
-   "createdAt": "2026-11-06T10:58:05.000Z",
-   "size": 210472354
   }
  ],
- "changelog": "2.4.26\nZombies now damage vehicles. A zombie that hits a vehicle with people inside damages it, and you hear a metal thud. Each hit takes a little health. Hits alone never take a vehicle below a quarter of its health, so zombies cannot destroy it under its crew.\nZombies now also grab on to moving cars, trucks and tracked vehicles, as they already do with helicopters. A zombie chasing someone in a vehicle that drives off can catch hold of it, is dragged along and keeps beating on it. Hard turns, braking and high speed shake it off; when the vehicle stops, it lets go.\nGame Masters can turn either off in the zombie rules: Zombies Damage Vehicles and Zombies Hang On To Vehicles. Both are on by default.\nNo other gameplay or balance changes.",
+ "changelog": "2.4.27\nZombies hanging on to a car, truck or tracked vehicle now slow it down. Each one drags along the road like a weight and pulls the vehicle towards its side, so a few riders make a light car clearly slower, while a heavy truck barely feels them.\nFive or more zombies at a stopped or crawling vehicle with people inside now rock it, and can tip it over onto its side. The heavier the vehicle, the smaller the chance: a crowd that flips a car within seconds needs far longer for a big truck. A flipped vehicle can be put back on its wheels like any other.\nGame Masters can turn the flipping off in the zombie rules: Zombies Flip Vehicles, on by default. The drag comes with Zombies Hang On To Vehicles.\nHelicopters are unchanged: zombies hanging on already add their weight, and enough of them keep it from taking off.\nZombies can now climb onto Conflict command tents. Standing on the command tent at a control point no longer keeps you safe: zombies climb its long sides and its ends, and a zombie that lands on the roof walks straight to whoever stands on it. The same climb changes apply to house roofs and low walls of the same shape.\nNo other gameplay or balance changes.",
  "preview": "https://ar-gcp-cdn.bistudio.com/image/2acf/50af531c77fb7b5f21ca79df26665c5a3e9f10ff3b0c4d08f6876c6370b0/158082.jpg",
  "previewThumbs": [
   "https://ar-gcp-cdn.bistudio.com/image/4cca/713c0a0d13d35c848872dd5398d4de1a8324f8931ead8fd865d03c85c843/86448.jpg",
@@ -100,16 +100,6 @@
   "https://ar-gcp-cdn.bistudio.com/image/5db5/65f032b063ddb913c8c352ca734ee4de391de0e49fdfc5ebb8e9733c4194/11059.jpg"
  ],
  "screenshots": [
-  {
-   "url": "https://ar-gcp-cdn.bistudio.com/image/454a/56d450b61fc74493f7a01799bae39470b133b97419b4a9cdaf94165cb2a4/338626.jpg",
-   "width": 1920,
-   "height": 1080,
-   "thumbs": [
-    "https://ar-gcp-cdn.bistudio.com/image/70b4/df2d11ac8529363855e5bb96791da98c356c4296a64b5fe3e15c4f2f287d/204307.jpg",
-    "https://ar-gcp-cdn.bistudio.com/image/a4db/4e68fcfcfd0722730db2820981482169029f094ff65c9134e96bbaad940d/62565.jpg",
-    "https://ar-gcp-cdn.bistudio.com/image/6495/21c0b1dbfe5769637b237e39984107f4c05ca8144852f2c618678954a157/17435.jpg"
-   ]
-  },
   {
    "url": "https://ar-gcp-cdn.bistudio.com/image/927f/eb5f78bee1754bee27e13048de2e1b17aed91c072d67adf716949c972ed0/506426.jpg",
    "width": 1920,
@@ -128,6 +118,16 @@
     "https://ar-gcp-cdn.bistudio.com/image/0b64/1b7fcc259bc4016d4fa84608144bad0c01a06d3fbf8df276d0d27e6ccc6d/190061.jpg",
     "https://ar-gcp-cdn.bistudio.com/image/4c14/f79c26db7b515a7c5f0cabb88b75b1a9fb302acb6b6950d18e19c98bcb8b/61216.jpg",
     "https://ar-gcp-cdn.bistudio.com/image/ff65/950f215c6e9104b837997d5cc7f8be0b72c661f65e5ab4534f3442d0e8e8/18297.jpg"
+   ]
+  },
+  {
+   "url": "https://ar-gcp-cdn.bistudio.com/image/454a/56d450b61fc74493f7a01799bae39470b133b97419b4a9cdaf94165cb2a4/338626.jpg",
+   "width": 1920,
+   "height": 1080,
+   "thumbs": [
+    "https://ar-gcp-cdn.bistudio.com/image/70b4/df2d11ac8529363855e5bb96791da98c356c4296a64b5fe3e15c4f2f287d/204307.jpg",
+    "https://ar-gcp-cdn.bistudio.com/image/a4db/4e68fcfcfd0722730db2820981482169029f094ff65c9134e96bbaad940d/62565.jpg",
+    "https://ar-gcp-cdn.bistudio.com/image/6495/21c0b1dbfe5769637b237e39984107f4c05ca8144852f2c618678954a157/17435.jpg"
    ]
   }
  ],
