@@ -8,12 +8,12 @@
   "license": "Arma Public License (APL)",
   "rating": 0.96,
   "ratingCount": 26,
-  "version": "1.4.7",
-  "sizeBytes": 21664023,
+  "version": "1.4.8",
+  "sizeBytes": 21667884,
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-08-30T18:29:18.000Z",
-  "updatedAt": "2026-11-15T12:06:39.000Z",
-  "downloads": 24022,
+  "updatedAt": "2026-11-15T22:24:09.000Z",
+  "downloads": 24240,
   "tags": [
    "INFECTION",
    "OUTBREAK",
@@ -33,6 +33,12 @@
    }
   ],
   "versions": [
+   {
+    "version": "1.4.8",
+    "gameVersion": "1.9.0.37",
+    "createdAt": "2026-11-15T22:23:56.000Z",
+    "size": 21667884
+   },
    {
     "version": "1.4.7",
     "gameVersion": "1.9.0.37",
@@ -86,15 +92,9 @@
     "gameVersion": "1.8.0.13",
     "createdAt": "2026-10-21T23:19:52.000Z",
     "size": 10164163
-   },
-   {
-    "version": "1.3.1",
-    "gameVersion": "1.8.0.13",
-    "createdAt": "2026-10-09T13:30:32.000Z",
-    "size": 10161031
    }
   ],
-  "changelog": "1.4.7\nFixed missing instigator warnings on player corpse reanimation handoffs and capped handoff retry spikes during heavy combat.",
+  "changelog": "1.4.8\nEnabled symptomatic cough infection spread by default (choose Bites Only or disable cough spread in Game Master or mission settings to turn it off) and added two-way facewear cough protection.\n- 100% cough protection: gas masks, CBRN/SCBA/hazmat masks, and full respirators (protect both ways).\n- 75% cough protection: surgical/medical masks and N95/FFP2/FFP3/KN95/P100 filter respirators.\n- 40% cough protection: balaclavas, ski masks, shemaghs, bandanas, gaiters, scarves, and cloth masks (stacks across both people, e.g. 64% combined when both wear a 40% mask).\n- 0% protection: eyewear, goggles, helmets, NVGs, zombie bites, and unworn masks carried in bags or pockets. Compatible modded facewear works automatically by item/display name or custom override settings.",
   "preview": "https://ar-gcp-cdn.bistudio.com/image/890a/2e690a44cd0ecea4b7e7e336db3d449f24c67280e27b944b11a6367bbd43/259454.jpg",
   "previewThumbs": [
    "https://ar-gcp-cdn.bistudio.com/image/2ee0/8108bfa63848f0565577b852b3d6bf0f53839d070af590ff24e1f9e19328/140121.jpg",
@@ -119,7 +119,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-08-30T18:31:09.000Z",
   "updatedAt": "2026-11-06T16:43:53.000Z",
-  "downloads": 17104,
+  "downloads": 17134,
   "tags": [
    "OUTBREAK",
    "SYSTEMS",
@@ -224,7 +224,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-08-30T18:27:33.000Z",
   "updatedAt": "2026-11-06T16:44:40.000Z",
-  "downloads": 9111,
+  "downloads": 9126,
   "tags": [
    "GADGETS",
    "OUTBREAK",
@@ -333,7 +333,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-09-27T03:27:42.000Z",
   "updatedAt": "2026-11-06T16:50:13.000Z",
-  "downloads": 10314,
+  "downloads": 10352,
   "tags": [
    "CHARACTERS",
    "CREATURES",
@@ -468,7 +468,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-09-27T03:41:17.000Z",
   "updatedAt": "2026-11-15T12:06:03.000Z",
-  "downloads": 12985,
+  "downloads": 13144,
   "tags": [
    "CHARACTERS",
    "OUTBREAK",
@@ -595,7 +595,7 @@
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-09-22T02:24:31.000Z",
   "updatedAt": "2026-10-01T07:14:39.000Z",
-  "downloads": 293,
+  "downloads": 294,
   "tags": [
    "SCENARIOS_MP",
    "SYSTEMS"
@@ -939,7 +939,7 @@
    {
     "id": "7B763100BAFA1F9A",
     "name": "Project Outbreak Infection",
-    "version": "1.4.7"
+    "version": "1.4.8"
    },
    {
     "id": "F1D4B9B5245B36ED",
@@ -992,7 +992,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-10-08T02:57:35.000Z",
   "updatedAt": "2026-11-15T17:16:20.000Z",
-  "downloads": 1761,
+  "downloads": 1787,
   "tags": [
    "GLENWOOD",
    "LIGHT",
@@ -1015,7 +1015,7 @@
    {
     "id": "7B763100BAFA1F9A",
     "name": "Project Outbreak Infection",
-    "version": "1.4.7"
+    "version": "1.4.8"
    },
    {
     "id": "F1D4B9B5245B36ED",
@@ -1110,7 +1110,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-10-06T16:56:25.000Z",
   "updatedAt": "2026-11-06T16:31:10.000Z",
-  "downloads": 801,
+  "downloads": 804,
   "tags": [
    "AI",
    "BOSS",
@@ -1200,7 +1200,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-10-02T05:03:39.000Z",
   "updatedAt": "2026-11-15T12:27:23.000Z",
-  "downloads": 3109,
+  "downloads": 3186,
   "tags": [
    "AI",
    "CHARACTERS",
@@ -1312,7 +1312,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-10-03T17:41:42.000Z",
   "updatedAt": "2026-11-15T12:14:07.000Z",
-  "downloads": 3187,
+  "downloads": 3261,
   "tags": [
    "ALIEN",
    "CHARACTERS",
@@ -1424,7 +1424,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-10-06T17:34:28.000Z",
   "updatedAt": "2026-11-06T16:39:20.000Z",
-  "downloads": 1409,
+  "downloads": 1414,
   "tags": [
    "CHARACTERS",
    "CMAI",
@@ -1484,7 +1484,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-10-09T13:22:19.000Z",
   "updatedAt": "2026-11-15T12:19:17.000Z",
-  "downloads": 2994,
+  "downloads": 3075,
   "tags": [
    "CHARACTERS",
    "CMAI",
@@ -1597,7 +1597,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-10-15T10:13:41.000Z",
   "updatedAt": "2026-11-12T23:59:27.000Z",
-  "downloads": 1970,
+  "downloads": 1981,
   "tags": [
    "AI",
    "CHARACTERS",
@@ -1732,7 +1732,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-10-15T23:43:22.000Z",
   "updatedAt": "2026-11-05T20:03:00.000Z",
-  "downloads": 977,
+  "downloads": 980,
   "tags": [
    "AI",
    "CHARACTERS",
@@ -1832,7 +1832,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-10-16T11:15:49.000Z",
   "updatedAt": "2026-11-07T16:30:25.000Z",
-  "downloads": 1465,
+  "downloads": 1469,
   "tags": [
    "AI",
    "CHARACTERS",
@@ -1910,7 +1910,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-10-16T11:10:30.000Z",
   "updatedAt": "2026-11-13T23:22:44.000Z",
-  "downloads": 1308,
+  "downloads": 1314,
   "tags": [
    "AI",
    "BIGFOOT",
@@ -2081,7 +2081,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-10-21T23:41:12.000Z",
   "updatedAt": "2026-11-15T12:47:20.000Z",
-  "downloads": 1902,
+  "downloads": 1972,
   "tags": [
    "AI",
    "CHARACTERS",
@@ -2270,7 +2270,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-08-30T18:18:07.000Z",
   "updatedAt": "2026-11-15T10:09:19.000Z",
-  "downloads": 63967,
+  "downloads": 64322,
   "tags": [
    "AI",
    "CHARACTERS",
@@ -2379,7 +2379,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-08-09T15:04:29.000Z",
   "updatedAt": "2026-11-06T18:29:09.000Z",
-  "downloads": 5123,
+  "downloads": 5134,
   "tags": [
    "AI",
    "REARM",
@@ -2442,7 +2442,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-10-07T09:20:39.000Z",
   "updatedAt": "2026-11-06T17:05:17.000Z",
-  "downloads": 7491,
+  "downloads": 7513,
   "tags": [
    "CROSSBOW",
    "GAMEMASTER",
@@ -2521,7 +2521,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-09-29T16:59:01.000Z",
   "updatedAt": "2026-11-06T16:54:18.000Z",
-  "downloads": 447,
+  "downloads": 448,
   "tags": [
    "BALLISTA",
    "MEDIEVAL",
