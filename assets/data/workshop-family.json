@@ -13,7 +13,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-08-30T18:29:18.000Z",
   "updatedAt": "2026-11-15T22:24:09.000Z",
-  "downloads": 24653,
+  "downloads": 25011,
   "tags": [
    "INFECTION",
    "OUTBREAK",
@@ -119,7 +119,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-08-30T18:31:09.000Z",
   "updatedAt": "2026-11-06T16:43:53.000Z",
-  "downloads": 17169,
+  "downloads": 17201,
   "tags": [
    "OUTBREAK",
    "SYSTEMS",
@@ -224,7 +224,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-08-30T18:27:33.000Z",
   "updatedAt": "2026-11-06T16:44:40.000Z",
-  "downloads": 9156,
+  "downloads": 9177,
   "tags": [
    "GADGETS",
    "OUTBREAK",
@@ -333,7 +333,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-09-27T03:27:42.000Z",
   "updatedAt": "2026-11-06T16:50:13.000Z",
-  "downloads": 10398,
+  "downloads": 10463,
   "tags": [
    "CHARACTERS",
    "CREATURES",
@@ -468,7 +468,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-09-27T03:41:17.000Z",
   "updatedAt": "2026-11-15T12:06:03.000Z",
-  "downloads": 13421,
+  "downloads": 13705,
   "tags": [
    "CHARACTERS",
    "OUTBREAK",
@@ -585,17 +585,17 @@
   "id": "C74E92A1D8B3056F",
   "name": "Project Outbreak Everdead",
   "author": "Project Outbreak",
-  "summary": "128-player Project Outbreak survival campaign on vanilla Everon. Deploy from offshore island MOBs, retake 64 linked bases, clear 3 surface raids & 22 distress events.",
-  "description": "Everon has fallen. Project Outbreak Everdead is a 128-player standalone PvE Conflict survival campaign on Bohemia Interactive's vanilla Everon terrain. Zero third-party map download required.\n\nWHAT YOU DO\n- Deploy from offshore main operating bases on Erquy Island (northeast) or Halcyon Island (southwest) to keep heavy town startup load isolated, and cross via 22 moored REAPER_RHIB craft (15 Transport & 7 Armed M2) or replenished UH-1H air ferries (30-second replenishment).\n- Retake all 64 linked control points and 2 radio relays across Everon's towns, harbours, airfield, quarry, ridges, valleys, and outer islands (Lechucs, Argent, Blackrock).\n- Execute 5-stage raids at Montfort Castle, Everon Quarry, and Saint-Pierre Pier, hold the 6 Recon Grid sites for bonus event XP, and recover 22 land & maritime distress events.\n\nREQUIRES\n- Creature Melee AI, Project Outbreak, Project Outbreak: Infection, and REAPER_RHIB by r34p3r.\n\nCREDITS\n- Terrain: Vanilla Everon by Bohemia Interactive.\n- Watercraft: REAPER_RHIB by r34p3r (Arma Public License No Derivatives).\n- Infected and melee AI: Project Outbreak and Creature Melee AI (Arma Public License).",
+  "summary": "128-player Project Outbreak survival campaign on vanilla Everon. Deploy from offshore island MOBs, retake 74 linked bases, clear 3 surface raids & 22 distress events.",
+  "description": "Everon has fallen. Project Outbreak Everdead is a 128-player standalone PvE Conflict survival campaign on Bohemia Interactive's vanilla Everon terrain. Zero third-party map download required.\n\nWHAT YOU DO\n- Deploy from offshore main operating bases on Erquy Island (northeast) or Halcyon Island (southwest) to keep heavy town startup load isolated, and cross via 22 moored REAPER_RHIB craft (15 Transport & 7 Armed M2) or replenished UH-1H air ferries (30-second replenishment).\n- Retake all 74 linked control points and 2 radio relays across Everon's towns, harbours, airfield, quarry, ridges, valleys, and outer islands (Lechucs, Argent, Blackrock).\n- Execute 5-stage raids at Montfort Castle, Everon Quarry, and Saint-Pierre Pier, hold the 6 Recon Grid sites for bonus event XP, and recover 22 land & maritime distress events.\n\nREQUIRES\n- Creature Melee AI, Project Outbreak, Project Outbreak: Infection, and REAPER_RHIB by r34p3r.\n\nCREDITS\n- Terrain: Vanilla Everon by Bohemia Interactive.\n- Watercraft: REAPER_RHIB by r34p3r (Arma Public License No Derivatives).\n- Infected and melee AI: Project Outbreak and Creature Melee AI (Arma Public License).",
   "license": "Arma Public License (APL)",
   "rating": 0,
   "ratingCount": 0,
-  "version": "0.1.2",
-  "sizeBytes": 2160112,
+  "version": "0.2.0",
+  "sizeBytes": 2278305,
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-11-15T22:08:03.000Z",
-  "updatedAt": "2026-11-16T08:47:48.000Z",
-  "downloads": 20,
+  "updatedAt": "2026-11-16T21:07:19.000Z",
+  "downloads": 159,
   "tags": [
    "EVERDEAD",
    "EVERON",
@@ -628,6 +628,18 @@
   ],
   "versions": [
    {
+    "version": "0.2.0",
+    "gameVersion": "1.9.0.37",
+    "createdAt": "2026-11-16T21:07:13.000Z",
+    "size": 2278305
+   },
+   {
+    "version": "0.1.3",
+    "gameVersion": "1.9.0.37",
+    "createdAt": "2026-11-16T18:50:09.000Z",
+    "size": 2166370
+   },
+   {
     "version": "0.1.2",
     "gameVersion": "1.9.0.37",
     "createdAt": "2026-11-16T08:47:44.000Z",
@@ -646,7 +658,7 @@
     "size": 2160883
    }
   ],
-  "changelog": "0.1.2\n- Disabled experimental HQ tent roof-climbing to resolve severe server FPS drops around contested command tents.",
+  "changelog": "0.2.0\n- 74 control points instead of 64, at least 600 m apart. Ten new points: Benac, Gorey, La Roue, Lancre, Le Bosc, Les Creux, Perelle, Redon, Rockweed Cape and Shooting Range. Every town and village on the main island now has its own point, and points that stood inside trees have moved into the open.\n- Every control point is now a small military site built from vanilla props: roadblocks, wrecks, sandbag positions and small bunkers. Each one tells its own story.\n- Retaken points get an open field headquarters instead of the Conflict tent: the same spawn point, radio, supplies and arsenal, with no roof to camp on. The three main bases keep their tents.\n- Seven points carry new names that fit where they stand (Power Plant, Sawmill, Western Heights, Peter's Pass, Montfort Castle, Lamentin, Morton).\n- Trees inside a site are cleared on the server and on every player's machine.\n- Start a fresh campaign: a campaign saved in 0.1.3 does not match the new points.",
   "preview": "https://ar-gcp-cdn.bistudio.com/image/a6c7/413095a6cf25d03c553867b967a99fe16d61d1934778b11a35d5adc102d6/365949.jpg",
   "previewThumbs": [
    "https://ar-gcp-cdn.bistudio.com/image/c85d/ed53e7bd68b587029e6fea55239bf81ec83dcdd9b0f594c17bbcc72259d6/153749.jpg",
@@ -662,16 +674,16 @@
   "name": "Everdead Creatures",
   "author": "Project Outbreak",
   "summary": "Optional territorial creature director for Project Outbreak Everdead. Brings biome-matched Creature Melee AI creatures onto vanilla Everon.",
-  "description": "Everdead Creatures brings optional Creature Melee AI creature add-ons to Project Outbreak Everdead as regional ecosystems across Everon while Everdead's infected stay active everywhere.\n\nHOW IT WORKS\n- Load Project Outbreak Everdead and Everdead Creatures alongside whichever optional Creature Melee AI packs you choose.\n- All 69 Everon bases map cleanly across 6 habitats: Frontier (offshore islands & initial beachheads), Mycelial (ponds & forests), Sky-Rift (relays & beacons), Scrap-Forge (quarry & airfields), Bastion (military strongpoints), and Quarantine (towns & harbours).\n\nREQUIREMENTS\nCreature Melee AI, Project Outbreak, Project Outbreak: Infection, REAPER_RHIB and Project Outbreak Everdead.",
+  "description": "Everdead Creatures brings optional Creature Melee AI creature add-ons to Project Outbreak Everdead as regional ecosystems across Everon while Everdead's infected stay active everywhere.\n\nHOW IT WORKS\n- Load Project Outbreak Everdead and Everdead Creatures alongside whichever optional Creature Melee AI packs you choose.\n- All 79 Everon bases map cleanly across 6 habitats: Frontier (offshore islands & initial beachheads), Mycelial (ponds & forests), Sky-Rift (relays & beacons), Scrap-Forge (quarry & airfields), Bastion (military strongpoints), and Quarantine (towns & harbours).\n\nREQUIREMENTS\nCreature Melee AI, Project Outbreak, Project Outbreak: Infection, REAPER_RHIB and Project Outbreak Everdead.",
   "license": "Arma Public License (APL)",
-  "rating": 0,
-  "ratingCount": 0,
-  "version": "0.1.1",
-  "sizeBytes": 19299,
+  "rating": 1,
+  "ratingCount": 1,
+  "version": "0.1.2",
+  "sizeBytes": 19389,
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-11-15T22:12:29.000Z",
-  "updatedAt": "2026-11-15T23:05:35.000Z",
-  "downloads": 8,
+  "updatedAt": "2026-11-16T21:09:04.000Z",
+  "downloads": 32,
   "tags": [
    "CHARACTERS",
    "CREATURES",
@@ -699,7 +711,7 @@
    {
     "id": "C74E92A1D8B3056F",
     "name": "Project Outbreak Everdead",
-    "version": "0.1.2"
+    "version": "0.2.0"
    },
    {
     "id": "F1D4B9B5245B36ED",
@@ -708,6 +720,12 @@
    }
   ],
   "versions": [
+   {
+    "version": "0.1.2",
+    "gameVersion": "1.9.0.37",
+    "createdAt": "2026-11-16T21:09:01.000Z",
+    "size": 19389
+   },
    {
     "version": "0.1.1",
     "gameVersion": "1.9.0.37",
@@ -721,7 +739,7 @@
     "size": 19320
    }
   ],
-  "changelog": "0.1.1\n- Removed Military Boats dependency to match Project Outbreak Everdead 0.1.1 (REAPER_RHIB only).\n- Updated Workshop title card with real Everon aerial photography and the Project Outbreak Everdead Creatures emblem.",
+  "changelog": "0.1.2\n- Knows the 74 control points of Project Outbreak Everdead 0.2.0: the ten new points and the seven renamed ones each belong to a creature habitat. Without this update they would fall back to Quarantine.\n- Still works with Project Outbreak Everdead 0.1.3.",
   "preview": "https://ar-gcp-cdn.bistudio.com/image/3063/72eb090112436cef96e7028126c38417350f0c46e44af896a09beb148dac/366411.jpg",
   "previewThumbs": [
    "https://ar-gcp-cdn.bistudio.com/image/4906/969dabbb8fa51c5c6ed21b91c0bf6e0a0e7b7d342ac66161d66c89f94d74/154405.jpg",
@@ -741,12 +759,12 @@
   "license": "Arma Public License (APL)",
   "rating": 0,
   "ratingCount": 1,
-  "version": "0.2.1",
-  "sizeBytes": 3547522,
+  "version": "0.2.2",
+  "sizeBytes": 3553893,
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-11-14T20:52:37.000Z",
-  "updatedAt": "2026-11-16T08:22:46.000Z",
-  "downloads": 207,
+  "updatedAt": "2026-11-16T18:48:48.000Z",
+  "downloads": 234,
   "tags": [
    "DEADGOGLAND",
    "GOGLAND",
@@ -784,6 +802,12 @@
   ],
   "versions": [
    {
+    "version": "0.2.2",
+    "gameVersion": "1.9.0.37",
+    "createdAt": "2026-11-16T18:48:41.000Z",
+    "size": 3553893
+   },
+   {
     "version": "0.2.1",
     "gameVersion": "1.9.0.37",
     "createdAt": "2026-11-16T08:22:41.000Z",
@@ -814,7 +838,7 @@
     "size": 3526297
    }
   ],
-  "changelog": "0.2.1\n- Disabled experimental HQ tent roof-climbing to resolve severe server FPS drops around contested command tents.\n- Fixed MV Gogland so its Conflict HQ composition, arsenals, player deployments, mass graves, ambient and district infected, and 5-stage boarding raid waves and supply cache spawn on top of the freighter's walkable upper decks instead of below the hull.",
+  "changelog": "0.2.2\n- Added optional server settings (both off by default at -1): set m_iDGLOpenNeighborsPerBase to 1, 2, or 3 in missionHeader so each individual captured control point and MOB opens only that many of its nearest unheld neighbors at once, or set m_iDGLOpenObjectives to 1 for a strict linear push outward from each MOB (MOB 2 Sayvo Lighthouse and MOB 1 Suurkyla Harbour). Closed links draw thin and grey on the map, seize tasks follow open targets, and entering a closed base shows which objective to capture first. Leave both at -1 for the standard open neighbor-link frontline.\n- Restored conflict CP tent indoor doorway escape on a lightweight 1,000 ms navmesh-only nudge for zombies trapped directly underneath tent-roof campers so they exit outside cleanly for native tent climbing with negligible CPU cost.",
   "preview": "https://ar-gcp-cdn.bistudio.com/image/9921/a4387d2ed1555bfe176c0f6a28e14544e096f008f1bd10833e9a7f38fc63/272556.jpg",
   "previewThumbs": [
    "https://ar-gcp-cdn.bistudio.com/image/6cd0/21426fffd6f99536de988ed41b805658ed1138f934402ec8c756ac46356f/112106.jpg",
@@ -839,7 +863,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-11-15T00:27:06.000Z",
   "updatedAt": "2026-11-15T23:37:06.000Z",
-  "downloads": 168,
+  "downloads": 183,
   "tags": [
    "CHARACTERS",
    "CREATURES",
@@ -872,7 +896,7 @@
    {
     "id": "9F4C28E1B6D03A57",
     "name": "Project Outbreak Dead Gogland",
-    "version": "0.2.1"
+    "version": "0.2.2"
    },
    {
     "id": "F1D4B9B5245B36ED",
@@ -920,12 +944,12 @@
   "license": "Arma Public License (APL)",
   "rating": 1,
   "ratingCount": 3,
-  "version": "0.1.3",
-  "sizeBytes": 3523808,
+  "version": "0.1.5",
+  "sizeBytes": 3532438,
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-11-14T00:46:02.000Z",
-  "updatedAt": "2026-11-14T08:41:32.000Z",
-  "downloads": 224,
+  "updatedAt": "2026-11-16T21:10:53.000Z",
+  "downloads": 274,
   "tags": [
    "DEADBORDER",
    "MULTIPLAYER",
@@ -978,6 +1002,18 @@
   ],
   "versions": [
    {
+    "version": "0.1.5",
+    "gameVersion": "1.9.0.37",
+    "createdAt": "2026-11-16T21:10:48.000Z",
+    "size": 3532438
+   },
+   {
+    "version": "0.1.4",
+    "gameVersion": "1.9.0.37",
+    "createdAt": "2026-11-16T18:47:19.000Z",
+    "size": 3532443
+   },
+   {
     "version": "0.1.3",
     "gameVersion": "1.9.0.37",
     "createdAt": "2026-11-14T08:41:29.000Z",
@@ -1002,7 +1038,7 @@
     "size": 3518771
    }
   ],
-  "changelog": "0.1.3\n- For server hosts: an optional per-player stats file. Set the mission header's m_iDTBPlayerStatsSeconds to a number of seconds and the server writes deadborder_player_stats.json into its profile folder that often: each player's kills by faction and by infected type, deaths by cause, shots, grenades, distance and bandages this session, plus deadborder_player_stats_last_round.json when a round ends. Off by default.",
+  "changelog": "0.1.5\n- Moved the Border Checkpoint capture post onto solid ground beside the gas station. It no longer clips through the checkpoint floor. Its name and capture area are unchanged.",
   "preview": "https://ar-gcp-cdn.bistudio.com/image/324f/3f5071d2e621ac1acbcb7f45e8ccb7378f297b92b26b4bbaf8b1b1d22acb/368008.jpg",
   "previewThumbs": [
    "https://ar-gcp-cdn.bistudio.com/image/1df6/b9edb8d2087eb5420871b8fa3950263defee1fc4cb3c5878d3e3a7e60161/146780.jpg",
@@ -1027,7 +1063,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-11-14T07:56:56.000Z",
   "updatedAt": "2026-11-14T07:56:58.000Z",
-  "downloads": 17,
+  "downloads": 18,
   "tags": [
    "CHARACTERS",
    "CREATURES",
@@ -1075,7 +1111,7 @@
    {
     "id": "8EC181B175EA001E",
     "name": "Project Outbreak Dead Border",
-    "version": "0.1.3"
+    "version": "0.1.5"
    },
    {
     "id": "F1D4B9B5245B36ED",
@@ -1508,12 +1544,12 @@
   "license": "Arma Public License (APL)",
   "rating": 1,
   "ratingCount": 6,
-  "version": "0.2.11",
-  "sizeBytes": 3538645,
+  "version": "0.2.12",
+  "sizeBytes": 3543840,
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-10-08T02:57:35.000Z",
-  "updatedAt": "2026-11-15T17:16:20.000Z",
-  "downloads": 1816,
+  "updatedAt": "2026-11-16T18:45:50.000Z",
+  "downloads": 1844,
   "tags": [
    "GLENWOOD",
    "LIGHT",
@@ -1545,6 +1581,12 @@
    }
   ],
   "versions": [
+   {
+    "version": "0.2.12",
+    "gameVersion": "1.9.0.37",
+    "createdAt": "2026-11-16T18:45:45.000Z",
+    "size": 3543840
+   },
    {
     "version": "0.2.11",
     "gameVersion": "1.9.0.37",
@@ -1598,15 +1640,9 @@
     "gameVersion": "1.9.0.37",
     "createdAt": "2026-11-12T07:22:41.000Z",
     "size": 3526776
-   },
-   {
-    "version": "0.2.2",
-    "gameVersion": "1.9.0.37",
-    "createdAt": "2026-11-11T23:13:41.000Z",
-    "size": 3525688
    }
   ],
-  "changelog": "0.2.11\n- Fixed Game Master time-of-day changes not updating world lighting on dedicated servers (for example, setting the clock to 00:00 midnight showed 00:00 in Game Master while the sky and world stayed bright like daytime).\n- Scenario night checks and saved time and weather state now follow the single active world clock.\n- Default mission starting time, weather, and day/night cycle speed are unchanged.\n- Includes 0.2.10.",
+  "changelog": "0.2.12\n- Added optional server setting m_iDeadwoodOpenNeighborsPerBase (off by default at -1) so server hosts can choose how many nearest linked enemy bases each individual held MOB or captured point opens at once (1, 2, 3, ...; default -1 opens every linked neighbor). Closed routes draw thin and grey on the map, seize tasks track open objectives, and entering a closed base names open targets.\n- Added lightweight 1,000 ms CP tent indoor doorway escape for zombies trapped directly underneath tent-roof campers so they step outside cleanly for native exterior tent climbing.\n- Includes 0.2.11 (Game Master lighting clock fix).",
   "preview": "https://ar-gcp-cdn.bistudio.com/image/6a92/2db8d6d18bfe9e72772ce468b6aed7242865b1b1a4ad99222d6b431e8954/296643.jpg",
   "previewThumbs": [
    "https://ar-gcp-cdn.bistudio.com/image/a586/49e091f21648996c31da3c96e37ad42a3267479443b2cf014229eb2adf45/139140.jpg",
@@ -1644,7 +1680,7 @@
    {
     "id": "0B4FB11C20129701",
     "name": "Project Outbreak Deadwood Lite",
-    "version": "0.2.11"
+    "version": "0.2.12"
    },
    {
     "id": "4FD4A1BD550793F4",
@@ -1718,7 +1754,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-10-06T16:56:25.000Z",
   "updatedAt": "2026-11-06T16:31:10.000Z",
-  "downloads": 807,
+  "downloads": 808,
   "tags": [
    "AI",
    "BOSS",
@@ -1808,7 +1844,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-10-02T05:03:39.000Z",
   "updatedAt": "2026-11-15T12:27:23.000Z",
-  "downloads": 3341,
+  "downloads": 3523,
   "tags": [
    "AI",
    "CHARACTERS",
@@ -1920,7 +1956,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-10-03T17:41:42.000Z",
   "updatedAt": "2026-11-15T12:14:07.000Z",
-  "downloads": 3410,
+  "downloads": 3588,
   "tags": [
    "ALIEN",
    "CHARACTERS",
@@ -2032,7 +2068,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-10-06T17:34:28.000Z",
   "updatedAt": "2026-11-06T16:39:20.000Z",
-  "downloads": 1427,
+  "downloads": 1434,
   "tags": [
    "CHARACTERS",
    "CMAI",
@@ -2092,7 +2128,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-10-09T13:22:19.000Z",
   "updatedAt": "2026-11-15T12:19:17.000Z",
-  "downloads": 3222,
+  "downloads": 3393,
   "tags": [
    "CHARACTERS",
    "CMAI",
@@ -2205,7 +2241,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-10-15T10:13:41.000Z",
   "updatedAt": "2026-11-12T23:59:27.000Z",
-  "downloads": 1995,
+  "downloads": 2012,
   "tags": [
    "AI",
    "CHARACTERS",
@@ -2340,7 +2376,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-10-15T23:43:22.000Z",
   "updatedAt": "2026-11-05T20:03:00.000Z",
-  "downloads": 990,
+  "downloads": 994,
   "tags": [
    "AI",
    "CHARACTERS",
@@ -2440,7 +2476,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-10-16T11:15:49.000Z",
   "updatedAt": "2026-11-07T16:30:25.000Z",
-  "downloads": 1480,
+  "downloads": 1490,
   "tags": [
    "AI",
    "CHARACTERS",
@@ -2518,7 +2554,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-10-16T11:10:30.000Z",
   "updatedAt": "2026-11-13T23:22:44.000Z",
-  "downloads": 1325,
+  "downloads": 1331,
   "tags": [
    "AI",
    "BIGFOOT",
@@ -2689,7 +2725,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-10-21T23:41:12.000Z",
   "updatedAt": "2026-11-15T12:47:20.000Z",
-  "downloads": 2116,
+  "downloads": 2296,
   "tags": [
    "AI",
    "CHARACTERS",
@@ -2878,7 +2914,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-08-30T18:18:07.000Z",
   "updatedAt": "2026-11-15T10:09:19.000Z",
-  "downloads": 64890,
+  "downloads": 65442,
   "tags": [
    "AI",
    "CHARACTERS",
@@ -2987,7 +3023,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-08-09T15:04:29.000Z",
   "updatedAt": "2026-11-06T18:29:09.000Z",
-  "downloads": 5149,
+  "downloads": 5162,
   "tags": [
    "AI",
    "REARM",
@@ -3050,7 +3086,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-10-07T09:20:39.000Z",
   "updatedAt": "2026-11-06T17:05:17.000Z",
-  "downloads": 7541,
+  "downloads": 7577,
   "tags": [
    "CROSSBOW",
    "GAMEMASTER",
@@ -3129,7 +3165,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-09-29T16:59:01.000Z",
   "updatedAt": "2026-11-06T16:54:18.000Z",
-  "downloads": 449,
+  "downloads": 450,
   "tags": [
    "BALLISTA",
    "MEDIEVAL",
