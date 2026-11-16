@@ -13,7 +13,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-08-30T18:29:18.000Z",
   "updatedAt": "2026-11-15T22:24:09.000Z",
-  "downloads": 24447,
+  "downloads": 24608,
   "tags": [
    "INFECTION",
    "OUTBREAK",
@@ -119,7 +119,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-08-30T18:31:09.000Z",
   "updatedAt": "2026-11-06T16:43:53.000Z",
-  "downloads": 17151,
+  "downloads": 17166,
   "tags": [
    "OUTBREAK",
    "SYSTEMS",
@@ -224,7 +224,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-08-30T18:27:33.000Z",
   "updatedAt": "2026-11-06T16:44:40.000Z",
-  "downloads": 9144,
+  "downloads": 9155,
   "tags": [
    "GADGETS",
    "OUTBREAK",
@@ -333,7 +333,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-09-27T03:27:42.000Z",
   "updatedAt": "2026-11-06T16:50:13.000Z",
-  "downloads": 10375,
+  "downloads": 10396,
   "tags": [
    "CHARACTERS",
    "CREATURES",
@@ -468,7 +468,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-09-27T03:41:17.000Z",
   "updatedAt": "2026-11-15T12:06:03.000Z",
-  "downloads": 13283,
+  "downloads": 13396,
   "tags": [
    "CHARACTERS",
    "OUTBREAK",
@@ -580,6 +580,527 @@
   ],
   "workshopUrl": "https://reforger.armaplatform.com/workshop/297640FBAC0C46C3",
   "previewFile": "assets/family/297640FBAC0C46C3_e84180ac45.jpg"
+ },
+ {
+  "id": "C74E92A1D8B3056F",
+  "name": "Project Outbreak Everdead",
+  "author": "Project Outbreak",
+  "summary": "128-player Project Outbreak survival campaign on vanilla Everon. Deploy from offshore island MOBs, retake 64 linked bases, clear 3 surface raids & 22 distress events.",
+  "description": "Everon has fallen. Project Outbreak Everdead is a 128-player standalone PvE Conflict survival campaign on Bohemia Interactive's vanilla Everon terrain. Zero third-party map download required.\n\nWHAT YOU DO\n- Deploy from offshore main operating bases on Erquy Island (northeast) or Halcyon Island (southwest) to keep heavy town startup load isolated, and cross via 22 moored REAPER_RHIB craft (15 Transport & 7 Armed M2) or replenished UH-1H air ferries (30-second replenishment).\n- Retake all 64 linked control points and 2 radio relays across Everon's towns, harbours, airfield, quarry, ridges, valleys, and outer islands (Lechucs, Argent, Blackrock).\n- Execute 5-stage raids at Montfort Castle, Everon Quarry, and Saint-Pierre Pier, hold the 6 Recon Grid sites for bonus event XP, and recover 22 land & maritime distress events.\n\nREQUIRES\n- Creature Melee AI, Project Outbreak, Project Outbreak: Infection, and REAPER_RHIB by r34p3r.\n\nCREDITS\n- Terrain: Vanilla Everon by Bohemia Interactive.\n- Watercraft: REAPER_RHIB by r34p3r (Arma Public License No Derivatives).\n- Infected and melee AI: Project Outbreak and Creature Melee AI (Arma Public License).",
+  "license": "Arma Public License (APL)",
+  "rating": 0,
+  "ratingCount": 0,
+  "version": "0.1.2",
+  "sizeBytes": 2160112,
+  "gameVersion": "1.9.0.37",
+  "createdAt": "2026-11-15T22:08:03.000Z",
+  "updatedAt": "2026-11-16T08:47:48.000Z",
+  "downloads": 13,
+  "tags": [
+   "EVERDEAD",
+   "EVERON",
+   "MULTIPLAYER",
+   "SCENARIO",
+   "SCENARIOS_MP",
+   "ZOMBIES"
+  ],
+  "dependencies": [
+   {
+    "id": "4FD4A1BD550793F4",
+    "name": "Creature Melee AI",
+    "version": "1.8.31"
+   },
+   {
+    "id": "6934F9C61CE24DE5",
+    "name": "REAPER_RHIB",
+    "version": "1.0.3"
+   },
+   {
+    "id": "7B763100BAFA1F9A",
+    "name": "Project Outbreak Infection",
+    "version": "1.4.8"
+   },
+   {
+    "id": "F1D4B9B5245B36ED",
+    "name": "Project Outbreak Zombies",
+    "version": "2.4.29"
+   }
+  ],
+  "versions": [
+   {
+    "version": "0.1.2",
+    "gameVersion": "1.9.0.37",
+    "createdAt": "2026-11-16T08:47:44.000Z",
+    "size": 2160112
+   },
+   {
+    "version": "0.1.1",
+    "gameVersion": "1.9.0.37",
+    "createdAt": "2026-11-15T23:01:13.000Z",
+    "size": 2160088
+   },
+   {
+    "version": "0.1.0",
+    "gameVersion": "1.9.0.37",
+    "createdAt": "2026-11-15T22:08:03.000Z",
+    "size": 2160883
+   }
+  ],
+  "changelog": "0.1.2\n- Disabled experimental HQ tent roof-climbing to resolve severe server FPS drops around contested command tents.",
+  "preview": "https://ar-gcp-cdn.bistudio.com/image/a6c7/413095a6cf25d03c553867b967a99fe16d61d1934778b11a35d5adc102d6/365949.jpg",
+  "previewThumbs": [
+   "https://ar-gcp-cdn.bistudio.com/image/c85d/ed53e7bd68b587029e6fea55239bf81ec83dcdd9b0f594c17bbcc72259d6/153749.jpg",
+   "https://ar-gcp-cdn.bistudio.com/image/75df/e3413fded626312faa034db25cd57a4eb8b082880cd5e08ede2f68097279/44100.jpg",
+   "https://ar-gcp-cdn.bistudio.com/image/09a8/4d62d0d8a81968ed8370bb4c3397eb37ab342d0f0939596933a5a6c17089/13232.jpg"
+  ],
+  "screenshots": [],
+  "workshopUrl": "https://reforger.armaplatform.com/workshop/C74E92A1D8B3056F",
+  "previewFile": "assets/family/C74E92A1D8B3056F_cf9478459d.jpg"
+ },
+ {
+  "id": "D85F03B2E9C41670",
+  "name": "Everdead Creatures",
+  "author": "Project Outbreak",
+  "summary": "Optional territorial creature director for Project Outbreak Everdead. Brings biome-matched Creature Melee AI creatures onto vanilla Everon.",
+  "description": "Everdead Creatures brings optional Creature Melee AI creature add-ons to Project Outbreak Everdead as regional ecosystems across Everon while Everdead's infected stay active everywhere.\n\nHOW IT WORKS\n- Load Project Outbreak Everdead and Everdead Creatures alongside whichever optional Creature Melee AI packs you choose.\n- All 69 Everon bases map cleanly across 6 habitats: Frontier (offshore islands & initial beachheads), Mycelial (ponds & forests), Sky-Rift (relays & beacons), Scrap-Forge (quarry & airfields), Bastion (military strongpoints), and Quarantine (towns & harbours).\n\nREQUIREMENTS\nCreature Melee AI, Project Outbreak, Project Outbreak: Infection, REAPER_RHIB and Project Outbreak Everdead.",
+  "license": "Arma Public License (APL)",
+  "rating": 0,
+  "ratingCount": 0,
+  "version": "0.1.1",
+  "sizeBytes": 19299,
+  "gameVersion": "1.9.0.37",
+  "createdAt": "2026-11-15T22:12:29.000Z",
+  "updatedAt": "2026-11-15T23:05:35.000Z",
+  "downloads": 4,
+  "tags": [
+   "CHARACTERS",
+   "CREATURES",
+   "EVERDEAD",
+   "HORROR",
+   "MULTIPLAYER",
+   "ZOMBIES"
+  ],
+  "dependencies": [
+   {
+    "id": "4FD4A1BD550793F4",
+    "name": "Creature Melee AI",
+    "version": "1.8.31"
+   },
+   {
+    "id": "6934F9C61CE24DE5",
+    "name": "REAPER_RHIB",
+    "version": "1.0.3"
+   },
+   {
+    "id": "7B763100BAFA1F9A",
+    "name": "Project Outbreak Infection",
+    "version": "1.4.8"
+   },
+   {
+    "id": "C74E92A1D8B3056F",
+    "name": "Project Outbreak Everdead",
+    "version": "0.1.2"
+   },
+   {
+    "id": "F1D4B9B5245B36ED",
+    "name": "Project Outbreak Zombies",
+    "version": "2.4.29"
+   }
+  ],
+  "versions": [
+   {
+    "version": "0.1.1",
+    "gameVersion": "1.9.0.37",
+    "createdAt": "2026-11-15T23:05:31.000Z",
+    "size": 19299
+   },
+   {
+    "version": "0.1.0",
+    "gameVersion": "1.9.0.37",
+    "createdAt": "2026-11-15T22:12:29.000Z",
+    "size": 19320
+   }
+  ],
+  "changelog": "0.1.1\n- Removed Military Boats dependency to match Project Outbreak Everdead 0.1.1 (REAPER_RHIB only).\n- Updated Workshop title card with real Everon aerial photography and the Project Outbreak Everdead Creatures emblem.",
+  "preview": "https://ar-gcp-cdn.bistudio.com/image/3063/72eb090112436cef96e7028126c38417350f0c46e44af896a09beb148dac/366411.jpg",
+  "previewThumbs": [
+   "https://ar-gcp-cdn.bistudio.com/image/4906/969dabbb8fa51c5c6ed21b91c0bf6e0a0e7b7d342ac66161d66c89f94d74/154405.jpg",
+   "https://ar-gcp-cdn.bistudio.com/image/a448/daa644d378c57582354bdc13fa2374de3e59bbfc647360ad156fc7225fbb/44524.jpg",
+   "https://ar-gcp-cdn.bistudio.com/image/2dce/b5799a04594d5b66acced69c623af3ae6f80e551813c86c750d6203c5d55/13406.jpg"
+  ],
+  "screenshots": [],
+  "workshopUrl": "https://reforger.armaplatform.com/workshop/D85F03B2E9C41670",
+  "previewFile": "assets/family/D85F03B2E9C41670_7c6c26b668.jpg"
+ },
+ {
+  "id": "9F4C28E1B6D03A57",
+  "name": "Project Outbreak Dead Gogland",
+  "author": "Project Outbreak",
+  "summary": "Standalone Project Outbreak PvE campaign on Gogland: cross by REAPER_RHIB or UH-1H, retake 40 control points, raid silos and MV Gogland, and recover distress boats and road convoys.",
+  "description": "Gogland has fallen. Project Outbreak: Dead Gogland is a standalone PvE Conflict survival campaign on Temppa's Gogland terrain. It runs on its own and needs no other Project Outbreak scenario add-on.\n\nWHAT YOU DO\n- Deploy from either offshore main operating base on Sakkiluoto (east) or Sayvo (west) and cross to mainland harbours or outer islands using 22 moored REAPER_RHIB watercraft (13 transport RHIBs and 9 .50 cal M2HB armed gunboats, with Corporal rank gating for armed RHIBs at MOBs) or replenished UH-1H air ferries.\n- Retake all 40 linked control points across 76 frontline routes spanning mainland villages, bunker ridges, industrial quarries, Vetelijarvi Bio-Domes, Alttarkallio Reactor, coastal lighthouses, outer islands Ruuskeri and Isosommeri, and the stranded freighter MV Gogland.\n- Breach three 5-stage raids inside Lounatkorkia Silo, Makiinpaallys Silo, and MV Gogland to clear subterranean chambers and ship decks for weapon caches, 1,500-supply pallets, and XP.\n- Capture the 6-site Coastal Radar and Lighthouse Recon Grid (+50 XP per site) and respond to 22 dynamic road wreck, supply convoy, and offshore maritime distress events.\n- Clear enterable houses room by room and destroy mass graves around contested points.\n\nREQUIRES\n- Project Outbreak, Project Outbreak: Infection and Creature Melee AI.\n- Gogland by Temppa and REAPER_RHIB by r34p3r.\n\nCREDITS\n- Map: Gogland by Temppa (Arma Public License).\n- Watercraft: REAPER_RHIB by r34p3r (Arma Public License No Derivatives).\n- Infected and melee AI: Project Outbreak and Creature Melee AI (Arma Public License).",
+  "license": "Arma Public License (APL)",
+  "rating": 0,
+  "ratingCount": 0,
+  "version": "0.2.1",
+  "sizeBytes": 3547522,
+  "gameVersion": "1.9.0.37",
+  "createdAt": "2026-11-14T20:52:37.000Z",
+  "updatedAt": "2026-11-16T08:22:46.000Z",
+  "downloads": 202,
+  "tags": [
+   "DEADGOGLAND",
+   "GOGLAND",
+   "MULTIPLAYER",
+   "SCENARIO",
+   "SCENARIOS_MP",
+   "ZOMBIES"
+  ],
+  "dependencies": [
+   {
+    "id": "4FD4A1BD550793F4",
+    "name": "Creature Melee AI",
+    "version": "1.8.31"
+   },
+   {
+    "id": "623EEDF242F6265E",
+    "name": "Gogland",
+    "version": "1.4.13"
+   },
+   {
+    "id": "6934F9C61CE24DE5",
+    "name": "REAPER_RHIB",
+    "version": "1.0.3"
+   },
+   {
+    "id": "7B763100BAFA1F9A",
+    "name": "Project Outbreak Infection",
+    "version": "1.4.8"
+   },
+   {
+    "id": "F1D4B9B5245B36ED",
+    "name": "Project Outbreak Zombies",
+    "version": "2.4.29"
+   }
+  ],
+  "versions": [
+   {
+    "version": "0.2.1",
+    "gameVersion": "1.9.0.37",
+    "createdAt": "2026-11-16T08:22:41.000Z",
+    "size": 3547522
+   },
+   {
+    "version": "0.2.0",
+    "gameVersion": "1.9.0.37",
+    "createdAt": "2026-11-15T23:27:11.000Z",
+    "size": 3541956
+   },
+   {
+    "version": "0.1.2",
+    "gameVersion": "1.9.0.37",
+    "createdAt": "2026-11-15T12:08:30.000Z",
+    "size": 3526560
+   },
+   {
+    "version": "0.1.1",
+    "gameVersion": "1.9.0.37",
+    "createdAt": "2026-11-15T00:22:46.000Z",
+    "size": 3526520
+   },
+   {
+    "version": "0.1.0",
+    "gameVersion": "1.9.0.37",
+    "createdAt": "2026-11-14T20:52:37.000Z",
+    "size": 3526297
+   }
+  ],
+  "changelog": "0.2.1\n- Disabled experimental HQ tent roof-climbing to resolve severe server FPS drops around contested command tents.\n- Fixed MV Gogland so its Conflict HQ composition, arsenals, player deployments, mass graves, ambient and district infected, and 5-stage boarding raid waves and supply cache spawn on top of the freighter's walkable upper decks instead of below the hull.",
+  "preview": "https://ar-gcp-cdn.bistudio.com/image/9921/a4387d2ed1555bfe176c0f6a28e14544e096f008f1bd10833e9a7f38fc63/272556.jpg",
+  "previewThumbs": [
+   "https://ar-gcp-cdn.bistudio.com/image/6cd0/21426fffd6f99536de988ed41b805658ed1138f934402ec8c756ac46356f/112106.jpg",
+   "https://ar-gcp-cdn.bistudio.com/image/0dd6/96f473c76bee1c21ad4ab50085a8129215d864f55ddd15cc5cfc58535d2d/30893.jpg",
+   "https://ar-gcp-cdn.bistudio.com/image/f758/bc5eb974ebd2b6a301d2b4ebab14851b766e7e7b2dc9bd7cc9e1f201b7c5/8905.jpg"
+  ],
+  "screenshots": [],
+  "workshopUrl": "https://reforger.armaplatform.com/workshop/9F4C28E1B6D03A57",
+  "previewFile": "assets/family/9F4C28E1B6D03A57_9995ffd648.jpg"
+ },
+ {
+  "id": "A3D7519E4B806C2F",
+  "name": "Dead Gogland Creatures",
+  "author": "Project Outbreak",
+  "summary": "Optional territorial creature director for Project Outbreak Dead Gogland. Brings biome-matched Creature Melee AI creatures to Temppa's Gogland map alongside Dead Gogland's infected.",
+  "description": "Dead Gogland Creatures brings optional Creature Melee AI creature add-ons to Project Outbreak Dead Gogland as regional ecosystems across Temppa's Gogland island, while Dead Gogland's infected stay active everywhere.\n\nHOW IT WORKS\n- Load Project Outbreak Dead Gogland and Dead Gogland Creatures on your server, plus whichever Creature Melee AI creature add-ons you choose to mount. None of them is a required download.\n- All 43 bases (3 MOBs and 40 control points) belong to one of six territories: infected-only Frontier around MOB 1, MOB 2, MOB-USSR, Hirskallio, Jokela, Isosommeri, Isosommeri Lighthouse and Sayvo Lighthouse; Mycelial groves and crater domes at Suurlinna, Lettolahti, Kappeliniemi, Kotokallio, Lounatkyla and Vetelijarvi Bio-Domes; Eyekin Sky-Rift roosts over Haukkavuori, Gogland Ridge (R), Makiinpaallys, Pohjoiskorkia, Ruuskeri and Pohjoissivunkallio; Grimdark Scrap-Forge yards and freighter decks at Teollisuusalue, Somerikonlahti, Purjeniemi, Maahelli, Lounatrivi, Rivinkallio, MV Gogland and Kippariniemi; armoured Warbeast bastions at Armeijan Varikko, Miettila Bunkers, Liiralahti Bunkers, Mustakallio, Valkiakallio, Alttarkallio Reactor and Vahakorkianniemi; and Quarantine harbours and villages at Suurkyla, Suurkyla Harbour, Mattila, Kiiskinkyla, Liivalahti, Niemenkyla, Pahanraonkallio and Heikinhelli.\n- Approaching an uncaptured territory reveals its standing creatures alongside the infected.\n- Mass graves, front-line skirmishes and night counter-attacks draw from the local or the attacking neighbour territory, from scout packs up to rare apex bosses at Vetelijarvi Bio-Domes, Alttarkallio Reactor and other regional strongholds.\n- Without any creature add-on it adds giants and nurses to the Quarantine villages and harbours only.\n\nREQUIREMENTS\nCreature Melee AI, Project Outbreak, Project Outbreak: Infection, Gogland, REAPER_RHIB and Project Outbreak Dead Gogland (0.2.0 or newer).\n\nLICENCE\nArma Public License (APL). Optional creature add-ons are referenced at runtime and keep their own licences.",
+  "license": "Arma Public License (APL)",
+  "rating": 0,
+  "ratingCount": 0,
+  "version": "0.2.0",
+  "sizeBytes": 19231,
+  "gameVersion": "1.9.0.37",
+  "createdAt": "2026-11-15T00:27:06.000Z",
+  "updatedAt": "2026-11-15T23:37:06.000Z",
+  "downloads": 165,
+  "tags": [
+   "CHARACTERS",
+   "CREATURES",
+   "DEADGOGLAND",
+   "HORROR",
+   "MULTIPLAYER",
+   "ZOMBIES"
+  ],
+  "dependencies": [
+   {
+    "id": "4FD4A1BD550793F4",
+    "name": "Creature Melee AI",
+    "version": "1.8.31"
+   },
+   {
+    "id": "623EEDF242F6265E",
+    "name": "Gogland",
+    "version": "1.4.13"
+   },
+   {
+    "id": "6934F9C61CE24DE5",
+    "name": "REAPER_RHIB",
+    "version": "1.0.3"
+   },
+   {
+    "id": "7B763100BAFA1F9A",
+    "name": "Project Outbreak Infection",
+    "version": "1.4.8"
+   },
+   {
+    "id": "9F4C28E1B6D03A57",
+    "name": "Project Outbreak Dead Gogland",
+    "version": "0.2.1"
+   },
+   {
+    "id": "F1D4B9B5245B36ED",
+    "name": "Project Outbreak Zombies",
+    "version": "2.4.29"
+   }
+  ],
+  "versions": [
+   {
+    "version": "0.2.0",
+    "gameVersion": "1.9.0.37",
+    "createdAt": "2026-11-15T23:37:00.000Z",
+    "size": 19231
+   },
+   {
+    "version": "0.1.1",
+    "gameVersion": "1.9.0.37",
+    "createdAt": "2026-11-15T12:10:02.000Z",
+    "size": 19121
+   },
+   {
+    "version": "0.1.0",
+    "gameVersion": "1.9.0.37",
+    "createdAt": "2026-11-15T00:27:06.000Z",
+    "size": 18972
+   }
+  ],
+  "changelog": "0.2.0\n- Mapped all 10 new Dead Gogland 0.2.0 control points (43 bases total) across the six creature territories, designated Vetelijarvi Bio-Domes and Alttarkallio Reactor as regional apex boss anchors, added airborne Eyekin sky roosts on MV Gogland and Alttarkallio Reactor, and aligned Suurkyla Harbour giant and nurse spawns with Suurkyla.\n- Replaced the Military Boats (62593E440F3FF363) Workshop dependency with REAPER_RHIB (6934F9C61CE24DE5) to match Project Outbreak Dead Gogland 0.2.0.\n- Update Project Outbreak Dead Gogland to 0.2.0 together with Dead Gogland Creatures.",
+  "preview": "https://ar-gcp-cdn.bistudio.com/image/eb63/2a37c842143b15a492aa192b6fb4c05d51068953582a03c63d6346d23dda/266978.jpg",
+  "previewThumbs": [
+   "https://ar-gcp-cdn.bistudio.com/image/632c/c63adad6bb7c8a8aad11c2e1db480e4da83013cec00952317363a630b638/105400.jpg",
+   "https://ar-gcp-cdn.bistudio.com/image/5946/b3b109b97584b2b295066737cfb5cabc040f151ebb6684972c6d87e3fbb6/30881.jpg",
+   "https://ar-gcp-cdn.bistudio.com/image/b9d1/204ef3018555f1fa6fe069508bab1f6f3f6babffd3cf860dcdd7ac7d00ef/8915.jpg"
+  ],
+  "screenshots": [],
+  "workshopUrl": "https://reforger.armaplatform.com/workshop/A3D7519E4B806C2F",
+  "previewFile": "assets/family/A3D7519E4B806C2F_4e811413a7.jpg"
+ },
+ {
+  "id": "8EC181B175EA001E",
+  "name": "Project Outbreak Dead Border",
+  "author": "Project Outbreak",
+  "summary": "Self-running Project Outbreak PvE campaign on Border Wars Mexico by Driftusy: retake 26 control points, clear houses, fight into the bunkers and recover downed aircraft and convoys.",
+  "description": "The border has fallen. Dead Border is a self-running Project Outbreak PvE campaign on the Border Wars Mexico map. It runs on its own and needs no other Project Outbreak scenario add-on.\n\nWHAT YOU DO\n- Deploy from either main operating base and retake all 26 linked control points, from the border checkpoint, the trenches and No Man's Land to the market, the slums, the zoo, the villas and the cemetery.\n- Advance step by step along neighboring frontline routes. Each base you capture unlocks its immediate neighbors.\n- Clear houses as you enter town. Houses hold infected behind closed doors until your squad kills every sleeper inside.\n- Take Bunker and Supply Dump from inside their bunkers: go down and hold the rooms.\n- Watch for smoke columns and map tasks marking downed helicopters and stalled supply columns on the roads. Clear the site and drive the trucks and Humvees back to friendly lines.\n- Bring explosives or fire when attacking a base. Mass graves open around contested points and keep pouring out infected until destroyed.\n\nREQUIRES\n- Project Outbreak, Project Outbreak: Infection and Creature Melee AI.\n- The Texas Border map and the add-ons it needs.\n\nCREDITS\nMap: Border Wars Mexico — Created by Driftusy, used with the author's permission. Infected and melee AI from Project Outbreak and Creature Melee AI under APL.",
+  "license": "Arma Public License (APL)",
+  "rating": 1,
+  "ratingCount": 3,
+  "version": "0.1.3",
+  "sizeBytes": 3523808,
+  "gameVersion": "1.9.0.37",
+  "createdAt": "2026-11-14T00:46:02.000Z",
+  "updatedAt": "2026-11-14T08:41:32.000Z",
+  "downloads": 219,
+  "tags": [
+   "DEADBORDER",
+   "MULTIPLAYER",
+   "SCENARIO",
+   "SCENARIOS_MP",
+   "TEXAS",
+   "ZOMBIES"
+  ],
+  "dependencies": [
+   {
+    "id": "297D5362913D2653",
+    "name": "ARGH Blast Door",
+    "version": "1.0.1"
+   },
+   {
+    "id": "4FD4A1BD550793F4",
+    "name": "Creature Melee AI",
+    "version": "1.8.31"
+   },
+   {
+    "id": "646518DA09B1E283",
+    "name": "Ukraine Trenches",
+    "version": "1.0.3"
+   },
+   {
+    "id": "64E66A079F608306",
+    "name": "STALKER REFORGED",
+    "version": "1.0.33"
+   },
+   {
+    "id": "66FC1E0F608A4AFA",
+    "name": "Malvian Bushwar Props Pack",
+    "version": "1.0.26"
+   },
+   {
+    "id": "68A679A42BE95164",
+    "name": "Texas Border",
+    "version": "2.0.10"
+   },
+   {
+    "id": "7B763100BAFA1F9A",
+    "name": "Project Outbreak Infection",
+    "version": "1.4.8"
+   },
+   {
+    "id": "F1D4B9B5245B36ED",
+    "name": "Project Outbreak Zombies",
+    "version": "2.4.29"
+   }
+  ],
+  "versions": [
+   {
+    "version": "0.1.3",
+    "gameVersion": "1.9.0.37",
+    "createdAt": "2026-11-14T08:41:29.000Z",
+    "size": 3523808
+   },
+   {
+    "version": "0.1.2",
+    "gameVersion": "1.9.0.37",
+    "createdAt": "2026-11-14T08:13:19.000Z",
+    "size": 3519971
+   },
+   {
+    "version": "0.1.1",
+    "gameVersion": "1.9.0.37",
+    "createdAt": "2026-11-14T02:31:42.000Z",
+    "size": 3519971
+   },
+   {
+    "version": "0.1.0",
+    "gameVersion": "1.9.0.37",
+    "createdAt": "2026-11-14T00:46:02.000Z",
+    "size": 3518771
+   }
+  ],
+  "changelog": "0.1.3\n- For server hosts: an optional per-player stats file. Set the mission header's m_iDTBPlayerStatsSeconds to a number of seconds and the server writes deadborder_player_stats.json into its profile folder that often: each player's kills by faction and by infected type, deaths by cause, shots, grenades, distance and bandages this session, plus deadborder_player_stats_last_round.json when a round ends. Off by default.",
+  "preview": "https://ar-gcp-cdn.bistudio.com/image/324f/3f5071d2e621ac1acbcb7f45e8ccb7378f297b92b26b4bbaf8b1b1d22acb/368008.jpg",
+  "previewThumbs": [
+   "https://ar-gcp-cdn.bistudio.com/image/1df6/b9edb8d2087eb5420871b8fa3950263defee1fc4cb3c5878d3e3a7e60161/146780.jpg",
+   "https://ar-gcp-cdn.bistudio.com/image/78cc/4b04ee91552cd700f7634950b1181170b6d261c39afa3080542e6b98fd29/39197.jpg",
+   "https://ar-gcp-cdn.bistudio.com/image/9aaa/8b6628a1435ee68e0b5880ccac33f5ceaab477b789ebb4217990afecfcca/11197.jpg"
+  ],
+  "screenshots": [],
+  "workshopUrl": "https://reforger.armaplatform.com/workshop/8EC181B175EA001E",
+  "previewFile": "assets/family/8EC181B175EA001E_ace3aa6b86.jpg"
+ },
+ {
+  "id": "5FC1B956E75197FE",
+  "name": "Dead Border Creatures",
+  "author": "Project Outbreak",
+  "summary": "Optional territorial creature director for Project Outbreak Dead Border. Brings biome-matched Creature Melee AI creatures to the Texas Border map, alongside Dead Border's infected.",
+  "description": "Dead Border Creatures brings optional Creature Melee AI creature add-ons to Project Outbreak Dead Border as regional ecosystems on the Texas Border map, while Dead Border's infected stay active everywhere.\n\nHOW IT WORKS\n- Load Project Outbreak Dead Border and Dead Border Creatures on your server, plus whichever Creature Melee AI creature add-ons you choose to mount. None of them is a required download.\n- Every base on the map belongs to a territory: infected-only frontier around MOB 1 and MOB 2, Mycelial greenhouses and ranches, Eyekin Sky-Rift roosts over No Man's Land and the border wall, Grimdark Scrap-Forge yards at the depot, the gas station and the slums, armoured Warbeast bastions at the border checkpoint, the bunker, the tunnel and the zoo, and Quarantine blocks in the apartments, the market and the housing estates.\n- Approaching an uncaptured territory reveals its standing creatures alongside the infected.\n- Mass graves, front-line skirmishes and night counter-attacks draw from the local or the attacking neighbour territory, from scout packs up to rare apex bosses.\n- Without any creature add-on it adds giants and nurses to the Quarantine blocks only.\n\nREQUIREMENTS\nCreature Melee AI, Project Outbreak, Project Outbreak: Infection and Project Outbreak Dead Border (0.1.1 or newer), with the Texas Border map and the add-ons it needs.\n\nLICENCE\nArma Public License (APL). Optional creature add-ons are referenced at runtime and keep their own licences.",
+  "license": "Arma Public License (APL)",
+  "rating": 0,
+  "ratingCount": 0,
+  "version": "0.1.0",
+  "sizeBytes": 18966,
+  "gameVersion": "1.9.0.37",
+  "createdAt": "2026-11-14T07:56:56.000Z",
+  "updatedAt": "2026-11-14T07:56:58.000Z",
+  "downloads": 17,
+  "tags": [
+   "CHARACTERS",
+   "CREATURES",
+   "DEADBORDER",
+   "HORROR",
+   "MULTIPLAYER",
+   "ZOMBIES"
+  ],
+  "dependencies": [
+   {
+    "id": "297D5362913D2653",
+    "name": "ARGH Blast Door",
+    "version": "1.0.1"
+   },
+   {
+    "id": "4FD4A1BD550793F4",
+    "name": "Creature Melee AI",
+    "version": "1.8.31"
+   },
+   {
+    "id": "646518DA09B1E283",
+    "name": "Ukraine Trenches",
+    "version": "1.0.3"
+   },
+   {
+    "id": "64E66A079F608306",
+    "name": "STALKER REFORGED",
+    "version": "1.0.33"
+   },
+   {
+    "id": "66FC1E0F608A4AFA",
+    "name": "Malvian Bushwar Props Pack",
+    "version": "1.0.26"
+   },
+   {
+    "id": "68A679A42BE95164",
+    "name": "Texas Border",
+    "version": "2.0.10"
+   },
+   {
+    "id": "7B763100BAFA1F9A",
+    "name": "Project Outbreak Infection",
+    "version": "1.4.8"
+   },
+   {
+    "id": "8EC181B175EA001E",
+    "name": "Project Outbreak Dead Border",
+    "version": "0.1.3"
+   },
+   {
+    "id": "F1D4B9B5245B36ED",
+    "name": "Project Outbreak Zombies",
+    "version": "2.4.29"
+   }
+  ],
+  "versions": [
+   {
+    "version": "0.1.0",
+    "gameVersion": "1.9.0.37",
+    "createdAt": "2026-11-14T07:56:56.000Z",
+    "size": 18966
+   }
+  ],
+  "changelog": "",
+  "preview": "https://ar-gcp-cdn.bistudio.com/image/b706/709b26d93babe8e8997b07c88647bca9c771d7bcf517ad7c234e7d0a426e/365855.jpg",
+  "previewThumbs": [
+   "https://ar-gcp-cdn.bistudio.com/image/3038/8438c4aab490e79b0b69a799c6bbf2d40f356bdc7afb1028cc5e6729aaee/146209.jpg",
+   "https://ar-gcp-cdn.bistudio.com/image/62c4/a098deee1eee1c6d19026d92a9c2e1c8385c7019ff17980fd1045f176a82/39149.jpg",
+   "https://ar-gcp-cdn.bistudio.com/image/b3d0/18d4ee6c55e975373474f40b19eb7d73b733bdf90b7d168326235b6c8cc9/11258.jpg"
+  ],
+  "screenshots": [],
+  "workshopUrl": "https://reforger.armaplatform.com/workshop/5FC1B956E75197FE",
+  "previewFile": "assets/family/5FC1B956E75197FE_a6db376050.jpg"
  },
  {
   "id": "0B4FB11C20129700",
@@ -699,7 +1220,7 @@
    {
     "id": "61BD6595183FCEBD",
     "name": "Chungus Bolt Guns",
-    "version": "1.0.64"
+    "version": "1.0.65"
    },
    {
     "id": "61C74A8B647617DA",
@@ -986,13 +1507,13 @@
   "description": "Glenwood is a small American town, and it has gone under. This is the Lite build of Project Outbreak Deadwood: the same scenario, with a much smaller download.\n\nWHAT THIS IS\n- A PvE scenario on the Glenwood terrain, with the town dressed for the outbreak.\n- The infected are always there. They do not wait for a Game Master to place them.\n- Bases and radio relays across the map to take and hold, and a fixed main base to start from.\n- You fight the infected.\n\nWHAT IS DIFFERENT FROM PROJECT OUTBREAK DEADWOOD\n- It needs only Project Outbreak (with Creature Melee AI and Infection) and the Glenwood map content. About 1.9 GB in total.\n- It does not include KdK Outbreak, or the extra weapons, vehicles and equipment add-ons. Use your own server mod pack for those.\n- Without KdK Outbreak there is no extra loot, no cap on the infected population and no automatic cleanup. Your own mod pack can add them.\n- This build has not had a full playtest yet. Please report problems.\n- Use it instead of Project Outbreak Deadwood, not together with it. Both share the same scenario content.\n\nWHO MADE THE PARTS\nThe dressed town is Dead Glenwood by Windy768, on the Glenwood terrain by vap3r, with Placeables for GM by Heine.CRV. The base layout follows MODERN PVE | GLENWOOD by guennyyy. The infected and the melee creatures come from Project Outbreak and Creature Melee AI. Thank you to all of them; this scenario only arranges their work under APL.",
   "license": "Arma Public License (APL)",
   "rating": 1,
-  "ratingCount": 5,
+  "ratingCount": 6,
   "version": "0.2.11",
   "sizeBytes": 3538645,
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-10-08T02:57:35.000Z",
   "updatedAt": "2026-11-15T17:16:20.000Z",
-  "downloads": 1802,
+  "downloads": 1815,
   "tags": [
    "GLENWOOD",
    "LIGHT",
@@ -1097,6 +1618,93 @@
   "previewFile": "assets/family/0B4FB11C20129700_2729e40bce.jpg"
  },
  {
+  "id": "0B4FB11C2012DC01",
+  "name": "Deadwood Creatures",
+  "author": "Project Outbreak",
+  "summary": "Optional creature-pack director for Project Outbreak Deadwood Lite. Dynamically spawns mounted Creature Melee AI packs across Glenwood mass graves.",
+  "description": "Deadwood Creatures weaves optional Creature Melee AI packs into Project Outbreak Deadwood Lite without making any creature pack a forced download.\n\nHOW IT WORKS\n- Load Project Outbreak Deadwood Lite and Deadwood Creatures on your server, plus whichever Creature Melee AI monster add-ons your server chooses to mount.\n- At mission start, Deadwood Creatures detects which creature add-ons are loaded and matches them to Glenwood's biomes, night cycle, and frontline sieges.\n- Forest and rural mass graves can sprout fungal spires and spore packs; town nests and night counter-sieges attract nocturnal flocks, heavy warbeasts, armored walkers, and rare valley-wide apex encounters announced over radio.\n- Respects Deadwood Lite's server FPS governor and cleans up abandoned creatures when squads leave an uncontested sector.\n\nREQUIREMENTS\nCreature Melee AI, Project Outbreak, and Project Outbreak Deadwood Lite (0.1.23 or newer).\n\nLICENCE\nArma Public License (APL). Optional creature add-ons are referenced dynamically at runtime and keep their own licences.",
+  "license": "Arma Public License (APL)",
+  "rating": 0,
+  "ratingCount": 0,
+  "version": "0.2.0",
+  "sizeBytes": 18720,
+  "gameVersion": "1.9.0.37",
+  "createdAt": "2026-11-11T02:39:49.000Z",
+  "updatedAt": "2026-11-11T17:53:05.000Z",
+  "downloads": 242,
+  "tags": [
+   "CHARACTERS",
+   "CREATURES",
+   "GAMEPLAY",
+   "HORROR",
+   "MULTIPLAYER",
+   "ZOMBIES"
+  ],
+  "dependencies": [
+   {
+    "id": "0B4FB11C20129701",
+    "name": "Project Outbreak Deadwood Lite",
+    "version": "0.2.11"
+   },
+   {
+    "id": "4FD4A1BD550793F4",
+    "name": "Creature Melee AI",
+    "version": "1.8.31"
+   },
+   {
+    "id": "66330AEF351F0EEE",
+    "name": "Glenwood",
+    "version": "1.0.106"
+   },
+   {
+    "id": "7B763100BAFA1F9A",
+    "name": "Project Outbreak Infection",
+    "version": "1.4.8"
+   },
+   {
+    "id": "F1D4B9B5245B36ED",
+    "name": "Project Outbreak Zombies",
+    "version": "2.4.29"
+   }
+  ],
+  "versions": [
+   {
+    "version": "0.2.0",
+    "gameVersion": "1.9.0.37",
+    "createdAt": "2026-11-11T17:53:03.000Z",
+    "size": 18720
+   },
+   {
+    "version": "0.1.2",
+    "gameVersion": "1.9.0.37",
+    "createdAt": "2026-11-11T13:26:40.000Z",
+    "size": 5947
+   },
+   {
+    "version": "0.1.1",
+    "gameVersion": "1.9.0.37",
+    "createdAt": "2026-11-11T08:27:39.000Z",
+    "size": 5718
+   },
+   {
+    "version": "0.1.0",
+    "gameVersion": "1.9.0.37",
+    "createdAt": "2026-11-11T02:39:49.000Z",
+    "size": 5618
+   }
+  ],
+  "changelog": "0.2.0\n- Rebuilt Glenwood creature spawning around six coherent biome territories across all 53 bases while keeping full zombie populations active everywhere.\n- Added standing territorial life and wilderness roaming packs: spore spires and Dewcap or Sporewarden pods in deep conifer hollows, Greenskin patrols and Warbasha brutes at industrial yards and mine mouths, armored Grux and Big Jim at military bastions, and Nightingale or Nephilim wards in urban districts.\n- Winged Eyekin flocks now spawn and soar high in open sky over airfields, relay towers, bluffs, and radar domes, diving on exposed infantry and intercepting airborne helicopters without blocking ground flag captures.\n- Frontline starter bases outside MOB 1 and MOB 2 stay grounded zombie territory, while night counter-sieges launch creatures matching the adjacent attacking territory.",
+  "preview": "https://ar-gcp-cdn.bistudio.com/image/f2fa/45e251e3d74991c12520e4fb3bfa43c1594535ba666c02f638c53705f9a3/317505.jpg",
+  "previewThumbs": [
+   "https://ar-gcp-cdn.bistudio.com/image/b469/6c8fdaccbbdd44ea4093b8c068b9fb468a861896a246ed7ad9c3427ea199/128442.jpg",
+   "https://ar-gcp-cdn.bistudio.com/image/a35e/ade29ca8736fca32977840b7acb512b15c4201495e1d0b02c33fbfc32b7c/40097.jpg",
+   "https://ar-gcp-cdn.bistudio.com/image/7b99/42121f9435a5a51e6f9a8d0b52904e67c7b9f1898d1eeaa306ab6a7f9727/12327.jpg"
+  ],
+  "screenshots": [],
+  "workshopUrl": "https://reforger.armaplatform.com/workshop/0B4FB11C2012DC01",
+  "previewFile": "assets/family/0B4FB11C2012DC01_885c68ffc3.jpg"
+ },
+ {
   "id": "475357F020261002",
   "name": "Goblin Swordsman",
   "author": "Project Outbreak",
@@ -1110,7 +1718,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-10-06T16:56:25.000Z",
   "updatedAt": "2026-11-06T16:31:10.000Z",
-  "downloads": 806,
+  "downloads": 807,
   "tags": [
    "AI",
    "BOSS",
@@ -1200,7 +1808,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-10-02T05:03:39.000Z",
   "updatedAt": "2026-11-15T12:27:23.000Z",
-  "downloads": 3269,
+  "downloads": 3329,
   "tags": [
    "AI",
    "CHARACTERS",
@@ -1312,7 +1920,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-10-03T17:41:42.000Z",
   "updatedAt": "2026-11-15T12:14:07.000Z",
-  "downloads": 3346,
+  "downloads": 3398,
   "tags": [
    "ALIEN",
    "CHARACTERS",
@@ -1424,7 +2032,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-10-06T17:34:28.000Z",
   "updatedAt": "2026-11-06T16:39:20.000Z",
-  "downloads": 1418,
+  "downloads": 1427,
   "tags": [
    "CHARACTERS",
    "CMAI",
@@ -1484,7 +2092,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-10-09T13:22:19.000Z",
   "updatedAt": "2026-11-15T12:19:17.000Z",
-  "downloads": 3161,
+  "downloads": 3211,
   "tags": [
    "CHARACTERS",
    "CMAI",
@@ -1597,7 +2205,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-10-15T10:13:41.000Z",
   "updatedAt": "2026-11-12T23:59:27.000Z",
-  "downloads": 1986,
+  "downloads": 1994,
   "tags": [
    "AI",
    "CHARACTERS",
@@ -1732,7 +2340,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-10-15T23:43:22.000Z",
   "updatedAt": "2026-11-05T20:03:00.000Z",
-  "downloads": 984,
+  "downloads": 990,
   "tags": [
    "AI",
    "CHARACTERS",
@@ -1832,7 +2440,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-10-16T11:15:49.000Z",
   "updatedAt": "2026-11-07T16:30:25.000Z",
-  "downloads": 1473,
+  "downloads": 1479,
   "tags": [
    "AI",
    "CHARACTERS",
@@ -1910,7 +2518,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-10-16T11:10:30.000Z",
   "updatedAt": "2026-11-13T23:22:44.000Z",
-  "downloads": 1318,
+  "downloads": 1324,
   "tags": [
    "AI",
    "BIGFOOT",
@@ -2081,7 +2689,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-10-21T23:41:12.000Z",
   "updatedAt": "2026-11-15T12:47:20.000Z",
-  "downloads": 2047,
+  "downloads": 2104,
   "tags": [
    "AI",
    "CHARACTERS",
@@ -2270,7 +2878,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-08-30T18:18:07.000Z",
   "updatedAt": "2026-11-15T10:09:19.000Z",
-  "downloads": 64583,
+  "downloads": 64837,
   "tags": [
    "AI",
    "CHARACTERS",
@@ -2379,7 +2987,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-08-09T15:04:29.000Z",
   "updatedAt": "2026-11-06T18:29:09.000Z",
-  "downloads": 5141,
+  "downloads": 5148,
   "tags": [
    "AI",
    "REARM",
@@ -2442,7 +3050,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-10-07T09:20:39.000Z",
   "updatedAt": "2026-11-06T17:05:17.000Z",
-  "downloads": 7525,
+  "downloads": 7538,
   "tags": [
    "CROSSBOW",
    "GAMEMASTER",
