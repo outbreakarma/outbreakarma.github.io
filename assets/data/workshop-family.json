@@ -13,7 +13,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-08-30T18:29:18.000Z",
   "updatedAt": "2026-11-17T01:33:23.000Z",
-  "downloads": 25295,
+  "downloads": 25510,
   "tags": [
    "INFECTION",
    "OUTBREAK",
@@ -119,7 +119,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-08-30T18:31:09.000Z",
   "updatedAt": "2026-11-06T16:43:53.000Z",
-  "downloads": 17230,
+  "downloads": 17246,
   "tags": [
    "OUTBREAK",
    "SYSTEMS",
@@ -224,7 +224,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-08-30T18:27:33.000Z",
   "updatedAt": "2026-11-06T16:44:40.000Z",
-  "downloads": 9186,
+  "downloads": 9199,
   "tags": [
    "GADGETS",
    "OUTBREAK",
@@ -333,7 +333,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-09-27T03:27:42.000Z",
   "updatedAt": "2026-11-06T16:50:13.000Z",
-  "downloads": 10528,
+  "downloads": 10576,
   "tags": [
    "CHARACTERS",
    "CREATURES",
@@ -468,7 +468,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-09-27T03:41:17.000Z",
   "updatedAt": "2026-11-15T12:06:03.000Z",
-  "downloads": 13893,
+  "downloads": 14000,
   "tags": [
    "CHARACTERS",
    "OUTBREAK",
@@ -585,17 +585,17 @@
   "id": "C74E92A1D8B3056F",
   "name": "Project Outbreak Everdead",
   "author": "Project Outbreak",
-  "summary": "128-player Project Outbreak survival campaign on vanilla Everon. Deploy from offshore island MOBs, retake 74 linked bases, clear 3 surface raids & 22 distress events.",
-  "description": "Everon has fallen. Project Outbreak Everdead is a 128-player standalone PvE Conflict survival campaign on Bohemia Interactive's vanilla Everon terrain. Zero third-party map download required.\n\nWHAT YOU DO\n- Deploy from offshore main operating bases on Erquy Island (northeast) or Halcyon Island (southwest) to keep heavy town startup load isolated, and cross via 22 moored REAPER_RHIB craft (15 Transport & 7 Armed M2) or replenished UH-1H air ferries (30-second replenishment).\n- Retake all 74 linked control points and 2 radio relays across Everon's towns, harbours, airfield, quarry, ridges, valleys, and outer islands (Lechucs, Argent, Blackrock).\n- Execute 5-stage raids at Montfort Castle, Everon Quarry, and Saint-Pierre Pier, hold the 6 Recon Grid sites for bonus event XP, and recover 22 land & maritime distress events.\n\nREQUIRES\n- Creature Melee AI, Project Outbreak, Project Outbreak: Infection, and REAPER_RHIB by r34p3r.\n\nCREDITS\n- Terrain: Vanilla Everon by Bohemia Interactive.\n- Watercraft: REAPER_RHIB by r34p3r (Arma Public License No Derivatives).\n- Infected and melee AI: Project Outbreak and Creature Melee AI (Arma Public License).",
+  "summary": "128-player Project Outbreak survival campaign on vanilla Everon. Deploy from offshore island MOBs, retake 80 linked bases, clear 3 surface raids & 22 distress events.",
+  "description": "Everon has fallen. Project Outbreak Everdead is a 128-player standalone PvE Conflict survival campaign on Bohemia Interactive's vanilla Everon terrain. Zero third-party map download required.\n\nWHAT YOU DO\n- Deploy from offshore main operating bases on Erquy Island (northeast) or Halcyon Island (southwest) to keep heavy town startup load isolated, and cross via 22 moored REAPER_RHIB craft (15 Transport & 7 Armed M2) or replenished UH-1H air ferries (30-second replenishment).\n- Retake all 80 linked control points and 2 radio relays across Everon's towns, lighthouses, harbours, airfield, quarry, ridges, valleys, and outer islands (Lechucs, Argent, Blackrock).\n- Execute 5-stage raids at Montfort Castle, Everon Quarry, and Saint-Pierre Pier, hold the 6 Recon Grid sites for bonus event XP, and recover 22 land & maritime distress events.\n\nREQUIRES\n- Creature Melee AI, Project Outbreak, Project Outbreak: Infection, and REAPER_RHIB by r34p3r.\n\nCREDITS\n- Terrain: Vanilla Everon by Bohemia Interactive.\n- Watercraft: REAPER_RHIB by r34p3r (Arma Public License No Derivatives).\n- Infected and melee AI: Project Outbreak and Creature Melee AI (Arma Public License).",
   "license": "Arma Public License (APL)",
   "rating": 0,
   "ratingCount": 0,
-  "version": "0.2.0",
-  "sizeBytes": 2278305,
+  "version": "0.2.2",
+  "sizeBytes": 2292899,
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-11-15T22:08:03.000Z",
-  "updatedAt": "2026-11-16T21:07:19.000Z",
-  "downloads": 343,
+  "updatedAt": "2026-11-17T14:07:18.000Z",
+  "downloads": 523,
   "tags": [
    "EVERDEAD",
    "EVERON",
@@ -628,6 +628,18 @@
   ],
   "versions": [
    {
+    "version": "0.2.2",
+    "gameVersion": "1.9.0.37",
+    "createdAt": "2026-11-17T14:07:13.000Z",
+    "size": 2292899
+   },
+   {
+    "version": "0.2.1",
+    "gameVersion": "1.9.0.37",
+    "createdAt": "2026-11-17T09:52:50.000Z",
+    "size": 2278312
+   },
+   {
     "version": "0.2.0",
     "gameVersion": "1.9.0.37",
     "createdAt": "2026-11-16T21:07:13.000Z",
@@ -658,7 +670,7 @@
     "size": 2160883
    }
   ],
-  "changelog": "0.2.0\n- 74 control points instead of 64, at least 600 m apart. Ten new points: Benac, Gorey, La Roue, Lancre, Le Bosc, Les Creux, Perelle, Redon, Rockweed Cape and Shooting Range. Every town and village on the main island now has its own point, and points that stood inside trees have moved into the open.\n- Every control point is now a small military site built from vanilla props: roadblocks, wrecks, sandbag positions and small bunkers. Each one tells its own story.\n- Retaken points get an open field headquarters instead of the Conflict tent: the same spawn point, radio, supplies and arsenal, with no roof to camp on. The three main bases keep their tents.\n- Seven points carry new names that fit where they stand (Power Plant, Sawmill, Western Heights, Peter's Pass, Montfort Castle, Lamentin, Morton).\n- Trees inside a site are cleared on the server and on every player's machine.\n- Start a fresh campaign: a campaign saved in 0.1.3 does not match the new points.",
+  "changelog": "0.2.2\n- 80 control points instead of 74: added six new capture points at Etoupe, Courbet, and the four coastal lighthouses (The Scythe, Juniper Point, Smuggler's Hole, and Saint-Philippe Point), with updated frontline links and automatic tree/bush clearings.\n- Saved loadouts come back whole when you respawn. A kit with very full pockets used to stop loading at the first item that did not fit, leaving you with just weapons, a hat, and a shirt. Now every saved item restores back into place on both server and client.\n- Start a fresh campaign if loading an older save: the 6 new control points expand the map from 74 to 80.",
   "preview": "https://ar-gcp-cdn.bistudio.com/image/a6c7/413095a6cf25d03c553867b967a99fe16d61d1934778b11a35d5adc102d6/365949.jpg",
   "previewThumbs": [
    "https://ar-gcp-cdn.bistudio.com/image/c85d/ed53e7bd68b587029e6fea55239bf81ec83dcdd9b0f594c17bbcc72259d6/153749.jpg",
@@ -683,7 +695,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-11-15T22:12:29.000Z",
   "updatedAt": "2026-11-16T21:09:04.000Z",
-  "downloads": 69,
+  "downloads": 103,
   "tags": [
    "CHARACTERS",
    "CREATURES",
@@ -711,7 +723,7 @@
    {
     "id": "C74E92A1D8B3056F",
     "name": "Project Outbreak Everdead",
-    "version": "0.2.0"
+    "version": "0.2.2"
    },
    {
     "id": "F1D4B9B5245B36ED",
@@ -764,7 +776,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-11-14T20:52:37.000Z",
   "updatedAt": "2026-11-16T18:48:48.000Z",
-  "downloads": 248,
+  "downloads": 257,
   "tags": [
    "DEADGOGLAND",
    "GOGLAND",
@@ -863,7 +875,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-11-15T00:27:06.000Z",
   "updatedAt": "2026-11-15T23:37:06.000Z",
-  "downloads": 188,
+  "downloads": 192,
   "tags": [
    "CHARACTERS",
    "CREATURES",
@@ -949,7 +961,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-11-14T00:46:02.000Z",
   "updatedAt": "2026-11-16T21:10:53.000Z",
-  "downloads": 291,
+  "downloads": 300,
   "tags": [
    "DEADBORDER",
    "MULTIPLAYER",
@@ -1063,7 +1075,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-11-14T07:56:56.000Z",
   "updatedAt": "2026-11-14T07:56:58.000Z",
-  "downloads": 20,
+  "downloads": 21,
   "tags": [
    "CHARACTERS",
    "CREATURES",
@@ -1549,7 +1561,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-10-08T02:57:35.000Z",
   "updatedAt": "2026-11-16T18:45:50.000Z",
-  "downloads": 1859,
+  "downloads": 1871,
   "tags": [
    "GLENWOOD",
    "LIGHT",
@@ -1667,7 +1679,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-11-11T02:39:49.000Z",
   "updatedAt": "2026-11-11T17:53:05.000Z",
-  "downloads": 246,
+  "downloads": 251,
   "tags": [
    "CHARACTERS",
    "CREATURES",
@@ -1844,7 +1856,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-10-02T05:03:39.000Z",
   "updatedAt": "2026-11-15T12:27:23.000Z",
-  "downloads": 3672,
+  "downloads": 3736,
   "tags": [
    "AI",
    "CHARACTERS",
@@ -1956,7 +1968,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-10-03T17:41:42.000Z",
   "updatedAt": "2026-11-15T12:14:07.000Z",
-  "downloads": 3736,
+  "downloads": 3800,
   "tags": [
    "ALIEN",
    "CHARACTERS",
@@ -2068,7 +2080,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-10-06T17:34:28.000Z",
   "updatedAt": "2026-11-06T16:39:20.000Z",
-  "downloads": 1440,
+  "downloads": 1443,
   "tags": [
    "CHARACTERS",
    "CMAI",
@@ -2128,7 +2140,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-10-09T13:22:19.000Z",
   "updatedAt": "2026-11-15T12:19:17.000Z",
-  "downloads": 3537,
+  "downloads": 3598,
   "tags": [
    "CHARACTERS",
    "CMAI",
@@ -2241,7 +2253,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-10-15T10:13:41.000Z",
   "updatedAt": "2026-11-12T23:59:27.000Z",
-  "downloads": 2022,
+  "downloads": 2026,
   "tags": [
    "AI",
    "CHARACTERS",
@@ -2476,7 +2488,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-10-16T11:15:49.000Z",
   "updatedAt": "2026-11-07T16:30:25.000Z",
-  "downloads": 1493,
+  "downloads": 1496,
   "tags": [
    "AI",
    "CHARACTERS",
@@ -2554,7 +2566,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-10-16T11:10:30.000Z",
   "updatedAt": "2026-11-13T23:22:44.000Z",
-  "downloads": 1340,
+  "downloads": 1344,
   "tags": [
    "AI",
    "BIGFOOT",
@@ -2725,7 +2737,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-10-21T23:41:12.000Z",
   "updatedAt": "2026-11-15T12:47:20.000Z",
-  "downloads": 2434,
+  "downloads": 2496,
   "tags": [
    "AI",
    "CHARACTERS",
@@ -2914,7 +2926,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-08-30T18:18:07.000Z",
   "updatedAt": "2026-11-15T10:09:19.000Z",
-  "downloads": 65797,
+  "downloads": 66038,
   "tags": [
    "AI",
    "CHARACTERS",
@@ -3023,7 +3035,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-08-09T15:04:29.000Z",
   "updatedAt": "2026-11-06T18:29:09.000Z",
-  "downloads": 5169,
+  "downloads": 5172,
   "tags": [
    "AI",
    "REARM",
@@ -3086,7 +3098,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-10-07T09:20:39.000Z",
   "updatedAt": "2026-11-06T17:05:17.000Z",
-  "downloads": 7595,
+  "downloads": 7600,
   "tags": [
    "CROSSBOW",
    "GAMEMASTER",
