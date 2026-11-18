@@ -13,7 +13,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-08-30T18:29:18.000Z",
   "updatedAt": "2026-11-17T01:33:23.000Z",
-  "downloads": 26017,
+  "downloads": 26215,
   "tags": [
    "INFECTION",
    "OUTBREAK",
@@ -119,7 +119,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-08-30T18:31:09.000Z",
   "updatedAt": "2026-11-06T16:43:53.000Z",
-  "downloads": 17278,
+  "downloads": 17298,
   "tags": [
    "OUTBREAK",
    "SYSTEMS",
@@ -224,7 +224,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-08-30T18:27:33.000Z",
   "updatedAt": "2026-11-06T16:44:40.000Z",
-  "downloads": 9219,
+  "downloads": 9229,
   "tags": [
    "GADGETS",
    "OUTBREAK",
@@ -333,7 +333,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-09-27T03:27:42.000Z",
   "updatedAt": "2026-11-06T16:50:13.000Z",
-  "downloads": 10711,
+  "downloads": 10756,
   "tags": [
    "CHARACTERS",
    "CREATURES",
@@ -468,7 +468,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-09-27T03:41:17.000Z",
   "updatedAt": "2026-11-17T17:10:32.000Z",
-  "downloads": 14508,
+  "downloads": 14719,
   "tags": [
    "CHARACTERS",
    "OUTBREAK",
@@ -590,12 +590,12 @@
   "license": "Arma Public License (APL)",
   "rating": 0,
   "ratingCount": 0,
-  "version": "0.2.3",
-  "sizeBytes": 2296618,
+  "version": "0.2.6",
+  "sizeBytes": 2297460,
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-11-15T22:08:03.000Z",
-  "updatedAt": "2026-11-17T23:01:08.000Z",
-  "downloads": 901,
+  "updatedAt": "2026-11-18T13:58:50.000Z",
+  "downloads": 1034,
   "tags": [
    "EVERDEAD",
    "EVERON",
@@ -627,6 +627,24 @@
    }
   ],
   "versions": [
+   {
+    "version": "0.2.6",
+    "gameVersion": "1.9.0.37",
+    "createdAt": "2026-11-18T13:58:46.000Z",
+    "size": 2297460
+   },
+   {
+    "version": "0.2.5",
+    "gameVersion": "1.9.0.37",
+    "createdAt": "2026-11-18T09:23:52.000Z",
+    "size": 2297457
+   },
+   {
+    "version": "0.2.4",
+    "gameVersion": "1.9.0.37",
+    "createdAt": "2026-11-18T07:07:32.000Z",
+    "size": 2297560
+   },
    {
     "version": "0.2.3",
     "gameVersion": "1.9.0.37",
@@ -668,15 +686,9 @@
     "gameVersion": "1.9.0.37",
     "createdAt": "2026-11-15T23:01:13.000Z",
     "size": 2160088
-   },
-   {
-    "version": "0.1.0",
-    "gameVersion": "1.9.0.37",
-    "createdAt": "2026-11-15T22:08:03.000Z",
-    "size": 2160883
    }
   ],
-  "changelog": "0.2.3\n- Major strongholds and cities now fight like real fortresses: the 9 capital strongholds (Montignac, Saint-Pierre, Lamentin, Morton, Levie, Provins, Chotain, Airbase, Quarry) and 10 medium towns (Figari, Tyrone, Gravette, Le Moule, Durras, Saint-Philippe, Villeneuf, Entre-Deux, Laruns, Military Hospital) field much heavier infected hordes, multiple active mass graves (up to 4 even against a solo player), and standing elite zombies.\n- Stronghold Guardian Titans lock capture: slaying a stronghold's guarding Titan rewards +250 XP and unlocks US flag capture; creature defenders now count cleanly alongside the infected horde.\n- Smaller rural villages, military outposts, nests, relays, and safe MOBs keep their exact existing populations.",
+  "changelog": "0.2.6\n- Halved player-count zombie health scaling again on busy servers: infected stay at 1x health up to 10 players and now scale at +0.0125 per additional player above 10 (capping at 1.625x instead of 2.25x at 60+ players).",
   "preview": "https://ar-gcp-cdn.bistudio.com/image/a6c7/413095a6cf25d03c553867b967a99fe16d61d1934778b11a35d5adc102d6/365949.jpg",
   "previewThumbs": [
    "https://ar-gcp-cdn.bistudio.com/image/c85d/ed53e7bd68b587029e6fea55239bf81ec83dcdd9b0f594c17bbcc72259d6/153749.jpg",
@@ -696,12 +708,12 @@
   "license": "Arma Public License (APL)",
   "rating": 1,
   "ratingCount": 1,
-  "version": "0.1.5",
-  "sizeBytes": 23268,
+  "version": "0.1.7",
+  "sizeBytes": 24452,
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-11-15T22:12:29.000Z",
-  "updatedAt": "2026-11-18T00:22:23.000Z",
-  "downloads": 233,
+  "updatedAt": "2026-11-18T14:00:45.000Z",
+  "downloads": 286,
   "tags": [
    "CHARACTERS",
    "CREATURES",
@@ -729,7 +741,7 @@
    {
     "id": "C74E92A1D8B3056F",
     "name": "Project Outbreak Everdead",
-    "version": "0.2.3"
+    "version": "0.2.6"
    },
    {
     "id": "F1D4B9B5245B36ED",
@@ -738,6 +750,18 @@
    }
   ],
   "versions": [
+   {
+    "version": "0.1.7",
+    "gameVersion": "1.9.0.37",
+    "createdAt": "2026-11-18T14:00:43.000Z",
+    "size": 24452
+   },
+   {
+    "version": "0.1.6",
+    "gameVersion": "1.9.0.37",
+    "createdAt": "2026-11-18T09:26:00.000Z",
+    "size": 24243
+   },
    {
     "version": "0.1.5",
     "gameVersion": "1.9.0.37",
@@ -775,7 +799,7 @@
     "size": 19320
    }
   ],
-  "changelog": "0.1.5\n- Sky-Rift graves and districts now raise an Eyekin Spire, the way Mycelial ones raise the mushroom spire.\n- The Spire needs Eyekin 1.2.17 and Creature Melee AI 1.8.35 or newer; without them nothing else changes.",
+  "changelog": "0.1.7\n- Stronghold Titans are now a rare 20% spawn roll at the 9 strongholds with at most 1 Titan active on Everon at a time (0 Titans in medium or smaller towns).\n- Removed Orcs from Morton, Durras, coastal villages, roaming packs, and neighboring-town bleed: Orcs now appear only as rare spawns at Quarry, Airbase, and Shooting Range.\n- Halved the health of all Orcs by 50%.",
   "preview": "https://ar-gcp-cdn.bistudio.com/image/3063/72eb090112436cef96e7028126c38417350f0c46e44af896a09beb148dac/366411.jpg",
   "previewThumbs": [
    "https://ar-gcp-cdn.bistudio.com/image/4906/969dabbb8fa51c5c6ed21b91c0bf6e0a0e7b7d342ac66161d66c89f94d74/154405.jpg",
@@ -800,7 +824,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-11-14T20:52:37.000Z",
   "updatedAt": "2026-11-16T18:48:48.000Z",
-  "downloads": 270,
+  "downloads": 277,
   "tags": [
    "DEADGOGLAND",
    "GOGLAND",
@@ -899,7 +923,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-11-15T00:27:06.000Z",
   "updatedAt": "2026-11-15T23:37:06.000Z",
-  "downloads": 200,
+  "downloads": 202,
   "tags": [
    "CHARACTERS",
    "CREATURES",
@@ -985,7 +1009,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-11-14T00:46:02.000Z",
   "updatedAt": "2026-11-16T21:10:53.000Z",
-  "downloads": 335,
+  "downloads": 343,
   "tags": [
    "DEADBORDER",
    "MULTIPLAYER",
@@ -1099,7 +1123,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-11-14T07:56:56.000Z",
   "updatedAt": "2026-11-14T07:56:58.000Z",
-  "downloads": 23,
+  "downloads": 24,
   "tags": [
    "CHARACTERS",
    "CREATURES",
@@ -1188,7 +1212,7 @@
   "gameVersion": "1.8.0.13",
   "createdAt": "2026-09-22T02:24:31.000Z",
   "updatedAt": "2026-10-01T07:14:39.000Z",
-  "downloads": 294,
+  "downloads": 295,
   "tags": [
    "SCENARIOS_MP",
    "SYSTEMS"
@@ -1585,7 +1609,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-10-08T02:57:35.000Z",
   "updatedAt": "2026-11-16T18:45:50.000Z",
-  "downloads": 1886,
+  "downloads": 1894,
   "tags": [
    "GLENWOOD",
    "LIGHT",
@@ -1703,7 +1727,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-11-11T02:39:49.000Z",
   "updatedAt": "2026-11-11T17:53:05.000Z",
-  "downloads": 257,
+  "downloads": 260,
   "tags": [
    "CHARACTERS",
    "CREATURES",
@@ -1790,7 +1814,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-10-06T16:56:25.000Z",
   "updatedAt": "2026-11-06T16:31:10.000Z",
-  "downloads": 816,
+  "downloads": 817,
   "tags": [
    "AI",
    "BOSS",
@@ -1880,7 +1904,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-10-02T05:03:39.000Z",
   "updatedAt": "2026-11-15T12:27:23.000Z",
-  "downloads": 4036,
+  "downloads": 4155,
   "tags": [
    "AI",
    "CHARACTERS",
@@ -1992,7 +2016,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-10-03T17:41:42.000Z",
   "updatedAt": "2026-11-18T00:21:23.000Z",
-  "downloads": 4148,
+  "downloads": 4293,
   "tags": [
    "ALIEN",
    "CHARACTERS",
@@ -2104,7 +2128,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-10-06T17:34:28.000Z",
   "updatedAt": "2026-11-06T16:39:20.000Z",
-  "downloads": 1445,
+  "downloads": 1446,
   "tags": [
    "CHARACTERS",
    "CMAI",
@@ -2164,7 +2188,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-10-09T13:22:19.000Z",
   "updatedAt": "2026-11-17T18:21:32.000Z",
-  "downloads": 3912,
+  "downloads": 4052,
   "tags": [
    "CHARACTERS",
    "CMAI",
@@ -2277,7 +2301,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-10-15T10:13:41.000Z",
   "updatedAt": "2026-11-17T18:22:46.000Z",
-  "downloads": 2103,
+  "downloads": 2136,
   "tags": [
    "AI",
    "CHARACTERS",
@@ -2418,7 +2442,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-10-15T23:43:22.000Z",
   "updatedAt": "2026-11-05T20:03:00.000Z",
-  "downloads": 1000,
+  "downloads": 1002,
   "tags": [
    "AI",
    "CHARACTERS",
@@ -2518,7 +2542,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-10-16T11:15:49.000Z",
   "updatedAt": "2026-11-07T16:30:25.000Z",
-  "downloads": 1504,
+  "downloads": 1508,
   "tags": [
    "AI",
    "CHARACTERS",
@@ -2596,7 +2620,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-10-16T11:10:30.000Z",
   "updatedAt": "2026-11-13T23:22:44.000Z",
-  "downloads": 1361,
+  "downloads": 1363,
   "tags": [
    "AI",
    "BIGFOOT",
@@ -2686,7 +2710,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-10-22T00:49:08.000Z",
   "updatedAt": "2026-11-06T16:35:20.000Z",
-  "downloads": 82,
+  "downloads": 83,
   "tags": [
    "CHARACTERS",
    "CMAI",
@@ -2767,7 +2791,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-10-21T23:41:12.000Z",
   "updatedAt": "2026-11-15T12:47:20.000Z",
-  "downloads": 2790,
+  "downloads": 2901,
   "tags": [
    "AI",
    "CHARACTERS",
@@ -2956,7 +2980,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-08-30T18:18:07.000Z",
   "updatedAt": "2026-11-18T00:03:04.000Z",
-  "downloads": 67239,
+  "downloads": 67698,
   "tags": [
    "AI",
    "CHARACTERS",
@@ -3065,7 +3089,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-08-09T15:04:29.000Z",
   "updatedAt": "2026-11-06T18:29:09.000Z",
-  "downloads": 5181,
+  "downloads": 5188,
   "tags": [
    "AI",
    "REARM",
@@ -3128,7 +3152,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-10-07T09:20:39.000Z",
   "updatedAt": "2026-11-06T17:05:17.000Z",
-  "downloads": 7637,
+  "downloads": 7649,
   "tags": [
    "CROSSBOW",
    "GAMEMASTER",
