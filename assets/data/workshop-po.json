@@ -7,12 +7,12 @@
  "license": "Arma Public License (APL)",
  "rating": 0.96,
  "ratingCount": 108,
- "version": "2.4.33",
- "sizeBytes": 209366514,
+ "version": "2.4.35",
+ "sizeBytes": 209373400,
  "gameVersion": "1.9.0.37",
  "createdAt": "2026-08-30T18:23:05.000Z",
- "updatedAt": "2026-11-18T00:01:43.000Z",
- "downloads": 55464,
+ "updatedAt": "2026-11-18T16:32:33.000Z",
+ "downloads": 55355,
  "tags": [
   "CHARACTERS",
   "INFECTION",
@@ -31,6 +31,18 @@
   }
  ],
  "versions": [
+  {
+   "version": "2.4.35",
+   "gameVersion": "1.9.0.37",
+   "createdAt": "2026-11-18T16:31:10.000Z",
+   "size": 209373400
+  },
+  {
+   "version": "2.4.34",
+   "gameVersion": "1.9.0.37",
+   "createdAt": "2026-11-18T15:42:40.000Z",
+   "size": 209368024
+  },
   {
    "version": "2.4.33",
    "gameVersion": "1.9.0.37",
@@ -78,21 +90,9 @@
    "gameVersion": "1.9.0.37",
    "createdAt": "2026-11-12T17:59:14.000Z",
    "size": 210502097
-  },
-  {
-   "version": "2.4.25",
-   "gameVersion": "1.9.0.37",
-   "createdAt": "2026-11-12T08:59:11.000Z",
-   "size": 210486460
-  },
-  {
-   "version": "2.4.24",
-   "gameVersion": "1.9.0.37",
-   "createdAt": "2026-11-11T22:58:48.000Z",
-   "size": 210485632
   }
  ],
- "changelog": "2.4.33\nFixed zombies sitting down on an invisible chair while they attack, scream or feed. Since Reforger 1.9 these animations could play with the legs of a seated person, so freshly risen corpses and feeding zombies looked like they had sat down instead of fighting. They now stay on their feet and attack.",
+ "changelog": "2.4.35\nWhen the Nightingale's scream knocks you down, your screen now shows that the scream did it: a red flash, the picture smeared and washed red, the colour drained while you are down, all of it clearing as you get back up. The closer you were to her, the harder it hits.",
  "preview": "https://ar-gcp-cdn.bistudio.com/image/2acf/50af531c77fb7b5f21ca79df26665c5a3e9f10ff3b0c4d08f6876c6370b0/158082.jpg",
  "previewThumbs": [
   "https://ar-gcp-cdn.bistudio.com/image/4cca/713c0a0d13d35c848872dd5398d4de1a8324f8931ead8fd865d03c85c843/86448.jpg",
@@ -101,13 +101,13 @@
  ],
  "screenshots": [
   {
-   "url": "https://ar-gcp-cdn.bistudio.com/image/454a/56d450b61fc74493f7a01799bae39470b133b97419b4a9cdaf94165cb2a4/338626.jpg",
+   "url": "https://ar-gcp-cdn.bistudio.com/image/927f/eb5f78bee1754bee27e13048de2e1b17aed91c072d67adf716949c972ed0/506426.jpg",
    "width": 1920,
    "height": 1080,
    "thumbs": [
-    "https://ar-gcp-cdn.bistudio.com/image/70b4/df2d11ac8529363855e5bb96791da98c356c4296a64b5fe3e15c4f2f287d/204307.jpg",
-    "https://ar-gcp-cdn.bistudio.com/image/a4db/4e68fcfcfd0722730db2820981482169029f094ff65c9134e96bbaad940d/62565.jpg",
-    "https://ar-gcp-cdn.bistudio.com/image/6495/21c0b1dbfe5769637b237e39984107f4c05ca8144852f2c618678954a157/17435.jpg"
+    "https://ar-gcp-cdn.bistudio.com/image/13b5/75234680c932bbedada64b818e1fcdcfd8820a45e0998080c0d7fd195bd3/310409.jpg",
+    "https://ar-gcp-cdn.bistudio.com/image/8872/1536e006d421621ff83b88fde5bbb100ee9afb0491b83120d9b068ce5dfd/97505.jpg",
+    "https://ar-gcp-cdn.bistudio.com/image/bd79/bbecd6d9a8bcc34df811a9adddc5791fb081f10e16f47c81f76bff07b2e4/26086.jpg"
    ]
   },
   {
@@ -121,13 +121,13 @@
    ]
   },
   {
-   "url": "https://ar-gcp-cdn.bistudio.com/image/927f/eb5f78bee1754bee27e13048de2e1b17aed91c072d67adf716949c972ed0/506426.jpg",
+   "url": "https://ar-gcp-cdn.bistudio.com/image/454a/56d450b61fc74493f7a01799bae39470b133b97419b4a9cdaf94165cb2a4/338626.jpg",
    "width": 1920,
    "height": 1080,
    "thumbs": [
-    "https://ar-gcp-cdn.bistudio.com/image/13b5/75234680c932bbedada64b818e1fcdcfd8820a45e0998080c0d7fd195bd3/310409.jpg",
-    "https://ar-gcp-cdn.bistudio.com/image/8872/1536e006d421621ff83b88fde5bbb100ee9afb0491b83120d9b068ce5dfd/97505.jpg",
-    "https://ar-gcp-cdn.bistudio.com/image/bd79/bbecd6d9a8bcc34df811a9adddc5791fb081f10e16f47c81f76bff07b2e4/26086.jpg"
+    "https://ar-gcp-cdn.bistudio.com/image/70b4/df2d11ac8529363855e5bb96791da98c356c4296a64b5fe3e15c4f2f287d/204307.jpg",
+    "https://ar-gcp-cdn.bistudio.com/image/a4db/4e68fcfcfd0722730db2820981482169029f094ff65c9134e96bbaad940d/62565.jpg",
+    "https://ar-gcp-cdn.bistudio.com/image/6495/21c0b1dbfe5769637b237e39984107f4c05ca8144852f2c618678954a157/17435.jpg"
    ]
   }
  ],
