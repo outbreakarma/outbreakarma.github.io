@@ -13,7 +13,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-08-30T18:29:18.000Z",
   "updatedAt": "2026-11-17T01:33:23.000Z",
-  "downloads": 26559,
+  "downloads": 26677,
   "tags": [
    "INFECTION",
    "OUTBREAK",
@@ -119,7 +119,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-08-30T18:31:09.000Z",
   "updatedAt": "2026-11-06T16:43:53.000Z",
-  "downloads": 17340,
+  "downloads": 17354,
   "tags": [
    "OUTBREAK",
    "SYSTEMS",
@@ -224,7 +224,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-08-30T18:27:33.000Z",
   "updatedAt": "2026-11-06T16:44:40.000Z",
-  "downloads": 9252,
+  "downloads": 9259,
   "tags": [
    "GADGETS",
    "OUTBREAK",
@@ -333,7 +333,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-09-27T03:27:42.000Z",
   "updatedAt": "2026-11-06T16:50:13.000Z",
-  "downloads": 10981,
+  "downloads": 11062,
   "tags": [
    "CHARACTERS",
    "CREATURES",
@@ -468,7 +468,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-09-27T03:41:17.000Z",
   "updatedAt": "2026-11-17T17:10:32.000Z",
-  "downloads": 15084,
+  "downloads": 15207,
   "tags": [
    "CHARACTERS",
    "OUTBREAK",
@@ -595,7 +595,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-11-15T22:08:03.000Z",
   "updatedAt": "2026-11-18T13:58:50.000Z",
-  "downloads": 1369,
+  "downloads": 1457,
   "tags": [
    "EVERDEAD",
    "EVERON",
@@ -713,7 +713,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-11-15T22:12:29.000Z",
   "updatedAt": "2026-11-18T14:00:45.000Z",
-  "downloads": 575,
+  "downloads": 657,
   "tags": [
    "CHARACTERS",
    "CREATURES",
@@ -824,7 +824,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-11-14T20:52:37.000Z",
   "updatedAt": "2026-11-16T18:48:48.000Z",
-  "downloads": 287,
+  "downloads": 290,
   "tags": [
    "DEADGOGLAND",
    "GOGLAND",
@@ -1009,7 +1009,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-11-14T00:46:02.000Z",
   "updatedAt": "2026-11-16T21:10:53.000Z",
-  "downloads": 358,
+  "downloads": 363,
   "tags": [
    "DEADBORDER",
    "MULTIPLAYER",
@@ -1609,7 +1609,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-10-08T02:57:35.000Z",
   "updatedAt": "2026-11-16T18:45:50.000Z",
-  "downloads": 1908,
+  "downloads": 1910,
   "tags": [
    "GLENWOOD",
    "LIGHT",
@@ -1727,7 +1727,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-11-11T02:39:49.000Z",
   "updatedAt": "2026-11-11T17:53:05.000Z",
-  "downloads": 260,
+  "downloads": 262,
   "tags": [
    "CHARACTERS",
    "CREATURES",
@@ -1904,7 +1904,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-10-02T05:03:39.000Z",
   "updatedAt": "2026-11-15T12:27:23.000Z",
-  "downloads": 4381,
+  "downloads": 4445,
   "tags": [
    "AI",
    "CHARACTERS",
@@ -2016,7 +2016,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-10-03T17:41:42.000Z",
   "updatedAt": "2026-11-18T00:21:23.000Z",
-  "downloads": 4602,
+  "downloads": 4684,
   "tags": [
    "ALIEN",
    "CHARACTERS",
@@ -2128,7 +2128,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-10-06T17:34:28.000Z",
   "updatedAt": "2026-11-06T16:39:20.000Z",
-  "downloads": 1451,
+  "downloads": 1454,
   "tags": [
    "CHARACTERS",
    "CMAI",
@@ -2188,7 +2188,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-10-09T13:22:19.000Z",
   "updatedAt": "2026-11-17T18:21:32.000Z",
-  "downloads": 4320,
+  "downloads": 4392,
   "tags": [
    "CHARACTERS",
    "CMAI",
@@ -2301,7 +2301,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-10-15T10:13:41.000Z",
   "updatedAt": "2026-11-17T18:22:46.000Z",
-  "downloads": 2358,
+  "downloads": 2432,
   "tags": [
    "AI",
    "CHARACTERS",
@@ -2437,12 +2437,12 @@
   "license": "Arma Public License (APL)",
   "rating": 1,
   "ratingCount": 6,
-  "version": "0.1.5",
-  "sizeBytes": 128780429,
+  "version": "0.1.6",
+  "sizeBytes": 128782630,
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-10-15T23:43:22.000Z",
-  "updatedAt": "2026-11-05T20:03:00.000Z",
-  "downloads": 1007,
+  "updatedAt": "2026-11-19T11:32:49.000Z",
+  "downloads": 1015,
   "tags": [
    "AI",
    "CHARACTERS",
@@ -2459,6 +2459,12 @@
    }
   ],
   "versions": [
+   {
+    "version": "0.1.6",
+    "gameVersion": "1.9.0.37",
+    "createdAt": "2026-11-19T11:32:06.000Z",
+    "size": 128782630
+   },
    {
     "version": "0.1.5",
     "gameVersion": "1.9.0.37",
@@ -2496,7 +2502,7 @@
     "size": 128775112
    }
   ],
-  "changelog": "0.1.5\nArma Reforger 1.9 update: the Teuthisan works on game version 1.9 again. Version 1.9 adds a game class whose name clashed with one of the Teuthisan's animation helpers, so every game or server with the Teuthisan loaded failed to start. Update Creature Melee AI to 1.8.18 as well. Nothing else changed.",
+  "changelog": "0.1.6\nThe Teuthisan now climbs trees on Everon and on other maps that place their forests through their own prefab library. It only recognised trees placed straight from the game's tree prefabs, so on those maps it searched forever and never climbed. It now recognises the game's trees however a map places them, finishes its last half metre at the trunk on uneven ground, and holds a climb that stops a few centimetres short of its perch instead of letting go. Tree searches are cheaper, a Teuthisan that finds nothing to climb searches less often, and a sleeping Teuthisan does not search at all. Trunks that fork or branch low, as in most alder and birch stands, are still not climbed; spruce forests are its home.",
   "preview": "https://ar-gcp-cdn.bistudio.com/image/c041/83703f934374be34ef8c7d771ad83c94f522079b70c0c50bded6a5dfda5d/193746.jpg",
   "previewThumbs": [
    "https://ar-gcp-cdn.bistudio.com/image/b3ba/2e7769343d74c1075d8b852c3296b61f2428deaed98f50cca0d19c102112/165907.jpg",
@@ -2542,7 +2548,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-10-16T11:15:49.000Z",
   "updatedAt": "2026-11-07T16:30:25.000Z",
-  "downloads": 1514,
+  "downloads": 1516,
   "tags": [
    "AI",
    "CHARACTERS",
@@ -2620,7 +2626,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-10-16T11:10:30.000Z",
   "updatedAt": "2026-11-13T23:22:44.000Z",
-  "downloads": 1366,
+  "downloads": 1371,
   "tags": [
    "AI",
    "BIGFOOT",
@@ -2710,7 +2716,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-10-22T00:49:08.000Z",
   "updatedAt": "2026-11-06T16:35:20.000Z",
-  "downloads": 83,
+  "downloads": 84,
   "tags": [
    "CHARACTERS",
    "CMAI",
@@ -2791,7 +2797,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-10-21T23:41:12.000Z",
   "updatedAt": "2026-11-15T12:47:20.000Z",
-  "downloads": 3117,
+  "downloads": 3178,
   "tags": [
    "AI",
    "CHARACTERS",
@@ -2980,7 +2986,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-08-30T18:18:07.000Z",
   "updatedAt": "2026-11-18T00:03:04.000Z",
-  "downloads": 68423,
+  "downloads": 68645,
   "tags": [
    "AI",
    "CHARACTERS",
@@ -3089,7 +3095,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-08-09T15:04:29.000Z",
   "updatedAt": "2026-11-06T18:29:09.000Z",
-  "downloads": 5201,
+  "downloads": 5208,
   "tags": [
    "AI",
    "REARM",
@@ -3152,7 +3158,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-10-07T09:20:39.000Z",
   "updatedAt": "2026-11-06T17:05:17.000Z",
-  "downloads": 7676,
+  "downloads": 7686,
   "tags": [
    "CROSSBOW",
    "GAMEMASTER",
