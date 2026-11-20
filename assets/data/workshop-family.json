@@ -13,7 +13,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-08-30T18:29:18.000Z",
   "updatedAt": "2026-11-17T01:33:23.000Z",
-  "downloads": 27004,
+  "downloads": 27153,
   "tags": [
    "INFECTION",
    "OUTBREAK",
@@ -24,7 +24,7 @@
    {
     "id": "4FD4A1BD550793F4",
     "name": "Creature Melee AI",
-    "version": "1.8.36"
+    "version": "1.8.37"
    },
    {
     "id": "F1D4B9B5245B36ED",
@@ -119,7 +119,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-08-30T18:31:09.000Z",
   "updatedAt": "2026-11-06T16:43:53.000Z",
-  "downloads": 17391,
+  "downloads": 17420,
   "tags": [
    "OUTBREAK",
    "SYSTEMS",
@@ -129,7 +129,7 @@
    {
     "id": "4FD4A1BD550793F4",
     "name": "Creature Melee AI",
-    "version": "1.8.36"
+    "version": "1.8.37"
    },
    {
     "id": "F1D4B9B5245B36ED",
@@ -224,7 +224,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-08-30T18:27:33.000Z",
   "updatedAt": "2026-11-06T16:44:40.000Z",
-  "downloads": 9282,
+  "downloads": 9299,
   "tags": [
    "GADGETS",
    "OUTBREAK",
@@ -238,7 +238,7 @@
    {
     "id": "4FD4A1BD550793F4",
     "name": "Creature Melee AI",
-    "version": "1.8.36"
+    "version": "1.8.37"
    },
    {
     "id": "F1D4B9B5245B36ED",
@@ -333,7 +333,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-09-27T03:27:42.000Z",
   "updatedAt": "2026-11-06T16:50:13.000Z",
-  "downloads": 11280,
+  "downloads": 11386,
   "tags": [
    "CHARACTERS",
    "CREATURES",
@@ -345,7 +345,7 @@
    {
     "id": "4FD4A1BD550793F4",
     "name": "Creature Melee AI",
-    "version": "1.8.36"
+    "version": "1.8.37"
    },
    {
     "id": "F1D4B9B5245B36ED",
@@ -468,7 +468,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-09-27T03:41:17.000Z",
   "updatedAt": "2026-11-17T17:10:32.000Z",
-  "downloads": 15516,
+  "downloads": 15676,
   "tags": [
    "CHARACTERS",
    "OUTBREAK",
@@ -479,7 +479,7 @@
    {
     "id": "4FD4A1BD550793F4",
     "name": "Creature Melee AI",
-    "version": "1.8.36"
+    "version": "1.8.37"
    },
    {
     "id": "F1D4B9B5245B36ED",
@@ -595,7 +595,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-11-15T22:08:03.000Z",
   "updatedAt": "2026-11-19T18:45:10.000Z",
-  "downloads": 1688,
+  "downloads": 1828,
   "tags": [
    "EVERDEAD",
    "EVERON",
@@ -608,7 +608,7 @@
    {
     "id": "4FD4A1BD550793F4",
     "name": "Creature Melee AI",
-    "version": "1.8.36"
+    "version": "1.8.37"
    },
    {
     "id": "6934F9C61CE24DE5",
@@ -713,7 +713,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-11-15T22:12:29.000Z",
   "updatedAt": "2026-11-19T18:38:31.000Z",
-  "downloads": 872,
+  "downloads": 1007,
   "tags": [
    "CHARACTERS",
    "CREATURES",
@@ -726,7 +726,7 @@
    {
     "id": "4FD4A1BD550793F4",
     "name": "Creature Melee AI",
-    "version": "1.8.36"
+    "version": "1.8.37"
    },
    {
     "id": "6934F9C61CE24DE5",
@@ -830,7 +830,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-11-14T20:52:37.000Z",
   "updatedAt": "2026-11-16T18:48:48.000Z",
-  "downloads": 298,
+  "downloads": 299,
   "tags": [
    "DEADGOGLAND",
    "GOGLAND",
@@ -843,7 +843,7 @@
    {
     "id": "4FD4A1BD550793F4",
     "name": "Creature Melee AI",
-    "version": "1.8.36"
+    "version": "1.8.37"
    },
    {
     "id": "623EEDF242F6265E",
@@ -929,7 +929,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-11-15T00:27:06.000Z",
   "updatedAt": "2026-11-15T23:37:06.000Z",
-  "downloads": 211,
+  "downloads": 212,
   "tags": [
    "CHARACTERS",
    "CREATURES",
@@ -942,7 +942,7 @@
    {
     "id": "4FD4A1BD550793F4",
     "name": "Creature Melee AI",
-    "version": "1.8.36"
+    "version": "1.8.37"
    },
    {
     "id": "623EEDF242F6265E",
@@ -1015,7 +1015,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-11-14T00:46:02.000Z",
   "updatedAt": "2026-11-16T21:10:53.000Z",
-  "downloads": 376,
+  "downloads": 384,
   "tags": [
    "DEADBORDER",
    "MULTIPLAYER",
@@ -1033,7 +1033,7 @@
    {
     "id": "4FD4A1BD550793F4",
     "name": "Creature Melee AI",
-    "version": "1.8.36"
+    "version": "1.8.37"
    },
    {
     "id": "646518DA09B1E283",
@@ -1129,7 +1129,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-11-14T07:56:56.000Z",
   "updatedAt": "2026-11-14T07:56:58.000Z",
-  "downloads": 25,
+  "downloads": 26,
   "tags": [
    "CHARACTERS",
    "CREATURES",
@@ -1147,7 +1147,7 @@
    {
     "id": "4FD4A1BD550793F4",
     "name": "Creature Melee AI",
-    "version": "1.8.36"
+    "version": "1.8.37"
    },
    {
     "id": "646518DA09B1E283",
@@ -1227,7 +1227,7 @@
    {
     "id": "4FD4A1BD550793F4",
     "name": "Creature Melee AI",
-    "version": "1.8.36"
+    "version": "1.8.37"
    },
    {
     "id": "5965550F24A0C152",
@@ -1615,7 +1615,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-10-08T02:57:35.000Z",
   "updatedAt": "2026-11-16T18:45:50.000Z",
-  "downloads": 1925,
+  "downloads": 1938,
   "tags": [
    "GLENWOOD",
    "LIGHT",
@@ -1628,7 +1628,7 @@
    {
     "id": "4FD4A1BD550793F4",
     "name": "Creature Melee AI",
-    "version": "1.8.36"
+    "version": "1.8.37"
    },
    {
     "id": "66330AEF351F0EEE",
@@ -1733,7 +1733,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-11-11T02:39:49.000Z",
   "updatedAt": "2026-11-11T17:53:05.000Z",
-  "downloads": 264,
+  "downloads": 265,
   "tags": [
    "CHARACTERS",
    "CREATURES",
@@ -1751,7 +1751,7 @@
    {
     "id": "4FD4A1BD550793F4",
     "name": "Creature Melee AI",
-    "version": "1.8.36"
+    "version": "1.8.37"
    },
    {
     "id": "66330AEF351F0EEE",
@@ -1820,7 +1820,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-10-06T16:56:25.000Z",
   "updatedAt": "2026-11-06T16:31:10.000Z",
-  "downloads": 822,
+  "downloads": 823,
   "tags": [
    "AI",
    "BOSS",
@@ -1833,7 +1833,7 @@
    {
     "id": "4FD4A1BD550793F4",
     "name": "Creature Melee AI",
-    "version": "1.8.36"
+    "version": "1.8.37"
    }
   ],
   "versions": [
@@ -1910,7 +1910,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-10-02T05:03:39.000Z",
   "updatedAt": "2026-11-15T12:27:23.000Z",
-  "downloads": 4636,
+  "downloads": 4737,
   "tags": [
    "AI",
    "CHARACTERS",
@@ -1922,7 +1922,7 @@
    {
     "id": "4FD4A1BD550793F4",
     "name": "Creature Melee AI",
-    "version": "1.8.36"
+    "version": "1.8.37"
    }
   ],
   "versions": [
@@ -2017,12 +2017,12 @@
   "license": "Arma Public License (APL)",
   "rating": 1,
   "ratingCount": 9,
-  "version": "1.2.17",
-  "sizeBytes": 134909783,
+  "version": "1.2.18",
+  "sizeBytes": 134914843,
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-10-03T17:41:42.000Z",
-  "updatedAt": "2026-11-18T00:21:23.000Z",
-  "downloads": 4920,
+  "updatedAt": "2026-11-20T16:42:02.000Z",
+  "downloads": 5061,
   "tags": [
    "ALIEN",
    "CHARACTERS",
@@ -2034,10 +2034,16 @@
    {
     "id": "4FD4A1BD550793F4",
     "name": "Creature Melee AI",
-    "version": "1.8.36"
+    "version": "1.8.37"
    }
   ],
   "versions": [
+   {
+    "version": "1.2.18",
+    "gameVersion": "1.9.0.37",
+    "createdAt": "2026-11-20T16:38:45.000Z",
+    "size": 134914843
+   },
    {
     "version": "1.2.17",
     "gameVersion": "1.9.0.37",
@@ -2091,15 +2097,9 @@
     "gameVersion": "1.9.0.37",
     "createdAt": "2026-11-11T17:51:59.000Z",
     "size": 116882482
-   },
-   {
-    "version": "1.2.8",
-    "gameVersion": "1.9.0.37",
-    "createdAt": "2026-11-06T14:11:17.000Z",
-    "size": 116881391
    }
   ],
-  "changelog": "1.2.17\n- New: the Eyekin Spire, a 12 m tower of eyes that releases Eyekin in waves. Find it in the Game Master Creatures list.\n- Each of its 15 eyes is a weak point: shoot them all out, or use explosives, to bring it down.\n- Every eye that sees you fires its own laser, 5 to 10 seconds apart, and none of them aims perfectly.\n- The eyes blink, flinch and follow whoever they watch.\n- Eyekin and Titan lasers now wound the soldier behind a vest, not just the vest.\n- Needs Creature Melee AI 1.8.35 or newer.",
+  "changelog": "1.2.18\n- Eyekin Spires now erupt in a 12 m burst of gore and mist when destroyed, with all 15 eye sockets rupturing from base to crown.\n- 15 bloodshot eyeballs pop out of the collapsed tower and bounce across the ground before fading away.\n- Added wet rupture audio, deep rumble, distant shrieks, camera shake, and flesh splatter on explosive hits.\n- Fixed M112 C4 and other heavy charges silently deleting the Spire instead of triggering its collapse explosion.\n- Needs Creature Melee AI 1.8.35 or newer.",
   "preview": "https://ar-gcp-cdn.bistudio.com/image/e516/38fbbb22cd0cfddd8f0497e2edaefd80c2bc51078f740b9baea82fd5f721/252017.jpg",
   "previewThumbs": [
    "https://ar-gcp-cdn.bistudio.com/image/7a13/92eea32520b8041063b74a78a64ac436cb8bf7a37e089701a08f0ebeafc5/142790.jpg",
@@ -2134,7 +2134,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-10-06T17:34:28.000Z",
   "updatedAt": "2026-11-06T16:39:20.000Z",
-  "downloads": 1462,
+  "downloads": 1467,
   "tags": [
    "CHARACTERS",
    "CMAI",
@@ -2146,7 +2146,7 @@
    {
     "id": "4FD4A1BD550793F4",
     "name": "Creature Melee AI",
-    "version": "1.8.36"
+    "version": "1.8.37"
    }
   ],
   "versions": [
@@ -2194,7 +2194,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-10-09T13:22:19.000Z",
   "updatedAt": "2026-11-17T18:21:32.000Z",
-  "downloads": 4606,
+  "downloads": 4715,
   "tags": [
    "CHARACTERS",
    "CMAI",
@@ -2206,7 +2206,7 @@
    {
     "id": "4FD4A1BD550793F4",
     "name": "Creature Melee AI",
-    "version": "1.8.36"
+    "version": "1.8.37"
    }
   ],
   "versions": [
@@ -2302,12 +2302,12 @@
   "license": "Arma Public License (APL)",
   "rating": 1,
   "ratingCount": 8,
-  "version": "0.1.7",
-  "sizeBytes": 17638402,
+  "version": "0.1.8",
+  "sizeBytes": 68087073,
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-10-15T10:13:41.000Z",
-  "updatedAt": "2026-11-17T18:22:46.000Z",
-  "downloads": 2640,
+  "updatedAt": "2026-11-20T20:34:00.000Z",
+  "downloads": 2751,
   "tags": [
    "AI",
    "CHARACTERS",
@@ -2320,10 +2320,16 @@
    {
     "id": "4FD4A1BD550793F4",
     "name": "Creature Melee AI",
-    "version": "1.8.36"
+    "version": "1.8.37"
    }
   ],
   "versions": [
+   {
+    "version": "0.1.8",
+    "gameVersion": "1.9.0.37",
+    "createdAt": "2026-11-20T20:33:22.000Z",
+    "size": 68087073
+   },
    {
     "version": "0.1.7",
     "gameVersion": "1.9.0.37",
@@ -2373,7 +2379,7 @@
     "size": 15848919
    }
   ],
-  "changelog": "0.1.7\n- Eye laser: Lumenkin's four lamps can now charge and fire four white-hot beams with orbiting red strands that kill soldiers on contact and destroy vehicles and helicopters. AI fires at locked targets beyond stomp range; players possessing Lumenkin hold right mouse (Focus) to charge and sweep the beams along the crosshair.\n- Titan grab: swings against soldiers on foot can now become a one-handed scoop-and-slam into the ground; stepping clear before the hand closes dodges the grab.\n- Movement & stability: Lumenkin now turns at a steady, heavy pace, climbs banks (1.4 m step-up) instead of getting pinned, no longer slides on standing legs while being shot or jumps ahead when speeding up, yields its patrol to Game Master waypoints and gunfire, and disables inherited grenade slot 4 to prevent spawn log warnings.\n- Needs Creature Melee AI 1.8.32 or newer.",
+  "changelog": "0.1.8\n- Lumenkin Reaper (3 m winged flyer): hunts from the air with a swinging lantern searchlight and laser, stoops to snatch soldiers into the sky and drop them cleanly (never locking movement after escape or release), fights with fast claw slaps on the ground, and supports full player flight/attack controls (V, G, Space, C, LMB, RMB).\n- Lumenkin Scout (1 m) & Lumenkin Sentinel (2 m) (+ x4 GM groups): articulated single-lamp creatures with sweeping searchlight heads, barefoot claw combat, and an aimed neck-aligned laser on the Sentinel.\n- Lumenkin Spire (12.8 m nest structure): 9 motorized gimbal searchlights casting patrol beams and plasma laser salvos, configurable Game Master nest spawning (Scouts and rare Sentinels), and explosive-only trunk or 9-lamp destruction collapse.\n- Lumenkin Giant (21 m): holds red last-known pursuit for 10 s when players break sight behind trees and foliage instead of flickering out of combat.\n- Game Master browser: displays the three-slash Creatures faction logo on the tab, filter row, and all 7 Lumenkin cards, and hides generic framework cards.\n- Needs Creature Melee AI 1.8.37 or newer.",
   "preview": "https://ar-gcp-cdn.bistudio.com/image/f9aa/c256aec445bb2f6700150d28dd40b7969eb68685d34703b675daaf754fa2/29054.jpg",
   "previewThumbs": [
    "https://ar-gcp-cdn.bistudio.com/image/383e/99e8829522cd909ce45b159d5b30d03c2e24220e4eb5395adb3df8ab6c60/24542.jpg",
@@ -2448,7 +2454,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-10-15T23:43:22.000Z",
   "updatedAt": "2026-11-19T11:32:49.000Z",
-  "downloads": 1057,
+  "downloads": 1070,
   "tags": [
    "AI",
    "CHARACTERS",
@@ -2461,7 +2467,7 @@
    {
     "id": "4FD4A1BD550793F4",
     "name": "Creature Melee AI",
-    "version": "1.8.36"
+    "version": "1.8.37"
    }
   ],
   "versions": [
@@ -2554,7 +2560,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-10-16T11:15:49.000Z",
   "updatedAt": "2026-11-07T16:30:25.000Z",
-  "downloads": 1527,
+  "downloads": 1529,
   "tags": [
    "AI",
    "CHARACTERS",
@@ -2566,7 +2572,7 @@
    {
     "id": "4FD4A1BD550793F4",
     "name": "Creature Melee AI",
-    "version": "1.8.36"
+    "version": "1.8.37"
    }
   ],
   "versions": [
@@ -2632,7 +2638,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-10-16T11:10:30.000Z",
   "updatedAt": "2026-11-13T23:22:44.000Z",
-  "downloads": 1385,
+  "downloads": 1389,
   "tags": [
    "AI",
    "BIGFOOT",
@@ -2644,7 +2650,7 @@
    {
     "id": "4FD4A1BD550793F4",
     "name": "Creature Melee AI",
-    "version": "1.8.36"
+    "version": "1.8.37"
    }
   ],
   "versions": [
@@ -2734,7 +2740,7 @@
    {
     "id": "4FD4A1BD550793F4",
     "name": "Creature Melee AI",
-    "version": "1.8.36"
+    "version": "1.8.37"
    }
   ],
   "versions": [
@@ -2797,13 +2803,13 @@
   "description": "Grimdark Horde brings a scrap-armoured Orc faction to Game Master and scenario makers. Find its units under the Grimdark Horde faction filter. The Horde fights other factions and allies with Creature Melee AI creatures.\n\nTHE WARBAND\nTwelve outfits across three families: Greenskin Runner, Scrapper, Spike-Yoke, Plated Brute and Bannerboss; White Orc Hunter, Bone-Plate and Lacquer Guard; Black Orc Iron-Clad, Plague-Helm, Brute and Chieftain. Each family has distinct armour, skin and loadouts.\n\nFLESH-SAWS\nGreen, White and Black Orc Flesh-Saw specialists carry a roaring chain blade in blackened steel with exposed teeth and a red saw-ring skull. Find all three by searching Flesh-Saw in Game Master. Family groups include one in each 4-unit formation and four in each 16-unit formation.\n\nWEAPONS AND VOICES\nFitted saw swords and Atris axes, plus nine crude guns: pistols, twin pistols, long gun, mag gun, axe gun and flamethrower. Guns fire projectiles along their barrels in short bursts; melee uses Creature Melee AI blade contacts. Non-verbal war cries, efforts, pain, death and laughter accompany the fighting. Reload animations are not included.\n\nCREATURES AND MACHINES\nWarbasha is a drum-thumping brute armed with two spiked clubs. The Armoured Troll carries a massive greatsword. The Scrap Walker combines an enlarged mech, an Orc pilot and a recoiling cannon. The Wallbreaker artillery gun supports a player gunner or an AI crew firing at distant targets.\n\nREQUIREMENTS\nCreature Melee AI: https://reforger.armaplatform.com/workshop/4FD4A1BD550793F4\nWarbeasts: https://reforger.armaplatform.com/workshop/9C6F9425B58142E7\nThe Workshop installs these dependencies with Grimdark Horde.\n\nCREDITS AND ORIGINAL SOURCES\nThe following creators supplied the original assets adapted for this add-on. Thank you for their work.\n\nJedy92 - Orc with Axe: original Orc character, head, equipment and animations; also used for the Scrap Walker pilot.\nhttps://www.fab.com/listings/63d8fd8f-ef10-4436-8e0e-714dbca74688\n\nTauan Talari Bellintani - Post Apocalyptic Weapons: Saw Sword.\nhttps://www.fab.com/listings/8015db3e-60bd-44a1-8a91-3916f708f631\n\nDZTFIX PARADOX - Pumpkin Saw: Stylized Halloween Chainsaw Sword, adapted as the Flesh-Saw.\nhttps://www.fab.com/listings/3bcd47d1-821e-4e60-871f-c9544448773a\n\nPetr Luchko - Atris axes.\nhttps://www.fab.com/listings/3905779c-7035-4a17-a28d-9d215336ea53\n\nBitgem - Gun Set: Hand Painted Series, adapted into the Horde's firearms and flamethrower.\nhttps://www.fab.com/listings/a90204f0-9b1f-4393-b913-41e4cec7d4e3\n\nMist Polygon - Plague Knight Helmet, based on Mike Franchina's concept artwork; adapted for Plague-Helm.\nModel: https://www.fab.com/listings/4376c360-11bd-4f33-8451-c9c532e1bea6\nConcept: https://www.artstation.com/artwork/5dkJW\n\nKaanTezcan (s_cat) - Free Game Character: Armored Troll With Sword.\nhttps://www.fab.com/listings/a5299d26-73c5-4fcf-8203-06d1418597f6\n\ncybeck - Earthshaker Artillery Gun, adapted as the Wallbreaker.\nhttps://www.fab.com/listings/d83a153d-829b-4f50-a9ae-02859e66dfad\n\nEpic Games - original Grux body used through Warbeasts for the Greenskins, Narbash body/animations/non-verbal voices adapted for Warbasha and Orc voices, and Howitzer mech adapted for the Scrap Walker.\nGrux: https://www.fab.com/listings/8c4bac2c-f7f7-4632-a644-47f4e104f5d8\nNarbash: https://www.fab.com/listings/d8904a0e-9169-4763-b82b-5fcf864235a4\nHowitzer: https://www.fab.com/listings/7397dd8d-2e47-4e68-9e9d-a10c6fa0a9c7\n\nBohemia Interactive - Arma Reforger base-game resources and character tools used by the adaptation. Grimdark Horde adds the faction, gameplay integration, fitted grips, outfit adaptations and locally authored armour/paint/effects.\n\nLICENCES\nOriginal add-on code is released under the Arma Public Licence (APL):\nhttps://portal.bohemia.net/community/licenses/arma-public-license\n\nThe credited models, textures, animations and audio retain their original acquisition licences and permissions; the APL does not relicense those assets. Fab licence information and full terms:\nhttps://www.fab.com/eula\n\nThis is an incorporated playable mod, not a standalone asset pack. Full asset-specific provenance, terms and exclusions are included in THIRD_PARTY_NOTICES.md and the dependency notices. No endorsement by the original creators is implied.",
   "license": "Arma Public License (APL)",
   "rating": 1,
-  "ratingCount": 10,
+  "ratingCount": 11,
   "version": "0.1.10",
   "sizeBytes": 555542586,
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-10-21T23:41:12.000Z",
   "updatedAt": "2026-11-15T12:47:20.000Z",
-  "downloads": 3361,
+  "downloads": 3456,
   "tags": [
    "AI",
    "CHARACTERS",
@@ -2817,7 +2823,7 @@
    {
     "id": "4FD4A1BD550793F4",
     "name": "Creature Melee AI",
-    "version": "1.8.36"
+    "version": "1.8.37"
    },
    {
     "id": "9C6F9425B58142E7",
@@ -2987,12 +2993,12 @@
   "license": "Arma Public License (APL)",
   "rating": 1,
   "ratingCount": 18,
-  "version": "1.8.36",
-  "sizeBytes": 13486285,
+  "version": "1.8.37",
+  "sizeBytes": 13486060,
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-08-30T18:18:07.000Z",
-  "updatedAt": "2026-11-20T10:14:59.000Z",
-  "downloads": 69370,
+  "updatedAt": "2026-11-20T20:18:21.000Z",
+  "downloads": 69891,
   "tags": [
    "AI",
    "CHARACTERS",
@@ -3004,6 +3010,12 @@
   ],
   "dependencies": [],
   "versions": [
+   {
+    "version": "1.8.37",
+    "gameVersion": "1.9.0.37",
+    "createdAt": "2026-11-20T20:18:07.000Z",
+    "size": 13486060
+   },
    {
     "version": "1.8.36",
     "gameVersion": "1.9.0.37",
@@ -3057,15 +3069,9 @@
     "gameVersion": "1.9.0.37",
     "createdAt": "2026-11-14T00:22:30.000Z",
     "size": 12965015
-   },
-   {
-    "version": "1.8.27",
-    "gameVersion": "1.9.0.37",
-    "createdAt": "2026-11-12T21:47:08.000Z",
-    "size": 12964701
    }
   ],
-  "changelog": "1.8.36\n- Crushing creatures such as the Mushroom Rift Colossus no longer flatten Conflict base structures: command posts, base service tents and flags stay standing, so a captured base keeps its build table, services and spawn point. Houses, trees and vehicles are crushed as before.\n- A protected base structure stops a crushing creature like any other solid obstacle.",
+  "changelog": "1.8.37\n- Flying creatures that swoop and carry players now grab moving targets cleanly without frame-lag rejection, hold onto lifted prey across brief client/network hitches in the air, and keep climbing cleanly even when other flyers swoop nearby.\n- Victims are still released cleanly with zero leftover movement lock whenever a carry ends or aborts.",
   "preview": "https://ar-gcp-cdn.bistudio.com/image/e345/f3b99d0c738344cd8d7364e0b3a3b1ada801834676f2a32b6473f50b0675/95814.jpg",
   "previewThumbs": [
    "https://ar-gcp-cdn.bistudio.com/image/826f/ac590b7bcada4b68dbb43c904a60861ba906bcc485de784f311194106075/55712.jpg",
@@ -3101,7 +3107,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-08-09T15:04:29.000Z",
   "updatedAt": "2026-11-06T18:29:09.000Z",
-  "downloads": 5222,
+  "downloads": 5232,
   "tags": [
    "AI",
    "REARM",
@@ -3164,7 +3170,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-10-07T09:20:39.000Z",
   "updatedAt": "2026-11-06T17:05:17.000Z",
-  "downloads": 7721,
+  "downloads": 7738,
   "tags": [
    "CROSSBOW",
    "GAMEMASTER",
@@ -3243,7 +3249,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-09-29T16:59:01.000Z",
   "updatedAt": "2026-11-06T16:54:18.000Z",
-  "downloads": 455,
+  "downloads": 456,
   "tags": [
    "BALLISTA",
    "MEDIEVAL",
