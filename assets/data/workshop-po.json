@@ -7,12 +7,12 @@
  "license": "Arma Public License (APL)",
  "rating": 0.96,
  "ratingCount": 108,
- "version": "2.4.35",
- "sizeBytes": 209373400,
+ "version": "2.4.36",
+ "sizeBytes": 209373055,
  "gameVersion": "1.9.0.37",
  "createdAt": "2026-08-30T18:23:05.000Z",
- "updatedAt": "2026-11-18T16:32:33.000Z",
- "downloads": 56830,
+ "updatedAt": "2026-11-21T11:23:12.000Z",
+ "downloads": 56944,
  "tags": [
   "CHARACTERS",
   "INFECTION",
@@ -31,6 +31,12 @@
   }
  ],
  "versions": [
+  {
+   "version": "2.4.36",
+   "gameVersion": "1.9.0.37",
+   "createdAt": "2026-11-21T11:21:15.000Z",
+   "size": 209373055
+  },
   {
    "version": "2.4.35",
    "gameVersion": "1.9.0.37",
@@ -84,15 +90,9 @@
    "gameVersion": "1.9.0.37",
    "createdAt": "2026-11-13T22:41:39.000Z",
    "size": 210516339
-  },
-  {
-   "version": "2.4.26",
-   "gameVersion": "1.9.0.37",
-   "createdAt": "2026-11-12T17:59:14.000Z",
-   "size": 210502097
   }
  ],
- "changelog": "2.4.35\nWhen the Nightingale's scream knocks you down, your screen now shows that the scream did it: a red flash, the picture smeared and washed red, the colour drained while you are down, all of it clearing as you get back up. The closer you were to her, the harder it hits.",
+ "changelog": "2.4.36\nFixed getting stuck on the ground unable to move after shoving a Sprinter off you during a pin or tackle.",
  "preview": "https://ar-gcp-cdn.bistudio.com/image/2acf/50af531c77fb7b5f21ca79df26665c5a3e9f10ff3b0c4d08f6876c6370b0/158082.jpg",
  "previewThumbs": [
   "https://ar-gcp-cdn.bistudio.com/image/4cca/713c0a0d13d35c848872dd5398d4de1a8324f8931ead8fd865d03c85c843/86448.jpg",

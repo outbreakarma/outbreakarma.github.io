@@ -13,7 +13,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-08-30T18:29:18.000Z",
   "updatedAt": "2026-11-17T01:33:23.000Z",
-  "downloads": 27245,
+  "downloads": 27356,
   "tags": [
    "INFECTION",
    "OUTBREAK",
@@ -29,7 +29,7 @@
    {
     "id": "F1D4B9B5245B36ED",
     "name": "Project Outbreak Zombies",
-    "version": "2.4.35"
+    "version": "2.4.36"
    }
   ],
   "versions": [
@@ -119,7 +119,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-08-30T18:31:09.000Z",
   "updatedAt": "2026-11-06T16:43:53.000Z",
-  "downloads": 17437,
+  "downloads": 17458,
   "tags": [
    "OUTBREAK",
    "SYSTEMS",
@@ -134,7 +134,7 @@
    {
     "id": "F1D4B9B5245B36ED",
     "name": "Project Outbreak Zombies",
-    "version": "2.4.35"
+    "version": "2.4.36"
    }
   ],
   "versions": [
@@ -224,7 +224,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-08-30T18:27:33.000Z",
   "updatedAt": "2026-11-06T16:44:40.000Z",
-  "downloads": 9307,
+  "downloads": 9316,
   "tags": [
    "GADGETS",
    "OUTBREAK",
@@ -243,7 +243,7 @@
    {
     "id": "F1D4B9B5245B36ED",
     "name": "Project Outbreak Zombies",
-    "version": "2.4.35"
+    "version": "2.4.36"
    }
   ],
   "versions": [
@@ -333,7 +333,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-09-27T03:27:42.000Z",
   "updatedAt": "2026-11-06T16:50:13.000Z",
-  "downloads": 11443,
+  "downloads": 11523,
   "tags": [
    "CHARACTERS",
    "CREATURES",
@@ -350,7 +350,7 @@
    {
     "id": "F1D4B9B5245B36ED",
     "name": "Project Outbreak Zombies",
-    "version": "2.4.35"
+    "version": "2.4.36"
    }
   ],
   "versions": [
@@ -468,7 +468,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-09-27T03:41:17.000Z",
   "updatedAt": "2026-11-17T17:10:32.000Z",
-  "downloads": 15763,
+  "downloads": 15863,
   "tags": [
    "CHARACTERS",
    "OUTBREAK",
@@ -484,7 +484,7 @@
    {
     "id": "F1D4B9B5245B36ED",
     "name": "Project Outbreak Zombies",
-    "version": "2.4.35"
+    "version": "2.4.36"
    }
   ],
   "versions": [
@@ -595,7 +595,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-11-15T22:08:03.000Z",
   "updatedAt": "2026-11-19T18:45:10.000Z",
-  "downloads": 1891,
+  "downloads": 1994,
   "tags": [
    "EVERDEAD",
    "EVERON",
@@ -623,7 +623,7 @@
    {
     "id": "F1D4B9B5245B36ED",
     "name": "Project Outbreak Zombies",
-    "version": "2.4.35"
+    "version": "2.4.36"
    }
   ],
   "versions": [
@@ -713,7 +713,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-11-15T22:12:29.000Z",
   "updatedAt": "2026-11-19T18:38:31.000Z",
-  "downloads": 1064,
+  "downloads": 1166,
   "tags": [
    "CHARACTERS",
    "CREATURES",
@@ -746,7 +746,7 @@
    {
     "id": "F1D4B9B5245B36ED",
     "name": "Project Outbreak Zombies",
-    "version": "2.4.35"
+    "version": "2.4.36"
    }
   ],
   "versions": [
@@ -830,7 +830,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-11-14T20:52:37.000Z",
   "updatedAt": "2026-11-16T18:48:48.000Z",
-  "downloads": 302,
+  "downloads": 303,
   "tags": [
    "DEADGOGLAND",
    "GOGLAND",
@@ -863,7 +863,7 @@
    {
     "id": "F1D4B9B5245B36ED",
     "name": "Project Outbreak Zombies",
-    "version": "2.4.35"
+    "version": "2.4.36"
    }
   ],
   "versions": [
@@ -929,7 +929,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-11-15T00:27:06.000Z",
   "updatedAt": "2026-11-15T23:37:06.000Z",
-  "downloads": 216,
+  "downloads": 217,
   "tags": [
    "CHARACTERS",
    "CREATURES",
@@ -967,7 +967,7 @@
    {
     "id": "F1D4B9B5245B36ED",
     "name": "Project Outbreak Zombies",
-    "version": "2.4.35"
+    "version": "2.4.36"
    }
   ],
   "versions": [
@@ -1015,7 +1015,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-11-14T00:46:02.000Z",
   "updatedAt": "2026-11-16T21:10:53.000Z",
-  "downloads": 392,
+  "downloads": 396,
   "tags": [
    "DEADBORDER",
    "MULTIPLAYER",
@@ -1063,7 +1063,7 @@
    {
     "id": "F1D4B9B5245B36ED",
     "name": "Project Outbreak Zombies",
-    "version": "2.4.35"
+    "version": "2.4.36"
    }
   ],
   "versions": [
@@ -1182,7 +1182,7 @@
    {
     "id": "F1D4B9B5245B36ED",
     "name": "Project Outbreak Zombies",
-    "version": "2.4.35"
+    "version": "2.4.36"
    }
   ],
   "versions": [
@@ -1567,7 +1567,7 @@
    {
     "id": "F1D4B9B5245B36ED",
     "name": "Project Outbreak Zombies",
-    "version": "2.4.35"
+    "version": "2.4.36"
    }
   ],
   "versions": [
@@ -1615,7 +1615,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-10-08T02:57:35.000Z",
   "updatedAt": "2026-11-16T18:45:50.000Z",
-  "downloads": 1941,
+  "downloads": 1946,
   "tags": [
    "GLENWOOD",
    "LIGHT",
@@ -1643,7 +1643,7 @@
    {
     "id": "F1D4B9B5245B36ED",
     "name": "Project Outbreak Zombies",
-    "version": "2.4.35"
+    "version": "2.4.36"
    }
   ],
   "versions": [
@@ -1733,7 +1733,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-11-11T02:39:49.000Z",
   "updatedAt": "2026-11-11T17:53:05.000Z",
-  "downloads": 266,
+  "downloads": 270,
   "tags": [
    "CHARACTERS",
    "CREATURES",
@@ -1766,7 +1766,7 @@
    {
     "id": "F1D4B9B5245B36ED",
     "name": "Project Outbreak Zombies",
-    "version": "2.4.35"
+    "version": "2.4.36"
    }
   ],
   "versions": [
@@ -1820,7 +1820,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-10-06T16:56:25.000Z",
   "updatedAt": "2026-11-06T16:31:10.000Z",
-  "downloads": 824,
+  "downloads": 826,
   "tags": [
    "AI",
    "BOSS",
@@ -1910,7 +1910,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-10-02T05:03:39.000Z",
   "updatedAt": "2026-11-15T12:27:23.000Z",
-  "downloads": 4780,
+  "downloads": 4847,
   "tags": [
    "AI",
    "CHARACTERS",
@@ -2022,7 +2022,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-10-03T17:41:42.000Z",
   "updatedAt": "2026-11-20T16:42:02.000Z",
-  "downloads": 5139,
+  "downloads": 5253,
   "tags": [
    "ALIEN",
    "CHARACTERS",
@@ -2134,7 +2134,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-10-06T17:34:28.000Z",
   "updatedAt": "2026-11-06T16:39:20.000Z",
-  "downloads": 1472,
+  "downloads": 1475,
   "tags": [
    "CHARACTERS",
    "CMAI",
@@ -2194,7 +2194,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-10-09T13:22:19.000Z",
   "updatedAt": "2026-11-17T18:21:32.000Z",
-  "downloads": 4763,
+  "downloads": 4827,
   "tags": [
    "CHARACTERS",
    "CMAI",
@@ -2307,7 +2307,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-10-15T10:13:41.000Z",
   "updatedAt": "2026-11-20T20:34:00.000Z",
-  "downloads": 2846,
+  "downloads": 2927,
   "tags": [
    "AI",
    "CHARACTERS",
@@ -2454,7 +2454,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-10-15T23:43:22.000Z",
   "updatedAt": "2026-11-19T11:32:49.000Z",
-  "downloads": 1089,
+  "downloads": 1107,
   "tags": [
    "AI",
    "CHARACTERS",
@@ -2560,7 +2560,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-10-16T11:15:49.000Z",
   "updatedAt": "2026-11-07T16:30:25.000Z",
-  "downloads": 1533,
+  "downloads": 1536,
   "tags": [
    "AI",
    "CHARACTERS",
@@ -2638,7 +2638,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-10-16T11:10:30.000Z",
   "updatedAt": "2026-11-13T23:22:44.000Z",
-  "downloads": 1394,
+  "downloads": 1396,
   "tags": [
    "AI",
    "BIGFOOT",
@@ -2809,7 +2809,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-10-21T23:41:12.000Z",
   "updatedAt": "2026-11-15T12:47:20.000Z",
-  "downloads": 3497,
+  "downloads": 3559,
   "tags": [
    "AI",
    "CHARACTERS",
@@ -2998,7 +2998,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-08-30T18:18:07.000Z",
   "updatedAt": "2026-11-20T20:18:21.000Z",
-  "downloads": 70217,
+  "downloads": 70578,
   "tags": [
    "AI",
    "CHARACTERS",
@@ -3107,7 +3107,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-08-09T15:04:29.000Z",
   "updatedAt": "2026-11-06T18:29:09.000Z",
-  "downloads": 5248,
+  "downloads": 5250,
   "tags": [
    "AI",
    "REARM",
@@ -3170,7 +3170,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-10-07T09:20:39.000Z",
   "updatedAt": "2026-11-06T17:05:17.000Z",
-  "downloads": 7745,
+  "downloads": 7760,
   "tags": [
    "CROSSBOW",
    "GAMEMASTER",
@@ -3249,7 +3249,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-09-29T16:59:01.000Z",
   "updatedAt": "2026-11-06T16:54:18.000Z",
-  "downloads": 456,
+  "downloads": 457,
   "tags": [
    "BALLISTA",
    "MEDIEVAL",
