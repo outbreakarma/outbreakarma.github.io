@@ -7,12 +7,12 @@
  "license": "Arma Public License (APL)",
  "rating": 0.96,
  "ratingCount": 108,
- "version": "2.4.36",
- "sizeBytes": 209373055,
+ "version": "2.4.38",
+ "sizeBytes": 209375247,
  "gameVersion": "1.9.0.37",
  "createdAt": "2026-08-30T18:23:05.000Z",
- "updatedAt": "2026-11-21T11:23:12.000Z",
- "downloads": 56944,
+ "updatedAt": "2026-11-21T15:56:23.000Z",
+ "downloads": 55599,
  "tags": [
   "CHARACTERS",
   "INFECTION",
@@ -27,10 +27,22 @@
   {
    "id": "4FD4A1BD550793F4",
    "name": "Creature Melee AI",
-   "version": "1.8.37"
+   "version": "1.8.38"
   }
  ],
  "versions": [
+  {
+   "version": "2.4.38",
+   "gameVersion": "1.9.0.37",
+   "createdAt": "2026-11-21T15:54:54.000Z",
+   "size": 209375247
+  },
+  {
+   "version": "2.4.37",
+   "gameVersion": "1.9.0.37",
+   "createdAt": "2026-11-21T13:24:28.000Z",
+   "size": 209375198
+  },
   {
    "version": "2.4.36",
    "gameVersion": "1.9.0.37",
@@ -78,21 +90,9 @@
    "gameVersion": "1.9.0.37",
    "createdAt": "2026-11-15T12:02:09.000Z",
    "size": 210518407
-  },
-  {
-   "version": "2.4.28",
-   "gameVersion": "1.9.0.37",
-   "createdAt": "2026-11-14T00:23:17.000Z",
-   "size": 210517040
-  },
-  {
-   "version": "2.4.27",
-   "gameVersion": "1.9.0.37",
-   "createdAt": "2026-11-13T22:41:39.000Z",
-   "size": 210516339
   }
  ],
- "changelog": "2.4.36\nFixed getting stuck on the ground unable to move after shoving a Sprinter off you during a pin or tackle.",
+ "changelog": "2.4.38\n- Breaking free from a Sprinter leap-tackle pin now leaves you lying prone out of ragdoll with your controls unlocked instead of standing you up automatically, matching contact pins and Feral pounces so you choose whether to stay low, crawl, or get up yourself.\n- Includes 2.4.37 zombie pin/wall-climb/body-pile physics crash guards, armoured vest/helmet claw blow damage, and horde restoration fixes.\n- Needs Creature Melee AI 1.8.38 or newer.",
  "preview": "https://ar-gcp-cdn.bistudio.com/image/2acf/50af531c77fb7b5f21ca79df26665c5a3e9f10ff3b0c4d08f6876c6370b0/158082.jpg",
  "previewThumbs": [
   "https://ar-gcp-cdn.bistudio.com/image/4cca/713c0a0d13d35c848872dd5398d4de1a8324f8931ead8fd865d03c85c843/86448.jpg",
