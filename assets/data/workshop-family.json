@@ -13,7 +13,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-08-30T18:29:18.000Z",
   "updatedAt": "2026-11-17T01:33:23.000Z",
-  "downloads": 27849,
+  "downloads": 27969,
   "tags": [
    "INFECTION",
    "OUTBREAK",
@@ -119,7 +119,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-08-30T18:31:09.000Z",
   "updatedAt": "2026-11-06T16:43:53.000Z",
-  "downloads": 17518,
+  "downloads": 17533,
   "tags": [
    "OUTBREAK",
    "SYSTEMS",
@@ -224,7 +224,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-08-30T18:27:33.000Z",
   "updatedAt": "2026-11-06T16:44:40.000Z",
-  "downloads": 9360,
+  "downloads": 9371,
   "tags": [
    "GADGETS",
    "OUTBREAK",
@@ -333,7 +333,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-09-27T03:27:42.000Z",
   "updatedAt": "2026-11-06T16:50:13.000Z",
-  "downloads": 11911,
+  "downloads": 12014,
   "tags": [
    "CHARACTERS",
    "CREATURES",
@@ -462,13 +462,13 @@
   "description": "Adds optional special zombies and creatures to Project Outbreak. \n\nCurrent Roster:\n- (NEW) the Abomination, multiheaded freak. He only goes down if you kill all his heads (credit to Ghost35643 for concept!)\n- the Nephilim, a towering giant zombie with shirtless or military appearances, brutal throws, contact chokes, knockdown attacks\n- the Nightingale, a crying Half-Zombie who attracts hordes and runs away, hides inside buildings, closes doors, and uses her screams to knock nearby survivors down. Eliminate her to stop the horde!\n \n\nCredits and third-party licences:\n- Giant Zombie (Nephilim) by Studio New Punch, from Fab, used under the Fab Standard License. Modified and rigged for Arma Reforger.\n- Zombie Female: Nurse (the Nightingale) from Fab, used under the Fab Standard License.\n- Nephilim vocals: Zombies Sound Pack by artisticdude (CC0 1.0). https://opengameart.org/content/zombies-sound-pack\n- Nightingale vocal \"Crying female low tone Voice Over\" by JeanMyna_VA (OpenGameArt), licensed CC BY 3.0 (https://creativecommons.org/licenses/by/3.0/), edited. https://opengameart.org/content/crying-female-low-tone-voice-over-vocal-sound-for-character\n- Further Nightingale vocal sources under CC0 1.0, with thanks: WuxiaScrub, tcrocker68, AlucardsBride, RebekahDay, purplereptar, Samusasi, Pennywind.\n- Nightingale body base: MakeHuman hm08 topology and skin data (CC0 1.0); joepal_plain_bra (CC0); mindfront_nails_01_short by Mindfront (CC0 1.0).",
   "license": "Arma Public License (APL)",
   "rating": 0.93,
-  "ratingCount": 27,
+  "ratingCount": 28,
   "version": "1.1.10",
   "sizeBytes": 345015954,
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-09-27T03:41:17.000Z",
   "updatedAt": "2026-11-17T17:10:32.000Z",
-  "downloads": 16331,
+  "downloads": 16438,
   "tags": [
    "CHARACTERS",
    "OUTBREAK",
@@ -590,12 +590,12 @@
   "license": "Arma Public License (APL)",
   "rating": 0,
   "ratingCount": 0,
-  "version": "0.2.7",
-  "sizeBytes": 2297714,
+  "version": "0.2.8",
+  "sizeBytes": 2298740,
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-11-15T22:08:03.000Z",
-  "updatedAt": "2026-11-19T18:45:10.000Z",
-  "downloads": 2400,
+  "updatedAt": "2026-11-22T21:43:12.000Z",
+  "downloads": 2508,
   "tags": [
    "EVERDEAD",
    "EVERON",
@@ -627,6 +627,12 @@
    }
   ],
   "versions": [
+   {
+    "version": "0.2.8",
+    "gameVersion": "1.9.0.37",
+    "createdAt": "2026-11-22T21:43:07.000Z",
+    "size": 2298740
+   },
    {
     "version": "0.2.7",
     "gameVersion": "1.9.0.37",
@@ -680,15 +686,9 @@
     "gameVersion": "1.9.0.37",
     "createdAt": "2026-11-16T18:50:09.000Z",
     "size": 2166370
-   },
-   {
-    "version": "0.1.2",
-    "gameVersion": "1.9.0.37",
-    "createdAt": "2026-11-16T08:47:44.000Z",
-    "size": 2160112
    }
   ],
-  "changelog": "0.2.7\n- Field HQs that stood partly inside rocks, cliffs or a house now stand a few metres away on clear ground at 17 points, so the Med Box, the Ammo Box and the building table can be reached everywhere.\n- Building at a field HQ now works with infected nearby. It was refused whenever an enemy was within 150 m of the building table.\n- The beach bunker below the Saint-Philippe Point lighthouse, where players could get stuck between sandbags and rocks, moved inland onto open ground.\n- At the Smuggler's Hole and The Scythe lighthouses players could drop between rocks and sandbags into a gap they could not climb out of; a sandbag now fills each gap. A sandbag wall that stood through a house floor at Saint-Philippe Point now stands outside.",
+  "changelog": "0.2.8\n- Active mass graves now appear as a 3D HUD and map objective marker when you contest their base or come within 350 m, with clear instructions to destroy the mound using 3 explosives or fire (+150 XP).\n- Opening mass-grave and night counter-siege alerts now explain how to locate and destroy active graves.",
   "preview": "https://ar-gcp-cdn.bistudio.com/image/a6c7/413095a6cf25d03c553867b967a99fe16d61d1934778b11a35d5adc102d6/365949.jpg",
   "previewThumbs": [
    "https://ar-gcp-cdn.bistudio.com/image/c85d/ed53e7bd68b587029e6fea55239bf81ec83dcdd9b0f594c17bbcc72259d6/153749.jpg",
@@ -708,12 +708,12 @@
   "license": "Arma Public License (APL)",
   "rating": 1,
   "ratingCount": 2,
-  "version": "0.1.9",
-  "sizeBytes": 28133,
+  "version": "0.1.10",
+  "sizeBytes": 30205,
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-11-15T22:12:29.000Z",
-  "updatedAt": "2026-11-21T18:15:02.000Z",
-  "downloads": 1682,
+  "updatedAt": "2026-11-22T21:45:09.000Z",
+  "downloads": 1809,
   "tags": [
    "CHARACTERS",
    "CREATURES",
@@ -741,7 +741,7 @@
    {
     "id": "C74E92A1D8B3056F",
     "name": "Project Outbreak Everdead",
-    "version": "0.2.7"
+    "version": "0.2.8"
    },
    {
     "id": "F1D4B9B5245B36ED",
@@ -750,6 +750,12 @@
    }
   ],
   "versions": [
+   {
+    "version": "0.1.10",
+    "gameVersion": "1.9.0.37",
+    "createdAt": "2026-11-22T21:45:06.000Z",
+    "size": 30205
+   },
    {
     "version": "0.1.9",
     "gameVersion": "1.9.0.37",
@@ -803,15 +809,9 @@
     "gameVersion": "1.9.0.37",
     "createdAt": "2026-11-15T23:05:31.000Z",
     "size": 19299
-   },
-   {
-    "version": "0.1.0",
-    "gameVersion": "1.9.0.37",
-    "createdAt": "2026-11-15T22:12:29.000Z",
-    "size": 19320
    }
   ],
-  "changelog": "0.1.9\n- With the optional Lumenkin pack mounted, a Lumenkin Spire can now rarely appear at night across non-Frontier Everon bases and open-sky mass graves (max 1 active across the map, active fights stay alive at dawn until cleared or left behind). Servers without Lumenkin see no change.",
+  "changelog": "0.1.10\n- Higher-tier horror creature packs (Eyekin, Lumenkin, Fungal Colossus, Stonekin, Teuthisan, and Stronghold Titans) now stay held back until US forces capture at least 55% of Everon's control points, then ramp up smoothly between 55% and 85% campaign progression.\n- Solo players with no teammates within 260 m now face single-creature encounters instead of multi-unit creature squads, Spires, or Stronghold Titans.",
   "preview": "https://ar-gcp-cdn.bistudio.com/image/3063/72eb090112436cef96e7028126c38417350f0c46e44af896a09beb148dac/366411.jpg",
   "previewThumbs": [
    "https://ar-gcp-cdn.bistudio.com/image/4906/969dabbb8fa51c5c6ed21b91c0bf6e0a0e7b7d342ac66161d66c89f94d74/154405.jpg",
@@ -935,7 +935,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-11-15T00:27:06.000Z",
   "updatedAt": "2026-11-15T23:37:06.000Z",
-  "downloads": 227,
+  "downloads": 228,
   "tags": [
    "CHARACTERS",
    "CREATURES",
@@ -1021,7 +1021,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-11-14T00:46:02.000Z",
   "updatedAt": "2026-11-16T21:10:53.000Z",
-  "downloads": 418,
+  "downloads": 424,
   "tags": [
    "DEADBORDER",
    "MULTIPLAYER",
@@ -1135,7 +1135,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-11-14T07:56:56.000Z",
   "updatedAt": "2026-11-14T07:56:58.000Z",
-  "downloads": 27,
+  "downloads": 29,
   "tags": [
    "CHARACTERS",
    "CREATURES",
@@ -1621,7 +1621,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-10-08T02:57:35.000Z",
   "updatedAt": "2026-11-16T18:45:50.000Z",
-  "downloads": 1963,
+  "downloads": 1966,
   "tags": [
    "GLENWOOD",
    "LIGHT",
@@ -1739,7 +1739,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-11-11T02:39:49.000Z",
   "updatedAt": "2026-11-11T17:53:05.000Z",
-  "downloads": 275,
+  "downloads": 276,
   "tags": [
    "CHARACTERS",
    "CREATURES",
@@ -1916,7 +1916,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-10-02T05:03:39.000Z",
   "updatedAt": "2026-11-15T12:27:23.000Z",
-  "downloads": 5186,
+  "downloads": 5260,
   "tags": [
    "AI",
    "CHARACTERS",
@@ -2023,12 +2023,12 @@
   "license": "Arma Public License (APL)",
   "rating": 1,
   "ratingCount": 9,
-  "version": "1.2.19",
-  "sizeBytes": 134914955,
+  "version": "1.2.20",
+  "sizeBytes": 134916008,
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-10-03T17:41:42.000Z",
-  "updatedAt": "2026-11-21T13:45:14.000Z",
-  "downloads": 5768,
+  "updatedAt": "2026-11-22T21:37:34.000Z",
+  "downloads": 5895,
   "tags": [
    "ALIEN",
    "CHARACTERS",
@@ -2044,6 +2044,12 @@
    }
   ],
   "versions": [
+   {
+    "version": "1.2.20",
+    "gameVersion": "1.9.0.37",
+    "createdAt": "2026-11-22T21:37:03.000Z",
+    "size": 134916008
+   },
    {
     "version": "1.2.19",
     "gameVersion": "1.9.0.37",
@@ -2097,15 +2103,9 @@
     "gameVersion": "1.9.0.37",
     "createdAt": "2026-11-12T19:54:55.000Z",
     "size": 116884329
-   },
-   {
-    "version": "1.2.10",
-    "gameVersion": "1.9.0.37",
-    "createdAt": "2026-11-11T22:39:18.000Z",
-    "size": 116882854
    }
   ],
-  "changelog": "1.2.19\n- Fixed Eyekin Birds occasionally ending flight or releasing from targets beneath road or terrain surfaces, preventing underground clipping and related server crashes.\n- Guarded Eyekin eye charge and impact lights against invalid world coordinates.\n- Needs Creature Melee AI 1.8.38 or newer.",
+  "changelog": "1.2.20\n- Lowered 1 m Eyekin melee damage from 20 to 10, slowed melee recovery on both 1 m and 2 m Eyekins, and limited 1 m packs to one active attacker per target so groups take turns instead of stun-locking solo players.\n- Added positional swing and target-acquisition audio on grounded 1 m and 2 m Eyekins.\n- Changed 2 m Eyekin eye lasers to require 2 hits to down a helicopter or destroy a ground vehicle by default (21 m Titan helicopter 1-shot threshold and static Eyekin Spire rules unchanged).",
   "preview": "https://ar-gcp-cdn.bistudio.com/image/e516/38fbbb22cd0cfddd8f0497e2edaefd80c2bc51078f740b9baea82fd5f721/252017.jpg",
   "previewThumbs": [
    "https://ar-gcp-cdn.bistudio.com/image/7a13/92eea32520b8041063b74a78a64ac436cb8bf7a37e089701a08f0ebeafc5/142790.jpg",
@@ -2140,7 +2140,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-10-06T17:34:28.000Z",
   "updatedAt": "2026-11-06T16:39:20.000Z",
-  "downloads": 1492,
+  "downloads": 1493,
   "tags": [
    "CHARACTERS",
    "CMAI",
@@ -2200,7 +2200,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-10-09T13:22:19.000Z",
   "updatedAt": "2026-11-17T18:21:32.000Z",
-  "downloads": 5181,
+  "downloads": 5258,
   "tags": [
    "CHARACTERS",
    "CMAI",
@@ -2308,12 +2308,12 @@
   "license": "Arma Public License (APL)",
   "rating": 1,
   "ratingCount": 8,
-  "version": "0.1.9",
-  "sizeBytes": 68087344,
+  "version": "0.1.10",
+  "sizeBytes": 68088805,
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-10-15T10:13:41.000Z",
-  "updatedAt": "2026-11-21T13:58:49.000Z",
-  "downloads": 3468,
+  "updatedAt": "2026-11-22T21:40:32.000Z",
+  "downloads": 3595,
   "tags": [
    "AI",
    "CHARACTERS",
@@ -2330,6 +2330,12 @@
    }
   ],
   "versions": [
+   {
+    "version": "0.1.10",
+    "gameVersion": "1.9.0.37",
+    "createdAt": "2026-11-22T21:40:01.000Z",
+    "size": 68088805
+   },
    {
     "version": "0.1.9",
     "gameVersion": "1.9.0.37",
@@ -2383,15 +2389,9 @@
     "gameVersion": "1.8.0.13",
     "createdAt": "2026-10-15T14:37:22.000Z",
     "size": 15848919
-   },
-   {
-    "version": "0.1.0",
-    "gameVersion": "1.8.0.13",
-    "createdAt": "2026-10-15T10:13:41.000Z",
-    "size": 15848919
    }
   ],
-  "changelog": "0.1.9\n- Fixed Lumenkin Reapers occasionally settling beneath roads or floors when exiting flight, preventing underground clipping and related server crashes.\n- Added coordinate safety checks across all Lumenkin spotlight, glow, and laser impact lights.\n- Needs Creature Melee AI 1.8.38 or newer.",
+  "changelog": "0.1.10\n- Lowered 1 m Lumenkin Scout melee damage from 20 to 10, slowed claw recovery on both 1 m Scouts and 2 m Sentinels, and limited 1 m Scouts to one active attacker per target so packs do not stun-lock solo players.\n- Added positional claw-swing and crimson target-lock audio on 1 m Scouts and 2 m Sentinels.\n- Changed 2 m Lumenkin Sentinel lasers to require 2 separate bursts to destroy an armored vehicle or down a helicopter, showing the red sighting thread throughout the charge-up and dealing non-lethal hull warning scorch on the first burst (21 m Lumenkin boss and static Lumenkin Spire rules unchanged).",
   "preview": "https://ar-gcp-cdn.bistudio.com/image/f9aa/c256aec445bb2f6700150d28dd40b7969eb68685d34703b675daaf754fa2/29054.jpg",
   "previewThumbs": [
    "https://ar-gcp-cdn.bistudio.com/image/383e/99e8829522cd909ce45b159d5b30d03c2e24220e4eb5395adb3df8ab6c60/24542.jpg",
@@ -2466,7 +2466,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-10-15T23:43:22.000Z",
   "updatedAt": "2026-11-19T11:32:49.000Z",
-  "downloads": 1167,
+  "downloads": 1180,
   "tags": [
    "AI",
    "CHARACTERS",
@@ -2572,7 +2572,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-10-16T11:15:49.000Z",
   "updatedAt": "2026-11-07T16:30:25.000Z",
-  "downloads": 1563,
+  "downloads": 1569,
   "tags": [
    "AI",
    "CHARACTERS",
@@ -2644,13 +2644,13 @@
   "description": "Sightings describe a broad, dark-haired figure moving between wooded areas. His long arms and heavy shoulders give him a distinctive silhouette. When approached by hostile people, he pursues them and strikes with his hands. Reports of other movements are varied, including greetings, dancing and digging.\n\n\nPart of the Creatures collection.\n\n\nRequires Creature Melee AI. When controlled, Bigfoot has a move wheel for all 17 moves and three boxing styles.\n\n\nModel and animations created with Tripo3D. Sounds used under the Fab Standard License. First-party code uses the Arma Public License; third-party assets retain their component terms.\n\n\nBig thanks to AlienBalien for the custom ragdolling workflow used as an implementation reference: https://reforger.armaplatform.com/workshop/6534B9CEB6D12EE7-BallienCreatures (Arma Public License: https://www.bohemia.net/en/licenses/arma-public-license).",
   "license": "Arma Public License (APL)",
   "rating": 1,
-  "ratingCount": 3,
+  "ratingCount": 4,
   "version": "0.1.7",
   "sizeBytes": 20197402,
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-10-16T11:10:30.000Z",
   "updatedAt": "2026-11-13T23:22:44.000Z",
-  "downloads": 1411,
+  "downloads": 1414,
   "tags": [
    "AI",
    "BIGFOOT",
@@ -2740,7 +2740,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-10-22T00:49:08.000Z",
   "updatedAt": "2026-11-06T16:35:20.000Z",
-  "downloads": 85,
+  "downloads": 86,
   "tags": [
    "CHARACTERS",
    "CMAI",
@@ -2821,7 +2821,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-10-21T23:41:12.000Z",
   "updatedAt": "2026-11-15T12:47:20.000Z",
-  "downloads": 3878,
+  "downloads": 3949,
   "tags": [
    "AI",
    "CHARACTERS",
@@ -3010,7 +3010,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-08-30T18:18:07.000Z",
   "updatedAt": "2026-11-21T13:23:08.000Z",
-  "downloads": 71600,
+  "downloads": 71855,
   "tags": [
    "AI",
    "CHARACTERS",
@@ -3113,13 +3113,13 @@
   "description": "AI Rearm allows infantry AI to find more ammunition when their usable reserve runs low. It runs on the server and does not replace your scenario, game mode, faction, character prefabs, AI configuration, or group waypoints.\n\nWhen a compatible soldier needs ammunition, AI Rearm can use three routes.\n\n1. SQUAD SHARING\n\nA safe, available AI squadmate can share compatible spare magazines through Reforger's physical drop-and-pickup behavior. AI Rearm protects the donor's reserve and confirms that the requester received usable ammunition.\n\n2. DEAD-BODY RECOVERY\n\nThe AI can move to an allowed dead character and recover compatible magazines that still contain ammunition. The default policy uses friendly AI bodies only. Mission settings can also permit enemy, neutral, and dead player bodies. Incapacitated or revivable characters are never used as sources.\n\n3. ARSENAL REARMING\n\nThe AI can find an enabled friendly or neutral arsenal, travel to it, and acquire a compatible magazine. Mission authors can use normal supply costs or make AI arsenal ammunition free. Arsenal access, item compatibility, stock, and inventory capacity are checked in both modes.\n\nCUSTOM CONTENT SUPPORT\n\nAI Rearm reads active weapons, magazine wells, inventory items, arsenal entries, and faction relationships at runtime. It has no faction-specific weapon table or magazine list.\n\nThe addon depends only on Arma Reforger. Compatibility has also been demonstrated with Bundeswehr Mod riflemen, G36 magazines, and arsenals without a Bundeswehr-specific adapter.\n\nMISSION SETTINGS\n\nThe optional AI Rearm Mission Settings object is available in Game Master's Systems browser. Place one control box to configure:\n\n- master enable or disable;\n- automatic or custom low-ammo thresholds;\n- automatic or custom target reserves;\n- squad sharing, body recovery, and arsenal routes;\n- friendly-AI-only or any-dead-body recovery;\n- normal supply charging or free AI arsenal ammunition;\n- body and arsenal search distances;\n- `SAFE`-only or `SAFE` and `VIGILANT` operation;\n- the ammunition reserve a donor must keep after sharing.\n\nThe controller is optional. Without one, AI Rearm uses its automatic weapon-based defaults. Mission authors can also place `Prefabs/Systems/AIRearm/AIR_AIRearmMissionSettings.et` in Workbench and edit the component values directly.\n\nINSTALLATION\n\nEnable AI Rearm for the scenario or server. Multiplayer servers must load the addon. No `SystemSettings` or scenario-prefab edit is required.\n\nCOMPATIBILITY\n\nAI Rearm is designed for infantry AI and additive mods that use Reforger's standard AI, weapon, magazine, inventory, faction, and arsenal systems.\n\nIt does not manage player-controlled characters, wildlife, inactive AI, vehicle or turret ammunition, disposable weapons, virtual ammunition systems, custom AI replacements, or arsenal and currency systems that bypass the standard interfaces. Those systems may need a separate integration. Testing the intended mod combination before deployment is recommended.",
   "license": "Arma Public License (APL)",
   "rating": 1,
-  "ratingCount": 23,
+  "ratingCount": 24,
   "version": "1.0.2",
   "sizeBytes": 331734,
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-08-09T15:04:29.000Z",
   "updatedAt": "2026-11-06T18:29:09.000Z",
-  "downloads": 5279,
+  "downloads": 5286,
   "tags": [
    "AI",
    "REARM",
@@ -3182,7 +3182,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-10-07T09:20:39.000Z",
   "updatedAt": "2026-11-06T17:05:17.000Z",
-  "downloads": 7808,
+  "downloads": 7820,
   "tags": [
    "CROSSBOW",
    "GAMEMASTER",
