@@ -13,7 +13,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-08-30T18:29:18.000Z",
   "updatedAt": "2026-11-17T01:33:23.000Z",
-  "downloads": 27607,
+  "downloads": 27733,
   "tags": [
    "INFECTION",
    "OUTBREAK",
@@ -119,7 +119,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-08-30T18:31:09.000Z",
   "updatedAt": "2026-11-06T16:43:53.000Z",
-  "downloads": 17487,
+  "downloads": 17504,
   "tags": [
    "OUTBREAK",
    "SYSTEMS",
@@ -224,7 +224,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-08-30T18:27:33.000Z",
   "updatedAt": "2026-11-06T16:44:40.000Z",
-  "downloads": 9342,
+  "downloads": 9350,
   "tags": [
    "GADGETS",
    "OUTBREAK",
@@ -333,7 +333,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-09-27T03:27:42.000Z",
   "updatedAt": "2026-11-06T16:50:13.000Z",
-  "downloads": 11714,
+  "downloads": 11816,
   "tags": [
    "CHARACTERS",
    "CREATURES",
@@ -468,7 +468,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-09-27T03:41:17.000Z",
   "updatedAt": "2026-11-17T17:10:32.000Z",
-  "downloads": 16097,
+  "downloads": 16223,
   "tags": [
    "CHARACTERS",
    "OUTBREAK",
@@ -595,7 +595,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-11-15T22:08:03.000Z",
   "updatedAt": "2026-11-19T18:45:10.000Z",
-  "downloads": 2210,
+  "downloads": 2303,
   "tags": [
    "EVERDEAD",
    "EVERON",
@@ -713,7 +713,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-11-15T22:12:29.000Z",
   "updatedAt": "2026-11-21T18:15:02.000Z",
-  "downloads": 1425,
+  "downloads": 1559,
   "tags": [
    "CHARACTERS",
    "CREATURES",
@@ -935,7 +935,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-11-15T00:27:06.000Z",
   "updatedAt": "2026-11-15T23:37:06.000Z",
-  "downloads": 224,
+  "downloads": 225,
   "tags": [
    "CHARACTERS",
    "CREATURES",
@@ -1021,7 +1021,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-11-14T00:46:02.000Z",
   "updatedAt": "2026-11-16T21:10:53.000Z",
-  "downloads": 404,
+  "downloads": 411,
   "tags": [
    "DEADBORDER",
    "MULTIPLAYER",
@@ -1621,7 +1621,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-10-08T02:57:35.000Z",
   "updatedAt": "2026-11-16T18:45:50.000Z",
-  "downloads": 1954,
+  "downloads": 1959,
   "tags": [
    "GLENWOOD",
    "LIGHT",
@@ -1739,7 +1739,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-11-11T02:39:49.000Z",
   "updatedAt": "2026-11-11T17:53:05.000Z",
-  "downloads": 273,
+  "downloads": 274,
   "tags": [
    "CHARACTERS",
    "CREATURES",
@@ -1826,7 +1826,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-10-06T16:56:25.000Z",
   "updatedAt": "2026-11-06T16:31:10.000Z",
-  "downloads": 828,
+  "downloads": 830,
   "tags": [
    "AI",
    "BOSS",
@@ -1916,7 +1916,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-10-02T05:03:39.000Z",
   "updatedAt": "2026-11-15T12:27:23.000Z",
-  "downloads": 5019,
+  "downloads": 5111,
   "tags": [
    "AI",
    "CHARACTERS",
@@ -2028,7 +2028,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-10-03T17:41:42.000Z",
   "updatedAt": "2026-11-21T13:45:14.000Z",
-  "downloads": 5500,
+  "downloads": 5648,
   "tags": [
    "ALIEN",
    "CHARACTERS",
@@ -2140,7 +2140,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-10-06T17:34:28.000Z",
   "updatedAt": "2026-11-06T16:39:20.000Z",
-  "downloads": 1484,
+  "downloads": 1488,
   "tags": [
    "CHARACTERS",
    "CMAI",
@@ -2200,7 +2200,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-10-09T13:22:19.000Z",
   "updatedAt": "2026-11-17T18:21:32.000Z",
-  "downloads": 5001,
+  "downloads": 5091,
   "tags": [
    "CHARACTERS",
    "CMAI",
@@ -2313,7 +2313,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-10-15T10:13:41.000Z",
   "updatedAt": "2026-11-21T13:58:49.000Z",
-  "downloads": 3213,
+  "downloads": 3349,
   "tags": [
    "AI",
    "CHARACTERS",
@@ -2466,7 +2466,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-10-15T23:43:22.000Z",
   "updatedAt": "2026-11-19T11:32:49.000Z",
-  "downloads": 1147,
+  "downloads": 1157,
   "tags": [
    "AI",
    "CHARACTERS",
@@ -2572,7 +2572,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-10-16T11:15:49.000Z",
   "updatedAt": "2026-11-07T16:30:25.000Z",
-  "downloads": 1553,
+  "downloads": 1556,
   "tags": [
    "AI",
    "CHARACTERS",
@@ -2650,7 +2650,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-10-16T11:10:30.000Z",
   "updatedAt": "2026-11-13T23:22:44.000Z",
-  "downloads": 1406,
+  "downloads": 1409,
   "tags": [
    "AI",
    "BIGFOOT",
@@ -2821,7 +2821,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-10-21T23:41:12.000Z",
   "updatedAt": "2026-11-15T12:47:20.000Z",
-  "downloads": 3722,
+  "downloads": 3807,
   "tags": [
    "AI",
    "CHARACTERS",
@@ -3010,7 +3010,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-08-30T18:18:07.000Z",
   "updatedAt": "2026-11-21T13:23:08.000Z",
-  "downloads": 70959,
+  "downloads": 71293,
   "tags": [
    "AI",
    "CHARACTERS",
@@ -3119,7 +3119,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-08-09T15:04:29.000Z",
   "updatedAt": "2026-11-06T18:29:09.000Z",
-  "downloads": 5264,
+  "downloads": 5273,
   "tags": [
    "AI",
    "REARM",
@@ -3182,7 +3182,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-10-07T09:20:39.000Z",
   "updatedAt": "2026-11-06T17:05:17.000Z",
-  "downloads": 7781,
+  "downloads": 7789,
   "tags": [
    "CROSSBOW",
    "GAMEMASTER",
