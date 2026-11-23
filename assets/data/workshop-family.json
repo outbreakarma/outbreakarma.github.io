@@ -13,7 +13,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-08-30T18:29:18.000Z",
   "updatedAt": "2026-11-17T01:33:23.000Z",
-  "downloads": 28064,
+  "downloads": 28159,
   "tags": [
    "INFECTION",
    "OUTBREAK",
@@ -119,7 +119,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-08-30T18:31:09.000Z",
   "updatedAt": "2026-11-06T16:43:53.000Z",
-  "downloads": 17547,
+  "downloads": 17562,
   "tags": [
    "OUTBREAK",
    "SYSTEMS",
@@ -224,7 +224,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-08-30T18:27:33.000Z",
   "updatedAt": "2026-11-06T16:44:40.000Z",
-  "downloads": 9380,
+  "downloads": 9391,
   "tags": [
    "GADGETS",
    "OUTBREAK",
@@ -328,12 +328,12 @@
   "license": "Arma Public License (APL)",
   "rating": 1,
   "ratingCount": 20,
-  "version": "1.2.7",
-  "sizeBytes": 920646808,
+  "version": "1.2.8",
+  "sizeBytes": 941793645,
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-09-27T03:27:42.000Z",
-  "updatedAt": "2026-11-06T16:50:13.000Z",
-  "downloads": 12088,
+  "updatedAt": "2026-11-23T07:27:36.000Z",
+  "downloads": 12207,
   "tags": [
    "CHARACTERS",
    "CREATURES",
@@ -354,6 +354,12 @@
    }
   ],
   "versions": [
+   {
+    "version": "1.2.8",
+    "gameVersion": "1.9.0.37",
+    "createdAt": "2026-11-23T07:22:30.000Z",
+    "size": 941793645
+   },
    {
     "version": "1.2.7",
     "gameVersion": "1.9.0.37",
@@ -407,15 +413,9 @@
     "gameVersion": "1.8.0.13",
     "createdAt": "2026-09-29T15:37:40.000Z",
     "size": 697792668
-   },
-   {
-    "version": "1.0.0",
-    "gameVersion": "1.8.0.13",
-    "createdAt": "2026-09-27T03:27:42.000Z",
-    "size": 696194989
    }
   ],
-  "changelog": "1.2.7\nCompatibility update for Arma Reforger 1.9. Game content is unchanged.",
+  "changelog": "1.2.8\nAdded the Slav Priest zombie to the ordinary male civilian mix, with corpse pallor, cataract-glazed eyes, a blood-soaked cassock and a tarnished brass cross. Existing military appearances and combat rules are unchanged.",
   "preview": "https://ar-gcp-cdn.bistudio.com/image/2053/f038bf59f6c6534176196a61137d6dbe4fb722ca71070f0d6eeed21f5d59/184251.jpg",
   "previewThumbs": [
    "https://ar-gcp-cdn.bistudio.com/image/2266/e99e443af4641f628f1c02046ad09313dcfc4f2cc887252d74a677a59a27/106924.jpg",
@@ -468,7 +468,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-09-27T03:41:17.000Z",
   "updatedAt": "2026-11-17T17:10:32.000Z",
-  "downloads": 16531,
+  "downloads": 16619,
   "tags": [
    "CHARACTERS",
    "OUTBREAK",
@@ -595,7 +595,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-11-15T22:08:03.000Z",
   "updatedAt": "2026-11-22T21:43:12.000Z",
-  "downloads": 2570,
+  "downloads": 2678,
   "tags": [
    "EVERDEAD",
    "EVERON",
@@ -713,7 +713,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-11-15T22:12:29.000Z",
   "updatedAt": "2026-11-22T21:45:09.000Z",
-  "downloads": 1868,
+  "downloads": 1978,
   "tags": [
    "CHARACTERS",
    "CREATURES",
@@ -836,7 +836,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-11-14T20:52:37.000Z",
   "updatedAt": "2026-11-16T18:48:48.000Z",
-  "downloads": 314,
+  "downloads": 316,
   "tags": [
    "DEADGOGLAND",
    "GOGLAND",
@@ -935,7 +935,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-11-15T00:27:06.000Z",
   "updatedAt": "2026-11-15T23:37:06.000Z",
-  "downloads": 228,
+  "downloads": 229,
   "tags": [
    "CHARACTERS",
    "CREATURES",
@@ -1021,7 +1021,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-11-14T00:46:02.000Z",
   "updatedAt": "2026-11-16T21:10:53.000Z",
-  "downloads": 426,
+  "downloads": 431,
   "tags": [
    "DEADBORDER",
    "MULTIPLAYER",
@@ -1217,8 +1217,8 @@
   "summary": "A Zombie Apocalypse PvE Project Outbreakscenario on the Glenwood terrain.",
   "description": "The undead have fully taken over Glenwood, a small American town. It's your job to retake it for the living. \n\nWHAT THIS IS \n- A PvE scenario on the Glenwood terrain, with the town dressed for the outbreak. \n- The infected are always there. They do not wait for a Game Master to place them. \n- Bases and radio relays across the map to take and hold, and a fixed main base to start from. \n- You fight the infected. \n\nWHO MADE THE PARTS \n\nThe outbreak mode is KdK Outbreak Zombie PVE by KdK CaptHero: its director, spawners, objectives and Game Master panel are what runs here. The dressed town is Dead Glenwood by Windy768, on the Glenwood terrain by vap3r, with Placeables for GM by Heine.CRV. The base layout follows MODERN PVE | GLENWOOD by guennyyy. Thank you to all of them; this scenario only arranges their work under APL.",
   "license": "Arma Public License (APL)",
-  "rating": 0.5,
-  "ratingCount": 2,
+  "rating": 0.67,
+  "ratingCount": 3,
   "version": "0.1.2",
   "sizeBytes": 3208147,
   "gameVersion": "1.8.0.13",
@@ -1328,7 +1328,7 @@
    {
     "id": "61BD6595183FCEBD",
     "name": "Chungus Bolt Guns",
-    "version": "1.0.66"
+    "version": "1.0.67"
    },
    {
     "id": "61C74A8B647617DA",
@@ -1343,7 +1343,7 @@
    {
     "id": "620E584B1D2C96A4",
     "name": "Chungus Shotguns",
-    "version": "1.0.49"
+    "version": "1.0.50"
    },
    {
     "id": "622120A5448725E3",
@@ -1513,7 +1513,7 @@
    {
     "id": "66D6340C1D565C98",
     "name": "Chungus Core",
-    "version": "1.0.13"
+    "version": "1.0.14"
    },
    {
     "id": "6727292F1032D5D1",
@@ -1621,7 +1621,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-10-08T02:57:35.000Z",
   "updatedAt": "2026-11-16T18:45:50.000Z",
-  "downloads": 1967,
+  "downloads": 1970,
   "tags": [
    "GLENWOOD",
    "LIGHT",
@@ -1739,7 +1739,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-11-11T02:39:49.000Z",
   "updatedAt": "2026-11-11T17:53:05.000Z",
-  "downloads": 279,
+  "downloads": 280,
   "tags": [
    "CHARACTERS",
    "CREATURES",
@@ -1826,7 +1826,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-10-06T16:56:25.000Z",
   "updatedAt": "2026-11-06T16:31:10.000Z",
-  "downloads": 833,
+  "downloads": 837,
   "tags": [
    "AI",
    "BOSS",
@@ -1916,7 +1916,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-10-02T05:03:39.000Z",
   "updatedAt": "2026-11-15T12:27:23.000Z",
-  "downloads": 5329,
+  "downloads": 5385,
   "tags": [
    "AI",
    "CHARACTERS",
@@ -2028,7 +2028,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-10-03T17:41:42.000Z",
   "updatedAt": "2026-11-22T21:37:34.000Z",
-  "downloads": 5955,
+  "downloads": 6070,
   "tags": [
    "ALIEN",
    "CHARACTERS",
@@ -2140,7 +2140,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-10-06T17:34:28.000Z",
   "updatedAt": "2026-11-06T16:39:20.000Z",
-  "downloads": 1495,
+  "downloads": 1500,
   "tags": [
    "CHARACTERS",
    "CMAI",
@@ -2200,7 +2200,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-10-09T13:22:19.000Z",
   "updatedAt": "2026-11-17T18:21:32.000Z",
-  "downloads": 5323,
+  "downloads": 5378,
   "tags": [
    "CHARACTERS",
    "CMAI",
@@ -2313,7 +2313,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-10-15T10:13:41.000Z",
   "updatedAt": "2026-11-22T21:40:32.000Z",
-  "downloads": 3668,
+  "downloads": 3779,
   "tags": [
    "AI",
    "CHARACTERS",
@@ -2466,7 +2466,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-10-15T23:43:22.000Z",
   "updatedAt": "2026-11-19T11:32:49.000Z",
-  "downloads": 1186,
+  "downloads": 1192,
   "tags": [
    "AI",
    "CHARACTERS",
@@ -2572,7 +2572,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-10-16T11:15:49.000Z",
   "updatedAt": "2026-11-07T16:30:25.000Z",
-  "downloads": 1573,
+  "downloads": 1579,
   "tags": [
    "AI",
    "CHARACTERS",
@@ -2650,7 +2650,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-10-16T11:10:30.000Z",
   "updatedAt": "2026-11-13T23:22:44.000Z",
-  "downloads": 1415,
+  "downloads": 1418,
   "tags": [
    "AI",
    "BIGFOOT",
@@ -2740,7 +2740,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-10-22T00:49:08.000Z",
   "updatedAt": "2026-11-06T16:35:20.000Z",
-  "downloads": 87,
+  "downloads": 88,
   "tags": [
    "CHARACTERS",
    "CMAI",
@@ -2821,7 +2821,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-10-21T23:41:12.000Z",
   "updatedAt": "2026-11-15T12:47:20.000Z",
-  "downloads": 4016,
+  "downloads": 4075,
   "tags": [
    "AI",
    "CHARACTERS",
@@ -3010,7 +3010,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-08-30T18:18:07.000Z",
   "updatedAt": "2026-11-21T13:23:08.000Z",
-  "downloads": 72078,
+  "downloads": 72296,
   "tags": [
    "AI",
    "CHARACTERS",
@@ -3119,7 +3119,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-08-09T15:04:29.000Z",
   "updatedAt": "2026-11-06T18:29:09.000Z",
-  "downloads": 5289,
+  "downloads": 5294,
   "tags": [
    "AI",
    "REARM",
@@ -3182,7 +3182,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-10-07T09:20:39.000Z",
   "updatedAt": "2026-11-06T17:05:17.000Z",
-  "downloads": 7824,
+  "downloads": 7833,
   "tags": [
    "CROSSBOW",
    "GAMEMASTER",
@@ -3261,7 +3261,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-09-29T16:59:01.000Z",
   "updatedAt": "2026-11-06T16:54:18.000Z",
-  "downloads": 459,
+  "downloads": 461,
   "tags": [
    "BALLISTA",
    "MEDIEVAL",
