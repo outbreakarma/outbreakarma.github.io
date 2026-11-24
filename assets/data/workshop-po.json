@@ -7,12 +7,12 @@
  "license": "Arma Public License (APL)",
  "rating": 0.96,
  "ratingCount": 108,
- "version": "2.4.38",
- "sizeBytes": 209375247,
+ "version": "2.4.39",
+ "sizeBytes": 209376509,
  "gameVersion": "1.9.0.37",
  "createdAt": "2026-08-30T18:23:05.000Z",
- "updatedAt": "2026-11-21T15:56:23.000Z",
- "downloads": 56988,
+ "updatedAt": "2026-11-23T22:49:41.000Z",
+ "downloads": 56664,
  "tags": [
   "CHARACTERS",
   "INFECTION",
@@ -27,10 +27,16 @@
   {
    "id": "4FD4A1BD550793F4",
    "name": "Creature Melee AI",
-   "version": "1.8.38"
+   "version": "1.8.39"
   }
  ],
  "versions": [
+  {
+   "version": "2.4.39",
+   "gameVersion": "1.9.0.37",
+   "createdAt": "2026-11-23T22:47:23.000Z",
+   "size": 209376509
+  },
   {
    "version": "2.4.38",
    "gameVersion": "1.9.0.37",
@@ -84,15 +90,9 @@
    "gameVersion": "1.9.0.37",
    "createdAt": "2026-11-17T02:18:19.000Z",
    "size": 210518568
-  },
-  {
-   "version": "2.4.29",
-   "gameVersion": "1.9.0.37",
-   "createdAt": "2026-11-15T12:02:09.000Z",
-   "size": 210518407
   }
  ],
- "changelog": "2.4.38\n- Breaking free from a Sprinter leap-tackle pin now leaves you lying prone out of ragdoll with your controls unlocked instead of standing you up automatically, matching contact pins and Feral pounces so you choose whether to stay low, crawl, or get up yourself.\n- Includes 2.4.37 zombie pin/wall-climb/body-pile physics crash guards, armoured vest/helmet claw blow damage, and horde restoration fixes.\n- Needs Creature Melee AI 1.8.38 or newer.",
+ "changelog": "2.4.39\n- Synchronizes zombie and group-scatter character placements cleanly with physics and floor-clearance checks so spawned or relocated bodies never desynchronize underground.\n- Adds comprehensive finiteness guards across zombie steering, crawler turning, paired pins/tackles/throws, reanimation, climbing, body piles, helicopter access, and horde views to prevent dedicated-server physics crashes.\n- Needs Creature Melee AI 1.8.39 or newer.",
  "preview": "https://ar-gcp-cdn.bistudio.com/image/2acf/50af531c77fb7b5f21ca79df26665c5a3e9f10ff3b0c4d08f6876c6370b0/158082.jpg",
  "previewThumbs": [
   "https://ar-gcp-cdn.bistudio.com/image/4cca/713c0a0d13d35c848872dd5398d4de1a8324f8931ead8fd865d03c85c843/86448.jpg",
@@ -101,13 +101,13 @@
  ],
  "screenshots": [
   {
-   "url": "https://ar-gcp-cdn.bistudio.com/image/927f/eb5f78bee1754bee27e13048de2e1b17aed91c072d67adf716949c972ed0/506426.jpg",
+   "url": "https://ar-gcp-cdn.bistudio.com/image/454a/56d450b61fc74493f7a01799bae39470b133b97419b4a9cdaf94165cb2a4/338626.jpg",
    "width": 1920,
    "height": 1080,
    "thumbs": [
-    "https://ar-gcp-cdn.bistudio.com/image/13b5/75234680c932bbedada64b818e1fcdcfd8820a45e0998080c0d7fd195bd3/310409.jpg",
-    "https://ar-gcp-cdn.bistudio.com/image/8872/1536e006d421621ff83b88fde5bbb100ee9afb0491b83120d9b068ce5dfd/97505.jpg",
-    "https://ar-gcp-cdn.bistudio.com/image/bd79/bbecd6d9a8bcc34df811a9adddc5791fb081f10e16f47c81f76bff07b2e4/26086.jpg"
+    "https://ar-gcp-cdn.bistudio.com/image/70b4/df2d11ac8529363855e5bb96791da98c356c4296a64b5fe3e15c4f2f287d/204307.jpg",
+    "https://ar-gcp-cdn.bistudio.com/image/a4db/4e68fcfcfd0722730db2820981482169029f094ff65c9134e96bbaad940d/62565.jpg",
+    "https://ar-gcp-cdn.bistudio.com/image/6495/21c0b1dbfe5769637b237e39984107f4c05ca8144852f2c618678954a157/17435.jpg"
    ]
   },
   {
@@ -121,13 +121,13 @@
    ]
   },
   {
-   "url": "https://ar-gcp-cdn.bistudio.com/image/454a/56d450b61fc74493f7a01799bae39470b133b97419b4a9cdaf94165cb2a4/338626.jpg",
+   "url": "https://ar-gcp-cdn.bistudio.com/image/927f/eb5f78bee1754bee27e13048de2e1b17aed91c072d67adf716949c972ed0/506426.jpg",
    "width": 1920,
    "height": 1080,
    "thumbs": [
-    "https://ar-gcp-cdn.bistudio.com/image/70b4/df2d11ac8529363855e5bb96791da98c356c4296a64b5fe3e15c4f2f287d/204307.jpg",
-    "https://ar-gcp-cdn.bistudio.com/image/a4db/4e68fcfcfd0722730db2820981482169029f094ff65c9134e96bbaad940d/62565.jpg",
-    "https://ar-gcp-cdn.bistudio.com/image/6495/21c0b1dbfe5769637b237e39984107f4c05ca8144852f2c618678954a157/17435.jpg"
+    "https://ar-gcp-cdn.bistudio.com/image/13b5/75234680c932bbedada64b818e1fcdcfd8820a45e0998080c0d7fd195bd3/310409.jpg",
+    "https://ar-gcp-cdn.bistudio.com/image/8872/1536e006d421621ff83b88fde5bbb100ee9afb0491b83120d9b068ce5dfd/97505.jpg",
+    "https://ar-gcp-cdn.bistudio.com/image/bd79/bbecd6d9a8bcc34df811a9adddc5791fb081f10e16f47c81f76bff07b2e4/26086.jpg"
    ]
   }
  ],
