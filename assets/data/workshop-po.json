@@ -7,12 +7,12 @@
  "license": "Arma Public License (APL)",
  "rating": 0.96,
  "ratingCount": 108,
- "version": "2.4.39",
- "sizeBytes": 209376509,
+ "version": "2.4.40",
+ "sizeBytes": 209376689,
  "gameVersion": "1.9.0.37",
  "createdAt": "2026-08-30T18:23:05.000Z",
- "updatedAt": "2026-11-23T22:49:41.000Z",
- "downloads": 58017,
+ "updatedAt": "2026-11-26T14:46:11.000Z",
+ "downloads": 57876,
  "tags": [
   "CHARACTERS",
   "INFECTION",
@@ -31,6 +31,12 @@
   }
  ],
  "versions": [
+  {
+   "version": "2.4.40",
+   "gameVersion": "1.9.0.37",
+   "createdAt": "2026-11-26T14:44:13.000Z",
+   "size": 209376689
+  },
   {
    "version": "2.4.39",
    "gameVersion": "1.9.0.37",
@@ -84,15 +90,9 @@
    "gameVersion": "1.9.0.37",
    "createdAt": "2026-11-17T17:05:26.000Z",
    "size": 210519825
-  },
-  {
-   "version": "2.4.30",
-   "gameVersion": "1.9.0.37",
-   "createdAt": "2026-11-17T02:18:19.000Z",
-   "size": 210518568
   }
  ],
- "changelog": "2.4.39\n- Synchronizes zombie and group-scatter character placements cleanly with physics and floor-clearance checks so spawned or relocated bodies never desynchronize underground.\n- Adds comprehensive finiteness guards across zombie steering, crawler turning, paired pins/tackles/throws, reanimation, climbing, body piles, helicopter access, and horde views to prevent dedicated-server physics crashes.\n- Needs Creature Melee AI 1.8.39 or newer.",
+ "changelog": "2.4.40\n- Arma Reforger 1.9.0.42 compatibility hotfix: replaces a removed character command handler call in turn convulsions so servers and clients on 1.9.0.42 compile and start cleanly (remains backwards-compatible with 1.9.0.37).\n- Needs Creature Melee AI 1.8.39 or newer.",
  "preview": "https://ar-gcp-cdn.bistudio.com/image/2acf/50af531c77fb7b5f21ca79df26665c5a3e9f10ff3b0c4d08f6876c6370b0/158082.jpg",
  "previewThumbs": [
   "https://ar-gcp-cdn.bistudio.com/image/4cca/713c0a0d13d35c848872dd5398d4de1a8324f8931ead8fd865d03c85c843/86448.jpg",
