@@ -13,7 +13,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-08-30T18:29:18.000Z",
   "updatedAt": "2026-11-17T01:33:23.000Z",
-  "downloads": 29170,
+  "downloads": 29315,
   "tags": [
    "INFECTION",
    "OUTBREAK",
@@ -24,12 +24,12 @@
    {
     "id": "4FD4A1BD550793F4",
     "name": "Creature Melee AI",
-    "version": "1.8.39"
+    "version": "1.8.40"
    },
    {
     "id": "F1D4B9B5245B36ED",
     "name": "Project Outbreak Zombies",
-    "version": "2.4.40"
+    "version": "2.4.41"
    }
   ],
   "versions": [
@@ -119,7 +119,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-08-30T18:31:09.000Z",
   "updatedAt": "2026-11-06T16:43:53.000Z",
-  "downloads": 17741,
+  "downloads": 17758,
   "tags": [
    "OUTBREAK",
    "SYSTEMS",
@@ -129,12 +129,12 @@
    {
     "id": "4FD4A1BD550793F4",
     "name": "Creature Melee AI",
-    "version": "1.8.39"
+    "version": "1.8.40"
    },
    {
     "id": "F1D4B9B5245B36ED",
     "name": "Project Outbreak Zombies",
-    "version": "2.4.40"
+    "version": "2.4.41"
    }
   ],
   "versions": [
@@ -224,7 +224,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-08-30T18:27:33.000Z",
   "updatedAt": "2026-11-06T16:44:40.000Z",
-  "downloads": 9506,
+  "downloads": 9521,
   "tags": [
    "GADGETS",
    "OUTBREAK",
@@ -238,12 +238,12 @@
    {
     "id": "4FD4A1BD550793F4",
     "name": "Creature Melee AI",
-    "version": "1.8.39"
+    "version": "1.8.40"
    },
    {
     "id": "F1D4B9B5245B36ED",
     "name": "Project Outbreak Zombies",
-    "version": "2.4.40"
+    "version": "2.4.41"
    }
   ],
   "versions": [
@@ -333,7 +333,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-09-27T03:27:42.000Z",
   "updatedAt": "2026-11-23T07:27:36.000Z",
-  "downloads": 13608,
+  "downloads": 13807,
   "tags": [
    "CHARACTERS",
    "CREATURES",
@@ -345,12 +345,12 @@
    {
     "id": "4FD4A1BD550793F4",
     "name": "Creature Melee AI",
-    "version": "1.8.39"
+    "version": "1.8.40"
    },
    {
     "id": "F1D4B9B5245B36ED",
     "name": "Project Outbreak Zombies",
-    "version": "2.4.40"
+    "version": "2.4.41"
    }
   ],
   "versions": [
@@ -468,7 +468,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-09-27T03:41:17.000Z",
   "updatedAt": "2026-11-17T17:10:32.000Z",
-  "downloads": 17533,
+  "downloads": 17659,
   "tags": [
    "CHARACTERS",
    "OUTBREAK",
@@ -479,12 +479,12 @@
    {
     "id": "4FD4A1BD550793F4",
     "name": "Creature Melee AI",
-    "version": "1.8.39"
+    "version": "1.8.40"
    },
    {
     "id": "F1D4B9B5245B36ED",
     "name": "Project Outbreak Zombies",
-    "version": "2.4.40"
+    "version": "2.4.41"
    }
   ],
   "versions": [
@@ -595,7 +595,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-11-15T22:08:03.000Z",
   "updatedAt": "2026-11-24T03:55:26.000Z",
-  "downloads": 3492,
+  "downloads": 3539,
   "tags": [
    "EVERDEAD",
    "EVERON",
@@ -608,7 +608,7 @@
    {
     "id": "4FD4A1BD550793F4",
     "name": "Creature Melee AI",
-    "version": "1.8.39"
+    "version": "1.8.40"
    },
    {
     "id": "6934F9C61CE24DE5",
@@ -623,7 +623,7 @@
    {
     "id": "F1D4B9B5245B36ED",
     "name": "Project Outbreak Zombies",
-    "version": "2.4.40"
+    "version": "2.4.41"
    }
   ],
   "versions": [
@@ -708,12 +708,12 @@
   "license": "Arma Public License (APL)",
   "rating": 1,
   "ratingCount": 2,
-  "version": "0.1.10",
-  "sizeBytes": 30205,
-  "gameVersion": "1.9.0.37",
+  "version": "0.1.11",
+  "sizeBytes": 31542,
+  "gameVersion": "1.9.0.42",
   "createdAt": "2026-11-15T22:12:29.000Z",
-  "updatedAt": "2026-11-22T21:45:09.000Z",
-  "downloads": 2667,
+  "updatedAt": "2026-11-27T17:20:06.000Z",
+  "downloads": 2737,
   "tags": [
    "CHARACTERS",
    "CREATURES",
@@ -726,7 +726,7 @@
    {
     "id": "4FD4A1BD550793F4",
     "name": "Creature Melee AI",
-    "version": "1.8.39"
+    "version": "1.8.40"
    },
    {
     "id": "6934F9C61CE24DE5",
@@ -746,10 +746,16 @@
    {
     "id": "F1D4B9B5245B36ED",
     "name": "Project Outbreak Zombies",
-    "version": "2.4.40"
+    "version": "2.4.41"
    }
   ],
   "versions": [
+   {
+    "version": "0.1.11",
+    "gameVersion": "1.9.0.42",
+    "createdAt": "2026-11-27T17:20:04.000Z",
+    "size": 31542
+   },
    {
     "version": "0.1.10",
     "gameVersion": "1.9.0.37",
@@ -803,15 +809,9 @@
     "gameVersion": "1.9.0.37",
     "createdAt": "2026-11-16T21:09:01.000Z",
     "size": 19389
-   },
-   {
-    "version": "0.1.1",
-    "gameVersion": "1.9.0.37",
-    "createdAt": "2026-11-15T23:05:31.000Z",
-    "size": 19299
    }
   ],
-  "changelog": "0.1.10\n- Higher-tier horror creature packs (Eyekin, Lumenkin, Fungal Colossus, Stonekin, Teuthisan, and Stronghold Titans) now stay held back until US forces capture at least 55% of Everon's control points, then ramp up smoothly between 55% and 85% campaign progression.\n- Solo players with no teammates within 260 m now face single-creature encounters instead of multi-unit creature squads, Spires, or Stronghold Titans.",
+  "changelog": "0.1.11\n- Fixed big creatures from destroyed mass graves, newly captured districts, and roaming spawns lingering around active US spawns and refuges indefinitely.\n- Retired grave survivors, captured-base leftovers, and spawn-camping roamers now despawn cleanly instead of waiting around player spawns.",
   "preview": "https://ar-gcp-cdn.bistudio.com/image/3063/72eb090112436cef96e7028126c38417350f0c46e44af896a09beb148dac/366411.jpg",
   "previewThumbs": [
    "https://ar-gcp-cdn.bistudio.com/image/4906/969dabbb8fa51c5c6ed21b91c0bf6e0a0e7b7d342ac66161d66c89f94d74/154405.jpg",
@@ -836,7 +836,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-11-14T20:52:37.000Z",
   "updatedAt": "2026-11-16T18:48:48.000Z",
-  "downloads": 338,
+  "downloads": 340,
   "tags": [
    "DEADGOGLAND",
    "GOGLAND",
@@ -849,7 +849,7 @@
    {
     "id": "4FD4A1BD550793F4",
     "name": "Creature Melee AI",
-    "version": "1.8.39"
+    "version": "1.8.40"
    },
    {
     "id": "623EEDF242F6265E",
@@ -869,7 +869,7 @@
    {
     "id": "F1D4B9B5245B36ED",
     "name": "Project Outbreak Zombies",
-    "version": "2.4.40"
+    "version": "2.4.41"
    }
   ],
   "versions": [
@@ -930,12 +930,12 @@
   "license": "Arma Public License (APL)",
   "rating": 0,
   "ratingCount": 0,
-  "version": "0.2.0",
-  "sizeBytes": 19231,
-  "gameVersion": "1.9.0.37",
+  "version": "0.2.1",
+  "sizeBytes": 21543,
+  "gameVersion": "1.9.0.42",
   "createdAt": "2026-11-15T00:27:06.000Z",
-  "updatedAt": "2026-11-15T23:37:06.000Z",
-  "downloads": 242,
+  "updatedAt": "2026-11-27T17:26:56.000Z",
+  "downloads": 246,
   "tags": [
    "CHARACTERS",
    "CREATURES",
@@ -948,7 +948,7 @@
    {
     "id": "4FD4A1BD550793F4",
     "name": "Creature Melee AI",
-    "version": "1.8.39"
+    "version": "1.8.40"
    },
    {
     "id": "623EEDF242F6265E",
@@ -973,10 +973,16 @@
    {
     "id": "F1D4B9B5245B36ED",
     "name": "Project Outbreak Zombies",
-    "version": "2.4.40"
+    "version": "2.4.41"
    }
   ],
   "versions": [
+   {
+    "version": "0.2.1",
+    "gameVersion": "1.9.0.42",
+    "createdAt": "2026-11-27T17:26:54.000Z",
+    "size": 21543
+   },
    {
     "version": "0.2.0",
     "gameVersion": "1.9.0.37",
@@ -996,7 +1002,7 @@
     "size": 18972
    }
   ],
-  "changelog": "0.2.0\n- Mapped all 10 new Dead Gogland 0.2.0 control points (43 bases total) across the six creature territories, designated Vetelijarvi Bio-Domes and Alttarkallio Reactor as regional apex boss anchors, added airborne Eyekin sky roosts on MV Gogland and Alttarkallio Reactor, and aligned Suurkyla Harbour giant and nurse spawns with Suurkyla.\n- Replaced the Military Boats (62593E440F3FF363) Workshop dependency with REAPER_RHIB (6934F9C61CE24DE5) to match Project Outbreak Dead Gogland 0.2.0.\n- Update Project Outbreak Dead Gogland to 0.2.0 together with Dead Gogland Creatures.",
+  "changelog": "0.2.1\n- Fixed big creatures from destroyed mass graves, newly captured districts, and roaming spawns lingering around active US spawns and refuges indefinitely.\n- Sky-Rift mass graves and districts can now raise an Eyekin Spire (requires an AlienCreature build with the Eyekin Spire and a compatible Creature Melee AI build).",
   "preview": "https://ar-gcp-cdn.bistudio.com/image/eb63/2a37c842143b15a492aa192b6fb4c05d51068953582a03c63d6346d23dda/266978.jpg",
   "previewThumbs": [
    "https://ar-gcp-cdn.bistudio.com/image/632c/c63adad6bb7c8a8aad11c2e1db480e4da83013cec00952317363a630b638/105400.jpg",
@@ -1021,7 +1027,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-11-14T00:46:02.000Z",
   "updatedAt": "2026-11-16T21:10:53.000Z",
-  "downloads": 465,
+  "downloads": 470,
   "tags": [
    "DEADBORDER",
    "MULTIPLAYER",
@@ -1039,7 +1045,7 @@
    {
     "id": "4FD4A1BD550793F4",
     "name": "Creature Melee AI",
-    "version": "1.8.39"
+    "version": "1.8.40"
    },
    {
     "id": "646518DA09B1E283",
@@ -1069,7 +1075,7 @@
    {
     "id": "F1D4B9B5245B36ED",
     "name": "Project Outbreak Zombies",
-    "version": "2.4.40"
+    "version": "2.4.41"
    }
   ],
   "versions": [
@@ -1130,12 +1136,12 @@
   "license": "Arma Public License (APL)",
   "rating": 0,
   "ratingCount": 0,
-  "version": "0.1.0",
-  "sizeBytes": 18966,
-  "gameVersion": "1.9.0.37",
+  "version": "0.1.1",
+  "sizeBytes": 21275,
+  "gameVersion": "1.9.0.42",
   "createdAt": "2026-11-14T07:56:56.000Z",
-  "updatedAt": "2026-11-14T07:56:58.000Z",
-  "downloads": 32,
+  "updatedAt": "2026-11-27T17:31:47.000Z",
+  "downloads": 33,
   "tags": [
    "CHARACTERS",
    "CREATURES",
@@ -1153,7 +1159,7 @@
    {
     "id": "4FD4A1BD550793F4",
     "name": "Creature Melee AI",
-    "version": "1.8.39"
+    "version": "1.8.40"
    },
    {
     "id": "646518DA09B1E283",
@@ -1188,10 +1194,16 @@
    {
     "id": "F1D4B9B5245B36ED",
     "name": "Project Outbreak Zombies",
-    "version": "2.4.40"
+    "version": "2.4.41"
    }
   ],
   "versions": [
+   {
+    "version": "0.1.1",
+    "gameVersion": "1.9.0.42",
+    "createdAt": "2026-11-27T17:31:45.000Z",
+    "size": 21275
+   },
    {
     "version": "0.1.0",
     "gameVersion": "1.9.0.37",
@@ -1199,7 +1211,7 @@
     "size": 18966
    }
   ],
-  "changelog": "",
+  "changelog": "0.1.1\n- Fixed big creatures from destroyed mass graves, newly captured districts, and roaming spawns lingering around active US spawns and refuges indefinitely.\n- Sky-Rift mass graves and districts can now raise an Eyekin Spire (requires an AlienCreature build with the Eyekin Spire and a compatible Creature Melee AI build).",
   "preview": "https://ar-gcp-cdn.bistudio.com/image/b706/709b26d93babe8e8997b07c88647bca9c771d7bcf517ad7c234e7d0a426e/365855.jpg",
   "previewThumbs": [
    "https://ar-gcp-cdn.bistudio.com/image/3038/8438c4aab490e79b0b69a799c6bbf2d40f356bdc7afb1028cc5e6729aaee/146209.jpg",
@@ -1233,7 +1245,7 @@
    {
     "id": "4FD4A1BD550793F4",
     "name": "Creature Melee AI",
-    "version": "1.8.39"
+    "version": "1.8.40"
    },
    {
     "id": "5965550F24A0C152",
@@ -1573,7 +1585,7 @@
    {
     "id": "F1D4B9B5245B36ED",
     "name": "Project Outbreak Zombies",
-    "version": "2.4.40"
+    "version": "2.4.41"
    }
   ],
   "versions": [
@@ -1621,7 +1633,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-10-08T02:57:35.000Z",
   "updatedAt": "2026-11-16T18:45:50.000Z",
-  "downloads": 2009,
+  "downloads": 2012,
   "tags": [
    "GLENWOOD",
    "LIGHT",
@@ -1634,7 +1646,7 @@
    {
     "id": "4FD4A1BD550793F4",
     "name": "Creature Melee AI",
-    "version": "1.8.39"
+    "version": "1.8.40"
    },
    {
     "id": "66330AEF351F0EEE",
@@ -1649,7 +1661,7 @@
    {
     "id": "F1D4B9B5245B36ED",
     "name": "Project Outbreak Zombies",
-    "version": "2.4.40"
+    "version": "2.4.41"
    }
   ],
   "versions": [
@@ -1734,12 +1746,12 @@
   "license": "Arma Public License (APL)",
   "rating": 0,
   "ratingCount": 0,
-  "version": "0.2.0",
-  "sizeBytes": 18720,
-  "gameVersion": "1.9.0.37",
+  "version": "0.2.1",
+  "sizeBytes": 21023,
+  "gameVersion": "1.9.0.42",
   "createdAt": "2026-11-11T02:39:49.000Z",
-  "updatedAt": "2026-11-11T17:53:05.000Z",
-  "downloads": 288,
+  "updatedAt": "2026-11-27T17:22:45.000Z",
+  "downloads": 292,
   "tags": [
    "CHARACTERS",
    "CREATURES",
@@ -1757,7 +1769,7 @@
    {
     "id": "4FD4A1BD550793F4",
     "name": "Creature Melee AI",
-    "version": "1.8.39"
+    "version": "1.8.40"
    },
    {
     "id": "66330AEF351F0EEE",
@@ -1772,10 +1784,16 @@
    {
     "id": "F1D4B9B5245B36ED",
     "name": "Project Outbreak Zombies",
-    "version": "2.4.40"
+    "version": "2.4.41"
    }
   ],
   "versions": [
+   {
+    "version": "0.2.1",
+    "gameVersion": "1.9.0.42",
+    "createdAt": "2026-11-27T17:22:44.000Z",
+    "size": 21023
+   },
    {
     "version": "0.2.0",
     "gameVersion": "1.9.0.37",
@@ -1801,7 +1819,7 @@
     "size": 5618
    }
   ],
-  "changelog": "0.2.0\n- Rebuilt Glenwood creature spawning around six coherent biome territories across all 53 bases while keeping full zombie populations active everywhere.\n- Added standing territorial life and wilderness roaming packs: spore spires and Dewcap or Sporewarden pods in deep conifer hollows, Greenskin patrols and Warbasha brutes at industrial yards and mine mouths, armored Grux and Big Jim at military bastions, and Nightingale or Nephilim wards in urban districts.\n- Winged Eyekin flocks now spawn and soar high in open sky over airfields, relay towers, bluffs, and radar domes, diving on exposed infantry and intercepting airborne helicopters without blocking ground flag captures.\n- Frontline starter bases outside MOB 1 and MOB 2 stay grounded zombie territory, while night counter-sieges launch creatures matching the adjacent attacking territory.",
+  "changelog": "0.2.1\n- Fixed big creatures from destroyed mass graves, newly captured districts, and roaming spawns lingering around active US spawns and refuges indefinitely.\n- Sky-Rift mass graves and districts can now raise an Eyekin Spire (requires an AlienCreature build with the Eyekin Spire and a compatible Creature Melee AI build).",
   "preview": "https://ar-gcp-cdn.bistudio.com/image/f2fa/45e251e3d74991c12520e4fb3bfa43c1594535ba666c02f638c53705f9a3/317505.jpg",
   "previewThumbs": [
    "https://ar-gcp-cdn.bistudio.com/image/b469/6c8fdaccbbdd44ea4093b8c068b9fb468a861896a246ed7ad9c3427ea199/128442.jpg",
@@ -1826,7 +1844,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-10-06T16:56:25.000Z",
   "updatedAt": "2026-11-06T16:31:10.000Z",
-  "downloads": 844,
+  "downloads": 845,
   "tags": [
    "AI",
    "BOSS",
@@ -1839,7 +1857,7 @@
    {
     "id": "4FD4A1BD550793F4",
     "name": "Creature Melee AI",
-    "version": "1.8.39"
+    "version": "1.8.40"
    }
   ],
   "versions": [
@@ -1916,7 +1934,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-10-02T05:03:39.000Z",
   "updatedAt": "2026-11-15T12:27:23.000Z",
-  "downloads": 5911,
+  "downloads": 5937,
   "tags": [
    "AI",
    "CHARACTERS",
@@ -1928,7 +1946,7 @@
    {
     "id": "4FD4A1BD550793F4",
     "name": "Creature Melee AI",
-    "version": "1.8.39"
+    "version": "1.8.40"
    }
   ],
   "versions": [
@@ -2028,7 +2046,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-10-03T17:41:42.000Z",
   "updatedAt": "2026-11-22T21:37:34.000Z",
-  "downloads": 6981,
+  "downloads": 7105,
   "tags": [
    "ALIEN",
    "CHARACTERS",
@@ -2040,7 +2058,7 @@
    {
     "id": "4FD4A1BD550793F4",
     "name": "Creature Melee AI",
-    "version": "1.8.39"
+    "version": "1.8.40"
    }
   ],
   "versions": [
@@ -2140,7 +2158,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-10-06T17:34:28.000Z",
   "updatedAt": "2026-11-06T16:39:20.000Z",
-  "downloads": 1521,
+  "downloads": 1523,
   "tags": [
    "CHARACTERS",
    "CMAI",
@@ -2152,7 +2170,7 @@
    {
     "id": "4FD4A1BD550793F4",
     "name": "Creature Melee AI",
-    "version": "1.8.39"
+    "version": "1.8.40"
    }
   ],
   "versions": [
@@ -2200,7 +2218,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-10-09T13:22:19.000Z",
   "updatedAt": "2026-11-17T18:21:32.000Z",
-  "downloads": 6046,
+  "downloads": 6151,
   "tags": [
    "CHARACTERS",
    "CMAI",
@@ -2212,7 +2230,7 @@
    {
     "id": "4FD4A1BD550793F4",
     "name": "Creature Melee AI",
-    "version": "1.8.39"
+    "version": "1.8.40"
    }
   ],
   "versions": [
@@ -2313,7 +2331,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-10-15T10:13:41.000Z",
   "updatedAt": "2026-11-22T21:40:32.000Z",
-  "downloads": 4662,
+  "downloads": 4788,
   "tags": [
    "AI",
    "CHARACTERS",
@@ -2326,7 +2344,7 @@
    {
     "id": "4FD4A1BD550793F4",
     "name": "Creature Melee AI",
-    "version": "1.8.39"
+    "version": "1.8.40"
    }
   ],
   "versions": [
@@ -2466,7 +2484,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-10-15T23:43:22.000Z",
   "updatedAt": "2026-11-19T11:32:49.000Z",
-  "downloads": 1270,
+  "downloads": 1277,
   "tags": [
    "AI",
    "CHARACTERS",
@@ -2479,7 +2497,7 @@
    {
     "id": "4FD4A1BD550793F4",
     "name": "Creature Melee AI",
-    "version": "1.8.39"
+    "version": "1.8.40"
    }
   ],
   "versions": [
@@ -2572,7 +2590,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-10-16T11:15:49.000Z",
   "updatedAt": "2026-11-07T16:30:25.000Z",
-  "downloads": 1631,
+  "downloads": 1638,
   "tags": [
    "AI",
    "CHARACTERS",
@@ -2584,7 +2602,7 @@
    {
     "id": "4FD4A1BD550793F4",
     "name": "Creature Melee AI",
-    "version": "1.8.39"
+    "version": "1.8.40"
    }
   ],
   "versions": [
@@ -2650,7 +2668,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-10-16T11:10:30.000Z",
   "updatedAt": "2026-11-13T23:22:44.000Z",
-  "downloads": 1460,
+  "downloads": 1467,
   "tags": [
    "AI",
    "BIGFOOT",
@@ -2662,7 +2680,7 @@
    {
     "id": "4FD4A1BD550793F4",
     "name": "Creature Melee AI",
-    "version": "1.8.39"
+    "version": "1.8.40"
    }
   ],
   "versions": [
@@ -2752,7 +2770,7 @@
    {
     "id": "4FD4A1BD550793F4",
     "name": "Creature Melee AI",
-    "version": "1.8.39"
+    "version": "1.8.40"
    }
   ],
   "versions": [
@@ -2821,7 +2839,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-10-21T23:41:12.000Z",
   "updatedAt": "2026-11-26T15:55:23.000Z",
-  "downloads": 4606,
+  "downloads": 4640,
   "tags": [
    "AI",
    "CHARACTERS",
@@ -2835,7 +2853,7 @@
    {
     "id": "4FD4A1BD550793F4",
     "name": "Creature Melee AI",
-    "version": "1.8.39"
+    "version": "1.8.40"
    },
    {
     "id": "9C6F9425B58142E7",
@@ -3005,12 +3023,12 @@
   "license": "Arma Public License (APL)",
   "rating": 1,
   "ratingCount": 18,
-  "version": "1.8.39",
-  "sizeBytes": 13489453,
-  "gameVersion": "1.9.0.37",
+  "version": "1.8.40",
+  "sizeBytes": 13491231,
+  "gameVersion": "1.9.0.42",
   "createdAt": "2026-08-30T18:18:07.000Z",
-  "updatedAt": "2026-11-23T22:25:17.000Z",
-  "downloads": 74857,
+  "updatedAt": "2026-11-27T17:06:48.000Z",
+  "downloads": 75271,
   "tags": [
    "AI",
    "CHARACTERS",
@@ -3022,6 +3040,12 @@
   ],
   "dependencies": [],
   "versions": [
+   {
+    "version": "1.8.40",
+    "gameVersion": "1.9.0.42",
+    "createdAt": "2026-11-27T17:06:35.000Z",
+    "size": 13491231
+   },
    {
     "version": "1.8.39",
     "gameVersion": "1.9.0.37",
@@ -3075,15 +3099,9 @@
     "gameVersion": "1.9.0.37",
     "createdAt": "2026-11-15T10:09:08.000Z",
     "size": 13017324
-   },
-   {
-    "version": "1.8.30",
-    "gameVersion": "1.9.0.37",
-    "createdAt": "2026-11-14T10:50:28.000Z",
-    "size": 13014652
    }
   ],
-  "changelog": "1.8.39\n- Rescues newly spawned characters and creatures that are moved underground on their birth frame before physics can step beneath roads, floors, or buildings.\n- Synchronizes character world transforms, physics bodies, and velocities cleanly across relocations and floor-clearance lifts, and cleans up unplaceable AI spawns safely.\n- Closes remaining non-finite angle, quaternion, steering, climbing, melee, and dropped-item transform edge cases that could crash busy dedicated servers.",
+  "changelog": "1.8.40\n- Fixed Arma Reforger 1.9.0.42 pin/tackle and carry animation freezes: custom loiter animations now start and stop synchronously on the owning player and clean up cleanly when a pin or carry ends, preventing characters from staying locked on the ground until death.\n- Fixed Arma Reforger 1.9.0.42 script errors when a pinned or carried body detaches.\n- Exposed active creature enumeration so Safe Zones can clear standalone creatures as well.",
   "preview": "https://ar-gcp-cdn.bistudio.com/image/e345/f3b99d0c738344cd8d7364e0b3a3b1ada801834676f2a32b6473f50b0675/95814.jpg",
   "previewThumbs": [
    "https://ar-gcp-cdn.bistudio.com/image/826f/ac590b7bcada4b68dbb43c904a60861ba906bcc485de784f311194106075/55712.jpg",
@@ -3119,7 +3137,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-08-09T15:04:29.000Z",
   "updatedAt": "2026-11-06T18:29:09.000Z",
-  "downloads": 5387,
+  "downloads": 5396,
   "tags": [
    "AI",
    "REARM",
@@ -3182,7 +3200,7 @@
   "gameVersion": "1.9.0.37",
   "createdAt": "2026-10-07T09:20:39.000Z",
   "updatedAt": "2026-11-06T17:05:17.000Z",
-  "downloads": 7962,
+  "downloads": 7978,
   "tags": [
    "CROSSBOW",
    "GAMEMASTER",
